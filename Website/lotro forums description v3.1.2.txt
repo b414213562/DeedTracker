@@ -1,0 +1,23 @@
+Deed Tracker version 3.1.2 is now available at [url=https://www.lotrointerface.com/downloads/info1139-DeedTracker.html]lotrointerface.com[/url].
+
+This adds U37 deeds and fixes a few minor things.
+
+Version 3.1.2 release notes:
+
+Deeds:
+[list]
+[*] Added U37: The Humble Homes of The Holbytlan deeds: Mariner class deeds, River Hobbit racial deeds
+[*] Added missing Rune-keeper deed: The Path of the Restoring Rune
+[*] Updated objectives for Slayer of the Wells of Langflood to reflect you now need the Advanced versions of each sub-deed.
+[/list]
+
+Import:
+[list]
+[*] Updated importer to look for custome LOTRO Companion data locations.
+[*] Added link to help document, and how to get support.
+[/list]
+
+Language:
+[list]
+[*] Updated regional name of Central Gondor in German from "Zentrum Gondors" to "Zentrum von Gondor".
+[/list]

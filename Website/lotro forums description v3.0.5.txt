@@ -1,0 +1,14 @@
+Deed Tracker version 3.0.5 is now available at [url=https://www.lotrointerface.com/downloads/info1139-DeedTracker.html]lotrointerface.com[/url].
+
+This fixes several issues that can occur during save file format updates.
+
+Version 3.0.5 release notes:
+
+Bugs:
+[list]
+[*] Fixed an issue where the character save file name could be too long.
+[*] Fixed an issue with upgrading the file format through multiple versions in one session. (e.g. from v2.0 through 3.0 to 3.1.)
+[*] Fixed an issue where characters in the main file without data files were getting processed during a file upgrade.
+[*] Fixed an issue where the wrong version number was added to backup files.
+[*] Fixed issue in LOTRO Companion import script with a trailing period in the account name.
+[/list]

@@ -1,0 +1,54 @@
+Version 1.1.3 is now available at [url=https://www.lotrointerface.com/downloads/info1139-DeedTracker.html]lotrointerface.com[/url].
+
+I'm very excited about two new features this release:
+
+One-click sharing of deed completion with the channel of your choice - great for letting your group know you're done with that slayer deed. :D
+Click the chat bubble to share, and change the channel at the bottom. (Thanks to [url=https://www.lotrointerface.com/downloads/info1053-FowlMap.html]FowlMap[/url] for the inspiration!)
+
+[img]https://deedtracker.lifebeyondtheshire.com/wp-content/uploads/2021/04/CompletionWindow-v1.1.3.png[/img]
+[img]https://deedtracker.lifebeyondtheshire.com/wp-content/uploads/2021/04/CompletionWindowChat-v1.1.3_2.png[/img]
+
+
+If you use Waypoint, there's now one-click target setting for location-based deed objectives:
+
+[img]https://deedtracker.lifebeyondtheshire.com/wp-content/uploads/2021/04/DeedTracker-DeedTooltip-Detailed-v1.1.3.png[/img]
+
+
+Version 1.1.3 release notes:
+
+UI:
+[list]
+[*]Added option to hide deeds that aren't actively available.
+[*]Added option to prevent Completion Window from appearing while player is in combat.
+[*]Added button on Completion Window to share deed completion with a specified channel.
+[*]Added integration with the Waypoint plugin, by adding an arrow next to location-based deed objectives. Click the arrow to update your Waypoint target.
+[/list]
+
+Deeds:
+[list]
+[*]Fixed reputation values for several deeds.
+[*]Tweaked summary for Rhovanion / Eastern Rohan / To the Aid of Rohan
+[/list]
+
+Other:
+[list]
+[*]Determining if any given completion is a deed takes less time.
+[*]Added an auto-save feature so progress is saved after completing a deed, instead of only when the plugin is unloaded or the character logs off.
+[*]Updated Legendary Server cap level to 105.
+[*]Description of all features can be found at [url=https://deedtracker.lifebeyondtheshire.com/]deedtracker.lifebeyondtheshire.com[/url]
+[/list]
+
+Bugs:
+[list]
+[*]When unchecking a deed without reputation, the completion timestamp is now cleared.
+[*]Chat commands to open window (/deed, /deeds, and /deedtracker) now work.
+[*]Minimize now returns to on-screen if saved position is off-screen.
+[*]Corrected issue with Instances / The Grey Mountains "Not Actively Achievable" deeds not being visible.
+[*]Removed 20 LP incorrectly assigned to category CRE / Epic / Epic - Volume I - The Shadows of Angmar.
+[*]Removed 15 LP incorrectly assigned to category CRE / Reputation / - Durin's Folk -.
+[*]Fixed numerous quotes in objectives that were showing up as q.
+[*]Lore text was sometimes visually cut off for long lores.
+[*]Removed erroneous "0 times" from some item use deed objectives.
+[*]Not-actively-achievable deeds were included in completed deed counts but not overall deed counts. Now they are counted for neither.
+[*]Fixed bug that prevented Completion Window from opening when option "Do not open the completion window automatically when a deed is completed" was enabled.
+[/list]

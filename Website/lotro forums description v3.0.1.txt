@@ -1,0 +1,53 @@
+Version 3.0.1 is now available at [url=https://www.lotrointerface.com/downloads/info1139-DeedTracker.html]lotrointerface.com[/url].
+
+There are a lot of changes in this release! The biggest is under the covers: the file format has changed for v2.0 to v3.0, and your per-character save files will be updated when you first load the Deed Tracker plugin on each server. If something goes wrong with the update, please contact me at LotroDeedTracker@gmail.com!
+
+Additionally, this update includes the U35 Return to Carn Dûm deeds.
+
+Version 3.0.1 release notes:
+
+Deeds:
+[list]
+[*] Tweaked spelling and capitalization of numerous titles.
+[*] Updated minimum level of numerous deeds.
+[*] Updated LP from 5 to 0:
+[list]
+[*] Class/Race/Epic / Race & Social / Deeds of Eriador
+[*] Rhovanian / Strongholds of the North / Explorer of the North
+[*] Rhovanian / Strongholds of the North / Here Fishy Fishy Fishy
+[*] Rhovanian / Elderslade / Hobgoblin-slayer of Elderslade (Advanced)
+[/list]
+[*] Added U35 deeds for Return to Carn Dûm & Delving Missions.
+[*] Moved Eriador / Swanfleet & Cardolan to 4th position in Eriador to match in-game deed log.
+[*] Added additional French/German translations for Deed Items and Conflicting Quests.
+[*] Updated generation of automatic objectives for many deeds.
+[*] Marked Avoiding Defeat deeds as "Not Actively Available".
+[*] Added display when deed max level is below character level.
+[*] Remove deeds that do not appear to be available in-game:
+[list]
+[*] Rhovanian / Gundabad / Critter-slayer
+[*] Rhovanian / Gundabad / Gundabad Critter-slayer (Advanced)
+[*] Instances / The Grey Mountains / Where Death Lies In Wait
+[*] Instances / The War of Three Peaks / Amdân Dammul, the Bloody Threshold - The Vanguard
+[*] Instances / The Mountain-hold / Tûr Fúar, the Drearspire: All
+[/list]
+[/list]
+
+Bugs:
+[list]
+[*] Marked Rhovanion / Vales of Anduin / The Depths of Kidzul-kalah -- Tier 3 -- Leading the Charge as not-actively-available.
+[*] Marked Skirmish / Skirmish Instances / Doom of Caras Gelebren with a conflicting quest.
+[*] Some German and French gendered deed names were incorrectly stored. This meant automatic deed detection did not work for those deeds. This has been addressed.
+[*] Fixed summary text for Class/Race/Epic / Class / Heroic Resolve.
+[*] Marked the conflicting quest "Baggins' Birthday" as not-repeatable.
+[*] Fixed summaries for Fangorn's Edge deeds.
+[*] Instances / Tower of Dol Guldur / Not Actively Avaliable category now marked as Legendary only.
+[/list]
+
+Enhancements:
+[list]
+[*] Included Turbine files to remove installation dependency.
+[*] Updated some displayed quest names for conflicting Skirmish deeds.
+[*] Made large changes to the per-character save files.
+[*] Removed option to hide deeds with max level below character level.
+[list]

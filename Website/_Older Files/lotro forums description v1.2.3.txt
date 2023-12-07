@@ -1,0 +1,10 @@
+Version 1.2.3 is now available at [url=https://www.lotrointerface.com/downloads/info1139-DeedTracker.html]lotrointerface.com[/url].
+
+This fixes a bug that I introduced in 1.2.2, where some Eregion, Dunland, and Allegiance deeds are not auto-detecting.
+
+Version 1.2.3 release notes:
+
+Bugs:
+[list]
+[*]Fixed incorrect lookup tables causing some Eregion, Dunland, and Allegiance deeds to not auto-detect.
+[/list]

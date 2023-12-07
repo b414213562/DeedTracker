@@ -1,0 +1,29 @@
+Version 1.2.1 is now available at [url=https://www.lotrointerface.com/downloads/info1139-DeedTracker.html]lotrointerface.com[/url].
+
+Thanks to feedback here and on the Deed Tracker Discord server, I focused on reducing save times for accounts with many characters on one server. When you load Deed Tracker 1.2.1, it will split out each character into its own save file. Autosaving will only save current-character data (instead of every character) reducing how much time it takes.
+
+Version 1.2.1 release notes:
+
+UI:
+[list]
+[*]Added tooltips for overall progress bars.
+[*]Adjusted width of objective text to ensure it does not end up under scrollbar.
+[*]Now, even with rounding, % complete will not show 100% unless all deeds are complete.
+[/list]
+
+Deeds:
+[list]
+[*]Marked the following CRE / Race & Social deeds as Not Actively Available, Purchase Required: Autumn Adventurer, Goat-herder, Spring in Your Step, Sun-strider, Veteran of the Third Age, and Winter-rider
+[*]Marked CRE / Race & Social / The Steeds of Gorgoroth as Not Actively Available, Obsolete
+[/list]
+
+Other:
+[list]
+[*]Changed how character data is stored. Instead of all of it in a single file, there is now a file for each character. This should improve performance during autosaves after completing a deed.
+[/list]
+
+Bugs:
+[list]
+[*]Fixed invalid lookups for Allegiances, which meant they were not auto-checked when completed.
+[*]Not-actively-achievable deeds were included in some VXP and LP calculations where they shouldn't have been.
+[/list]

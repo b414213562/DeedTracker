@@ -1,0 +1,10 @@
+Deed Tracker version 3.1.1 is now available at [url=https://www.lotrointerface.com/downloads/info1139-DeedTracker.html]lotrointerface.com[/url].
+
+This fixes a possible error when loading settings.
+
+Version 3.1.1 release notes:
+
+Bugs:
+[list]
+[*] Fixed possible error when loading settings.
+[/list]

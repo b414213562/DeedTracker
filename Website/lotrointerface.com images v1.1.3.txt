@@ -1,0 +1,4 @@
+Deed Tracker - Main Window
+Tooltip with deed information
+Completion window shows all recent completions, not just latest.
+Support for manually choosing between identically-named deeds.

@@ -1,0 +1,34 @@
+Deed Tracker version 3.0.3 is now available at [url=https://www.lotrointerface.com/downloads/info1139-DeedTracker.html]lotrointerface.com[/url].
+
+This fixes a few bugs, adds new (experimental) objectives on tooltips, and other small tweaks.
+
+Version 3.0.3 release notes:
+
+Deeds:
+[list]
+[*] Updated deed information to Return to Carn Dûm (U35.1.2).
+[*] Updated objectives for numerous deeds.
+[*] Fixed tiers of new Delvings deeds.
+[*] Fixed completion cascading for Rhovanion / Gundabad / Deeds of Gundabad
+[/list]
+
+Bugs:
+[list]
+[*] Fixed issue during import where mount deed could be large instead of small (or vice versa).
+[*] Fixed potential issue during import where bad data wasn't being checked for.
+[*] Fixed error when creating tooltip for some types of deeds.
+[*] Fixed how quests with the same names as deeds are handled.
+[*] Fixed bug with detecting the correct mount deed (large or small).
+[*] Fixed bug when dealing with deeds that have identically named (conflicting) quests.
+[/list]
+
+Enhancements:
+[list]
+[*] Added date/time to backup file names to prevent accidental overwriting.
+[*] Added version to each character's plugindata file.
+[*] More thoroughly check for presence of data before trying to use it.
+[*] Main window can now be resized vertically.
+[*] Bumped save file format from 3.0 to 3.1, changing conflicting quest completion storage.
+[*] Added more French and German translations for conflicting quests.
+[*] Updated handling of vocation deeds to better account for changing vocations.
+[/list]

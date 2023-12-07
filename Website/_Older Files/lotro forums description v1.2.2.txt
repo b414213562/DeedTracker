@@ -1,0 +1,11 @@
+Version 1.2.2 is now available at [url=https://www.lotrointerface.com/downloads/info1139-DeedTracker.html]lotrointerface.com[/url].
+
+Just a quick update to fix a few issues that LotroInterface user marmi found.
+
+Version 1.2.2 release notes:
+
+Deeds:
+[list]
+[*]Made Allegiance deeds hierarchical.
+[*]Fixed Eregion / Dunland / Slayer of Dunland and Rhovanion / Wells of Langflood / Slayer of the Wells of Langflood: They do not require Advanced slayer deeds.
+[/list]

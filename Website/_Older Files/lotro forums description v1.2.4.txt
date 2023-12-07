@@ -1,0 +1,35 @@
+Version 1.2.4 is now available at [url=https://www.lotrointerface.com/downloads/info1139-DeedTracker.html]lotrointerface.com[/url].
+
+I'm very excited for the initial support for French and German clients!
+
+German example:
+[img]https://deedtracker.lifebeyondtheshire.com/wp-content/uploads/2021/05/DeedTracker-DeedTooltip-Detailed-v1.2.4-DE.png[/img]
+
+French example:
+[img]https://deedtracker.lifebeyondtheshire.com/wp-content/uploads/2021/05/DeedTracker-DeedTooltip-Detailed-v1.2.4-FR.png[/img]
+
+Thanks to Nadia on the Deed Tracker Discord server for translating the German UI strings too:
+
+[img]https://deedtracker.lifebeyondtheshire.com/wp-content/uploads/2021/05/DisambiguationWindow-Match-Adjacent-Other-Quest-v1.2.4-DE.png[/img]
+
+Version 1.2.4 release notes:
+
+UI:
+[list]
+[*]Initial support for German and French added. (Note: UI strings have not yet been localized for French, but most have been for German.)
+[*]The UI no longer reloads when you select the current character in the dropdown.
+[*]Removed black background from deed areas. It does not behave well with skins.
+[*]Disambiguation window now hides during combat if Completion window does.
+[*]Removed player name when sharing completion. (LOTRO includes it automatically on the receiver's end.)
+[/list]
+
+Deeds:
+[list]
+[*]Added missing titles for many deeds.
+[/list]
+    
+Bugs:
+[list]
+[*]Fixed issue where completion window tracked the drop-down selected character instead of the logged in character in some cases.
+[*]Fixed issue preventing alts from properly saving.
+[/list]

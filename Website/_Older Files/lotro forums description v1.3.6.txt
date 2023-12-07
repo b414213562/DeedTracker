@@ -1,0 +1,34 @@
+Version 1.3.6 is now available at [url=https://www.lotrointerface.com/downloads/info1139-DeedTracker.html]lotrointerface.com[/url].
+
+This release includes Before the Shadow deeds and a few bug fixes!
+
+Version 1.3.6 release notes:
+
+Deeds:
+[list]
+[*] Eriador / Trollshaws: Added The Further Adventures of Elladan and Elrohir
+[*] Added Before the Shadow deeds:
+[list]
+[*] Skirmish / Skirmish Instances: Doom of Caras Gelebren
+[*] Instances / Shadows of Angmar: Sarch Vorn
+[*] Class/Race/Epic / Class: Added Delvings: Introduction, Level 15/20/30/40/51/51.
+[*] Class/Race/Epic / Reputation: Added The Dúnedain of Cardolan, Known through Kindred
+[*] Eriador / Swanfleet & Cardolan: Swanfleet, Cardolan, and Delvings
+[/list]
+[*]Changed Skirmish category level ranges from (for example) "Level 20 - 130" to "Level 20+".
+[*] Small changes to conform to in-game changes:
+[list]
+[*] Removed 5 LP from Beorning Class Deeds - Tier 3
+[*] Changed "Eglan" to "Kindred to the Eglain"
+[*] Changed "Celebrated/Honoured in the The Great Alliance" to "Celebrated/Honoured in The Great Alliance"
+[*] Changed "Respected by the Relcaimers of the Mountain-hold" to "Respected by the Reclaimers of the Mountain-hold"
+[*] Changed "Lórien Lookout" to "Lórien Look-out"
+[*] Tweaked indentation of Skirmish Instances page.
+[/list]
+[/list]
+
+Bugs:
+[list]
+[*] Fixed issue where chat commands were registered more than once.
+[*] Fixed issue where deed completion chats containing extended characters (e.g. Annúminas) garbled the special characters.
+[/list]

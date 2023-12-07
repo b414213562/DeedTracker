@@ -1,0 +1,56 @@
+Version 1.3.3 is now available at [url=https://www.lotrointerface.com/downloads/info1139-DeedTracker.html]lotrointerface.com[/url].
+
+This release includes U31.1.1 deeds, more automatically generated objectives for deeds, and some smaller fixes.
+
+Version 1.3.3 release notes:
+
+Deeds:
+[list]
+[*]    Added U31.1.1 deeds:
+    [list]
+    [*]        Instances / The Mountain-hold:
+        [list]
+        [*]            Conqueror of the Three Peaks
+        [*]            Adkhât-zahhar, the Houses of Rest
+        [/list]
+    [*]        Class/Race/Epic / Epic / Musings and Thanks
+    [*]        Rhovanian / The Vales of Vales of Anduin / Dances with Tentacles (Tiers 1-3)
+    [/list]
+[*]
+[*]    Updated VXP values for several Enedwaith deeds.
+[*]    Fixed objectives for many deeds.
+[*]    Class/Race/Epic / Race & Social:
+    [list]
+    [*]        Marked Honoured Yule-friend as Not Actively Achievable.
+    [*]        Fixed summaries for Frostbluff Flower-petals and Roten Fruit.
+    [*]        Moved Thespian out from under The Bard.
+    [/list]
+[/list]
+
+Quests:
+[list]
+[*]    Added conflicting quest "Far Anórien / After the Battle" for Gondor / Far Anórien / After the Battle.
+[/list]
+
+Other:
+[list]
+[*]    Added Brawler to list of classes.
+[*]    Fixed internal tracking of Class, Race, and Vocation deeds.
+    [list]
+    [*]        Note: This seems to be working, but needs additional eyes beyond my hobbit minstrel.
+    [/list]
+[*]    Updated default live and legendary server level caps.
+[/list]
+
+Bugs:
+[list]
+[*]    Fixed issue with total deed count, total LP available, and total VXP available not re-calculating correctly.
+[/list]
+
+It looks like I may have forgotten to release 1.3.2. Here are those changes:
+
+Deeds:
+[list]
+[*]    Added missing title for CRE / Allegiances / Zhélruka: Allegiance Level 30
+[*]    Added French and German translations up to U31
+[/list]

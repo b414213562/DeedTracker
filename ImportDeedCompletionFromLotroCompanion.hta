@@ -1,0 +1,520 @@
+<!--
+	NOTE: Remember to update the version in the first body h2 tag 
+        (e.g. "Import Deed Completion from LOTRO Companion v2.2")
+        whenever you make changes to this file.
+--!>
+
+<head>
+<title>Import Deed Completion from LOTRO Companion</title>
+<HTA:APPLICATION 
+     APPLICATIONNAME="Import Deed Completion from LOTRO Companion"
+     SCROLL="yes"
+     SINGLEINSTANCE="yes"
+     WINDOWSTATE="normal"
+	 BORDER="thick"
+	 ICON="Resources/DeedLog.ico"
+>
+</head>
+
+<script language="VBScript">
+
+Dim serversArray
+Dim charactersToImport
+Dim pluginDataDir
+
+Class CompanionCharacter
+	Public CharDirectory
+	Public CharAccount
+	Public CharServer
+	Public CharName
+	Public CharClass
+	Public CharRace
+	Public CharSex
+	Public CharLevel
+End Class
+
+'
+' Helper function to add text to an HTML div
+'
+'
+Function AddTextToDiv(ByRef divName, ByRef text)
+	divName.InnerHTML = divName.InnerHTML & text
+End Function
+
+''''''''''''''''''''''''''''''''''''''''''''''''
+'
+' Functions to get LOTRO and LOTRO Companion information
+'
+
+'
+' We expect each account to have its own directory in the PluginData folder.
+' This iterates through the PluginData folder to find each account
+'
+Function GetLotroAccounts()
+	Set oFSO = CreateObject("Scripting.FileSystemObject")
+	Set WshShell = CreateObject("WScript.Shell")
+
+	deedTrackerDir = oFSO.GetParentFolderName(document.location.pathname)
+	cubePluginsDir = oFSO.GetParentFolderName(deedTrackerDir)
+	pluginsDir = oFSO.GetParentFolderName(cubePluginsDir)
+	lotroDir = oFSO.GetParentFolderName(pluginsDir)
+	pluginDataDir = oFSO.BuildPath(lotroDir, "PluginData")
+
+	Dim serversDictionary
+	Set serversDictionary = CreateObject("Scripting.Dictionary")
+
+	Dim accounts
+	accounts = Array()
+	accountSize = 0
+
+	For Each oAccountDir in oFSO.GetFolder(pluginDataDir).SubFolders
+		accountName = oAccountDir.Name
+
+		ReDim Preserve accounts(accountSize)
+		accounts(accountSize) = accountName
+		accountSize = accountSize + 1
+
+		' Add all known servers for this account:
+		For Each oServerDir in oFSO.GetFolder(oAccountDir.Path).SubFolders
+			serverName = oServerDir.Name
+			If serverName <> "AllServers" Then
+				serversDictionary(serverName) = 0
+			End If
+		Next
+	Next
+
+	serversArray = serversDictionary.Keys()
+
+ 	GetLotroAccounts = accounts
+End Function
+
+'
+' LOTRO Companion does not include things like "[EN]" in server names.
+' This function converts the plain "Evernight" to the full "[EN] Evernight"
+'
+Function GetFullServerName(lotroCompanionCharServer)
+	For Each server in serversArray
+		If InStr(server, lotroCompanionCharServer) Then
+			GetFullServerName = server
+			Exit Function
+		End If
+	Next
+	GetFullServerName = Null
+End Function
+
+' Inspired by https://stackoverflow.com/a/7377535:
+Function truncate_period(s)
+  If Right(s, 1) = "." Then 
+    truncate_period = Left(s, Len(s) - 1) 
+  Else 
+    truncate_period = s
+  End If
+End Function
+
+'
+' LOTRO Companion has summary files for each imported character.
+' This iterates through each of them.
+'
+Function GetCompanionCharacters(byref accounts)
+	Set oShell = CreateObject("WScript.Shell")
+	Set oFSO = CreateObject("Scripting.FileSystemObject")
+
+	accountCount = UBound(accounts)
+	unknownAccount = "(unknown account)"
+	defaultAccount = unknownAccount
+	if accountCount = 1 then
+		defaultAccount = accounts(0)
+	end if
+
+	strConfigurationFilePath = oShell.ExpandEnvironmentStrings("%USERPROFILE%") & "\.lotrocompanion\data\preferences\DataConfiguration.properties"
+	AddTextToDiv pathInfo, "Looking for LOTRO Companion configuration file: " & strConfigurationFilePath & "<br>"
+	if Not oFSO.FileExists(strConfigurationFilePath) Then
+		' Show an error message, and exit
+		AddTextToDiv pathInfo, "<h2 style='color=red'>ERROR: Could not find the LOTRO Companion file listed on the previous line!<br>Please ensure LOTRO Companion is installed and that you have imported at least one character.</h2><br>"
+		EXIT FUNCTION
+	End If
+
+	Set objConfigurationFile = oFSO.OpenTextFile(strConfigurationFilePath)
+	strDataPath = ""
+	Do Until objConfigurationFile.AtEndOfStream
+	    line = objConfigurationFile.ReadLine
+	    If InStr(1, line, "RootPath=") = 1 Then
+			strDataPath = Replace(Replace(Replace(line, "RootPath=", ""),"\\","\"), "\:", ":")
+		End If
+	Loop
+
+	If strDataPath = "" Then
+		AddTextToDiv pathInfo, "Could not find path to LOTRO Companion data. Exiting.<br>"
+		Exit Function
+	End If
+
+	strCharFolder = strDataPath & "\" & "characters"
+	AddTextToDiv pathInfo, "Found it! Using LOTRO Companion charactor folder: " & strCharFolder & "<br>"
+
+	If Not oFSO.FolderExists(strCharFolder) Then
+		AddTextToDiv divCompanionCharactersToImport, "<h2 style='color=red'>ERROR: Could not find Plugin Companion data</h2>"
+		Exit Function
+	End If
+
+	' For each toon-XXXXX directory
+	Set charFolders = oFSO.GetFolder(strCharFolder).SubFolders
+
+	' How many characters?
+	charCount = charFolders.Count
+
+	Dim charactersToImport
+	charactersToImport = Array()
+	Dim charactersToSkip
+	charactersToSkip = Array()
+	Dim charactersWithoutDeeds
+	charactersWithoutDeeds = Array()
+	Dim charactersWithBadAccounts
+	charactersWithBadAccounts = Array()
+	Dim charactersMissingServers
+	charactersMissingServers = Array()
+
+	currentCharToImport = 0
+	currentCharToSkip = 0
+	currentCharWithoutDeeds = 0
+	currentCharWithBadAccount = 0
+	currentCharMissingServer = 0
+	For Each oCompanionCharacterDir in charFolders
+		Do ' null loop for skipping missing deedsStatus.xml files
+
+		strCharSummaryFileName = oFSO.BuildPath(oCompanionCharacterDir.Path, "summary.xml")
+		' Make sure there's a summary.xml file, otherwise there's nothing to do.
+		If Not oFSO.FileExists(strCharSummaryFileName) Then
+			Exit Do
+		End If
+
+		Set strCharSummaryFile = oFSO.OpenTextFile(strCharSummaryFileName, 1)
+		strCharSummaryXmlText = strCharSummaryFile.ReadAll
+
+		' Get the name, server, and account (if present)
+		Set strCharSummaryFileParsed = CreateObject("MSXML2.DOMDocument")
+		strCharSummaryFileParsed.loadXML(strCharSummaryXmlText)
+
+		Set char = New CompanionCharacter
+		char.CharDirectory = oCompanionCharacterDir.Path
+		Set characterNode = strCharSummaryFileParsed.SelectSingleNode("character")
+		Set oCharAccount = characterNode.attributes.GetNamedItem("account")
+		char.CharAccount = defaultAccount
+		if Not oCharAccount is Nothing then
+			char.CharAccount = truncate_period(oCharAccount.Text)
+		End If
+
+		char.CharServer = GetFullServerName(characterNode.GetAttribute("server"))
+		char.CharName = characterNode.GetAttribute("name")
+		char.CharClass = characterNode.GetAttribute("class")
+		char.CharRace = characterNode.GetAttribute("race")
+		char.CharSex = characterNode.GetAttribute("sex")
+		char.CharLevel = characterNode.GetAttribute("level")
+
+		' Make sure the account specified in LOTRO Companion is valid
+		isBadAccount = true
+		For Each account in accounts
+			If account = char.CharAccount or _
+			   UCase(account) = UCase(char.CharAccount) Then
+				isBadAccount = false
+			End If
+		Next
+
+		' Make sure there's a deedStatus.xml file, otherwise there's nothing to do.
+		strDeedFileName = oFSO.BuildPath(oCompanionCharacterDir.Path, "deedsStatus.xml")
+		If Not oFSO.FileExists(strDeedFileName) Then
+			ReDim Preserve charactersWithoutDeeds(currentCharWithoutDeeds)
+			Set charactersWithoutDeeds(currentCharWithoutDeeds) = char
+			currentCharWithoutDeeds = currentCharWithoutDeeds + 1
+		ElseIf char.CharAccount = unknownAccount Then
+			' If the character doesn't have an account, 
+			'   this is only a problem if we found more than one account on the LOTRO side
+			ReDim Preserve charactersToSkip(currentCharToSkip)
+			Set charactersToSkip(currentCharToSkip) = char
+			currentCharToSkip = currentCharToSkip + 1
+		ElseIf isBadAccount Then
+			ReDim Preserve charactersWithBadAccounts(currentCharWithBadAccount)
+			Set charactersWithBadAccounts(currentCharWithBadAccount) = char
+			currentCharWithBadAccount = currentCharWithBadAccount + 1
+		ElseIf IsNull(char.CharServer) Then
+			ReDim Preserve charactersMissingServers(currentCharMissingServer)
+			Set charactersMissingServers(currentCharMissingServer) = char
+			currentCharMissingServer = currentCharMissingServer + 1
+		Else
+			ReDim Preserve charactersToImport(currentCharToImport)
+			Set charactersToImport(currentCharToImport) = char
+			currentCharToImport = currentCharToImport + 1
+		End If
+
+		Loop While False ' end of null loop
+	Next
+
+	PrintCompanionAccounts charactersToImport, charactersToSkip, charactersWithoutDeeds, charactersWithBadAccounts, charactersMissingServers
+
+	GetCompanionCharacters = charactersToImport
+End Function
+
+'
+' Print out which LOTRO accounts we've found
+'
+'
+Sub PrintLotroAccounts(accounts)
+	AddTextToDiv divLotroAccounts, "Found the following LOTRO accounts: <list>"
+	For Each account in accounts
+		AddTextToDiv divLotroAccounts, "<li>" & account & "</li>"
+	Next
+	AddTextToDiv divLotroAccounts, "</list>"
+End Sub
+
+'
+' Print out which Companion accounts we can and can't import
+'
+'
+Sub PrintCompanionAccounts(ByRef charactersToImport, ByRef charactersToSkip, ByRef charactersWithoutDeeds, ByRef charactersWithBadAccounts, ByRef charactersMissingServers)
+
+	text = ""
+	If UBound(charactersToImport) >= 0 Then
+		text = text & "The following LOTRO Companion characters can be imported: <list>"
+
+		For Each oCharacter in charactersToImport
+			thisOne = oCharacter.CharAccount & ": " & oCharacter.CharServer & " / " & oCharacter.CharName
+			thisOneAndClass = thisOne & " (" & oCharacter.CharClass & ")"
+			text = text & "<li>"
+			text = text & "<input id='import_one_button' " & _
+						"type='button' " & _
+						"value='Import' " & _
+						"id='run_single_script' " & _
+						"onClick=""ImportOneFromLotroCompanion '" & _
+						oCharacter.CharAccount & "', '" & _
+						oCharacter.CharServer & "', '" & _
+						oCharacter.CharName & "' "" " & _
+						" >  "
+			text = text & thisOneAndClass
+			text = text & "</li>"
+
+		Next
+		text = text & "</list>"
+	Else
+		text = "Did not find any LOTRO Companion characters, or none found could be imported!"
+	End If
+	AddTextToDiv divCompanionCharactersToImport, text
+
+	If UBound(charactersToSkip) >= 0 Then
+		text = "The following LOTRO Companion characters do not have an account specified and cannot be imported: <list>"
+
+		For Each oCharacter in charactersToSkip
+			text = text & "<li>" & oCharacter.CharAccount & ": " & oCharacter.CharServer & " / " & oCharacter.CharName & " (" & oCharacter.CharClass & ")" & "</li>"
+		Next
+		text = text & "</list>"
+		AddTextToDiv divCompanionCharactersToSkip, text
+	Else
+		divCompanionCharactersToSkip.style.display = "none"
+		divCompanionCharactersToSkipHr.style.display = "none"
+	End If
+
+	If UBound(charactersWithoutDeeds) >= 0 Then
+		text = "The following LOTRO Companion characters do not have deed information and cannot be imported: <list>"
+
+		For Each oCharacter in charactersWithoutDeeds
+			text = text & "<li>" & oCharacter.CharAccount & ": " & oCharacter.CharServer & " / " & oCharacter.CharName & " (" & oCharacter.CharClass & ")" & "</li>"
+		Next
+		text = text & "</list>"
+		AddTextToDiv divCompanionCharactersWithoutDeeds, text
+	Else
+		divCompanionCharactersWithoutDeeds.style.display = "none"
+		divCompanionCharactersWithoutDeedsHr.style.display = "none"
+	End If
+
+	If UBound(charactersWithBadAccounts) >= 0 Then
+		text = "The following LOTRO Companion characters have accounts that do not exist in the LOTRO folder: <list>"
+
+		For Each oCharacter in charactersWithBadAccounts
+			text = text & "<li>" & oCharacter.CharAccount & ": " & oCharacter.CharServer & " / " & oCharacter.CharName & " (" & oCharacter.CharClass & ")" & "</li>"
+		Next
+		text = text & "</list>"
+		AddTextToDiv divCompanionCharactersWithBadAccounts, text
+	Else
+		divCompanionCharactersWithBadAccounts.style.display = "none"
+		divCompanionCharactersWithBadAccountsHr.style.display = "none"
+	End If
+	
+	If UBound(charactersMissingServers) >= 0 Then
+		text = "The following LOTRO Companion characters are missing server information in LOTRO Companion: <list>"
+
+		For Each oCharacter in charactersMissingServers
+			text = text & "<li>" & oCharacter.CharAccount & ": " & oCharacter.CharName & " (" & oCharacter.CharClass & ")" & "</li>"
+		Next
+		text = text & "</list>"
+		AddTextToDiv divCompanionCharactersMissingServers, text
+	Else
+		divCompanionCharactersMissingServers.style.display = "none"
+		divCompanionCharactersMissingServersHr.style.display = "none"
+	End If
+
+End Sub
+
+'
+' Core function to discover the LOTRO and LOTRO Companion characters
+'
+'
+
+Sub GetCharacters()
+	Dim accounts
+	accounts = GetLotroAccounts()
+	charactersToImport = GetCompanionCharacters(accounts)
+
+	PrintLotroAccounts accounts
+
+End Sub
+
+
+''''''''''''''''''''''''''''''''''''''''''''
+'
+' Functions to write out LUA files containing deed completion status.
+'
+
+'
+' Import a specific character
+'
+'
+Sub ImportCharFromLotroCompanion(oCharacter)
+	Set oFSO = CreateObject("Scripting.FileSystemObject")
+
+	AddTextToDiv divImport, "Importing " & oCharacter.CharName & "...<br>"
+
+	deedFileName = oFSO.BuildPath(oCharacter.CharDirectory, "deedsStatus.xml")
+	
+	AddTextToDiv divImport, "&nbsp;Reading " & deedFileName & "...<br>"
+
+	Set strCharDeedFile = oFSO.OpenTextFile(deedFileName, 1)
+	strCharDeedXmlText = strCharDeedFile.ReadAll
+
+	Set strCharDeedsFileParsed = CreateObject("MSXML2.DOMDocument")
+	strCharDeedsFileParsed.loadXML(strCharDeedXmlText)
+
+	' A user reported that the character directory might not always be present.
+	' Make sure each directory is there:
+	accountDir = oFSO.BuildPath(pluginDataDir, oCharacter.charAccount)
+	serverDir = oFSO.BuildPath(accountDir, oCharacter.charServer)
+	charDir = oFSO.BuildPath(serverDir, oCharacter.charName)
+
+	If Not oFSO.FolderExists(serverDir) Then
+		oFSO.CreateFolder(serverDir)
+	End If
+	If Not oFSO.FolderExists(charDir) Then
+		oFSO.CreateFolder(charDir)
+	End If
+
+	outputFileName = oFSO.BuildPath(charDir, "DeedTracker_CompanionImport.plugindata")
+
+	AddTextToDiv divImport, "&nbsp;Writing " & outputFileName & "..."
+
+	outputText = "return " & vbCrLf
+	outputText = outputText & "{" & vbCrLf
+
+	' Convert Companion deed into lua structure:
+	Set deedStatusNodes = strCharDeedsFileParsed.SelectNodes("deedsStatus/deedStatus")
+	deedStatusNodesCount = deedStatusNodes.length
+	lineCount = 0
+	For Each deedStatusNode in deedStatusNodes
+		lineCount = lineCount + 1
+		trailingComma = ","
+		If lineCount = deedStatusNodesCount Then
+			trailingComma = ""
+		End If
+
+		deedKeyText = ""
+		deedKey = deedStatusNode.GetAttribute("key")
+		If Not IsNull(deedKey) Then
+			deedKeyText = deedKey
+		End If
+
+		deedStateText = ""
+		deedState = deedStatusNode.GetAttribute("state")
+		If Not IsNull(deedState) Then
+			deedStateText = deedState
+		Else
+			' An older way of encoding the deed completian as a boolean:
+			deedCompleted = deedStatusNode.GetAttribute("completed")
+			If Not IsNull(deedCompleted) and deedCompleted = "true" Then
+				AddTextToDiv divImport, "<br><b>Warning: Deed file is outdated, please re-import in LOTRO Companion!</b><br><br>"
+				Exit Sub
+			End If
+		End If
+
+		outputText = outputText & vbTab & "[""" & deedKeyText & """] = " & """" & deedStateText & """" & trailingComma & vbCrLf
+	Next
+
+	outputText = outputText & "}" & vbCrLf
+
+	Set outputFile = oFSO.CreateTextFile(outputFileName, true)
+	outputFile.WriteLine outputText
+	outputFile.Close
+
+	AddTextToDiv divImport, " Complete!<br><br>"
+End Sub
+
+'
+' Find the requested character and import it.
+'
+Sub ImportOneFromLotroCompanion(account, server, character)
+	For Each oCharacter in charactersToImport
+		if oCharacter.CharAccount = account and _
+		    oCharacter.CharServer = server and _
+		    oCharacter.CharName = character then
+			ImportCharFromLotroCompanion oCharacter
+			Exit Sub
+	   	end if
+	Next	
+End Sub
+
+'
+' Import all possible characters
+'
+'
+Sub ImportFromLotroCompanion()
+	import_button.style.display = "none"
+
+	For Each oCharacter in charactersToImport
+		ImportCharFromLotroCompanion oCharacter
+	Next
+	AddTextToDiv divImport, "<b>Import process complete!</b>"
+End Sub
+
+Sub Window_onLoad
+    window.resizeTo 800,800
+End Sub
+
+</script>
+
+<body onload="GetCharacters()">
+<h2>Import Deed Completion from LOTRO Companion v2.1</h2>
+This importer is a part of the Deed Tracker plugin.<br>
+You can find a walkthrough of how to use it at <a href="https://deedtracker.lifebeyondtheshire.com/home/import-deed-completion-from-lotro-companion/">https://deedtracker.lifebeyondtheshire.com/home/import-deed-completion-from-lotro-companion/</a>.<br>
+If you have questions or issues regarding the import process, please email LotroDeedTracker@gmail.com.<br>
+<hr>
+<div id="pathInfo">
+</div>
+<hr>
+<div id="divLotroAccounts">
+</div>
+<hr>
+<div id="divCompanionCharactersToImport">
+</div>
+<hr>
+<div id="divCompanionCharactersToSkip">
+</div>
+<hr id="divCompanionCharactersToSkipHr">
+<div id="divCompanionCharactersWithoutDeeds">
+</div>
+<hr id="divCompanionCharactersWithoutDeedsHr">
+<div id="divCompanionCharactersWithBadAccounts">
+</div>
+<hr id="divCompanionCharactersWithBadAccountsHr">
+<div id="divCompanionCharactersMissingServers">
+</div>
+<hr id="divCompanionCharactersMissingServersHr">
+<div id="divImport">
+</div>
+<input id="import_button" type="button" value="Import All" id="run_script" onClick="ImportFromLotroCompanion()"><br/>
+</body>
+

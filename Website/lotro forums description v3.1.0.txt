@@ -1,0 +1,17 @@
+Deed Tracker version 3.1.0 is now available at [url=https://www.lotrointerface.com/downloads/info1139-DeedTracker.html]lotrointerface.com[/url].
+
+This updates deeds for U36: Renewal of Gondor, and enables manually checking "below level" deeds.
+
+Version 3.1.0 release notes:
+
+Deeds:
+[list]
+[*] Added U36: Renewal of Gondor deeds.
+[*] Landscape Difficulty deeds are now marked "Not Actively Available".
+[/list]
+
+Enhancements:
+[list]
+[*] Deeds with a max level below the character's level can now be manually marked completed.
+[*] Removed "difficulty server" option, as all servers now have this feature.
+[/list]

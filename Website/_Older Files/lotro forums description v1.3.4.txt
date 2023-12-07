@@ -1,0 +1,38 @@
+Version 1.3.4 is now available at [url=https://www.lotrointerface.com/downloads/info1139-DeedTracker.html]lotrointerface.com[/url].
+
+This release includes U32 deeds, bug fixes, and UI changes!
+
+Version 1.3.4 release notes:
+
+Deeds:
+[list]
+[*] Added Instances / The Mountain-hold / The Hiddenhoard of Abnankâra deeds
+[*] Added Class/Race/Epic / Reputation / Kindred to the Defenders of the Angle deed
+[*] Added Eriador / Trollshaws / The Angle of Mitheithel deeds
+[*] Added Legendary Server deeds for Grey Mountains, Level 120
+[/list]
+
+Bugs:
+[list]
+[*] A few Class / Race / Vocation deeds were not displayed correctly after 1.3.3 changed how those deeds were stored internally. These are now fixed.
+[*] A check against current Class / Race / Vocation was not updated correctly after 1.3.3. This is now fixed. (Thanks to Crell for finding this!)
+[*] The names of Guardian and Hunter difficulty deeds got swapped in 1.3.3.
+[*] Deed Tracker will no longer consider deeds with minimum levels above the character's current level. (e.g. Instances / Shadows of Angmar / Woe of the Willow -- Tier 1 has a minimum level of 125, but the quest Woe of the Willow -- Tier 1 can be completed when running the instance at level 20. Instead of prompting the player each time, Deed Tracker will ignore the deed until the player gets to level 125.)
+[*] Deeds marked completed that with a minimum level above the character's current level now show their checkbox, so they can be uncompleted if needed.
+[*] Chat monitoring turned off in Session Play.
+[*] Disambiguate Dialog no longer stays open if parent of deed also completes. (e.g. the dialog for 'Warg-slayer (Advanced)' will automatically close if 'Slayer of the North Downs' completes.)
+[/list]
+
+UI:
+[list]
+[*] Completion Window now hides/unhides when Toggle HUD is pressed.
+[*] Completion Window now closes when Escape is pressed.
+[*] Completed Class and Race deeds are now shown, even if character is a different class or race. (Useful in case of race change, or a deed marked complete in error.)
+[*] Updated text in Disambiguation Window if quest is possible (e.g. Warg-slayer).
+[*] Added button next to character dropdown to reset to current character.
+[/list]
+
+Other:
+[list]
+[*] Split out Info from Debug messages, should only affect users with Verbose Logging on. Informational messages now written in green instead of red.
+[/list]

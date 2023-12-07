@@ -1,0 +1,19 @@
+I just uploaded the initial public version (v1.1.2) of my new Deed Tracker plugin over at lotrointerface.com. I was first inspired by the Hytbold Assistant plugin by Galuhad, which gave me a great UI starting point, combined with some inspiration on how to detect completed deeds.
+
+The main window shows hierarchical lists of deeds for each page & tab, with quick references for LOTRO Points, Virtue XP, and reputation, and a character selection drowdown to view the Deed Tracker status of your other characters on that server.
+
+[IMG]https://www.lotrointerface.com/downloads/full3395.jpg[/IMG]
+
+Unlike the LOTRO notification area, Deed Tracker keeps track of all of your completed deeds, so you can review them at your leisure:
+
+[IMG]https://www.lotrointerface.com/downloads/full3397.jpg[/IMG]
+
+There are many identically-named deeds in pre-Rohan, so you may have to help Deed Tracker figure out which of the [B]seven[/B] identically-named Warg-slayers it was you just completed. (Or was it the Quest?)
+
+[IMG]https://www.lotrointerface.com/downloads/full3398.jpg[/IMG]
+
+For the adventurous, I have an experimental feature for detailed objective information in the deed tooltips:
+
+[IMG]https://www.lotrointerface.com/downloads/full3396.jpg[/IMG]
+
+More detailed information is available at [URL="https://www.lotrointerface.com/downloads/info1139-DeedTracker.html"]lotrointerface[/URL].

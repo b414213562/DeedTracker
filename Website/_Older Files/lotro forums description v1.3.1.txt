@@ -1,0 +1,49 @@
+Version 1.3.1 is now available at [url=https://www.lotrointerface.com/downloads/info1139-DeedTracker.html]lotrointerface.com[/url].
+
+This release includes a bunch of accumulated fixes for things like Landscape Difficulty (U30), Brawler (U30.3), and Fate of Gundabad (U31) deeds. It also includes a nice-to-have where you can load the Deed Tracker in session play in a 'read-only' mode. Great for browsing your todo list during Chicken Session Play!
+
+(I tried to include an overhaul of the UI so it draws much faster when switching deed tabs, but it introduced enough bugs that it will have to wait for a future release.)
+
+Version 1.3.1 release notes:
+
+Deeds:
+[list]
+[*] Added Difficulty deeds, and an option to mark the current server as a Difficulty server.
+[*] Added Race & Social deeds Make it a Party: Elanor Fireworks and Make it a Party: Green and White Niphredil Fireworks;
+[*] Added Legendary Server Mordor deeds;
+[*] Corrected the lore for several deeds;
+[*] Updated the minimum level for several deeds;
+[*] Moved The Fall of Khazad-dûm - Leading the Charge and The Fall of Khazad-dûm - Original Challenger from Blood of Azog to The War of Three Peaks;
+[*] Corrected Warden class deed name from "Skillful Blocking" to "Skilful Blocking";
+[*] Changed minimum level of 'Silver Tongue' and 'Battle-hymn' to match the associated skills.
+[*] Filled in summary for Legend of Mirkwood.
+[*] Added Brawler Class deeds.
+[*] Added Fate of Gundabad U31 deeds:
+[list]
+[*]Updated summary for CRE / Epic / The Legacy of Durin and the Trials of the Dwarves
+[*]CRE / Reputation / Reclaimers of the Mountain-hold
+[*]CRE / Allegiances / Zhélruka
+[*]Instances/The Mountain-hold
+[*]Rhovanion/Gundabad
+[/list]
+[/list]
+
+UI:
+[list]
+[*] Allow server caps to go below the default, to support Treebeard / Shadowfax.
+[*] When leveling, deed window won't refresh unless played character is selected and until character is out of combat.
+[*] When completing a deed that is extra long, the text no longer goes over the timestamp.
+[*] Added support for read-only view during session play.
+[/list]
+
+Other:
+[list]
+[*] Rule out if turned-in quest/deed was a Task first, before checking if it's a deed.
+[/list]
+
+Bugs:
+[list]
+[*] Fixed LOTRO Companion import issue with case differences between account names.
+[*] When leveling, if looking at an alt's deeds, the alt's level would be used instead of the current character.
+[*] Fixed auto-conflicting quest detection for The Perfect Picnic.
+[/list]

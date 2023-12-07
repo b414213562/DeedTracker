@@ -1,0 +1,39 @@
+Deed Tracker version 3.1.3 is now available at [url=https://www.lotrointerface.com/downloads/info1139-DeedTracker.html]lotrointerface.com[/url].
+
+This adds U38 deeds and fixes a few minor things.
+
+Version 3.1.3 release notes:
+
+Deeds:
+[list]
+    [*] Added U38: Corsairs of Umbar deeds:
+    [list]
+    [*]        Fixed order and hierarchy of Gondor / Eastern King's Gondor tab.    
+    [*]        Added Gondor / Western King's Gondor tab.
+    [*]        Added Gondor / Outer Gondor tab.
+    [*]        Added new Haradwaith page, and rearranged existing pages to match new layout.
+            [list]
+        [*]            Added The Shield Isles, Cape of Umbar, and Umbar Baharbêl tabs under Haradwaith.
+        [*]            Added Instances / Corsairs of Umbar tab.
+            [/list]
+    [*]        Added Citizens of Umbar Baharbêl reputation deeds.
+    [*]        Added Ledger-keepers: Umbar Barharbêl Allegiance.
+    [*]        Added Order of the Eagle Allegiance.
+    [/list]
+[*]    Added better Category descriptions for Delving deeds.
+[/list]
+
+Import:
+[list]
+[*]    Added extra error checking for when the LOTRO Companion configuration file can't be found.
+[*]    Default window size is no longer comically wide.
+[*]    Added visible version number.
+[/list]
+
+General:
+[list]
+[*]    Updated default standard server level to 150.
+[*]    Updated default legendary server level to 95.
+[*]    Improved file format upgrade logic. Logic better handles the case where a previous updated did not fully complete.
+[*]    Added Erebor and Gundabad to region detection.
+[/list]

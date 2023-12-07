@@ -1,0 +1,28 @@
+Version 1.3.5 is now available at [url=https://www.lotrointerface.com/downloads/info1139-DeedTracker.html]lotrointerface.com[/url].
+
+This release includes U33 deeds, bug fixes, and a slight performance improvement!
+
+Version 1.3.5 release notes:
+
+Deeds:
+[list]
+[*] Fixed an issue where a quote was sometimes written as \q in deed objective text.
+[*] Added Anniversary: A Flurry of Fireworks deeds.
+[*] Added Legendary Server deeds for War of Three Peaks, Level 130.
+[*] Added the limited time Happy 15th Anniversary deed.
+[*] Added the Yondershire deeds in Eriador / Shire and Class/Race/Epic / Reputation.
+[*] Added French and German deed translations up to U33.
+[/list]
+
+Bugs:
+[list]
+[*] Found and fixed several syntax issues using Lunarwater's new VSC extension.
+[*] Fixed Deed Region lookups for Wells of Langflood and Mordor.
+[*] Fixed several issues with Import from LOTRO Companion.
+[/list]
+
+Other:
+[list]
+[*] Deed Tracker no longer loads files for non-active client languages.
+[*] Added a single-character import option to the Import from LOTRO Companion HTA.
+[/list]

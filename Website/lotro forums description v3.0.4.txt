@@ -1,0 +1,10 @@
+Deed Tracker version 3.0.4 is now available at [url=https://www.lotrointerface.com/downloads/info1139-DeedTracker.html]lotrointerface.com[/url].
+
+This fixes an error that could occur during 3.0 to 3.1 file format update.
+
+Version 3.0.4 release notes:
+
+Bugs:
+[list]
+[*] Fixed error that could occur during 3.0 to 3.1 file format update.
+[/list]

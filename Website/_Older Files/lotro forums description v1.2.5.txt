@@ -1,0 +1,50 @@
+Version 1.2.5 is now available at [url=https://www.lotrointerface.com/downloads/info1139-DeedTracker.html]lotrointerface.com[/url].
+
+I'm very excited to announce initial support for importing deed completion status using the LOTRO Companion desktop application! Do you have thousands of completed deeds, dozens of characters, or both, and the prospect of checking off all of those deeds in-game is too daunting to even begin? Follow the step-by-step instructions in the [url=https://deedtracker.lifebeyondtheshire.com/home/import-deed-completion-from-lotro-companion/]help documentation[/url] for a much more automated process!
+
+Import your character into LOTRO Companion:
+[img]https://deedtracker.lifebeyondtheshire.com/wp-content/uploads/2021/06/LOTROCompanionStartingScreen-v15.0_Update29.0.1_CharacterImported.png[/img]
+
+Run the import script:
+[img]https://deedtracker.lifebeyondtheshire.com/wp-content/uploads/2021/06/LOTROCompanionImportScriptStartingScreen-v1.2.5.png[/img]
+
+And the Deed Tracker plugin can automatically check off all of your already-completed deeds, and identify deeds that may be incorrectly marked off in the Deed Tracker:
+[img]https://deedtracker.lifebeyondtheshire.com/wp-content/uploads/2021/06/LOTROCompanionImportWindow-v1.2.5-BothSections.png[/img]
+
+Thanks to Crell on the Deed Tracker Discord server for finding many edge cases in the import script!
+
+Version 1.2.5 release notes:
+
+Localization:
+[list]
+[*]Added French and German triggers for numerous instance-based quests.
+[*]Added French and German names for Festival and Ettenmoors regional chat channel.
+[/list]
+
+Deeds:
+[list]
+[*]Added Update 30: Blood of Azog deeds. (English, French, and German)
+[*]Added Deed Completion Import from the LOTRO Companion desktop application.
+[*]Reordered many deed hierarchies to match Deed Log order. For example, Carn Dûm comes first under Savior of Eriador.
+[*]Fixed several hierarchy errors. For example:
+    [list]
+    [*]Tier 2 versions of Egg Scramble Victories and Maggot's Mushrooms Victories are not required for Full of Farmers Faire.
+    [*]Slayer of the Misty Mountains does not require Giant-slayer or Troll-slayer.
+    [*]Slayer of Evendim does not require Leaders of the Invasion.
+    [*]Protector of Enedwaith does not require Giant-slayer or Gwiber-slayer.
+    [/list]
+[*]Marked Townsfolk of the Eastfold / Kingstead as Not Actively Available (Purchase Required)
+[/list]
+
+Other:
+[list]
+[*]Manual character deletion better supported.
+[*]Moved 'Hide completed deeds' option to just after the Legendary Server section.
+[/list]
+
+Bugs:
+[list]
+[*]Fixed issue causing Legendary Deeds to always show up.
+[*]When Hide Completed Deeds was turned on, Completed 'Not Actively Deeds' were also hidden.
+[*]Long, indented deed names don't overlap completion timestamp.
+[/list]

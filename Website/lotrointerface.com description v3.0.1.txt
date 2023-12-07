@@ -1,0 +1,75 @@
+[SIZE="4"][COLOR="DeepSkyBlue"]Introduction[/COLOR][/SIZE]
+
+Deed Tracker is designed to help you keep track of your completed deeds. (Or, if you're like me, which deeds you haven't done yet.)
+
+Unlike the in-game Deed Log, Deed Tracker will show you every deed for every tab on every page, whether you've started it or not. No more wondering if an area has hidden deeds! Deeds are presented in a hierarchical tree, and a built-in search bar makes finding a specific deed very fast.
+
+Each time you complete something, Deed Tracker checks to see if it was a deed. If it was, it checks it off for you!
+
+Deed Tracker provides a quick way to see where you can find more LOTRO Points and Virtue XP, and gives progress at the tab, page, and overall level.
+
+Ever complete multiple deeds at once and get frustrated that the game only remembers the last deed you completed? The Completion Window tracks them as long as you want, provides a button to send your completion to a chat channel of your choice, and you can produce a short summary.
+
+Want a way to see which deeds your other characters have completed? Deed Tracker lets you see Deed Tracker status for each of your characters on that server with a handy character selection dropdown.
+
+Due to limitations in the LOTRO scripting interface, Deed Tracker cannot tell which deeds you have already completed. Don't let that stop you, though! By default, when you complete a deed (for example, Slayer of Bree-land), Deed Tracker will automatically mark all prerequisite deeds complete. This works when you manually check deeds off, too! Alternatively, you can use the [url=https://sourceforge.net/projects/lotrocompanion/]LOTRO Companion[/url] to export your character data from LOTRO. [url=https://deedtracker.lifebeyondtheshire.com/home/import-deed-completion-from-lotro-companion/]Click here[/url] for a step-by-step guide.
+
+Language support:
+[list]
+[*] Automatic deed-completion detection is supported for English, French, and German through Return to Carn Dûm (U35).
+[*] Deed names, lore, and objectives are available in English, French, and German through Return to Carn Dûm (U35).
+[*] The Deed Tracker UI is mostly translated for German.
+[*] The Deed Tracker UI has not yet been translated for French. (If you are a fluent French speaker and would like to help, please let me know!)
+[/list]
+
+Notes:
+[list]
+[*] See a description of all the features at http://deedtracker.lifebeyondtheshire.com/
+[*] Unlike the in-game Deed Log, Deed Tracker cannot tell how far along you are on a deed. Deed Tracker is meant to be a companion to the in-game Deed Log, to serve as an easy way to guide your deeding.
+[*] There are numerous, identically-named deeds in LOTRO (for instance: warg-slayer). When you complete one of these, Deed Tracker will try to determine which one it was based on your location. If it cannot, it will display a window asking you to select the correct one.
+[/list]
+
+
+[SIZE="4"][COLOR="DeepSkyBlue"]Installation and Startup[/COLOR][/SIZE]
+
+To install:
+
+[list]
+[*]Unzip the downloaded Deed Tracker archive. You will get a folder called "CubePlugins". Move this folder into your Documents/The Lord of the Rings Online/Plugins folder.
+[*]Or if you prefer, you may use [url=https://www.lotrointerface.com/downloads/info663-LOTROPluginCompendium.html]Plugin Compendium[/url] to do the installation.
+[/list]
+
+To load the plugin, use the game's built-in Plugin Manager.  This can be found in the "^" menu, at the bottom of the screen.  Click the [IMG]http://i.imgur.com/aT2k9Lw.png[/IMG] icon, then choose "System" and then "Plugin Manager". (As a shortcut, you can also type "/plugins manager" in your chat window.
+
+When the Plugin Manager opens, find Deed Tracker in the list on the left side. Click "Load" to load the plugin.  If you would like the plugin to load automatically each time you login, choose your character's name in the "Automatically Load For" pulldown menu.
+
+[SIZE="4"][COLOR="DeepSkyBlue"]Known Issues[/COLOR][/SIZE]
+[list]
+[*] When "Hide completed deeds" is on, when there are two categories in a row, the first category is treated as empty and hidden incorrectly.
+[*] When "Hide completed deeds" is on, when a tab doesn't have any eligible deeds (see Allegiances for a character < 110), the progress bar is blue.
+[*] Deed Tracker does not currently know which landscape region each instance "belongs" to, so if you complete a landscape deed while in an instance, the disambiguation window doesn't highlight the most likely one.
+[/list]
+
+[SIZE="4"][COLOR="DeepSkyBlue"]Recent Revision History[/COLOR][/SIZE]
+[list]
+[*]2023-04-04: Version 3.0.1: Includes U35 deeds, fixed French and German gendered deed completion detection, revamped save file format, and more! Release notes are [url=https://forums.lotro.com/forums/showthread.php?686945-Plugin-Deed-Tracker&p=8183628#post8183628]here[/url].
+[/list]
+
+[SIZE="4"][COLOR="DeepSkyBlue"]Older Revision History[/COLOR][/SIZE]
+[list]
+[*]2022-11-17: Version 1.3.8: Fixed bug with cascade completions in Skirmish Instances. Release notes are [url=https://forums.lotro.com/forums/showthread.php?686945-Plugin-Deed-Tracker&p=8165636#post8165636]here[/url].
+[*]2022-11-16: Version 1.3.7: Updated Before the Shadow deeds that changed between Bullroarer and release. Added French and German translations. Release notes are [url=https://forums.lotro.com/forums/showthread.php?686945-Plugin-Deed-Tracker&p=8165571#post8165571]here[/url].
+[*]2022-11-15: Version 1.3.6: Added Before the Shadow deeds and a few bug fixes. Release notes are [url=https://forums.lotro.com/forums/showthread.php?686945-Plugin-Deed-Tracker&p=8165071#post8165071]here[/url].
+[*]2022-04-27: Version 1.3.5: Added U33 deeds (Anniversary, Yondershire) and Level 130 Legendary Server deeds, and stopped loading non-active language files. Release notes are [url=https://forums.lotro.com/forums/showthread.php?686945-Plugin-Deed-Tracker&p=8136070#post8136070]here[/url].
+[*]2022-03-02: Version 1.3.4: Added U32 deeds (Hiddenhoard, The Angle) and Level 120 Legendary Server deeds, fixed numereous bugs, and made some UI changes. Release notes are [url=https://forums.lotro.com/forums/showthread.php?686945-Plugin-Deed-Tracker&p=8127920#post8127920]here[/url].
+[*]2022-01-23: Version 1.3.3: Added U31.1.1 deeds, and other changes. Release notes are [url=https://www.lotro.com/forums/showthread.php?686945-Plugin-Deed-Tracker&p=8121432#post8121432]here[/url].
+[*]Unreleased: Version 1.3.2: Added French and German translations up to U31.
+[*]2021-11-11: Version 1.3.1: Release notes are [url=https://www.lotro.com/forums/showthread.php?686945-Plugin-Deed-Tracker&p=8105893#post8105893]here[/url]. This provides Landscape Difficulty (U30), Brawler (U30.3), and Fate of Gundabad (U31) deeds.
+[*]2021-06-16: Version 1.2.5: Release notes are [url=https://www.lotro.com/forums/showthread.php?686945-Plugin-Deed-Tracker&p=8079381#post8079381]here[/url]. This provides inital support for importing deed completion from LOTRO Companion, and Update 30 (Blood of Azog) deeds, and other assorted changes.
+[*]2021-05-15: Version 1.2.4: Release notes are [url=https://www.lotro.com/forums/showthread.php?686945-Plugin-Deed-Tracker&p=8074150#post8074150]here[/url]. This provides initial support for French and German, fixes a bug introduced in 1.2.1 where new characters aren't registered properly, and other assorted changes.
+[*]2021-05-12: Version 1.2.3: Release notes are [url=https://www.lotro.com/forums/showthread.php?686945-Plugin-Deed-Tracker&p=8073610#post8073610]here[/url]. This fixes a bug that I introduced in 1.2.2, where some Eregion, Dunland, and Allegiance deeds are not auto-detecting.
+[*]2021-05-11: Version 1.2.2: Release notes are [url=https://www.lotro.com/forums/showthread.php?686945-Plugin-Deed-Tracker&p=8073450#post8073450]here[/url]. Made Allegiance deeds hierarchical, Fixed Slayer of Dunland and Slayer of the Wells of Langflood hierarchies.
+[*]2021-05-10: Version 1.2.1: Release notes are [url=https://www.lotro.com/forums/showthread.php?686945-Plugin-Deed-Tracker&p=8073395#post8073395]here[/url]. Fixes issue with long save times, and other assorted changes.
+[*]2021-04-29: Version 1.1.3: Release notes are [url=https://www.lotro.com/forums/showthread.php?686945-Plugin-Deed-Tracker&p=8072336#post8072336]here[/url]. One-click sharing of deed completion and Waypoint integration for location-based deed objectives, and other assorted changes.
+[*]2021-04-20: Version 1.1.2: Initial public release notes are [url=https://www.lotro.com/forums/showthread.php?686945-Plugin-Deed-Tracker&p=8071150#post8071150]here[/url], includes U29.5 deeds.
+[/list]

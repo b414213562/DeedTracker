@@ -1,0 +1,36 @@
+-- Given the ID of a v2.0 completed size-dependent collection deed,
+-- and the size of the current character,
+-- produce the deed ID that should have been completed.
+-- e.g. completedId = PriorSaveFormats.MOUNT_SIZE_CORRECTION_TABLE[completedID][raceMountType];
+MOUNT_SIZE_CORRECTION_TABLE = {
+	[1879361989] = { [DataFiles.MOUNT_LARGE] = 1879361989; [DataFiles.MOUNT_SMALL] = 1879363520; }; -- 2013 Festival Steeds (large)
+	[1879363520] = { [DataFiles.MOUNT_LARGE] = 1879361989; [DataFiles.MOUNT_SMALL] = 1879363520; }; -- 2013 Festival Steeds (small)
+	[1879361993] = { [DataFiles.MOUNT_LARGE] = 1879361993; [DataFiles.MOUNT_SMALL] = 1879363518; }; -- 2014 Festival Steeds (large)
+	[1879363518] = { [DataFiles.MOUNT_LARGE] = 1879361993; [DataFiles.MOUNT_SMALL] = 1879363518; }; -- 2014 Festival Steeds (small)
+	[1879361997] = { [DataFiles.MOUNT_LARGE] = 1879361997; [DataFiles.MOUNT_SMALL] = 1879363513; }; -- 2015 Festival Steeds (large)
+	[1879363513] = { [DataFiles.MOUNT_LARGE] = 1879361997; [DataFiles.MOUNT_SMALL] = 1879363513; }; -- 2015 Festival Steeds (small)
+	[1879362010] = { [DataFiles.MOUNT_LARGE] = 1879362010; [DataFiles.MOUNT_SMALL] = 1879363507; }; -- 2016 Festival Steeds (large)
+	[1879363507] = { [DataFiles.MOUNT_LARGE] = 1879362010; [DataFiles.MOUNT_SMALL] = 1879363507; }; -- 2016 Festival Steeds (small)
+	[1879362011] = { [DataFiles.MOUNT_LARGE] = 1879362011; [DataFiles.MOUNT_SMALL] = 1879363519; }; -- 2017 Festival Steeds (large)
+	[1879363519] = { [DataFiles.MOUNT_LARGE] = 1879362011; [DataFiles.MOUNT_SMALL] = 1879363519; }; -- 2017 Festival Steeds (small)
+	[1879361994] = { [DataFiles.MOUNT_LARGE] = 1879361994; [DataFiles.MOUNT_SMALL] = 1879363509; }; -- Autumn Adventurer (large)
+	[1879363509] = { [DataFiles.MOUNT_LARGE] = 1879361994; [DataFiles.MOUNT_SMALL] = 1879363509; }; -- Autumn Adventurer (small)
+	[1879362013] = { [DataFiles.MOUNT_LARGE] = 1879362013; [DataFiles.MOUNT_SMALL] = 1879363515; }; -- Goat-herder (large)
+	[1879363515] = { [DataFiles.MOUNT_LARGE] = 1879362013; [DataFiles.MOUNT_SMALL] = 1879363515; }; -- Goat-herder (small)
+	[1879361988] = { [DataFiles.MOUNT_LARGE] = 1879361988; [DataFiles.MOUNT_SMALL] = 1879363512; }; -- Rider of Rohan (large)
+	[1879363512] = { [DataFiles.MOUNT_LARGE] = 1879361988; [DataFiles.MOUNT_SMALL] = 1879363512; }; -- Rider of Rohan (small)
+	[1879361998] = { [DataFiles.MOUNT_LARGE] = 1879361998; [DataFiles.MOUNT_SMALL] = 1879363506; }; -- Rider of the Free Peoples (large)
+	[1879363506] = { [DataFiles.MOUNT_LARGE] = 1879361998; [DataFiles.MOUNT_SMALL] = 1879363506; }; -- Rider of the Free Peoples (small)
+	[1879361990] = { [DataFiles.MOUNT_LARGE] = 1879361990; [DataFiles.MOUNT_SMALL] = 1879363517; }; -- Spring in Your Step (large)
+	[1879363517] = { [DataFiles.MOUNT_LARGE] = 1879361990; [DataFiles.MOUNT_SMALL] = 1879363517; }; -- Spring in Your Step (small)
+	[1879361991] = { [DataFiles.MOUNT_LARGE] = 1879361991; [DataFiles.MOUNT_SMALL] = 1879363514; }; -- Sun-strider (large)
+	[1879363514] = { [DataFiles.MOUNT_LARGE] = 1879361991; [DataFiles.MOUNT_SMALL] = 1879363514; }; -- Sun-strider (small)
+	[1879361999] = { [DataFiles.MOUNT_LARGE] = 1879361999; [DataFiles.MOUNT_SMALL] = 1879363516; }; -- The Steeds of Gondor (large)
+	[1879363516] = { [DataFiles.MOUNT_LARGE] = 1879361999; [DataFiles.MOUNT_SMALL] = 1879363516; }; -- The Steeds of Gondor (small)
+	[1879361995] = { [DataFiles.MOUNT_LARGE] = 1879361995; [DataFiles.MOUNT_SMALL] = 1879363510; }; -- Treasure Mounts (large)
+	[1879363510] = { [DataFiles.MOUNT_LARGE] = 1879361995; [DataFiles.MOUNT_SMALL] = 1879363510; }; -- Treasure Mounts (small)
+	[1879361992] = { [DataFiles.MOUNT_LARGE] = 1879361992; [DataFiles.MOUNT_SMALL] = 1879363508; }; -- Veteran of the Third Age (large)
+	[1879363508] = { [DataFiles.MOUNT_LARGE] = 1879361992; [DataFiles.MOUNT_SMALL] = 1879363508; }; -- Veteran of the Third Age (small)
+	[1879361996] = { [DataFiles.MOUNT_LARGE] = 1879361996; [DataFiles.MOUNT_SMALL] = 1879363511; }; -- Winter-rider (large)
+	[1879363511] = { [DataFiles.MOUNT_LARGE] = 1879361996; [DataFiles.MOUNT_SMALL] = 1879363511; }; -- Winter-rider (small)
+};

@@ -1,0 +1,306 @@
+Haradrim-slayer of the Cape of Umbar & Advanced are marked disabled, shouldn't be included.
+
+If you're logged in during a rename, you get the same message as a title change:
+    I renamed Laurelin Affodil and got this message:
+    You will now be known as Tasje, Fool to those you meet in your travels.
+
+Anything that makes assumptions about vocations needs to be changed.
+    Current status of API:
+        All calls to Turbine.Gameplay.LocalPlayer.GetInstance():GetAttributes():GetVocation() get 0
+            Whether or not your professions match a vocation or not
+        You can iterate through the enum of professions (1-10) to see which are trained:
+            for i=1,10 do
+                local info = MYCHAR:GetAttributes():GetProfessionInfo(i);
+                if (info ~= nil) then
+                    Turbine.Shell.WriteLine("Profession trained: " .. info:GetName());
+                end
+            end
+        All vocation-deeds should probably be visible, and not included in deed count. (Not Actively Available?)
+    Short-term solution:
+        Change the SUBTYPE to 0
+        mark each as ["NA"] = 7; (Vocation)
+        (Note: Generator will need to be changed.)
+
+I'm going to make a note to separate out not actively avaliable deeds into their own stat or something, so the actively available ones are more consistent.
+
+It might be worth adding a feature to pop up a dialog - "Hey, you just advanced beyond your stated level cap, do you want to enter a new level cap for this server?"
+
+NotACat — 2023-11-07 at 11:14 PM
+    I just had a thought: would it be possible to include an option to show only "Explorer/Lore/Reputation/Slayer" Deeds to parallel the option in the Deed Log?
+
+The assumed 140 valar instance deeds weren't awarded. 140 Valar (from level 20) completed:
+    Class/Race/Epic / Class / Disciple of Song (Minstrel) (Landscape Difficulty)!
+    Class/Race/Epic / Class / Apprentice of Song (Minstrel) (Landscape Difficulty)!
+    Rhovanion / Southern Mirkwood / The Siege of Mirkwood!
+    Class/Race/Epic / Epic / Volume III: 'Allies of the King' Foreword!
+    Class/Race/Epic / Epic / Tidings from Galadriel!
+    Eriador / Bree-land / One Thing Drives Out Another!
+    Rhovanion / Eastern Rohan / A Summons to Hytbold!
+    Class/Race/Epic / Epic / Epic Battles Await!
+    Mordor / Gorgoroth / Well-preserved!
+    Rhovanion / Wells of Langflood / The Wells of Langflood!
+    Rhovanion / Wells of Langflood / Durin Requests Your Help!
+    Rhovanion / Blood of Azog / A Moment of Reflection!
+    Instances / Return to Carn Dûm / Uneasy Lies The Crown!
+    Class/Race/Epic / Epic / A Summons From King Elessar!
+    Class/Race/Epic / Class / Master of Song (Minstrel) (Landscape Difficulty)!
+    Class/Race/Epic / Class / Adept of Song (Minstrel) (Landscape Difficulty)!
+    Class/Race/Epic / Epic / Volume III, Book 11: Foreword!
+    Rhovanion / Eastern Rohan / To the Aid of Rohan!
+    Class/Race/Epic / Class / Level Thirty!
+    Class/Race/Epic / Class / Level Forty!
+    Class/Race/Epic / Class / Level Fifty!
+    Class/Race/Epic / Class / On to Moria!
+    Instances / Return to Carn Dûm / Discovery: Carn Dûm!
+
+Crell — 2023-10-31 at 4:32 PM Suggestion: Treat Forester Competition and follow up crafting events as some kind of toggle on/off per-character, per event/craft type. For example my RK isn't a forester and so can't do the forester competition.
+Crell — 2023-10-30 at 3:15 AM: numerous comments in Discord
+    StringTooltipWindow.lua:51 attempt to call method 'MouseMove' (a nil value)
+    "I do note that t some point you added 'cave in the hills'  (on import) Which should probably be labeled 'Draigoch-Discovery', unless you're checking for a quest complete instead of the actual deed. (Because you need the quest completed to un-gate the discovery properly)"
+    [10/29 07:18:51 PM] Deed Tracker did not recognize The following Deed IDs. Please email this to LotroDeedTracker@gmail.com for inclusion in a future release!: 1879139153, 1879139157, 1879139165, 1879139169, 1879139173, 1879221749, 1879139154, 1879139158, 1879139166, 1879139170, 1879139174, 1879139162, 1879200238, 1879326066, 1879220382, 1879398961, 1879139163, 1879139155, 1879139167, 1879139171, 1879139161, 1879205932, 1879139159, 1879139156, 1879139160, 1879139164, 1879139168, 1879139172
+
+Add last-known-level (and class?) to character name list in Deed Tracker
+
+hrimvi — 2023-09-15 at 9:44 AM "Could the osgiliath pvmp deeds get moved to not actively achievable cause you cant complete them rn?"
+
+What caused this?
+[10/03 09:50:56 PM] ...gins\CubePlugins\DeedTracker\StringTooltipWindow.lua:51: attempt to call method 'MouseMove' (a nil value)
+
+Consider how to automatically generate the language-specific parts of RegionInfo.lua.
+
+---
+
+[09/03 12:58:21 PM] ...s Online\Plugins\CubePlugins\DeedTracker\MainWin.lua:974: attempt to index local 'currentDeed' (a nil value)
+
+
+
+
+Make maintenance easier: combine tier into DeedInfo.lua, and duplicate it into DeedDataXX.lua with pre-processor.
+    Make a DeedInfoGenerator.lua that is taken in by the pre-processor, and that splits it into DeedInfo.lua and DeedDataXX.lua.
+
+
+Unknown chat channel: "Entered the Gundabad - Regional channel."
+Crell has a mount import issue with human characters.
+Avoiding defeat deeds: Set min and max level to the level prior to the requirement.
+
+Bullroarer:
+    Test Valar 140 to see if those skirmish deeds are real
+    get landscape difficulty first, then use Test Valar to see if deeds are awarded.
+
+Add block comments before each file format update block describing what we think changed.
+Break apart update function into sub-functions for each version, and per-character for each version.
+
+Bug: Nested categories like "Level 45 - 130", "-Barrow-downs Survival-" are being accidentally hidden in "hide completed deeds" mode
+Bug: In "Hide completed deeds", when a tab doesn't have any eligible deeds (see Allegiances for a character < 110), the progress bar is blue.
+Bug: In "Hide completed deeds", When there are two categories in a row, the first one shows up as empty and is hidden incorrectly. Wait for U.I. rewrite to fix?
+Bug: Completed Rescue in Nurz Ghashu which completed Skirmisher of Middle-earth
+    When Skirmisher of Middle-earth completed next, it auto-completed Rescue in Nurz Ghashu,
+    But the disambiguation window stayed up, so when it was answered that seemed to un-check the deeds. (Or they were never checked.)
+
+Objectives work:
+    Missing quest objectives like in:
+	Gondor / The Wastes / Relics of the Last Alliance: externalInventoryItem not processed
+	Mordor / Gorgoroth / Forge-works of Udun, Forge-fires of Udûn:
+		(${CURRENT}/${MAX}) => enterDetection (see Inn League Challenge)
+	Lots of Barrow-downs survival deeds have coordinates that aren't necessary.
+	Counts for The War deeds not showing up - e.g. Monster-slayer -- Tier 1
+		Fix tiering for Osgiliath deeds.
+    An Unusual Arrival has a duplicated objective
+    Stangard Explorer: Coordinates are wrong, possibly in the building instead of out.
+    Unify the look of objectives with/without lore, and with/without geo.
+
+    Look at deeds like 1879380513  -- Race & Social / The Wistmead Wheat Maze
+        The old progressOverride is better than the quest name.
+        How do we keep those?
+
+        During this, developed some redundancies:
+        "Complete the deed 'Orcs of the Forge (Advanced)' (Complete Orcs of the Forge)";
+    
+    Nix progressOverrides that start with Explore, Slay many, Defeat, ... ?
+
+  -- Race & Social / The Battle of the Hornburg
+  [1879409576] = {
+      [1] = {
+        "Complete Volume III, Book 13: The Battle of the Hornburg";
+      };
+  };
+  versus:
+  -- Race & Social / The Battle of the Hornburg
+  [1879409576] = {
+      [1] = {
+        "Complete the quest 'Book 13, Chapter 11: Dawn Comes'";
+      };
+  };
+
+    "1879419075" name="Apprentice of Scrolls"
+        Quests are mutually exclusive
+
+    Once objectives are correct enough, remove Info text and option to switch between the two.
+
+Figure out what the difference is between DisambiguateWindow and DeedOrQuestWindow.
+
+Ideas that came about while we did the v2.0 to v3.0 update:
+    Deed Tracker doesn't seem to react to Escape (to close the window) if HUD is off.
+
+    Change Titles to a per-language lookup table by ID.
+
+    SELECTED_TAB - there seems to be disagreement in code about which part of the UI is a page and which is a tab.
+        Try to fix this and settle on one or the other. Historically it's gone Page/Tab/Deed
+
+    Find uses of Indicies in function/variable names and rename where appropriate.
+    
+    If you delete a character, does LOTRO delete the corresponding plugindata directory?
+        If so, you could store a file there when we first see the character, and if it's ever not there
+        ask if this is a recreated character.
+        Or if the character level is lower than the last recorded level, ask.
+    Think about whether we should try and detect a v3.0 file during the v2.0 to v3.0 upgrade. (See Evernight backup from 2023-01-17.)
+
+Bugs:
+
+Bug (deed): Possibly missing: "The Path of the Restoring Rune": Complete 3 quests
+Bug (deed): Ceoligar says Social deeds. Did the deeds 'Harvestmath', 'Yule' and 'World Consolidation Announcement' actually exist? I participated in all these event since beta, but do not have any of these deeds completed in my deed log. I do have 'World Consoliation Begins' completed though.
+Bug (deed): Thespian (3 of 3) and Thespian are both achievable.
+    (3 of 3) comes from the theater, the other comes from buying the title from Jeffrey Bloomer
+Bug (deed): "Weathering the storm deed is not obsolete any more, they reintroduced it a while ago..."
+
+Features:
+    Consider pre-creating a script to downgrade from v3.0 to v2.0 files:
+        Rename .pluginfiles to v3.0.pluginfile
+        Move backups back into place
+        update version in DeedTracker_CharData.plugindata
+
+
+Updated Companion import to report companion-completed deeds that aren't in the DeedData table.
+    Test with Crell's file from Discord/deed-tracker.
+    Result:
+        Deed Tracker did not recognize The following Deed IDs. 
+        Please email this to LotroDeedTracker@gmail.com for inclusion in a future release!: 
+        1879139153, 1879139157, 1879139165, 1879139169, 1879139173, 1879221749, 1879139154, 
+        1879139158, 1879139166, 1879139170, 1879139174, 1879200238, 1879326066, 1879139162, 
+        1879220382, 1879139161, 1879398961, 1879139155, 1879139163, 1879139167, 1879139171, 
+        1879205932, 1879139159, 1879139156, 1879139160, 1879139164, 1879139168, 1879139172, 
+        1879139456
+
+Encounter Complete: Firingúl has fallen to your mighty blow
+    This could indicate that the deed just completed, not the quest.
+
+If the current character level is higher than the server cap, raise the server cap!
+    Pay attention to the This is a Legendary Server flag.
+
+Completion window: dt suggests:
+    Add tooltips to "send completion to" section of bottom.
+    Add space between left and right on bottom. Maybe a spacer / dividing line?
+
+Feature: dt192 says "Suggestion for deed tracker, would be good if there was a compact mode for deed completion, like just a little pop up notification in the bottom right corner letting you know which deed completed  that auto closes. The current notification window is too much and turning it off is also bad as I miss when I'm complete."
+Feature: dt192 says " would be good to see how many TPs a character has earned, doesn't seem to be a way to see this."
+Feature: In Options, add button to "recover" Deed Tracker shortcut icon.
+Feature: Ensure shortcut icon is always on-screen.
+Feature: Customize how transparent shortcut icon is when mouse is not over it.
+Feature: Borrow idea of a tip window from Combat Analysis?
+Feature: Received another request for a way to delete a character.
+Feature: Add UI button in Options to trigger import?
+    y = AddButton(options, y, GetString(_LANG.OPTIONS.CHECK_FOR_IMPORT_FILE), function() -- trigger plugin reload --; end);
+Feature: Switch from saving during unload to saving after change, and only save during unload if a deed completion save is pending.
+Feature (external): Submit a feature change to Lotro Companion that exports deed completion as a .plugindata file.
+        and/or
+    Provide a website feature where you upload a Lotro Companion file and it spits out a .plugindata file.
+Feature: dt192 suggests an option to hide the Icon Button.
+Feature: Switch from current Localization system to one where language-specific files are conditionally imported, and then all strings are automatically in the right language.
+Feature: Use numbers instead of strings for table lookups where possible?
+Feature: Think about saving periodic backups, similar to Travel Window II or Reminders.
+Feature: Thanks to the race-change token, you could have extra completed deeds that another character of your current race doesn't have access to. I think non-current racial deeds shouldn't count for your total completed deed count.
+Feature: Remove IS_HUD_TOGGLED_ON from settings, make it a main window variable or something.
+Feature: New regions to add include:
+    Erebor (used for Erebor housing)
+Feature: Remove share button once sharing happens?
+Feature: Check for any existing deeds that use non-lotro types (except for Deed Tracker categories).
+Feature: Crell:
+    Request: Don't just remember the tab I'm on when switching characters. Also remember what I have collapsed/uncollapsed.
+    Since I can't resize the window you could also keep the scroll position xD
+Feature: Don't pre-create a highlight row & button for every deed row. Instead, create them on-demand.
+Feature: Update self:SetFactionOrCompletionTime() to take a better-row.
+Feature:
+    NotACat — 10/17/2021
+    I have a couple of suggestions which I can't see on deed-tracker-future-enhancements yet
+    1. add a button to clear the filter box with one click—this is a thing which some plugins do already and it's a boon, backspacing multiple times can sometimes take a while because the list updates on each keystroke
+Feature: Address level lag
+Feature: When filtering (e.g. "vanish"), category shows "No deeds matching filter" when "The Vanished Rider" is above your level (70). Seems like we should get different text for this case.
+Feature (already done): Deed Tracker: allow launching in read-only view of other characters during Session Play, starting with current name without ~
+Feature: add an opacity setting so people can see the icon better?
+Feature: When switching characters, stay on current tab instead of switching to that character's latest view.
+Feature: Add button/command to print Total Percentage (current conditions)
+Feature: Add option for completion sharing to include or not the page name.
+Feature (already done?): Rename Debug to Output, create new Debug that does the check for `if (SETTINGS.VERBOSE_OUTPUT) then`
+Feature: Show in Tracker button should not redraw if already on the correct tab.
+Feature: Look into TreeView:SetFilter
+Feature: Standard server: could be account-level, not server-level save.
+Feature: Promotion Points: Don't show on servers with level caps below 100.
+
+Needs localization:
+    ConflictingQuests.lua
+        Re-run quest versus deed analysis for German and French first.
+    RegionInfo.lua
+        Mostly complete.
+Feature: Add "Also parent" / "Also child" links so that checking off Dunland / Beast-slayer (Advanced) can check off Dunland / Beast-slayer
+Feature:
+    Gondor / Far Anórien:
+        Mutually exclusive deeds:
+            Treating With Scoundrels -- Distraction
+            Treating With Scoundrels - Ransom Paid
+        if one is completed, the other should not be counted against the sum, but it should be completable.
+Feature:
+    Anniversary Scavenger Hunt can complete when you log in, before Deed Tracker loads
+        But if you complete any Anniversary Deeds, it implies that you were on during the Anniversary Event, which implies that you have completed Anniversary Scavenger Hunt.
+Feature: NotACat — 07/23/2021 - would it be possible to arrange that when you get a notification of a completed Deed and click "Show in Tracker", that it shows up even if you have "Hide Completed Deeds" turned on ??
+Feature: How to handle a deleted or renamed character?
+Feature: HTA to display deed status?
+Feature: Manually checking/unchecking one of a paired set (Mines of Moria) could check off the other.
+Feature: if you check off Mordor Ultimate Fan, check off the collector one automatically
+Feature: Add option to turn off auto save?
+Feature: Come up with logical minimum levels for deeds that don't have them.
+Feature: Include corresponding landscape locations for each instance.
+        Note: things like Instance: Retake Weathertop too
+        Skirmish:
+            Storm on Methedras contributes to region Dunland
+        Can we encode which landscape region applies to each instance for slayer deeds?
+Feature: Reorganization:
+        PluginFunctions:
+            Break into pieces - are they deed functions? UI functions?
+        MainWin:
+            Change deed drawing logic to first call a function to build up a structure of what to show, then create the UI from it
+                Mark whether a deed counts toward the count in the structure, and only update the count when checking/unchecking based on that flag.
+                Rename everything so there are no more quest anythings
+                Extract as much into functions, so the flow is easier to see
+                    creating UI elements
+                Make categories root elements so they are collapsibe, instead of just another entry
+                Find "quest" in MainWin, replace with "deed".
+Feature: Make sections collapsible (See Allegiances)
+Feature: Add human-friendly time to deed window, eventual deed tooltip, etc. Update once a minute. Possible values:
+        Just now
+        A few minutes ago
+        In the last hour
+        A few hours ago
+        Yesterday
+        A few days ago
+        A week ago
+        More than a week ago
+        Include tooltip with date-time value
+Feature: Show Rep for each tab and page?
+Feature: Separate symbol for different factions?
+Feature: Allow for resizing main window
+Feature: Some kind of reporting on deeds per day, compare all characters, etc.? Maybe a graph? :D
+Feature: Make Completion Window sections collapsible
+Feature: Add search button, open new window, allow searching by title, description, uncompleted (default) or all deeds, filter by reputation, etc.
+Feature: An option to sort by LOTRO Deed log order (without hierarchy) instead of Deed Tracker order.
+Feature: Add creep deeds
+Feature: Option to turn off progress bar updating during searching. (Or just decide to not update.)
+Feature: Flag "hidden" deeds in the data file, so they can be called out in future enhancements.
+Feature: A UI for announcing new skirmishes when levelling
+Feature: Text Color customization options
+Feature: When filtering, include any pre-reqs, but gray them out to show they're not part of the results.
+Feature: Plugin that captures all unique texts sent to Quest channel for later analysis?
+Feature: Get French and German localizations for channels:
+        Ettenmoors
+        Frostbluff (Festival) - Frostfels (DE), 
+
+Investigation (for what purpose?): Travel window closes when you activate an ability. How does it know to do that?
