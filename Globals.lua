@@ -161,4 +161,3 @@ DEFAULT_SETTINGS =
         };
     };
 
-SHOW_DEBUG_OPTIONS = true;
