@@ -4696,6 +4696,64 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
            [16] = {["ID"] = 1879477838; }; -- Rat-catcher of Umbar Baharbêl (Advanced)
            [17] = {["ID"] = 1879477839; }; -- Rat-catcher of Umbar Baharbêl
            [18] = {["ID"] = 1879478542; }; -- Umbar Completionist
+           [19] = {["CAT_ID"] = 304; }; -- Umbar-môkh
+           [20] = {["ID"] = 1879486409; }; -- Light in the Umbar-môkh
+           [21] = {["ID"] = 1879486401; }; -- Slayer of the Umbar-môkh
+           [22] = {["ID"] = 1879486271; }; -- Slayer of Khabârkhad
+           [23] = {["ID"] = 1879486272; }; -- Crypt-raider Slayer of Khabârkhad (Advanced)
+           [24] = {["ID"] = 1879486268; }; -- Crypt-raider Slayer of Khabârkhad
+           [25] = {["ID"] = 1879486252; }; -- Spider-bane of Khabârkhad (Advanced)
+           [26] = {["ID"] = 1879486253; }; -- Spider-bane of Khabârkhad
+           [27] = {["ID"] = 1879486270; }; -- Dead-slayer of Khabârkhad (Advanced)
+           [28] = {["ID"] = 1879486269; }; -- Dead-slayer of Khabârkhad
+           [29] = {["ID"] = 1879486280; }; -- Slayer of Ilmabiri
+           [30] = {["ID"] = 1879486283; }; -- Forsaken-slayer of Ilmabiri (Advanced)
+           [31] = {["ID"] = 1879486282; }; -- Forsaken-slayer of Ilmabiri
+           [32] = {["ID"] = 1879486285; }; -- Goblin-slayer of Ilmabiri (Advanced)
+           [33] = {["ID"] = 1879486279; }; -- Goblin-slayer of Ilmabiri
+           [34] = {["ID"] = 1879486281; }; -- Crocodile-slayer of Ilmabiri (Advanced)
+           [35] = {["ID"] = 1879486284; }; -- Crocodile-slayer of Ilmabiri
+           [36] = {["ID"] = 1879486287; }; -- Slayer of Kamrabezûr
+           [37] = {["ID"] = 1879486292; }; -- Cultist-slayer of Kamrabezûr (Advanced)
+           [38] = {["ID"] = 1879486286; }; -- Cultist-slayer of Kamrabezûr
+           [39] = {["ID"] = 1879486289; }; -- Gladiator-slayer of Kamrabezûr (Advanced)
+           [40] = {["ID"] = 1879486291; }; -- Gladiator-slayer of Kamrabezûr
+           [41] = {["ID"] = 1879486290; }; -- Dead-slayer of Kamrabezûr (Advanced)
+           [42] = {["ID"] = 1879486288; }; -- Dead-slayer of Kamrabezûr
+           [43] = {["ID"] = 1879486295; }; -- Slayer of Tâkhdar
+           [44] = {["ID"] = 1879486296; }; -- Grodbog-slayer of Tâkhdar (Advanced)
+           [45] = {["ID"] = 1879486294; }; -- Grodbog-slayer of Tâkhdar
+           [46] = {["ID"] = 1879486293; }; -- Smuggler-bane of Tâkhdar (Advanced)
+           [47] = {["ID"] = 1879486297; }; -- Smuggler-bane of Tâkhdar
+           [48] = {["ID"] = 1879486298; }; -- Spider-bane of Tâkhdar (Advanced)
+           [49] = {["ID"] = 1879486299; }; -- Spider-bane of Tâkhdar
+           [50] = {["ID"] = 1879486390; }; -- Slayer of Dil-irmíz
+           [51] = {["ID"] = 1879486392; }; -- Smuggler-bane of Dil-irmíz (Advanced)
+           [52] = {["ID"] = 1879486402; }; -- Smuggler-bane of Dil-irmíz
+           [53] = {["ID"] = 1879486393; }; -- Criminal-bane of Dil-irmíz (Advanced)
+           [54] = {["ID"] = 1879486403; }; -- Criminal-bane of Dil-irmíz
+           [55] = {["ID"] = 1879486404; }; -- Explorer of the Umbar-môkh
+           [56] = {["ID"] = 1879486395; }; -- Reclaiming Khabârkhad
+           [57] = {["ID"] = 1879486399; }; -- Reclaiming Ilmabiri
+           [58] = {["ID"] = 1879486400; }; -- Reclaiming Kamrabezûr
+           [59] = {["ID"] = 1879486397; }; -- Reclaiming Tâkhdar
+           [60] = {["ID"] = 1879486391; }; -- Reclaiming Dil-irmíz
+           [61] = {["ID"] = 1879486411; }; -- Tales of the Umbar-môkh
+           [62] = {["ID"] = 1879486408; }; -- Tales of Khabârkhad
+           [63] = {["ID"] = 1879486410; }; -- Tales of Ilmabiri
+           [64] = {["ID"] = 1879486407; }; -- Tales of Kamrabezûr
+           [65] = {["ID"] = 1879486412; }; -- Tales of Tâkhdar
+           [66] = {["ID"] = 1879486406; }; -- Tales of Dil-irmíz
+           [67] = {["ID"] = 1879486405; }; -- Vanquisher of Dil-irmíz
+           [68] = {["ID"] = 1879486396; }; -- Cultist-bane of Dil-irmíz (Advanced)
+           [69] = {["ID"] = 1879486394; }; -- Cultist-bane of Dil-irmíz
+           [70] = {["ID"] = 1879486389; }; -- Darkwater-slayer of Dil-irmíz (Advanced)
+           [71] = {["ID"] = 1879486398; }; -- Darkwater-slayer of Dil-irmíz
+           [72] = {["ID"] = 1879486550; }; -- Rat-slayer of the Umbar-môkh (Advanced)
+           [73] = {["ID"] = 1879486551; }; -- Rat-slayer of the Umbar-môkh
+           [74] = {["ID"] = 1879486552; }; -- Bat-slayer of the Umbar-môkh (Advanced)
+           [75] = {["ID"] = 1879486553; }; -- Bat-slayer of the Umbar-môkh
+           [76] = {["ID"] = 1879486571; }; -- Treasure-seeker of the Umbar-môkh
         };
     };
 };
