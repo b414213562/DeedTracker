@@ -4633,8 +4633,8 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
            [19] = {["ID"] = 1879474840; }; -- Quests of the Cape of Umbar
            [20] = {["ID"] = 1879473214; }; -- Great Aspirations - Burgeoning
            [21] = {["ID"] = 1879473213; }; -- Great Aspirations - Demand
-           [22] = {["ID"] = 1879474824; }; -- Haradrim-slayer of the Cape of Umbar (Advanced)
-           [23] = {["ID"] = 1879474820; }; -- Haradrim-slayer of the Cape of Umbar
+           [22] = {["CAT_ID"] = 299; }; -- The Depths of Mâkhda Khorbo
+           [23] = {["ID"] = 1879482825; }; -- The Depths of Mâkhda Khorbo -- Azagath's Escape
         };
         [H_UMBAR_BAHARBEL] = {
             [1] = {["ID"] = 1879477448; }; -- Deeds of Umbar Baharbêl
