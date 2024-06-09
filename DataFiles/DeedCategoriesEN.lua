@@ -341,7 +341,8 @@ _DEED_CATEGORIES = {
 [275] = { ["NAME"] = "Agarnaith"; };
 [276] = { ["NAME"] = "Gorgoroth"; };
 -- Haradwaith
-[299] = { ["NAME"] = "The Depths of Mâkhda Khorbo" };
+[299] = { ["NAME"] = "The Depths of Mâkhda Khorbo"; };
+[304] = { ["NAME"] = "Umbar-môkh"; };
 };
 
--- Last used: 303
+-- Last used: 304
