@@ -152,7 +152,7 @@ _DEED_LOG_PAGE_TAB_NAMES = {
     I_THE_WAR_OF_THREE_PEAKS_STR = "La guerre des Trois Sommets";
     I_THE_MOUNTAIN_HOLD_STR = "La Montagne";
     I_RETURN_TO_CARN_DUM_STR = "Retour à Carn Dûm";
-    I_CORSAIRS_OF_UMBAR = "Corsaires d'Umbar";
+    I_CORSAIRS_OF_UMBAR_STR = "Corsaires d'Umbar";
 
     -- Hobbies
     H_FISHING_STR = "Pêche";
