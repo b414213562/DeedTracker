@@ -49068,7 +49068,7 @@ _OBJECTIVES = {
         "Habe die Suche 'Die Klinge von Elrohir' aktiv oder ";
       };
       [2] = {
-        "Habe die Suche 'Die Klinge von Elladan' aktiv";
+        "Habe die Suche 'Die Klinge von Elladan' aktiv oder ";
       };
       [3] = {
         "Sammelt 7500 Ehre, indem Ihr Taten in Eriador vollbringt";
@@ -49080,7 +49080,7 @@ _OBJECTIVES = {
         "Habe die Suche 'Die Klinge von Elladan' aktiv oder ";
       };
       [2] = {
-        "Habe die Suche 'Die Klinge von Elrohir' aktiv";
+        "Habe die Suche 'Die Klinge von Elrohir' aktiv oder ";
       };
       [3] = {
         "Sammelt 5000 Ehre, indem Ihr Taten in Eriador vollbringt";
@@ -49092,7 +49092,7 @@ _OBJECTIVES = {
         "Habe die Suche 'Die Klinge von Elrohir' aktiv oder ";
       };
       [2] = {
-        "Habe die Suche 'Die Klinge von Elladan' aktiv";
+        "Habe die Suche 'Die Klinge von Elladan' aktiv oder ";
       };
       [3] = {
         "Sammelt 22.500 Ehre, indem Ihr Taten in Eriador vollbringt";
@@ -49113,7 +49113,7 @@ _OBJECTIVES = {
         "Habe die Suche 'Die Klinge von Elrohir' aktiv oder ";
       };
       [2] = {
-        "Habe die Suche 'Die Klinge von Elladan' aktiv";
+        "Habe die Suche 'Die Klinge von Elladan' aktiv oder ";
       };
       [3] = {
         "Sammelt 20.000 Ehre, indem Ihr Taten in Eriador vollbringt";
@@ -49125,7 +49125,7 @@ _OBJECTIVES = {
         "Habe die Suche 'Die Klinge von Elrohir' aktiv oder ";
       };
       [2] = {
-        "Habe die Suche 'Die Klinge von Elladan' aktiv";
+        "Habe die Suche 'Die Klinge von Elladan' aktiv oder ";
       };
       [3] = {
         "Sammelt 17.500 Ehre, indem Ihr Taten in Eriador vollbring.";
@@ -49137,7 +49137,7 @@ _OBJECTIVES = {
         "Habe die Suche 'Die Klinge von Elrohir' aktiv oder ";
       };
       [2] = {
-        "Habe die Suche 'Die Klinge von Elladan' aktiv";
+        "Habe die Suche 'Die Klinge von Elladan' aktiv oder ";
       };
       [3] = {
         "Sammelt 15.000 Ehre, indem Ihr Taten in Eriador vollbringt";
@@ -49149,7 +49149,7 @@ _OBJECTIVES = {
         "Habe die Suche 'Die Klinge von Elrohir' aktiv oder ";
       };
       [2] = {
-        "Habe die Suche 'Die Klinge von Elladan' aktiv";
+        "Habe die Suche 'Die Klinge von Elladan' aktiv oder ";
       };
       [3] = {
         "Sammelt 12.500 Ehre, indem Ihr Taten in Eriador vollbringt";
@@ -49161,7 +49161,7 @@ _OBJECTIVES = {
         "Habe die Suche 'Die Klinge von Elrohir' aktiv oder ";
       };
       [2] = {
-        "Habe die Suche 'Die Klinge von Elladan' aktiv";
+        "Habe die Suche 'Die Klinge von Elladan' aktiv oder ";
       };
       [3] = {
         "Sammelt 10.000 Ehre, indem Ihr Taten in Eriador vollbringt";
@@ -62584,8 +62584,8 @@ _OBJECTIVES = {
       };
       [6] = {
       ["NAME"] = "Kâshtabil"; 
-      ["PROGRESS"] = "Findet Kâshatabil."; 
-      ["LORE"] = "Kâshatabil, das Kriechende Gewirr, ist ein blubbernder Sumpf voller Treibholz, Krebse und Norbog. Das widerwärtige Wasser ist Quelle vieler Krankheiten, die das nahegelegene Dorf Khûtra heimsuchen."; 
+      ["PROGRESS"] = "Findet Kâshtabil."; 
+      ["LORE"] = "Kâshtabil, das Kriechende Gewirr, ist ein blubbernder Sumpf voller Treibholz, Krebse und Norbog. Das widerwärtige Wasser ist Quelle vieler Krankheiten, die das nahegelegene Dorf Khûtra heimsuchen."; 
       ["POINTS"] = {
         [1] = {
           ["LAT"] = "19.21S"; 
@@ -63868,7 +63868,7 @@ _OBJECTIVES = {
         "Schließt die Tat 'Rattenfänger von Umbar Baharbêl (Fortgeschritten)' ab";
       };
   };
-  -- Umbar Baharbêl / Umbar Completionist
+  -- Umbar Baharbêl / Umbar-Vervollständiger
   [1879478542] = {
       [1] = {
         "Schließt die Tat 'Taten der Schildinseln' ab (Abgeschlossen: Taten der Schildinseln)";

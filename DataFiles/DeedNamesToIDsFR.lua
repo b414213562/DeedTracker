@@ -675,7 +675,7 @@ _NAMES_TO_IDS = {
   ["Contrées sauvages d'Evendim"] = { [1] = 1879089146; };
   ["Contrôle des foules"] = { [1] = 1879428327; };
   ["Contrôle permanent"] = { [1] = 1879277366; };
-  ["Corsair and Pirate Slayer of the Cape of of Umbar"] = { [1] = 1879474833; };
+  ["Corsair and Pirate Slayer of the Cape of Umbar"] = { [1] = 1879474833; };
   ["Corsair and Pirate Slayer of the Cape of Umbar (Advanced)"] = { [1] = 1879474808; };
   ["Corsair-slayer of the Shield Isles"] = { [1] = 1879469687; };
   ["Corsair-slayer of the Shield Isles (Advanced)"] = { [1] = 1879469690; };
@@ -1291,6 +1291,7 @@ _NAMES_TO_IDS = {
   ["Exploration des Grands-arpents"] = { [1] = 1879287721; };
   ["Exploration du Mordor assiégé"] = { [1] = 1879395348; };
   ["Exploration du Pierreval"] = { [1] = 1879287722; };
+  ["Exploration ultime d'Umbar"] = { [1] = 1879478542; };
   ["Exploratrice d'Agarnaith"] = { [1] = 1879353980; };
   ["Exploratrice d'Angmar"] = { [1] = 1879303239; };
   ["Exploratrice d'Azanulbizar"] = { [1] = 1879415683; };
@@ -4649,7 +4650,6 @@ _NAMES_TO_IDS = {
   ["Tyrans de l'Ennemi"] = { [1] = 1879071838; };
   ["Udûn : suite des efforts"] = { [1] = 1879354726; };
   ["Umbar Baharbêl, la Cité des corsaires"] = { [1] = 1879477633; };
-  ["Umbar Completionist"] = { [1] = 1879478542; };
   ["Un accueil glacial"] = { [1] = 1879226367; };
   ["Un bûcheron pour le Pays de Bree"] = { [1] = 1879071702; };
   ["Un bûcheron pour le Pays de Bree (avancé)"] = { [1] = 1879071703; };

@@ -49068,7 +49068,7 @@ _OBJECTIVES = {
         "Avoir la quête 'La lame d'Elrohir' active ou ";
       };
       [2] = {
-        "Avoir la quête 'La lame d'Elladan' active";
+        "Avoir la quête 'La lame d'Elladan' active ou ";
       };
       [3] = {
         "Marquez 7 500 points d'honneur en accomplissant des prouesses en Eriador";
@@ -49080,7 +49080,7 @@ _OBJECTIVES = {
         "Avoir la quête 'La lame d'Elladan' active ou ";
       };
       [2] = {
-        "Avoir la quête 'La lame d'Elrohir' active";
+        "Avoir la quête 'La lame d'Elrohir' active ou ";
       };
       [3] = {
         "Marquez 5 000 points d'honneur en accomplissant des prouesses en Eriador";
@@ -49092,7 +49092,7 @@ _OBJECTIVES = {
         "Avoir la quête 'La lame d'Elrohir' active ou ";
       };
       [2] = {
-        "Avoir la quête 'La lame d'Elladan' active";
+        "Avoir la quête 'La lame d'Elladan' active ou ";
       };
       [3] = {
         "Marquez 22 500 points d'honneur en accomplissant des prouesses en Eriador";
@@ -49113,7 +49113,7 @@ _OBJECTIVES = {
         "Avoir la quête 'La lame d'Elrohir' active ou ";
       };
       [2] = {
-        "Avoir la quête 'La lame d'Elladan' active";
+        "Avoir la quête 'La lame d'Elladan' active ou ";
       };
       [3] = {
         "Marquez 20 000 points d'honneur en accomplissant des prouesses en Eriador";
@@ -49125,7 +49125,7 @@ _OBJECTIVES = {
         "Avoir la quête 'La lame d'Elrohir' active ou ";
       };
       [2] = {
-        "Avoir la quête 'La lame d'Elladan' active";
+        "Avoir la quête 'La lame d'Elladan' active ou ";
       };
       [3] = {
         "Marquez 17 500 points d'honneur en accomplissant des prouesses en Eriador";
@@ -49137,7 +49137,7 @@ _OBJECTIVES = {
         "Avoir la quête 'La lame d'Elrohir' active ou ";
       };
       [2] = {
-        "Avoir la quête 'La lame d'Elladan' active";
+        "Avoir la quête 'La lame d'Elladan' active ou ";
       };
       [3] = {
         "Marquez 15 000 points d'honneur en accomplissant des prouesses en Eriador";
@@ -49149,7 +49149,7 @@ _OBJECTIVES = {
         "Avoir la quête 'La lame d'Elrohir' active ou ";
       };
       [2] = {
-        "Avoir la quête 'La lame d'Elladan' active";
+        "Avoir la quête 'La lame d'Elladan' active ou ";
       };
       [3] = {
         "Marquez 12 500 points d'honneur en accomplissant des prouesses en Eriador";
@@ -49161,7 +49161,7 @@ _OBJECTIVES = {
         "Avoir la quête 'La lame d'Elrohir' active ou ";
       };
       [2] = {
-        "Avoir la quête 'La lame d'Elladan' active";
+        "Avoir la quête 'La lame d'Elladan' active ou ";
       };
       [3] = {
         "Marquez 10 000 points d'honneur en accomplissant des prouesses en Eriador";
@@ -59950,7 +59950,7 @@ _OBJECTIVES = {
         "Terminez la quête 'Chapitre 5.7 : Le cap d'Umbar'";
       };
       [6] = {
-        "Terminez la quête 'Chapitre 6.7 : Le repaire de la Bête'";
+        "Terminez la quête 'Chapitre 6.7 : le repaire de la bête'";
       };
       [7] = {
         "Terminez la quête 'Chapitre 7.5 : Toutes les rivières mènent à la mer'";
@@ -62507,7 +62507,7 @@ _OBJECTIVES = {
   -- Cap d'Umbar / Corsair and Pirate Slayer of the Cape of Umbar (Advanced)
   [1879474808] = {
       [1] = {
-        "Terminez la prouesse 'Corsair and Pirate Slayer of the Cape of of Umbar'";
+        "Terminez la prouesse 'Corsair and Pirate Slayer of the Cape of Umbar'";
       };
       [2] = {
         "Éliminez de nombreux corsaires et pirates au cap d'Umbar x180";
@@ -62584,7 +62584,7 @@ _OBJECTIVES = {
       };
       [6] = {
       ["NAME"] = "Kâshtabil"; 
-      ["PROGRESS"] = "Trouvez Kâshatabil"; 
+      ["PROGRESS"] = "Trouvez Kâshtabil"; 
       ["LORE"] = "Kâshatabil, l'Enchevêtrement rampant, est un marais bouillonnant regorgeant de bois flotté, de crabes et de norbogs. Ses eaux souillées sont la source de nombreux maux qui frappent le village voisin de Khûtra."; 
       ["POINTS"] = {
         [1] = {
@@ -62595,7 +62595,7 @@ _OBJECTIVES = {
       };
       [7] = {
       ["NAME"] = "Gherja Mût"; 
-      ["PROGRESS"] = "Find Gherja Mût"; 
+      ["PROGRESS"] = "Trouvez Gherja Mût"; 
       ["LORE"] = "Dans l'ombre du Mâkhda Khorbo se trouve Gherja Mût, les Landes des morts. Les morts ressuscités qui errent dans ces ruines regroupent des créatures anciennes ou mortes récemment, réanimées par le pouvoir résiduel de Sauron."; 
       ["POINTS"] = {
         [1] = {
@@ -62901,7 +62901,7 @@ _OBJECTIVES = {
         "Éliminer les Morts au cap d'Umbar x250";
       };
   };
-  -- Cap d'Umbar / Corsair and Pirate Slayer of the Cape of of Umbar
+  -- Cap d'Umbar / Corsair and Pirate Slayer of the Cape of Umbar
   [1879474833] = {
       [1] = {
         "Éliminez de nombreux corsaires et pirates au cap d'Umbar x60";
@@ -63868,7 +63868,7 @@ _OBJECTIVES = {
         "Terminez la prouesse 'Chasseur / Chasseuse de 'rats' d'Umbar Baharbêl (avancé)'";
       };
   };
-  -- Umbar Baharbêl / Umbar Completionist
+  -- Umbar Baharbêl / Exploration ultime d'Umbar
   [1879478542] = {
       [1] = {
         "Terminez la prouesse 'Prouesses des îles du Bouclier'";

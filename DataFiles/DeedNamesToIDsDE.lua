@@ -3970,7 +3970,7 @@ _NAMES_TO_IDS = {
   ["Udûn: Weitere Anstrengungen"] = { [1] = 1879354726; };
   ["Ultimative Techniken"] = { [1] = 1879428329; };
   ["Umbar Baharbêl, die Stadt der Korsaren"] = { [1] = 1879477633; };
-  ["Umbar Completionist"] = { [1] = 1879478542; };
+  ["Umbar-Vervollständiger"] = { [1] = 1879478542; };
   ["Umfassendes Wissen"] = { [1] = 1879277277; };
   ["Umherziehende Bedrohungen: Umherziehende Feinde der Nordhöhen"] = { [1] = 1879325778; };
   ["Umherziehende Bedrohungen: Umherziehende Feinde der Ödlande"] = { [1] = 1879342456; };

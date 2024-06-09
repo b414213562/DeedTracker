@@ -49068,7 +49068,7 @@ _OBJECTIVES = {
         "Have quest 'The Blade of Elrohir' active or ";
       };
       [2] = {
-        "Have quest 'The Blade of Elladan' active";
+        "Have quest 'The Blade of Elladan' active or ";
       };
       [3] = {
         "Earn 7500 Honour by completing Deeds in Eriador";
@@ -49080,7 +49080,7 @@ _OBJECTIVES = {
         "Have quest 'The Blade of Elladan' active or ";
       };
       [2] = {
-        "Have quest 'The Blade of Elrohir' active";
+        "Have quest 'The Blade of Elrohir' active or ";
       };
       [3] = {
         "Earn 5000 Honour by completing Deeds in Eriador";
@@ -49092,7 +49092,7 @@ _OBJECTIVES = {
         "Have quest 'The Blade of Elrohir' active or ";
       };
       [2] = {
-        "Have quest 'The Blade of Elladan' active";
+        "Have quest 'The Blade of Elladan' active or ";
       };
       [3] = {
         "Earn 22500 Honour by completing Deeds in Eriador";
@@ -49113,7 +49113,7 @@ _OBJECTIVES = {
         "Have quest 'The Blade of Elrohir' active or ";
       };
       [2] = {
-        "Have quest 'The Blade of Elladan' active";
+        "Have quest 'The Blade of Elladan' active or ";
       };
       [3] = {
         "Earn 20000 Honour by completing Deeds in Eriador";
@@ -49125,7 +49125,7 @@ _OBJECTIVES = {
         "Have quest 'The Blade of Elrohir' active or ";
       };
       [2] = {
-        "Have quest 'The Blade of Elladan' active";
+        "Have quest 'The Blade of Elladan' active or ";
       };
       [3] = {
         "Earn 17500 Honour by completing Deeds in Eriador";
@@ -49137,7 +49137,7 @@ _OBJECTIVES = {
         "Have quest 'The Blade of Elrohir' active or ";
       };
       [2] = {
-        "Have quest 'The Blade of Elladan' active";
+        "Have quest 'The Blade of Elladan' active or ";
       };
       [3] = {
         "Earn 15000 Honour by completing Deeds in Eriador";
@@ -49149,7 +49149,7 @@ _OBJECTIVES = {
         "Have quest 'The Blade of Elrohir' active or ";
       };
       [2] = {
-        "Have quest 'The Blade of Elladan' active";
+        "Have quest 'The Blade of Elladan' active or ";
       };
       [3] = {
         "Earn 12500 Honour by completing Deeds in Eriador";
@@ -49161,7 +49161,7 @@ _OBJECTIVES = {
         "Have quest 'The Blade of Elrohir' active or ";
       };
       [2] = {
-        "Have quest 'The Blade of Elladan' active";
+        "Have quest 'The Blade of Elladan' active or ";
       };
       [3] = {
         "Earn 10000 Honour by completing Deeds in Eriador";
@@ -62507,7 +62507,7 @@ _OBJECTIVES = {
   -- Cape of Umbar / Corsair and Pirate Slayer of the Cape of Umbar (Advanced)
   [1879474808] = {
       [1] = {
-        "Complete the deed 'Corsair and Pirate Slayer of the Cape of of Umbar'";
+        "Complete the deed 'Corsair and Pirate Slayer of the Cape of Umbar'";
       };
       [2] = {
         "Defeat many Corsairs and pirates in the Cape of Umbar x180";
@@ -62901,10 +62901,10 @@ _OBJECTIVES = {
         "Defeat the Dead in the Cape of Umbar x250";
       };
   };
-  -- Cape of Umbar / Corsair and Pirate Slayer of the Cape of of Umbar
+  -- Cape of Umbar / Corsair and Pirate Slayer of the Cape of Umbar
   [1879474833] = {
       [1] = {
-        "Defeat many Corsairs and pirate in the Cape of Umbar x60";
+        "Defeat many Corsairs and pirates in the Cape of Umbar x60";
       };
   };
   -- Cape of Umbar / Deeds of the Cape of Umbar

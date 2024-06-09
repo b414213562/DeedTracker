@@ -545,7 +545,7 @@ _NAMES_TO_IDS = {
   ["Consume Consumables: White Carrying Chicken"] = { [1] = 1879406770; };
   ["Controlled Breathing"] = { [1] = 1879278723; };
   ["Corruption in Command"] = { [1] = 1879147823; };
-  ["Corsair and Pirate Slayer of the Cape of of Umbar"] = { [1] = 1879474833; };
+  ["Corsair and Pirate Slayer of the Cape of Umbar"] = { [1] = 1879474833; };
   ["Corsair and Pirate Slayer of the Cape of Umbar (Advanced)"] = { [1] = 1879474808; };
   ["Corsair-slayer of Central Gondor"] = { [1] = 1879316277; };
   ["Corsair-slayer of Central Gondor (Advanced)"] = { [1] = 1879316279; };
