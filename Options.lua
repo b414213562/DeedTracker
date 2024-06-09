@@ -15,7 +15,7 @@ end
 ---@param y number The starting height of this option.
 ---@param optionName string The Option to AddDebugField
 ---@param isServer boolean Is the option per-character or per-server?
----@param callback function What function that takes no parameters should be called when the value changes?
+---@param callback function? What function that takes no parameters should be called when the value changes?
 ---@return number #The next Y coordinate.
 function AddOption(options, y, optionName, isServer, callback)
     local checkbox = AddOptionCheckbox(options, y, GetString(_LANG.OPTIONS[optionName]));
