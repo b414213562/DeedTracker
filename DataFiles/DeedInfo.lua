@@ -1138,7 +1138,48 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
         };
         -- Corsairs of Umbar
         [I_CORSAIRS_OF_UMBAR] = {
-
+            [1] = {["ID"] = 1879483030; }; -- Deeds of the Arena of Conflict
+            [2] = {["CAT_ID"] = 300; }; -- The Streets of Râhal Bakh
+            [3] = {["ID"] = 1879483053; }; -- Deeds of The Streets of Râhal Bakh
+            [4] = {["ID"] = 1879483058; }; -- The Streets of Râhal Bakh -- Tier 1
+            [5] = {["ID"] = 1879483055; }; -- The Streets of Râhal Bakh -- Tier 2
+            [6] = {["ID"] = 1879483054; }; -- The Streets of Râhal Bakh -- Tier 3
+            [7] = {["ID"] = 1879483059; }; -- The Streets of Râhal Bakh -- Braver
+            [8] = {["ID"] = 1879483057; }; -- The Streets of Râhal Bakh -- Tier 4
+            [9] = {["ID"] = 1879483056; }; -- The Streets of Râhal Bakh -- Tier 5
+           [10] = {["CAT_ID"] = 301; }; -- The Isle of Storms
+           [11] = {["ID"] = 1879483005; }; -- Survivor of The Isle of Storms
+           [12] = {["ID"] = 1879483007; }; -- The Isle of Storms -- Tier 1
+           [13] = {["ID"] = 1879483008; }; -- The Isle of Storms -- Tier 2
+           [14] = {["ID"] = 1879483002; }; -- The Isle of Storms -- Tier 3
+           [15] = {["ID"] = 1879483009; }; -- The Isle of Storms -- Great Beasts
+           [16] = {["ID"] = 1879483003; }; -- The Isle of Storms -- Tier 4
+           [17] = {["ID"] = 1879483004; }; -- The Isle of Storms -- Tier 5
+           [18] = {["CAT_ID"] = 302; }; -- Dahâl Huliz, The Arena
+           [19] = {["ID"] = 1879482862; }; -- Vanquisher of Dahâl Huliz, The Arena
+           [20] = {["ID"] = 1879482851; }; -- Dahâl Huliz, The Arena -- Tier 1
+           [21] = {["ID"] = 1879482855; }; -- Dahâl Huliz, The Arena -- Tier 2
+           [22] = {["ID"] = 1879482856; }; -- Dahâl Huliz, The Arena -- Tier 3
+           [23] = {["ID"] = 1879482852; }; -- Dahâl Huliz, The Arena -- Gladiators
+           [24] = {["ID"] = 1879482853; }; -- Dahâl Huliz, The Arena -- Tier 4
+           [25] = {["ID"] = 1879482854; }; -- Dahâl Huliz, The Arena -- Tier 5
+           [26] = {["CAT_ID"] = 303; }; -- The Depths of Mâkhda Khorbo
+           [27] = {["ID"] = 1879482986; }; -- Deeds of the Depths of Mâkhda Khorbo
+           [28] = {["ID"] = 1879482935; }; -- The Depths of Mâkhda Khorbo -- Tier 1
+           [29] = {["ID"] = 1879482938; }; -- The Depths of Mâkhda Khorbo -- Tier 2
+           [30] = {["ID"] = 1879482939; }; -- The Depths of Mâkhda Khorbo -- Tier 3
+           [31] = {["ID"] = 1879482987; }; -- The Depths of Mâkhda Khorbo -- The Evil Within
+           [32] = {["ID"] = 1879482988; }; -- The Depths of Mâkhda Khorbo -- The Evil Below
+           [33] = {["ID"] = 1879482985; }; -- The Depths of Mâkhda Khorbo -- The Sea-shadow's Crew
+           [34] = {["ID"] = 1879482936; }; -- The Depths of Mâkhda Khorbo -- Tier 4
+           [35] = {["ID"] = 1879482937; }; -- The Depths of Mâkhda Khorbo -- Tier 5
+           [36] = {["CAT_ID"] = 282; }; -- Not Actively Achievable
+           [37] = {["ID"] = 1879483052; }; -- The Streets of Râhal Bakh -- Tier 5 -- Leading the Charge
+           [38] = {["ID"] = 1879483006; }; -- The Isle of Storms -- Tier 5 -- Leading the Charge
+           [39] = {["ID"] = 1879482857; }; -- Dahâl Huliz, The Arena -- Tier 5 -- Leading the Charge
+           [40] = {["ID"] = 1879482949; }; -- The Depths of Mâkhda Khorbo -- Leading the Charge
+           [41] = {["ID"] = 1879482950; }; -- The Depths of Mâkhda Khorbo -- The Vanguard
+           [42] = {["ID"] = 1879482951; }; -- The Depths of Mâkhda Khorbo -- Original Challenger
         };
     };
     -- Hobbies
