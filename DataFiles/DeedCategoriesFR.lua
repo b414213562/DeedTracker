@@ -205,6 +205,7 @@ _DEED_CATEGORIES = {
 [286] = { ["NAME"] = "Valar - 140"; };
 -- Class/Race/Epic / Reputation
 [171] = { ["NAME"] = "Tasks"; };
+[298] = { ["NAME"] = "Food"};
 [172] = { ["NAME"] = "Meta Deeds"; };
 [173] = { ["NAME"] = "Palais de Thorin"; };
 [174] = { ["NAME"] = "La Société des Mathoms"; };
