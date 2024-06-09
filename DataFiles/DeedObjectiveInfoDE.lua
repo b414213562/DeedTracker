@@ -5903,7 +5903,7 @@ _OBJECTIVES = {
         "Schließt die Tat 'Die Angmarim von Carn Dûm' ab";
       };
       [2] = {
-        "Besiegt Angmarim in Carn Dûm. x200";
+        "Besiegt Angmarim in Carn Dûm x200";
       };
   };
   -- Die Schatten von Angmar / Kämpfer von Carn Dûm (schwer)
@@ -5948,7 +5948,7 @@ _OBJECTIVES = {
   -- Die Schatten von Angmar / Die Angmarim von Carn Dûm
   [1879114573] = {
       [1] = {
-        "Besiegt Angmarim in Carn Dûm. x100";
+        "Besiegt Angmarim in Carn Dûm x100";
       };
   };
   -- Die Schatten von Angmar / Die Trolle von Carn Dûm
@@ -15116,7 +15116,7 @@ _OBJECTIVES = {
         "Schließt die Aufgabe 'Verderbtes Glinghant' ab (Beendet 'Verderbtes Glinghant')";
       };
       [5] = {
-        "Schließt die Aufgabe 'Herausforderung: Nengon' ab (Beendet die Herausforderung: Glinghant)";
+        "Schließt die Aufgabe 'Herausforderung: Nengon' ab";
       };
   };
   -- Die Schatten von Angmar / Annúminas - Feste Elendil
@@ -25742,7 +25742,7 @@ _OBJECTIVES = {
         "Schließt die Tat 'Herr der Kreaturen' ab";
       };
       [2] = {
-        "Schließt die Tat 'Umfassendes Wissen' ab";
+        "Schließt die Tat 'Kunde der Tiefen' ab";
       };
       [3] = {
         "Schließt die Tat 'Dúnedain-Lehren' ab";
@@ -26306,7 +26306,7 @@ _OBJECTIVES = {
         "Greift mit 'Windstoß' an 1000 Mal";
       };
   };
-  -- Klasse / Umfassendes Wissen
+  -- Klasse / Kunde der Tiefen
   [1879277277] = {
       [1] = {
         "Setzt Eure Kundigen-Fertigkeiten gegen Feinde ein 500 Mal";
@@ -31383,8 +31383,8 @@ _OBJECTIVES = {
           ["LONG"] = "25.36W"; 
         }; 
         [9] = {
-          ["LAT"] = "1.58S"; 
-          ["LONG"] = "23.21W"; 
+          ["LAT"] = "1.57S"; 
+          ["LONG"] = "23.20W"; 
         }; 
         [10] = {
           ["LAT"] = "9.60N"; 
@@ -33528,7 +33528,7 @@ _OBJECTIVES = {
       };
       [4] = {
       ["NAME"] = "Tuchhändler-Halle"; 
-      ["PROGRESS"] = "Entdeckt die Halle der Herbergswirte."; 
+      ["PROGRESS"] = "Entdeckt die Tuchhändler-Halle"; 
       ["LORE"] = "Ihr habt die Halle der Tuchhändler entdeckt."; 
       ["POINTS"] = {
         [1] = {
@@ -44877,6 +44877,9 @@ _OBJECTIVES = {
       [19] = {
         "Schließt die Aufgabe 'Böse Omen: Der Sturm auf Methedras (Stufe 3)' ab";
       };
+      [20] = {
+        "Schließt die Aufgabe 'Böse Omen: Untergang von Caras Gelebren (Stufe 3)' ab";
+      };
   };
   -- Scharmützel-Instanzen / Vorboten der Toten
   [1879385378] = {
@@ -50914,7 +50917,7 @@ _OBJECTIVES = {
       [5] = {
       ["NAME"] = "Marls Furt"; 
       ["PROGRESS"] = "Erkundet Marls Furt."; 
-      ["LORE"] = "Hoch über den wilden Wassern des Niederquell wiegt sich eine wackelige Brücke im Wind. Marl der Felsklammerer war der erste Mensch, von dem bekannt ist, dass er die Wände der Spalte Cirith Núr erklommen hat. Zu seinem Pech fiel er aber einer Bestie zum Opfer, die auf der Seite des Wildwalds lauerte."; 
+      ["LORE"] = "Hoch über den wilden Wassern des Niederquell wiegt sich eine wackelige Brücke im Wind. Marl der Felsklammerer war der erste Mensch, von dem bekannt ist, dass er die Wände der Spalte Cirith Nûr erklommen hat. Zu seinem Pech fiel er aber einer Bestie zum Opfer, die auf der Seite des Wildwalds lauerte."; 
       ["POINTS"] = {
         [1] = {
           ["LAT"] = "16.83S"; 
@@ -59956,6 +59959,12 @@ _OBJECTIVES = {
         "Schließt die Aufgabe 'Kapitel 7.5: Jeder Fluss fließt ins Meer' ab";
       };
       [8] = {
+        "Schließt die Aufgabe 'Kapitel 8.5: Hármelaks Entschlossenheit' ab";
+      };
+      [9] = {
+        "Schließt die Aufgabe 'Kapitel 9.9: Der Name' ab";
+      };
+      [10] = {
         "Die Geschichte wird in zukünftigen Updates fortgesetzt!";
       };
   };
@@ -60424,6 +60433,18 @@ _OBJECTIVES = {
   [1879465758] = {
       [1] = {
         "Ihr benötigt eine höhere Rufstufe bei den Bewohnern von Umbar Baharbêl: Freund / Freundin.";
+      };
+  };
+  -- Ruf / Verbündeter / Verbündete der Bewohner von Umbar Baharbêl
+  [1879465759] = {
+      [1] = {
+        "Ihr benötigt eine höhere Rufstufe bei den Bewohnern von Umbar Baharbêl: Verbündeter / Verbündete.";
+      };
+  };
+  -- Ruf / Verwandter / Verwandte der Bewohner von Umbar Baharbêl
+  [1879465760] = {
+      [1] = {
+        "Ihr benötigt eine höhere Rufstufe bei den Bewohnern von Umbar Baharbêl: Verwandter / Verwandte.";
       };
   };
   -- Ruf / Bei den Bewohnern von Umbar Baharbêl wohlbekannt
@@ -60975,7 +60996,7 @@ _OBJECTIVES = {
         "Bezwingt zahlreiche Korsaren im westlichen Königreich Gondor. x160";
       };
   };
-  -- Westliches Königreich Gondor / Totenbezwinger / Totenbezwingerin des westlichen Königreichs Gondor
+  -- Westliches Königreich Gondor / Wolf-Bezwinger / Wolf-Bezwingerin des westlichen Königreichs Gondor
   [1879466416] = {
       [1] = {
         "Bezwingt viele Wölfe in Westen des Königreichs Gondor. x80";
@@ -61011,7 +61032,7 @@ _OBJECTIVES = {
   -- Westliches Königreich Gondor / Wolf-Bezwinger / Wolf-Bezwingerin des westlichen Königreichs Gondor (Fortgeschritten)
   [1879466421] = {
       [1] = {
-        "Schließt die Tat 'Totenbezwinger / Totenbezwingerin des westlichen Königreichs Gondor' ab";
+        "Schließt die Tat 'Wolf-Bezwinger / Wolf-Bezwingerin des westlichen Königreichs Gondor' ab";
       };
       [2] = {
         "Bezwingt viele Wölfe in Westen des Königreichs Gondor. x160";
@@ -61098,7 +61119,7 @@ _OBJECTIVES = {
         "Erlangt Titelerlass - Schläft des Nachts";
       };
   };
-  -- Ruf / Der Wettkampfförster (Stufe 4)
+  -- Ruf / Der Wettkampfförster (Stufe IV)
   [1879467126] = {
       [1] = {
         "Schließt die Aufgabe 'Schlucht: Ich bin ein Holzfäller' ab x50";
@@ -61979,37 +62000,37 @@ _OBJECTIVES = {
   -- Die Schildinseln / Crab-slayer of the Shield Isles (Advanced)
   [1879469681] = {
       [1] = {
-        "Schließt die Tat 'Krebsbezwinger / Krebsbezwingerin der Schildinseln' ab";
+        "Schließt die Tat 'Krebsbezwinger / Krebsbezwingerin von den Schildinseln' ab";
       };
       [2] = {
         "Bezwingt viele Krebse auf den Schildinseln. x120";
       };
   };
-  -- Die Schildinseln / Krebsbezwinger / Krebsbezwingerin der Schildinseln
+  -- Die Schildinseln / Krebsbezwinger / Krebsbezwingerin von den Schildinseln
   [1879469682] = {
       [1] = {
         "Bezwingt viele Krebse auf den Schildinseln. x60";
       };
   };
-  -- Die Schildinseln / Drachenbezwinger / Drachenbezwingerin der Schildinseln (Fortgeschritten)
+  -- Die Schildinseln / Drachenbezwinger / Drachenbezwingerin von den Schildinseln (Fortgeschritten)
   [1879469683] = {
       [1] = {
-        "Schließt die Tat 'Drachenbezwinger / Drachenbezwingerin der Schildinseln' ab";
+        "Schließt die Tat 'Drachenbezwinger / Drachenbezwingerin von den Schildinseln' ab";
       };
       [2] = {
         "Bezwingt viele Mitglieder der Drachensippe auf den Schildinseln. x160";
       };
   };
-  -- Die Schildinseln / Drachenbezwinger / Drachenbezwingerin der Schildinseln
+  -- Die Schildinseln / Drachenbezwinger / Drachenbezwingerin von den Schildinseln
   [1879469684] = {
       [1] = {
         "Bezwingt viele Mitglieder der Drachensippe auf den Schildinseln. x80";
       };
   };
-  -- Die Schildinseln / Totenbezwinger / Totenbezwingerin der Schildinseln (Fortgeschritten)
+  -- Die Schildinseln / Totenbezwinger / Totenbezwingerin von den Schildinseln (Fortgeschritten)
   [1879469685] = {
       [1] = {
-        "Schließt die Tat 'Totenbezwinger / Totenbezwingerin der Schildinseln' ab";
+        "Schließt die Tat 'Totenbezwinger / Totenbezwingerin von den Schildinseln' ab";
       };
       [2] = {
         "Bezwingt viele Tote auf den Schildinseln. x160";
@@ -62036,7 +62057,7 @@ _OBJECTIVES = {
         "Bezwingt viele Kergrim auf den Schildinseln. x120";
       };
   };
-  -- Die Schildinseln / Totenbezwinger / Totenbezwingerin der Schildinseln
+  -- Die Schildinseln / Totenbezwinger / Totenbezwingerin von den Schildinseln
   [1879469689] = {
       [1] = {
         "Bezwingt viele Tote auf den Schildinseln. x80";
@@ -62072,10 +62093,10 @@ _OBJECTIVES = {
         "Schließt die Tat 'Aufgaben auf den Schildinseln' ab (Erfüllt Aufgaben auf den Schildinseln.)";
       };
       [3] = {
-        "Schließt die Tat 'Bezwinger der Schildinseln' ab";
+        "Schließt die Tat 'Bezwinger von den Schildinseln' ab";
       };
   };
-  -- Die Schildinseln / Bezwinger der Schildinseln
+  -- Die Schildinseln / Bezwinger von den Schildinseln
   [1879469693] = {
       [1] = {
         "Schließt die Tat 'Beast-slayer of the Shield Isles (Advanced)' ab";
@@ -62087,10 +62108,10 @@ _OBJECTIVES = {
         "Schließt die Tat 'Crab-slayer of the Shield Isles (Advanced)' ab";
       };
       [4] = {
-        "Schließt die Tat 'Totenbezwinger / Totenbezwingerin der Schildinseln (Fortgeschritten)' ab";
+        "Schließt die Tat 'Totenbezwinger / Totenbezwingerin von den Schildinseln (Fortgeschritten)' ab";
       };
       [5] = {
-        "Schließt die Tat 'Drachenbezwinger / Drachenbezwingerin der Schildinseln (Fortgeschritten)' ab";
+        "Schließt die Tat 'Drachenbezwinger / Drachenbezwingerin von den Schildinseln (Fortgeschritten)' ab";
       };
       [6] = {
         "Schließt die Tat 'Kergrim-slayer of the Shield Isles (Advanced)' ab";
@@ -62784,7 +62805,7 @@ _OBJECTIVES = {
         }; 
         [11] = {
           ["LAT"] = "14.87S"; 
-          ["LONG"] = "100.71W"; 
+          ["LONG"] = "100.72W"; 
         }; 
         [12] = {
           ["LAT"] = "14.45S"; 
@@ -62829,25 +62850,10 @@ _OBJECTIVES = {
       };
       };
   };
-  -- Kap von Umbar / Haradrimbezwinger des Kaps von Umbar
-  [1879474820] = {
-      [1] = {
-        "Bezwingt viele Haradrim am Kap von Umbar. x30";
-      };
-  };
   -- Kap von Umbar / Bestienbezwinger des Kaps von Umbar
   [1879474821] = {
       [1] = {
         "Bezwingt Bestien am Kap von Umbar. x160";
-      };
-  };
-  -- Kap von Umbar / Haradrimbezwinger des Kaps von Umbar (Fortgeschritten)
-  [1879474824] = {
-      [1] = {
-        "Schließt die Tat 'Haradrimbezwinger des Kaps von Umbar' ab";
-      };
-      [2] = {
-        "Bezwingt viele Haradrim am Kap von Umbar. x90";
       };
   };
   -- Kap von Umbar / Bezwinger des Kaps von Umbar
@@ -63780,7 +63786,7 @@ _OBJECTIVES = {
       ["LORE"] = "Ihr habt die Taverne 'Zur Flottenwache' entdeckt."; 
       ["POINTS"] = {
         [1] = {
-          ["LAT"] = "24.14S"; 
+          ["LAT"] = "24.38S"; 
           ["LONG"] = "98.24W"; 
         }; 
       }; 
@@ -63878,6 +63884,1354 @@ _OBJECTIVES = {
       };
       [3] = {
         "Schließt die Tat 'Taten von Umbar Baharbêl' ab (Abschließen: Taten von Umbar Baharbêl)";
+      };
+  };
+  -- Epos / Ein Brief von Caebar
+  [1879482570] = {
+      [1] = {
+        "Schließt die Aufgabe 'Zwischenspiel: Ein Geist kehrt zurück' ab";
+      };
+  };
+  -- Epos / Ein Brief von Caebar
+  [1879482571] = {
+      [1] = {
+        "Schließt die Aufgabe 'Zwischenspiel: Ein Geist kehrt zurück' ab";
+      };
+  };
+  -- Kap von Umbar / Die Tiefen des Mâkhda Khorbo: Azagaths Flucht
+  [1879482825] = {
+      [1] = {
+        "Schließt die Aufgabe 'Die Tiefen des Mâkhda Khorbo (Stufe 1)' ab";
+      };
+      [2] = {
+        "Schließt die Aufgabe 'Die Tiefen des Mâkhda Khorbo (Stufe 2)' ab";
+      };
+      [3] = {
+        "Schließt die Aufgabe 'Die Tiefen des Mâkhda Khorbo (Stufe 3)' ab";
+      };
+      [4] = {
+        "Schließt die Aufgabe 'Die Tiefen des Mâkhda Khorbo (Stufe 4)' ab";
+      };
+      [5] = {
+        "Schließt die Aufgabe 'Die Tiefen des Mâkhda Khorbo (Stufe 5)' ab";
+      };
+  };
+  -- Die Korsaren von Umbar / Dahâl Huliz, die Arena (Stufe 1)
+  [1879482851] = {
+      [1] = {
+        "Schließt die Aufgabe 'Dahâl Huliz, die Arena (Stufe 1)' ab";
+      };
+  };
+  -- Die Korsaren von Umbar / Dahâl Huliz, die Arena - Gladiatoren
+  [1879482852] = {
+      [1] = {
+        "Bezwingt Horthion in der Dahâl Hûliz.";
+      };
+      [2] = {
+        "Bezwingt Nakrov den Vernarbten in der Dahâl Hûliz.";
+      };
+      [3] = {
+        "Bezwingt Akhmâr Rotsturm in der Dahâl Hûliz.";
+      };
+      [4] = {
+        "Bezwingt Shaidal in der Dahâl Hûliz.";
+      };
+      [5] = {
+        "Bezwingt Ulanor in der Dahâl Hûliz.";
+      };
+      [6] = {
+        "Bezwingt Bhastah in der Dahâl Hûliz.";
+      };
+      [7] = {
+        "Bezwingt Shakfut in der Dahâl Hûliz.";
+      };
+      [8] = {
+        "Bezwingt Rothog den Sturm.";
+      };
+  };
+  -- Die Korsaren von Umbar / Dahâl Huliz, die Arena (Stufe 4)
+  [1879482853] = {
+      [1] = {
+        "Schließt die Aufgabe 'Dahâl Huliz, die Arena (Stufe 4)' ab";
+      };
+  };
+  -- Die Korsaren von Umbar / Dahâl Huliz, die Arena (Stufe 5)
+  [1879482854] = {
+      [1] = {
+        "Schließt die Aufgabe 'Dahâl Huliz, die Arena (Stufe 5)' ab";
+      };
+  };
+  -- Die Korsaren von Umbar / Dahâl Huliz, die Arena (Stufe 2)
+  [1879482855] = {
+      [1] = {
+        "Schließt die Aufgabe 'Dahâl Huliz, die Arena (Stufe 2)' ab";
+      };
+  };
+  -- Die Korsaren von Umbar / Dahâl Huliz, die Arena (Stufe 3)
+  [1879482856] = {
+      [1] = {
+        "Schließt die Aufgabe 'Dahâl Huliz, die Arena (Stufe 3)' ab";
+      };
+  };
+  -- Die Korsaren von Umbar / 'Dahâl Huliz, die Arena (Stufe 5) - An vorderster Front'
+  [1879482857] = {
+      [1] = {
+        "Schließt die Aufgabe 'Dahâl Huliz, die Arena (Stufe 5)' ab";
+      };
+  };
+  -- Die Korsaren von Umbar / Bezwinger von Dahâl Huliz, der Arena.
+  [1879482862] = {
+      [1] = {
+        "Schließt die Tat 'Dahâl Huliz, die Arena (Stufe 1)' ab";
+      };
+      [2] = {
+        "Schließt die Tat 'Dahâl Huliz, die Arena (Stufe 2)' ab";
+      };
+      [3] = {
+        "Schließt die Tat 'Dahâl Huliz, die Arena (Stufe 3)' ab";
+      };
+      [4] = {
+        "Schließt die Tat 'Dahâl Huliz, die Arena - Gladiatoren' ab";
+      };
+      [5] = {
+        "Schließt die Tat 'Dahâl Huliz, die Arena (Stufe 4)' ab";
+      };
+      [6] = {
+        "Schließt die Tat 'Dahâl Huliz, die Arena (Stufe 5)' ab";
+      };
+  };
+  -- Die Korsaren von Umbar / Die Tiefen des Mâkhda Khorbo (Stufe 1)
+  [1879482935] = {
+      [1] = {
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.41N"; 
+          ["LONG"] = "146.21W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["PROGRESS"] = "Bezwingt Azagath Meeresschatten und seine Mannschaft"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.44N"; 
+          ["LONG"] = "146.01W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["PROGRESS"] = "Bezwingt Belondor und seine Mannschaft."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "67.60N"; 
+          ["LONG"] = "146.06W"; 
+        }; 
+      }; 
+      };
+      [4] = {
+      ["PROGRESS"] = "Bezwingt Umshûra den Vielfraß."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "69.13N"; 
+          ["LONG"] = "146.00W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Die Korsaren von Umbar / Die Tiefen des Mâkhda Khorbo (Stufe 4)
+  [1879482936] = {
+      [1] = {
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.41N"; 
+          ["LONG"] = "146.21W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["PROGRESS"] = "Bezwingt Azagath Meeresschatten und seine Mannschaft"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.41N"; 
+          ["LONG"] = "146.01W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["PROGRESS"] = "Bezwingt Belondor und seine Mannschaft."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "67.60N"; 
+          ["LONG"] = "146.10W"; 
+        }; 
+      }; 
+      };
+      [4] = {
+      ["PROGRESS"] = "Bezwingt Umshûra den Vielfraß."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "69.13N"; 
+          ["LONG"] = "146.00W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Die Korsaren von Umbar / Die Tiefen des Mâkhda Khorbo (Stufe 5)
+  [1879482937] = {
+      [1] = {
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.41N"; 
+          ["LONG"] = "146.21W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["PROGRESS"] = "Bezwingt Azagath Meeresschatten und seine Mannschaft"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.40N"; 
+          ["LONG"] = "146.01W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["PROGRESS"] = "Bezwingt Belondor und seine Mannschaft."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "67.60N"; 
+          ["LONG"] = "146.11W"; 
+        }; 
+      }; 
+      };
+      [4] = {
+      ["PROGRESS"] = "Bezwingt Umshûra den Vielfraß."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "69.13N"; 
+          ["LONG"] = "146.00W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Die Korsaren von Umbar / Die Tiefen des Mâkhda Khorbo (Stufe 2)
+  [1879482938] = {
+      [1] = {
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.41N"; 
+          ["LONG"] = "146.21W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["PROGRESS"] = "Bezwingt Azagath Meeresschatten und seine Mannschaft"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.43N"; 
+          ["LONG"] = "146.01W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["PROGRESS"] = "Bezwingt Belondor und seine Mannschaft."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "67.60N"; 
+          ["LONG"] = "146.07W"; 
+        }; 
+      }; 
+      };
+      [4] = {
+      ["PROGRESS"] = "Bezwingt Umshûra den Vielfraß."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "69.13N"; 
+          ["LONG"] = "146.00W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Die Korsaren von Umbar / Die Tiefen des Mâkhda Khorbo (Stufe 3)
+  [1879482939] = {
+      [1] = {
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.41N"; 
+          ["LONG"] = "146.21W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["PROGRESS"] = "Bezwingt Azagath Meeresschatten und seine Mannschaft"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.42N"; 
+          ["LONG"] = "146.01W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["PROGRESS"] = "Bezwingt Belondor und seine Mannschaft."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "67.60N"; 
+          ["LONG"] = "146.09W"; 
+        }; 
+      }; 
+      };
+      [4] = {
+      ["PROGRESS"] = "Bezwingt Umshûra den Vielfraß."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "69.13N"; 
+          ["LONG"] = "146.00W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Die Korsaren von Umbar / Die Tiefen des Mâkhda Khorbo - An vorderster Front
+  [1879482949] = {
+      [1] = {
+        "Schließt die Tat 'Die Tiefen des Mâkhda Khorbo (Stufe 3)' ab";
+      };
+  };
+  -- Die Korsaren von Umbar / Die Tiefen des Mâkhda Khorbo: Die Vorhut
+  [1879482950] = {
+      [1] = {
+        "Schließt die Tat 'Die Tiefen des Mâkhda Khorbo (Stufe 4)' ab";
+      };
+  };
+  -- Die Korsaren von Umbar / Die Tiefen des Mâkhda Khorbo: Ursprünglicher Herausforderer
+  [1879482951] = {
+      [1] = {
+        "Schließt die Tat 'Die Tiefen des Mâkhda Khorbo (Stufe 5)' ab";
+      };
+  };
+  -- Die Korsaren von Umbar / Die Tiefen des Mâkhda Khorbo - Die Mannschaft des Meeresschattens
+  [1879482985] = {
+      [1] = {
+        "Besiegt Jadazin";
+      };
+      [2] = {
+        "Besiegt Nâxam";
+      };
+      [3] = {
+        "Besiegt Ishakhâr";
+      };
+      [4] = {
+        "Besiegt Karanzôr";
+      };
+      [5] = {
+        "Besiegt Zagarón";
+      };
+      [6] = {
+        "Besiegt Phêrida";
+      };
+      [7] = {
+        "Besiegt Dulgakhó";
+      };
+      [8] = {
+        "Besiegt Burkhad";
+      };
+      [9] = {
+        "Besiegt Êphaltud";
+      };
+      [10] = {
+        "Besiegt Nûralai";
+      };
+  };
+  -- Die Korsaren von Umbar / Taten der Tiefen des Mâkhda Khorbo
+  [1879482986] = {
+      [1] = {
+        "Schließt die Tat 'Die Tiefen des Mâkhda Khorbo (Stufe 1)' ab";
+      };
+      [2] = {
+        "Schließt die Tat 'Die Tiefen des Mâkhda Khorbo (Stufe 2)' ab";
+      };
+      [3] = {
+        "Schließt die Tat 'Die Tiefen des Mâkhda Khorbo (Stufe 3)' ab";
+      };
+      [4] = {
+        "Schließt die Tat 'Die Tiefen des Mâkhda Khorbo - Das Böse darin' ab (Tiefen des Mâkhda Khorbo - Das Böse darin)";
+      };
+      [5] = {
+        "Schließt die Tat 'Die Tiefen des Mâkhda Khorbo - Das Böse darunter' ab (Tiefen des Mâkhda Khorbo - Das Böse darunter)";
+      };
+  };
+  -- Die Korsaren von Umbar / Die Tiefen des Mâkhda Khorbo - Das Böse darin
+  [1879482987] = {
+      [1] = {
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.41N"; 
+          ["LONG"] = "146.21W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+        "Bezwingt viele der uralten bösen Mächte im Mâkhda Khorbo. x200";
+      };
+  };
+  -- Die Korsaren von Umbar / Die Tiefen des Mâkhda Khorbo - Das Böse darunter
+  [1879482988] = {
+      [1] = {
+        "Vernichtet das namenlose Böse, das sich aus dem Meer erhebt. x60";
+      };
+  };
+  -- Die Korsaren von Umbar / Die Insel der Stürme (Stufe 3)
+  [1879483002] = {
+      [1] = {
+        "Schließt die Aufgabe 'Instanz: Die Insel der Stürme (Stufe 3)' ab";
+      };
+  };
+  -- Die Korsaren von Umbar / Die Insel der Stürme (Stufe 4)
+  [1879483003] = {
+      [1] = {
+        "Schließt die Aufgabe 'Instanz: Die Insel der Stürme (Stufe 4)' ab";
+      };
+  };
+  -- Die Korsaren von Umbar / Die Insel der Stürme (Stufe 5)
+  [1879483004] = {
+      [1] = {
+        "Schließt die Aufgabe 'Instanz: Die Insel der Stürme (Stufe 5)' ab";
+      };
+  };
+  -- Die Korsaren von Umbar / Überlebender der Insel der Stürme
+  [1879483005] = {
+      [1] = {
+        "Schließt die Tat 'Die Insel der Stürme (Stufe 1)' ab";
+      };
+      [2] = {
+        "Schließt die Tat 'Die Insel der Stürme (Stufe 2)' ab";
+      };
+      [3] = {
+        "Schließt die Tat 'Die Insel der Stürme (Stufe 3)' ab";
+      };
+      [4] = {
+        "Schließt die Tat 'Die Insel der Stürme - Große Bestien' ab";
+      };
+      [5] = {
+        "Schließt die Tat 'Die Insel der Stürme (Stufe 4)' ab";
+      };
+      [6] = {
+        "Schließt die Tat 'Die Insel der Stürme (Stufe 5)' ab";
+      };
+  };
+  -- Die Korsaren von Umbar / Die Insel der Stürme (Stufe 5) - An vorderster Front
+  [1879483006] = {
+      [1] = {
+        "Schließt die Aufgabe 'Instanz: Die Insel der Stürme (Stufe 5)' ab";
+      };
+  };
+  -- Die Korsaren von Umbar / Die Insel der Stürme (Stufe 1)
+  [1879483007] = {
+      [1] = {
+        "Schließt die Aufgabe 'Instanz: Die Insel der Stürme (Stufe 1)' ab";
+      };
+  };
+  -- Die Korsaren von Umbar / Die Insel der Stürme (Stufe 2)
+  [1879483008] = {
+      [1] = {
+        "Schließt die Aufgabe 'Instanz: Die Insel der Stürme (Stufe 2)' ab";
+      };
+  };
+  -- Die Korsaren von Umbar / Die Insel der Stürme - Große Bestien
+  [1879483009] = {
+      [1] = {
+      ["PROGRESS"] = "Bezwingt Krizhmûl."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "23.97S"; 
+          ["LONG"] = "124.74W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["PROGRESS"] = "Bezwingt Urâbaz den Mächtigen."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "24.76S"; 
+          ["LONG"] = "126.42W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["PROGRESS"] = "Bezwingt Raghârik."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "24.15S"; 
+          ["LONG"] = "128.10W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Die Korsaren von Umbar / Taten der Stätte des Konflikts
+  [1879483030] = {
+      [1] = {
+        "Schließt die Tat 'Die Taten von Râhal Bakh' ab";
+      };
+      [2] = {
+        "Schließt die Tat 'Überlebender der Insel der Stürme' ab";
+      };
+      [3] = {
+        "Schließt die Tat 'Bezwinger von Dahâl Huliz, der Arena.' ab";
+      };
+      [4] = {
+        "Schließt die Tat 'Taten der Tiefen des Mâkhda Khorbo' ab";
+      };
+  };
+  -- Die Korsaren von Umbar / Die Straßen der Râhal Bakh (Stufe 5) - An vorderster Front
+  [1879483052] = {
+      [1] = {
+        "Schließt die Aufgabe 'Die Straßen der Râhal Bakh (Stufe 5)' ab";
+      };
+  };
+  -- Die Korsaren von Umbar / Die Taten von Râhal Bakh
+  [1879483053] = {
+      [1] = {
+        "Schließt die Tat 'Die Straßen der Râhal Bakh (Stufe 1)' ab";
+      };
+      [2] = {
+        "Schließt die Tat 'Die Straßen der Râhal Bakh (Stufe 2)' ab";
+      };
+      [3] = {
+        "Schließt die Tat 'Die Straßen der Râhal Bakh (Stufe 3)' ab";
+      };
+      [4] = {
+        "Schließt die Tat 'Die Straßen der Râhal Bakh - Bezwinger' ab";
+      };
+      [5] = {
+        "Schließt die Tat 'Die Straßen der Râhal Bakh (Stufe 4)' ab";
+      };
+      [6] = {
+        "Schließt die Tat 'Die Straßen der Râhal Bakh (Stufe 5)' ab";
+      };
+  };
+  -- Die Korsaren von Umbar / Die Straßen der Râhal Bakh (Stufe 3)
+  [1879483054] = {
+      [1] = {
+        "Schließt die Aufgabe 'Die Straßen der Râhal Bakh (Stufe 3)' ab";
+      };
+  };
+  -- Die Korsaren von Umbar / Die Straßen der Râhal Bakh (Stufe 2)
+  [1879483055] = {
+      [1] = {
+        "Schließt die Aufgabe 'Die Straßen der Râhal Bakh (Stufe 2)' ab";
+      };
+  };
+  -- Die Korsaren von Umbar / Die Straßen der Râhal Bakh (Stufe 5)
+  [1879483056] = {
+      [1] = {
+        "Schließt die Aufgabe 'Die Straßen der Râhal Bakh (Stufe 5)' ab";
+      };
+  };
+  -- Die Korsaren von Umbar / Die Straßen der Râhal Bakh (Stufe 4)
+  [1879483057] = {
+      [1] = {
+        "Schließt die Aufgabe 'Die Straßen der Râhal Bakh (Stufe 4)' ab";
+      };
+  };
+  -- Die Korsaren von Umbar / Die Straßen der Râhal Bakh (Stufe 1)
+  [1879483058] = {
+      [1] = {
+        "Schließt die Aufgabe 'Die Straßen der Râhal Bakh (Stufe 1)' ab";
+      };
+  };
+  -- Die Korsaren von Umbar / Die Straßen der Râhal Bakh - Bezwinger
+  [1879483059] = {
+      [1] = {
+        "Bezwingt die Jephai-Korsaren.";
+      };
+  };
+  -- Umbar Baharbêl / Salzwasserbauch
+  [1879485102] = {
+      [1] = {
+        "Verwendet Esst Ketephs 'Krabben an Gerste'. 10 Mal";
+      };
+  };
+  -- Ruf / Eisenmagen
+  [1879485104] = {
+      [1] = {
+        "Schließt die Tat 'Salzwasserbauch' ab";
+      };
+      [2] = {
+        "Schließt die Tat 'Der Unkluge / Die Unkluge' ab";
+      };
+  };
+  -- Umbar Baharbêl / Spinnen-Geißel von Khabârkhad (Fortgeschritten)
+  [1879486252] = {
+      [1] = {
+        "Schließt die Tat 'Spinnen-Geißel von Khabârkhad' ab";
+      };
+      [2] = {
+        "Bezwingt viele, viele Spinnen in Khabârkhad. x100";
+      };
+  };
+  -- Umbar Baharbêl / Spinnen-Geißel von Khabârkhad
+  [1879486253] = {
+      [1] = {
+        "Bezwingt viele Spinnen in Khabârkhad. x50";
+      };
+  };
+  -- Umbar Baharbêl / Grabräuber-Bezwinger von Khabârkhad
+  [1879486268] = {
+      [1] = {
+        "Bezwingt viele Grabräuber in Khabârkhad. x50";
+      };
+  };
+  -- Umbar Baharbêl / Toten-Bezwinger von Khabârkhad
+  [1879486269] = {
+      [1] = {
+        "Bezwingt viele Tote in Khabârkhad. x50";
+      };
+  };
+  -- Umbar Baharbêl / Toten-Bezwinger von Khabârkhad (Fortgeschritten)
+  [1879486270] = {
+      [1] = {
+        "Schließt die Tat 'Toten-Bezwinger von Khabârkhad' ab";
+      };
+      [2] = {
+        "Bezwingt viele, viele Tote in Khabârkhad. x100";
+      };
+  };
+  -- Umbar Baharbêl / Bezwinger / Bezwingerin von Khabârkhad
+  [1879486271] = {
+      [1] = {
+        "Schließt die Tat 'Grabräuber-Bezwinger von Khabârkhad (Fortgeschritten)' ab";
+      };
+      [2] = {
+        "Schließt die Tat 'Spinnen-Geißel von Khabârkhad (Fortgeschritten)' ab";
+      };
+      [3] = {
+        "Schließt die Tat 'Toten-Bezwinger von Khabârkhad (Fortgeschritten)' ab";
+      };
+  };
+  -- Umbar Baharbêl / Grabräuber-Bezwinger von Khabârkhad (Fortgeschritten)
+  [1879486272] = {
+      [1] = {
+        "Schließt die Tat 'Grabräuber-Bezwinger von Khabârkhad' ab";
+      };
+      [2] = {
+        "Bezwingt viele, viele Grabräuber in Khabârkhad. x100";
+      };
+  };
+  -- Umbar Baharbêl / Bilwiss-Bezwinger von Ilmabiri
+  [1879486279] = {
+      [1] = {
+        "Bezwingt viele Bilwisse in Ilmabiri. x50";
+      };
+  };
+  -- Umbar Baharbêl / Bezwinger / Bezwingerin von Ilmabiri
+  [1879486280] = {
+      [1] = {
+        "Schließt die Tat 'Vergessenen-Bezwinger von Ilmabiri (Fortgeschritten)' ab";
+      };
+      [2] = {
+        "Schließt die Tat 'Bilwiss-Bezwinger von Ilmabiri (Fortgeschritten)' ab";
+      };
+      [3] = {
+        "Schließt die Tat 'Krokodil-Bezwinger von Ilmabiri (Fortgeschritten)' ab";
+      };
+  };
+  -- Umbar Baharbêl / Krokodil-Bezwinger von Ilmabiri (Fortgeschritten)
+  [1879486281] = {
+      [1] = {
+        "Schließt die Tat 'Krokodil-Bezwinger von Ilmabiri' ab";
+      };
+      [2] = {
+        "Bezwingt viele, viele Krokodile in Ilmabiri. x75";
+      };
+  };
+  -- Umbar Baharbêl / Vergessenen-Bezwinger von Ilmabiri
+  [1879486282] = {
+      [1] = {
+        "Bezwingt viele Vergessene in Ilmabiri. x50";
+      };
+  };
+  -- Umbar Baharbêl / Vergessenen-Bezwinger von Ilmabiri (Fortgeschritten)
+  [1879486283] = {
+      [1] = {
+        "Schließt die Tat 'Vergessenen-Bezwinger von Ilmabiri' ab";
+      };
+      [2] = {
+        "Bezwingt viele, viele Vergessene in Ilmabiri. x100";
+      };
+  };
+  -- Umbar Baharbêl / Krokodil-Bezwinger von Ilmabiri
+  [1879486284] = {
+      [1] = {
+        "Bezwingt viele Krokodile in Ilmabiri. x25";
+      };
+  };
+  -- Umbar Baharbêl / Bilwiss-Bezwinger von Ilmabiri (Fortgeschritten)
+  [1879486285] = {
+      [1] = {
+        "Schließt die Tat 'Bilwiss-Bezwinger von Ilmabiri' ab";
+      };
+      [2] = {
+        "Bezwingt viele, viele Bilwisse in Ilmabiri. x100";
+      };
+  };
+  -- Umbar Baharbêl / Kultisten-Bezwinger von Kamrabezûr
+  [1879486286] = {
+      [1] = {
+        "Bezwingt viele Kultisten in Kamrabezûr. x50";
+      };
+  };
+  -- Umbar Baharbêl / Bezwinger / Bezwingerin von Kamrabezûr
+  [1879486287] = {
+      [1] = {
+        "Schließt die Tat 'Kultisten-Bezwinger von Kamrabezûr (Fortgeschritten)' ab";
+      };
+      [2] = {
+        "Schließt die Tat 'Gladiatoren-Bezwinger von Kamrabezûr (Fortgeschritten)' ab";
+      };
+      [3] = {
+        "Schließt die Tat 'Toten-Bezwinger von Kamrabezûr (Fortgeschritten)' ab";
+      };
+  };
+  -- Umbar Baharbêl / Toten-Bezwinger von Kamrabezûr
+  [1879486288] = {
+      [1] = {
+        "Bezwingt viele Tote in Kamrabezûr. x50";
+      };
+  };
+  -- Umbar Baharbêl / Gladiatoren-Bezwinger von Kamrabezûr (Fortgeschritten)
+  [1879486289] = {
+      [1] = {
+        "Schließt die Tat 'Gladiatoren-Bezwinger von Kamrabezûr' ab";
+      };
+      [2] = {
+        "Bezwingt viele, viele Gladiatoren in Kamrabezûr. x100";
+      };
+  };
+  -- Umbar Baharbêl / Toten-Bezwinger von Kamrabezûr (Fortgeschritten)
+  [1879486290] = {
+      [1] = {
+        "Schließt die Tat 'Toten-Bezwinger von Kamrabezûr' ab";
+      };
+      [2] = {
+        "Bezwingt viele, viele Tote in Kamrabezûr. x100";
+      };
+  };
+  -- Umbar Baharbêl / Gladiatoren-Bezwinger von Kamrabezûr
+  [1879486291] = {
+      [1] = {
+        "Bezwingt viele Gladiatoren in Kamrabezûr. x50";
+      };
+  };
+  -- Umbar Baharbêl / Kultisten-Bezwinger von Kamrabezûr (Fortgeschritten)
+  [1879486292] = {
+      [1] = {
+        "Schließt die Tat 'Kultisten-Bezwinger von Kamrabezûr' ab";
+      };
+      [2] = {
+        "Bezwingt viele, viele Kultisten in Kamrabezûr. x100";
+      };
+  };
+  -- Umbar Baharbêl / Schmuggler-Geißel von Tâkhdar (Fortgeschritten)
+  [1879486293] = {
+      [1] = {
+        "Schließt die Tat 'Schmuggler-Geißel von Tâkhdar' ab";
+      };
+      [2] = {
+        "Bezwingt viele, viele Schmuggler in Tâkhdar. x100";
+      };
+  };
+  -- Umbar Baharbêl / Grodbog-Bezwinger von Tâkhdar
+  [1879486294] = {
+      [1] = {
+        "Bezwingt viele Gredbyg in Tâkhdar. x50";
+      };
+  };
+  -- Umbar Baharbêl / Bezwinger / Bezwingerin von Tâkhdar
+  [1879486295] = {
+      [1] = {
+        "Schließt die Tat 'Grodbog-Bezwinger von Tâkhdar (Fortgeschritten)' ab";
+      };
+      [2] = {
+        "Schließt die Tat 'Schmuggler-Geißel von Tâkhdar (Fortgeschritten)' ab";
+      };
+      [3] = {
+        "Schließt die Tat 'Spinnen-Geißel von Tâkhdar (Fortgeschritten)' ab";
+      };
+  };
+  -- Umbar Baharbêl / Grodbog-Bezwinger von Tâkhdar (Fortgeschritten)
+  [1879486296] = {
+      [1] = {
+        "Schließt die Tat 'Grodbog-Bezwinger von Tâkhdar' ab";
+      };
+      [2] = {
+        "Bezwingt viele, viele Gredbyg in Tâkhdar. x100";
+      };
+  };
+  -- Umbar Baharbêl / Schmuggler-Geißel von Tâkhdar
+  [1879486297] = {
+      [1] = {
+        "Bezwingt viele Schmuggler in Tâkhdar. x50";
+      };
+  };
+  -- Umbar Baharbêl / Spinnen-Geißel von Tâkhdar (Fortgeschritten)
+  [1879486298] = {
+      [1] = {
+        "Schließt die Tat 'Spinnen-Geißel von Tâkhdar' ab";
+      };
+      [2] = {
+        "Bezwingt viele, viele Spinnen in Tâkhdar. x100";
+      };
+  };
+  -- Umbar Baharbêl / Spinnen-Geißel von Tâkhdar
+  [1879486299] = {
+      [1] = {
+        "Bezwingt viele Spinnen in Tâkhdar. x50";
+      };
+  };
+  -- Umbar Baharbêl / Mornen-Bezwinger von Dil-irmíz (Fortgeschritten)
+  [1879486389] = {
+      [1] = {
+        "Schließt die Tat 'Mornen-Bezwinger von Dil-irmíz' ab";
+      };
+      [2] = {
+        "Bezwingt viele, viele Mornen in Dil-irmíz. x100";
+      };
+  };
+  -- Umbar Baharbêl / Bezwinger / Bezwingerin von Dil-irmíz
+  [1879486390] = {
+      [1] = {
+        "Schließt die Tat 'Schmuggler-Geißel von Dil-irmíz (Fortgeschritten)' ab";
+      };
+      [2] = {
+        "Schließt die Tat 'Verbrecher-Geißel von Dil-irmíz (Fortgeschritten)' ab";
+      };
+  };
+  -- Umbar Baharbêl / Die Rückeroberung von Dil-irmíz
+  [1879486391] = {
+      [1] = {
+      ["NAME"] = "Der Dûlkar"; 
+      ["PROGRESS"] = "Findet den Dûlkar."; 
+      ["LORE"] = "Der Dûlkar ist der berüchtigte 'Schattenmarkt' von Dil-irmíz, wo es einfach alles gebt ... für den richtigen Preis - und wenn man die richtigen Leute kennt. Wer den falschen Preis vorschlägt oder die falschen Leute fragt, sieht Gerüchten zufolge nie wieder das Tageslicht. Eine unschöne Vorstellung."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "122.30S"; 
+          ["LONG"] = "141.23W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["NAME"] = "Jadambor"; 
+      ["PROGRESS"] = "Findet Jadambor."; 
+      ["LORE"] = "Die befestigte Stellung Jadambor im Westen von Dil-irmíz ist mit Söldnern besetzt, die von Khôltekh und anderen angeheuert wurden. Ihr Auftrag lautet, die Stadt darüber gegen die vielen verschiedenen Feinde aus den Tiefen zu verteidigen."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "121.41S"; 
+          ["LONG"] = "143.65W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["NAME"] = "Deshûkh"; 
+      ["PROGRESS"] = "Findet den Deshûkh."; 
+      ["LORE"] = "Für Außenstehende ist der Deshûkh nicht zugänglich, doch für viele Verbrecher ist dieses Gebiet von Dil-irmíz ihre Heimat. Schmuggler, Halsabschneider und Taschendiebe koexistieren in diesen Kammern ... so lange sie sich mit ihrem jeweils erwählten Gelderwerb nicht gegenseitig in die Quere kommen."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "121.17S"; 
+          ["LONG"] = "141.61W"; 
+        }; 
+      }; 
+      };
+      [4] = {
+      ["NAME"] = "Dâr Sêkhta"; 
+      ["PROGRESS"] = "Findet Dâr Sêkhta."; 
+      ["LORE"] = "Der Name Dâr Sêkhta wird seit einigen Wochen nur mit gedämpfter Stimme ausgesprochen. Die geflüsterten Gerüchte deuten an, dass sich in den feuchten Gängen und versiegelten Kammern von Dil-irmíz eine neue Macht erhebt. Gedenkt da etwa jemand, Khôltekh seine Vormachtstellung in den Kojen streitig zu machen?"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "122.35S"; 
+          ["LONG"] = "142.08W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Umbar Baharbêl / Schmuggler-Geißel von Dil-irmíz (Fortgeschritten)
+  [1879486392] = {
+      [1] = {
+        "Schließt die Tat 'Schmuggler-Geißel von Dil-irmíz' ab";
+      };
+      [2] = {
+        "Bezwingt viele, viele Schmuggler in Dil-irmíz. x75";
+      };
+  };
+  -- Umbar Baharbêl / Verbrecher-Geißel von Dil-irmíz (Fortgeschritten)
+  [1879486393] = {
+      [1] = {
+        "Schließt die Tat 'Verbrecher-Geißel von Dil-irmíz' ab";
+      };
+      [2] = {
+        "Bezwingt viele, viele Verbrecher in Dil-irmíz. x75";
+      };
+  };
+  -- Umbar Baharbêl / Kultisten-Geißel von Dil-irmíz
+  [1879486394] = {
+      [1] = {
+        "Bezwingt viele Umshûra-Kultisten in Dil-irmíz. x50";
+      };
+  };
+  -- Umbar Baharbêl / Die Rückeroberung von Khabârkhad
+  [1879486395] = {
+      [1] = {
+      ["NAME"] = "Itekh-kên"; 
+      ["PROGRESS"] = "Findet Itekh-kên."; 
+      ["LORE"] = "Dieses kleine Lager von Schatzsuchern im Norden von Khabârkhad macht den Eindruck, als könne es jederzeit verschwinden. Sobald nämlich in etwas zu großer Entfernung von Itekh-kên etwas Wertvolles entdeckt wird. Der Name dieser Kammer in Umbar-môkh bedeutet in der Sprache von Umbar 'Zuflucht der Sucher', doch bewohnt wird sie nur, so lange es in der Nähe auch etwas Wertvolles zu suchen gibt."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "117.30S"; 
+          ["LONG"] = "140.94W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["NAME"] = "Mekab-kuphâr"; 
+      ["PROGRESS"] = "Findet Mekab-kuphâr."; 
+      ["LORE"] = "Auf Geheiß des Hallenvaters haben Temámir-Zwerge unermüdlich geschuftet, um vom Uferwachtstein aus Gänge in Umbar-môkh zu schlagen. Dieses Lager ihrer Leute dient als bewachter Eingang zu den Hallen und Kammern von Khabârkhad, und Khôltekh beobachtet genau, wer durch Mekab-kuphâr kommt und geht."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "119.70S"; 
+          ["LONG"] = "140.17W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["NAME"] = "Lôkhalel"; 
+      ["PROGRESS"] = "Findet Lôkhalel."; 
+      ["LORE"] = "Die Grüfte von Lôkhalel haben die Aufmerksamkeit von Grabräubern auf der Suche nach Schätzen und Reichtümern geweckt. Besonders verwegene Räuber dringen manchmal gar in die benachbarten Gänge von Khabârkhad vor und gefährden dadurch jeden, den sie als Konkurrenz ansehen."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "118.08S"; 
+          ["LONG"] = "141.55W"; 
+        }; 
+      }; 
+      };
+      [4] = {
+      ["NAME"] = "Nishabêt"; 
+      ["PROGRESS"] = "Findet Nishabêt."; 
+      ["LORE"] = "Nishabêt, in der Sprache von Umbar 'das Webernest' - so wurde früher nur eine kleine Kammer in Khabârkhad genannt. Da es jedoch nicht genug Wachen gab, um die Spinnenbrut einzudämmen, hat sich das Nest ausgebreitet und füllt nun zahlreiche Gänge. Wenn niemand etwas dagegen unternimmt, ist Nishabêt eines Tages vielleicht der Name für ganz Umbar-môkh."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "118.35S"; 
+          ["LONG"] = "139.78W"; 
+        }; 
+      }; 
+      };
+      [5] = {
+      ["NAME"] = "Sektakhâb"; 
+      ["PROGRESS"] = "Findet Sektakhâb."; 
+      ["LORE"] = "Eine gewölbte, weit entfernte Decke und breite Wege kennzeichnen die Gräber, in denen der Adel von Umbar Baharbêl einst zur ewigen Ruhe gebettet wurde. Doch von Ruhe kann in der stummen Grabstätte von Sektakhâb heute keine Rede mehr sein. Rastlose Tote wandeln durch die Grüfte im südwestlichen Khabârkhad und gefährden jeden, der sich in die Nähe wagt."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "119.39S"; 
+          ["LONG"] = "141.95W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Umbar Baharbêl / Kultisten-Geißel von Dil-irmíz (Fortgeschritten)
+  [1879486396] = {
+      [1] = {
+        "Schließt die Tat 'Kultisten-Geißel von Dil-irmíz' ab";
+      };
+      [2] = {
+        "Bezwingt viele, viele Umshûra-Kultisten in Dil-irmíz. x100";
+      };
+  };
+  -- Umbar Baharbêl / Die Rückeroberung von Tâkhdar
+  [1879486397] = {
+      [1] = {
+      ["NAME"] = "Kheb Hanût"; 
+      ["PROGRESS"] = "Findet Kheb Hanût."; 
+      ["LORE"] = "Eine festliche Atmosphäre erfüllt die Luft in Kheb Hanût im Nordwesten von Tâkhdar. Dieser Markt steht im schroffen Gegensatz zu ähnlichen Basaren anderswo in Umbar-môkh, besonders zum Dûlkar in Dil-irmíz."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "113.38S"; 
+          ["LONG"] = "141.81W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["NAME"] = "Tilmakhím"; 
+      ["PROGRESS"] = "Findet Tilmakhím."; 
+      ["LORE"] = "Die Kreuzung von Tilmakhím, unweit des Zentrums von Tâkhdar, ist zur Heimat zweier verschiedener Bewohner von Umbar-môkh geworden: Einerseits von Händlern, die sich von ihren Konkurrenten auf anderen Märkten unter der Stadt abheben. Andererseits von Ratten, die von den Massen und der damit einhergehenden Hoffnung auf Essensreste angelockt wurden. Beide buhlen um Eure Aufmerksamkeit und lassen sich nicht ohne etwas Mühe zum Schweigen bringen."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "115.77S"; 
+          ["LONG"] = "141.04W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["NAME"] = "Ishadôkh"; 
+      ["PROGRESS"] = "Findet Ishadôkh."; 
+      ["LORE"] = "Ishadôkh liegt im südlichen Teil von Tâkhdar, doch das Zischen und Brummen der Arbeiter und Gräber dieses Stocks sind deutlich weiter zu vernehmen, als man glauben würde. Selbst in der Kammer unter der Dahâl Hûliz in Kamrabezûr beschwerden sich die Flüchtlinge über den Lärm."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "116.74S"; 
+          ["LONG"] = "140.69W"; 
+        }; 
+      }; 
+      };
+      [4] = {
+      ["NAME"] = "Sâl Bajat"; 
+      ["PROGRESS"] = "Findet Sâl Bajat."; 
+      ["LORE"] = "Die Schmuggler von Sâl Bajat beobachten den Markt in der Nähe genau. Sie sind erpicht darauf, möglichst viele profitable 'Geschäfte' für sich und ihre Kunden zu machen."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "113.12S"; 
+          ["LONG"] = "141.51W"; 
+        }; 
+      }; 
+      };
+      [5] = {
+      ["NAME"] = "Shak Phêlex"; 
+      ["PROGRESS"] = "Findet Shak Phêlex."; 
+      ["LORE"] = "Die Spinnen von Shak Phêlex sind eine giftige Gefahr für jeden, der sich in Tâkhdar in den falschen Gang verirrt. Die Leute in der Stadt darüber haben hier einige Kisten eingelagert, doch die Anwesenheit der Spinnen hat wohl einige Händler dazu gebracht, die Waren abzuschreiben."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "115.15S"; 
+          ["LONG"] = "140.06W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Umbar Baharbêl / Mornen-Bezwinger von Dil-irmíz
+  [1879486398] = {
+      [1] = {
+        "Bezwingt viele Mornen in Dil-irmíz. x50";
+      };
+  };
+  -- Umbar Baharbêl / Die Rückeroberung von Ilmabiri
+  [1879486399] = {
+      [1] = {
+      ["NAME"] = "Kruha-sûrja"; 
+      ["PROGRESS"] = "Findet Kruha-sûrja."; 
+      ["LORE"] = "Der Wachposten Kruha-sûrja ist sehr treffend benannt, denn in der Sprache von Umbar bedeutet der Name 'Bastion gegen die Untiere'. Genau diesem Zweck dienen die Männer und Frauen, die sich im Norden von Ilmabiri in Umbar-môkh versammeln."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "114.20S"; 
+          ["LONG"] = "142.55W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["NAME"] = "Hêbatokh"; 
+      ["PROGRESS"] = "Findet Hêbatokh."; 
+      ["LORE"] = "Hêbatokh kann kaum als echte Siedlung bezeichnet werden, und doch haben sich hier einige tapfere Seelen niedergelassen. Auf beiden Seiten von einem der Wasserkanäle, die Ilmabiri durchschneiden, trotzen sie der Gegend ein Leben ab. Man sollte den Bewohnern von Hêbatokh nicht zu viele Fragen stellen, dann erweisen sie einem dieselbe Höflichkeit."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "115.81S"; 
+          ["LONG"] = "142.33W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["NAME"] = "Nêb-jadir"; 
+      ["PROGRESS"] = "Findet Nêb-jadir."; 
+      ["LORE"] = "Die Krokodile von Ilmabiri versammeln sich am Fuß des Wasserfalls von Nêb-jadir. Sie haben vor langer Zeit gelernt, dass das Wasser ihnen leichte Beute geradewegs ins Maul spült, und diese Lektion gilt für zweibeinige Abenteurer ebenso wie für vierbeinige Tiere."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "115.04S"; 
+          ["LONG"] = "142.13W"; 
+        }; 
+      }; 
+      };
+      [4] = {
+      ["NAME"] = "Talaba-kên"; 
+      ["PROGRESS"] = "Findet Talaba-kên."; 
+      ["LORE"] = "In dem kleinen Lager Talaba-kên haust irgendetwas. Ob diese Gebäude aber Heimat vertriebener Kinder aus Umbar sind oder von etwas ganz anderem, das wäre für die Bewacher von Ilmabiri gut zu wissen."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "114.36S"; 
+          ["LONG"] = "144.04W"; 
+        }; 
+      }; 
+      };
+      [5] = {
+      ["NAME"] = "Môba Ided"; 
+      ["PROGRESS"] = "Findet Môba Ided."; 
+      ["LORE"] = "Môba Ided ist zur Heimat einiger Leute geworden, die nirgendwo anders hinkönnen. Sowohl geflohene Erbengetreue als auch Kultisten der Kirche des Allsehenden haben sich im Süden von Ilmabiri niedergelassen und einen brüchigen Frieden geschlossen. Auf Außenstehende erstreckt sich die vorübergehende Übereinkunft aber nicht."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "116.37S"; 
+          ["LONG"] = "141.71W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Umbar Baharbêl / Die Rückeroberung von Kamrabezûr
+  [1879486400] = {
+      [1] = {
+      ["NAME"] = "Kên Taghlim"; 
+      ["PROGRESS"] = "Findet Kên Taghlim."; 
+      ["LORE"] = "Im Nordwesten von Kamrabezûr liegt Kên Taghlim, der Hort der Bildung, in dem Gelehrte die wenigen noch intakten Archive und Tempel in Umbar-môkh studieren."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "113.62S"; 
+          ["LONG"] = "139.30W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["NAME"] = "Hulzidâr"; 
+      ["PROGRESS"] = "Findet Hulzidâr."; 
+      ["LORE"] = "In der Sprache von Umbar bedeutet Hulzidâr 'Heimat der Kämpfer'. In den unruhigen Tagen nach dem Rückzugs des Reichs von Ordakh aus der Stadt ist das Wort zu einem äußerst treffenden Namen geworden. Ehemalige Krieger der Dahâl Hûliz verteidigen die Umgebung des Lagers und beschützen die anderen Flüchtlinge, die in den Kammern unter der Arena Zuflucht gesucht haben."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "116.01S"; 
+          ["LONG"] = "137.73W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["NAME"] = "Jâx Ugikh"; 
+      ["PROGRESS"] = "Findet Jâx Ugikh."; 
+      ["LORE"] = "Falls diese Räume je Schutz geboten haben, so tun sie dies nicht länger, denn die Ugikh-hûti bedrohen nun jeden, der hier entlangkommt. Sie nennen ihr Gebiet hier Jâx Ugikh. Neben den feindseligen Kultisten halten sich in den breiten Gängen von Kamrabezûr zudem noch die aus der Arena entflohenen Untiere auf. Die Tunnel sind für die Gelehrten aus den Torgärten, die immer gerne in die kühlen Katakomben unter der Stadt gekommen waren, um die Einsamkeit dort zu genießen, zu gefährlich geworden."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "114.44S"; 
+          ["LONG"] = "138.81W"; 
+        }; 
+      }; 
+      };
+      [4] = {
+      ["NAME"] = "Harkhaphâr"; 
+      ["PROGRESS"] = "Findet Harkhaphâr."; 
+      ["LORE"] = "Die Krieger von Harkhaphâr kämpfen ohne Gnade, als stünden sie noch immer auf dem blutigen Sand der Dahâl Hûliz. Hören sie weiterhin das ferne Johlen der Menge von den Tribünen? Oder ist das lediglich das Echo vergangener Bewunderung? Sie antworten nicht, blind vor Wut und der Gnadenlosigkeit der Kämpfe, die in ihrer Vorstellung noch immer stattfinden."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "116.73S"; 
+          ["LONG"] = "139.23W"; 
+        }; 
+      }; 
+      };
+      [5] = {
+      ["NAME"] = "Ghâr Mejet"; 
+      ["PROGRESS"] = "Findet Ghâr Mejet."; 
+      ["LORE"] = "Diese Korridore liegen weit entfernt von den Grüften und Gräbern von Khabârkhad, doch auch in Kamrabezûr wandeln die Toten. Nur ein äußerst gebildeter Gelehrter könnte ergründen, was die Ruhe der Toten gestört hat, doch nur wenige Gelehrte würden sich je nach Ghâr Mejet wagen."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "116.65S"; 
+          ["LONG"] = "139.92W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Umbar Baharbêl / Bezwinger / Bezwingerin von Umbar-môkh
+  [1879486401] = {
+      [1] = {
+        "Schließt die Tat 'Bezwinger / Bezwingerin von Khabârkhad' ab";
+      };
+      [2] = {
+        "Schließt die Tat 'Bezwinger / Bezwingerin von Ilmabiri' ab";
+      };
+      [3] = {
+        "Schließt die Tat 'Bezwinger / Bezwingerin von Kamrabezûr' ab";
+      };
+      [4] = {
+        "Schließt die Tat 'Bezwinger / Bezwingerin von Tâkhdar' ab";
+      };
+      [5] = {
+        "Schließt die Tat 'Bezwinger / Bezwingerin von Dil-irmíz' ab";
+      };
+  };
+  -- Umbar Baharbêl / Schmuggler-Geißel von Dil-irmíz
+  [1879486402] = {
+      [1] = {
+        "Bezwingt viele Schmuggler in Dil-irmíz. x50";
+      };
+  };
+  -- Umbar Baharbêl / Verbrecher-Geißel von Dil-irmíz
+  [1879486403] = {
+      [1] = {
+        "Bezwingt viele Verbrecher in Dil-irmíz. x50";
+      };
+  };
+  -- Umbar Baharbêl / Erkunder / Erkunderin von Umbar-môkh
+  [1879486404] = {
+      [1] = {
+        "Schließt die Tat 'Die Rückeroberung von Khabârkhad' ab";
+      };
+      [2] = {
+        "Schließt die Tat 'Die Rückeroberung von Ilmabiri' ab";
+      };
+      [3] = {
+        "Schließt die Tat 'Die Rückeroberung von Kamrabezûr' ab";
+      };
+      [4] = {
+        "Schließt die Tat 'Die Rückeroberung von Tâkhdar' ab";
+      };
+      [5] = {
+        "Schließt die Tat 'Die Rückeroberung von Dil-irmíz' ab";
+      };
+  };
+  -- Umbar Baharbêl / Bezwinger / Bezwingerin von Dil-irmíz
+  [1879486405] = {
+      [1] = {
+        "Schließt die Tat 'Kultisten-Geißel von Dil-irmíz (Fortgeschritten)' ab";
+      };
+      [2] = {
+        "Schließt die Tat 'Mornen-Bezwinger von Dil-irmíz (Fortgeschritten)' ab";
+      };
+  };
+  -- Umbar Baharbêl / Geschichten aus Dil-irmíz
+  [1879486406] = {
+      [1] = {
+        "Erfüllt Aufgaben in Dil-irmíz in Umbar-môkh. x4";
+      };
+  };
+  -- Umbar Baharbêl / Geschichten aus Kamrabezûr
+  [1879486407] = {
+      [1] = {
+        "Erfüllt Aufgaben in Kamrabezûr in Umbar-môkh. x8";
+      };
+  };
+  -- Umbar Baharbêl / Geschichten aus Khabârkhad
+  [1879486408] = {
+      [1] = {
+        "Erfüllt Aufgaben in Khabârkhad in Umbar-môkh. x6";
+      };
+  };
+  -- Umbar Baharbêl / Licht in Umbar-môkh
+  [1879486409] = {
+      [1] = {
+        "Schließt die Tat 'Bezwinger / Bezwingerin von Umbar-môkh' ab";
+      };
+      [2] = {
+        "Schließt die Tat 'Erkunder / Erkunderin von Umbar-môkh' ab";
+      };
+      [3] = {
+        "Schließt die Tat 'Geschichten aus Umbar-môkh' ab";
+      };
+  };
+  -- Umbar Baharbêl / Geschichten aus Ilmabiri
+  [1879486410] = {
+      [1] = {
+        "Erfüllt Aufgaben in Ilmabiri in Umbar-môkh. x8";
+      };
+  };
+  -- Umbar Baharbêl / Geschichten aus Umbar-môkh
+  [1879486411] = {
+      [1] = {
+        "Schließt die Tat 'Geschichten aus Khabârkhad' ab";
+      };
+      [2] = {
+        "Schließt die Tat 'Geschichten aus Ilmabiri' ab";
+      };
+      [3] = {
+        "Schließt die Tat 'Geschichten aus Kamrabezûr' ab";
+      };
+      [4] = {
+        "Schließt die Tat 'Geschichten aus Tâkhdar' ab";
+      };
+      [5] = {
+        "Schließt die Tat 'Geschichten aus Dil-irmíz' ab";
+      };
+      [6] = {
+        "Schließt die Aufgabe 'Kapitel 9.9: Der Name' ab";
+      };
+      [7] = {
+        "Schließt die Aufgabe 'Licht und Schatten, Teil 8: Und erlischt' ab";
+      };
+      [8] = {
+        "Schließt die Aufgabe 'Vergoldete Deckschicht, Teil 8: Hármelaks Bestellung' ab";
+      };
+      [9] = {
+        "Schließt die Aufgabe 'Ein Sturm zieht auf, Teil 8: Rothogs Zorn' ab";
+      };
+      [10] = {
+        "Schließt die Aufgabe 'Mann ohne Halt, Teil 8: Suche in den Tiefen' ab";
+      };
+  };
+  -- Umbar Baharbêl / Geschichten aus Tâkhdar
+  [1879486412] = {
+      [1] = {
+        "Erfüllt Aufgaben in Tâkhdar in Umbar-môkh. x8";
+      };
+  };
+  -- Umbar Baharbêl / Ratten-Bezwinger von Umbar-môkh (Fortgeschritten)
+  [1879486550] = {
+      [1] = {
+        "Schließt die Tat 'Ratten-Bezwinger von Umbar-môkh' ab";
+      };
+      [2] = {
+        "Bezwingt viele, viele Ratten in Umbar-môkh. x200";
+      };
+  };
+  -- Umbar Baharbêl / Ratten-Bezwinger von Umbar-môkh
+  [1879486551] = {
+      [1] = {
+        "Bezwingt Ratten in Umbar-môkh. x100";
+      };
+  };
+  -- Umbar Baharbêl / Fledermaus-Bezwinger von Umbar-môkh (Fortgeschritten)
+  [1879486552] = {
+      [1] = {
+        "Schließt die Tat 'Fledermaus-Bezwinger von Umbar-môkh' ab";
+      };
+      [2] = {
+        "Bezwingt viele, viele Fledermäuse in Umbar-môkh. x200";
+      };
+  };
+  -- Umbar Baharbêl / Fledermaus-Bezwinger von Umbar-môkh
+  [1879486553] = {
+      [1] = {
+        "Bezwingt viele Fledermäuse in Umbar-môkh. x100";
+      };
+  };
+  -- Umbar Baharbêl / Schatzsucher / Schatzsucherin von Umbar-môkh
+  [1879486571] = {
+      [1] = {
+      ["NAME"] = "Schatzspeicher"; 
+      ["PROGRESS"] = "Findet Schatzlager in Umbar-môkh."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "115.41S"; 
+          ["LONG"] = "143.29W"; 
+        }; 
+        [2] = {
+          ["LAT"] = "115.46S"; 
+          ["LONG"] = "142.22W"; 
+        }; 
+        [3] = {
+          ["LAT"] = "122.08S"; 
+          ["LONG"] = "141.90W"; 
+        }; 
+        [4] = {
+          ["LAT"] = "120.05S"; 
+          ["LONG"] = "141.24W"; 
+        }; 
+        [5] = {
+          ["LAT"] = "121.21S"; 
+          ["LONG"] = "141.06W"; 
+        }; 
+        [6] = {
+          ["LAT"] = "117.33S"; 
+          ["LONG"] = "140.80W"; 
+        }; 
+        [7] = {
+          ["LAT"] = "116.32S"; 
+          ["LONG"] = "141.10W"; 
+        }; 
+        [8] = {
+          ["LAT"] = "114.76S"; 
+          ["LONG"] = "141.10W"; 
+        }; 
+        [9] = {
+          ["LAT"] = "116.30S"; 
+          ["LONG"] = "138.90W"; 
+        }; 
+        [10] = {
+          ["LAT"] = "115.45S"; 
+          ["LONG"] = "139.47W"; 
+        }; 
+      };
       };
   };
 };

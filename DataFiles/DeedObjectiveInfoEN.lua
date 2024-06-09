@@ -5903,7 +5903,7 @@ _OBJECTIVES = {
         "Complete the deed 'The Angmarim of Carn Dûm'";
       };
       [2] = {
-        "Defeat Angmarim in Carn Dûm. x200";
+        "Defeat Angmarim in Carn Dûm x200";
       };
   };
   -- Shadows of Angmar / Champions of Carn Dûm (Final)
@@ -5948,7 +5948,7 @@ _OBJECTIVES = {
   -- Shadows of Angmar / The Angmarim of Carn Dûm
   [1879114573] = {
       [1] = {
-        "Defeat Angmarim in Carn Dûm. x100";
+        "Defeat Angmarim in Carn Dûm x100";
       };
   };
   -- Shadows of Angmar / The Trolls of Carn Dûm
@@ -29648,7 +29648,7 @@ _OBJECTIVES = {
         "Complete the quest 'Kêr Izel - The Shadow-watch'";
       };
       [5] = {
-        "Complete the quest 'Kêr Izel - Fallen but not Forgotten'";
+        "Complete the quest 'Kêr Izel - Fallen, But Not Forgotten'";
       };
       [6] = {
         "Complete the quest 'Kêr Izel - The Ruthless Dead'";
@@ -31383,8 +31383,8 @@ _OBJECTIVES = {
           ["LONG"] = "25.36W"; 
         }; 
         [9] = {
-          ["LAT"] = "1.58S"; 
-          ["LONG"] = "23.21W"; 
+          ["LAT"] = "1.57S"; 
+          ["LONG"] = "23.20W"; 
         }; 
         [10] = {
           ["LAT"] = "9.60N"; 
@@ -44877,6 +44877,9 @@ _OBJECTIVES = {
       [19] = {
         "Complete the quest 'Ill Omens: Storm on Methedras (Tier 3)'";
       };
+      [20] = {
+        "Complete the quest 'Ill Omens: Doom of Caras Gelebren (Tier 3)'";
+      };
   };
   -- Skirmish Instances / Harbingers of the Dead
   [1879385378] = {
@@ -50914,7 +50917,7 @@ _OBJECTIVES = {
       [5] = {
       ["NAME"] = "Marl's Crossing"; 
       ["PROGRESS"] = "Explore Marl's Crossing"; 
-      ["LORE"] = "High above the rapids and rushing water of the Netherwell, a makeshift bridge sways in the wind. Marl the Rockscrambler was the first man in known history to have scaled the walls of the Cirith Núr chasm. Sadly, whatever beast was lying in wait on the side of the Wildwood made short work of the adventurer."; 
+      ["LORE"] = "High above the rapids and rushing water of the Netherwell, a makeshift bridge sways in the wind. Marl the Rockscrambler was the first man in known history to have scaled the walls of the Cirith Nûr chasm. Sadly, whatever beast was lying in wait on the side of the Wildwood made short work of the adventurer."; 
       ["POINTS"] = {
         [1] = {
           ["LAT"] = "16.83S"; 
@@ -59956,6 +59959,12 @@ _OBJECTIVES = {
         "Complete the quest 'Chapter 7.5: Every River Leads To The Sea'";
       };
       [8] = {
+        "Complete the quest 'Chapter 8.5: Hármelak's Resolve'";
+      };
+      [9] = {
+        "Complete the quest 'Chapter 9.9: The Name'";
+      };
+      [10] = {
         "The story continues in future updates!";
       };
   };
@@ -60426,6 +60435,18 @@ _OBJECTIVES = {
         "You must earn Friend standing with the Citizens of Umbar Baharbêl";
       };
   };
+  -- Reputation / Ally to the Citizens of Umbar Baharbêl
+  [1879465759] = {
+      [1] = {
+        "You must earn Ally standing with the Citizens of Umbar Baharbêl";
+      };
+  };
+  -- Reputation / Kindred to the Citizens of Umbar Baharbêl
+  [1879465760] = {
+      [1] = {
+        "You must earn Kindred standing with the Citizens of Umbar Baharbêl";
+      };
+  };
   -- Reputation / Known to the Citizens of Umbar Baharbêl
   [1879465761] = {
       [1] = {
@@ -60831,7 +60852,7 @@ _OBJECTIVES = {
       }; 
       };
       [2] = {
-      ["NAME"] = "Abadec's Watch"; 
+      ["NAME"] = "Abedec's Watch"; 
       ["PROGRESS"] = "Find Abadec's Watch"; 
       ["LORE"] = "What was once a Corsair stronghold remains now as an echo of its former self. Corsairs who have found themselves stranded in Gondor have flocked here out of a desire for safety, vengeance, or both."; 
       ["POINTS"] = {
@@ -61098,7 +61119,7 @@ _OBJECTIVES = {
         "Obtain Title Writ - Sleeps at Night";
       };
   };
-  -- Reputation / The Competitive Forester - Tier 4
+  -- Reputation / The Competitive Forester - Tier IV
   [1879467126] = {
       [1] = {
         "Complete the quest 'Combe: I'm a Lumberjack' x50";
@@ -62784,7 +62805,7 @@ _OBJECTIVES = {
         }; 
         [11] = {
           ["LAT"] = "14.87S"; 
-          ["LONG"] = "100.71W"; 
+          ["LONG"] = "100.72W"; 
         }; 
         [12] = {
           ["LAT"] = "14.45S"; 
@@ -62829,25 +62850,10 @@ _OBJECTIVES = {
       };
       };
   };
-  -- Cape of Umbar / Haradrim-slayer of the Cape of Umbar
-  [1879474820] = {
-      [1] = {
-        "Defeat many Haradrim in the Cape of Umbar x30";
-      };
-  };
   -- Cape of Umbar / Beast-slayer of the Cape of Umbar
   [1879474821] = {
       [1] = {
         "Defeat beasts throughout the Cape of Umbar x160";
-      };
-  };
-  -- Cape of Umbar / Haradrim-slayer of the Cape of Umbar (Advanced)
-  [1879474824] = {
-      [1] = {
-        "Complete the deed 'Haradrim-slayer of the Cape of Umbar'";
-      };
-      [2] = {
-        "Defeat many Haradrim in the Cape of Umbar x90";
       };
   };
   -- Cape of Umbar / Slayer of the Cape of Umbar
@@ -63780,7 +63786,7 @@ _OBJECTIVES = {
       ["LORE"] = "You have discovered the Fleet-watch Tavern."; 
       ["POINTS"] = {
         [1] = {
-          ["LAT"] = "24.14S"; 
+          ["LAT"] = "24.38S"; 
           ["LONG"] = "98.24W"; 
         }; 
       }; 
@@ -63878,6 +63884,1354 @@ _OBJECTIVES = {
       };
       [3] = {
         "Complete the deed 'Deeds of Umbar Baharbêl'";
+      };
+  };
+  -- Epic / A Letter From Caebar
+  [1879482570] = {
+      [1] = {
+        "Complete the quest 'Interlude: The Ghost Returns'";
+      };
+  };
+  -- Epic / A Letter From Caebar
+  [1879482571] = {
+      [1] = {
+        "Complete the quest 'Interlude: The Ghost Returns'";
+      };
+  };
+  -- Cape of Umbar / The Depths of Mâkhda Khorbo -- Azagath's Escape
+  [1879482825] = {
+      [1] = {
+        "Complete the quest 'The Depths of Mâkhda Khorbo -- Tier 1'";
+      };
+      [2] = {
+        "Complete the quest 'The Depths of Mâkhda Khorbo -- Tier 2'";
+      };
+      [3] = {
+        "Complete the quest 'The Depths of Mâkhda Khorbo -- Tier 3'";
+      };
+      [4] = {
+        "Complete the quest 'The Depths of Mâkhda Khorbo -- Tier 4'";
+      };
+      [5] = {
+        "Complete the quest 'The Depths of Mâkhda Khorbo -- Tier 5'";
+      };
+  };
+  -- Corsairs of Umbar / Dahâl Huliz, The Arena -- Tier 1
+  [1879482851] = {
+      [1] = {
+        "Complete the quest 'Dahâl Huliz, The Arena -- Tier 1'";
+      };
+  };
+  -- Corsairs of Umbar / Dahâl Huliz, The Arena -- Gladiators
+  [1879482852] = {
+      [1] = {
+        "Defeat Horthion within Dahâl Huliz";
+      };
+      [2] = {
+        "Defeat Nakrov the Scarred within Dahâl Huliz";
+      };
+      [3] = {
+        "Defeat Akhmâr Redstorm within Dahâl Huliz";
+      };
+      [4] = {
+        "Defeat Shaidal within Dahâl Huliz";
+      };
+      [5] = {
+        "Defeat Ulanor within Dahâl Huliz";
+      };
+      [6] = {
+        "Defeat Bhastah within Dahâl Huliz";
+      };
+      [7] = {
+        "Defeat Shakfut within Dahâl Huliz";
+      };
+      [8] = {
+        "Defeat Rothog the Storm";
+      };
+  };
+  -- Corsairs of Umbar / Dahâl Huliz, The Arena -- Tier 4
+  [1879482853] = {
+      [1] = {
+        "Complete the quest 'Dahâl Huliz, The Arena -- Tier 4'";
+      };
+  };
+  -- Corsairs of Umbar / Dahâl Huliz, The Arena -- Tier 5
+  [1879482854] = {
+      [1] = {
+        "Complete the quest 'Dahâl Huliz, The Arena -- Tier 5'";
+      };
+  };
+  -- Corsairs of Umbar / Dahâl Huliz, The Arena -- Tier 2
+  [1879482855] = {
+      [1] = {
+        "Complete the quest 'Dahâl Huliz, The Arena -- Tier 2'";
+      };
+  };
+  -- Corsairs of Umbar / Dahâl Huliz, The Arena -- Tier 3
+  [1879482856] = {
+      [1] = {
+        "Complete the quest 'Dahâl Huliz, The Arena -- Tier 3'";
+      };
+  };
+  -- Corsairs of Umbar / Dahâl Huliz, The Arena -- Tier 5 -- Leading the Charge
+  [1879482857] = {
+      [1] = {
+        "Complete the quest 'Dahâl Huliz, The Arena -- Tier 5'";
+      };
+  };
+  -- Corsairs of Umbar / Vanquisher of Dahâl Huliz, The Arena
+  [1879482862] = {
+      [1] = {
+        "Complete the deed 'Dahâl Huliz, The Arena -- Tier 1'";
+      };
+      [2] = {
+        "Complete the deed 'Dahâl Huliz, The Arena -- Tier 2'";
+      };
+      [3] = {
+        "Complete the deed 'Dahâl Huliz, The Arena -- Tier 3'";
+      };
+      [4] = {
+        "Complete the deed 'Dahâl Huliz, The Arena -- Gladiators'";
+      };
+      [5] = {
+        "Complete the deed 'Dahâl Huliz, The Arena -- Tier 4'";
+      };
+      [6] = {
+        "Complete the deed 'Dahâl Huliz, The Arena -- Tier 5'";
+      };
+  };
+  -- Corsairs of Umbar / The Depths of Mâkhda Khorbo -- Tier 1
+  [1879482935] = {
+      [1] = {
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.41N"; 
+          ["LONG"] = "146.21W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["PROGRESS"] = "Defeat Azagath's Sea-shadow and his crew"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.44N"; 
+          ["LONG"] = "146.01W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["PROGRESS"] = "Defeat Belondor and his crew"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "67.60N"; 
+          ["LONG"] = "146.06W"; 
+        }; 
+      }; 
+      };
+      [4] = {
+      ["PROGRESS"] = "Defeat Umshûra the Glutton"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "69.13N"; 
+          ["LONG"] = "146.00W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Corsairs of Umbar / The Depths of Mâkhda Khorbo -- Tier 4
+  [1879482936] = {
+      [1] = {
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.41N"; 
+          ["LONG"] = "146.21W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["PROGRESS"] = "Defeat Azagath's Sea-shadow and his crew"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.41N"; 
+          ["LONG"] = "146.01W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["PROGRESS"] = "Defeat Belondor and his crew"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "67.60N"; 
+          ["LONG"] = "146.10W"; 
+        }; 
+      }; 
+      };
+      [4] = {
+      ["PROGRESS"] = "Defeat Umshûra the Glutton"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "69.13N"; 
+          ["LONG"] = "146.00W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Corsairs of Umbar / The Depths of Mâkhda Khorbo -- Tier 5
+  [1879482937] = {
+      [1] = {
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.41N"; 
+          ["LONG"] = "146.21W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["PROGRESS"] = "Defeat Azagath's Sea-shadow and his crew"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.40N"; 
+          ["LONG"] = "146.01W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["PROGRESS"] = "Defeat Belondor and his crew"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "67.60N"; 
+          ["LONG"] = "146.11W"; 
+        }; 
+      }; 
+      };
+      [4] = {
+      ["PROGRESS"] = "Defeat Umshûra the Glutton"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "69.13N"; 
+          ["LONG"] = "146.00W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Corsairs of Umbar / The Depths of Mâkhda Khorbo -- Tier 2
+  [1879482938] = {
+      [1] = {
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.41N"; 
+          ["LONG"] = "146.21W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["PROGRESS"] = "Defeat Azagath's Sea-shadow and his crew"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.43N"; 
+          ["LONG"] = "146.01W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["PROGRESS"] = "Defeat Belondor and his crew"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "67.60N"; 
+          ["LONG"] = "146.07W"; 
+        }; 
+      }; 
+      };
+      [4] = {
+      ["PROGRESS"] = "Defeat Umshûra the Glutton"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "69.13N"; 
+          ["LONG"] = "146.00W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Corsairs of Umbar / The Depths of Mâkhda Khorbo -- Tier 3
+  [1879482939] = {
+      [1] = {
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.41N"; 
+          ["LONG"] = "146.21W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["PROGRESS"] = "Defeat Azagath's Sea-shadow and his crew"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.42N"; 
+          ["LONG"] = "146.01W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["PROGRESS"] = "Defeat Belondor and his crew"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "67.60N"; 
+          ["LONG"] = "146.09W"; 
+        }; 
+      }; 
+      };
+      [4] = {
+      ["PROGRESS"] = "Defeat Umshûra the Glutton"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "69.13N"; 
+          ["LONG"] = "146.00W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Corsairs of Umbar / The Depths of Mâkhda Khorbo -- Leading the Charge
+  [1879482949] = {
+      [1] = {
+        "Complete the deed 'The Depths of Mâkhda Khorbo -- Tier 3' (Be among the first to complete Depths of Mâkhda Khorbo -- Tier 3)";
+      };
+  };
+  -- Corsairs of Umbar / The Depths of Mâkhda Khorbo -- The Vanguard
+  [1879482950] = {
+      [1] = {
+        "Complete the deed 'The Depths of Mâkhda Khorbo -- Tier 4' (Be among the first to complete Depths of Mâkhda Khorbo -- Tier 4)";
+      };
+  };
+  -- Corsairs of Umbar / The Depths of Mâkhda Khorbo -- Original Challenger
+  [1879482951] = {
+      [1] = {
+        "Complete the deed 'The Depths of Mâkhda Khorbo -- Tier 5' (Be among the first to complete Depths of Mâkhda Khorbo -- Tier 5)";
+      };
+  };
+  -- Corsairs of Umbar / The Depths of Mâkhda Khorbo -- The Sea-shadow's Crew
+  [1879482985] = {
+      [1] = {
+        "Defeat Jadazin";
+      };
+      [2] = {
+        "Defeat Nâxam";
+      };
+      [3] = {
+        "Defeat Ishakhâr";
+      };
+      [4] = {
+        "Defeat Karanzôr";
+      };
+      [5] = {
+        "Defeat Zagarón";
+      };
+      [6] = {
+        "Defeat Phêrida";
+      };
+      [7] = {
+        "Defeat Dulgakhó";
+      };
+      [8] = {
+        "Defeat Burkhad";
+      };
+      [9] = {
+        "Defeat Êphaltud";
+      };
+      [10] = {
+        "Defeat Nûralai";
+      };
+  };
+  -- Corsairs of Umbar / Deeds of the Depths of Mâkhda Khorbo
+  [1879482986] = {
+      [1] = {
+        "Complete the deed 'The Depths of Mâkhda Khorbo -- Tier 1'";
+      };
+      [2] = {
+        "Complete the deed 'The Depths of Mâkhda Khorbo -- Tier 2'";
+      };
+      [3] = {
+        "Complete the deed 'The Depths of Mâkhda Khorbo -- Tier 3'";
+      };
+      [4] = {
+        "Complete the deed 'The Depths of Mâkhda Khorbo -- The Evil Within' (Depths of Mâkhda Khorbo -- The Evil Within)";
+      };
+      [5] = {
+        "Complete the deed 'The Depths of Mâkhda Khorbo -- The Evil Below' (Depths of Mâkhda Khorbo -- The Evil Below)";
+      };
+  };
+  -- Corsairs of Umbar / The Depths of Mâkhda Khorbo -- The Evil Within
+  [1879482987] = {
+      [1] = {
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.41N"; 
+          ["LONG"] = "146.21W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+        "Defeat many of the Ancient Evil in the Mâkhda Khorbo x200";
+      };
+  };
+  -- Corsairs of Umbar / The Depths of Mâkhda Khorbo -- The Evil Below
+  [1879482988] = {
+      [1] = {
+        "Destroy the Nameless Evils rising from the depths of the sea x60";
+      };
+  };
+  -- Corsairs of Umbar / The Isle of Storms -- Tier 3
+  [1879483002] = {
+      [1] = {
+        "Complete the quest 'Instance: Isle of Storms -- Tier 3'";
+      };
+  };
+  -- Corsairs of Umbar / The Isle of Storms -- Tier 4
+  [1879483003] = {
+      [1] = {
+        "Complete the quest 'Instance: Isle of Storms -- Tier 4'";
+      };
+  };
+  -- Corsairs of Umbar / The Isle of Storms -- Tier 5
+  [1879483004] = {
+      [1] = {
+        "Complete the quest 'Instance: Isle of Storms -- Tier 5'";
+      };
+  };
+  -- Corsairs of Umbar / Survivor of The Isle of Storms
+  [1879483005] = {
+      [1] = {
+        "Complete the deed 'The Isle of Storms -- Tier 1'";
+      };
+      [2] = {
+        "Complete the deed 'The Isle of Storms -- Tier 2'";
+      };
+      [3] = {
+        "Complete the deed 'The Isle of Storms -- Tier 3'";
+      };
+      [4] = {
+        "Complete the deed 'The Isle of Storms -- Great Beasts'";
+      };
+      [5] = {
+        "Complete the deed 'The Isle of Storms -- Tier 4'";
+      };
+      [6] = {
+        "Complete the deed 'The Isle of Storms -- Tier 5'";
+      };
+  };
+  -- Corsairs of Umbar / The Isle of Storms -- Tier 5 -- Leading the Charge
+  [1879483006] = {
+      [1] = {
+        "Complete the quest 'Instance: Isle of Storms -- Tier 5'";
+      };
+  };
+  -- Corsairs of Umbar / The Isle of Storms -- Tier 1
+  [1879483007] = {
+      [1] = {
+        "Complete the quest 'Instance: Isle of Storms -- Tier 1'";
+      };
+  };
+  -- Corsairs of Umbar / The Isle of Storms -- Tier 2
+  [1879483008] = {
+      [1] = {
+        "Complete the quest 'Instance: Isle of Storms -- Tier 2'";
+      };
+  };
+  -- Corsairs of Umbar / The Isle of Storms -- Great Beasts
+  [1879483009] = {
+      [1] = {
+      ["PROGRESS"] = "Defeat Krizhmûl"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "23.97S"; 
+          ["LONG"] = "124.74W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["PROGRESS"] = "Defeat Urâbaz the Mighty"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "24.76S"; 
+          ["LONG"] = "126.42W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["PROGRESS"] = "Defeat Raghârik"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "24.15S"; 
+          ["LONG"] = "128.10W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Corsairs of Umbar / Deeds of the Arena of Conflict
+  [1879483030] = {
+      [1] = {
+        "Complete the deed 'The Deeds of Râhal Bakh'";
+      };
+      [2] = {
+        "Complete the deed 'Survivor of The Isle of Storms'";
+      };
+      [3] = {
+        "Complete the deed 'Vanquisher of Dahâl Huliz, The Arena'";
+      };
+      [4] = {
+        "Complete the deed 'Deeds of the Depths of Mâkhda Khorbo'";
+      };
+  };
+  -- Corsairs of Umbar / The Streets of Râhal Bakh -- Tier 5 -- Leading the Charge
+  [1879483052] = {
+      [1] = {
+        "Complete the quest 'The Streets of Râhal Bakh -- Tier 5'";
+      };
+  };
+  -- Corsairs of Umbar / The Deeds of Râhal Bakh
+  [1879483053] = {
+      [1] = {
+        "Complete the deed 'The Streets of Râhal Bakh -- Tier 1'";
+      };
+      [2] = {
+        "Complete the deed 'The Streets of Râhal Bakh -- Tier 2'";
+      };
+      [3] = {
+        "Complete the deed 'The Streets of Râhal Bakh -- Tier 3'";
+      };
+      [4] = {
+        "Complete the deed 'The Streets of Râhal Bakh -- Braver'";
+      };
+      [5] = {
+        "Complete the deed 'The Streets of Râhal Bakh -- Tier 4'";
+      };
+      [6] = {
+        "Complete the deed 'The Streets of Râhal Bakh -- Tier 5'";
+      };
+  };
+  -- Corsairs of Umbar / The Streets of Râhal Bakh -- Tier 3
+  [1879483054] = {
+      [1] = {
+        "Complete the quest 'The Streets of Râhal Bakh -- Tier 3'";
+      };
+  };
+  -- Corsairs of Umbar / The Streets of Râhal Bakh -- Tier 2
+  [1879483055] = {
+      [1] = {
+        "Complete the quest 'The Streets of Râhal Bakh -- Tier 2'";
+      };
+  };
+  -- Corsairs of Umbar / The Streets of Râhal Bakh -- Tier 5
+  [1879483056] = {
+      [1] = {
+        "Complete the quest 'The Streets of Râhal Bakh -- Tier 5'";
+      };
+  };
+  -- Corsairs of Umbar / The Streets of Râhal Bakh -- Tier 4
+  [1879483057] = {
+      [1] = {
+        "Complete the quest 'The Streets of Râhal Bakh -- Tier 4'";
+      };
+  };
+  -- Corsairs of Umbar / The Streets of Râhal Bakh -- Tier 1
+  [1879483058] = {
+      [1] = {
+        "Complete the quest 'The Streets of Râhal Bakh -- Tier 1'";
+      };
+  };
+  -- Corsairs of Umbar / The Streets of Râhal Bakh -- Braver
+  [1879483059] = {
+      [1] = {
+        "Defeat the Jephai Corsairs";
+      };
+  };
+  -- Umbar Baharbêl / Brine-belly
+  [1879485102] = {
+      [1] = {
+        "Use Eat Keteph's Crab on Barley 10 times";
+      };
+  };
+  -- Reputation / Iron-stomach
+  [1879485104] = {
+      [1] = {
+        "Complete the deed 'Brine-belly'";
+      };
+      [2] = {
+        "Complete the deed 'The Unwise'";
+      };
+  };
+  -- Umbar Baharbêl / Spider-bane of Khabârkhad (Advanced)
+  [1879486252] = {
+      [1] = {
+        "Complete the deed 'Spider-bane of Khabârkhad'";
+      };
+      [2] = {
+        "Defeat a great many spiders in Khabârkhad x100";
+      };
+  };
+  -- Umbar Baharbêl / Spider-bane of Khabârkhad
+  [1879486253] = {
+      [1] = {
+        "Defeat many spiders in Khabârkhad x50";
+      };
+  };
+  -- Umbar Baharbêl / Crypt-raider Slayer of Khabârkhad
+  [1879486268] = {
+      [1] = {
+        "Defeat many crypt-raiders in Khabârkhad x50";
+      };
+  };
+  -- Umbar Baharbêl / Dead-slayer of Khabârkhad
+  [1879486269] = {
+      [1] = {
+        "Defeat many Dead in Khabârkhad x50";
+      };
+  };
+  -- Umbar Baharbêl / Dead-slayer of Khabârkhad (Advanced)
+  [1879486270] = {
+      [1] = {
+        "Complete the deed 'Dead-slayer of Khabârkhad'";
+      };
+      [2] = {
+        "Defeat a great many Dead in Khabârkhad x100";
+      };
+  };
+  -- Umbar Baharbêl / Slayer of Khabârkhad
+  [1879486271] = {
+      [1] = {
+        "Complete the deed 'Crypt-raider Slayer of Khabârkhad (Advanced)'";
+      };
+      [2] = {
+        "Complete the deed 'Spider-bane of Khabârkhad (Advanced)'";
+      };
+      [3] = {
+        "Complete the deed 'Dead-slayer of Khabârkhad (Advanced)'";
+      };
+  };
+  -- Umbar Baharbêl / Crypt-raider Slayer of Khabârkhad (Advanced)
+  [1879486272] = {
+      [1] = {
+        "Complete the deed 'Crypt-raider Slayer of Khabârkhad'";
+      };
+      [2] = {
+        "Defeat a great many crypt-raiders in Khabârkhad x100";
+      };
+  };
+  -- Umbar Baharbêl / Goblin-slayer of Ilmabiri
+  [1879486279] = {
+      [1] = {
+        "Defeat many goblins in Ilmabiri x50";
+      };
+  };
+  -- Umbar Baharbêl / Slayer of Ilmabiri
+  [1879486280] = {
+      [1] = {
+        "Complete the deed 'Forsaken-slayer of Ilmabiri (Advanced)'";
+      };
+      [2] = {
+        "Complete the deed 'Goblin-slayer of Ilmabiri (Advanced)'";
+      };
+      [3] = {
+        "Complete the deed 'Crocodile-slayer of Ilmabiri (Advanced)'";
+      };
+  };
+  -- Umbar Baharbêl / Crocodile-slayer of Ilmabiri (Advanced)
+  [1879486281] = {
+      [1] = {
+        "Complete the deed 'Crocodile-slayer of Ilmabiri'";
+      };
+      [2] = {
+        "Defeat a great many crocodiles in Ilmabiri x75";
+      };
+  };
+  -- Umbar Baharbêl / Forsaken-slayer of Ilmabiri
+  [1879486282] = {
+      [1] = {
+        "Defeat many forsaken in Ilmabiri x50";
+      };
+  };
+  -- Umbar Baharbêl / Forsaken-slayer of Ilmabiri (Advanced)
+  [1879486283] = {
+      [1] = {
+        "Complete the deed 'Forsaken-slayer of Ilmabiri'";
+      };
+      [2] = {
+        "Defeat a great many forsaken in Ilmabiri x100";
+      };
+  };
+  -- Umbar Baharbêl / Crocodile-slayer of Ilmabiri
+  [1879486284] = {
+      [1] = {
+        "Defeat many crocodiles in Ilmabiri x25";
+      };
+  };
+  -- Umbar Baharbêl / Goblin-slayer of Ilmabiri (Advanced)
+  [1879486285] = {
+      [1] = {
+        "Complete the deed 'Goblin-slayer of Ilmabiri'";
+      };
+      [2] = {
+        "Defeat a great many goblins in Ilmabiri x100";
+      };
+  };
+  -- Umbar Baharbêl / Cultist-slayer of Kamrabezûr
+  [1879486286] = {
+      [1] = {
+        "Defeat many cultists in Kamrabezûr x50";
+      };
+  };
+  -- Umbar Baharbêl / Slayer of Kamrabezûr
+  [1879486287] = {
+      [1] = {
+        "Complete the deed 'Cultist-slayer of Kamrabezûr (Advanced)'";
+      };
+      [2] = {
+        "Complete the deed 'Gladiator-slayer of Kamrabezûr (Advanced)'";
+      };
+      [3] = {
+        "Complete the deed 'Dead-slayer of Kamrabezûr (Advanced)'";
+      };
+  };
+  -- Umbar Baharbêl / Dead-slayer of Kamrabezûr
+  [1879486288] = {
+      [1] = {
+        "Defeat many Dead in Kamrabezûr x50";
+      };
+  };
+  -- Umbar Baharbêl / Gladiator-slayer of Kamrabezûr (Advanced)
+  [1879486289] = {
+      [1] = {
+        "Complete the deed 'Gladiator-slayer of Kamrabezûr'";
+      };
+      [2] = {
+        "Defeat a great many gladiators in Kamrabezûr x100";
+      };
+  };
+  -- Umbar Baharbêl / Dead-slayer of Kamrabezûr (Advanced)
+  [1879486290] = {
+      [1] = {
+        "Complete the deed 'Dead-slayer of Kamrabezûr'";
+      };
+      [2] = {
+        "Defeat a great many Dead in Kamrabezûr x100";
+      };
+  };
+  -- Umbar Baharbêl / Gladiator-slayer of Kamrabezûr
+  [1879486291] = {
+      [1] = {
+        "Defeat many gladiators in Kamrabezûr x50";
+      };
+  };
+  -- Umbar Baharbêl / Cultist-slayer of Kamrabezûr (Advanced)
+  [1879486292] = {
+      [1] = {
+        "Complete the deed 'Cultist-slayer of Kamrabezûr'";
+      };
+      [2] = {
+        "Defeat a great many cultists in Kamrabezûr x100";
+      };
+  };
+  -- Umbar Baharbêl / Smuggler-bane of Tâkhdar (Advanced)
+  [1879486293] = {
+      [1] = {
+        "Complete the deed 'Smuggler-bane of Tâkhdar'";
+      };
+      [2] = {
+        "Defeat a great many smugglers in Tâkhdar x100";
+      };
+  };
+  -- Umbar Baharbêl / Grodbog-slayer of Tâkhdar
+  [1879486294] = {
+      [1] = {
+        "Defeat many gredbyg in Tâkhdar x50";
+      };
+  };
+  -- Umbar Baharbêl / Slayer of Tâkhdar
+  [1879486295] = {
+      [1] = {
+        "Complete the deed 'Grodbog-slayer of Tâkhdar (Advanced)'";
+      };
+      [2] = {
+        "Complete the deed 'Smuggler-bane of Tâkhdar (Advanced)'";
+      };
+      [3] = {
+        "Complete the deed 'Spider-bane of Tâkhdar (Advanced)'";
+      };
+  };
+  -- Umbar Baharbêl / Grodbog-slayer of Tâkhdar (Advanced)
+  [1879486296] = {
+      [1] = {
+        "Complete the deed 'Grodbog-slayer of Tâkhdar'";
+      };
+      [2] = {
+        "Defeat a great many gredbyg in Tâkhdar x100";
+      };
+  };
+  -- Umbar Baharbêl / Smuggler-bane of Tâkhdar
+  [1879486297] = {
+      [1] = {
+        "Defeat many smugglers in Tâkhdar x50";
+      };
+  };
+  -- Umbar Baharbêl / Spider-bane of Tâkhdar (Advanced)
+  [1879486298] = {
+      [1] = {
+        "Complete the deed 'Spider-bane of Tâkhdar'";
+      };
+      [2] = {
+        "Defeat a great many spiders in Tâkhdar x100";
+      };
+  };
+  -- Umbar Baharbêl / Spider-bane of Tâkhdar
+  [1879486299] = {
+      [1] = {
+        "Defeat many spiders in Tâkhdar x50";
+      };
+  };
+  -- Umbar Baharbêl / Darkwater-slayer of Dil-irmíz (Advanced)
+  [1879486389] = {
+      [1] = {
+        "Complete the deed 'Darkwater-slayer of Dil-irmíz'";
+      };
+      [2] = {
+        "Defeat a great many darkwaters in Dil-irmíz x100";
+      };
+  };
+  -- Umbar Baharbêl / Slayer of Dil-irmíz
+  [1879486390] = {
+      [1] = {
+        "Complete the deed 'Smuggler-bane of Dil-irmíz (Advanced)'";
+      };
+      [2] = {
+        "Complete the deed 'Criminal-bane of Dil-irmíz (Advanced)'";
+      };
+  };
+  -- Umbar Baharbêl / Reclaiming Dil-irmíz
+  [1879486391] = {
+      [1] = {
+      ["NAME"] = "The Dûlkar"; 
+      ["PROGRESS"] = "Find the Dûlkar"; 
+      ["LORE"] = "The Dûlkar is the infamous 'shadow-market' of Dil-irmíz, where anything can be found... for the right price, and if you know the right person. If you suggest the wrong price, or go to the wrong person, rumour has it that you will never see the sunlight above ground again. Best not dwell upon it."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "122.30S"; 
+          ["LONG"] = "141.23W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["NAME"] = "Jadambor"; 
+      ["PROGRESS"] = "Find Jadambor"; 
+      ["LORE"] = "Jadambor, located on the western side of Dil-irmíz, has become a fortified position from which mercenaries hired by Khôltekh and others try to defend the city above from the many and varied foes that emerge from the depths."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "121.41S"; 
+          ["LONG"] = "143.65W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["NAME"] = "Deshûkh"; 
+      ["PROGRESS"] = "Find Deshûkh"; 
+      ["LORE"] = "Deshûkh is closed to outsiders, but the criminal element is alive and well in this area of Dil-irmíz. Smugglers, cutthroats, and pickpockets coexist in these chambers, but only for so long as their chosen occupations do not hinder those of their fellows."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "121.17S"; 
+          ["LONG"] = "141.61W"; 
+        }; 
+      }; 
+      };
+      [4] = {
+      ["NAME"] = "Dâr Sêkhta"; 
+      ["PROGRESS"] = "Find Dâr Sêkhta"; 
+      ["LORE"] = "The name Dâr Sêkhta has been spoken of in hushed tones for the past few weeks, with the whispered rumours hinting that a new power has begun to rise in the damp passages and sealed chambers of Dil-irmíz. Does someone seek to challenge Khôltekh for dominance in the Berths?"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "122.35S"; 
+          ["LONG"] = "142.08W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Umbar Baharbêl / Smuggler-bane of Dil-irmíz (Advanced)
+  [1879486392] = {
+      [1] = {
+        "Complete the deed 'Smuggler-bane of Dil-irmíz'";
+      };
+      [2] = {
+        "Defeat a great many smugglers in Dil-irmíz x75";
+      };
+  };
+  -- Umbar Baharbêl / Criminal-bane of Dil-irmíz (Advanced)
+  [1879486393] = {
+      [1] = {
+        "Complete the deed 'Criminal-bane of Dil-irmíz'";
+      };
+      [2] = {
+        "Defeat a great many criminals in Dil-irmíz x75";
+      };
+  };
+  -- Umbar Baharbêl / Cultist-bane of Dil-irmíz
+  [1879486394] = {
+      [1] = {
+        "Defeat many Umshûran cultists in Dil-irmíz x50";
+      };
+  };
+  -- Umbar Baharbêl / Reclaiming Khabârkhad
+  [1879486395] = {
+      [1] = {
+      ["NAME"] = "Itekh-kên"; 
+      ["PROGRESS"] = "Find Itekh-kên"; 
+      ["LORE"] = "This small camp of treasure-seekers located in the northern reaches of Khabârkhad gives the impression that it could disappear at any time, specifically at the moment that something valuable is discovered further away than is convenient to Itekh-kên. The name given to this chamber by those who reside here means 'seekers' refuge' in the Umbari tongue, but it remains an active location within Umbar-môkh only for as long as there is something nearby worth seeking."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "117.30S"; 
+          ["LONG"] = "140.94W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["NAME"] = "Mekab-kuphâr"; 
+      ["PROGRESS"] = "Find Mekab-kuphâr"; 
+      ["LORE"] = "At the direction of the Hall-father, Temámir Dwarves worked tirelessly to carve passages into Umbar-môkh from the Shoreward Stone. This camp of their people serves as a guarded entrance to the halls and chambers of Khabârkhad, and Khôltekh carefully observes the comings and goings of those who pass through Mekab-kuphâr."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "119.70S"; 
+          ["LONG"] = "140.17W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["NAME"] = "Lôkhalel"; 
+      ["PROGRESS"] = "Find Lôkhalel"; 
+      ["LORE"] = "The tombs of Lôkhalel have seized the attention of raiders seeking to plunder the crypts for treasure and priceless trinkets. From here the particularly bold sometimes strike out for the adjoining passages of Khabârkhad, endangering anyone they see as competition for the valuables within."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "118.08S"; 
+          ["LONG"] = "141.55W"; 
+        }; 
+      }; 
+      };
+      [4] = {
+      ["NAME"] = "Nishabêt"; 
+      ["PROGRESS"] = "Find Nishabêt"; 
+      ["LORE"] = "Nishabêt, 'weavers' nest' in the Umbari tongue, used to refer to one small chamber within Khabârkhad. Without enough guards to stem the tide of spiders as they emerged, the nest has expanded and now occupies the encircling passages. Unless something is done, Nishabêt may one day become the name for all of Umbar-môkh."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "118.35S"; 
+          ["LONG"] = "139.78W"; 
+        }; 
+      }; 
+      };
+      [5] = {
+      ["NAME"] = "Sektakhâb"; 
+      ["PROGRESS"] = "Find Sektakhâb"; 
+      ["LORE"] = "A vaulted, distant ceiling and wide avenues mark the tombs where the nobility of Umbar Baharbêl were once given their eternal rest, but the silent sepulcher of Sektakhâb is no longer peaceful. Now the restless Dead stalk these crypts in south-west Khabârkhad, endangering any who risk coming near."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "119.39S"; 
+          ["LONG"] = "141.95W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Umbar Baharbêl / Cultist-bane of Dil-irmíz (Advanced)
+  [1879486396] = {
+      [1] = {
+        "Complete the deed 'Cultist-bane of Dil-irmíz'";
+      };
+      [2] = {
+        "Defeat a great many Umshûran cultists in Dil-irmíz x100";
+      };
+  };
+  -- Umbar Baharbêl / Reclaiming Tâkhdar
+  [1879486397] = {
+      [1] = {
+      ["NAME"] = "Kheb Hanût"; 
+      ["PROGRESS"] = "Find Kheb Hanût"; 
+      ["LORE"] = "A festive mood fills the air at Kheb Hanût in the north-western reaches of Tâkhdar. This market stands in contrast to similar bazaars elsewhere in Umbar-môkh, especially the Dûlkar of Dil-irmíz."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "113.38S"; 
+          ["LONG"] = "141.81W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["NAME"] = "Tilmakhím"; 
+      ["PROGRESS"] = "Find Tilmakhím"; 
+      ["LORE"] = "The cross-roads of Tilmakhím, not far from the centre of Tâkhdar, have become home to two types of Umbar-môkh resident. The first are vendors seeking to stand out from their fellows at other markets beneath the city. The second are the rats, drawn by the crowds and the promise of food scraps. Each demands attention from you, and will not be silenced without effort."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "115.77S"; 
+          ["LONG"] = "141.04W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["NAME"] = "Ishadôkh"; 
+      ["PROGRESS"] = "Find Ishadôkh"; 
+      ["LORE"] = "Ishadôkh lies within the southern reaches of Tâkhdar, but the hissing and buzzing sounds emanating from the workers and burrowers of this hive travel much further than you might expect. Refugees in Kamrabezûr have complained about the sound from even as far away as the chamber beneath Dahâl Huliz."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "116.74S"; 
+          ["LONG"] = "140.69W"; 
+        }; 
+      }; 
+      };
+      [4] = {
+      ["NAME"] = "Sâl Bajat"; 
+      ["PROGRESS"] = "Find Sâl Bajat"; 
+      ["LORE"] = "The smugglers of Sâl Bajat keep a wary eye upon the nearby market, eager to arrange as many favourable 'deals' for themselves and their customers as they can."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "113.12S"; 
+          ["LONG"] = "141.51W"; 
+        }; 
+      }; 
+      };
+      [5] = {
+      ["NAME"] = "Shak Phêlex"; 
+      ["PROGRESS"] = "Find Shak Phêlex"; 
+      ["LORE"] = "The spiders of Shak Phêlex are a venomous danger for any who stumble down the wrong passage within Tâkhdar. Folk in the city above keep some crates here, but the presence of the spiders may have persuaded some of these merchants to count these goods a loss."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "115.15S"; 
+          ["LONG"] = "140.06W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Umbar Baharbêl / Darkwater-slayer of Dil-irmíz
+  [1879486398] = {
+      [1] = {
+        "Defeat many darkwaters in Dil-irmíz x50";
+      };
+  };
+  -- Umbar Baharbêl / Reclaiming Ilmabiri
+  [1879486399] = {
+      [1] = {
+      ["NAME"] = "Kruha-sûrja"; 
+      ["PROGRESS"] = "Find Kruha-sûrja"; 
+      ["LORE"] = "The guard-post of Kruha-sûrja is well-named in the Umbari tongue, for it means 'bastion against the beasts,' and that describes the shared purpose of the men and women who gather in the northern reaches of Ilmabiri in Umbar-môkh."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "114.20S"; 
+          ["LONG"] = "142.55W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["NAME"] = "Hêbatokh"; 
+      ["PROGRESS"] = "Find Hêbatokh"; 
+      ["LORE"] = "Hêbatokh cannot properly be described as a real settlement, though it has become home to a number of folk who scratch out a living on either side of one of the water channels dividing Ilmabiri. It is best not to ask too many questions of those you encounter at Hêbatokh, and they will keep the same courtesy for you."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "115.81S"; 
+          ["LONG"] = "142.33W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["NAME"] = "Nêb-jadir"; 
+      ["PROGRESS"] = "Find Nêb-jadir"; 
+      ["LORE"] = "The crocodiles of Ilmabiri gather around the water that plunges into Nêb-jadir. Long ago they learned that any creatures that endured the drop will not long survive their jaws, and the lesson applies equally to two-legged adventurers as it does to four-legged beasts."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "115.04S"; 
+          ["LONG"] = "142.13W"; 
+        }; 
+      }; 
+      };
+      [4] = {
+      ["NAME"] = "Talaba-kên"; 
+      ["PROGRESS"] = "Find the Talaba-kên"; 
+      ["LORE"] = "Something haunts the small encampment of Talaba-kên, but whether these structures are home to displaced children of Umbar or something else is a question of some interest to those who guard Ilmabiri."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "114.36S"; 
+          ["LONG"] = "144.04W"; 
+        }; 
+      }; 
+      };
+      [5] = {
+      ["NAME"] = "Môba Ided"; 
+      ["PROGRESS"] = "Find Môba Ided"; 
+      ["LORE"] = "Môba Ided has become home to a number of folk who have few other places to turn. Both fleeing Heirsworn and cultists from the Church of the All-Seeing have taken up residence in the southern reaches of Ilmabiri, achieving a delicate peace among themselves. That temporary understanding does not extend to outsiders."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "116.37S"; 
+          ["LONG"] = "141.71W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Umbar Baharbêl / Reclaiming Kamrabezûr
+  [1879486400] = {
+      [1] = {
+      ["NAME"] = "Kên Taghlim"; 
+      ["PROGRESS"] = "Find Kên Taghlim"; 
+      ["LORE"] = "In the north-western reaches of Kamrabezûr lies Kên Taghlim, the haven of learning from which scholars study the few archives and temples that remain undisturbed within Umbar-môkh."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "113.62S"; 
+          ["LONG"] = "139.30W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["NAME"] = "Hulzidâr"; 
+      ["PROGRESS"] = "Find Hulzidâr"; 
+      ["LORE"] = "In the Umbari tongue, Hulzidâr means 'home of the fighters,' and in the days of unrest following the withdrawal of the Empire of Ordakh from the city, it has become a most suitable name. Former warriors of the Dahâl Huliz defend the outskirts of the camp and make safe the other refugees that now shelter in the chambers beneath the arena."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "116.01S"; 
+          ["LONG"] = "137.73W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["NAME"] = "Jâx Ugikh"; 
+      ["PROGRESS"] = "Find Jâx Ugikh"; 
+      ["LORE"] = "If these halls were ever a place of safety, they are no longer, for the Ugikh-hûti now threaten any who pass this way, naming their foothold here Jâx Ugikh. Between escaped beasts from the arena and this group of hostile cultists, the wide passages of Kamrabezûr are no longer suitable for the scholars from the Tor-gardens who seek solace within the cool passages beneath the city."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "114.44S"; 
+          ["LONG"] = "138.81W"; 
+        }; 
+      }; 
+      };
+      [4] = {
+      ["NAME"] = "Harkhaphâr"; 
+      ["PROGRESS"] = "Find the Harkhaphâr"; 
+      ["LORE"] = "The warriors of Harkhaphâr fight without mercy, as if they remain upon the bloodstained sands of Dahâl Huliz. Can they still hear the distant roar of the crowd from the stands above, or are they merely the echoes of their past adulation? Blinded by rage and the ferocity of the combats they imagine continue, they speak no word in answer."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "116.73S"; 
+          ["LONG"] = "139.23W"; 
+        }; 
+      }; 
+      };
+      [5] = {
+      ["NAME"] = "Ghâr Mejet"; 
+      ["PROGRESS"] = "Find Ghâr Mejet"; 
+      ["LORE"] = "These corridors are far from the crypts and tombs of Khabârkhad, but the Dead walk in Kamrabezûr even so. It would take a learned scholar to understand what has disturbed their rest and caused them to shamble here, but few such learned ones would dare approach Ghâr Mejet."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "116.65S"; 
+          ["LONG"] = "139.92W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Umbar Baharbêl / Slayer of the Umbar-môkh
+  [1879486401] = {
+      [1] = {
+        "Complete the deed 'Slayer of Khabârkhad'";
+      };
+      [2] = {
+        "Complete the deed 'Slayer of Ilmabiri'";
+      };
+      [3] = {
+        "Complete the deed 'Slayer of Kamrabezûr'";
+      };
+      [4] = {
+        "Complete the deed 'Slayer of Tâkhdar'";
+      };
+      [5] = {
+        "Complete the deed 'Slayer of Dil-irmíz'";
+      };
+  };
+  -- Umbar Baharbêl / Smuggler-bane of Dil-irmíz
+  [1879486402] = {
+      [1] = {
+        "Defeat many smugglers in Dil-irmíz x50";
+      };
+  };
+  -- Umbar Baharbêl / Criminal-bane of Dil-irmíz
+  [1879486403] = {
+      [1] = {
+        "Defeat many criminals in Dil-irmíz x50";
+      };
+  };
+  -- Umbar Baharbêl / Explorer of the Umbar-môkh
+  [1879486404] = {
+      [1] = {
+        "Complete the deed 'Reclaiming Khabârkhad'";
+      };
+      [2] = {
+        "Complete the deed 'Reclaiming Ilmabiri'";
+      };
+      [3] = {
+        "Complete the deed 'Reclaiming Kamrabezûr'";
+      };
+      [4] = {
+        "Complete the deed 'Reclaiming Tâkhdar'";
+      };
+      [5] = {
+        "Complete the deed 'Reclaiming Dil-irmíz'";
+      };
+  };
+  -- Umbar Baharbêl / Vanquisher of Dil-irmíz
+  [1879486405] = {
+      [1] = {
+        "Complete the deed 'Cultist-bane of Dil-irmíz (Advanced)'";
+      };
+      [2] = {
+        "Complete the deed 'Darkwater-slayer of Dil-irmíz (Advanced)'";
+      };
+  };
+  -- Umbar Baharbêl / Tales of Dil-irmíz
+  [1879486406] = {
+      [1] = {
+        "Complete quests in Dil-irmíz in the Umbar-môkh x4";
+      };
+  };
+  -- Umbar Baharbêl / Tales of Kamrabezûr
+  [1879486407] = {
+      [1] = {
+        "Complete quests in Kamrabezûr in the Umbar-môkh x8";
+      };
+  };
+  -- Umbar Baharbêl / Tales of Khabârkhad
+  [1879486408] = {
+      [1] = {
+        "Complete quests in Khabârkhad in the Umbar-môkh x6";
+      };
+  };
+  -- Umbar Baharbêl / Light in the Umbar-môkh
+  [1879486409] = {
+      [1] = {
+        "Complete the deed 'Slayer of the Umbar-môkh'";
+      };
+      [2] = {
+        "Complete the deed 'Explorer of the Umbar-môkh'";
+      };
+      [3] = {
+        "Complete the deed 'Tales of the Umbar-môkh'";
+      };
+  };
+  -- Umbar Baharbêl / Tales of Ilmabiri
+  [1879486410] = {
+      [1] = {
+        "Complete quests in Ilmabiri in the Umbar-môkh x8";
+      };
+  };
+  -- Umbar Baharbêl / Tales of the Umbar-môkh
+  [1879486411] = {
+      [1] = {
+        "Complete the deed 'Tales of Khabârkhad'";
+      };
+      [2] = {
+        "Complete the deed 'Tales of Ilmabiri'";
+      };
+      [3] = {
+        "Complete the deed 'Tales of Kamrabezûr'";
+      };
+      [4] = {
+        "Complete the deed 'Tales of Tâkhdar'";
+      };
+      [5] = {
+        "Complete the deed 'Tales of Dil-irmíz'";
+      };
+      [6] = {
+        "Complete the quest 'Chapter 9.9: The Name'";
+      };
+      [7] = {
+        "Complete the quest 'The Light and the Shadow Part 8: And Is Extinguished'";
+      };
+      [8] = {
+        "Complete the quest 'A Gilded Veneer, Part 8: Hármelak's Order'";
+      };
+      [9] = {
+        "Complete the quest 'The Gathering Storm, Part 8: Rothog's Fury'";
+      };
+      [10] = {
+        "Complete the quest 'A Man Adrift, Part 8: Searching the Depths'";
+      };
+  };
+  -- Umbar Baharbêl / Tales of Tâkhdar
+  [1879486412] = {
+      [1] = {
+        "Complete quests in Tâkhdar in the Umbar-môkh x8";
+      };
+  };
+  -- Umbar Baharbêl / Rat-slayer of the Umbar-môkh (Advanced)
+  [1879486550] = {
+      [1] = {
+        "Complete the deed 'Rat-slayer of the Umbar-môkh'";
+      };
+      [2] = {
+        "Defeat a great many rats in the Umbar-môkh x200";
+      };
+  };
+  -- Umbar Baharbêl / Rat-slayer of the Umbar-môkh
+  [1879486551] = {
+      [1] = {
+        "Defeat rats in the Umbar-môkh x100";
+      };
+  };
+  -- Umbar Baharbêl / Bat-slayer of the Umbar-môkh (Advanced)
+  [1879486552] = {
+      [1] = {
+        "Complete the deed 'Bat-slayer of the Umbar-môkh'";
+      };
+      [2] = {
+        "Defeat a great many bats in the Umbar-môkh x200";
+      };
+  };
+  -- Umbar Baharbêl / Bat-slayer of the Umbar-môkh
+  [1879486553] = {
+      [1] = {
+        "Defeat many bats in the Umbar-môkh x100";
+      };
+  };
+  -- Umbar Baharbêl / Treasure-seeker of the Umbar-môkh
+  [1879486571] = {
+      [1] = {
+      ["NAME"] = "Treasure Cache"; 
+      ["PROGRESS"] = "Find treasure caches in the Umbar-môkh"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "115.41S"; 
+          ["LONG"] = "143.29W"; 
+        }; 
+        [2] = {
+          ["LAT"] = "115.46S"; 
+          ["LONG"] = "142.22W"; 
+        }; 
+        [3] = {
+          ["LAT"] = "122.08S"; 
+          ["LONG"] = "141.90W"; 
+        }; 
+        [4] = {
+          ["LAT"] = "120.05S"; 
+          ["LONG"] = "141.24W"; 
+        }; 
+        [5] = {
+          ["LAT"] = "121.21S"; 
+          ["LONG"] = "141.06W"; 
+        }; 
+        [6] = {
+          ["LAT"] = "117.33S"; 
+          ["LONG"] = "140.80W"; 
+        }; 
+        [7] = {
+          ["LAT"] = "116.32S"; 
+          ["LONG"] = "141.10W"; 
+        }; 
+        [8] = {
+          ["LAT"] = "114.76S"; 
+          ["LONG"] = "141.10W"; 
+        }; 
+        [9] = {
+          ["LAT"] = "116.30S"; 
+          ["LONG"] = "138.90W"; 
+        }; 
+        [10] = {
+          ["LAT"] = "115.45S"; 
+          ["LONG"] = "139.47W"; 
+        }; 
+      };
       };
   };
 };

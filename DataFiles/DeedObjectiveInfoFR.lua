@@ -5903,7 +5903,7 @@ _OBJECTIVES = {
         "Terminez la prouesse 'Les Angmarim de Carn Dûm'";
       };
       [2] = {
-        "Triomphez des Angmarim de Carn Dûm. x200";
+        "Triomphez des Angmarim de Carn Dûm x200";
       };
   };
   -- Les ombres d'Angmar / Les champions de Carn Dûm (final)
@@ -5948,7 +5948,7 @@ _OBJECTIVES = {
   -- Les ombres d'Angmar / Les Angmarim de Carn Dûm
   [1879114573] = {
       [1] = {
-        "Triomphez des Angmarim de Carn Dûm. x100";
+        "Triomphez des Angmarim de Carn Dûm x100";
       };
   };
   -- Les ombres d'Angmar / Les trolls de Carn Dûm
@@ -31383,8 +31383,8 @@ _OBJECTIVES = {
           ["LONG"] = "25.36W"; 
         }; 
         [9] = {
-          ["LAT"] = "1.58S"; 
-          ["LONG"] = "23.21W"; 
+          ["LAT"] = "1.57S"; 
+          ["LONG"] = "23.20W"; 
         }; 
         [10] = {
           ["LAT"] = "9.60N"; 
@@ -44877,6 +44877,9 @@ _OBJECTIVES = {
       [19] = {
         "Terminez la quête 'Mauvais présages : Orage sur Methedras (niveau 3)'";
       };
+      [20] = {
+        "Terminez la quête 'Mauvais présages : Le destin funeste de Caras Gelebren (Niveau 3)'";
+      };
   };
   -- Instances d'escarmouche / Présages des Morts
   [1879385378] = {
@@ -50914,7 +50917,7 @@ _OBJECTIVES = {
       [5] = {
       ["NAME"] = "Carrefour de Marl"; 
       ["PROGRESS"] = "Explorez le Carrefour de Marl"; 
-      ["LORE"] = "Bien au-dessus des rapides et des eaux tumultueuses du Puits du Néant, un pont de fortune se balance au gré du vent. Marl le Grimpeur fut le premier homme de l'histoire à escalader les murs du gouffre de Cirith Nur. Malheureusement, quelque soit la bête qui se trouvait à l'affût du côté des Bois Sauvages, elle ne fit qu'une bouchée de l'aventurier."; 
+      ["LORE"] = "Bien au-dessus des rapides et des eaux tumultueuses du Puits du Néant, un pont de fortune se balance au gré du vent. Marl le Grimpeur fut le premier homme de l'histoire à escalader les murs du gouffre de Cirith Nûr. Malheureusement, quelque soit la bête qui se trouvait à l'affût du côté des Bois Sauvages, elle ne fit qu'une bouchée de l'aventurier."; 
       ["POINTS"] = {
         [1] = {
           ["LAT"] = "16.83S"; 
@@ -56841,7 +56844,7 @@ _OBJECTIVES = {
         "Terminez la prouesse 'Tueur / Tueuse de bêtes sauvages de l’Angle (Avancé)' (Tuez un grand nombre de bêtes sauvages dans l’Angle)";
       };
       [2] = {
-        "Terminez la prouesse 'Dead-slayer of the Angle (Advanced)' (Tuez un grand nombre de Morts dans l’Angle)";
+        "Terminez la prouesse 'Tueur / Tueuse de Morts de l’Angle (Avancé)' (Tuez un grand nombre de Morts dans l’Angle)";
       };
       [3] = {
         "Terminez la prouesse 'Tueur / Tueuse d’Hommes malfaisants de l’Angle (Avancé)' (Tuez un grand nombre d’Hommes malfaisants dans l’Angle)";
@@ -56868,10 +56871,10 @@ _OBJECTIVES = {
         "Terminez la prouesse 'Tueur / Tueuse de l’Angle' (Complete Slayer of the Angle)";
       };
   };
-  -- Trouée des Trolls / Dead-slayer of the Angle (Advanced)
+  -- Trouée des Trolls / Tueur / Tueuse de Morts de l’Angle (Avancé)
   [1879443683] = {
       [1] = {
-        "Terminez la prouesse 'Dead-slayer of the Angle'";
+        "Terminez la prouesse 'Tueur / Tueuse de Morts de l’Angle'";
       };
       [2] = {
         "Éliminez un grand nombre de Morts dans l’Angle x80";
@@ -56886,7 +56889,7 @@ _OBJECTIVES = {
         "Éliminez un grand nombre d’Hommes malfaisants dans l’Angle. x120";
       };
   };
-  -- Trouée des Trolls / Dead-slayer of the Angle
+  -- Trouée des Trolls / Tueur / Tueuse de Morts de l’Angle
   [1879443685] = {
       [1] = {
         "Éliminez un grand nombre de Morts dans l’Angle x40";
@@ -58810,7 +58813,7 @@ _OBJECTIVES = {
   -- Classe / Les vagues sont ma maison
   [1879457981] = {
       [1] = {
-        "Utilisez la compétence Pied marin 50 fois";
+        "Utilisez la compétence Pied marin. 50 fois";
       };
   };
   -- Classe / Maître des potions
@@ -59956,6 +59959,12 @@ _OBJECTIVES = {
         "Terminez la quête 'Chapitre 7.5 : Toutes les rivières mènent à la mer'";
       };
       [8] = {
+        "Terminez la quête 'Chapitre 8.5 : La détermination de Harmelak'";
+      };
+      [9] = {
+        "Terminez la quête 'Chapitre 9.9 : Le nom'";
+      };
+      [10] = {
         "L'histoire continuera lors de prochaines mises à jour !";
       };
   };
@@ -60426,6 +60435,18 @@ _OBJECTIVES = {
         "Vous devez obtenir le statut d'Ami / d'Amie des habitants d'Umbar Baharbêl";
       };
   };
+  -- Réputation / Allié / Alliée des habitants d'Umbar Baharbêl
+  [1879465759] = {
+      [1] = {
+        "Vous devez obtenir le statut Allié / Alliée des habitants d'Umbar Baharbêl";
+      };
+  };
+  -- Réputation / Frère / Sœur des habitants d'Umbar Baharbêl
+  [1879465760] = {
+      [1] = {
+        "Vous devez obtenir le statut Frère / Sœur des habitants d'Umbar Baharbêl";
+      };
+  };
   -- Réputation / Connaissance des habitants d'Umbar Baharbêl
   [1879465761] = {
       [1] = {
@@ -60831,7 +60852,7 @@ _OBJECTIVES = {
       }; 
       };
       [2] = {
-      ["NAME"] = "Garde d'Abadec"; 
+      ["NAME"] = "Camp d'Abedec"; 
       ["PROGRESS"] = "Trouvez la Garde d'Abadec"; 
       ["LORE"] = "Ce qui était jadis une forteresse corsaire n'est désormais plus que le reflet de sa grandeur d'antan. Les corsaires qui se sont retrouvés coincés au Gondor ont abondé vers ce lieu dans un désir de protection, de vengeance, ou bien les deux."; 
       ["POINTS"] = {
@@ -61098,7 +61119,7 @@ _OBJECTIVES = {
         "Obtenez Assignat de titre - Dort la nuit";
       };
   };
-  -- Réputation / Forestier compétitif / Forestière compétitive - niveau 4
+  -- Réputation / Forestier compétitif / Forestière compétitive - niveau IV
   [1879467126] = {
       [1] = {
         "Terminez la quête 'Combe : Bûcheron jusqu'au bout' x50";
@@ -62784,7 +62805,7 @@ _OBJECTIVES = {
         }; 
         [11] = {
           ["LAT"] = "14.87S"; 
-          ["LONG"] = "100.71W"; 
+          ["LONG"] = "100.72W"; 
         }; 
         [12] = {
           ["LAT"] = "14.45S"; 
@@ -62829,25 +62850,10 @@ _OBJECTIVES = {
       };
       };
   };
-  -- Cap d'Umbar / Haradrim-slayer of the Cape of Umbar
-  [1879474820] = {
-      [1] = {
-        "Éliminez de nombreux Haradrim au cap d'Umbar x30";
-      };
-  };
   -- Cap d'Umbar / Beast-slayer of the Cape of Umbar
   [1879474821] = {
       [1] = {
         "Éliminez des bêtes dans tout le cap d'Umbar x160";
-      };
-  };
-  -- Cap d'Umbar / Haradrim-slayer of the Cape of Umbar (Advanced)
-  [1879474824] = {
-      [1] = {
-        "Terminez la prouesse 'Haradrim-slayer of the Cape of Umbar'";
-      };
-      [2] = {
-        "Éliminez de nombreux Haradrim au cap d'Umbar x90";
       };
   };
   -- Cap d'Umbar / Slayer of the Cape of Umbar
@@ -63780,7 +63786,7 @@ _OBJECTIVES = {
       ["LORE"] = "Vous avez découvert la taverne du Garde-flotte."; 
       ["POINTS"] = {
         [1] = {
-          ["LAT"] = "24.14S"; 
+          ["LAT"] = "24.38S"; 
           ["LONG"] = "98.24W"; 
         }; 
       }; 
@@ -63878,6 +63884,1354 @@ _OBJECTIVES = {
       };
       [3] = {
         "Terminez la prouesse 'Prouesses d'Umbar Baharbêl'";
+      };
+  };
+  -- Epique / Une lettre de Caebar
+  [1879482570] = {
+      [1] = {
+        "Terminez la quête 'Interlude : Le retour du fantôme'";
+      };
+  };
+  -- Epique / Une lettre de Caebar
+  [1879482571] = {
+      [1] = {
+        "Terminez la quête 'Interlude : Le retour du fantôme'";
+      };
+  };
+  -- Cap d'Umbar / Les profondeurs du Mâkhda Khorbo – La fuite d'Azagath
+  [1879482825] = {
+      [1] = {
+        "Terminez la quête 'Les profondeurs du Mâkhda Khorbo -- Niveau 1'";
+      };
+      [2] = {
+        "Terminez la quête 'Les profondeurs du Mâkhda Khorbo -- Niveau 2'";
+      };
+      [3] = {
+        "Terminez la quête 'Les profondeurs du Mâkhda Khorbo -- Niveau 3'";
+      };
+      [4] = {
+        "Terminez la quête 'Les profondeurs du Mâkhda Khorbo -- Niveau 4'";
+      };
+      [5] = {
+        "Terminez la quête 'Les profondeurs du Mâkhda Khorbo -- Niveau 5'";
+      };
+  };
+  -- Corsaires d'Umbar / Dahâl Huliz, l'arène – Niveau 1
+  [1879482851] = {
+      [1] = {
+        "Terminez la quête 'Dahâl Huliz, l'arène – Niveau 1'";
+      };
+  };
+  -- Corsaires d'Umbar / Dahâl Huliz, l'arène – Gladiateurs
+  [1879482852] = {
+      [1] = {
+        "Éliminez Horthion à Dahâl Huliz";
+      };
+      [2] = {
+        "Éliminez Nakrov le Balafré à Dahâl Huliz";
+      };
+      [3] = {
+        "Éliminez Akhmâr Rougetempête à Dahâl Huliz";
+      };
+      [4] = {
+        "Éliminez Shaidal à Dahâl Huliz";
+      };
+      [5] = {
+        "Éliminez Ulanor à Dahâl Huliz";
+      };
+      [6] = {
+        "Éliminez Bhastah à Dahâl Huliz";
+      };
+      [7] = {
+        "Éliminez Shaidal à Dahâl Huliz";
+      };
+      [8] = {
+        "Éliminez Rothog le Tempétueux";
+      };
+  };
+  -- Corsaires d'Umbar / Dahâl Huliz, l'arène – Niveau 4
+  [1879482853] = {
+      [1] = {
+        "Terminez la quête 'Dahâl Huliz, l'arène – Niveau 4'";
+      };
+  };
+  -- Corsaires d'Umbar / Dahâl Huliz, l'arène – Niveau 5
+  [1879482854] = {
+      [1] = {
+        "Terminez la quête 'Dahâl Huliz, l'arène – Niveau 5'";
+      };
+  };
+  -- Corsaires d'Umbar / Dahâl Huliz, l'arène – Niveau 2
+  [1879482855] = {
+      [1] = {
+        "Terminez la quête 'Dahâl Huliz, l'arène – Niveau 2'";
+      };
+  };
+  -- Corsaires d'Umbar / Dahâl Huliz, l'arène – Niveau 3
+  [1879482856] = {
+      [1] = {
+        "Terminez la quête 'Dahâl Huliz, l'arène – Niveau 3'";
+      };
+  };
+  -- Corsaires d'Umbar / Dahâl Huliz, l'arène – Niveau 5 – En avant !
+  [1879482857] = {
+      [1] = {
+        "Terminez la quête 'Dahâl Huliz, l'arène – Niveau 5'";
+      };
+  };
+  -- Corsaires d'Umbar / Bourreau de Dahâl Huliz, l'arène
+  [1879482862] = {
+      [1] = {
+        "Terminez la prouesse 'Dahâl Huliz, l'arène – Niveau 1'";
+      };
+      [2] = {
+        "Terminez la prouesse 'Dahâl Huliz, l'arène – Niveau 2'";
+      };
+      [3] = {
+        "Terminez la prouesse 'Dahâl Huliz, l'arène – Niveau 3'";
+      };
+      [4] = {
+        "Terminez la prouesse 'Dahâl Huliz, l'arène – Gladiateurs'";
+      };
+      [5] = {
+        "Terminez la prouesse 'Dahâl Huliz, l'arène – Niveau 4'";
+      };
+      [6] = {
+        "Terminez la prouesse 'Dahâl Huliz, l'arène – Niveau 5'";
+      };
+  };
+  -- Corsaires d'Umbar / Les profondeurs du Mâkhda Khorbo -- Niveau 1
+  [1879482935] = {
+      [1] = {
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.41N"; 
+          ["LONG"] = "146.21W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["PROGRESS"] = "Éliminez Azagath l'Ombre de la Mer et son équipage"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.44N"; 
+          ["LONG"] = "146.01W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["PROGRESS"] = "Éliminez Belondor et son équipage"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "67.60N"; 
+          ["LONG"] = "146.06W"; 
+        }; 
+      }; 
+      };
+      [4] = {
+      ["PROGRESS"] = "Éliminez Umshûra le Vorace"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "69.13N"; 
+          ["LONG"] = "146.00W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Corsaires d'Umbar / Les profondeurs du Mâkhda Khorbo -- Niveau 4
+  [1879482936] = {
+      [1] = {
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.41N"; 
+          ["LONG"] = "146.21W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["PROGRESS"] = "Éliminez Azagath l'Ombre de la Mer et son équipage"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.41N"; 
+          ["LONG"] = "146.01W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["PROGRESS"] = "Éliminez Belondor et son équipage"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "67.60N"; 
+          ["LONG"] = "146.10W"; 
+        }; 
+      }; 
+      };
+      [4] = {
+      ["PROGRESS"] = "Éliminez Umshûra le Vorace"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "69.13N"; 
+          ["LONG"] = "146.00W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Corsaires d'Umbar / Les profondeurs du Mâkhda Khorbo -- Niveau 5
+  [1879482937] = {
+      [1] = {
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.41N"; 
+          ["LONG"] = "146.21W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["PROGRESS"] = "Éliminez Azagath l'Ombre de la Mer et son équipage"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.40N"; 
+          ["LONG"] = "146.01W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["PROGRESS"] = "Éliminez Belondor et son équipage"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "67.60N"; 
+          ["LONG"] = "146.11W"; 
+        }; 
+      }; 
+      };
+      [4] = {
+      ["PROGRESS"] = "Éliminez Umshûra le Vorace"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "69.13N"; 
+          ["LONG"] = "146.00W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Corsaires d'Umbar / Les profondeurs du Mâkhda Khorbo -- Niveau 2
+  [1879482938] = {
+      [1] = {
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.41N"; 
+          ["LONG"] = "146.21W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["PROGRESS"] = "Éliminez Azagath l'Ombre de la Mer et son équipage"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.43N"; 
+          ["LONG"] = "146.01W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["PROGRESS"] = "Éliminez Belondor et son équipage"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "67.60N"; 
+          ["LONG"] = "146.07W"; 
+        }; 
+      }; 
+      };
+      [4] = {
+      ["PROGRESS"] = "Éliminez Umshûra le Vorace"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "69.13N"; 
+          ["LONG"] = "146.00W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Corsaires d'Umbar / Les profondeurs du Mâkhda Khorbo -- Niveau 3
+  [1879482939] = {
+      [1] = {
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.41N"; 
+          ["LONG"] = "146.21W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["PROGRESS"] = "Éliminez Azagath l'Ombre de la Mer et son équipage"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.42N"; 
+          ["LONG"] = "146.01W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["PROGRESS"] = "Éliminez Belondor et son équipage"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "67.60N"; 
+          ["LONG"] = "146.09W"; 
+        }; 
+      }; 
+      };
+      [4] = {
+      ["PROGRESS"] = "Éliminez Umshûra le Vorace"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "69.13N"; 
+          ["LONG"] = "146.00W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Corsaires d'Umbar / Les profondeurs du Mâkhda Khorbo – En avant !
+  [1879482949] = {
+      [1] = {
+        "Terminez la prouesse 'Les profondeurs du Mâkhda Khorbo -- Niveau 3' (Faites partie des premiers à terminer Les profondeurs du Mâkhda Khorbo – Niveau 3)";
+      };
+  };
+  -- Corsaires d'Umbar / Les profondeurs du Mâkhda Khorbo – Avant-garde
+  [1879482950] = {
+      [1] = {
+        "Terminez la prouesse 'Les profondeurs du Mâkhda Khorbo -- Niveau 4' (Faites partie des premiers à terminer Les profondeurs du Mâkhda Khorbo – Niveau 4)";
+      };
+  };
+  -- Corsaires d'Umbar / Les profondeurs du Mâkhda Khorbo – Adversaire originel
+  [1879482951] = {
+      [1] = {
+        "Terminez la prouesse 'Les profondeurs du Mâkhda Khorbo -- Niveau 5' (Faites partie des premiers à terminer Les profondeurs du Mâkhda Khorbo – Niveau 5)";
+      };
+  };
+  -- Corsaires d'Umbar / Les profondeurs du Mâkhda Khorbo – L'équipage de l'Ombre de la Mer
+  [1879482985] = {
+      [1] = {
+        "Eliminez Jadazin";
+      };
+      [2] = {
+        "Eliminez Nâxam";
+      };
+      [3] = {
+        "Eliminez Ishakhâr";
+      };
+      [4] = {
+        "Eliminez Karanzôr";
+      };
+      [5] = {
+        "Eliminez Zagarón";
+      };
+      [6] = {
+        "Eliminez Phêrida";
+      };
+      [7] = {
+        "Eliminez Dulgakhó";
+      };
+      [8] = {
+        "Eliminez Burkhad";
+      };
+      [9] = {
+        "Eliminez Êphaltud";
+      };
+      [10] = {
+        "Eliminez Nûralai";
+      };
+  };
+  -- Corsaires d'Umbar / Prouesses des profondeurs du Mâkhda Khorbo
+  [1879482986] = {
+      [1] = {
+        "Terminez la prouesse 'Les profondeurs du Mâkhda Khorbo -- Niveau 1'";
+      };
+      [2] = {
+        "Terminez la prouesse 'Les profondeurs du Mâkhda Khorbo -- Niveau 2'";
+      };
+      [3] = {
+        "Terminez la prouesse 'Les profondeurs du Mâkhda Khorbo -- Niveau 3'";
+      };
+      [4] = {
+        "Terminez la prouesse 'Les profondeurs du Mâkhda Khorbo – Le mal intérieur'";
+      };
+      [5] = {
+        "Terminez la prouesse 'Les profondeurs du Mâkhda Khorbo – Le mal souterrain'";
+      };
+  };
+  -- Corsaires d'Umbar / Les profondeurs du Mâkhda Khorbo – Le mal intérieur
+  [1879482987] = {
+      [1] = {
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "72.41N"; 
+          ["LONG"] = "146.21W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+        "Éliminez un grand nombre de serviteurs du Mal ancestral dans le Mâkhda Khorbo x200";
+      };
+  };
+  -- Corsaires d'Umbar / Les profondeurs du Mâkhda Khorbo – Le mal souterrain
+  [1879482988] = {
+      [1] = {
+        "Détruisez les maux sans nom qui surgissent des profondeurs de la mer x60";
+      };
+  };
+  -- Corsaires d'Umbar / L'île des tempêtes – Niveau 3
+  [1879483002] = {
+      [1] = {
+        "Terminez la quête 'Instance : L'île des tempêtes -- Niveau 3'";
+      };
+  };
+  -- Corsaires d'Umbar / L'île des tempêtes – Niveau 4
+  [1879483003] = {
+      [1] = {
+        "Terminez la quête 'Instance : L'île des tempêtes -- Niveau 4'";
+      };
+  };
+  -- Corsaires d'Umbar / L'île des tempêtes – Niveau 5
+  [1879483004] = {
+      [1] = {
+        "Terminez la quête 'Instance : L'île des tempêtes -- Niveau 5'";
+      };
+  };
+  -- Corsaires d'Umbar / Survivant de l'île des tempêtes
+  [1879483005] = {
+      [1] = {
+        "Terminez la prouesse 'L'île des tempêtes – Niveau 1'";
+      };
+      [2] = {
+        "Terminez la prouesse 'L'île des tempêtes – Niveau 2'";
+      };
+      [3] = {
+        "Terminez la prouesse 'L'île des tempêtes – Niveau 3'";
+      };
+      [4] = {
+        "Terminez la prouesse 'L'île des tempêtes – Bêtes gigantesques'";
+      };
+      [5] = {
+        "Terminez la prouesse 'L'île des tempêtes – Niveau 4'";
+      };
+      [6] = {
+        "Terminez la prouesse 'L'île des tempêtes – Niveau 5'";
+      };
+  };
+  -- Corsaires d'Umbar / L'île des tempêtes – Niveau 5 – En avant !
+  [1879483006] = {
+      [1] = {
+        "Terminez la quête 'Instance : L'île des tempêtes -- Niveau 5'";
+      };
+  };
+  -- Corsaires d'Umbar / L'île des tempêtes – Niveau 1
+  [1879483007] = {
+      [1] = {
+        "Terminez la quête 'Instance : L'île des tempêtes -- Niveau 1'";
+      };
+  };
+  -- Corsaires d'Umbar / L'île des tempêtes – Niveau 2
+  [1879483008] = {
+      [1] = {
+        "Terminez la quête 'Instance : L'île des tempêtes -- Niveau 2'";
+      };
+  };
+  -- Corsaires d'Umbar / L'île des tempêtes – Bêtes gigantesques
+  [1879483009] = {
+      [1] = {
+      ["PROGRESS"] = "Éliminez Krizhmûl"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "23.97S"; 
+          ["LONG"] = "124.74W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["PROGRESS"] = "Éliminez Urâbaz le Redoutable"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "24.76S"; 
+          ["LONG"] = "126.42W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["PROGRESS"] = "Éliminez Raghârik"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "24.15S"; 
+          ["LONG"] = "128.10W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Corsaires d'Umbar / Prouesses de l'arène de combat
+  [1879483030] = {
+      [1] = {
+        "Terminez la prouesse 'Les prouesses de Râhal Bakh'";
+      };
+      [2] = {
+        "Terminez la prouesse 'Survivant de l'île des tempêtes'";
+      };
+      [3] = {
+        "Terminez la prouesse 'Bourreau de Dahâl Huliz, l'arène'";
+      };
+      [4] = {
+        "Terminez la prouesse 'Prouesses des profondeurs du Mâkhda Khorbo'";
+      };
+  };
+  -- Corsaires d'Umbar / Les rues de Râhal Bakh – Niveau 5 – En avant !
+  [1879483052] = {
+      [1] = {
+        "Terminez la quête 'Les rues de Râhal Bakh -- Niveau 5'";
+      };
+  };
+  -- Corsaires d'Umbar / Les prouesses de Râhal Bakh
+  [1879483053] = {
+      [1] = {
+        "Terminez la prouesse 'Les rues de Râhal Bakh -- Niveau 1'";
+      };
+      [2] = {
+        "Terminez la prouesse 'Les rues de Râhal Bakh -- Niveau 2'";
+      };
+      [3] = {
+        "Terminez la prouesse 'Les rues de Râhal Bakh -- Niveau 3'";
+      };
+      [4] = {
+        "Terminez la prouesse 'Les rues de Râhal Bakh – Bravoure'";
+      };
+      [5] = {
+        "Terminez la prouesse 'Les rues de Râhal Bakh -- Niveau 4'";
+      };
+      [6] = {
+        "Terminez la prouesse 'Les rues de Râhal Bakh -- Niveau 5'";
+      };
+  };
+  -- Corsaires d'Umbar / Les rues de Râhal Bakh -- Niveau 3
+  [1879483054] = {
+      [1] = {
+        "Terminez la quête 'Les rues de Râhal Bakh -- Niveau 3'";
+      };
+  };
+  -- Corsaires d'Umbar / Les rues de Râhal Bakh -- Niveau 2
+  [1879483055] = {
+      [1] = {
+        "Terminez la quête 'Les rues de Râhal Bakh -- Niveau 2'";
+      };
+  };
+  -- Corsaires d'Umbar / Les rues de Râhal Bakh -- Niveau 5
+  [1879483056] = {
+      [1] = {
+        "Terminez la quête 'Les rues de Râhal Bakh -- Niveau 5'";
+      };
+  };
+  -- Corsaires d'Umbar / Les rues de Râhal Bakh -- Niveau 4
+  [1879483057] = {
+      [1] = {
+        "Terminez la quête 'Les rues de Râhal Bakh -- Niveau 4'";
+      };
+  };
+  -- Corsaires d'Umbar / Les rues de Râhal Bakh -- Niveau 1
+  [1879483058] = {
+      [1] = {
+        "Terminez la quête 'Les rues de Râhal Bakh -- Niveau 1'";
+      };
+  };
+  -- Corsaires d'Umbar / Les rues de Râhal Bakh – Bravoure
+  [1879483059] = {
+      [1] = {
+        "Éliminez les corsaires Jephai";
+      };
+  };
+  -- Umbar Baharbêl / Estomac délicat
+  [1879485102] = {
+      [1] = {
+        "Utilisez Mangez le crabe à l'orge de Keteph 10 fois";
+      };
+  };
+  -- Réputation / Estomac de plomb
+  [1879485104] = {
+      [1] = {
+        "Terminez la prouesse 'Estomac délicat'";
+      };
+      [2] = {
+        "Terminez la prouesse 'Risque-tout'";
+      };
+  };
+  -- Umbar Baharbêl / Fléau des araignées de Khabârkhad (avancé)
+  [1879486252] = {
+      [1] = {
+        "Terminez la prouesse 'Fléau des araignées de Khabârkhad'";
+      };
+      [2] = {
+        "Éliminez un très grand nombre d'araignées à Khabârkhad x100";
+      };
+  };
+  -- Umbar Baharbêl / Fléau des araignées de Khabârkhad
+  [1879486253] = {
+      [1] = {
+        "Éliminez un grand nombre d'araignées à Khabârkhad x50";
+      };
+  };
+  -- Umbar Baharbêl / Tueur / Tueuse de pilleurs de crypte de Khabârkhad
+  [1879486268] = {
+      [1] = {
+        "Éliminez un grand nombre de pilleurs de crypte à Khabârkhad x50";
+      };
+  };
+  -- Umbar Baharbêl / Tueur / Tueuse de Morts de Khabârkhad
+  [1879486269] = {
+      [1] = {
+        "Éliminez un grand nombre de Morts à Khabârkhad x50";
+      };
+  };
+  -- Umbar Baharbêl / Dead-slayer of Khabârkhad (Advanced)
+  [1879486270] = {
+      [1] = {
+        "Terminez la prouesse 'Tueur / Tueuse de Morts de Khabârkhad'";
+      };
+      [2] = {
+        "Éliminez un très grand nombre de Morts à Khabârkhad x100";
+      };
+  };
+  -- Umbar Baharbêl / Tueur / Tueuse de Khabârkhad
+  [1879486271] = {
+      [1] = {
+        "Terminez la prouesse 'Tueur / Tueuse de pilleurs de crypte de Khabârkhad (avancé)' (Obtenez le titre Tueur / Tueuse de pilleurs de crypte de Khabârkhad (avancé))";
+      };
+      [2] = {
+        "Terminez la prouesse 'Fléau des araignées de Khabârkhad (avancé)' (Obtenez le titre Fléau des araignées de Khabârkhad (avancé))";
+      };
+      [3] = {
+        "Terminez la prouesse 'Dead-slayer of Khabârkhad (Advanced)' (Complete Dead-slayer of Khabârkhad (Advanced))";
+      };
+  };
+  -- Umbar Baharbêl / Tueur / Tueuse de pilleurs de crypte de Khabârkhad (avancé)
+  [1879486272] = {
+      [1] = {
+        "Terminez la prouesse 'Tueur / Tueuse de pilleurs de crypte de Khabârkhad'";
+      };
+      [2] = {
+        "Éliminez un très grand nombre de pilleurs de crypte à Khabârkhad x100";
+      };
+  };
+  -- Umbar Baharbêl / Tueur / Tueuse de gobelins d'Ilmabiri
+  [1879486279] = {
+      [1] = {
+        "Éliminez un grand nombre de gobelins à Ilmabiri x50";
+      };
+  };
+  -- Umbar Baharbêl / Tueur / Tueuse d'Ilmabiri
+  [1879486280] = {
+      [1] = {
+        "Terminez la prouesse 'Forsaken-slayer of Ilmabiri (Advanced)' (Complete Forsaken-slayer of Ilmabiri (Advanced))";
+      };
+      [2] = {
+        "Terminez la prouesse 'Goblin-slayer of Ilmabiri (Advanced)'";
+      };
+      [3] = {
+        "Terminez la prouesse 'Crocodile-slayer of Ilmabiri (Advanced)'";
+      };
+  };
+  -- Umbar Baharbêl / Crocodile-slayer of Ilmabiri (Advanced)
+  [1879486281] = {
+      [1] = {
+        "Terminez la prouesse 'Crocodile-slayer of Ilmabiri'";
+      };
+      [2] = {
+        "Éliminez un très grand nombre de crocodiles à Ilmabiri x75";
+      };
+  };
+  -- Umbar Baharbêl / Forsaken-slayer of Ilmabiri
+  [1879486282] = {
+      [1] = {
+        "Éliminez un grand nombre d'oubliés à Ilmabiri x50";
+      };
+  };
+  -- Umbar Baharbêl / Forsaken-slayer of Ilmabiri (Advanced)
+  [1879486283] = {
+      [1] = {
+        "Terminez la prouesse 'Forsaken-slayer of Ilmabiri'";
+      };
+      [2] = {
+        "Éliminez un très grand nombre d'oubliés à Ilmabiri x100";
+      };
+  };
+  -- Umbar Baharbêl / Crocodile-slayer of Ilmabiri
+  [1879486284] = {
+      [1] = {
+        "Éliminez un grand nombre de crocodiles à Ilmabiri x25";
+      };
+  };
+  -- Umbar Baharbêl / Goblin-slayer of Ilmabiri (Advanced)
+  [1879486285] = {
+      [1] = {
+        "Terminez la prouesse 'Tueur / Tueuse de gobelins d'Ilmabiri'";
+      };
+      [2] = {
+        "Éliminez un très grand nombre de gobelins à Ilmabiri x100";
+      };
+  };
+  -- Umbar Baharbêl / Cultist-slayer of Kamrabezûr
+  [1879486286] = {
+      [1] = {
+        "Éliminez beaucoup de sectateurs à Kamrabezûr x50";
+      };
+  };
+  -- Umbar Baharbêl / Tueur / Tueuse de Kamrabezûr
+  [1879486287] = {
+      [1] = {
+        "Terminez la prouesse 'Cultist-slayer of Kamrabezûr (Advanced)' (Complete Cultist-slayer of Kamrabezûr (Advanced))";
+      };
+      [2] = {
+        "Terminez la prouesse 'Gladiator-slayer of Kamrabezûr (Advanced)' (Complete Gladiator-slayer of Kamrabezûr (Advanced))";
+      };
+      [3] = {
+        "Terminez la prouesse 'Dead-slayer of Kamrabezûr (Advanced)' (Complete Dead-slayer of Kamrabezûr (Advanced))";
+      };
+  };
+  -- Umbar Baharbêl / Tueur / Tueuse de Morts de Kamrabezûr
+  [1879486288] = {
+      [1] = {
+        "Éliminez beaucoup de Morts à Kamrabezûr x50";
+      };
+  };
+  -- Umbar Baharbêl / Gladiator-slayer of Kamrabezûr (Advanced)
+  [1879486289] = {
+      [1] = {
+        "Terminez la prouesse 'Gladiator-slayer of Kamrabezûr'";
+      };
+      [2] = {
+        "Éliminez un très grand nombre de gladiateurs à Kamrabezûr x100";
+      };
+  };
+  -- Umbar Baharbêl / Dead-slayer of Kamrabezûr (Advanced)
+  [1879486290] = {
+      [1] = {
+        "Terminez la prouesse 'Tueur / Tueuse de Morts de Kamrabezûr'";
+      };
+      [2] = {
+        "Éliminez un très grand nombre de Morts à Kamrabezûr x100";
+      };
+  };
+  -- Umbar Baharbêl / Gladiator-slayer of Kamrabezûr
+  [1879486291] = {
+      [1] = {
+        "Éliminez beaucoup de gladiateurs à Kamrabezûr x50";
+      };
+  };
+  -- Umbar Baharbêl / Cultist-slayer of Kamrabezûr (Advanced)
+  [1879486292] = {
+      [1] = {
+        "Terminez la prouesse 'Cultist-slayer of Kamrabezûr'";
+      };
+      [2] = {
+        "Éliminez un très grand nombre de sectateurs à Kamrabezûr x100";
+      };
+  };
+  -- Umbar Baharbêl / Fléau des contrebandiers de Tâkhdar (avancé)
+  [1879486293] = {
+      [1] = {
+        "Terminez la prouesse 'Fléau des contrebandiers de Tâkhdar'";
+      };
+      [2] = {
+        "Éliminez un très grand nombre de contrebandiers à Tâkhdar x100";
+      };
+  };
+  -- Umbar Baharbêl / Grodbog-slayer of Tâkhdar
+  [1879486294] = {
+      [1] = {
+        "Éliminez un grand nombre de grodbogs à Tâkhdar x50";
+      };
+  };
+  -- Umbar Baharbêl / Tueur / Tueuse de Tâkhdar
+  [1879486295] = {
+      [1] = {
+        "Terminez la prouesse 'Grodbog-slayer of Tâkhdar (Advanced)'";
+      };
+      [2] = {
+        "Terminez la prouesse 'Fléau des contrebandiers de Tâkhdar (avancé)' (Obtenez le titre Fléau des contrebandiers de Tâkhdar (avancé))";
+      };
+      [3] = {
+        "Terminez la prouesse 'Fléau des araignées de Tâkhdar (avancé)' (Obtenez le titre Fléau des araignées de Tâkhdar (avancé))";
+      };
+  };
+  -- Umbar Baharbêl / Grodbog-slayer of Tâkhdar (Advanced)
+  [1879486296] = {
+      [1] = {
+        "Terminez la prouesse 'Grodbog-slayer of Tâkhdar'";
+      };
+      [2] = {
+        "Éliminez un très grand nombre de grodbogs à Tâkhdar x100";
+      };
+  };
+  -- Umbar Baharbêl / Fléau des contrebandiers de Tâkhdar
+  [1879486297] = {
+      [1] = {
+        "Éliminez un grand nombre de contrebandiers à Tâkhdar x50";
+      };
+  };
+  -- Umbar Baharbêl / Fléau des araignées de Tâkhdar (avancé)
+  [1879486298] = {
+      [1] = {
+        "Terminez la prouesse 'Fléau des araignées de Tâkhdar'";
+      };
+      [2] = {
+        "Éliminez un très grand nombre d'araignées à Tâkhdar x100";
+      };
+  };
+  -- Umbar Baharbêl / Fléau des araignées de Tâkhdar
+  [1879486299] = {
+      [1] = {
+        "Éliminez un grand nombre d'araignées à Tâkhdar x50";
+      };
+  };
+  -- Umbar Baharbêl / Darkwater-slayer of Dil-irmíz (Advanced)
+  [1879486389] = {
+      [1] = {
+        "Terminez la prouesse 'Darkwater-slayer of Dil-irmíz'";
+      };
+      [2] = {
+        "Éliminez un très grand nombre d'eausombres à Dil-irmiz x100";
+      };
+  };
+  -- Umbar Baharbêl / Tueur / Tueuse de Dil-irmiz
+  [1879486390] = {
+      [1] = {
+        "Terminez la prouesse 'Fléau des contrebandiers de Dil-irmiz (avancé)' (Obtenez le titre Fléau des contrebandiers de Dil-irmiz (avancé))";
+      };
+      [2] = {
+        "Terminez la prouesse 'Fléau des criminels de Dil-irmiz (avancé)' (Obtenez le titre Fléau des criminels de Dil-irmiz (avancé))";
+      };
+  };
+  -- Umbar Baharbêl / La reconquête de Dil-irmiz
+  [1879486391] = {
+      [1] = {
+      ["NAME"] = "Le Dûlkar"; 
+      ["PROGRESS"] = "Trouvez le Dûlkar"; 
+      ["LORE"] = "Le Dûlkar est le célèbre 'marché noir' de Dil-irmiz où l'on peut se procurer absolument tout... à condition d'y mettre le prix et de connaître la bonne personne. Dans le cas contraire, il est dit que l'acheteur insolent ne reverra plus jamais la lumière du jour. Mais mieux vaut ne pas trop y songer."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "122.30S"; 
+          ["LONG"] = "141.23W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["NAME"] = "Jadambor"; 
+      ["PROGRESS"] = "Trouvez Jadambor"; 
+      ["LORE"] = "Jadambor, situé dans la partie ouest de Dil-irmiz, est devenu une position fortifiée depuis laquelle de nombreux acteurs et mercenaires à la solde de Khôltekh tentent de défendre la surface contre les nombreux ennemis émergeant des profondeurs."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "121.41S"; 
+          ["LONG"] = "143.65W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["NAME"] = "Deshûkh"; 
+      ["PROGRESS"] = "Trouvez Deshûkh"; 
+      ["LORE"] = "Deshûkh a beau être fermé aux étrangers, la criminalité est bien ouverte à tous dans cette zone de Dil-irmiz. Là, contrebandiers, assassins et voleurs parviennent à coexister... tant qu'ils ne viennent pas empiéter sur le territoire de leurs confrères."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "121.17S"; 
+          ["LONG"] = "141.61W"; 
+        }; 
+      }; 
+      };
+      [4] = {
+      ["NAME"] = "Dâr Sêkhta"; 
+      ["PROGRESS"] = "Trouvez Dâr Sêkhta"; 
+      ["LORE"] = "Le nom de Dâr Sêkhta n'est plus prononcé qu'à voix basse ces dernières semaines, en raison d'une rumeur évoquant l'ascension d'un nouveau pouvoir dans les passages humides et les chambres scellées de Dil-irmiz. Quelqu'un chercherait-il à défier la suprématie de Khôltekh aux Mouillages ?"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "122.35S"; 
+          ["LONG"] = "142.08W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Umbar Baharbêl / Fléau des contrebandiers de Dil-irmiz (avancé)
+  [1879486392] = {
+      [1] = {
+        "Terminez la prouesse 'Fléau des contrebandiers de Dil-irmiz'";
+      };
+      [2] = {
+        "Éliminez un très grand nombre de contrebandiers à Dil-irmiz x75";
+      };
+  };
+  -- Umbar Baharbêl / Fléau des criminels de Dil-irmiz (avancé)
+  [1879486393] = {
+      [1] = {
+        "Terminez la prouesse 'Fléau des criminels de Dil-irmiz'";
+      };
+      [2] = {
+        "Éliminez un très grand nombre de criminels à Dil-irmiz x75";
+      };
+  };
+  -- Umbar Baharbêl / Fléau des sectateurs de Dil-irmiz
+  [1879486394] = {
+      [1] = {
+        "Éliminez un grand nombre de sectateurs d'Umshûra à Dil-irmiz x50";
+      };
+  };
+  -- Umbar Baharbêl / La reconquête de Khabârkhad
+  [1879486395] = {
+      [1] = {
+      ["NAME"] = "Itekh-kên"; 
+      ["PROGRESS"] = "Trouvez Itekh-kên"; 
+      ["LORE"] = "De ce petit camp de chasseurs de trésors situé aux confins nord de Khabârkhad se dégage une impression d'éphémère, comme s'il était prêt à disparaître à la moindre trouvaille jugée trop lointaine. Les résidents de ce lieu l'ont baptisé Itekh-kên, ou le 'Refuge des chercheurs' en langue umbarie, mais la survie de ce campement d'Umbar-môkh ne dépend que d'une chose : la présence ou non de trésors attrayants à proximité."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "117.30S"; 
+          ["LONG"] = "140.94W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["NAME"] = "Mekab-kuphâr"; 
+      ["PROGRESS"] = "Trouvez Mekab-kuphâr"; 
+      ["LORE"] = "Sous les ordres du père des salles, les Nains des Temamir ont œuvré sans relâche pour creuser les passages qui relient la Pierre du littoral à Umbar-môkh. Ce camp constitue ainsi un point d'entrée surveillé vers les salles et les chambres de Khabârkhad, et Khôltekh examine minutieusement la moindre entrée et sortie des voyageurs passant par Mekab-kuphâr."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "119.70S"; 
+          ["LONG"] = "140.17W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["NAME"] = "Lôkhalel"; 
+      ["PROGRESS"] = "Trouvez Lôkhalel"; 
+      ["LORE"] = "Les tombeaux de Lôkhalel ont attiré l'attention de pillards lorgnant sur les trésors et les précieux bijoux conservés dans les cryptes. Les plus audacieux envahissent même les passages adjacents de Khabârkhad, mettant en péril quiconque fait obstacle à leur soif de richesse."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "118.08S"; 
+          ["LONG"] = "141.55W"; 
+        }; 
+      }; 
+      };
+      [4] = {
+      ["NAME"] = "Nishabêt"; 
+      ["PROGRESS"] = "Trouvez Nishabêt"; 
+      ["LORE"] = "Nishabêt, ou le 'Nid des tisseuses' en langue umbarie, était autrefois une petite chambre au sein de Khabârkhad. Faute de suffisamment de gardes pour repousser l'invasion d'araignées, le nid s'est étendu et occupe désormais les passages environnants. Si rien n'est fait pour endiguer cette menace, Nishabêt pourrait bien devenir le nouveau nom de tout Umbar-môkh."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "118.35S"; 
+          ["LONG"] = "139.78W"; 
+        }; 
+      }; 
+      };
+      [5] = {
+      ["NAME"] = "Sektakhâb"; 
+      ["PROGRESS"] = "Trouvez Sektakhâb"; 
+      ["LORE"] = "C'est sous un haut plafond voûté et le long d'immenses passages que les tombeaux de Sektakhâb, le Sépulcre silencieux, offrent le repos éternel à la noblesse d'Umbar Baharbêl. Mais l'endroit est tout sauf paisible, désormais. Les Morts revenus à la vie déambulent dans ces cryptes au sud-ouest de Khabârkhad, mettant en péril quiconque ose s'y aventurer."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "119.39S"; 
+          ["LONG"] = "141.95W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Umbar Baharbêl / Fléau des sectateurs de Dil-irmiz (avancé)
+  [1879486396] = {
+      [1] = {
+        "Terminez la prouesse 'Fléau des sectateurs de Dil-irmiz'";
+      };
+      [2] = {
+        "Éliminez un très grand nombre de sectateurs d'Umshûra à Dil-irmiz x100";
+      };
+  };
+  -- Umbar Baharbêl / La reconquête de Tâkhdar
+  [1879486397] = {
+      [1] = {
+      ["NAME"] = "Kheb Hanût"; 
+      ["PROGRESS"] = "Trouvez Kheb Hanût"; 
+      ["LORE"] = "Une ambiance festive flotte dans l'air de Kheb Hanût, aux confins nord-ouest de Tâkhdar. Ce marché est aux antipodes des bazars du même genre d'Umbar-môkh, et notamment du Dûlkar de Dil-irmiz."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "113.38S"; 
+          ["LONG"] = "141.81W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["NAME"] = "Tilmakhim"; 
+      ["PROGRESS"] = "Trouvez Tilmakhim"; 
+      ["LORE"] = "Situé non loin du centre de Tâkhdar, le carrefour de Tilmakhim est devenu le foyer de deux grandes espèces de résidents à Umbar-môkh. Tout d'abord, les marchands qui cherchent à se démarquer de leurs pairs des autres marchés sous la cité. Puis, les nombreux rats attirés par la foule et par la perspective de délicieux restes. Ces deux espèces viennent importuner jusqu'au moindre visiteur, et leur échapper n'est pas une mince affaire."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "115.77S"; 
+          ["LONG"] = "141.04W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["NAME"] = "Ishadôkh"; 
+      ["PROGRESS"] = "Trouvez Ishadôkh"; 
+      ["LORE"] = "Ishadôkh se situe aux confins sud de Tâkhdar, mais les sifflements et les bourdonnements qui émanent de cette tanière se propagent bien plus loin qu'on pourrait le penser. Le bruit s'entend même depuis la très lointaine chambre sous Dahâl Huliz, où les réfugiés de Kamrabezûr se plaignent du vacarme."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "116.74S"; 
+          ["LONG"] = "140.69W"; 
+        }; 
+      }; 
+      };
+      [4] = {
+      ["NAME"] = "Sâl Bajat"; 
+      ["PROGRESS"] = "Trouvez Sâl Bajat"; 
+      ["LORE"] = "Les contrebandiers de Sâl Bajat gardent un œil vigilant sur le marché à proximité, prêts à sauter sur la moindre occasion de satisfaire leurs 'intérêts' et ceux de leurs clients."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "113.12S"; 
+          ["LONG"] = "141.51W"; 
+        }; 
+      }; 
+      };
+      [5] = {
+      ["NAME"] = "Shak Phêlex"; 
+      ["PROGRESS"] = "Trouvez Shak Phêlex"; 
+      ["LORE"] = "Les araignées de Shak Phêlex représentent un danger mortel pour quiconque a le malheur de s'égarer à Tâkhdar. Les habitants de la surface entreposent des caisses en ce lieu, mais la présence des araignées a su persuader les marchands d'abandonner leurs biens."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "115.15S"; 
+          ["LONG"] = "140.06W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Umbar Baharbêl / Darkwater-slayer of Dil-irmíz
+  [1879486398] = {
+      [1] = {
+        "Éliminez un grand nombre d'eausombres à Dil-irmiz. x50";
+      };
+  };
+  -- Umbar Baharbêl / La reconquête d'Ilmabiri
+  [1879486399] = {
+      [1] = {
+      ["NAME"] = "Kruha-sûrja"; 
+      ["PROGRESS"] = "Trouvez Kruha-sûrja"; 
+      ["LORE"] = "Kruha-sûrja, ou le 'Bastion contre les bêtes' en langue umbarie, est un poste de garde qui porte très bien son nom, car aucun terme ne saurait mieux décrire l'objectif commun de ces hommes et de ces femmes rassemblés aux confins nord d'Ilmabiri, à Umbar-môkh."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "114.20S"; 
+          ["LONG"] = "142.55W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["NAME"] = "Hêbatokh"; 
+      ["PROGRESS"] = "Trouvez Hêbatokh"; 
+      ["LORE"] = "Hêbatokh ne saurait être décrit comme un vrai village, même si ce lieu accueille de nombreuses âmes gagnant leur vie sur les rives des canaux qui divisent Ilmabiri. Évitez de poser trop de questions aux habitants, et ils en feront de même avec vous."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "115.81S"; 
+          ["LONG"] = "142.33W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["NAME"] = "Nêb-jadir"; 
+      ["PROGRESS"] = "Trouvez Nêb-jadir"; 
+      ["LORE"] = "Les crocodiles d'Ilmabiri rôdent au pied de la cascade de Nêb-jadir. Ils ont découvert il y a bien longtemps que toute créature survivant à la chute ne faisait pas long feu face à leurs féroces mâchoires. Cette leçon s'applique d'ailleurs aussi bien aux aventuriers à deux jambes qu'aux bêtes à quatre pattes."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "115.04S"; 
+          ["LONG"] = "142.13W"; 
+        }; 
+      }; 
+      };
+      [4] = {
+      ["NAME"] = "Talaba-kên"; 
+      ["PROGRESS"] = "Trouvez Talaba-kên"; 
+      ["LORE"] = "Quelque chose hante le petit campement de Talaba-kên, mais les structures qui le composent abritent-elles des enfants réfugiés d'Umbar ou bien tout autre chose ? C'est là la question que se posent les âmes chargées de la protection d'Ilmabiri."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "114.36S"; 
+          ["LONG"] = "144.04W"; 
+        }; 
+      }; 
+      };
+      [5] = {
+      ["NAME"] = "Môba Ided"; 
+      ["PROGRESS"] = "Trouvez Môba Ided"; 
+      ["LORE"] = "Môba Ided est devenu le foyer de nombreux réfugiés n'ayant autre endroit où aller. Les Héritiers en fuite comme les sectateurs de l'Église de Celui-qui-voit-tout ont élu domicile aux confins sud-est d'Ilmabiri, établissant un climat de paix fragile. Cette entente provisoire ne s'applique toutefois pas aux étrangers."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "116.37S"; 
+          ["LONG"] = "141.71W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Umbar Baharbêl / La reconquête de Kamrabezûr
+  [1879486400] = {
+      [1] = {
+      ["NAME"] = "Kên Taghlim"; 
+      ["PROGRESS"] = "Cherchez Kên Taghlim"; 
+      ["LORE"] = "Au nord-ouest de Kamrabezûr se trouve Kên Taghlim, un havre du savoir où les érudits étudient les quelques archives et temples qui sont demeurés intacts dans les entrailles d'Umbar-môkh."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "113.62S"; 
+          ["LONG"] = "139.30W"; 
+        }; 
+      }; 
+      };
+      [2] = {
+      ["NAME"] = "Hulzidâr"; 
+      ["PROGRESS"] = "Cherchez Hulzidâr"; 
+      ["LORE"] = "En langue umbarie, Hulzidâr signifie 'maison des combattants' et, au cours des jours troublés qui ont suivi le retrait de l'Empire d'Ordakh de la ville, ce nom s'est avéré parfaitement approprié. D'anciens guerriers de Dahâl Huliz défendent les abords du camp et protègent les autres réfugiés qui trouvent désormais refuge dans les galeries situées sous l'arène."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "116.01S"; 
+          ["LONG"] = "137.73W"; 
+        }; 
+      }; 
+      };
+      [3] = {
+      ["NAME"] = "Jâx Ugikh"; 
+      ["PROGRESS"] = "Cherchez Jâx Ugikh"; 
+      ["LORE"] = "Nul ne sait si ces salles ont déjà été un lieu sûr, mais ce n'est plus le cas à présent. Les Ugikh-hûti ont fait de Jâx Ugikh leur point d'ancrage et menacent désormais tous ceux qui passent par là. Entre les créatures échappées de l'arène et cette secte hostile, les érudits des jardins de Tor ne peuvent plus emprunter les larges passages de Kamrabezûr pour trouver réconfort dans la fraîcheur des souterrains de la cité."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "114.44S"; 
+          ["LONG"] = "138.81W"; 
+        }; 
+      }; 
+      };
+      [4] = {
+      ["NAME"] = "Harkhaphâr"; 
+      ["PROGRESS"] = "Cherchez le Harkhaphâr"; 
+      ["LORE"] = "Les guerriers de Harkhaphâr sont sans pitié, comme s'ils étaient restés sur les sables maculés de sang de Dahâl Huliz. Peuvent-ils encore entendre les lointains rugissements de la foule dans les tribunes au-dessus de leur tête ou ne sont-ce que les échos de leur adulation passée ? Aveuglés par la rage et la férocité des combats qu'ils imaginent se poursuivre, ils ne répondent rien."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "116.73S"; 
+          ["LONG"] = "139.23W"; 
+        }; 
+      }; 
+      };
+      [5] = {
+      ["NAME"] = "Ghâr Mejet"; 
+      ["PROGRESS"] = "Cherchez Ghâr Mejet"; 
+      ["LORE"] = "Ces couloirs sont bien loin des cryptes et des tombes de Khabârkhad, mais les Morts arpentent tout de même le Kamrabezûr. Seul un érudit pourrait comprendre ce qui a troublé leur repos et les a poussés à venir ici, mais peu de lettrés oseraient s'approcher de Ghâr Mejet."; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "116.65S"; 
+          ["LONG"] = "139.92W"; 
+        }; 
+      }; 
+      };
+  };
+  -- Umbar Baharbêl / Tueur / Tueuse d'Umbar-môkh
+  [1879486401] = {
+      [1] = {
+        "Terminez la prouesse 'Tueur / Tueuse de Khabârkhad' (Obtenez le titre Tueur / Tueuse de Khabârkhad)";
+      };
+      [2] = {
+        "Terminez la prouesse 'Tueur / Tueuse d'Ilmabiri' (Obtenez le titre Tueur / Tueuse d'Ilmabiri)";
+      };
+      [3] = {
+        "Terminez la prouesse 'Tueur / Tueuse de Kamrabezûr' (Obtenez le titre Tueur / Tueuse de Kamrabezûr)";
+      };
+      [4] = {
+        "Terminez la prouesse 'Tueur / Tueuse de Tâkhdar' (Obtenez le titre Tueur / Tueuse de Tâkhdar)";
+      };
+      [5] = {
+        "Terminez la prouesse 'Tueur / Tueuse de Dil-irmiz' (Obtenez le titre Tueur / Tueuse de Dil-irmiz)";
+      };
+  };
+  -- Umbar Baharbêl / Fléau des contrebandiers de Dil-irmiz
+  [1879486402] = {
+      [1] = {
+        "Éliminez un grand nombre de contrebandiers à Dil-irmiz x50";
+      };
+  };
+  -- Umbar Baharbêl / Fléau des criminels de Dil-irmiz
+  [1879486403] = {
+      [1] = {
+        "Éliminez un grand nombre de criminels à Dil-irmiz x50";
+      };
+  };
+  -- Umbar Baharbêl / Explorateur / Exploratrice d'Umbar-môkh
+  [1879486404] = {
+      [1] = {
+        "Terminez la prouesse 'La reconquête de Khabârkhad'";
+      };
+      [2] = {
+        "Terminez la prouesse 'La reconquête d'Ilmabiri'";
+      };
+      [3] = {
+        "Terminez la prouesse 'La reconquête de Kamrabezûr'";
+      };
+      [4] = {
+        "Terminez la prouesse 'La reconquête de Tâkhdar'";
+      };
+      [5] = {
+        "Terminez la prouesse 'La reconquête de Dil-irmiz'";
+      };
+  };
+  -- Umbar Baharbêl / Bourreau de Dil-irmiz
+  [1879486405] = {
+      [1] = {
+        "Terminez la prouesse 'Fléau des sectateurs de Dil-irmiz (avancé)' (Obtenez le titre Fléau des sectateurs de Dil-irmiz (avancé))";
+      };
+      [2] = {
+        "Terminez la prouesse 'Darkwater-slayer of Dil-irmíz (Advanced)' (Complete Darkwater-slayer of Dil-irmíz (Advanced))";
+      };
+  };
+  -- Umbar Baharbêl / Contes de Dil-irmiz
+  [1879486406] = {
+      [1] = {
+        "Terminez les quêtes de Dil-irmiz, dans Umbar-môkh x4";
+      };
+  };
+  -- Umbar Baharbêl / Contes de Kamrabezûr
+  [1879486407] = {
+      [1] = {
+        "Terminez les quêtes de Kamrabezûr, dans Umbar-môkh x8";
+      };
+  };
+  -- Umbar Baharbêl / Contes de Khabârkhad
+  [1879486408] = {
+      [1] = {
+        "Terminez les quêtes de Khabârkhad, à Umbar-môkh x6";
+      };
+  };
+  -- Umbar Baharbêl / Lueur à Umbar-môkh
+  [1879486409] = {
+      [1] = {
+        "Terminez la prouesse 'Tueur / Tueuse d'Umbar-môkh' (Obtenez le titre Tueur / Tueuse d'Umbar-môkh)";
+      };
+      [2] = {
+        "Terminez la prouesse 'Explorateur / Exploratrice d'Umbar-môkh' (Obtenez le titre Explorateur / Exploratrice d'Umbar-môkh)";
+      };
+      [3] = {
+        "Terminez la prouesse 'Contes d'Umbar-môkh'";
+      };
+  };
+  -- Umbar Baharbêl / Contes d'Ilmabiri
+  [1879486410] = {
+      [1] = {
+        "Terminez les quêtes d'Ilmabiri, dans Umbar-môkh x8";
+      };
+  };
+  -- Umbar Baharbêl / Contes d'Umbar-môkh
+  [1879486411] = {
+      [1] = {
+        "Terminez la prouesse 'Contes de Khabârkhad'";
+      };
+      [2] = {
+        "Terminez la prouesse 'Contes d'Ilmabiri'";
+      };
+      [3] = {
+        "Terminez la prouesse 'Contes de Kamrabezûr'";
+      };
+      [4] = {
+        "Terminez la prouesse 'Contes de Tâkhdar'";
+      };
+      [5] = {
+        "Terminez la prouesse 'Contes de Dil-irmiz'";
+      };
+      [6] = {
+        "Terminez la quête 'Chapitre 9.9 : Le nom'";
+      };
+      [7] = {
+        "Terminez la quête 'L'ombre et la lumière, partie 8 : Et s'éteint'";
+      };
+      [8] = {
+        "Terminez la quête 'Une patine dorée, partie 8 : L'ordre d'Harmelak'";
+      };
+      [9] = {
+        "Terminez la quête 'Une tempête se prépare, partie 8 : La colère de Rothog'";
+      };
+      [10] = {
+        "Terminez la quête 'Un homme à la dérive, partie 8 : Recherche dans les profondeurs'";
+      };
+  };
+  -- Umbar Baharbêl / Contes de Tâkhdar
+  [1879486412] = {
+      [1] = {
+        "Terminez les quêtes de Tâkhdar, dans Umbar-môkh x8";
+      };
+  };
+  -- Umbar Baharbêl / Tueur / Tueuse de rats d'Umbar-môkh (avancé)
+  [1879486550] = {
+      [1] = {
+        "Terminez la prouesse 'Tueur / Tueuse de rats d'Umbar-môkh'";
+      };
+      [2] = {
+        "Éliminez un très grand nombre de rats à Umbar-môkh x200";
+      };
+  };
+  -- Umbar Baharbêl / Tueur / Tueuse de rats d'Umbar-môkh
+  [1879486551] = {
+      [1] = {
+        "Éliminez des rats à Umbar-môkh x100";
+      };
+  };
+  -- Umbar Baharbêl / Tueur / Tueuse de chauve-souris d'Umbar-môkh (avancé)
+  [1879486552] = {
+      [1] = {
+        "Terminez la prouesse 'Tueur / Tueuse de chauve-souris d'Umbar-môkh'";
+      };
+      [2] = {
+        "Éliminez un très grand nombre de chauves-souris à Umbar-môkh x200";
+      };
+  };
+  -- Umbar Baharbêl / Tueur / Tueuse de chauve-souris d'Umbar-môkh
+  [1879486553] = {
+      [1] = {
+        "Éliminez un grand nombre de chauves-souris à Umbar-môkh x100";
+      };
+  };
+  -- Umbar Baharbêl / Chasseur / Chasseresse de trésors d'Umbar-môkh
+  [1879486571] = {
+      [1] = {
+      ["NAME"] = "Cachette de trésor"; 
+      ["PROGRESS"] = "Trouvez des caches de trésor dans Umbar-môkh"; 
+      ["POINTS"] = {
+        [1] = {
+          ["LAT"] = "115.41S"; 
+          ["LONG"] = "143.29W"; 
+        }; 
+        [2] = {
+          ["LAT"] = "115.46S"; 
+          ["LONG"] = "142.22W"; 
+        }; 
+        [3] = {
+          ["LAT"] = "122.08S"; 
+          ["LONG"] = "141.90W"; 
+        }; 
+        [4] = {
+          ["LAT"] = "120.05S"; 
+          ["LONG"] = "141.24W"; 
+        }; 
+        [5] = {
+          ["LAT"] = "121.21S"; 
+          ["LONG"] = "141.06W"; 
+        }; 
+        [6] = {
+          ["LAT"] = "117.33S"; 
+          ["LONG"] = "140.80W"; 
+        }; 
+        [7] = {
+          ["LAT"] = "116.32S"; 
+          ["LONG"] = "141.10W"; 
+        }; 
+        [8] = {
+          ["LAT"] = "114.76S"; 
+          ["LONG"] = "141.10W"; 
+        }; 
+        [9] = {
+          ["LAT"] = "116.30S"; 
+          ["LONG"] = "138.90W"; 
+        }; 
+        [10] = {
+          ["LAT"] = "115.45S"; 
+          ["LONG"] = "139.47W"; 
+        }; 
+      };
       };
   };
 };
