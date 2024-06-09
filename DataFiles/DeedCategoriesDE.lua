@@ -149,10 +149,10 @@ _DEED_CATEGORIES = {
 [281] = { ["NAME"] = "Challenger of the Iron Crown"; };
 [282] = { ["NAME"] = "Not Actively Achievable"; };
 -- Instances / Corsairs of Umbar
-[300] = { ["NAME"] = "The Streets of Râhal Bakh"; };
-[301] = { ["NAME"] = "The Isle of Storms"; };
-[302] = { ["NAME"] = "Dahâl Huliz, The Arena"; };
-[303] = { ["NAME"] = "The Depths of Mâkhda Khorbo"; };
+[300] = { ["TIER"] = 1; ["NAME"] = "The Streets of Râhal Bakh"; };
+[301] = { ["TIER"] = 1; ["NAME"] = "The Isle of Storms"; };
+[302] = { ["TIER"] = 1; ["NAME"] = "Dahâl Huliz, The Arena"; };
+[303] = { ["TIER"] = 1; ["NAME"] = "The Depths of Mâkhda Khorbo"; };
 -- The War / Common
 [120] = { ["NAME"] = "Monster-slayer"; };
 [121] = { ["NAME"] = "Blackarrow-slayer"; };
