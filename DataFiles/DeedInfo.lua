@@ -2170,22 +2170,24 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
            [39] = {["CAT_ID"] = 285; }; -- Renewal of Gondor
            [40] = {["ID"] = 1879464051; }; -- A Summons From King Elessar
            [41] = {["ID"] = 1879464037; }; -- The Song of Waves and Wind
-           [42] = {["CAT_ID"] = 169; }; -- Miscellaneous
-           [43] = {["ID"] = 1879324024; }; -- A Most Curious Hobbit
-           [44] = {["ID"] = 1879297370; }; -- Epic Battles Await
-           [45] = {["CAT_ID"] = 170; }; -- Not Actively Achievable
-           [46] = {["ID"] = 1879234462; }; -- Discovering the Descendant
-           [47] = {["ID"] = 1879234463; }; -- Horsing Around
-           [48] = {["ID"] = 1879238494; }; -- An Unusual Arrival
-           [49] = {["CAT_ID"] = 286; }; -- Valar - 140
-           [50] = {["ID"] = 1879462872; }; -- The Battle of the Deep-way
-           [51] = {["ID"] = 1879462870; }; -- The Battle of the Way of Smiths
-           [52] = {["ID"] = 1879462869; }; -- The Battle of the Twenty-first Hall
-           [53] = {["ID"] = 1879462871; }; -- First Offensives
-           [54] = {["ID"] = 1879462868; }; -- Thangúlhad Endangered
-           [55] = {["ID"] = 1879462867; }; -- Assault on Dol Guldur
-           [56] = {["ID"] = 1879462866; }; -- The Battle in the Tower
-           [57] = {["ID"] = 1879462873; }; -- The Depths of Duty
+           [42] = {["ID"] = 1879482570; }; -- A Letter From Caebar
+           [43] = {["ID"] = 1879482571; }; -- A Letter From Caebar
+           [44] = {["CAT_ID"] = 169; }; -- Miscellaneous
+           [45] = {["ID"] = 1879324024; }; -- A Most Curious Hobbit
+           [46] = {["ID"] = 1879297370; }; -- Epic Battles Await
+           [47] = {["CAT_ID"] = 170; }; -- Not Actively Achievable
+           [48] = {["ID"] = 1879234462; }; -- Discovering the Descendant
+           [49] = {["ID"] = 1879234463; }; -- Horsing Around
+           [50] = {["ID"] = 1879238494; }; -- An Unusual Arrival
+           [51] = {["CAT_ID"] = 286; }; -- Valar - 140
+           [52] = {["ID"] = 1879462872; }; -- The Battle of the Deep-way
+           [53] = {["ID"] = 1879462870; }; -- The Battle of the Way of Smiths
+           [54] = {["ID"] = 1879462869; }; -- The Battle of the Twenty-first Hall
+           [55] = {["ID"] = 1879462871; }; -- First Offensives
+           [56] = {["ID"] = 1879462868; }; -- Thangúlhad Endangered
+           [57] = {["ID"] = 1879462867; }; -- Assault on Dol Guldur
+           [58] = {["ID"] = 1879462866; }; -- The Battle in the Tower
+           [59] = {["ID"] = 1879462873; }; -- The Depths of Duty          
         };
         -- Reputation
         [CRE_REPUTATION] = {

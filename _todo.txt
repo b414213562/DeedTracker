@@ -1,3 +1,6 @@
+A Letter From Caebar:
+    Two versions of the deed, depending on: If you completed Halros Should Stay or Halros Should Go.
+
 Haradrim-slayer of the Cape of Umbar & Advanced are marked disabled, shouldn't be included.
 
 If you're logged in during a rename, you get the same message as a title change:
