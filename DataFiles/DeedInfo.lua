@@ -2598,43 +2598,42 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
           [364] = {["ID"] = 1879465758; }; -- Friend to the Citizens of Umbar Baharbêl
           [365] = {["ID"] = 1879465761; }; -- Known to the Citizens of Umbar Baharbêl
           [366] = {["ID"] = 1879469614; }; -- Neutral to the Citizens of Umbar Baharbêl
-          [367] = {["ID"] = 1879485102; }; -- Brine-belly
-          [368] = {["CAT_ID"] = 240; }; -- Not Actively Achievable
-          [369] = {["CAT_ID"] = 241; }; -- - The Tournament of the Twins -
-          [370] = {["ID"] = 1879407709; }; -- The Tournament of the Twins - Exalted Champion of Rivendell
-          [371] = {["ID"] = 1879407711; }; -- The Tournament of the Twins - Champion of Rivendell
-          [372] = {["ID"] = 1879407713; }; -- The Tournament of the Twins - Hero's Frame
-          [373] = {["ID"] = 1879407714; }; -- The Tournament of the Twins - Favoured of Elrond
-          [374] = {["ID"] = 1879407719; }; -- The Tournament of the Twins - Gladiator's Frame
-          [375] = {["ID"] = 1879407720; }; -- The Tournament of the Twins - Herald of Rivendell
-          [376] = {["ID"] = 1879407705; }; -- The Tournament of the Twins - Contender's Frame
-          [377] = {["ID"] = 1879407706; }; -- The Tournament of the Twins - Honourable Contender
-          [378] = {["ID"] = 1879407675; }; -- The Tournament of the Twins - The Cloak of Elrohir
-          [379] = {["ID"] = 1879407710; }; -- The Tournament of the Twins - The Cloak of Elladan
-          [380] = {["CAT_ID"] = 242; }; -- - Townsfolk of the Eastfold -
-          [381] = {["ID"] = 1879400834; }; -- Kindred with the Townsfolk of the Eastfold Neighbourhoods
-          [382] = {["ID"] = 1879400836; }; -- Ally to the Townsfolk of the Eastfold Neighbourhoods
-          [383] = {["ID"] = 1879400832; }; -- Friend to the Townsfolk of the Eastfold Neighbourhoods
-          [384] = {["ID"] = 1879400833; }; -- Known to the Townsfolk of the Eastfold Neighbourhoods
-          [385] = {["CAT_ID"] = 243; }; -- - Townsfolk of the Kingstead -
-          [386] = {["ID"] = 1879400839; }; -- Kindred with the Townsfolk of the Kingstead Neighbourhoods
-          [387] = {["ID"] = 1879400838; }; -- Ally to the Townsfolk of the Kingstead Neighbourhoods
-          [388] = {["ID"] = 1879400837; }; -- Friend to the Townsfolk of the Kingstead Neighbourhoods
-          [389] = {["ID"] = 1879400835; }; -- Known to the Townsfolk of the Kingstead Neighbourhoods
-          [390] = {["CAT_ID"] = 289; }; -- - Forester Competition -
-          [391] = {["ID"] = 1879467122; }; -- Is a Lumberjack
-          [392] = {["ID"] = 1879467125; }; -- Sleep at Night
-          [393] = {["ID"] = 1879467127; }; -- Eats Their Bread
-          [394] = {["ID"] = 1879467133; }; -- Hangs in Taverns
-          [395] = {["ID"] = 1879467139; }; -- Hacks All Day
-          [396] = {["ID"] = 1879467142; }; -- Drinks Their Bread
-          [397] = {["ID"] = 1879467151; }; -- Cuts Down Trees
-          [398] = {["ID"] = 1879467152; }; -- Feels Strong
-          [399] = {["ID"] = 1879467129; }; -- The Competitive Forester - Tier V
-          [400] = {["ID"] = 1879467126; }; -- The Competitive Forester - Tier IV
-          [401] = {["ID"] = 1879467145; }; -- The Competitive Forester - Tier III
-          [402] = {["ID"] = 1879467140; }; -- The Competitive Forester - Tier II
-          [403] = {["ID"] = 1879467149; }; -- The Competitive Forester - Tier I
+          [367] = {["CAT_ID"] = 240; }; -- Not Actively Achievable
+          [368] = {["CAT_ID"] = 241; }; -- - The Tournament of the Twins -
+          [369] = {["ID"] = 1879407709; }; -- The Tournament of the Twins - Exalted Champion of Rivendell
+          [370] = {["ID"] = 1879407711; }; -- The Tournament of the Twins - Champion of Rivendell
+          [371] = {["ID"] = 1879407713; }; -- The Tournament of the Twins - Hero's Frame
+          [372] = {["ID"] = 1879407714; }; -- The Tournament of the Twins - Favoured of Elrond
+          [373] = {["ID"] = 1879407719; }; -- The Tournament of the Twins - Gladiator's Frame
+          [374] = {["ID"] = 1879407720; }; -- The Tournament of the Twins - Herald of Rivendell
+          [375] = {["ID"] = 1879407705; }; -- The Tournament of the Twins - Contender's Frame
+          [376] = {["ID"] = 1879407706; }; -- The Tournament of the Twins - Honourable Contender
+          [377] = {["ID"] = 1879407675; }; -- The Tournament of the Twins - The Cloak of Elrohir
+          [378] = {["ID"] = 1879407710; }; -- The Tournament of the Twins - The Cloak of Elladan
+          [379] = {["CAT_ID"] = 242; }; -- - Townsfolk of the Eastfold -
+          [380] = {["ID"] = 1879400834; }; -- Kindred with the Townsfolk of the Eastfold Neighbourhoods
+          [381] = {["ID"] = 1879400836; }; -- Ally to the Townsfolk of the Eastfold Neighbourhoods
+          [382] = {["ID"] = 1879400832; }; -- Friend to the Townsfolk of the Eastfold Neighbourhoods
+          [383] = {["ID"] = 1879400833; }; -- Known to the Townsfolk of the Eastfold Neighbourhoods
+          [384] = {["CAT_ID"] = 243; }; -- - Townsfolk of the Kingstead -
+          [385] = {["ID"] = 1879400839; }; -- Kindred with the Townsfolk of the Kingstead Neighbourhoods
+          [386] = {["ID"] = 1879400838; }; -- Ally to the Townsfolk of the Kingstead Neighbourhoods
+          [387] = {["ID"] = 1879400837; }; -- Friend to the Townsfolk of the Kingstead Neighbourhoods
+          [388] = {["ID"] = 1879400835; }; -- Known to the Townsfolk of the Kingstead Neighbourhoods
+          [389] = {["CAT_ID"] = 289; }; -- - Forester Competition -
+          [390] = {["ID"] = 1879467122; }; -- Is a Lumberjack
+          [391] = {["ID"] = 1879467125; }; -- Sleep at Night
+          [392] = {["ID"] = 1879467127; }; -- Eats Their Bread
+          [393] = {["ID"] = 1879467133; }; -- Hangs in Taverns
+          [394] = {["ID"] = 1879467139; }; -- Hacks All Day
+          [395] = {["ID"] = 1879467142; }; -- Drinks Their Bread
+          [396] = {["ID"] = 1879467151; }; -- Cuts Down Trees
+          [397] = {["ID"] = 1879467152; }; -- Feels Strong
+          [398] = {["ID"] = 1879467129; }; -- The Competitive Forester - Tier V
+          [399] = {["ID"] = 1879467126; }; -- The Competitive Forester - Tier IV
+          [400] = {["ID"] = 1879467145; }; -- The Competitive Forester - Tier III
+          [401] = {["ID"] = 1879467140; }; -- The Competitive Forester - Tier II
+          [402] = {["ID"] = 1879467149; }; -- The Competitive Forester - Tier I
         };
         -- Allegiances
         [CRE_ALLEGIANCES] = {
@@ -4754,6 +4753,7 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
            [74] = {["ID"] = 1879486552; }; -- Bat-slayer of the Umbar-môkh (Advanced)
            [75] = {["ID"] = 1879486553; }; -- Bat-slayer of the Umbar-môkh
            [76] = {["ID"] = 1879486571; }; -- Treasure-seeker of the Umbar-môkh
+           [77] = {["ID"] = 1879485102; }; -- Brine-belly           
         };
     };
 };
