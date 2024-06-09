@@ -71,10 +71,10 @@ PluginDataMethodManual = 3;
 function UnloadReloader()
     Turbine.PluginManager.RefreshAvailablePlugins();
 
-    reloadedUnloader = Turbine.UI.Control();
-    reloadedUnloader:SetWantsUpdates( true );
+    ReloaderUnloader = Turbine.UI.Control();
+    ReloaderUnloader:SetWantsUpdates( true );
     
-    reloadedUnloader.Update = function( sender, args )
+    ReloaderUnloader.Update = function( sender, args )
         Turbine.PluginManager.RefreshAvailablePlugins();
         local loadedPlugins = Turbine.PluginManager.GetLoadedPlugins();
 
@@ -83,7 +83,7 @@ function UnloadReloader()
                 Turbine.PluginManager.UnloadScriptState( 'DeedTrackerReloader' );
             end
         end
-        reloadedUnloader:SetWantsUpdates( false );
+        ReloaderUnloader:SetWantsUpdates( false );
     end
 end
 
