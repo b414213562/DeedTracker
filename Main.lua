@@ -70,7 +70,6 @@ PluginDataMethodManual = 3;
 
 function UnloadReloader()
     Turbine.PluginManager.RefreshAvailablePlugins();
-    local loadedPlugins = Turbine.PluginManager.GetLoadedPlugins();
 
     reloadedUnloader = Turbine.UI.Control();
     reloadedUnloader:SetWantsUpdates( true );
