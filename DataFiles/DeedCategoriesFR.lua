@@ -148,6 +148,11 @@ _DEED_CATEGORIES = {
 [284] = { ["NAME"] = "Rat-bane"; };
 [281] = { ["NAME"] = "Challenger of the Iron Crown"; };
 [282] = { ["NAME"] = "Not Actively Achievable"; };
+-- Instances / Corsairs of Umbar
+[300] = { ["TIER"] = 1; ["NAME"] = "The Streets of Râhal Bakh"; };
+[301] = { ["TIER"] = 1; ["NAME"] = "The Isle of Storms"; };
+[302] = { ["TIER"] = 1; ["NAME"] = "Dahâl Huliz, The Arena"; };
+[303] = { ["TIER"] = 1; ["NAME"] = "The Depths of Mâkhda Khorbo"; };
 -- The War / Common
 [120] = { ["NAME"] = "Monster-slayer"; };
 [121] = { ["NAME"] = "Blackarrow-slayer"; };
@@ -205,6 +210,7 @@ _DEED_CATEGORIES = {
 [286] = { ["NAME"] = "Valar - 140"; };
 -- Class/Race/Epic / Reputation
 [171] = { ["NAME"] = "Tasks"; };
+[298] = { ["NAME"] = "Food"};
 [172] = { ["NAME"] = "Meta Deeds"; };
 [173] = { ["NAME"] = "Palais de Thorin"; };
 [174] = { ["NAME"] = "La Société des Mathoms"; };
@@ -334,5 +340,7 @@ _DEED_CATEGORIES = {
 [274] = { ["NAME"] = "Talath Úrui"; };
 [275] = { ["NAME"] = "Agarnaith"; };
 [276] = { ["NAME"] = "Gorgoroth"; };
--- 
+-- Haradwaith
+[299] = { ["NAME"] = "The Depths of Mâkhda Khorbo" };
+[304] = { ["NAME"] = "Umbar-môkh"; };
 };

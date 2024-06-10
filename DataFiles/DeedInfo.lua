@@ -1138,7 +1138,48 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
         };
         -- Corsairs of Umbar
         [I_CORSAIRS_OF_UMBAR] = {
-
+            [1] = {["ID"] = 1879483030; }; -- Deeds of the Arena of Conflict
+            [2] = {["CAT_ID"] = 300; }; -- The Streets of Râhal Bakh
+            [3] = {["ID"] = 1879483053; }; -- Deeds of The Streets of Râhal Bakh
+            [4] = {["ID"] = 1879483058; }; -- The Streets of Râhal Bakh -- Tier 1
+            [5] = {["ID"] = 1879483055; }; -- The Streets of Râhal Bakh -- Tier 2
+            [6] = {["ID"] = 1879483054; }; -- The Streets of Râhal Bakh -- Tier 3
+            [7] = {["ID"] = 1879483059; }; -- The Streets of Râhal Bakh -- Braver
+            [8] = {["ID"] = 1879483057; }; -- The Streets of Râhal Bakh -- Tier 4
+            [9] = {["ID"] = 1879483056; }; -- The Streets of Râhal Bakh -- Tier 5
+           [10] = {["CAT_ID"] = 301; }; -- The Isle of Storms
+           [11] = {["ID"] = 1879483005; }; -- Survivor of The Isle of Storms
+           [12] = {["ID"] = 1879483007; }; -- The Isle of Storms -- Tier 1
+           [13] = {["ID"] = 1879483008; }; -- The Isle of Storms -- Tier 2
+           [14] = {["ID"] = 1879483002; }; -- The Isle of Storms -- Tier 3
+           [15] = {["ID"] = 1879483009; }; -- The Isle of Storms -- Great Beasts
+           [16] = {["ID"] = 1879483003; }; -- The Isle of Storms -- Tier 4
+           [17] = {["ID"] = 1879483004; }; -- The Isle of Storms -- Tier 5
+           [18] = {["CAT_ID"] = 302; }; -- Dahâl Huliz, The Arena
+           [19] = {["ID"] = 1879482862; }; -- Vanquisher of Dahâl Huliz, The Arena
+           [20] = {["ID"] = 1879482851; }; -- Dahâl Huliz, The Arena -- Tier 1
+           [21] = {["ID"] = 1879482855; }; -- Dahâl Huliz, The Arena -- Tier 2
+           [22] = {["ID"] = 1879482856; }; -- Dahâl Huliz, The Arena -- Tier 3
+           [23] = {["ID"] = 1879482852; }; -- Dahâl Huliz, The Arena -- Gladiators
+           [24] = {["ID"] = 1879482853; }; -- Dahâl Huliz, The Arena -- Tier 4
+           [25] = {["ID"] = 1879482854; }; -- Dahâl Huliz, The Arena -- Tier 5
+           [26] = {["CAT_ID"] = 303; }; -- The Depths of Mâkhda Khorbo
+           [27] = {["ID"] = 1879482986; }; -- Deeds of the Depths of Mâkhda Khorbo
+           [28] = {["ID"] = 1879482935; }; -- The Depths of Mâkhda Khorbo -- Tier 1
+           [29] = {["ID"] = 1879482938; }; -- The Depths of Mâkhda Khorbo -- Tier 2
+           [30] = {["ID"] = 1879482939; }; -- The Depths of Mâkhda Khorbo -- Tier 3
+           [31] = {["ID"] = 1879482987; }; -- The Depths of Mâkhda Khorbo -- The Evil Within
+           [32] = {["ID"] = 1879482988; }; -- The Depths of Mâkhda Khorbo -- The Evil Below
+           [33] = {["ID"] = 1879482985; }; -- The Depths of Mâkhda Khorbo -- The Sea-shadow's Crew
+           [34] = {["ID"] = 1879482936; }; -- The Depths of Mâkhda Khorbo -- Tier 4
+           [35] = {["ID"] = 1879482937; }; -- The Depths of Mâkhda Khorbo -- Tier 5
+           [36] = {["CAT_ID"] = 282; }; -- Not Actively Achievable
+           [37] = {["ID"] = 1879483052; }; -- The Streets of Râhal Bakh -- Tier 5 -- Leading the Charge
+           [38] = {["ID"] = 1879483006; }; -- The Isle of Storms -- Tier 5 -- Leading the Charge
+           [39] = {["ID"] = 1879482857; }; -- Dahâl Huliz, The Arena -- Tier 5 -- Leading the Charge
+           [40] = {["ID"] = 1879482949; }; -- The Depths of Mâkhda Khorbo -- Leading the Charge
+           [41] = {["ID"] = 1879482950; }; -- The Depths of Mâkhda Khorbo -- The Vanguard
+           [42] = {["ID"] = 1879482951; }; -- The Depths of Mâkhda Khorbo -- Original Challenger
         };
     };
     -- Hobbies
@@ -2170,22 +2211,24 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
            [39] = {["CAT_ID"] = 285; }; -- Renewal of Gondor
            [40] = {["ID"] = 1879464051; }; -- A Summons From King Elessar
            [41] = {["ID"] = 1879464037; }; -- The Song of Waves and Wind
-           [42] = {["CAT_ID"] = 169; }; -- Miscellaneous
-           [43] = {["ID"] = 1879324024; }; -- A Most Curious Hobbit
-           [44] = {["ID"] = 1879297370; }; -- Epic Battles Await
-           [45] = {["CAT_ID"] = 170; }; -- Not Actively Achievable
-           [46] = {["ID"] = 1879234462; }; -- Discovering the Descendant
-           [47] = {["ID"] = 1879234463; }; -- Horsing Around
-           [48] = {["ID"] = 1879238494; }; -- An Unusual Arrival
-           [49] = {["CAT_ID"] = 286; }; -- Valar - 140
-           [50] = {["ID"] = 1879462872; }; -- The Battle of the Deep-way
-           [51] = {["ID"] = 1879462870; }; -- The Battle of the Way of Smiths
-           [52] = {["ID"] = 1879462869; }; -- The Battle of the Twenty-first Hall
-           [53] = {["ID"] = 1879462871; }; -- First Offensives
-           [54] = {["ID"] = 1879462868; }; -- Thangúlhad Endangered
-           [55] = {["ID"] = 1879462867; }; -- Assault on Dol Guldur
-           [56] = {["ID"] = 1879462866; }; -- The Battle in the Tower
-           [57] = {["ID"] = 1879462873; }; -- The Depths of Duty
+           [42] = {["ID"] = 1879482570; }; -- A Letter From Caebar
+           [43] = {["ID"] = 1879482571; }; -- A Letter From Caebar
+           [44] = {["CAT_ID"] = 169; }; -- Miscellaneous
+           [45] = {["ID"] = 1879324024; }; -- A Most Curious Hobbit
+           [46] = {["ID"] = 1879297370; }; -- Epic Battles Await
+           [47] = {["CAT_ID"] = 170; }; -- Not Actively Achievable
+           [48] = {["ID"] = 1879234462; }; -- Discovering the Descendant
+           [49] = {["ID"] = 1879234463; }; -- Horsing Around
+           [50] = {["ID"] = 1879238494; }; -- An Unusual Arrival
+           [51] = {["CAT_ID"] = 286; }; -- Valar - 140
+           [52] = {["ID"] = 1879462872; }; -- The Battle of the Deep-way
+           [53] = {["ID"] = 1879462870; }; -- The Battle of the Way of Smiths
+           [54] = {["ID"] = 1879462869; }; -- The Battle of the Twenty-first Hall
+           [55] = {["ID"] = 1879462871; }; -- First Offensives
+           [56] = {["ID"] = 1879462868; }; -- Thangúlhad Endangered
+           [57] = {["ID"] = 1879462867; }; -- Assault on Dol Guldur
+           [58] = {["ID"] = 1879462866; }; -- The Battle in the Tower
+           [59] = {["ID"] = 1879462873; }; -- The Depths of Duty          
         };
         -- Reputation
         [CRE_REPUTATION] = {
@@ -2195,398 +2238,402 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
             [4] = {["ID"] = 1879197821; }; -- The Busy Bee
             [5] = {["ID"] = 1879197819; }; -- The Go-getter
             [6] = {["ID"] = 1879197817; }; -- The Up-and-Comer
-            [7] = {["CAT_ID"] = 172; }; -- Meta Deeds
-            [8] = {["ID"] = 1879198514; }; -- World Renowned
-            [9] = {["ID"] = 1879198509; }; -- Ambassador to the Elves
-           [10] = {["CAT_ID"] = 173; }; -- Thorin's Hall
-           [11] = {["ID"] = 1879190400; }; -- Kindred to Thorin's Hall
-           [12] = {["ID"] = 1879190399; }; -- Ally of Thorin's Hall
-           [13] = {["ID"] = 1879190398; }; -- Friend to Thorin's Hall
-           [14] = {["ID"] = 1879190397; }; -- Known to Thorin's Hall
-           [15] = {["CAT_ID"] = 174; }; -- The Mathom Society
-           [16] = {["ID"] = 1879190392; }; -- Kindred with the Mathom Society
-           [17] = {["ID"] = 1879190391; }; -- Ally of the Mathom Society
-           [18] = {["ID"] = 1879190390; }; -- Friend to the Mathom Society
-           [19] = {["ID"] = 1879190389; }; -- Known to the Mathom Society
-           [20] = {["CAT_ID"] = 175; }; -- Men of Bree
-           [21] = {["ID"] = 1879190364; }; -- Kindred to the Men of Bree
-           [22] = {["ID"] = 1879190363; }; -- Ally to the Men of Bree
-           [23] = {["ID"] = 1879190362; }; -- Friend to the Men of Bree
-           [24] = {["ID"] = 1879190361; }; -- Known to the Men of Bree
-           [25] = {["CAT_ID"] = 176; }; -- Chicken Chasing League of Eriador
-           [26] = {["ID"] = 1879305453; }; -- Hobnanigans Hall of Famer
-           [27] = {["ID"] = 1879305452; }; -- Hobnanigans All-star
-           [28] = {["ID"] = 1879305451; }; -- Hobnanigans Major Leaguer
-           [29] = {["ID"] = 1879305450; }; -- Hobnanigans Minor Leaguer
-           [30] = {["ID"] = 1879305449; }; -- Hobnanigans Rookie
-           [31] = {["CAT_ID"] = 177; }; -- The Eglain
-           [32] = {["ID"] = 1879180379; }; -- Kindred to the Eglain
-           [33] = {["ID"] = 1879180378; }; -- Ally of the Eglain
-           [34] = {["ID"] = 1879180377; }; -- Friend of the Eglain
-           [35] = {["ID"] = 1879180376; }; -- Known to the Eglain
-           [36] = {["CAT_ID"] = 178; }; -- Rangers of Esteldín
-           [37] = {["ID"] = 1879190372; }; -- Kindred with the Rangers of Esteldín
-           [38] = {["ID"] = 1879190371; }; -- Ally to the Rangers of Esteldín
-           [39] = {["ID"] = 1879190370; }; -- Friend to the Rangers of Esteldín
-           [40] = {["ID"] = 1879190369; }; -- Known to the Rangers of Esteldín
-           [41] = {["CAT_ID"] = 179; }; -- The Wardens of Annúminas
-           [42] = {["ID"] = 1879190360; }; -- Kindred with the Wardens of Annúminas
-           [43] = {["ID"] = 1879190359; }; -- Ally to the Wardens of Annúminas
-           [44] = {["ID"] = 1879190358; }; -- Friend to the Wardens of Annúminas
-           [45] = {["ID"] = 1879190357; }; -- Known to the Wardens of Annúminas
-           [46] = {["CAT_ID"] = 180; }; -- Elves of Rivendell
-           [47] = {["ID"] = 1879190396; }; -- Kindred with the Elves of Rivendell
-           [48] = {["ID"] = 1879190395; }; -- Ally to the Elves of Rivendell
-           [49] = {["ID"] = 1879190394; }; -- Friend to the Elves of Rivendell
-           [50] = {["ID"] = 1879190393; }; -- Known to the Elves of Rivendell
-           [51] = {["CAT_ID"] = 181; }; -- Council of the North
-           [52] = {["ID"] = 1879190368; }; -- Kindred of the Council of the North
-           [53] = {["ID"] = 1879190367; }; -- Ally of the Council of the North
-           [54] = {["ID"] = 1879190366; }; -- Friend of the Council of the North
-           [55] = {["ID"] = 1879190365; }; -- Known to Council of North
-           [56] = {["CAT_ID"] = 182; }; -- Lossoth of Forochel
-           [57] = {["ID"] = 1879190384; }; -- Kindred with the Lossoth
-           [58] = {["ID"] = 1879190383; }; -- Ally to the Lossoth
-           [59] = {["ID"] = 1879190382; }; -- Friend to the Lossoth
-           [60] = {["ID"] = 1879190381; }; -- Known to the Lossoth
-           [61] = {["CAT_ID"] = 183; }; -- Galadhrim
-           [62] = {["ID"] = 1879190388; }; -- Kindred with the Galadhrim
-           [63] = {["ID"] = 1879190387; }; -- Ally to the Galadhrim
-           [64] = {["ID"] = 1879190386; }; -- Friend to the Galadhrim
-           [65] = {["ID"] = 1879190385; }; -- Known to the Galadhrim
-           [66] = {["CAT_ID"] = 184; }; -- Iron Garrison Guards
-           [67] = {["ID"] = 1879190376; }; -- Kindred with the Iron Garrison Guards
-           [68] = {["ID"] = 1879190375; }; -- Ally to the Iron Garrison Guards
-           [69] = {["ID"] = 1879190374; }; -- Friend to the Iron Garrison Guards
-           [70] = {["ID"] = 1879190373; }; -- Known to the Iron Garrison Guards
-           [71] = {["CAT_ID"] = 185; }; -- Iron Garrison Miners
-           [72] = {["ID"] = 1879190380; }; -- Kindred with the Iron Garrison Miners
-           [73] = {["ID"] = 1879190379; }; -- Ally to the Iron Garrison Miners
-           [74] = {["ID"] = 1879190378; }; -- Friend to the Iron Garrison Miners
-           [75] = {["ID"] = 1879190377; }; -- Known to the Iron Garrison Miners
-           [76] = {["CAT_ID"] = 186; }; -- Algraig, Men of Enedwaith
-           [77] = {["ID"] = 1879190475; }; -- Kindred with the Algraig
-           [78] = {["ID"] = 1879190457; }; -- Ally to the Algraig
-           [79] = {["ID"] = 1879190470; }; -- Friend to the Algraig
-           [80] = {["ID"] = 1879190456; }; -- Known to the Algraig
-           [81] = {["CAT_ID"] = 187; }; -- The Grey Company
-           [82] = {["ID"] = 1879190492; }; -- Kindred with the Grey Company
-           [83] = {["ID"] = 1879190476; }; -- Ally to the Grey Company
-           [84] = {["ID"] = 1879190489; }; -- Friend to the Grey Company
-           [85] = {["ID"] = 1879190471; }; -- Known to the Grey Company
-           [86] = {["CAT_ID"] = 188; }; -- Malledhrim
-           [87] = {["ID"] = 1879190449; }; -- Kindred with the Malledhrim
-           [88] = {["ID"] = 1879190454; }; -- Ally to the Malledhrim
-           [89] = {["ID"] = 1879190451; }; -- Friend to the Malledhrim
-           [90] = {["ID"] = 1879190455; }; -- Known to the Malledhrim
-           [91] = {["CAT_ID"] = 189; }; -- Men of Dunland
-           [92] = {["ID"] = 1879222238; }; -- Kindred to the Men of Dunland
-           [93] = {["ID"] = 1879222237; }; -- Ally to the Men of Dunland
-           [94] = {["ID"] = 1879222236; }; -- Friend to the Men of Dunland
-           [95] = {["ID"] = 1879222235; }; -- Known to the Men of Dunland
-           [96] = {["CAT_ID"] = 190; }; -- The Riders of Stangard
-           [97] = {["ID"] = 1879233014; }; -- Kindred with the Riders of Stangard
-           [98] = {["ID"] = 1879233015; }; -- Ally to the Riders of Stangard
-           [99] = {["ID"] = 1879233012; }; -- Friend to the Riders of Stangard
-          [100] = {["ID"] = 1879233013; }; -- Known to the Riders of Stangard
-          [101] = {["CAT_ID"] = 191; }; -- Théodred's Riders
-          [102] = {["ID"] = 1879222242; }; -- Kindred to Théodred's Riders
-          [103] = {["ID"] = 1879222240; }; -- Ally to the Riders of Théodred
-          [104] = {["ID"] = 1879222241; }; -- Friend to Théodred's Riders
-          [105] = {["ID"] = 1879222243; }; -- Known to Théodred's Riders
-          [106] = {["CAT_ID"] = 192; }; -- Heroes of Limlight Gorge
-          [107] = {["ID"] = 1879258418; }; -- Kindred with the Heroes of Limlight Gorge
-          [108] = {["ID"] = 1879258419; }; -- Ally to the Heroes of Limlight Gorge
-          [109] = {["ID"] = 1879258420; }; -- Friend to the Heroes of Limlight Gorge
-          [110] = {["ID"] = 1879258421; }; -- Known to the Heroes of Limlight Gorge
-          [111] = {["CAT_ID"] = 193; }; -- Men of the Wold
-          [112] = {["ID"] = 1879246620; }; -- Kindred to the Wold
-          [113] = {["ID"] = 1879246619; }; -- Ally to the Wold
-          [114] = {["ID"] = 1879246618; }; -- Friend to the Wold
-          [115] = {["ID"] = 1879246617; }; -- Known to the Wold
-          [116] = {["CAT_ID"] = 194; }; -- Men of the Norcrofts
-          [117] = {["ID"] = 1879246623; }; -- Kindred to the Norcrofts
-          [118] = {["ID"] = 1879246622; }; -- Ally to the Norcrofts
-          [119] = {["ID"] = 1879246621; }; -- Friend to the Norcrofts
-          [120] = {["ID"] = 1879246624; }; -- Known to the Norcrofts
-          [121] = {["CAT_ID"] = 195; }; -- Men of the Sutcrofts
-          [122] = {["ID"] = 1879246632; }; -- Kindred to the Sutcrofts
-          [123] = {["ID"] = 1879246631; }; -- Ally to the Sutcrofts
-          [124] = {["ID"] = 1879246630; }; -- Friend to the Sutcrofts
-          [125] = {["ID"] = 1879246629; }; -- Known to the Sutcrofts
-          [126] = {["CAT_ID"] = 196; }; -- Men of the Entwash Vale
-          [127] = {["ID"] = 1879246628; }; -- Kindred to the Entwash
-          [128] = {["ID"] = 1879246627; }; -- Ally to the Entwash Vale
-          [129] = {["ID"] = 1879246626; }; -- Friend to the Entwash Vale
-          [130] = {["ID"] = 1879246625; }; -- Known to the Entwash Vale
-          [131] = {["CAT_ID"] = 197; }; -- People of Wildermore
-          [132] = {["ID"] = 1879259466; }; -- Kindred to the People of Wildermore
-          [133] = {["ID"] = 1879259464; }; -- Ally to the People of Wildermore
-          [134] = {["ID"] = 1879259465; }; -- Friend to the People of Wildermore
-          [135] = {["ID"] = 1879259463; }; -- Known to the People of Wildermore
-          [136] = {["CAT_ID"] = 198; }; -- Survivors of Wildermore
-          [137] = {["ID"] = 1879259468; }; -- Kindred to the Survivors of Wildermore
-          [138] = {["ID"] = 1879259469; }; -- Ally to the Survivors of Wildermore
-          [139] = {["ID"] = 1879259470; }; -- Friend to the Survivors of Wildermore
-          [140] = {["ID"] = 1879259467; }; -- Known to the Survivors of Wildermore
-          [141] = {["CAT_ID"] = 199; }; -- The Ents of Fangorn Forest
-          [142] = {["ID"] = 1879305674; }; -- Kindred with the Ents of Fangorn
-          [143] = {["ID"] = 1879305673; }; -- Ally to the Ents of Fangorn
-          [144] = {["ID"] = 1879305671; }; -- Friend to the Ents of Fangorn
-          [145] = {["ID"] = 1879305672; }; -- Known to the Ents of Fangorn
-          [146] = {["CAT_ID"] = 200; }; -- The Eorlingas
-          [147] = {["ID"] = 1879271199; }; -- Kindred to the Eorlingas
-          [148] = {["ID"] = 1879271198; }; -- Ally to the Eorlingas
-          [149] = {["ID"] = 1879271197; }; -- Friend to the Eorlingas
-          [150] = {["ID"] = 1879271175; }; -- Known to the Eorlingas
-          [151] = {["CAT_ID"] = 201; }; -- The Helmingas
-          [152] = {["ID"] = 1879271203; }; -- Kindred to the Helmingas
-          [153] = {["ID"] = 1879271202; }; -- Ally to the Helmingas
-          [154] = {["ID"] = 1879271201; }; -- Friend to the Helmingas
-          [155] = {["ID"] = 1879271200; }; -- Known to the Helmingas
-          [156] = {["CAT_ID"] = 202; }; -- Dol Amroth
-          [157] = {["ID"] = 1879306085; }; -- Kindred to Dol Amroth
-          [158] = {["ID"] = 1879306084; }; -- Ally to Dol Amroth
-          [159] = {["ID"] = 1879306081; }; -- Friend to Dol Amroth
-          [160] = {["ID"] = 1879306080; }; -- Known to Dol Amroth
-          [161] = {["CAT_ID"] = 203; }; -- Dol Amroth City Watch
-          [162] = {["ID"] = 1879309582; }; -- Dol Amroth - Armoury
-          [163] = {["ID"] = 1879309579; }; -- Dol Amroth - Bank
-          [164] = {["ID"] = 1879309580; }; -- Dol Amroth - Docks
-          [165] = {["ID"] = 1879309581; }; -- Dol Amroth - Great Hall
-          [166] = {["ID"] = 1879309583; }; -- Dol Amroth - Library
-          [167] = {["ID"] = 1879309585; }; -- Dol Amroth - Mason
-          [168] = {["ID"] = 1879309586; }; -- Dol Amroth - Swan-knights
-          [169] = {["ID"] = 1879309584; }; -- Dol Amroth - Warehouse
-          [170] = {["CAT_ID"] = 204; }; -- Men of Ringló Vale
-          [171] = {["ID"] = 1879315506; }; -- Kindred to Ringló Vale
-          [172] = {["ID"] = 1879315507; }; -- Ally to Ringló Vale
-          [173] = {["ID"] = 1879315505; }; -- Friend to Ringló Vale
-          [174] = {["ID"] = 1879315504; }; -- Known to Ringló Vale
-          [175] = {["CAT_ID"] = 205; }; -- Men of Dor-en-Ernil
-          [176] = {["ID"] = 1879315509; }; -- Kindred to Dor-en-Ernil
-          [177] = {["ID"] = 1879315508; }; -- Ally to Dor-en-Ernil
-          [178] = {["ID"] = 1879315511; }; -- Friend to Dor-en-Ernil
-          [179] = {["ID"] = 1879315510; }; -- Known to Dor-en-Ernil
-          [180] = {["CAT_ID"] = 206; }; -- Men of Lebennin
-          [181] = {["ID"] = 1879315513; }; -- Kindred to Lebennin
-          [182] = {["ID"] = 1879315512; }; -- Ally to Lebennin
-          [183] = {["ID"] = 1879315515; }; -- Friend to Lebennin
-          [184] = {["ID"] = 1879315514; }; -- Known to Lebennin
-          [185] = {["CAT_ID"] = 207; }; -- Pelargir
-          [186] = {["ID"] = 1879314960; }; -- Kindred to Pelargir
-          [187] = {["ID"] = 1879314962; }; -- Ally to Pelargir
-          [188] = {["ID"] = 1879314961; }; -- Friend to Pelargir
-          [189] = {["ID"] = 1879314963; }; -- Known to Pelargir
-          [190] = {["CAT_ID"] = 208; }; -- Rangers of Ithilien
-          [191] = {["ID"] = 1879322628; }; -- Kindred to the Rangers of Ithilien
-          [192] = {["ID"] = 1879322631; }; -- Ally to the Rangers of Ithilien
-          [193] = {["ID"] = 1879322630; }; -- Friend to the Rangers of Ithilien
-          [194] = {["ID"] = 1879322629; }; -- Known to the Rangers of Ithilien
-          [195] = {["CAT_ID"] = 209; }; -- Defenders of Minas Tirith
-          [196] = {["ID"] = 1879330572; }; -- Celebrated in Minas Tirith
-          [197] = {["ID"] = 1879330574; }; -- Honoured in Minas Tirith
-          [198] = {["ID"] = 1879330575; }; -- Respected in Minas Tirith
-          [199] = {["ID"] = 1879326957; }; -- Kindred to Minas Tirith
-          [200] = {["ID"] = 1879326964; }; -- Ally to Minas Tirith
-          [201] = {["ID"] = 1879326963; }; -- Friend to Minas Tirith
-          [202] = {["ID"] = 1879326969; }; -- Known to Minas Tirith
-          [203] = {["CAT_ID"] = 210; }; -- Host of the West
-          [204] = {["ID"] = 1879341962; }; -- Celebrated by the Host of the West
-          [205] = {["ID"] = 1879341963; }; -- Esteemed in the Host of the West
-          [206] = {["ID"] = 1879341960; }; -- Respected by the Host of the West
-          [207] = {["ID"] = 1879334732; }; -- Kindred to the Host of the West
-          [208] = {["ID"] = 1879334731; }; -- Ally to the Host of the West
-          [209] = {["ID"] = 1879334730; }; -- Friend to the Host of the West
-          [210] = {["ID"] = 1879334729; }; -- Known to the Host of the West
-          [211] = {["CAT_ID"] = 211; }; -- Host of the West Master
-          [212] = {["CAT_ID"] = 212; }; -- - Host of the West Master-weaponist -
-          [213] = {["ID"] = 1879341971; }; -- Host of the West - Weaponist (Final)
-          [214] = {["ID"] = 1879341973; }; -- Host of the West - Weaponist (Advanced)
-          [215] = {["ID"] = 1879341966; }; -- Host of the West - Weaponist (Intermediate)
-          [216] = {["ID"] = 1879341969; }; -- Host of the West - Weaponist
-          [217] = {["CAT_ID"] = 213; }; -- - Host of the West Master-armourer -
-          [218] = {["ID"] = 1879341967; }; -- Host of the West - Armourer (Final)
-          [219] = {["ID"] = 1879341970; }; -- Host of the West - Armourer (Advanced)
-          [220] = {["ID"] = 1879341964; }; -- Host of the West - Armourer (Intermediate)
-          [221] = {["ID"] = 1879341965; }; -- Host of the West - Armourer
-          [222] = {["CAT_ID"] = 214; }; -- - Host of the West Master-provisioner -
-          [223] = {["ID"] = 1879341959; }; -- Host of the West - Provisioner (Final)
-          [224] = {["ID"] = 1879341974; }; -- Host of the West - Provisioner (Advanced)
-          [225] = {["ID"] = 1879341972; }; -- Host of the West - Provisioner (Intermediate)
-          [226] = {["ID"] = 1879341968; }; -- Host of the West - Provisioner
-          [227] = {["CAT_ID"] = 215; }; -- Riders of Rohan
-          [228] = {["ID"] = 1879330570; }; -- Kindred to The Riders of Rohan
-          [229] = {["ID"] = 1879330576; }; -- Ally to The Riders of Rohan
-          [230] = {["ID"] = 1879330573; }; -- Friend to The Riders of Rohan
-          [231] = {["ID"] = 1879330571; }; -- Known to The Riders of Rohan
-          [232] = {["CAT_ID"] = 216; }; -- The Plateau of Gorgoroth
-          [233] = {["CAT_ID"] = 217; }; -- - Conquest of Gorgoroth -
-          [234] = {["ID"] = 1879345209; }; -- Celebrated in the Conquest of Gorgoroth
-          [235] = {["ID"] = 1879345211; }; -- Honoured in the Conquest of Gorgoroth
-          [236] = {["ID"] = 1879345191; }; -- Respected in the Conquest of Gorgoroth
-          [237] = {["ID"] = 1879345200; }; -- Kindred in the Conquest of Gorgoroth
-          [238] = {["ID"] = 1879345206; }; -- Ally in the Conquest of Gorgoroth
-          [239] = {["ID"] = 1879345202; }; -- Friend in the Conquest of Gorgoroth
-          [240] = {["ID"] = 1879345208; }; -- Known in the Conquest of Gorgoroth
-          [241] = {["CAT_ID"] = 218; }; -- - Fushaum Bal South -
-          [242] = {["ID"] = 1879345197; }; -- Enemy to Fushaum Bal south
-          [243] = {["CAT_ID"] = 219; }; -- - Fushaum Bal North -
-          [244] = {["ID"] = 1879345189; }; -- Enemy to Fushaum Bal north
-          [245] = {["CAT_ID"] = 220; }; -- - Red Sky Clan -
-          [246] = {["ID"] = 1879345204; }; -- Known to the Red Sky Clan
-          [247] = {["CAT_ID"] = 221; }; -- Dwarves of Erebor
-          [248] = {["ID"] = 1879363094; }; -- Respected by the Dwarves of Erebor
-          [249] = {["ID"] = 1879363085; }; -- Kindred to the Dwarves of Erebor
-          [250] = {["ID"] = 1879363088; }; -- Ally to the Dwarves of Erebor
-          [251] = {["ID"] = 1879363096; }; -- Friend to the Dwarves of Erebor
-          [252] = {["ID"] = 1879363099; }; -- Known to the Dwarves of Erebor
-          [253] = {["CAT_ID"] = 222; }; -- Elves of Felegoth
-          [254] = {["ID"] = 1879362492; }; -- Kindred to the Elves of Felegoth
-          [255] = {["ID"] = 1879362485; }; -- Ally to the Elves of Felegoth
-          [256] = {["ID"] = 1879362494; }; -- Friend to the Elves of Felegoth
-          [257] = {["ID"] = 1879362491; }; -- Known to the Elves of Felegoth
-          [258] = {["CAT_ID"] = 223; }; -- Men of Dale
-          [259] = {["ID"] = 1879362502; }; -- Kindred to the Men of Dale
-          [260] = {["ID"] = 1879362508; }; -- Ally to the Men of Dale
-          [261] = {["ID"] = 1879362503; }; -- Friend to the Men of Dale
-          [262] = {["ID"] = 1879362509; }; -- Known to the Men of Dale
-          [263] = {["CAT_ID"] = 224; }; -- Grey Mountains Expedition
-          [264] = {["ID"] = 1879369250; }; -- Kindred to the Grey Mountains Expedition
-          [265] = {["ID"] = 1879369251; }; -- Ally to the Grey Mountains Expedition
-          [266] = {["ID"] = 1879369246; }; -- Friend to the Grey Mountains Expedition
-          [267] = {["ID"] = 1879369248; }; -- Known to the Grey Mountains Expedition
-          [268] = {["CAT_ID"] = 225; }; -- Wilderfolk
-          [269] = {["ID"] = 1879386038; }; -- Kindred to the Wilderfolk
-          [270] = {["ID"] = 1879386041; }; -- Ally to the Wilderfolk
-          [271] = {["ID"] = 1879386040; }; -- Friend to the Wilderfolk
-          [272] = {["ID"] = 1879386039; }; -- Known to the Wilderfolk
-          [273] = {["CAT_ID"] = 226; }; -- The Great Alliance
-          [274] = {["ID"] = 1879390727; }; -- Celebrated in The Great Alliance
-          [275] = {["ID"] = 1879390722; }; -- Honoured in The Great Alliance
-          [276] = {["ID"] = 1879390724; }; -- Respected in The Great Alliance
-          [277] = {["CAT_ID"] = 227; }; -- The White Company
-          [278] = {["ID"] = 1879390723; }; -- Celebrated in The White Company
-          [279] = {["ID"] = 1879390731; }; -- Honoured in The White Company
-          [280] = {["ID"] = 1879390729; }; -- Respected in The White Company
-          [281] = {["ID"] = 1879390728; }; -- Kindred to The White Company
-          [282] = {["ID"] = 1879390726; }; -- Ally to The White Company
-          [283] = {["ID"] = 1879390730; }; -- Friend to The White Company
-          [284] = {["CAT_ID"] = 228; }; -- Reclamation of Minas Ithil
-          [285] = {["ID"] = 1879395389; }; -- The Trial of Death
-          [286] = {["ID"] = 1879395392; }; -- The Trial of Despair
-          [287] = {["ID"] = 1879395390; }; -- The Reclamation Continues IV
-          [288] = {["ID"] = 1879395388; }; -- The Trial of Madness
-          [289] = {["ID"] = 1879395387; }; -- The Reclamation Continues III
-          [290] = {["ID"] = 1879395382; }; -- The Trial of Sorrow
-          [291] = {["ID"] = 1879395394; }; -- The Reclamation Continues II
-          [292] = {["ID"] = 1879395391; }; -- The Trial of Wrath
-          [293] = {["ID"] = 1879390725; }; -- The Reclamation Continues I
-          [294] = {["CAT_ID"] = 229; }; -- Protectors of Wilderland
-          [295] = {["ID"] = 1879406714; }; -- Kindred to the Protectors of Wilderland
-          [296] = {["ID"] = 1879406716; }; -- Ally to the Protectors of Wilderland
-          [297] = {["ID"] = 1879406717; }; -- Friend to the Protectors of Wilderland
-          [298] = {["ID"] = 1879406715; }; -- Known to the Protectors of Wilderland
-          [299] = {["CAT_ID"] = 230; }; -- March on Gundabad
-          [300] = {["ID"] = 1879407822; }; -- Kindred to the March on Gundabad
-          [301] = {["ID"] = 1879407821; }; -- Ally to the March on Gundabad
-          [302] = {["ID"] = 1879407824; }; -- Friend to the March on Gundabad
-          [303] = {["ID"] = 1879407823; }; -- Known to the March on Gundabad
-          [304] = {["CAT_ID"] = 231; }; -- The Gabil'akkâ
-          [305] = {["ID"] = 1879409913; }; -- Azghzabad of the Gabil'akkâ
-          [306] = {["ID"] = 1879409927; }; -- Fabarâl of the Gabil'akkâ
-          [307] = {["ID"] = 1879409921; }; -- Uzkhas of the Gabil'akkâ
-          [308] = {["ID"] = 1879409930; }; -- Izkhas of the Gabil'akkâ
-          [309] = {["ID"] = 1879409922; }; -- Dumul of the Gabil'akkâ
-          [310] = {["CAT_ID"] = 232; }; -- League of the Axe
-          [311] = {["ID"] = 1879413219; }; -- Ally to the League of the Axe
-          [312] = {["ID"] = 1879413221; }; -- Friend to the League of the Axe
-          [313] = {["ID"] = 1879413214; }; -- Known to the League of the Axe
-          [314] = {["ID"] = 1879413220; }; -- Neutral to the League of the Axe
-          [315] = {["CAT_ID"] = 233; }; -- Woodcutter's Brotherhood
-          [316] = {["ID"] = 1879413216; }; -- Kindred to the Woodcutter's Brotherhood
-          [317] = {["ID"] = 1879413215; }; -- Ally to the Woodcutter's Brotherhood
-          [318] = {["ID"] = 1879413218; }; -- Friend to the Woodcutter's Brotherhood
-          [319] = {["ID"] = 1879413217; }; -- Known to the Woodcutter's Brotherhood
-          [320] = {["CAT_ID"] = 234; }; -- Kharum-ubnâr
-          [321] = {["ID"] = 1879413628; }; -- Ally to the Kharum-ubnâr
-          [322] = {["ID"] = 1879413625; }; -- Friend to the Kharum-ubnâr
-          [323] = {["ID"] = 1879413626; }; -- Known to the Kharum-ubnâr
-          [324] = {["CAT_ID"] = 235; }; -- The Haban’akkâ of Thráin
-          [325] = {["ID"] = 1879417049; }; -- Fabarâl of the Haban’akkâ of Thráin
-          [326] = {["ID"] = 1879417052; }; -- Uzkhas of the Haban’akkâ of Thráin
-          [327] = {["ID"] = 1879417051; }; -- Izkhas of the Haban’akkâ of Thráin
-          [328] = {["ID"] = 1879417050; }; -- Dumul of the Haban'akkâ of Thráin
-          [329] = {["CAT_ID"] = 236; }; -- Reclaimers of the Mountain-hold
-          [330] = {["ID"] = 1879417184; }; -- Celebrated by the Reclaimers of the Mountain-hold
-          [331] = {["ID"] = 1879417186; }; -- Honoured by the Reclaimers of the Mountain-hold
-          [332] = {["ID"] = 1879417188; }; -- Respected by the Reclaimers of the Mountain-hold
-          [333] = {["ID"] = 1879417183; }; -- Kindred to the Reclaimers of the Mountain-hold
-          [334] = {["ID"] = 1879417185; }; -- Ally to the Reclaimers of the Mountain-hold
-          [335] = {["ID"] = 1879417187; }; -- Friend to the Reclaimers of the Mountain-hold
-          [336] = {["ID"] = 1879417189; }; -- Known to the Reclaimers of the Mountain-hold
-          [337] = {["CAT_ID"] = 237; }; -- Defenders of the Angle
-          [338] = {["ID"] = 1879445939; }; -- Kindred to the Defenders of the Angle
-          [339] = {["CAT_ID"] = 238; }; -- The Yonder-watch
-          [340] = {["ID"] = 1879443127; }; -- Kindred to the Yonder-watch
-          [341] = {["ID"] = 1879443124; }; -- Ally to the Yonder-watch
-          [342] = {["ID"] = 1879443131; }; -- Friend to the Yonder-watch
-          [343] = {["CAT_ID"] = 239; }; -- The Dúnedain of Cardolan
-          [344] = {["ID"] = 1879450840; }; -- Kindred to the Dúnedain of Cardolan
-          [345] = {["ID"] = 1879450839; }; -- Ally to the Dúnedain of Cardolan
-          [346] = {["ID"] = 1879450842; }; -- Friend to the Dúnedain of Cardolan
-          [347] = {["ID"] = 1879450841; }; -- Known to the Dúnedain of Cardolan
-          [348] = {["CAT_ID"] = 283; }; -- Stewards of the Iron-home
-          [349] = {["ID"] = 1879459781; }; -- Kindred with the Stewards of the Iron-home
-          [350] = {["ID"] = 1879459782; }; -- Ally to the Stewards of the Iron-home
-          [351] = {["ID"] = 1879459783; }; -- Friend to the Stewards of the Iron-home
-          [352] = {["ID"] = 1879459780; }; -- Known to the Stewards of the Iron-home
-          [353] = {["CAT_ID"] = 285; }; -- The Renewal of Gondor
-          [354] = {["ID"] = 1879476790; }; -- Respected with the Renewal of Gondor
-          [355] = {["ID"] = 1879463122; }; -- Kindred with the Renewal of Gondor
-          [356] = {["ID"] = 1879463125; }; -- Ally to the Renewal of Gondor
-          [357] = {["ID"] = 1879463119; }; -- Friend to the Renewal of Gondor
-          [358] = {["ID"] = 1879463120; }; -- Known to the Renewal of Gondor
-          [359] = {["CAT_ID"] = 290; }; -- Citizens of Umbar Baharbêl
-          [360] = {["ID"] = 1879465758; }; -- Friend to the Citizens of Umbar Baharbêl
-          [361] = {["ID"] = 1879465761; }; -- Known to the Citizens of Umbar Baharbêl
-          [362] = {["ID"] = 1879469614; }; -- Neutral to the Citizens of Umbar Baharbêl
-          [363] = {["CAT_ID"] = 240; }; -- Not Actively Achievable
-          [364] = {["CAT_ID"] = 241; }; -- - The Tournament of the Twins -
-          [365] = {["ID"] = 1879407709; }; -- The Tournament of the Twins - Exalted Champion of Rivendell
-          [366] = {["ID"] = 1879407711; }; -- The Tournament of the Twins - Champion of Rivendell
-          [367] = {["ID"] = 1879407713; }; -- The Tournament of the Twins - Hero's Frame
-          [368] = {["ID"] = 1879407714; }; -- The Tournament of the Twins - Favoured of Elrond
-          [369] = {["ID"] = 1879407719; }; -- The Tournament of the Twins - Gladiator's Frame
-          [370] = {["ID"] = 1879407720; }; -- The Tournament of the Twins - Herald of Rivendell
-          [371] = {["ID"] = 1879407705; }; -- The Tournament of the Twins - Contender's Frame
-          [372] = {["ID"] = 1879407706; }; -- The Tournament of the Twins - Honourable Contender
-          [373] = {["ID"] = 1879407675; }; -- The Tournament of the Twins - The Cloak of Elrohir
-          [374] = {["ID"] = 1879407710; }; -- The Tournament of the Twins - The Cloak of Elladan
-          [375] = {["CAT_ID"] = 242; }; -- - Townsfolk of the Eastfold -
-          [376] = {["ID"] = 1879400834; }; -- Kindred with the Townsfolk of the Eastfold Neighbourhoods
-          [377] = {["ID"] = 1879400836; }; -- Ally to the Townsfolk of the Eastfold Neighbourhoods
-          [378] = {["ID"] = 1879400832; }; -- Friend to the Townsfolk of the Eastfold Neighbourhoods
-          [379] = {["ID"] = 1879400833; }; -- Known to the Townsfolk of the Eastfold Neighbourhoods
-          [380] = {["CAT_ID"] = 243; }; -- - Townsfolk of the Kingstead -
-          [381] = {["ID"] = 1879400839; }; -- Kindred with the Townsfolk of the Kingstead Neighbourhoods
-          [382] = {["ID"] = 1879400838; }; -- Ally to the Townsfolk of the Kingstead Neighbourhoods
-          [383] = {["ID"] = 1879400837; }; -- Friend to the Townsfolk of the Kingstead Neighbourhoods
-          [384] = {["ID"] = 1879400835; }; -- Known to the Townsfolk of the Kingstead Neighbourhoods
-          [385] = {["CAT_ID"] = 289; }; -- - Forester Competition -
-          [386] = {["ID"] = 1879467122; }; -- Is a Lumberjack
-          [387] = {["ID"] = 1879467125; }; -- Sleep at Night
-          [388] = {["ID"] = 1879467127; }; -- Eats Their Bread
-          [389] = {["ID"] = 1879467133; }; -- Hangs in Taverns
-          [390] = {["ID"] = 1879467139; }; -- Hacks All Day
-          [391] = {["ID"] = 1879467142; }; -- Drinks Their Bread
-          [392] = {["ID"] = 1879467151; }; -- Cuts Down Trees
-          [393] = {["ID"] = 1879467152; }; -- Feels Strong
-          [394] = {["ID"] = 1879467129; }; -- The Competitive Forester - Tier V
-          [395] = {["ID"] = 1879467126; }; -- The Competitive Forester - Tier 4
-          [396] = {["ID"] = 1879467145; }; -- The Competitive Forester - Tier III
-          [397] = {["ID"] = 1879467140; }; -- The Competitive Forester - Tier II
-          [398] = {["ID"] = 1879467149; }; -- The Competitive Forester - Tier I          
+            [7] = {["CAT_ID"] = 298; }; -- Food
+            [8] = {["ID"] = 1879485104; }; -- Iron-stomach
+            [9] = {["CAT_ID"] = 172; }; -- Meta Deeds
+           [10] = {["ID"] = 1879198514; }; -- World Renowned
+           [11] = {["ID"] = 1879198509; }; -- Ambassador to the Elves
+           [12] = {["CAT_ID"] = 173; }; -- Thorin's Hall
+           [13] = {["ID"] = 1879190400; }; -- Kindred to Thorin's Hall
+           [14] = {["ID"] = 1879190399; }; -- Ally of Thorin's Hall
+           [15] = {["ID"] = 1879190398; }; -- Friend to Thorin's Hall
+           [16] = {["ID"] = 1879190397; }; -- Known to Thorin's Hall
+           [17] = {["CAT_ID"] = 174; }; -- The Mathom Society
+           [18] = {["ID"] = 1879190392; }; -- Kindred with the Mathom Society
+           [19] = {["ID"] = 1879190391; }; -- Ally of the Mathom Society
+           [20] = {["ID"] = 1879190390; }; -- Friend to the Mathom Society
+           [21] = {["ID"] = 1879190389; }; -- Known to the Mathom Society
+           [22] = {["CAT_ID"] = 175; }; -- Men of Bree
+           [23] = {["ID"] = 1879190364; }; -- Kindred to the Men of Bree
+           [24] = {["ID"] = 1879190363; }; -- Ally to the Men of Bree
+           [25] = {["ID"] = 1879190362; }; -- Friend to the Men of Bree
+           [26] = {["ID"] = 1879190361; }; -- Known to the Men of Bree
+           [27] = {["CAT_ID"] = 176; }; -- Chicken Chasing League of Eriador
+           [28] = {["ID"] = 1879305453; }; -- Hobnanigans Hall of Famer
+           [29] = {["ID"] = 1879305452; }; -- Hobnanigans All-star
+           [30] = {["ID"] = 1879305451; }; -- Hobnanigans Major Leaguer
+           [31] = {["ID"] = 1879305450; }; -- Hobnanigans Minor Leaguer
+           [32] = {["ID"] = 1879305449; }; -- Hobnanigans Rookie
+           [33] = {["CAT_ID"] = 177; }; -- The Eglain
+           [34] = {["ID"] = 1879180379; }; -- Kindred to the Eglain
+           [35] = {["ID"] = 1879180378; }; -- Ally of the Eglain
+           [36] = {["ID"] = 1879180377; }; -- Friend of the Eglain
+           [37] = {["ID"] = 1879180376; }; -- Known to the Eglain
+           [38] = {["CAT_ID"] = 178; }; -- Rangers of Esteldín
+           [39] = {["ID"] = 1879190372; }; -- Kindred with the Rangers of Esteldín
+           [40] = {["ID"] = 1879190371; }; -- Ally to the Rangers of Esteldín
+           [41] = {["ID"] = 1879190370; }; -- Friend to the Rangers of Esteldín
+           [42] = {["ID"] = 1879190369; }; -- Known to the Rangers of Esteldín
+           [43] = {["CAT_ID"] = 179; }; -- The Wardens of Annúminas
+           [44] = {["ID"] = 1879190360; }; -- Kindred with the Wardens of Annúminas
+           [45] = {["ID"] = 1879190359; }; -- Ally to the Wardens of Annúminas
+           [46] = {["ID"] = 1879190358; }; -- Friend to the Wardens of Annúminas
+           [47] = {["ID"] = 1879190357; }; -- Known to the Wardens of Annúminas
+           [48] = {["CAT_ID"] = 180; }; -- Elves of Rivendell
+           [49] = {["ID"] = 1879190396; }; -- Kindred with the Elves of Rivendell
+           [50] = {["ID"] = 1879190395; }; -- Ally to the Elves of Rivendell
+           [51] = {["ID"] = 1879190394; }; -- Friend to the Elves of Rivendell
+           [52] = {["ID"] = 1879190393; }; -- Known to the Elves of Rivendell
+           [53] = {["CAT_ID"] = 181; }; -- Council of the North
+           [54] = {["ID"] = 1879190368; }; -- Kindred of the Council of the North
+           [55] = {["ID"] = 1879190367; }; -- Ally of the Council of the North
+           [56] = {["ID"] = 1879190366; }; -- Friend of the Council of the North
+           [57] = {["ID"] = 1879190365; }; -- Known to Council of North
+           [58] = {["CAT_ID"] = 182; }; -- Lossoth of Forochel
+           [59] = {["ID"] = 1879190384; }; -- Kindred with the Lossoth
+           [60] = {["ID"] = 1879190383; }; -- Ally to the Lossoth
+           [61] = {["ID"] = 1879190382; }; -- Friend to the Lossoth
+           [62] = {["ID"] = 1879190381; }; -- Known to the Lossoth
+           [63] = {["CAT_ID"] = 183; }; -- Galadhrim
+           [64] = {["ID"] = 1879190388; }; -- Kindred with the Galadhrim
+           [65] = {["ID"] = 1879190387; }; -- Ally to the Galadhrim
+           [66] = {["ID"] = 1879190386; }; -- Friend to the Galadhrim
+           [67] = {["ID"] = 1879190385; }; -- Known to the Galadhrim
+           [68] = {["CAT_ID"] = 184; }; -- Iron Garrison Guards
+           [69] = {["ID"] = 1879190376; }; -- Kindred with the Iron Garrison Guards
+           [70] = {["ID"] = 1879190375; }; -- Ally to the Iron Garrison Guards
+           [71] = {["ID"] = 1879190374; }; -- Friend to the Iron Garrison Guards
+           [72] = {["ID"] = 1879190373; }; -- Known to the Iron Garrison Guards
+           [73] = {["CAT_ID"] = 185; }; -- Iron Garrison Miners
+           [74] = {["ID"] = 1879190380; }; -- Kindred with the Iron Garrison Miners
+           [75] = {["ID"] = 1879190379; }; -- Ally to the Iron Garrison Miners
+           [76] = {["ID"] = 1879190378; }; -- Friend to the Iron Garrison Miners
+           [77] = {["ID"] = 1879190377; }; -- Known to the Iron Garrison Miners
+           [78] = {["CAT_ID"] = 186; }; -- Algraig, Men of Enedwaith
+           [79] = {["ID"] = 1879190475; }; -- Kindred with the Algraig
+           [80] = {["ID"] = 1879190457; }; -- Ally to the Algraig
+           [81] = {["ID"] = 1879190470; }; -- Friend to the Algraig
+           [82] = {["ID"] = 1879190456; }; -- Known to the Algraig
+           [83] = {["CAT_ID"] = 187; }; -- The Grey Company
+           [84] = {["ID"] = 1879190492; }; -- Kindred with the Grey Company
+           [85] = {["ID"] = 1879190476; }; -- Ally to the Grey Company
+           [86] = {["ID"] = 1879190489; }; -- Friend to the Grey Company
+           [87] = {["ID"] = 1879190471; }; -- Known to the Grey Company
+           [88] = {["CAT_ID"] = 188; }; -- Malledhrim
+           [89] = {["ID"] = 1879190449; }; -- Kindred with the Malledhrim
+           [90] = {["ID"] = 1879190454; }; -- Ally to the Malledhrim
+           [91] = {["ID"] = 1879190451; }; -- Friend to the Malledhrim
+           [92] = {["ID"] = 1879190455; }; -- Known to the Malledhrim
+           [93] = {["CAT_ID"] = 189; }; -- Men of Dunland
+           [94] = {["ID"] = 1879222238; }; -- Kindred to the Men of Dunland
+           [95] = {["ID"] = 1879222237; }; -- Ally to the Men of Dunland
+           [96] = {["ID"] = 1879222236; }; -- Friend to the Men of Dunland
+           [97] = {["ID"] = 1879222235; }; -- Known to the Men of Dunland
+           [98] = {["CAT_ID"] = 190; }; -- The Riders of Stangard
+           [99] = {["ID"] = 1879233014; }; -- Kindred with the Riders of Stangard
+          [100] = {["ID"] = 1879233015; }; -- Ally to the Riders of Stangard
+          [101] = {["ID"] = 1879233012; }; -- Friend to the Riders of Stangard
+          [102] = {["ID"] = 1879233013; }; -- Known to the Riders of Stangard
+          [103] = {["CAT_ID"] = 191; }; -- Théodred's Riders
+          [104] = {["ID"] = 1879222242; }; -- Kindred to Théodred's Riders
+          [105] = {["ID"] = 1879222240; }; -- Ally to the Riders of Théodred
+          [106] = {["ID"] = 1879222241; }; -- Friend to Théodred's Riders
+          [107] = {["ID"] = 1879222243; }; -- Known to Théodred's Riders
+          [108] = {["CAT_ID"] = 192; }; -- Heroes of Limlight Gorge
+          [109] = {["ID"] = 1879258418; }; -- Kindred with the Heroes of Limlight Gorge
+          [110] = {["ID"] = 1879258419; }; -- Ally to the Heroes of Limlight Gorge
+          [111] = {["ID"] = 1879258420; }; -- Friend to the Heroes of Limlight Gorge
+          [112] = {["ID"] = 1879258421; }; -- Known to the Heroes of Limlight Gorge
+          [113] = {["CAT_ID"] = 193; }; -- Men of the Wold
+          [114] = {["ID"] = 1879246620; }; -- Kindred to the Wold
+          [115] = {["ID"] = 1879246619; }; -- Ally to the Wold
+          [116] = {["ID"] = 1879246618; }; -- Friend to the Wold
+          [117] = {["ID"] = 1879246617; }; -- Known to the Wold
+          [118] = {["CAT_ID"] = 194; }; -- Men of the Norcrofts
+          [119] = {["ID"] = 1879246623; }; -- Kindred to the Norcrofts
+          [120] = {["ID"] = 1879246622; }; -- Ally to the Norcrofts
+          [121] = {["ID"] = 1879246621; }; -- Friend to the Norcrofts
+          [122] = {["ID"] = 1879246624; }; -- Known to the Norcrofts
+          [123] = {["CAT_ID"] = 195; }; -- Men of the Sutcrofts
+          [124] = {["ID"] = 1879246632; }; -- Kindred to the Sutcrofts
+          [125] = {["ID"] = 1879246631; }; -- Ally to the Sutcrofts
+          [126] = {["ID"] = 1879246630; }; -- Friend to the Sutcrofts
+          [127] = {["ID"] = 1879246629; }; -- Known to the Sutcrofts
+          [128] = {["CAT_ID"] = 196; }; -- Men of the Entwash Vale
+          [129] = {["ID"] = 1879246628; }; -- Kindred to the Entwash
+          [130] = {["ID"] = 1879246627; }; -- Ally to the Entwash Vale
+          [131] = {["ID"] = 1879246626; }; -- Friend to the Entwash Vale
+          [132] = {["ID"] = 1879246625; }; -- Known to the Entwash Vale
+          [133] = {["CAT_ID"] = 197; }; -- People of Wildermore
+          [134] = {["ID"] = 1879259466; }; -- Kindred to the People of Wildermore
+          [135] = {["ID"] = 1879259464; }; -- Ally to the People of Wildermore
+          [136] = {["ID"] = 1879259465; }; -- Friend to the People of Wildermore
+          [137] = {["ID"] = 1879259463; }; -- Known to the People of Wildermore
+          [138] = {["CAT_ID"] = 198; }; -- Survivors of Wildermore
+          [139] = {["ID"] = 1879259468; }; -- Kindred to the Survivors of Wildermore
+          [140] = {["ID"] = 1879259469; }; -- Ally to the Survivors of Wildermore
+          [141] = {["ID"] = 1879259470; }; -- Friend to the Survivors of Wildermore
+          [142] = {["ID"] = 1879259467; }; -- Known to the Survivors of Wildermore
+          [143] = {["CAT_ID"] = 199; }; -- The Ents of Fangorn Forest
+          [144] = {["ID"] = 1879305674; }; -- Kindred with the Ents of Fangorn
+          [145] = {["ID"] = 1879305673; }; -- Ally to the Ents of Fangorn
+          [146] = {["ID"] = 1879305671; }; -- Friend to the Ents of Fangorn
+          [147] = {["ID"] = 1879305672; }; -- Known to the Ents of Fangorn
+          [148] = {["CAT_ID"] = 200; }; -- The Eorlingas
+          [149] = {["ID"] = 1879271199; }; -- Kindred to the Eorlingas
+          [150] = {["ID"] = 1879271198; }; -- Ally to the Eorlingas
+          [151] = {["ID"] = 1879271197; }; -- Friend to the Eorlingas
+          [152] = {["ID"] = 1879271175; }; -- Known to the Eorlingas
+          [153] = {["CAT_ID"] = 201; }; -- The Helmingas
+          [154] = {["ID"] = 1879271203; }; -- Kindred to the Helmingas
+          [155] = {["ID"] = 1879271202; }; -- Ally to the Helmingas
+          [156] = {["ID"] = 1879271201; }; -- Friend to the Helmingas
+          [157] = {["ID"] = 1879271200; }; -- Known to the Helmingas
+          [158] = {["CAT_ID"] = 202; }; -- Dol Amroth
+          [159] = {["ID"] = 1879306085; }; -- Kindred to Dol Amroth
+          [160] = {["ID"] = 1879306084; }; -- Ally to Dol Amroth
+          [161] = {["ID"] = 1879306081; }; -- Friend to Dol Amroth
+          [162] = {["ID"] = 1879306080; }; -- Known to Dol Amroth
+          [163] = {["CAT_ID"] = 203; }; -- Dol Amroth City Watch
+          [164] = {["ID"] = 1879309582; }; -- Dol Amroth - Armoury
+          [165] = {["ID"] = 1879309579; }; -- Dol Amroth - Bank
+          [166] = {["ID"] = 1879309580; }; -- Dol Amroth - Docks
+          [167] = {["ID"] = 1879309581; }; -- Dol Amroth - Great Hall
+          [168] = {["ID"] = 1879309583; }; -- Dol Amroth - Library
+          [169] = {["ID"] = 1879309585; }; -- Dol Amroth - Mason
+          [170] = {["ID"] = 1879309586; }; -- Dol Amroth - Swan-knights
+          [171] = {["ID"] = 1879309584; }; -- Dol Amroth - Warehouse
+          [172] = {["CAT_ID"] = 204; }; -- Men of Ringló Vale
+          [173] = {["ID"] = 1879315506; }; -- Kindred to Ringló Vale
+          [174] = {["ID"] = 1879315507; }; -- Ally to Ringló Vale
+          [175] = {["ID"] = 1879315505; }; -- Friend to Ringló Vale
+          [176] = {["ID"] = 1879315504; }; -- Known to Ringló Vale
+          [177] = {["CAT_ID"] = 205; }; -- Men of Dor-en-Ernil
+          [178] = {["ID"] = 1879315509; }; -- Kindred to Dor-en-Ernil
+          [179] = {["ID"] = 1879315508; }; -- Ally to Dor-en-Ernil
+          [180] = {["ID"] = 1879315511; }; -- Friend to Dor-en-Ernil
+          [181] = {["ID"] = 1879315510; }; -- Known to Dor-en-Ernil
+          [182] = {["CAT_ID"] = 206; }; -- Men of Lebennin
+          [183] = {["ID"] = 1879315513; }; -- Kindred to Lebennin
+          [184] = {["ID"] = 1879315512; }; -- Ally to Lebennin
+          [185] = {["ID"] = 1879315515; }; -- Friend to Lebennin
+          [186] = {["ID"] = 1879315514; }; -- Known to Lebennin
+          [187] = {["CAT_ID"] = 207; }; -- Pelargir
+          [188] = {["ID"] = 1879314960; }; -- Kindred to Pelargir
+          [189] = {["ID"] = 1879314962; }; -- Ally to Pelargir
+          [190] = {["ID"] = 1879314961; }; -- Friend to Pelargir
+          [191] = {["ID"] = 1879314963; }; -- Known to Pelargir
+          [192] = {["CAT_ID"] = 208; }; -- Rangers of Ithilien
+          [193] = {["ID"] = 1879322628; }; -- Kindred to the Rangers of Ithilien
+          [194] = {["ID"] = 1879322631; }; -- Ally to the Rangers of Ithilien
+          [195] = {["ID"] = 1879322630; }; -- Friend to the Rangers of Ithilien
+          [196] = {["ID"] = 1879322629; }; -- Known to the Rangers of Ithilien
+          [197] = {["CAT_ID"] = 209; }; -- Defenders of Minas Tirith
+          [198] = {["ID"] = 1879330572; }; -- Celebrated in Minas Tirith
+          [199] = {["ID"] = 1879330574; }; -- Honoured in Minas Tirith
+          [200] = {["ID"] = 1879330575; }; -- Respected in Minas Tirith
+          [201] = {["ID"] = 1879326957; }; -- Kindred to Minas Tirith
+          [202] = {["ID"] = 1879326964; }; -- Ally to Minas Tirith
+          [203] = {["ID"] = 1879326963; }; -- Friend to Minas Tirith
+          [204] = {["ID"] = 1879326969; }; -- Known to Minas Tirith
+          [205] = {["CAT_ID"] = 210; }; -- Host of the West
+          [206] = {["ID"] = 1879341962; }; -- Celebrated by the Host of the West
+          [207] = {["ID"] = 1879341963; }; -- Esteemed in the Host of the West
+          [208] = {["ID"] = 1879341960; }; -- Respected by the Host of the West
+          [209] = {["ID"] = 1879334732; }; -- Kindred to the Host of the West
+          [210] = {["ID"] = 1879334731; }; -- Ally to the Host of the West
+          [211] = {["ID"] = 1879334730; }; -- Friend to the Host of the West
+          [212] = {["ID"] = 1879334729; }; -- Known to the Host of the West
+          [213] = {["CAT_ID"] = 211; }; -- Host of the West Master
+          [214] = {["CAT_ID"] = 212; }; -- - Host of the West Master-weaponist -
+          [215] = {["ID"] = 1879341971; }; -- Host of the West - Weaponist (Final)
+          [216] = {["ID"] = 1879341973; }; -- Host of the West - Weaponist (Advanced)
+          [217] = {["ID"] = 1879341966; }; -- Host of the West - Weaponist (Intermediate)
+          [218] = {["ID"] = 1879341969; }; -- Host of the West - Weaponist
+          [219] = {["CAT_ID"] = 213; }; -- - Host of the West Master-armourer -
+          [220] = {["ID"] = 1879341967; }; -- Host of the West - Armourer (Final)
+          [221] = {["ID"] = 1879341970; }; -- Host of the West - Armourer (Advanced)
+          [222] = {["ID"] = 1879341964; }; -- Host of the West - Armourer (Intermediate)
+          [223] = {["ID"] = 1879341965; }; -- Host of the West - Armourer
+          [224] = {["CAT_ID"] = 214; }; -- - Host of the West Master-provisioner -
+          [225] = {["ID"] = 1879341959; }; -- Host of the West - Provisioner (Final)
+          [226] = {["ID"] = 1879341974; }; -- Host of the West - Provisioner (Advanced)
+          [227] = {["ID"] = 1879341972; }; -- Host of the West - Provisioner (Intermediate)
+          [228] = {["ID"] = 1879341968; }; -- Host of the West - Provisioner
+          [229] = {["CAT_ID"] = 215; }; -- Riders of Rohan
+          [230] = {["ID"] = 1879330570; }; -- Kindred to The Riders of Rohan
+          [231] = {["ID"] = 1879330576; }; -- Ally to The Riders of Rohan
+          [232] = {["ID"] = 1879330573; }; -- Friend to The Riders of Rohan
+          [233] = {["ID"] = 1879330571; }; -- Known to The Riders of Rohan
+          [234] = {["CAT_ID"] = 216; }; -- The Plateau of Gorgoroth
+          [235] = {["CAT_ID"] = 217; }; -- - Conquest of Gorgoroth -
+          [236] = {["ID"] = 1879345209; }; -- Celebrated in the Conquest of Gorgoroth
+          [237] = {["ID"] = 1879345211; }; -- Honoured in the Conquest of Gorgoroth
+          [238] = {["ID"] = 1879345191; }; -- Respected in the Conquest of Gorgoroth
+          [239] = {["ID"] = 1879345200; }; -- Kindred in the Conquest of Gorgoroth
+          [240] = {["ID"] = 1879345206; }; -- Ally in the Conquest of Gorgoroth
+          [241] = {["ID"] = 1879345202; }; -- Friend in the Conquest of Gorgoroth
+          [242] = {["ID"] = 1879345208; }; -- Known in the Conquest of Gorgoroth
+          [243] = {["CAT_ID"] = 218; }; -- - Fushaum Bal South -
+          [244] = {["ID"] = 1879345197; }; -- Enemy to Fushaum Bal south
+          [245] = {["CAT_ID"] = 219; }; -- - Fushaum Bal North -
+          [246] = {["ID"] = 1879345189; }; -- Enemy to Fushaum Bal north
+          [247] = {["CAT_ID"] = 220; }; -- - Red Sky Clan -
+          [248] = {["ID"] = 1879345204; }; -- Known to the Red Sky Clan
+          [249] = {["CAT_ID"] = 221; }; -- Dwarves of Erebor
+          [250] = {["ID"] = 1879363094; }; -- Respected by the Dwarves of Erebor
+          [251] = {["ID"] = 1879363085; }; -- Kindred to the Dwarves of Erebor
+          [252] = {["ID"] = 1879363088; }; -- Ally to the Dwarves of Erebor
+          [253] = {["ID"] = 1879363096; }; -- Friend to the Dwarves of Erebor
+          [254] = {["ID"] = 1879363099; }; -- Known to the Dwarves of Erebor
+          [255] = {["CAT_ID"] = 222; }; -- Elves of Felegoth
+          [256] = {["ID"] = 1879362492; }; -- Kindred to the Elves of Felegoth
+          [257] = {["ID"] = 1879362485; }; -- Ally to the Elves of Felegoth
+          [258] = {["ID"] = 1879362494; }; -- Friend to the Elves of Felegoth
+          [259] = {["ID"] = 1879362491; }; -- Known to the Elves of Felegoth
+          [260] = {["CAT_ID"] = 223; }; -- Men of Dale
+          [261] = {["ID"] = 1879362502; }; -- Kindred to the Men of Dale
+          [262] = {["ID"] = 1879362508; }; -- Ally to the Men of Dale
+          [263] = {["ID"] = 1879362503; }; -- Friend to the Men of Dale
+          [264] = {["ID"] = 1879362509; }; -- Known to the Men of Dale
+          [265] = {["CAT_ID"] = 224; }; -- Grey Mountains Expedition
+          [266] = {["ID"] = 1879369250; }; -- Kindred to the Grey Mountains Expedition
+          [267] = {["ID"] = 1879369251; }; -- Ally to the Grey Mountains Expedition
+          [268] = {["ID"] = 1879369246; }; -- Friend to the Grey Mountains Expedition
+          [269] = {["ID"] = 1879369248; }; -- Known to the Grey Mountains Expedition
+          [270] = {["CAT_ID"] = 225; }; -- Wilderfolk
+          [271] = {["ID"] = 1879386038; }; -- Kindred to the Wilderfolk
+          [272] = {["ID"] = 1879386041; }; -- Ally to the Wilderfolk
+          [273] = {["ID"] = 1879386040; }; -- Friend to the Wilderfolk
+          [274] = {["ID"] = 1879386039; }; -- Known to the Wilderfolk
+          [275] = {["CAT_ID"] = 226; }; -- The Great Alliance
+          [276] = {["ID"] = 1879390727; }; -- Celebrated in The Great Alliance
+          [277] = {["ID"] = 1879390722; }; -- Honoured in The Great Alliance
+          [278] = {["ID"] = 1879390724; }; -- Respected in The Great Alliance
+          [279] = {["CAT_ID"] = 227; }; -- The White Company
+          [280] = {["ID"] = 1879390723; }; -- Celebrated in The White Company
+          [281] = {["ID"] = 1879390731; }; -- Honoured in The White Company
+          [282] = {["ID"] = 1879390729; }; -- Respected in The White Company
+          [283] = {["ID"] = 1879390728; }; -- Kindred to The White Company
+          [284] = {["ID"] = 1879390726; }; -- Ally to The White Company
+          [285] = {["ID"] = 1879390730; }; -- Friend to The White Company
+          [286] = {["CAT_ID"] = 228; }; -- Reclamation of Minas Ithil
+          [287] = {["ID"] = 1879395389; }; -- The Trial of Death
+          [288] = {["ID"] = 1879395392; }; -- The Trial of Despair
+          [289] = {["ID"] = 1879395390; }; -- The Reclamation Continues IV
+          [290] = {["ID"] = 1879395388; }; -- The Trial of Madness
+          [291] = {["ID"] = 1879395387; }; -- The Reclamation Continues III
+          [292] = {["ID"] = 1879395382; }; -- The Trial of Sorrow
+          [293] = {["ID"] = 1879395394; }; -- The Reclamation Continues II
+          [294] = {["ID"] = 1879395391; }; -- The Trial of Wrath
+          [295] = {["ID"] = 1879390725; }; -- The Reclamation Continues I
+          [296] = {["CAT_ID"] = 229; }; -- Protectors of Wilderland
+          [297] = {["ID"] = 1879406714; }; -- Kindred to the Protectors of Wilderland
+          [298] = {["ID"] = 1879406716; }; -- Ally to the Protectors of Wilderland
+          [299] = {["ID"] = 1879406717; }; -- Friend to the Protectors of Wilderland
+          [300] = {["ID"] = 1879406715; }; -- Known to the Protectors of Wilderland
+          [301] = {["CAT_ID"] = 230; }; -- March on Gundabad
+          [302] = {["ID"] = 1879407822; }; -- Kindred to the March on Gundabad
+          [303] = {["ID"] = 1879407821; }; -- Ally to the March on Gundabad
+          [304] = {["ID"] = 1879407824; }; -- Friend to the March on Gundabad
+          [305] = {["ID"] = 1879407823; }; -- Known to the March on Gundabad
+          [306] = {["CAT_ID"] = 231; }; -- The Gabil'akkâ
+          [307] = {["ID"] = 1879409913; }; -- Azghzabad of the Gabil'akkâ
+          [308] = {["ID"] = 1879409927; }; -- Fabarâl of the Gabil'akkâ
+          [309] = {["ID"] = 1879409921; }; -- Uzkhas of the Gabil'akkâ
+          [310] = {["ID"] = 1879409930; }; -- Izkhas of the Gabil'akkâ
+          [311] = {["ID"] = 1879409922; }; -- Dumul of the Gabil'akkâ
+          [312] = {["CAT_ID"] = 232; }; -- League of the Axe
+          [313] = {["ID"] = 1879413219; }; -- Ally to the League of the Axe
+          [314] = {["ID"] = 1879413221; }; -- Friend to the League of the Axe
+          [315] = {["ID"] = 1879413214; }; -- Known to the League of the Axe
+          [316] = {["ID"] = 1879413220; }; -- Neutral to the League of the Axe
+          [317] = {["CAT_ID"] = 233; }; -- Woodcutter's Brotherhood
+          [318] = {["ID"] = 1879413216; }; -- Kindred to the Woodcutter's Brotherhood
+          [319] = {["ID"] = 1879413215; }; -- Ally to the Woodcutter's Brotherhood
+          [320] = {["ID"] = 1879413218; }; -- Friend to the Woodcutter's Brotherhood
+          [321] = {["ID"] = 1879413217; }; -- Known to the Woodcutter's Brotherhood
+          [322] = {["CAT_ID"] = 234; }; -- Kharum-ubnâr
+          [323] = {["ID"] = 1879413628; }; -- Ally to the Kharum-ubnâr
+          [324] = {["ID"] = 1879413625; }; -- Friend to the Kharum-ubnâr
+          [325] = {["ID"] = 1879413626; }; -- Known to the Kharum-ubnâr
+          [326] = {["CAT_ID"] = 235; }; -- The Haban’akkâ of Thráin
+          [327] = {["ID"] = 1879417049; }; -- Fabarâl of the Haban’akkâ of Thráin
+          [328] = {["ID"] = 1879417052; }; -- Uzkhas of the Haban’akkâ of Thráin
+          [329] = {["ID"] = 1879417051; }; -- Izkhas of the Haban’akkâ of Thráin
+          [330] = {["ID"] = 1879417050; }; -- Dumul of the Haban'akkâ of Thráin
+          [331] = {["CAT_ID"] = 236; }; -- Reclaimers of the Mountain-hold
+          [332] = {["ID"] = 1879417184; }; -- Celebrated by the Reclaimers of the Mountain-hold
+          [333] = {["ID"] = 1879417186; }; -- Honoured by the Reclaimers of the Mountain-hold
+          [334] = {["ID"] = 1879417188; }; -- Respected by the Reclaimers of the Mountain-hold
+          [335] = {["ID"] = 1879417183; }; -- Kindred to the Reclaimers of the Mountain-hold
+          [336] = {["ID"] = 1879417185; }; -- Ally to the Reclaimers of the Mountain-hold
+          [337] = {["ID"] = 1879417187; }; -- Friend to the Reclaimers of the Mountain-hold
+          [338] = {["ID"] = 1879417189; }; -- Known to the Reclaimers of the Mountain-hold
+          [339] = {["CAT_ID"] = 237; }; -- Defenders of the Angle
+          [340] = {["ID"] = 1879445939; }; -- Kindred to the Defenders of the Angle
+          [341] = {["CAT_ID"] = 238; }; -- The Yonder-watch
+          [342] = {["ID"] = 1879443127; }; -- Kindred to the Yonder-watch
+          [343] = {["ID"] = 1879443124; }; -- Ally to the Yonder-watch
+          [344] = {["ID"] = 1879443131; }; -- Friend to the Yonder-watch
+          [345] = {["CAT_ID"] = 239; }; -- The Dúnedain of Cardolan
+          [346] = {["ID"] = 1879450840; }; -- Kindred to the Dúnedain of Cardolan
+          [347] = {["ID"] = 1879450839; }; -- Ally to the Dúnedain of Cardolan
+          [348] = {["ID"] = 1879450842; }; -- Friend to the Dúnedain of Cardolan
+          [349] = {["ID"] = 1879450841; }; -- Known to the Dúnedain of Cardolan
+          [350] = {["CAT_ID"] = 283; }; -- Stewards of the Iron-home
+          [351] = {["ID"] = 1879459781; }; -- Kindred with the Stewards of the Iron-home
+          [352] = {["ID"] = 1879459782; }; -- Ally to the Stewards of the Iron-home
+          [353] = {["ID"] = 1879459783; }; -- Friend to the Stewards of the Iron-home
+          [354] = {["ID"] = 1879459780; }; -- Known to the Stewards of the Iron-home
+          [355] = {["CAT_ID"] = 285; }; -- The Renewal of Gondor
+          [356] = {["ID"] = 1879476790; }; -- Respected with the Renewal of Gondor
+          [357] = {["ID"] = 1879463122; }; -- Kindred with the Renewal of Gondor
+          [358] = {["ID"] = 1879463125; }; -- Ally to the Renewal of Gondor
+          [359] = {["ID"] = 1879463119; }; -- Friend to the Renewal of Gondor
+          [360] = {["ID"] = 1879463120; }; -- Known to the Renewal of Gondor
+          [361] = {["CAT_ID"] = 290; }; -- Citizens of Umbar Baharbêl
+          [362] = {["ID"] = 1879465760; }; -- Kindred to the Citizens of Umbar Baharbêl
+          [363] = {["ID"] = 1879465759; }; -- Ally to the Citizens of Umbar Baharbêl
+          [364] = {["ID"] = 1879465758; }; -- Friend to the Citizens of Umbar Baharbêl
+          [365] = {["ID"] = 1879465761; }; -- Known to the Citizens of Umbar Baharbêl
+          [366] = {["ID"] = 1879469614; }; -- Neutral to the Citizens of Umbar Baharbêl
+          [367] = {["CAT_ID"] = 240; }; -- Not Actively Achievable
+          [368] = {["CAT_ID"] = 241; }; -- - The Tournament of the Twins -
+          [369] = {["ID"] = 1879407709; }; -- The Tournament of the Twins - Exalted Champion of Rivendell
+          [370] = {["ID"] = 1879407711; }; -- The Tournament of the Twins - Champion of Rivendell
+          [371] = {["ID"] = 1879407713; }; -- The Tournament of the Twins - Hero's Frame
+          [372] = {["ID"] = 1879407714; }; -- The Tournament of the Twins - Favoured of Elrond
+          [373] = {["ID"] = 1879407719; }; -- The Tournament of the Twins - Gladiator's Frame
+          [374] = {["ID"] = 1879407720; }; -- The Tournament of the Twins - Herald of Rivendell
+          [375] = {["ID"] = 1879407705; }; -- The Tournament of the Twins - Contender's Frame
+          [376] = {["ID"] = 1879407706; }; -- The Tournament of the Twins - Honourable Contender
+          [377] = {["ID"] = 1879407675; }; -- The Tournament of the Twins - The Cloak of Elrohir
+          [378] = {["ID"] = 1879407710; }; -- The Tournament of the Twins - The Cloak of Elladan
+          [379] = {["CAT_ID"] = 242; }; -- - Townsfolk of the Eastfold -
+          [380] = {["ID"] = 1879400834; }; -- Kindred with the Townsfolk of the Eastfold Neighbourhoods
+          [381] = {["ID"] = 1879400836; }; -- Ally to the Townsfolk of the Eastfold Neighbourhoods
+          [382] = {["ID"] = 1879400832; }; -- Friend to the Townsfolk of the Eastfold Neighbourhoods
+          [383] = {["ID"] = 1879400833; }; -- Known to the Townsfolk of the Eastfold Neighbourhoods
+          [384] = {["CAT_ID"] = 243; }; -- - Townsfolk of the Kingstead -
+          [385] = {["ID"] = 1879400839; }; -- Kindred with the Townsfolk of the Kingstead Neighbourhoods
+          [386] = {["ID"] = 1879400838; }; -- Ally to the Townsfolk of the Kingstead Neighbourhoods
+          [387] = {["ID"] = 1879400837; }; -- Friend to the Townsfolk of the Kingstead Neighbourhoods
+          [388] = {["ID"] = 1879400835; }; -- Known to the Townsfolk of the Kingstead Neighbourhoods
+          [389] = {["CAT_ID"] = 289; }; -- - Forester Competition -
+          [390] = {["ID"] = 1879467122; }; -- Is a Lumberjack
+          [391] = {["ID"] = 1879467125; }; -- Sleep at Night
+          [392] = {["ID"] = 1879467127; }; -- Eats Their Bread
+          [393] = {["ID"] = 1879467133; }; -- Hangs in Taverns
+          [394] = {["ID"] = 1879467139; }; -- Hacks All Day
+          [395] = {["ID"] = 1879467142; }; -- Drinks Their Bread
+          [396] = {["ID"] = 1879467151; }; -- Cuts Down Trees
+          [397] = {["ID"] = 1879467152; }; -- Feels Strong
+          [398] = {["ID"] = 1879467129; }; -- The Competitive Forester - Tier V
+          [399] = {["ID"] = 1879467126; }; -- The Competitive Forester - Tier IV
+          [400] = {["ID"] = 1879467145; }; -- The Competitive Forester - Tier III
+          [401] = {["ID"] = 1879467140; }; -- The Competitive Forester - Tier II
+          [402] = {["ID"] = 1879467149; }; -- The Competitive Forester - Tier I
         };
         -- Allegiances
         [CRE_ALLEGIANCES] = {
@@ -4626,8 +4673,8 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
            [19] = {["ID"] = 1879474840; }; -- Quests of the Cape of Umbar
            [20] = {["ID"] = 1879473214; }; -- Great Aspirations - Burgeoning
            [21] = {["ID"] = 1879473213; }; -- Great Aspirations - Demand
-           [22] = {["ID"] = 1879474824; }; -- Haradrim-slayer of the Cape of Umbar (Advanced)
-           [23] = {["ID"] = 1879474820; }; -- Haradrim-slayer of the Cape of Umbar
+           [22] = {["CAT_ID"] = 299; }; -- The Depths of Mâkhda Khorbo
+           [23] = {["ID"] = 1879482825; }; -- The Depths of Mâkhda Khorbo -- Azagath's Escape
         };
         [H_UMBAR_BAHARBEL] = {
             [1] = {["ID"] = 1879477448; }; -- Deeds of Umbar Baharbêl
@@ -4648,6 +4695,65 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
            [16] = {["ID"] = 1879477838; }; -- Rat-catcher of Umbar Baharbêl (Advanced)
            [17] = {["ID"] = 1879477839; }; -- Rat-catcher of Umbar Baharbêl
            [18] = {["ID"] = 1879478542; }; -- Umbar Completionist
+           [19] = {["CAT_ID"] = 304; }; -- Umbar-môkh
+           [20] = {["ID"] = 1879486409; }; -- Light in the Umbar-môkh
+           [21] = {["ID"] = 1879486401; }; -- Slayer of the Umbar-môkh
+           [22] = {["ID"] = 1879486271; }; -- Slayer of Khabârkhad
+           [23] = {["ID"] = 1879486272; }; -- Crypt-raider Slayer of Khabârkhad (Advanced)
+           [24] = {["ID"] = 1879486268; }; -- Crypt-raider Slayer of Khabârkhad
+           [25] = {["ID"] = 1879486252; }; -- Spider-bane of Khabârkhad (Advanced)
+           [26] = {["ID"] = 1879486253; }; -- Spider-bane of Khabârkhad
+           [27] = {["ID"] = 1879486270; }; -- Dead-slayer of Khabârkhad (Advanced)
+           [28] = {["ID"] = 1879486269; }; -- Dead-slayer of Khabârkhad
+           [29] = {["ID"] = 1879486280; }; -- Slayer of Ilmabiri
+           [30] = {["ID"] = 1879486283; }; -- Forsaken-slayer of Ilmabiri (Advanced)
+           [31] = {["ID"] = 1879486282; }; -- Forsaken-slayer of Ilmabiri
+           [32] = {["ID"] = 1879486285; }; -- Goblin-slayer of Ilmabiri (Advanced)
+           [33] = {["ID"] = 1879486279; }; -- Goblin-slayer of Ilmabiri
+           [34] = {["ID"] = 1879486281; }; -- Crocodile-slayer of Ilmabiri (Advanced)
+           [35] = {["ID"] = 1879486284; }; -- Crocodile-slayer of Ilmabiri
+           [36] = {["ID"] = 1879486287; }; -- Slayer of Kamrabezûr
+           [37] = {["ID"] = 1879486292; }; -- Cultist-slayer of Kamrabezûr (Advanced)
+           [38] = {["ID"] = 1879486286; }; -- Cultist-slayer of Kamrabezûr
+           [39] = {["ID"] = 1879486289; }; -- Gladiator-slayer of Kamrabezûr (Advanced)
+           [40] = {["ID"] = 1879486291; }; -- Gladiator-slayer of Kamrabezûr
+           [41] = {["ID"] = 1879486290; }; -- Dead-slayer of Kamrabezûr (Advanced)
+           [42] = {["ID"] = 1879486288; }; -- Dead-slayer of Kamrabezûr
+           [43] = {["ID"] = 1879486295; }; -- Slayer of Tâkhdar
+           [44] = {["ID"] = 1879486296; }; -- Grodbog-slayer of Tâkhdar (Advanced)
+           [45] = {["ID"] = 1879486294; }; -- Grodbog-slayer of Tâkhdar
+           [46] = {["ID"] = 1879486293; }; -- Smuggler-bane of Tâkhdar (Advanced)
+           [47] = {["ID"] = 1879486297; }; -- Smuggler-bane of Tâkhdar
+           [48] = {["ID"] = 1879486298; }; -- Spider-bane of Tâkhdar (Advanced)
+           [49] = {["ID"] = 1879486299; }; -- Spider-bane of Tâkhdar
+           [50] = {["ID"] = 1879486390; }; -- Slayer of Dil-irmíz
+           [51] = {["ID"] = 1879486392; }; -- Smuggler-bane of Dil-irmíz (Advanced)
+           [52] = {["ID"] = 1879486402; }; -- Smuggler-bane of Dil-irmíz
+           [53] = {["ID"] = 1879486393; }; -- Criminal-bane of Dil-irmíz (Advanced)
+           [54] = {["ID"] = 1879486403; }; -- Criminal-bane of Dil-irmíz
+           [55] = {["ID"] = 1879486404; }; -- Explorer of the Umbar-môkh
+           [56] = {["ID"] = 1879486395; }; -- Reclaiming Khabârkhad
+           [57] = {["ID"] = 1879486399; }; -- Reclaiming Ilmabiri
+           [58] = {["ID"] = 1879486400; }; -- Reclaiming Kamrabezûr
+           [59] = {["ID"] = 1879486397; }; -- Reclaiming Tâkhdar
+           [60] = {["ID"] = 1879486391; }; -- Reclaiming Dil-irmíz
+           [61] = {["ID"] = 1879486411; }; -- Tales of the Umbar-môkh
+           [62] = {["ID"] = 1879486408; }; -- Tales of Khabârkhad
+           [63] = {["ID"] = 1879486410; }; -- Tales of Ilmabiri
+           [64] = {["ID"] = 1879486407; }; -- Tales of Kamrabezûr
+           [65] = {["ID"] = 1879486412; }; -- Tales of Tâkhdar
+           [66] = {["ID"] = 1879486406; }; -- Tales of Dil-irmíz
+           [67] = {["ID"] = 1879486405; }; -- Vanquisher of Dil-irmíz
+           [68] = {["ID"] = 1879486396; }; -- Cultist-bane of Dil-irmíz (Advanced)
+           [69] = {["ID"] = 1879486394; }; -- Cultist-bane of Dil-irmíz
+           [70] = {["ID"] = 1879486389; }; -- Darkwater-slayer of Dil-irmíz (Advanced)
+           [71] = {["ID"] = 1879486398; }; -- Darkwater-slayer of Dil-irmíz
+           [72] = {["ID"] = 1879486550; }; -- Rat-slayer of the Umbar-môkh (Advanced)
+           [73] = {["ID"] = 1879486551; }; -- Rat-slayer of the Umbar-môkh
+           [74] = {["ID"] = 1879486552; }; -- Bat-slayer of the Umbar-môkh (Advanced)
+           [75] = {["ID"] = 1879486553; }; -- Bat-slayer of the Umbar-môkh
+           [76] = {["ID"] = 1879486571; }; -- Treasure-seeker of the Umbar-môkh
+           [77] = {["ID"] = 1879485102; }; -- Brine-belly           
         };
     };
 };

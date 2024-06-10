@@ -92,6 +92,7 @@ _NAMES_TO_IDS = {
   ["Allié des Galadhrim"] = { [1] = 1879190387; };
   ["Allié des gardes de la Garnison de Fer"] = { [1] = 1879190375; };
   ["Allié des Gardiens d'Annuminas"] = { [1] = 1879190359; };
+  ["Allié des habitants d'Umbar Baharbêl"] = { [1] = 1879465759; };
   ["Allié des habitants de l'Estfolde"] = { [1] = 1879400836; };
   ["Allié des habitants de la Terre-du-Roi"] = { [1] = 1879400838; };
   ["Allié des Helmingas"] = { [1] = 1879271202; };
@@ -151,6 +152,7 @@ _NAMES_TO_IDS = {
   ["Alliée des Galadhrim"] = { [1] = 1879190387; };
   ["Alliée des gardes de la Garnison de Fer"] = { [1] = 1879190375; };
   ["Alliée des Gardiens d'Annuminas"] = { [1] = 1879190359; };
+  ["Alliée des habitants d'Umbar Baharbêl"] = { [1] = 1879465759; };
   ["Alliée des habitants de l'Estfolde"] = { [1] = 1879400836; };
   ["Alliée des habitants de la Terre-du-Roi"] = { [1] = 1879400838; };
   ["Alliée des Helmingas"] = { [1] = 1879271202; };
@@ -450,7 +452,9 @@ _NAMES_TO_IDS = {
   ["Boar-slayer of Upper Lebennin (King's Gondor) (Advanced)"] = { [1] = 1879463261; };
   ["Boit son pain"] = { [1] = 1879467142; };
   ["Bons réflexes"] = { [1] = 1879428323; };
+  ["Bourreau de Dahâl Huliz, l'arène"] = { [1] = 1879482862; };
   ["Bourreau de Dhurstrok"] = { [1] = 1879428164; };
+  ["Bourreau de Dil-irmiz"] = { [1] = 1879486405; };
   ["Bourreau des malfaisants"] = { [1] = 1879093958; };
   ["Bravoure"] = { [1] = 1879277403; };
   ["Brigand-slayer of Lower Lebennin (King's Gondor)"] = { [1] = 1879463283; };
@@ -505,6 +509,7 @@ _NAMES_TO_IDS = {
   ["Charisme"] = { [1] = 1879317519; };
   ["Chasse aux trophées d'Azanulbizar"] = { [1] = 1879415677; };
   ["Chasse aux trophées de Gundabad"] = { [1] = 1879419342; };
+  ["Chasseresse de trésors d'Umbar-môkh"] = { [1] = 1879486571; };
   ["Chasseresse de trésors du Val"] = { [1] = 1879387447; };
   ["Chasseresse de trésors du Val-d'Aïeul"] = { [1] = 1879408704; };
   ["Chasseresse des trésors des îles du Bouclier"] = { [1] = 1879469678; };
@@ -515,6 +520,7 @@ _NAMES_TO_IDS = {
   ["Chasseur de 'rats' d'Umbar Baharbêl (avancé)"] = { [1] = 1879477838; };
   ["Chasseur de cristal"] = { [1] = 1879438589; };
   ["Chasseur de sangliers de l'Estemnet"] = { [1] = 1879254049; };
+  ["Chasseur de trésors d'Umbar-môkh"] = { [1] = 1879486571; };
   ["Chasseur de trésors du Val"] = { [1] = 1879387447; };
   ["Chasseur de trésors du Val-d'Aïeul"] = { [1] = 1879408704; };
   ["Chasseur des trésors de la crevasse de fer"] = { [1] = 1879378533; };
@@ -669,6 +675,12 @@ _NAMES_TO_IDS = {
   ["Contes d'Azanulbizar"] = { [1] = 1879415674; };
   ["Contes d'Azanulbizar (Avancé)"] = { [1] = 1879415668; };
   ["Contes d'Azanulbizar (Final)"] = { [1] = 1879415669; };
+  ["Contes d'Ilmabiri"] = { [1] = 1879486410; };
+  ["Contes d'Umbar-môkh"] = { [1] = 1879486411; };
+  ["Contes de Dil-irmiz"] = { [1] = 1879486406; };
+  ["Contes de Kamrabezûr"] = { [1] = 1879486407; };
+  ["Contes de Khabârkhad"] = { [1] = 1879486408; };
+  ["Contes de Tâkhdar"] = { [1] = 1879486412; };
   ["Contes du Bas-Lebennin renaissant"] = { [1] = 1879464651; };
   ["Contes du Haut-Lebennin renaissant"] = { [1] = 1879464652; };
   ["Contes du Lossarnach renaissant"] = { [1] = 1879464653; };
@@ -741,6 +753,10 @@ _NAMES_TO_IDS = {
   ["Creuseuse de tombes"] = { [1] = 1879093963; };
   ["Creuseuse de tombes (avancé)"] = { [1] = 1879093964; };
   ["Cri de déroute amélioré"] = { [1] = 1879277406; };
+  ["Crocodile-slayer of Ilmabiri"] = { [1] = 1879486284; };
+  ["Crocodile-slayer of Ilmabiri (Advanced)"] = { [1] = 1879486281; };
+  ["Cultist-slayer of Kamrabezûr"] = { [1] = 1879486286; };
+  ["Cultist-slayer of Kamrabezûr (Advanced)"] = { [1] = 1879486292; };
   ["D'Aglarond"] = { [1] = 1879327466; };
   ["D'Anduin"] = { [1] = 1879326643; };
   ["D'Arkenstone"] = { [1] = 1879326644; };
@@ -750,6 +766,13 @@ _NAMES_TO_IDS = {
   ["D'Evernight"] = { [1] = 1879326651; };
   ["D'Imladris"] = { [1] = 1879326656; };
   ["D'une pierre deux coups"] = { [1] = 1879163154; };
+  ["Dahâl Huliz, l'arène – Gladiateurs"] = { [1] = 1879482852; };
+  ["Dahâl Huliz, l'arène – Niveau 1"] = { [1] = 1879482851; };
+  ["Dahâl Huliz, l'arène – Niveau 2"] = { [1] = 1879482855; };
+  ["Dahâl Huliz, l'arène – Niveau 3"] = { [1] = 1879482856; };
+  ["Dahâl Huliz, l'arène – Niveau 4"] = { [1] = 1879482853; };
+  ["Dahâl Huliz, l'arène – Niveau 5"] = { [1] = 1879482854; };
+  ["Dahâl Huliz, l'arène – Niveau 5 – En avant !"] = { [1] = 1879482857; };
   ["Danger dans les Landes désertiques"] = { [1] = 1879342446; };
   ["Dangereux ennemis de l'Agarnaith"] = { [1] = 1879353983; };
   ["Dans l'enchevêtrement de la Forêt Noire"] = { [1] = 1879155755; };
@@ -760,6 +783,8 @@ _NAMES_TO_IDS = {
   ["Danse avec les tentacules"] = { [1] = 1879391338; };
   ["Danse avec les tentacules (niveau 2)"] = { [1] = 1879392278; };
   ["Danse avec les tentacules (niveau 3)"] = { [1] = 1879392276; };
+  ["Darkwater-slayer of Dil-irmíz"] = { [1] = 1879486398; };
+  ["Darkwater-slayer of Dil-irmíz (Advanced)"] = { [1] = 1879486389; };
   ["De Belegaer"] = { [1] = 1879326645; };
   ["De Brandywine"] = { [1] = 1879326646; };
   ["De charmants renards"] = { [1] = 1879344716; };
@@ -792,11 +817,11 @@ _NAMES_TO_IDS = {
   ["Dead-slayer in the Cape of Umbar (Advanced)"] = { [1] = 1879474832; };
   ["Dead-slayer of Cardolan"] = { [1] = 1879450934; };
   ["Dead-slayer of Cardolan (Advanced)"] = { [1] = 1879450935; };
+  ["Dead-slayer of Kamrabezûr (Advanced)"] = { [1] = 1879486290; };
+  ["Dead-slayer of Khabârkhad (Advanced)"] = { [1] = 1879486270; };
   ["Dead-slayer of Lower Lebennin (King's Gondor)"] = { [1] = 1879463282; };
   ["Dead-slayer of Lower Lebennin (King's Gondor) (Advanced)"] = { [1] = 1879463281; };
   ["Dead-slayer of Outer Gondor"] = { [1] = 1879468414; };
-  ["Dead-slayer of the Angle"] = { [1] = 1879443685; };
-  ["Dead-slayer of the Angle (Advanced)"] = { [1] = 1879443683; };
   ["Dead-slayer of the Shield Isles"] = { [1] = 1879469689; };
   ["Dead-slayer of the Shield Isles (Advanced)"] = { [1] = 1879469685; };
   ["Débarquement au Grand Escalier"] = { [1] = 1879147151; };
@@ -1105,6 +1130,8 @@ _NAMES_TO_IDS = {
   ["Essai épique"] = { [1] = 1879278965; };
   ["Est un bûcheron"] = { [1] = 1879467122; };
   ["Est une bûcheronne"] = { [1] = 1879467122; };
+  ["Estomac de plomb"] = { [1] = 1879485104; };
+  ["Estomac délicat"] = { [1] = 1879485102; };
   ["Étonnamment agile"] = { [1] = 1879317525; };
   ["Étranges dispositifs"] = { [1] = 1879458092; };
   ["Etude de la Connaissance du feu"] = { [1] = 1879277257; };
@@ -1205,6 +1232,7 @@ _NAMES_TO_IDS = {
   ["Explorateur d'Ost Dunhoth"] = { [1] = 1879198835; };
   ["Explorateur d'Udûn"] = { [1] = 1879354321; };
   ["Explorateur d'Umbar Baharbêl"] = { [1] = 1879477767; };
+  ["Explorateur d'Umbar-môkh"] = { [1] = 1879486404; };
   ["Explorateur de Câr Bronach"] = { [1] = 1879422519; };
   ["Explorateur de Clairfine"] = { [1] = 1879230979; };
   ["Explorateur de Dor Amarth"] = { [1] = 1879354878; };
@@ -1302,6 +1330,7 @@ _NAMES_TO_IDS = {
   ["Exploratrice d'Ost Dunhoth"] = { [1] = 1879198835; };
   ["Exploratrice d'Udûn"] = { [1] = 1879354321; };
   ["Exploratrice d'Umbar Baharbêl"] = { [1] = 1879477767; };
+  ["Exploratrice d'Umbar-môkh"] = { [1] = 1879486404; };
   ["Exploratrice de Câr Bronach"] = { [1] = 1879422519; };
   ["Exploratrice de Clairfine"] = { [1] = 1879230979; };
   ["Exploratrice de Dor Amarth"] = { [1] = 1879354878; };
@@ -1411,11 +1440,23 @@ _NAMES_TO_IDS = {
   ["Fléau de la Couronne de Fer (final)"] = { [1] = 1879458972; };
   ["Fléau de la Couronne de Fer (intermédiaire)"] = { [1] = 1879458970; };
   ["Fléau de la Lame noire"] = { [1] = 1879324365; };
+  ["Fléau des araignées de Khabârkhad"] = { [1] = 1879486253; };
+  ["Fléau des araignées de Khabârkhad (avancé)"] = { [1] = 1879486252; };
+  ["Fléau des araignées de Tâkhdar"] = { [1] = 1879486299; };
+  ["Fléau des araignées de Tâkhdar (avancé)"] = { [1] = 1879486298; };
+  ["Fléau des contrebandiers de Dil-irmiz"] = { [1] = 1879486402; };
+  ["Fléau des contrebandiers de Dil-irmiz (avancé)"] = { [1] = 1879486392; };
+  ["Fléau des contrebandiers de Tâkhdar"] = { [1] = 1879486297; };
+  ["Fléau des contrebandiers de Tâkhdar (avancé)"] = { [1] = 1879486293; };
+  ["Fléau des criminels de Dil-irmiz"] = { [1] = 1879486403; };
+  ["Fléau des criminels de Dil-irmiz (avancé)"] = { [1] = 1879486393; };
   ["Fléau des Enfants d'Ungwetari"] = { [1] = 1879402729; };
   ["Fléau des rats (niveau 1)"] = { [1] = 1879460781; };
   ["Fléau des rats (niveau 2)"] = { [1] = 1879460785; };
   ["Fléau des rats (niveau 3)"] = { [1] = 1879460784; };
   ["Fléau des rejetons d'Arachne"] = { [1] = 1879356154; };
+  ["Fléau des sectateurs de Dil-irmiz"] = { [1] = 1879486394; };
+  ["Fléau des sectateurs de Dil-irmiz (avancé)"] = { [1] = 1879486396; };
   ["Fléau des Traîtres"] = { [1] = 1879093967; };
   ["Fléau des Traîtres (Avancé)"] = { [1] = 1879093968; };
   ["Fléaux de Gorgoroth"] = { [1] = 1879354730; };
@@ -1439,15 +1480,15 @@ _NAMES_TO_IDS = {
   ["Force écrasante"] = { [1] = 1879317521; };
   ["Force implacable"] = { [1] = 1879277270; };
   ["Forcer la Porte du Nécromancien"] = { [1] = 1879163850; };
-  ["Forestier compétitif - niveau 4"] = { [1] = 1879467126; };
   ["Forestier compétitif - niveau I"] = { [1] = 1879467149; };
   ["Forestier compétitif - niveau II"] = { [1] = 1879467140; };
   ["Forestier compétitif - niveau III"] = { [1] = 1879467145; };
+  ["Forestier compétitif - niveau IV"] = { [1] = 1879467126; };
   ["Forestier compétitif - niveau V"] = { [1] = 1879467129; };
-  ["Forestière compétitive - niveau 4"] = { [1] = 1879467126; };
   ["Forestière compétitive - niveau I"] = { [1] = 1879467149; };
   ["Forestière compétitive - niveau II"] = { [1] = 1879467140; };
   ["Forestière compétitive - niveau III"] = { [1] = 1879467145; };
+  ["Forestière compétitive - niveau IV"] = { [1] = 1879467126; };
   ["Forestière compétitive - niveau V"] = { [1] = 1879467129; };
   ["Forêt Noire légendaire"] = { [1] = 1879389219; };
   ["Fornost -- Chaussée des Morts"] = { [1] = 1879234022; };
@@ -1458,6 +1499,8 @@ _NAMES_TO_IDS = {
   ["Fornost -- Spectre de l'ombre"] = { [1] = 1879234019; };
   ["Fornost -- Spectre de la terre"] = { [1] = 1879234018; };
   ["Fornost -- Spectre du feu"] = { [1] = 1879234020; };
+  ["Forsaken-slayer of Ilmabiri"] = { [1] = 1879486282; };
+  ["Forsaken-slayer of Ilmabiri (Advanced)"] = { [1] = 1879486283; };
   ["Fort sournois"] = { [1] = 1879277298; };
   ["Forte tension"] = { [1] = 1879277261; };
   ["Fortification à Agarnaith"] = { [1] = 1879354763; };
@@ -1504,6 +1547,7 @@ _NAMES_TO_IDS = {
   ["Frère des Eorlingas"] = { [1] = 1879271199; };
   ["Frère des gardes de la Garnison de Fer"] = { [1] = 1879190376; };
   ["Frère des Gardiens d'Annuminas"] = { [1] = 1879190360; };
+  ["Frère des habitants d'Umbar Baharbêl"] = { [1] = 1879465760; };
   ["Frère des habitants de l'Estfolde"] = { [1] = 1879400834; };
   ["Frère des habitants de la Terre-du-Roi"] = { [1] = 1879400839; };
   ["Frère des Helmingas"] = { [1] = 1879271203; };
@@ -1602,6 +1646,8 @@ _NAMES_TO_IDS = {
   ["Ghashan-kútot, le Hall du Sinistre Savoir : Tueur des assistants de l'Archiviste"] = { [1] = 1879398960; };
   ["Ghashan-kútot, le Hall du Sinistre Savoir : Tueuse d'esprits"] = { [1] = 1879398970; };
   ["Ghashan-kútot, le Hall du Sinistre Savoir : Tueuse des assistants de l'Archiviste"] = { [1] = 1879398960; };
+  ["Gladiator-slayer of Kamrabezûr"] = { [1] = 1879486291; };
+  ["Gladiator-slayer of Kamrabezûr (Advanced)"] = { [1] = 1879486289; };
   ["Gloire dans la Salle d'armes de Dol Guldur"] = { [1] = 1879163168; };
   ["Gloire de l'Armée de l'ouest"] = { [1] = 1879341962; };
   ["Gloire passée"] = { [1] = 1879071682; };
@@ -1609,6 +1655,7 @@ _NAMES_TO_IDS = {
   ["Gloire passée (final)"] = { [1] = 1879071684; };
   ["Gobelinville"] = { [1] = 1879099040; };
   ["Goblin-slayer of Cardolan (Advanced)"] = { [1] = 1879450937; };
+  ["Goblin-slayer of Ilmabiri (Advanced)"] = { [1] = 1879486285; };
   ["Golu o Maeth"] = { [1] = 1879144731; };
   ["Gondor occidental : Camps des ennemis"] = { [1] = 1879312846; };
   ["Gorgoroth : suite de la conquête"] = { [1] = 1879354764; };
@@ -1637,6 +1684,8 @@ _NAMES_TO_IDS = {
   ["Grimpeur de tour de la Forêt Noire"] = { [1] = 1879161641; };
   ["Grimpeuse de Kala-gijak"] = { [1] = 1879353967; };
   ["Grimpeuse de tour de la Forêt Noire"] = { [1] = 1879161641; };
+  ["Grodbog-slayer of Tâkhdar"] = { [1] = 1879486294; };
+  ["Grodbog-slayer of Tâkhdar (Advanced)"] = { [1] = 1879486296; };
   ["Gué de Bruinen"] = { [1] = 1879159240; };
   ["Guérisseur"] = { [1] = 1879277275; };
   ["Guerrier de la Lothlórien"] = { [1] = 1879152648; };
@@ -1663,8 +1712,6 @@ _NAMES_TO_IDS = {
   ["Gwathrenost, la citadelle du Roi-Sorcier -- niveau 5"] = { [1] = 1879458625; };
   ["Habitants des anciennes Noues des cygnes"] = { [1] = 1879450862; };
   ["Habitants des îles du Bouclier"] = { [1] = 1879469676; };
-  ["Haradrim-slayer of the Cape of Umbar"] = { [1] = 1879474820; };
-  ["Haradrim-slayer of the Cape of Umbar (Advanced)"] = { [1] = 1879474824; };
   ["Harcelé"] = { [1] = 1879071629; };
   ["Harcelée"] = { [1] = 1879071629; };
   ["Harmonie avec la nature"] = { [1] = 1879277287; };
@@ -1863,6 +1910,13 @@ _NAMES_TO_IDS = {
   ["L'histoire de Gobelinville"] = { [1] = 1879259646; };
   ["L'Histoire des Dunedain"] = { [1] = 1879071674; };
   ["L'honneur de la Poste Rapide"] = { [1] = 1879071685; };
+  ["L'île des tempêtes – Bêtes gigantesques"] = { [1] = 1879483009; };
+  ["L'île des tempêtes – Niveau 1"] = { [1] = 1879483007; };
+  ["L'île des tempêtes – Niveau 2"] = { [1] = 1879483008; };
+  ["L'île des tempêtes – Niveau 3"] = { [1] = 1879483002; };
+  ["L'île des tempêtes – Niveau 4"] = { [1] = 1879483003; };
+  ["L'île des tempêtes – Niveau 5"] = { [1] = 1879483004; };
+  ["L'île des tempêtes – Niveau 5 – En avant !"] = { [1] = 1879483006; };
   ["L'immortel"] = { [1] = 1879071650; };
   ["L'immortelle"] = { [1] = 1879071650; };
   ["L'indestructible"] = { [1] = 1879071649; };
@@ -1988,7 +2042,12 @@ _NAMES_TO_IDS = {
   ["La purification de noirépine"] = { [1] = 1879201570; };
   ["La qualité de la miséricorde"] = { [1] = 1879277291; };
   ["La Rage bouillonnante"] = { [1] = 1879139442; };
+  ["La reconquête d'Ilmabiri"] = { [1] = 1879486399; };
+  ["La reconquête de Dil-irmiz"] = { [1] = 1879486391; };
+  ["La reconquête de Kamrabezûr"] = { [1] = 1879486400; };
+  ["La reconquête de Khabârkhad"] = { [1] = 1879486395; };
   ["La reconquête de Minas Ithil"] = { [1] = 1879395356; };
+  ["La reconquête de Tâkhdar"] = { [1] = 1879486397; };
   ["La reconquête du Lossarnach"] = { [1] = 1879464437; };
   ["La reprise se poursuit I"] = { [1] = 1879390725; };
   ["La reprise se poursuit II"] = { [1] = 1879395394; };
@@ -2320,7 +2379,20 @@ _NAMES_TO_IDS = {
   ["Les profondeurs de Kidzul-kâlah - Niveau 2"] = { [1] = 1879391333; };
   ["Les profondeurs de Kidzul-kâlah - Niveau 3"] = { [1] = 1879391337; };
   ["Les profondeurs de Kidzul-kâlah - Niveau 3 - En avant !"] = { [1] = 1879391339; };
+  ["Les profondeurs du Mâkhda Khorbo -- Niveau 1"] = { [1] = 1879482935; };
+  ["Les profondeurs du Mâkhda Khorbo -- Niveau 2"] = { [1] = 1879482938; };
+  ["Les profondeurs du Mâkhda Khorbo -- Niveau 3"] = { [1] = 1879482939; };
+  ["Les profondeurs du Mâkhda Khorbo -- Niveau 4"] = { [1] = 1879482936; };
+  ["Les profondeurs du Mâkhda Khorbo -- Niveau 5"] = { [1] = 1879482937; };
+  ["Les profondeurs du Mâkhda Khorbo – Adversaire originel"] = { [1] = 1879482951; };
+  ["Les profondeurs du Mâkhda Khorbo – Avant-garde"] = { [1] = 1879482950; };
+  ["Les profondeurs du Mâkhda Khorbo – En avant !"] = { [1] = 1879482949; };
+  ["Les profondeurs du Mâkhda Khorbo – L'équipage de l'Ombre de la Mer"] = { [1] = 1879482985; };
+  ["Les profondeurs du Mâkhda Khorbo – La fuite d'Azagath"] = { [1] = 1879482825; };
+  ["Les profondeurs du Mâkhda Khorbo – Le mal intérieur"] = { [1] = 1879482987; };
+  ["Les profondeurs du Mâkhda Khorbo – Le mal souterrain"] = { [1] = 1879482988; };
   ["Les prouesses de la Comté"] = { [1] = 1879303548; };
+  ["Les prouesses de Râhal Bakh"] = { [1] = 1879483053; };
   ["Les prouesses des Puits du Long Fleuve"] = { [1] = 1879405902; };
   ["Les Puits du Long Fleuve"] = { [1] = 1879404948; };
   ["Les quais du Harlond – Niveau 1"] = { [1] = 1879330608; };
@@ -2338,6 +2410,13 @@ _NAMES_TO_IDS = {
   ["Les Rois déchus - Niveau 2"] = { [1] = 1879398114; };
   ["Les Rois déchus - Niveau 3"] = { [1] = 1879398113; };
   ["Les Rois déchus - Niveau 3 - En avant !"] = { [1] = 1879398112; };
+  ["Les rues de Râhal Bakh -- Niveau 1"] = { [1] = 1879483058; };
+  ["Les rues de Râhal Bakh -- Niveau 2"] = { [1] = 1879483055; };
+  ["Les rues de Râhal Bakh -- Niveau 3"] = { [1] = 1879483054; };
+  ["Les rues de Râhal Bakh -- Niveau 4"] = { [1] = 1879483057; };
+  ["Les rues de Râhal Bakh -- Niveau 5"] = { [1] = 1879483056; };
+  ["Les rues de Râhal Bakh – Bravoure"] = { [1] = 1879483059; };
+  ["Les rues de Râhal Bakh – Niveau 5 – En avant !"] = { [1] = 1879483052; };
   ["Les ruines d'Evendim"] = { [1] = 1879089145; };
   ["Les ruines de l'Ered Mithrin"] = { [1] = 1879378541; };
   ["Les ruines de l'Eregion"] = { [1] = 1879145250; };
@@ -2402,6 +2481,7 @@ _NAMES_TO_IDS = {
   ["Livre des monstres"] = { [1] = 1879048669; };
   ["Livre des serments"] = { [1] = 1879053014; };
   ["Lourd fardeau"] = { [1] = 1879317523; };
+  ["Lueur à Umbar-môkh"] = { [1] = 1879486409; };
   ["Lueur d'espoir"] = { [1] = 1879277281; };
   ["Lueur dans l'obscurité"] = { [1] = 1879331046; };
   ["Luitaufond - niveau 1"] = { [1] = 1879369591; };
@@ -2774,6 +2854,7 @@ _NAMES_TO_IDS = {
   ["Prouesses de Gundabad"] = { [1] = 1879418416; };
   ["Prouesses de Gwathrenost, la citadelle du Roi-Sorcier"] = { [1] = 1879458914; };
   ["Prouesses de Khazad-dûm[pf]"] = { [1] = 1879303585; };
+  ["Prouesses de l'arène de combat"] = { [1] = 1879483030; };
   ["Prouesses de l'Ered Luin"] = { [1] = 1879303540; };
   ["Prouesses de l'Eriador[fp]"] = { [1] = 1879303569; };
   ["Prouesses de l'Est du Gondor royal"] = { [1] = 1879469740; };
@@ -2807,6 +2888,7 @@ _NAMES_TO_IDS = {
   ["Prouesses des Landes farouches[pf]"] = { [1] = 1879303888; };
   ["Prouesses des Monts Brumeux"] = { [1] = 1879303546; };
   ["Prouesses des Noues des cygnes"] = { [1] = 1879450846; };
+  ["Prouesses des profondeurs du Mâkhda Khorbo"] = { [1] = 1879482986; };
   ["Prouesses des Tassau-terres"] = { [1] = 1879428346; };
   ["Prouesses des Terres Solitaires"] = { [1] = 1879303545; };
   ["Prouesses du cap d'Umbar"] = { [1] = 1879474837; };
@@ -3216,6 +3298,7 @@ _NAMES_TO_IDS = {
   ["Sœur des Eorlingas"] = { [1] = 1879271199; };
   ["Sœur des gardes de la Garnison de Fer"] = { [1] = 1879190376; };
   ["Sœur des Gardiens d'Annuminas"] = { [1] = 1879190360; };
+  ["Sœur des habitants d'Umbar Baharbêl"] = { [1] = 1879465760; };
   ["Sœur des habitants de l'Estfolde"] = { [1] = 1879400834; };
   ["Sœur des habitants de la Terre-du-Roi"] = { [1] = 1879400839; };
   ["Sœur des Helmingas"] = { [1] = 1879271203; };
@@ -3272,6 +3355,7 @@ _NAMES_TO_IDS = {
   ["Surprise déplaisante"] = { [1] = 1879277436; };
   ["Surveillance du Vallon-du-chagrin"] = { [1] = 1879422516; };
   ["Survie dans le Forochel"] = { [1] = 1879109789; };
+  ["Survivant de l'île des tempêtes"] = { [1] = 1879483005; };
   ["Survivant de la Longue Nuit"] = { [1] = 1879289171; };
   ["Survivante de la Longue Nuit"] = { [1] = 1879289171; };
   ["Survivre à la nuit"] = { [1] = 1879175114; };
@@ -3503,6 +3587,7 @@ _NAMES_TO_IDS = {
   ["Tueur d'Hommes du Pays de Dun (Avancé)"] = { [1] = 1879140613; [2] = 1879190115; [3] = 1879220080; };
   ["Tueur d'Hommes du Pays de Dun de l'Ouestemnet"] = { [1] = 1879287748; };
   ["Tueur d'Hommes du Pays de Dun de l'Ouestemnet (avancé)"] = { [1] = 1879287747; };
+  ["Tueur d'Ilmabiri"] = { [1] = 1879486280; };
   ["Tueur d'Imlad Morgul et du Mordor assiégé"] = { [1] = 1879395374; };
   ["Tueur d'insectes de l'Ouest du Gondor royal"] = { [1] = 1879466418; };
   ["Tueur d'insectes de l'Ouest du Gondor royal (avancé)"] = { [1] = 1879466419; };
@@ -3604,6 +3689,7 @@ _NAMES_TO_IDS = {
   ["Tueur d'ours"] = { [1] = 1879071774; };
   ["Tueur d'ours (Avancé)"] = { [1] = 1879071775; };
   ["Tueur d'Udûn"] = { [1] = 1879354319; };
+  ["Tueur d'Umbar-môkh"] = { [1] = 1879486401; };
   ["Tueur d'Ungoledain de l'Ered Mithrin"] = { [1] = 1879378524; };
   ["Tueur d'Ungoledain de l'Ered Mithrin (Avancé)"] = { [1] = 1879378544; };
   ["Tueur d’Hommes malfaisants de l’Angle"] = { [1] = 1879443681; };
@@ -3682,6 +3768,8 @@ _NAMES_TO_IDS = {
   ["Tueur de cavaliers ennemis de l'Estemnet (avancé)"] = { [1] = 1879249662; };
   ["Tueur de chauve-souris d'Azanulbizar"] = { [1] = 1879415670; };
   ["Tueur de chauve-souris d'Azanulbizar (Avancé)"] = { [1] = 1879415671; };
+  ["Tueur de chauve-souris d'Umbar-môkh"] = { [1] = 1879486553; };
+  ["Tueur de chauve-souris d'Umbar-môkh (avancé)"] = { [1] = 1879486552; };
   ["Tueur de chefs de guerre - niveau 1"] = { [1] = 1879071825; };
   ["Tueur de chefs de guerre - niveau 2"] = { [1] = 1879071826; };
   ["Tueur de chefs de guerre - niveau 3"] = { [1] = 1879071827; };
@@ -3712,6 +3800,7 @@ _NAMES_TO_IDS = {
   ["Tueur de défenseurs de l'infâme (avancé)"] = { [1] = 1879161189; };
   ["Tueur de Dheghûn du Lointain Anórien"] = { [1] = 1879332145; };
   ["Tueur de Dheghûn du Lointain Anórien (avancé)"] = { [1] = 1879332159; };
+  ["Tueur de Dil-irmiz"] = { [1] = 1879486390; };
   ["Tueur de Dor Amarth"] = { [1] = 1879354866; };
   ["Tueur de dragonnets"] = { [1] = 1879141042; };
   ["Tueur de dragonnets (avancé)"] = { [1] = 1879141043; };
@@ -3775,6 +3864,7 @@ _NAMES_TO_IDS = {
   ["Tueur de gobelins (avancé)"] = { [1] = 1879071719; [2] = 1879071727; [3] = 1879071741; [4] = 1879071753; [5] = 1879086870; [6] = 1879141047; [7] = 1879220088; };
   ["Tueur de gobelins d'Azanulbizar"] = { [1] = 1879415666; };
   ["Tueur de gobelins d'Azanulbizar (Avancé)"] = { [1] = 1879415667; };
+  ["Tueur de gobelins d'Ilmabiri"] = { [1] = 1879486279; };
   ["Tueur de gobelins de l'Ouestemnet (avancé)"] = { [1] = 1879287764; };
   ["Tueur de gobelins du Cardolan"] = { [1] = 1879450938; };
   ["Tueur de gobelins du Gondor extérieur"] = { [1] = 1879468408; };
@@ -3807,8 +3897,10 @@ _NAMES_TO_IDS = {
   ["Tueur de hobgobelins des Tassau-terres (avancé)"] = { [1] = 1879438590; };
   ["Tueur de hobgobelins du Val-d'Aïeul"] = { [1] = 1879411175; };
   ["Tueur de hobgobelins du Val-d'Aïeul (avancé)"] = { [1] = 1879411172; };
+  ["Tueur de Kamrabezûr"] = { [1] = 1879486287; };
   ["Tueur de Kergrims"] = { [1] = 1879086871; };
   ["Tueur de Kergrims (avancé)"] = { [1] = 1879086872; };
+  ["Tueur de Khabârkhad"] = { [1] = 1879486271; };
   ["Tueur de kilpa-kita"] = { [1] = 1879109799; };
   ["Tueur de kilpa-kita (avancé)"] = { [1] = 1879109800; };
   ["Tueur de l'Ancien Anórien"] = { [1] = 1879327993; };
@@ -3873,6 +3965,10 @@ _NAMES_TO_IDS = {
   ["Tueur de Morts (avancé)"] = { [1] = 1879155759; };
   ["Tueur de Morts de Câr Bronach"] = { [1] = 1879422483; };
   ["Tueur de Morts de Câr Bronach (avancé)"] = { [1] = 1879422480; };
+  ["Tueur de Morts de Kamrabezûr"] = { [1] = 1879486288; };
+  ["Tueur de Morts de Khabârkhad"] = { [1] = 1879486269; };
+  ["Tueur de Morts de l’Angle"] = { [1] = 1879443685; };
+  ["Tueur de Morts de l’Angle (Avancé)"] = { [1] = 1879443683; };
   ["Tueur de Morts du Val"] = { [1] = 1879387433; };
   ["Tueur de Morts du Val (avancé)"] = { [1] = 1879387441; };
   ["Tueur de mouches faucheuses"] = { [1] = 1879071708; };
@@ -3893,6 +3989,8 @@ _NAMES_TO_IDS = {
   ["Tueur de persécuteurs au regard acéré (avancé)"] = { [1] = 1879184310; };
   ["Tueur de peste d'Agarnaith"] = { [1] = 1879353881; };
   ["Tueur de peste d'Agarnaith (Avancé)"] = { [1] = 1879353880; };
+  ["Tueur de pilleurs de crypte de Khabârkhad"] = { [1] = 1879486268; };
+  ["Tueur de pilleurs de crypte de Khabârkhad (avancé)"] = { [1] = 1879486272; };
   ["Tueur de Poings bourrus"] = { [1] = 1879109793; };
   ["Tueur de Poings bourrus (avancé)"] = { [1] = 1879109794; };
   ["Tueur de Porte-pestes"] = { [1] = 1879161109; };
@@ -3911,6 +4009,8 @@ _NAMES_TO_IDS = {
   ["Tueur de rages de Morgoth (avancé)"] = { [1] = 1879161168; };
   ["Tueur de rampants"] = { [1] = 1879071786; };
   ["Tueur de rampants (avancé)"] = { [1] = 1879071787; };
+  ["Tueur de rats d'Umbar-môkh"] = { [1] = 1879486551; };
+  ["Tueur de rats d'Umbar-môkh (avancé)"] = { [1] = 1879486550; };
   ["Tueur de reines de couvée"] = { [1] = 1879161194; };
   ["Tueur de reines de couvée (avancé)"] = { [1] = 1879161034; };
   ["Tueur de rejetons d'Angband"] = { [1] = 1879161120; };
@@ -3953,6 +4053,7 @@ _NAMES_TO_IDS = {
   ["Tueur de soldats d'Udûn (Avancé)"] = { [1] = 1879354252; };
   ["Tueur de sorciers"] = { [1] = 1879175134; };
   ["Tueur de sorciers (avancé)"] = { [1] = 1879175135; };
+  ["Tueur de Tâkhdar"] = { [1] = 1879486295; };
   ["Tueur de Talath Úrui"] = { [1] = 1879354862; };
   ["Tueur de Taurogrim"] = { [1] = 1879366150; };
   ["Tueur de Taurogrim (avancé)"] = { [1] = 1879366157; };
@@ -4114,6 +4215,7 @@ _NAMES_TO_IDS = {
   ["Tueuse d'Hommes du Pays de Dun (Avancé)"] = { [1] = 1879140613; [2] = 1879190115; [3] = 1879220080; };
   ["Tueuse d'Hommes du Pays de Dun de l'Ouestemnet"] = { [1] = 1879287748; };
   ["Tueuse d'Hommes du Pays de Dun de l'Ouestemnet (avancé)"] = { [1] = 1879287747; };
+  ["Tueuse d'Ilmabiri"] = { [1] = 1879486280; };
   ["Tueuse d'Imlad Morgul et du Mordor assiégé"] = { [1] = 1879395374; };
   ["Tueuse d'insectes de l'Ouest du Gondor royal"] = { [1] = 1879466418; };
   ["Tueuse d'insectes de l'Ouest du Gondor royal (avancé)"] = { [1] = 1879466419; };
@@ -4214,6 +4316,7 @@ _NAMES_TO_IDS = {
   ["Tueuse d'ours"] = { [1] = 1879071774; };
   ["Tueuse d'ours (Avancé)"] = { [1] = 1879071775; };
   ["Tueuse d'Udûn"] = { [1] = 1879354319; };
+  ["Tueuse d'Umbar-môkh"] = { [1] = 1879486401; };
   ["Tueuse d'Ungoledain de l'Ered Mithrin"] = { [1] = 1879378524; };
   ["Tueuse d'Ungoledain de l'Ered Mithrin (Avancé)"] = { [1] = 1879378544; };
   ["Tueuse d’Hommes malfaisants de l’Angle"] = { [1] = 1879443681; };
@@ -4292,6 +4395,8 @@ _NAMES_TO_IDS = {
   ["Tueuse de cavaliers ennemis de l'Estemnet (avancé)"] = { [1] = 1879249662; };
   ["Tueuse de chauve-souris d'Azanulbizar"] = { [1] = 1879415670; };
   ["Tueuse de chauve-souris d'Azanulbizar (Avancé)"] = { [1] = 1879415671; };
+  ["Tueuse de chauve-souris d'Umbar-môkh"] = { [1] = 1879486553; };
+  ["Tueuse de chauve-souris d'Umbar-môkh (avancé)"] = { [1] = 1879486552; };
   ["Tueuse de chefs de guerre - niveau 1"] = { [1] = 1879071825; };
   ["Tueuse de chefs de guerre - niveau 2"] = { [1] = 1879071826; };
   ["Tueuse de chefs de guerre - niveau 3"] = { [1] = 1879071827; };
@@ -4322,6 +4427,7 @@ _NAMES_TO_IDS = {
   ["Tueuse de défenseurs de l'infâme (avancé)"] = { [1] = 1879161189; };
   ["Tueuse de Dheghûn du Lointain Anórien"] = { [1] = 1879332145; };
   ["Tueuse de Dheghûn du Lointain Anórien (avancé)"] = { [1] = 1879332159; };
+  ["Tueuse de Dil-irmiz"] = { [1] = 1879486390; };
   ["Tueuse de Dor Amarth"] = { [1] = 1879354866; };
   ["Tueuse de dragonnets"] = { [1] = 1879141042; };
   ["Tueuse de dragonnets (avancé)"] = { [1] = 1879141043; };
@@ -4385,6 +4491,7 @@ _NAMES_TO_IDS = {
   ["Tueuse de gobelins (avancé)"] = { [1] = 1879071719; [2] = 1879071727; [3] = 1879071741; [4] = 1879071753; [5] = 1879086870; [6] = 1879141047; [7] = 1879220088; };
   ["Tueuse de gobelins d'Azanulbizar"] = { [1] = 1879415666; };
   ["Tueuse de gobelins d'Azanulbizar (Avancé)"] = { [1] = 1879415667; };
+  ["Tueuse de gobelins d'Ilmabiri"] = { [1] = 1879486279; };
   ["Tueuse de gobelins de l'Ouestemnet (avancé)"] = { [1] = 1879287764; };
   ["Tueuse de gobelins du Cardolan"] = { [1] = 1879450938; };
   ["Tueuse de gobelins du Gondor extérieur"] = { [1] = 1879468408; };
@@ -4417,8 +4524,10 @@ _NAMES_TO_IDS = {
   ["Tueuse de hobgobelins des Tassau-terres (avancé)"] = { [1] = 1879438590; };
   ["Tueuse de hobgobelins du Val-d'Aïeul"] = { [1] = 1879411175; };
   ["Tueuse de hobgobelins du Val-d'Aïeul (avancé)"] = { [1] = 1879411172; };
+  ["Tueuse de Kamrabezûr"] = { [1] = 1879486287; };
   ["Tueuse de Kergrims"] = { [1] = 1879086871; };
   ["Tueuse de Kergrims (avancé)"] = { [1] = 1879086872; };
+  ["Tueuse de Khabârkhad"] = { [1] = 1879486271; };
   ["Tueuse de kilpa-kita"] = { [1] = 1879109799; };
   ["Tueuse de kilpa-kita (avancé)"] = { [1] = 1879109800; };
   ["Tueuse de l'Ancien Anórien"] = { [1] = 1879327993; };
@@ -4483,6 +4592,10 @@ _NAMES_TO_IDS = {
   ["Tueuse de Morts (avancé)"] = { [1] = 1879155759; };
   ["Tueuse de Morts de Câr Bronach"] = { [1] = 1879422483; };
   ["Tueuse de Morts de Câr Bronach (avancé)"] = { [1] = 1879422480; };
+  ["Tueuse de Morts de Kamrabezûr"] = { [1] = 1879486288; };
+  ["Tueuse de Morts de Khabârkhad"] = { [1] = 1879486269; };
+  ["Tueuse de Morts de l’Angle"] = { [1] = 1879443685; };
+  ["Tueuse de Morts de l’Angle (Avancé)"] = { [1] = 1879443683; };
   ["Tueuse de Morts du Val"] = { [1] = 1879387433; };
   ["Tueuse de Morts du Val (avancé)"] = { [1] = 1879387441; };
   ["Tueuse de mouches faucheuses"] = { [1] = 1879071708; };
@@ -4503,6 +4616,8 @@ _NAMES_TO_IDS = {
   ["Tueuse de persécuteurs au regard acéré (avancé)"] = { [1] = 1879184310; };
   ["Tueuse de peste d'Agarnaith"] = { [1] = 1879353881; };
   ["Tueuse de peste d'Agarnaith (Avancé)"] = { [1] = 1879353880; };
+  ["Tueuse de pilleurs de crypte de Khabârkhad"] = { [1] = 1879486268; };
+  ["Tueuse de pilleurs de crypte de Khabârkhad (avancé)"] = { [1] = 1879486272; };
   ["Tueuse de Poings bourrus"] = { [1] = 1879109793; };
   ["Tueuse de Poings bourrus (avancé)"] = { [1] = 1879109794; };
   ["Tueuse de Porte-pestes"] = { [1] = 1879161109; };
@@ -4521,6 +4636,8 @@ _NAMES_TO_IDS = {
   ["Tueuse de rages de Morgoth (avancé)"] = { [1] = 1879161168; };
   ["Tueuse de rampants"] = { [1] = 1879071786; };
   ["Tueuse de rampants (avancé)"] = { [1] = 1879071787; };
+  ["Tueuse de rats d'Umbar-môkh"] = { [1] = 1879486551; };
+  ["Tueuse de rats d'Umbar-môkh (avancé)"] = { [1] = 1879486550; };
   ["Tueuse de reines de couvée"] = { [1] = 1879161194; };
   ["Tueuse de reines de couvée (avancé)"] = { [1] = 1879161034; };
   ["Tueuse de rejetons d'Angband"] = { [1] = 1879161120; };
@@ -4563,6 +4680,7 @@ _NAMES_TO_IDS = {
   ["Tueuse de soldats d'Udûn (Avancé)"] = { [1] = 1879354252; };
   ["Tueuse de sorciers"] = { [1] = 1879175134; };
   ["Tueuse de sorciers (avancé)"] = { [1] = 1879175135; };
+  ["Tueuse de Tâkhdar"] = { [1] = 1879486295; };
   ["Tueuse de Talath Úrui"] = { [1] = 1879354862; };
   ["Tueuse de Taurogrim"] = { [1] = 1879366150; };
   ["Tueuse de Taurogrim (avancé)"] = { [1] = 1879366157; };
@@ -4680,6 +4798,7 @@ _NAMES_TO_IDS = {
   ["Une leçon d'herboristerie (Avancé)"] = { [1] = 1879340037; };
   ["Une leçon d'herboristerie (Final)"] = { [1] = 1879340035; };
   ["Une leçon d'herboristerie (Intermédiaire)"] = { [1] = 1879340036; };
+  ["Une lettre de Caebar"] = { [1] = 1879482570; [2] = 1879482571; };
   ["Une lueur dans les ténèbres"] = { [1] = 1879413850; };
   ["Une missive d'Erebor"] = { [1] = 1879370399; };
   ["Une pousse dans la neige"] = { [1] = 1879259563; };

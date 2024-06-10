@@ -1,3 +1,11 @@
+A Letter From Caebar:
+    Two versions of the deed, depending on: If you completed Halros Should Stay or Halros Should Go.
+
+For the pre-processor:
+    If a prerequisite deed has a minimum level, then the next level should have at least that min level.
+    Example: 
+        "Known to the Citizens of Umbar Baharbêl" has a minimum level of 135, so "Friend to the Citizens of Umbar Baharbêl" should be at least that.
+
 Haradrim-slayer of the Cape of Umbar & Advanced are marked disabled, shouldn't be included.
 
 If you're logged in during a rename, you get the same message as a title change:
