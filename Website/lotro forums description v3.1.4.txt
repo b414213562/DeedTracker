@@ -1,0 +1,34 @@
+Deed Tracker version 3.1.4 is now available at [url=https://www.lotrointerface.com/downloads/info1139-DeedTracker.html]lotrointerface.com[/url].
+
+This adds U39 and U40 deeds and fixes a few minor things.
+
+Version 3.1.4 release notes:
+
+Deeds:
+[list]
+    [*] Added auto-detection of "Volume III, Book 11: Foreword" if "Summons to the Entwade" is in player's inventory when Deed Tracker is loaded.
+    [*] Added U39 and U40 deeds including:
+        [list]
+        [*] Class/Race/Epic:
+            [list]
+            [*] Reputation: Iron-stomach, Ally to the Citizens of Umbar Baharbêl, Kindred to the Citizens of Umbar Baharbêl
+            [*] Epic: A Letter From Caebar
+            [/list]
+        [*] Instances / Corsairs of Umbar: 37 deeds
+        [*] Haradwaith:
+            [list]
+            [*] Cape of Umbar: The Depths of Mâkhda Khorbo -- Azagath's Escape
+            [*] Umbar Baharbêl: 57 Umbar-môkh deeds, Brine-belly
+            [/list]
+        [/list]
+[/list]
+
+Bugs:
+[list]
+    [*] Removed unused deeds "Haradrim-slayer of the Cape of Umbar": Basic & Advanced
+[/list]
+
+Import:
+[list]
+    [*] Updated wording when LOTRO Companion files cannot be found.
+[/list]

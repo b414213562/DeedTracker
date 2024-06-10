@@ -31,6 +31,24 @@ In the meantime, feel free to submit patches for any of my plugins if you spot s
 v3.1.4 changes:
     Deeds:
         Added auto-detection of "Volume III, Book 11: Foreword" if "Summons to the Entwade" is in player's inventory when Deed Tracker is loaded.
+        Added U39 and U40 deeds including:
+            Class/Race/Epic:
+                Reputation:
+                    Iron-stomach, Ally to the Citizens of Umbar Baharbêl, Kindred to the Citizens of Umbar Baharbêl
+                Epic:
+                    A Letter From Caebar
+                Brine-belly
+            Instances / Corsairs of Umbar:
+                37 deeds
+            Haradwaith:
+                Cape of Umbar:
+                    The Depths of Mâkhda Khorbo -- Azagath's Escape
+                Umbar Baharbêl:
+                    57 Umbar-môkh deeds, Brine-belly
+
+    Bugs:
+        Removed unused deeds "Haradrim-slayer of the Cape of Umbar": Basic & Advanced
+
     Import:
         Updated wording when LOTRO Companion files cannot be found.
 
