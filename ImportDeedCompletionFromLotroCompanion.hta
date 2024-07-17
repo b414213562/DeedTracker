@@ -139,7 +139,20 @@ Function GetCompanionCharacters(byref accounts)
 	Do Until objConfigurationFile.AtEndOfStream
 	    line = objConfigurationFile.ReadLine
 	    If InStr(1, line, "RootPath=") = 1 Then
-			strDataPath = Replace(Replace(Replace(line, "RootPath=", ""),"\\","\"), "\:", ":")
+            ' Get rid of the RootPath prefix:
+            strDataPath = Replace(line, "RootPath=", "")
+
+            ' Change unicode encoding to vbscript style:
+            strDataPath = Replace(strDataPath, "\u", "%u")
+
+            ' Unescape escaped backslash characters:
+            strDataPath = Replace(strDataPath, "\\", "\")
+
+            ' Unescape escaped colons:
+            strDataPath = Replace(strDataPath, "\:", ":")
+
+            ' UnEscape escaped unicode characters:
+            strDataPath = UnEscape(strDataPath)
 		End If
 	Loop
 
@@ -152,7 +165,7 @@ Function GetCompanionCharacters(byref accounts)
 	AddTextToDiv pathInfo, "Found it! Using LOTRO Companion charactor folder: " & strCharFolder & "<br>"
 
 	If Not oFSO.FolderExists(strCharFolder) Then
-		AddTextToDiv divCompanionCharactersToImport, "<h2 style='color=red'>ERROR: Could not find Plugin Companion data</h2>"
+		AddTextToDiv divCompanionCharactersToImport, "<h2 style='color=red'>ERROR: Could not find LOTRO Companion data " & strCharFolder & "</h2>"
 		Exit Function
 	End If
 
@@ -487,7 +500,7 @@ End Sub
 </script>
 
 <body onload="GetCharacters()">
-<h2>Import Deed Completion from LOTRO Companion v2.1</h2>
+<h2>Import Deed Completion from LOTRO Companion v2.2</h2>
 This importer is a part of the Deed Tracker plugin.<br>
 You can find a walkthrough of how to use it at <a href="https://deedtracker.lifebeyondtheshire.com/home/import-deed-completion-from-lotro-companion/">https://deedtracker.lifebeyondtheshire.com/home/import-deed-completion-from-lotro-companion/</a>.<br>
 If you have questions or issues regarding the import process, please email LotroDeedTracker@gmail.com.<br>

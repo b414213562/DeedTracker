@@ -1,3 +1,19 @@
+Cloave: 
+    Would it be possible in a future update to make the minimized icon optional?
+    For context, I prefer to have the tracker minimized when I login, but I'd rather not have a dedicated button for it on my screen. I prefer just calling the tracker up through the chat box. 
+
+
+Unknown zones:
+    Deed Tracker thinks you moved from UNKNOWN to Wells of Langflood
+    Umbar
+
+Deed Tracker: Automatically time out deeds that are older than 7 (configurable) days, so that it doesn't pile up for people who don't auto-show that window.
+
+Crell — 06/13/2024 10:17 AM
+[06/13 01:16:19 AM] Deed Tracker did not recognize The following Deed IDs. Please email this to LotroDeedTracker@gmail.com for inclusion in a future release!: 1879139153, 1879139157, 1879139165, 1879139169, 1879139173, 1879221749, 1879139162, 1879220382, 1879139154, 1879139158, 1879139166, 1879139170, 1879139174, 1879200238, 1879326066, 1879398961, 1879139161, 1879139155, 1879139167, 1879139171, 1879139163, 1879205932, 1879139159, 1879139156, 1879139160, 1879139164, 1879139168, 1879139172
+Crell — 06/14/2024 at 10:56 PM
+FWIW it didn't like my racial-mount stuff either, and had problems on one character thinking LC didn't think my reputation deeds had been earned for Cardolan. Everything had a fresh import right before. I may just need to delete all my cube-data and do a fresh  LC->Cube import boggle
+
 A Letter From Caebar:
     Two versions of the deed, depending on: If you completed Halros Should Stay or Halros Should Go.
 

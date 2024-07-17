@@ -28,6 +28,10 @@ If you would like to take over management of one of my plugins, please first sen
 If I do not respond within two months, then you have my permission to request control of a plugin or patch of mine on lotrointerface.com.
 In the meantime, feel free to submit patches for any of my plugins if you spot something that needs fixing or improving!
 
+v3.1.5 changes:
+    Import:
+        Fixed bug that prevented importer from working with LOTRO Companion data directories with extended characters (e.g. é) in the path.
+
 v3.1.4 changes:
     Deeds:
         Added auto-detection of "Volume III, Book 11: Foreword" if "Summons to the Entwade" is in player's inventory when Deed Tracker is loaded.
