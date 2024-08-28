@@ -41,6 +41,7 @@ _DEED_LOG_PAGE_TABS = {
     [HOBBIES] = {
         -- Hobbies
         [H_FISHING] = "H_FISHING_STR";
+        [H_BIRDING] = "H_BIRDING_STR";
     };
     [THE_WAR] = {
         -- The War
@@ -1173,13 +1174,21 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
            [33] = {["ID"] = 1879482985; }; -- The Depths of Mâkhda Khorbo -- The Sea-shadow's Crew
            [34] = {["ID"] = 1879482936; }; -- The Depths of Mâkhda Khorbo -- Tier 4
            [35] = {["ID"] = 1879482937; }; -- The Depths of Mâkhda Khorbo -- Tier 5
-           [36] = {["CAT_ID"] = 282; }; -- Not Actively Achievable
-           [37] = {["ID"] = 1879483052; }; -- The Streets of Râhal Bakh -- Tier 5 -- Leading the Charge
-           [38] = {["ID"] = 1879483006; }; -- The Isle of Storms -- Tier 5 -- Leading the Charge
-           [39] = {["ID"] = 1879482857; }; -- Dahâl Huliz, The Arena -- Tier 5 -- Leading the Charge
-           [40] = {["ID"] = 1879482949; }; -- The Depths of Mâkhda Khorbo -- Leading the Charge
-           [41] = {["ID"] = 1879482950; }; -- The Depths of Mâkhda Khorbo -- The Vanguard
-           [42] = {["ID"] = 1879482951; }; -- The Depths of Mâkhda Khorbo -- Original Challenger
+           [36] = {}; -- The Dragon and the Storm
+           [37] = {["ID"] = 1879491111; }; -- Vanquisher of Ragrekhûl
+           [38] = {["ID"] = 1879491105; }; -- The Dragon and the Storm -- Tier 1
+           [39] = {["ID"] = 1879491107; }; -- The Dragon and the Storm -- Tier 2
+           [40] = {["ID"] = 1879491106; }; -- The Dragon and the Storm -- Tier 3
+           [41] = {["ID"] = 1879491110; }; -- The Dragon and the Storm -- Tier 4
+           [42] = {["ID"] = 1879491109; }; -- The Dragon and the Storm -- Tier 5
+           [43] = {["CAT_ID"] = 282; }; -- Not Actively Achievable
+           [44] = {["ID"] = 1879483052; }; -- The Streets of Râhal Bakh -- Tier 5 -- Leading the Charge
+           [45] = {["ID"] = 1879483006; }; -- The Isle of Storms -- Tier 5 -- Leading the Charge
+           [46] = {["ID"] = 1879482857; }; -- Dahâl Huliz, The Arena -- Tier 5 -- Leading the Charge
+           [47] = {["ID"] = 1879482949; }; -- The Depths of Mâkhda Khorbo -- Leading the Charge
+           [48] = {["ID"] = 1879482950; }; -- The Depths of Mâkhda Khorbo -- The Vanguard
+           [49] = {["ID"] = 1879482951; }; -- The Depths of Mâkhda Khorbo -- Original Challenger
+           [50] = {["ID"] = 1879491108; }; -- The Dragon and the Storm -- Tier 5 -- Leading the Charge
         };
     };
     -- Hobbies
@@ -1192,6 +1201,69 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
             [4] = {["ID"] = 1879110873; }; -- The Salmon King
             [5] = {["ID"] = 1879115023; }; -- Trout-master
             [6] = {["ID"] = 1879364959; }; -- Lake-master
+        };
+        [H_BIRDING] = {
+            [1] = {["ID"] = 1879490678; }; -- All the Birds of Bree-land
+            [2] = {["ID"] = 1879490611; }; -- Birds of Bree-land: Common and Uncommon
+            [3] = {["ID"] = 1879490469; }; -- Birds of Bree-land: Rare
+            [4] = {["ID"] = 1879490610; }; -- The Rarest Bird in Bree-land
+            [5] = {["ID"] = 1879490682; }; -- All the Birds of the Shire
+            [6] = {["ID"] = 1879490617; }; -- Birds of The Shire: Common and Uncommon
+            [7] = {["ID"] = 1879490640; }; -- Birds of The Shire: Rare
+            [8] = {["ID"] = 1879490622; }; -- The Rarest Bird in The Shire
+            [9] = {["ID"] = 1879490671; }; -- All the Birds of Ered Luin
+           [10] = {["ID"] = 1879490651; }; -- Birds of Ered Luin: Common and Uncommon
+           [11] = {["ID"] = 1879490635; }; -- Birds of Ered Luin: Rare
+           [12] = {["ID"] = 1879490633; }; -- The Rarest Bird in Ered Luin
+           [13] = {["ID"] = 1879490668; }; -- All the Birds of Swanfleet
+           [14] = {["ID"] = 1879490642; }; -- Birds of Swanfleet: Common and Uncommon
+           [15] = {["ID"] = 1879490641; }; -- Birds of Swanfleet: Rare
+           [16] = {["ID"] = 1879490645; }; -- The Rarest Bird in Swanfleet
+           [17] = {["ID"] = 1879490670; }; -- All the Birds of Cardolan
+           [18] = {["ID"] = 1879490621; }; -- Birds of Cardolan: Common and Uncommon
+           [19] = {["ID"] = 1879490627; }; -- Birds of Cardolan: Rare
+           [20] = {["ID"] = 1879490647; }; -- The Rarest Bird in Cardolan
+           [21] = {["ID"] = 1879490676; }; -- All the Birds of the Lone-lands
+           [22] = {["ID"] = 1879490649; }; -- Birds of the Lone-lands: Common and Uncommon
+           [23] = {["ID"] = 1879490632; }; -- Birds of the Lone-lands: Rare
+           [24] = {["ID"] = 1879490637; }; -- The Rarest Bird in the Lone-lands
+           [25] = {["ID"] = 1879490675; }; -- All the Birds of the North Downs
+           [26] = {["ID"] = 1879490630; }; -- Birds of The North Downs: Common and Uncommon
+           [27] = {["ID"] = 1879490626; }; -- Birds of the North Downs: Rare
+           [28] = {["ID"] = 1879490625; }; -- The Rarest Bird in the North Downs
+           [29] = {["ID"] = 1879490677; }; -- All the Birds of the Trollshaws
+           [30] = {["ID"] = 1879490614; }; -- Birds of the Trollshaws: Common and Uncommon
+           [31] = {["ID"] = 1879490639; }; -- Birds of the Trollshaws: Rare
+           [32] = {["ID"] = 1879490629; }; -- The Rarest Bird in the Trollshaws
+           [33] = {["ID"] = 1879490673; }; -- All the Birds of the Misty Mountains
+           [34] = {["ID"] = 1879490650; }; -- Birds of the Misty Mountains: Common and Uncommon
+           [35] = {["ID"] = 1879490620; }; -- Birds of the Misty Mountains: Rare
+           [36] = {["ID"] = 1879490612; }; -- The Rarest Bird in the Misty Mountains
+           [37] = {["ID"] = 1879490674; }; -- All the Birds of Evendim
+           [38] = {["ID"] = 1879490643; }; -- Birds of Evendim: Common and Uncommon
+           [39] = {["ID"] = 1879490638; }; -- Birds of Evendim: Rare
+           [40] = {["ID"] = 1879490615; }; -- The Rarest Bird in Evendim
+           [41] = {["ID"] = 1879490664; }; -- All the Birds of Angmar
+           [42] = {["ID"] = 1879490646; }; -- Birds of Angmar: Common and Uncommon
+           [43] = {["ID"] = 1879490636; }; -- Birds of Angmar: Rare
+           [44] = {["ID"] = 1879490648; }; -- The Rarest Bird in Angmar
+           [45] = {["ID"] = 1879490680; }; -- All the Birds of Forochel
+           [46] = {["ID"] = 1879490613; }; -- Birds of Forochel: Common and Uncommon
+           [47] = {["ID"] = 1879490624; }; -- Birds of Forochel: Rare
+           [48] = {["ID"] = 1879490618; }; -- The Rarest Bird in Forochel
+           [49] = {["ID"] = 1879490681; }; -- All the Birds of Eregion
+           [50] = {["ID"] = 1879490631; }; -- Birds of Eregion: Common and Uncommon
+           [51] = {["ID"] = 1879490644; }; -- Birds of Eregion: Rare
+           [52] = {["ID"] = 1879490628; }; -- The Rarest Bird in Eregion
+           [53] = {["ID"] = 1879490669; }; -- All the Birds of Enedwaith
+           [54] = {["ID"] = 1879490616; }; -- Birds of Enedwaith: Common and Uncommon
+           [55] = {["ID"] = 1879490652; }; -- Birds of Enedwaith: Rare
+           [56] = {["ID"] = 1879490653; }; -- The Rarest Bird in Enedwaith
+           [57] = {["ID"] = 1879490672; }; -- All the Birds of Dunland
+           [58] = {["ID"] = 1879490623; }; -- Birds of Dunland: Common and Uncommon
+           [59] = {["ID"] = 1879490634; }; -- Birds of Dunland: Rare
+           [60] = {["ID"] = 1879490619; }; -- The Rarest Bird in Dunland
+           [61] = {["ID"] = 1879490679; }; -- The Rarest of Birds in Eriador
         };
     };
     -- The War
@@ -1249,6 +1321,15 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
             [2] = {["ID"] = 1879071836; }; -- Conquest of Dargazag
             [3] = {["ID"] = 1879071837; }; -- Conquest of the Towers
             [4] = {["ID"] = 1879071838; }; -- Tyrants of the Enemy
+            [5] = {["CAT_ID"] = 308; }; -- - Monster Player Reward Season 1 -
+            [6] = {["ID"] = 1879490385; }; -- Title: Protector of Life
+            [7] = {["ID"] = 1879490388; }; -- Title: Steward of the Ettenmoors
+            [8] = {["ID"] = 1879490389; }; -- Title: Servant of Shadow
+            [9] = {["ID"] = 1879490390; }; -- Title: Preserver of Order
+           [10] = {["ID"] = 1879490391; }; -- Title: Angmar's Enforcer
+           [11] = {["ID"] = 1879490392; }; -- Title: Abomination
+           [12] = {["ID"] = 1879490393; }; -- Title: Exemplar
+           [13] = {["ID"] = 1879490394; }; -- Title: Scourge of the Ettenmoors
         };
         -- Osgiliath
         [W_OSGILIATH] = {
@@ -2620,20 +2701,55 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
           [386] = {["ID"] = 1879400838; }; -- Ally to the Townsfolk of the Kingstead Neighbourhoods
           [387] = {["ID"] = 1879400837; }; -- Friend to the Townsfolk of the Kingstead Neighbourhoods
           [388] = {["ID"] = 1879400835; }; -- Known to the Townsfolk of the Kingstead Neighbourhoods
-          [389] = {["CAT_ID"] = 289; }; -- - Forester Competition -
-          [390] = {["ID"] = 1879467122; }; -- Is a Lumberjack
-          [391] = {["ID"] = 1879467125; }; -- Sleep at Night
-          [392] = {["ID"] = 1879467127; }; -- Eats Their Bread
-          [393] = {["ID"] = 1879467133; }; -- Hangs in Taverns
-          [394] = {["ID"] = 1879467139; }; -- Hacks All Day
-          [395] = {["ID"] = 1879467142; }; -- Drinks Their Bread
-          [396] = {["ID"] = 1879467151; }; -- Cuts Down Trees
-          [397] = {["ID"] = 1879467152; }; -- Feels Strong
-          [398] = {["ID"] = 1879467129; }; -- The Competitive Forester - Tier V
-          [399] = {["ID"] = 1879467126; }; -- The Competitive Forester - Tier IV
-          [400] = {["ID"] = 1879467145; }; -- The Competitive Forester - Tier III
-          [401] = {["ID"] = 1879467140; }; -- The Competitive Forester - Tier II
-          [402] = {["ID"] = 1879467149; }; -- The Competitive Forester - Tier I
+          [389] = {["CAT_ID"] = 309; }; -- Amelia's Studies
+          [390] = {["ID"] = 1879490436; }; -- Amelia's Studies - Respected
+          [391] = {["ID"] = 1879490438; }; -- Amelia's Studies - Kindred
+          [392] = {["ID"] = 1879490439; }; -- Amelia's Studies - Ally
+          [393] = {["ID"] = 1879490435; }; -- Amelia's Studies - Friend
+          [394] = {["ID"] = 1879490437; }; -- Amelia's Studies - Acquaintance
+          [395] = {}; -- - Crafting Events -
+          [396] = {["CAT_ID"] = 289; }; -- - The Combe Forester Event -
+          [397] = {["ID"] = 1879467122; }; -- Is a Lumberjack
+          [398] = {["ID"] = 1879467125; }; -- Sleep at Night
+          [399] = {["ID"] = 1879467127; }; -- Eats Their Bread
+          [400] = {["ID"] = 1879467133; }; -- Hangs in Taverns
+          [401] = {["ID"] = 1879467139; }; -- Hacks All Day
+          [402] = {["ID"] = 1879467142; }; -- Drinks Their Bread
+          [403] = {["ID"] = 1879467151; }; -- Cuts Down Trees
+          [404] = {["ID"] = 1879467152; }; -- Feels Strong
+          [405] = {["ID"] = 1879467129; }; -- The Competitive Forester - Tier V
+          [406] = {["ID"] = 1879467126; }; -- The Competitive Forester - Tier IV
+          [407] = {["ID"] = 1879467145; }; -- The Competitive Forester - Tier III
+          [408] = {["ID"] = 1879467140; }; -- The Competitive Forester - Tier II
+          [409] = {["ID"] = 1879467149; }; -- The Competitive Forester - Tier I
+          [410] = {}; -- - The Hard Tack Crafting Event -
+          [411] = {["ID"] = 1879489242; }; -- Party Foul
+          [412] = {["ID"] = 1879489234; }; -- Bean-spiller
+          [413] = {["ID"] = 1879489238; }; -- Clod
+          [414] = {["ID"] = 1879489254; }; -- The Lummox
+          [415] = {["ID"] = 1879489251; }; -- Failure to Fire the Forge
+          [416] = {["ID"] = 1879489259; }; -- Often Clumsy
+          [417] = {["ID"] = 1879489269; }; -- The Competitive Cook - Tier V
+          [418] = {["ID"] = 1879489267; }; -- The Competitive Cook - Tier IV
+          [419] = {["ID"] = 1879489265; }; -- The Competitive Cook - Tier III
+          [420] = {["ID"] = 1879489264; }; -- The Competitive Cook - Tier II
+          [421] = {["ID"] = 1879489263; }; -- The Competitive Cook - Tier I
+          [422] = {["ID"] = 1879489266; }; -- The Competitive Prospector - Tier V
+          [423] = {["ID"] = 1879489268; }; -- The Competitive Prospector - Tier IV
+          [424] = {["ID"] = 1879489270; }; -- The Competitive Prospector - Tier III
+          [425] = {["ID"] = 1879489271; }; -- The Competitive Prospector - Tier II
+          [426] = {["ID"] = 1879489262; }; -- The Competitive Prospector - Tier I
+          [427] = {["CAT_ID"] = 305; }; -- - Veil of the Nine -
+          [428] = {["ID"] = 1879489366; }; -- Defeat each of the Nine
+          [429] = {["ID"] = 1879487903; }; -- Defeat the Grim Southron
+          [430] = {["ID"] = 1879487969; }; -- Defeat the Witch-king
+          [431] = {["ID"] = 1879487972; }; -- Defeat the Cursed Rider
+          [432] = {["ID"] = 1879487973; }; -- Defeat the Woe of Khand
+          [433] = {["ID"] = 1879487974; }; -- Defeat the High Sorcerer of Harad
+          [434] = {["ID"] = 1879487975; }; -- Defeat the Bane of Rhûn
+          [435] = {["ID"] = 1879487976; }; -- Defeat the Black Blade of Lebennin
+          [436] = {["ID"] = 1879487977; }; -- Defeat the Gloom of Nurn
+          [437] = {["ID"] = 1879487978; }; -- Defeat the Forsaken Reaver
         };
         -- Allegiances
         [CRE_ALLEGIANCES] = {

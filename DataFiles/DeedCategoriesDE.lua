@@ -153,6 +153,7 @@ _DEED_CATEGORIES = {
 [301] = { ["TIER"] = 1; ["NAME"] = "The Isle of Storms"; };
 [302] = { ["TIER"] = 1; ["NAME"] = "Dahâl Huliz, The Arena"; };
 [303] = { ["TIER"] = 1; ["NAME"] = "The Depths of Mâkhda Khorbo"; };
+[310] = { ["NAME"] = "The Dragon and the Storm"; };
 -- The War / Common
 [120] = { ["NAME"] = "Monster-slayer"; };
 [121] = { ["NAME"] = "Blackarrow-slayer"; };
@@ -161,6 +162,8 @@ _DEED_CATEGORIES = {
 [124] = { ["NAME"] = "Stalker-slayer"; };
 [125] = { ["NAME"] = "Warleader-slayer"; };
 [126] = { ["NAME"] = "Weaver-slayer"; };
+-- The War / Ettinmoors
+[308] = { ["NAME"] = "- Monster Player Reward Season 1 -"; };
 -- Class/Race/Epic / Race & Social
 [127] = { ["NAME"] = "Race"; };
 [128] = { ["NAME"] = "Emotes"; };
@@ -282,11 +285,15 @@ _DEED_CATEGORIES = {
 [283] = { ["NAME"] = "Truchsesse des eisernen Hauses"; };
 [285] = { ["NAME"] = "Die Erneuerung Gondors"; };
 [290] = { ["NAME"] = "Bürger von Umbar Baharbêl"; };
+[309] = { ["NAME"] = "Amelias Studien"; };
 [240] = { ["NAME"] = "Not Actively Achievable"; };
 [241] = { ["NAME"] = "- The Tournament of the Twins -"; };
 [242] = { ["NAME"] = "- Townsfolk of the Eastfold -"; };
 [243] = { ["NAME"] = "- Townsfolk of the Kingstead -"; };
-[289] = { ["NAME"] = "- Forester Competition -"; };
+[306] = { ["NAME"] = "- Crafting Events -"; };
+[289] = { ["TIER"] = 1; ["NAME"] = "- The Combe Forester Event -"; };
+[307] = { ["TIER"] = 1; ["NAME"] = "- The Hard Tack Crafting Event -" };
+[305] = { ["NAME"] = "- Veil of the Nine -"; };
 -- Class/Race/Epic / Allegiances
 [244] = { ["MIN_LVL"] = "110"; ["NAME"] = "- Durin's Folk -"; };
 [245] = { ["MIN_LVL"] = "110"; ["NAME"] = "- The Court of Lothlórien -"; };

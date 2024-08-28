@@ -156,6 +156,7 @@ _DEED_LOG_PAGE_TAB_NAMES = {
 
     -- Hobbies
     H_FISHING_STR = "Pêche";
+    H_BIRDING_STR = "Ornithologie";
 
     -- The War
     W_COMMON_STR = "Commun";
