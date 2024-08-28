@@ -1174,7 +1174,7 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
            [33] = {["ID"] = 1879482985; }; -- The Depths of Mâkhda Khorbo -- The Sea-shadow's Crew
            [34] = {["ID"] = 1879482936; }; -- The Depths of Mâkhda Khorbo -- Tier 4
            [35] = {["ID"] = 1879482937; }; -- The Depths of Mâkhda Khorbo -- Tier 5
-           [36] = {}; -- The Dragon and the Storm
+           [36] = {["CAT_ID"] = 310; }; -- The Dragon and the Storm
            [37] = {["ID"] = 1879491111; }; -- Vanquisher of Ragrekhûl
            [38] = {["ID"] = 1879491105; }; -- The Dragon and the Storm -- Tier 1
            [39] = {["ID"] = 1879491107; }; -- The Dragon and the Storm -- Tier 2
@@ -2707,7 +2707,7 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
           [392] = {["ID"] = 1879490439; }; -- Amelia's Studies - Ally
           [393] = {["ID"] = 1879490435; }; -- Amelia's Studies - Friend
           [394] = {["ID"] = 1879490437; }; -- Amelia's Studies - Acquaintance
-          [395] = {}; -- - Crafting Events -
+          [395] = {["CAT_ID"] = 306; }; -- - Crafting Events -
           [396] = {["CAT_ID"] = 289; }; -- - The Combe Forester Event -
           [397] = {["ID"] = 1879467122; }; -- Is a Lumberjack
           [398] = {["ID"] = 1879467125; }; -- Sleep at Night
@@ -2722,7 +2722,7 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
           [407] = {["ID"] = 1879467145; }; -- The Competitive Forester - Tier III
           [408] = {["ID"] = 1879467140; }; -- The Competitive Forester - Tier II
           [409] = {["ID"] = 1879467149; }; -- The Competitive Forester - Tier I
-          [410] = {}; -- - The Hard Tack Crafting Event -
+          [410] = {["CAT_ID"] = 307; }; -- - The Hard Tack Crafting Event -
           [411] = {["ID"] = 1879489242; }; -- Party Foul
           [412] = {["ID"] = 1879489234; }; -- Bean-spiller
           [413] = {["ID"] = 1879489238; }; -- Clod
