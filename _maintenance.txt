@@ -1,0 +1,20 @@
+Steps to add new deeds:
+
+1. Pull in updates from lotro-data (https://github.com/LotroCompanion/lotro-data)
+2. Open the LOTRO Companion Combiner solution in Visual Studio and run the LOTRO Companion Combiner project.
+3. Make new folder in LOTRO Data Dumps with name of most recent data in LOTRO Companion (e.g. U40.1)
+4. Copy deeds*.xml and quests*.xml from C:\dev\_\lotro-data\lore to new data dump folder.
+5. Compare new Data Dump deeds-en.xml with next oldest to get which deeds are new.
+6. Add any new deeds:
+    6.1 Copy any new deeds to text file for easy manipulation
+    6.2 Add deeds to existing Excel spreadsheets (or make a new one if necessary) in The Lord of the Rings Online\Plugins\CubePlugins\DeedTracker\SourceFiles
+    6.3 You can look up which deed log tab it goes in using the category attribute (e.g. category="35") in lotro-data\lore\enums\DeedCategory-en.xml
+    6.4 If you need to add a new section header, manually add it to DeedCategories[EN|FR|DE].lua.
+    6.5 If there's a new type of deed (e.g. Veil of the Nine), this may involve modifying the CompanionDataParser solution.
+    6.6 Remember that currently tier information is encoded in CompanionDataParser. (It needs to move!)
+    6.6 If there's a new deed log tab, that will involve updating several plugin files (DeedInfo.lua, DeedLookupTables.lua, DeedInfoStrings[lang].lua) and CompanionDataParser file (CompanionXmlExtraInfo.cs: _pageTabLookup, _pageTabLookup[lang]).
+7 Once DeedInfo.lua has been updated with the new structure, run _update_files.bat in C:\dev\_\lotro_plugins\CompanionDataLib\Serialization.
+    7.1 If Visual Studio doesn't pick them up, delete the bin and obj folders in C:\dev\_\lotro_plugins\CompanionDataLib
+8 Run CompanionDataParser to re-generate auto-generated data files.
+    This will overwrite DeedData[lang].lua, DeedNamesToIDs[lang].lua, and DeedObjectiveInfo[lang].lua.
+
