@@ -115,7 +115,7 @@ function DoesDeedHaveSubtype(deed)
 end
 
 function IsDeedNotAvailable(deed)
-    return IsValueNotEmpty(deed.NA);
+    return IsValueNotEmpty(deed.NA) and deed.NA ~= 6;
 end
 
 function GetStringSubtype(deedCrv, deedSubtype)
@@ -632,6 +632,26 @@ function IsLegendaryDeed(deed)
     return isLegendaryDeed;
 end
 
+function IsVeilOfTheNineDeed(deed)
+    local isVeilOfTheNine = false;
+
+    if (deed.VEIL_OF_THE_NINE) then
+        isVeilOfTheNine = true;
+    end
+
+    return isVeilOfTheNine;
+end
+
+function IsDifficultyDeed(deed)
+    local isDifficulty = false;
+
+    if (deed.NA == 6) then
+        isDifficulty = true;
+    end
+
+    return isDifficulty;
+end
+
 function IsMountDeed(deed)
     return deed ~= nil and deed.MOUNT ~= nil;
 end
@@ -650,8 +670,12 @@ function GetDeedSkipInfo(character, currentDeed)
         isCompleted = GetDeedComplete(character, currentDeed.ID);
     end
     local isLegendaryDeed = IsLegendaryDeed(currentDeed);
+    local isVeilOfTheNine = IsVeilOfTheNineDeed(currentDeed);
+    local isDifficulty = IsDifficultyDeed(currentDeed);
 
     local isLegendaryServer = LoadServerField("LEGENDARY_SERVER");
+    local isVeilOfTheNineActive = LoadServerField("VEIL_OF_THE_NINE");
+    local isDifficultyActive = SETTINGS.DIFFICULTY;
 
     local hideDeed = false;
     local skipDeed = false;
@@ -707,6 +731,14 @@ function GetDeedSkipInfo(character, currentDeed)
         skipDeed = true;
     end
 
+    if (isVeilOfTheNine and not isVeilOfTheNineActive) then
+        skipDeed = true;
+    end
+
+    if (isDifficulty and not isDifficultyActive) then
+        skipDeed = true;
+    end
+
     if (SETTINGS.HIDE_NOT_ACTIVELY_ACHIEVABLE_DEEDS and 
         isNotAvailable and
         not isCompleted) then
@@ -726,6 +758,7 @@ function GetDeedSkipInfo(character, currentDeed)
         ["isNotAvailable"] = isNotAvailable;
         ["isCompleted"] = isCompleted;
         ["needsServerCap"] = needsServerCap;
+        ["difficulty"] = isDifficulty;
     };
     return results;
 

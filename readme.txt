@@ -29,6 +29,26 @@ If I do not respond within two months, then you have my permission to request co
 In the meantime, feel free to submit patches for any of my plugins if you spot something that needs fixing or improving!
 
 v3.1.5 changes:
+    Deeds:
+        Class/Race/Epic:
+            Reputation:
+                Added The Hard Tack Crafting Event deeds
+                Added Veil of the Nine deeds
+                Added Amelia's Studies faction repution deeds
+        Instances:
+            Corsairs of Umbar:
+                Added The Dragon and the Storm deeds
+        Hobbies:
+            Birding:
+                Added birding deeds
+        The War:
+            Ettenmoors:
+                Added Monster Player Reward Season 1 deeds
+
+    Options:
+        Added option to control if server is enabled for Veil of the Nine.
+        Added option to control if landscape difficulty deeds are included for the current character.
+
     Import:
         Fixed bug that prevented importer from working with LOTRO Companion data directories with extended characters (e.g. é) in the path.
 

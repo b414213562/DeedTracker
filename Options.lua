@@ -176,10 +176,15 @@ function CreateOptionsContent()
     local topMargin = 10;
     local bottomMargin = 20;
 
+    local serverSetting = true;
+    local notServerSetting = false;
+    local nilCallback = nil;
+
     local y = topMargin;
-    y = AddOption(options, y, "LEGENDARY_SERVER", true, function()
+    y = AddOption(options, y, "LEGENDARY_SERVER", serverSetting, function()
         SetServerLevelCap();
     end);
+    y = AddOption(options, y, "VEIL_OF_THE_NINE", serverSetting, nilCallback);
     y = y + AddServerField(options, y, "LEGENDARY_SERVER_LEVEL_CAP", GetString(_LANG.OPTIONS.SAVE), function(text)
         SetServerLevelCap();
         CheckDeedData(uiCharacter);
@@ -191,9 +196,7 @@ function CreateOptionsContent()
         mainWin:RefreshDeeds();
     end);
 
-    local notServerSetting = false;
-    local nilCallback = nil;
-
+    y = AddOption(options, y, "DIFFICULTY", notServerSetting, nilCallback);
     y = AddOption(options, y, "HIDE_COMPLETED_DEEDS", notServerSetting, nilCallback);
     y = AddOption(options, y, "HIDE_COMPLETED_PROGRESS_BAR", notServerSetting, nilCallback);
     y = AddOption(options, y, "HIDE_DEEDS_ABOVE_LEVEL", notServerSetting, nilCallback);

@@ -91,6 +91,12 @@ _LANG = {
             ["EN"] = "Current level cap on this legendary server:";
             ["DE"] = "Aktuelle Stufenobergrenze auf diesem legendären Server:";
         };
+        ["VEIL_OF_THE_NINE"] = {
+            ["EN"] = "Veil of the Nine is available on this server.";
+        };
+        ["DIFFICULTY"] = {
+            ["EN"] = "Include Landscape Difficulty deeds for this character.";
+        };
         ["CHECK_FOR_IMPORT_FILE"] = {
             ["EN"] = "Check for Import File";
         };

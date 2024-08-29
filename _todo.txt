@@ -1,3 +1,6 @@
+[07/18 08:22:22 AM] Deed Tracker did not recognize The following Deed IDs. Please email this to LotroDeedTracker@gmail.com for inclusion in a future release!: 1879200237, 1879200236
+
+
 Cloave: 
     Would it be possible in a future update to make the minimized icon optional?
     For context, I prefer to have the tracker minimized when I login, but I'd rather not have a dedicated button for it on my screen. I prefer just calling the tracker up through the chat box. 
