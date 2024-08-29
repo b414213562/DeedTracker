@@ -695,11 +695,11 @@ function GetDeedSkipInfo(character, currentDeed)
         if (hasSubtype and currentDeed.SUBTYPE ~= race) then
             skipDeed = true;
         end
-    elseif(crv == "Vocation" and not isCompleted) then
-        local vocation = GetVocation(character);
-        if (hasSubtype and currentDeed.SUBTYPE ~= vocation) then
-            skipDeed = true;
-        end
+    --elseif(crv == "Vocation" and not isCompleted) then
+        --local vocation = GetVocation(character);
+        --if (hasSubtype and currentDeed.SUBTYPE ~= vocation) then
+        --    skipDeed = true;
+        --end
     end
 
     local minLevel = GetDeedMinimumLevel(currentDeed);

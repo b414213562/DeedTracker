@@ -31,6 +31,8 @@ In the meantime, feel free to submit patches for any of my plugins if you spot s
 v3.1.5 changes:
     Deeds:
         Class/Race/Epic:
+            Class:
+                Stopped hiding vocation deeds based on character's vocation.
             Reputation:
                 Added The Hard Tack Crafting Event deeds
                 Added Veil of the Nine deeds
