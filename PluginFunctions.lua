@@ -190,9 +190,7 @@ function GetClass(character)
 end
 
 function GetVocation(character)
-    _CHARDATA[character]["CHARACTER_INFO"]["VOCATION"] = MYCHAR:GetAttributes():GetVocation();
-    local vocation = _CHARDATA[character]["CHARACTER_INFO"]["VOCATION"] or 0;
-    return tonumber(vocation);
+    return 0;
 end
 
 function GetRace(character)
@@ -501,7 +499,7 @@ function CheckCharData()
     if type (_CHARDATA[CHARNAME]) ~= 'table' then _CHARDATA[CHARNAME] = {} end;
     if (not _CHARDATA[CHARNAME]["CHARACTER_INFO"]) then _CHARDATA[CHARNAME]["CHARACTER_INFO"] = {}; end
     _CHARDATA[CHARNAME]["CHARACTER_INFO"]["CLASS"] = MYCHAR:GetClass();
-    _CHARDATA[CHARNAME]["CHARACTER_INFO"]["VOCATION"] = MYCHAR:GetAttributes():GetVocation();
+    _CHARDATA[CHARNAME]["CHARACTER_INFO"]["VOCATION"] = 0;
     _CHARDATA[CHARNAME]["CHARACTER_INFO"]["RACE"] = MYCHAR:GetRace();
     _CHARDATA[CHARNAME]["CHARACTER_INFO"]["LEVEL"] = MYCHAR:GetLevel();
 

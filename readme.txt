@@ -54,6 +54,9 @@ v3.1.5 changes:
     Import:
         Fixed bug that prevented importer from working with LOTRO Companion data directories with extended characters (e.g. é) in the path.
 
+    Performance:
+        Removed outdated call to GetVocation() that added a large delay to the plugin load time.
+
 v3.1.4 changes:
     Deeds:
         Added auto-detection of "Volume III, Book 11: Foreword" if "Summons to the Entwade" is in player's inventory when Deed Tracker is loaded.
