@@ -5,6 +5,31 @@ import "Turbine.UI";
 import "Turbine.UI.Lotro";
 import "CubePlugins.DeedTracker.TurbineFiles.Class";
 
+-- Time Diagnostics Section:
+-- If VERBOSE_OUTPUT is turned on, print a message saying how long startup took.
+
+-- save off initial load time for diagnostic message:
+DeedTrackerLoadStartedTime = Turbine.Engine.GetGameTime();
+
+LoadedControl = Turbine.UI.Control();
+LoadedControl:SetWantsUpdates(true);
+LoadedControl.Update = function(sender, args)
+    local DeedTrackerLoadFinishedTime = Turbine.Engine.GetGameTime();
+    local loadTime = DeedTrackerLoadFinishedTime - DeedTrackerLoadStartedTime;
+
+    -- On first call to Update, GetGameTime() returns the same value as the initial time.
+    -- Wait until time has detectibly passed.
+    if (loadTime > 0) then
+        if (SETTINGS.VERBOSE_OUTPUT) then
+            Debug(string.format("Deed Tracker took %.3f seconds to load", loadTime));
+        end
+
+        LoadedControl:SetWantsUpdates(false);
+        LoadedControl = nil;
+    end
+end
+-- End of time diagnostics section
+
 -- Plugin Imports..
 import "CubePlugins.DeedTracker.Timer";
 import "CubePlugins.DeedTracker.Globals";

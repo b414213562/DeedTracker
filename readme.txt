@@ -56,6 +56,7 @@ v3.1.5 changes:
 
     Performance:
         Removed outdated call to GetVocation() that added a large delay to the plugin load time.
+        If verbose logging is turned on, Deed Tracker now outputs a message once the plugin is loaded showing how much time the load took.
 
 v3.1.4 changes:
     Deeds:
