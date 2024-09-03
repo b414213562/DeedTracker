@@ -1,0 +1,62 @@
+Deed Tracker version 3.1.5 is now available at [url=https://www.lotrointerface.com/downloads/info1139-DeedTracker.html]lotrointerface.com[/url].
+
+This release adds Update 41: On the Wing deeds, resolved a performance problem during plugin load, and some other changes.
+
+Note to plugin developers: On my system, the first time you call GetVocation() ( Turbine.Gameplay.LocalPlayer.GetInstance():GetAttributes():GetVocation() ), there is a 5-6 second delay before the client returns. Now that vocations have been removed, it always returns 0. I recommend against calling this function going forward.
+
+Version 3.1.5 release notes:
+
+Deeds:
+[list]
+    [*] Class/Race/Epic:
+    [list]
+        [*] Class:
+        [list]
+            [*] Stopped hiding vocation deeds based on character's vocation.
+        [/list]
+        [*] Reputation:
+        [list]
+            [*] Added The Hard Tack Crafting Event deeds
+            [*] Added Veil of the Nine deeds
+            [*] Added Amelia's Studies faction repution deeds
+        [/list]
+    [/list]
+    [*] Instances:
+    [list]
+        [*] Corsairs of Umbar:
+        [list]
+            [*] Added The Dragon and the Storm deeds
+        [/list]
+    [/list]
+    [*] Hobbies:
+    [list]
+        [*] Birding:
+        [list]
+            [*] Added birding deeds
+        [/list]
+    [/list]
+    [*] The War:
+    [list]
+        [*] Ettenmoors:
+        [list]
+            [*] Added Monster Player Reward Season 1 deeds
+        [/list]
+    [/list]
+[/list]
+
+Options:
+[list]
+    [*] Added option to control if server is enabled for Veil of the Nine.
+    [*] Added option to control if landscape difficulty deeds are included for the current character.
+[/list]
+
+Import:
+[list]
+    [*] Fixed bug that prevented importer from working with LOTRO Companion data directories with extended characters (e.g. é) in the path.
+[/list]
+
+Performance:
+[list]
+    [*] Removed outdated call to GetVocation() that added a large delay to the plugin load time.
+    [*] If verbose logging is turned on, Deed Tracker now outputs a message once the plugin is loaded showing how much time the load took.
+[/list]
