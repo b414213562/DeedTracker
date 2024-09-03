@@ -2720,14 +2720,14 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
           [405] = {["CAT_ID"] = 305; }; -- - Veil of the Nine -
           [406] = {["ID"] = 1879489366; }; -- Defeat each of the Nine
           [407] = {["ID"] = 1879487903; }; -- Defeat the Grim Southron
-          [408] = {["ID"] = 1879487969; }; -- Defeat the Witch-king
-          [409] = {["ID"] = 1879487972; }; -- Defeat the Cursed Rider
-          [410] = {["ID"] = 1879487973; }; -- Defeat the Woe of Khand
-          [411] = {["ID"] = 1879487974; }; -- Defeat the High Sorcerer of Harad
-          [412] = {["ID"] = 1879487975; }; -- Defeat the Bane of Rhûn
-          [413] = {["ID"] = 1879487976; }; -- Defeat the Black Blade of Lebennin
-          [414] = {["ID"] = 1879487977; }; -- Defeat the Gloom of Nurn
-          [415] = {["ID"] = 1879487978; }; -- Defeat the Forsaken Reaver
+          [408] = {["ID"] = 1879487978; }; -- Defeat the Forsaken Reaver
+          [409] = {["ID"] = 1879487977; }; -- Defeat the Gloom of Nurn
+          [410] = {["ID"] = 1879487976; }; -- Defeat the Black Blade of Lebennin
+          [411] = {["ID"] = 1879487975; }; -- Defeat the Bane of Rhûn
+          [412] = {["ID"] = 1879487974; }; -- Defeat the High Sorcerer of Harad
+          [413] = {["ID"] = 1879487973; }; -- Defeat the Woe of Khand
+          [414] = {["ID"] = 1879487972; }; -- Defeat the Cursed Rider
+          [415] = {["ID"] = 1879487969; }; -- Defeat the Witch-king
           [416] = {["CAT_ID"] = 240; }; -- Not Actively Achievable
           [417] = {["CAT_ID"] = 241; }; -- - The Tournament of the Twins -
           [418] = {["ID"] = 1879407709; }; -- The Tournament of the Twins - Exalted Champion of Rivendell
