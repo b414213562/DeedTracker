@@ -154,6 +154,10 @@ _DEED_CATEGORIES = {
 [302] = { ["TIER"] = 1; ["NAME"] = "Dahâl Huliz, The Arena"; };
 [303] = { ["TIER"] = 1; ["NAME"] = "The Depths of Mâkhda Khorbo"; };
 [310] = { ["NAME"] = "The Dragon and the Storm"; };
+-- Instances / The Legacy of Morgoth
+[314] = { ["NAME"] = "Ashunûg, der Tempel der Verfluchten"; };
+[315] = { ["NAME"] = "Nirgambâr, das Ruhelose Grab"; };
+[316] = { ["NAME"] = "Tûl Zakana, der Quell des Vergessens"; };
 -- The War / Common
 [120] = { ["NAME"] = "Monster-slayer"; };
 [121] = { ["NAME"] = "Blackarrow-slayer"; };
@@ -285,6 +289,9 @@ _DEED_CATEGORIES = {
 [283] = { ["NAME"] = "Truchsesse des eisernen Hauses"; };
 [285] = { ["NAME"] = "Die Erneuerung Gondors"; };
 [290] = { ["NAME"] = "Bürger von Umbar Baharbêl"; };
+[311] = { ["NAME"] = "Die Ikorbâni"; };
+[312] = { ["NAME"] = "Die Geschichtenhütern (Phetekâri von Umbar)"; };
+[313] = { ["NAME"] = "Die Kintai (Die Adúrhid)"; };
 [309] = { ["NAME"] = "Amelias Studien"; };
 [240] = { ["NAME"] = "Not Actively Achievable"; };
 [241] = { ["NAME"] = "- The Tournament of the Twins -"; };

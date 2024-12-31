@@ -72,7 +72,7 @@ DELAYED_SKIRMISH_COMPLETION_CHAT = nil;
 WAYPOINT_AVAILABLE = false;
 
 function GetClientLanguage()
-    local clientLanguage = Turbine.Engine:GetLanguage();
+    local clientLanguage = Turbine.Engine.GetLanguage();
     local result = "EN";
     if (clientLanguage == Turbine.Language.French) then
         result = "FR";
@@ -84,6 +84,7 @@ function GetClientLanguage()
     return result;
 end
 
+-- Todo: Some places look at LANGUAGE, some at GetClientLanguage(). Fix this discrepancy.
 -- Detect client lang.
 LANGUAGE = GetClientLanguage();
 

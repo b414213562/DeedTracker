@@ -142,6 +142,7 @@ Function GetCompanionCharacters(byref accounts)
             ' Get rid of the RootPath prefix:
             strDataPath = Replace(line, "RootPath=", "")
 
+            ''' This change is too broad. A path with username user-pc went from C:\Users\user-pc\... to C:\Users\%user-pc :
             ' Change unicode encoding to vbscript style:
             strDataPath = Replace(strDataPath, "\u", "%u")
 

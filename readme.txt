@@ -28,6 +28,21 @@ If you would like to take over management of one of my plugins, please first sen
 If I do not respond within two months, then you have my permission to request control of a plugin or patch of mine on lotrointerface.com.
 In the meantime, feel free to submit patches for any of my plugins if you spot something that needs fixing or improving!
 
+v3.1.6 changes:
+    Deeds:
+        Class/Race/Epic:
+            Reputation:
+                Added The Ikorbâni, The Tale-wardens (Phetekâri of Umbar), and The Kintai (The Adúrhid) deeds
+        Instances:
+            The Legacy of Morgoth:
+                Added Ashunûg, the Fane of the Accursed, Nirgambâr, the Restless Tomb, and Tûl Zakana, the Well of Forgetting deeds
+        Haradwaith:
+            Added Ambarûl, Khûd Zagin, Imhûlar, and Urash Dâr deeds
+
+ Reputation
+
+
+
 v3.1.5 changes:
     Deeds:
         Class/Race/Epic:

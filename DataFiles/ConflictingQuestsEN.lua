@@ -16,6 +16,7 @@ _CONFLICTING_QUEST_NAME_TO_ID = {
     ["Farms of the Fallows"] = 1879262826;
     ["Leave No One Behind"] = 1879393874;
     ["Little Wonders"] = 1879182762;
+    ["Out of the North"] = 1879143335; -- Mariner class deed 1879457968
     ["Protectors of Thangúlhad"] = 1879160668;
     ["Protectors of the Wilderfolk"] = 1879386531;
     ["Rescue in Nûrz Ghâshu"] = 1879181728;
@@ -46,7 +47,7 @@ _CONFLICTING_QUESTS = {
     [1879156593] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Skirmish / Trouble in Tuckborough\n    (Defeat the half-orc at the doorway to the Great Smials and claim the Great Smials)";
-        ["ANNOUNCE"] = "The half-orc leading the assault has fallen. The remaining brigands and goblins are scattering. The Great Smials are safe"; 
+        ["ANNOUNCE"] = "The half-orc leading the assault has fallen. The remaining brigands and goblins are scattering. The Great Smials are safe";
         ["IS_SKIRMISH"] = true;
     };
 

@@ -161,6 +161,7 @@ _DEED_LOG_PAGE_TAB_NAMES = {
     I_THE_MOUNTAIN_HOLD_STR = "The Mountain-hold";
     I_RETURN_TO_CARN_DUM_STR = "Return to Carn Dûm";
     I_CORSAIRS_OF_UMBAR_STR = "Corsairs of Umbar";
+    I_THE_LEGACY_OF_MORGOTH_STR = "The Legacy of Morgoth";
 
     -- Hobbies
     H_FISHING_STR = "Fishing";
@@ -230,4 +231,8 @@ _DEED_LOG_PAGE_TAB_NAMES = {
     H_THE_SHIELD_ISLES_STR = "The Shield Isles";
     H_CAPE_OF_UMBAR_STR = "Cape of Umbar";
     H_UMBAR_BAHARBEL_STR = "Umbar Baharbêl";
+    H_AMBARUL_STR = "Ambarûl";
+    H_KHUD_ZAGIN_STR = "Khûd Zagin";
+    H_IMHULAR_STR = "Imhûlar";
+    H_URASH_DAR_STR = "Urash Dâr";
 };

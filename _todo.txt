@@ -1,3 +1,26 @@
+dt192 — 2024-11-10 at 11:51 AM
+    Could we get an option to turn off the icon opacity
+    Also right clicking on the icon does nothing, seems a waste, maybe make it open the settings
+    Option for a small icon so it fits in with the others would be nice too
+        <image showing small icons "attached" to the rim of the radar>
+    Also there still doesnt seem to be a way to just see how many LP you have earned so far? 
+        Could you not make this tooltip say 465 LPs earned, 12,420 LPs available or similar.
+        <image showing "Total available LP" tooltip>
+    The panel also shows this cursor on the edges and a diagonal on the corner, but doesn't resize in the width.
+        <image showing mouse cursor over main Deed Tracker body>
+    Speaking of max size, is there a reason there is a max height limit on the Recent Completions panel? 
+    Seems like you are using the time the disambiguation button is pressed instead of the time they were completed
+
+Galbus — 2024-10-25 at 2:16 PM
+"The Battle in the Tower" deed conflict - context for what the other deed is could be useful. (Valar?)
+    If these are granted by a valar, could we only allow them if the valar was in the inventory / was used?
+Size of window too small for the intro text - cuts off on line after "Unfortunately, we can't tell which of the following it was."
+
+Mandraval — 2024-09-27 at 12:40 AM
+Deed Tracker 3.1.5 recognizes the deed "Die Waffen des Feindes" as the deed from fil gashan, but I finished the quest in Gath Forthnir of the same name
+
+Amelia's Studies category isn't marked as Veil of the Nine, but should be.
+
 [07/18 08:22:22 AM] Deed Tracker did not recognize The following Deed IDs. Please email this to LotroDeedTracker@gmail.com for inclusion in a future release!: 1879200237, 1879200236
 
 

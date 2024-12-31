@@ -154,6 +154,10 @@ _DEED_CATEGORIES = {
 [302] = { ["TIER"] = 1; ["NAME"] = "Dahâl Huliz, The Arena"; };
 [303] = { ["TIER"] = 1; ["NAME"] = "The Depths of Mâkhda Khorbo"; };
 [310] = { ["NAME"] = "The Dragon and the Storm"; };
+-- Instances / The Legacy of Morgoth
+[314] = { ["NAME"] = "Ashunûg, the Fane of the Accursed"; };
+[315] = { ["NAME"] = "Nirgambâr, the Restless Tomb"; };
+[316] = { ["NAME"] = "Tûl Zakana, the Well of Forgetting"; };
 -- The War / Common
 [120] = { ["NAME"] = "Monster-slayer"; };
 [121] = { ["NAME"] = "Blackarrow-slayer"; };
@@ -285,6 +289,9 @@ _DEED_CATEGORIES = {
 [283] = { ["NAME"] = "Stewards of the Iron-home"; };
 [285] = { ["NAME"] = "The Renewal of Gondor"; };
 [290] = { ["NAME"] = "Citizens of Umbar Baharbêl"; };
+[311] = { ["NAME"] = "The Ikorbâni"; };
+[312] = { ["NAME"] = "The Tale-wardens (Phetekâri of Umbar)"; };
+[313] = { ["NAME"] = "The Kintai (The Adúrhid)"; };
 [309] = { ["NAME"] = "Amelia's Studies"; };
 [240] = { ["NAME"] = "Not Actively Achievable"; };
 [241] = { ["NAME"] = "- The Tournament of the Twins -"; };
@@ -352,4 +359,4 @@ _DEED_CATEGORIES = {
 [304] = { ["NAME"] = "Umbar-môkh"; };
 };
 
--- Last used: 311
+-- Last used: 316

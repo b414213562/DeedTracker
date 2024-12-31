@@ -153,6 +153,7 @@ _DEED_LOG_PAGE_TAB_NAMES = {
     I_THE_MOUNTAIN_HOLD_STR = "Die Bergfestung";
     I_RETURN_TO_CARN_DUM_STR = "Rückkehr nach Carn Dûm";
     I_CORSAIRS_OF_UMBAR_STR = "Die Korsaren von Umbar";
+    I_THE_LEGACY_OF_MORGOTH_STR = "Morgoths Vermächtnis";
 
     -- Hobbies
     H_FISHING_STR = "Angeln";
@@ -222,4 +223,8 @@ _DEED_LOG_PAGE_TAB_NAMES = {
     H_THE_SHIELD_ISLES_STR = "Die Schildinseln";
     H_CAPE_OF_UMBAR_STR = "Kap von Umbar";
     H_UMBAR_BAHARBEL_STR = "Umbar Baharbêl";
+    H_AMBARUL_STR = "Ambarûl";
+    H_KHUD_ZAGIN_STR = "Khûd Zagin";
+    H_IMHULAR_STR = "Imhûlar";
+    H_URASH_DAR_STR = "Urash Dâr";
 };
