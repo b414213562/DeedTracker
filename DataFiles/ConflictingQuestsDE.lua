@@ -4,6 +4,7 @@ if (GetClientLanguage() ~= "DE") then return true; end
 _CONFLICTING_QUEST_NAME_TO_ID = {
     ["Am Tor des Geisterbeschwörers"] = 1879160602; -- Deed ID: 1879163850
     ["Angriff bei Morgengrauen"] = 1879208421; -- Deed ID: 1879209658
+    ["Ärger in Buckelstadt"] = 1879156593; -- Deed ID: 1879158107
     ["Beschützer von Thangúlhad"] = 1879160668; -- Deed ID: 1879173662
     ["Beutlins Geburtstag"] = 1879282924; -- Deed ID: 1879283004
     ["Das Gefecht am Amon Sûl"] = 1879159798; -- Deed ID: 1879159790
@@ -35,7 +36,6 @@ _CONFLICTING_QUEST_NAME_TO_ID = {
     ["Rettung in Nûrz Ghâshu"] = 1879181728; -- Deed ID: 1879182644
     ["Warg-Bezwinger"] = 1879054427; -- Deed ID: 1879071724, 1879071734, 1879071768, 1879071782, 1879141058, 1879155766, 1879220076
     ["Warg-Bezwingerin"] = 1879054427; -- Deed ID: 1879071724, 1879071734, 1879071768, 1879071782, 1879141058, 1879155766, 1879220076
-    ["Ärger in Buckelstadt"] = 1879156593; -- Deed ID: 1879158107
 };
 
 -- Indexd by Quest ID
