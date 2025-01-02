@@ -39,9 +39,8 @@ v3.1.6 changes:
         Haradwaith:
             Added Ambarûl, Khûd Zagin, Imhûlar, and Urash Dâr deeds
 
- Reputation
-
-
+    Bug Fixes:
+        Fixed repeatability of conflicting quest "Time of Need"
 
 v3.1.5 changes:
     Deeds:

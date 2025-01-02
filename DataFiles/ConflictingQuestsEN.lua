@@ -250,7 +250,7 @@ _CONFLICTING_QUESTS = {
 
     -- Class/Race/Epic / Class / Time of Need
     [1879091387] = {
-        ["ISREPEATABLE"] = false;
+        ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Evendim / Time of Need\n    (Collect 6 supplies from hidden stores)";
     };
 
