@@ -40,7 +40,7 @@ _CONFLICTING_QUEST_NAME_TO_ID = {
 
 -- Indexd by Quest ID
 _CONFLICTING_QUESTS = {
-    -- Skirmish / Skirmish Instances / Breaching the Necromancer's Gate
+    -- Scharmützel / Scharmützel-Instanzen / Am Tor des Geisterbeschwörers
     [1879160602] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Scharmützel / Am Tor des Geisterbeschwörers\n    (Erobert das Tor des Geisterbeschwörers)";
@@ -48,7 +48,7 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Skirmish / Skirmish Instances / Attack at Dawn
+    -- Scharmützel / Scharmützel-Instanzen / Angriff bei Morgengrauen
     [1879208421] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Scharmützel / Angriff bei Morgengrauen\n    (Vernichtet Graug und sichert die Informationen über Esteldíns Lage)";
@@ -56,7 +56,7 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Skirmish / Skirmish Instances / Trouble in Tuckborough
+    -- Scharmützel / Scharmützel-Instanzen / Ärger in Buckelstadt
     [1879156593] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Scharmützel / Ärger in Buckelstadt\n    (Besiegt den Halbork am Zugang zu den Groß-Smials und erobert die Groß-Smials)";
@@ -64,7 +64,7 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Skirmish / Skirmish Instances / Protectors of Thangúlhad
+    -- Scharmützel / Scharmützel-Instanzen / Beschützer von Thangúlhad
     [1879160668] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Scharmützel / Beschützer von Thangúlhad\n    (Wehrt den fünften Angriff ab, Sprecht mit Rodelleth)";
@@ -72,13 +72,13 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Class/Race/Epic / Race & Social / Baggins' Birthday
+    -- Klasse/Volk/Epos / Volk & Soziales / Beutlins Geburtstag
     [1879282924] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Festival / Beutlins Geburtstag (wiederholbar)\n    (Sprecht mit Frodo Beutlin im Letzten Heimeligen Haus in Bruchtal)";
     };
 
-    -- Skirmish / Skirmish Instances / Stand at Amon Sûl
+    -- Scharmützel / Scharmützel-Instanzen / Das Gefecht am Amon Sûl
     [1879159798] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Scharmützel / Das Gefecht am Amon Sûl\n    (Besiegt den Cargûl)";
@@ -86,13 +86,13 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Class/Race/Epic / Class / Tools of the Trade
+    -- Klasse/Volk/Epos / Klasse / Das Handwerkszeug
     [1879309913] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Western Gondor: Belfalas / Das Handwerkszeug (wiederholbar)\n    (Beschafft 8 die Werkzeuge wieder)";
     };
 
-    -- Skirmish / Skirmish Instances / The Perfect Picnic
+    -- Scharmützel / Scharmützel-Instanzen / Das perfekte Picknick
     [1879367046] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Scharmützel / Das perfekte Picknick\n    (Genießt ein reizendes Picknick.)";
@@ -101,7 +101,7 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Skirmish / Skirmish Instances / Assault on the Ringwraiths' Lair
+    -- Scharmützel / Scharmützel-Instanzen / Das Versteck der Ringgeister
     [1879160626] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Scharmützel / Das Versteck der Ringgeister\n    (Erobert das Versteck der Ringgeister)";
@@ -109,7 +109,7 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Skirmish / Skirmish Instances / The Battle in the Tower
+    -- Scharmützel / Scharmützel-Instanzen / Der Kampf im Turm
     [1879160343] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Scharmützel / Der Kampf im Turm\n    (Erobert die Waffenkammer)";
@@ -117,13 +117,13 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Eriador / Angmar / The Circle of Despair
+    -- Eriador / Angmar / Der Kreis der Verzweiflung
     [1879396465] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Imlad Morgul: Minas Morgul / Der Kreis der Verzweiflung\n    (Helft Dornach, den Ring der Verzweiflung zu sichern. Sprecht mit Candúr in Barad Arthir.)";
     };
 
-    -- Skirmish / Skirmish Instances / Strike Against Dannenglor
+    -- Scharmützel / Scharmützel-Instanzen / Der Schlag gegen Dannenglor
     [1879160578] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Scharmützel / Der Schlag gegen Dannenglor\n    (Besiegt den Zauberer und erobert seine Kammer)";
@@ -131,7 +131,7 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Skirmish / Skirmish Instances / Storm on Methedras
+    -- Scharmützel / Scharmützel-Instanzen / Der Sturm auf Methedras
     [1879224852] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Scharmützel / Der Sturm auf Methedras\n    (Bezwingt Gwyllion und Echrud am Eingang von Gwyllions Hütte und beansprucht den letzten Kontrollpunkt)";
@@ -140,7 +140,7 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Skirmish / Skirmish Instances / Doom of Caras Gelebren:
+    -- Scharmützel / Scharmützel-Instanzen / Der Untergang von Caras Gelebren
     [1879453538] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Scharmützel / Der Untergang von Caras Gelebren\n    (Verteidigt Caras Gelebren gegen den Feind.)";
@@ -149,25 +149,25 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Instances / Mines of Moria / Eyes of the Enemy
+    -- Instanzen / Minen von Moria / Die Augen des Feindes
     [1879304967] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Trollhöhen / Die Augen des Feindes (wiederholbar)\n    (Besiegt 6 Hendrevail in den Bruinen-Schluchten.)";
     };
 
-    -- Rhovanion / Vales of Anduin / Protectors of the Wilderfolk
+    -- Rhovanion / Täler des Anduin / Die Beschützer des Wilden Volkes
     [1879386531] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Vales of Anduin: Protectors of the Wilderfolk / Die Beschützer des Wilden Volkes\n    (Ihr solltet Audvak, Hithril und Ragnild aufsuchen und ihnen Eure Hilfe anbieten.)";
     };
 
-    -- Class/Race/Epic / Class / The Best Defence
+    -- Klasse/Volk/Epos / Klasse / Die beste Verteidigung
     [1879240242] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Entwash Vale / Die beste Verteidigung\n    (Helft Ingmar oder Herrin Góda)";
     };
 
-    -- Skirmish / Skirmish Instances / The Icy Crevasse
+    -- Scharmützel / Scharmützel-Instanzen / Die Eisige Kluft
     [1879207159] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Scharmützel / Die Eisige Kluft\n    (Besiegt den Angmarim-Zauberer und erobert die Höhle)";
@@ -175,31 +175,31 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Class/Race/Epic / Epic / Discovering the Descendant
+    -- Klasse/Volk/Epos / Epos / Die Entdeckung des Nachfahren
     [1879234348] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Bree-land / Die Entdeckung des Nachfahren\n    (Kümmert Euch um das Pferd aus Schlucht, Sprecht mit Éogar auf den Rossfeldern)";
     };
 
-    -- Class/Race/Epic / Race & Social / The Haunted Burrow
+    -- Klasse/Volk/Epos / Volk & Soziales / Die heimgesuchte Erdhöhle
     [1879189266] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Harvest Festival / Die heimgesuchte Erdhöhle (wiederholbar)\n    (Sprecht mit Lobelia in der Heimgesuchten Erdhöhle, Sprecht mit Opal Gutleib über das Schicksal der 'Heimgesuchten Erdhöhle')";
     };
 
-    -- The War / Osgiliath / The Battle for Osgiliath
+    -- Der Krieg / Osgiliath / Die Schlacht um Osgiliath
     [1879326193] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Osgiliath: Court of Anárion / Die Schlacht um Osgiliath\n    (Sprecht mit Cangoras, Edenos, Arthon)";
     };
 
-    -- Eriador / Forochel / The Lost Fellowship
+    -- Eriador / Forochel / Die Verlorenen Gefährten
     [1879109321] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Angmar / Die Verlorenen Gefährten\n    (Helegdir bat Euch, ein Mitglied einer Gefährtengruppe zu suchen, die auf ihrer Reise nach Forochel durch Aughaire in Angmar gereist waren.)";
     };
 
-    -- Skirmish / Skirmish Instances / Defence of the Prancing Pony
+    -- Scharmützel / Scharmützel-Instanzen / Die Verteidigung des 'Tänzelnden Ponys'
     [1879162702] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Scharmützel / Die Verteidigung des 'Tänzelnden Ponys'\n    (Besiegt Goilag)";
@@ -207,7 +207,7 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Skirmish / Skirmish Instances / Thievery and Mischief
+    -- Scharmützel / Scharmützel-Instanzen / Dieberei und Unheil
     [1879162680] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Scharmützel / Dieberei und Unheil\n    (Erobert das Rathaus)";
@@ -215,49 +215,49 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Class/Race/Epic / Class / A Shot in the Dark
+    -- Klasse/Volk/Epos / Klasse / Ein Schuss ins Blaue
     [1879215638] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Gap of Rohan: Isendale / Ein Schuss ins Blaue\n    (Sprecht mit Ardwyn in Voranbront)";
     };
 
-    -- Class/Race/Epic / Class / Time of Need
+    -- Klasse/Volk/Epos / Klasse / Große Verzweiflung
     [1879091387] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Evendim / Große Verzweiflung\n    (Sammelt 6 Vorräte aus versteckten Lagern)";
     };
 
-    -- Rhovanion / Eastern Rohan / Aiding the Eastemnet
+    -- Rhovanion / Ost-Rohan / Hilfe für Ost-Emnet
     [1879240578] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Hytbold / Hilfe für Ost-Emnet\n    (Leute in Not findet man hauptsächlich in Harwick, der Stadt des Waldmeisters, Ohrenburg, und Schneegrenze.)";
     };
 
-    -- Rhovanion / Wildermore / Farms of the Fallows
+    -- Rhovanion / Wildermark / Höfe der Brachen
     [1879262826] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Wildermore: Fallows / Höfe der Brachen\n    (Findet Thrymms Hof in der Nähe von Forlach, Findet die Überlebenden auf Thrymms Hof, Findet Oter in der Mitte von Thrymms Hof)";
     };
 
-    -- Eriador / Enedwaith / Little Wonders
+    -- Eriador / Enedwaith / Kleine Wunder
     [1879182762] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Enedwaith / Kleine Wunder\n    (Sprecht mit einem Waldläufer in Echad Idhrenfair.)";
     };
 
-    -- Instances / Tower of Dol Guldur / Leave No One Behind
+    -- Instanzen / Turm von Dol Guldur / Lasst keinen zurück
     [1879393874] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Imlad Morgul: Circle of Madness / Lasst keinen zurück\n    (Ihr seid aus den Hallen des Dunklen Wissens entkommen, aber ohne Faeron. Ihr müsst ihn finden und herausfinden, ob es wirklich Viznak war, den ihr in den Hallen gehört habt.)";
     };
 
-    -- Gondor / Far Anórien / After the Battle
+    -- Gondor / Fernes Anórien / Nach der Schlacht
     [1879335348] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Minas Tirith (After Battle) / Nach der Schlacht\n    (Sprecht mit Imrahil.)";
     };
 
-    -- Skirmish / Skirmish Instances / Rescue in Nûrz Ghâshu
+    -- Scharmützel / Scharmützel-Instanzen / Rettung in Nûrz Ghâshu
     [1879181728] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Scharmützel / Rettung in Nûrz Ghâshu\n    (Sprecht mit Golodir)";
@@ -266,7 +266,7 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Eriador / Angmar / Warg-slayer, Eriador / Dunland / Warg-slayer, Eriador / Lone-lands / Warg-slayer, Eriador / Misty Mountains / Warg-slayer, Eriador / North Downs / Warg-slayer, Rhovanion / Moria / Warg-slayer, Rhovanion / Warg-slayer / Warg-slayer
+    -- Eriador / Angmar / Warg-Bezwinger(in), Eriador / Dunland / Warg-Bezwinger(in), Eriador / Einsame Lande / Warg-Bezwinger(in), Eriador / Nebelgebirge / Warg-Bezwinger(in), Eriador / Nordhöhen / Warg-Bezwinger(in), Rhovanion / Moria / Warg-Bezwinger(in), Rhovanion / Süd-Düsterwald / Warg-Bezwinger(in)
     [1879054427] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "North Downs / Warg-Bezwinger(in)\n    (Besiegt 8 Warge)";
