@@ -230,8 +230,6 @@ _CONFLICTING_QUESTS = {
     };
 
     -- Skirmish / Skirmish Instances / The Perfect Picnic
-    -- TBD: Check quest announcement text
-    -- TBD: Check if quest is delayed
     [1879367046] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Skirmish / The Perfect Picnic\n    (Enjoy a lovely picnic)";

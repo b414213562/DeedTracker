@@ -1,3 +1,8 @@
+Todo "The Perfect Picnic" conflicting quest:
+    -- TBD: Check quest announcement text
+    -- TBD: Check if quest is delayed
+    -- I think I did these?
+
 dt192 — 2024-11-10 at 11:51 AM
     Could we get an option to turn off the icon opacity
     Also right clicking on the icon does nothing, seems a waste, maybe make it open the settings
