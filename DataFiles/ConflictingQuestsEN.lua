@@ -129,7 +129,7 @@ _CONFLICTING_QUESTS = {
         ["QUESTNAME"] = "Imlad Morgul: Circle of Madness / Leave No One Behind\n    (You have escaped from the Halls of Black Lore, but without Faeron. You must find him and discover if it was indeed Viznak you heard inside.)";
     };
 
-    -- Eridaor / Enedwaith / Little Wonders
+    -- Eriador / Enedwaith / Little Wonders
     [1879182762] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Enedwaith / Little Wonders\n    (Talk to a Ranger at Echad Idhrenfair.)";
@@ -203,7 +203,7 @@ _CONFLICTING_QUESTS = {
         ["QUESTNAME"] = "Entwash Vale / The Best Defence\n    (Assist Ingmar or Lady Góda)";
     };
 
-    -- Eridaor / Angmar / The Circle of Despair
+    -- Eriador / Angmar / The Circle of Despair
     [1879396465] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Imlad Morgul: Minas Morgul / The Circle of Despair\n    (Aid Dornach in securing the Circle of Despair, and Talk to Candúr in Barad Arthir.)";
@@ -223,7 +223,7 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Eridaor / Forochel / The Lost Fellowship
+    -- Eriador / Forochel / The Lost Fellowship
     [1879109321] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Angmar / The Lost Fellowship\n    (Helegdir asked you to seek out a member of a fellowship of adventurers who journeyed to Forochel, passing through Aughaire in Angmar.)";
@@ -268,7 +268,7 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Eridaor / Angmar / Warg-slayer, Eridaor / Dunland / Warg-slayer, Eridaor / Lone-lands / Warg-slayer, Eridaor / Misty Mountains / Warg-slayer, Eridaor / North Downs / Warg-slayer, Rhovanion / Moria / Warg-slayer, Rhovanion / Warg-slayer / Warg-slayer
+    -- Eriador / Angmar / Warg-slayer, Eriador / Dunland / Warg-slayer, Eriador / Lone-lands / Warg-slayer, Eriador / Misty Mountains / Warg-slayer, Eriador / North Downs / Warg-slayer, Rhovanion / Moria / Warg-slayer, Rhovanion / Warg-slayer / Warg-slayer
     [1879054427] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "North Downs / Warg-slayer\n    (Defeat 8 wargs for Dagoras)";
@@ -297,7 +297,7 @@ _CONFLICTING_QUESTS = {
     -- Instances / The Grey Mountains / Lost Lore of the Dwarf-holds: Thikil-gundu
     --[1879370350]: Same objectives, so no entry needed.
 
-    -- Eridaor / Angmar / The Seven Swords
+    -- Eriador / Angmar / The Seven Swords
     --[1879103870]: Deed completes before quest can be taken. No entry needed.
 
     -- Rhovanion / The Dwarf-holds / The Howling Pit
