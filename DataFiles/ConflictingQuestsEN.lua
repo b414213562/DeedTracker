@@ -268,13 +268,7 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Eridaor / Angmar / Warg-slayer
-    -- Eridaor / Dunland / Warg-slayer
-    -- Eridaor / Lone-lands / Warg-slayer
-    -- Eridaor / Misty Mountains / Warg-slayer
-    -- Eridaor / North Downs / Warg-slayer
-    -- Rhovanion / Moria / Warg-slayer
-    -- Rhovanion / Warg-slayer / Warg-slayer
+    -- Eridaor / Angmar / Warg-slayer, Eridaor / Dunland / Warg-slayer, Eridaor / Lone-lands / Warg-slayer, Eridaor / Misty Mountains / Warg-slayer, Eridaor / North Downs / Warg-slayer, Rhovanion / Moria / Warg-slayer, Rhovanion / Warg-slayer / Warg-slayer
     [1879054427] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "North Downs / Warg-slayer\n    (Defeat 8 wargs for Dagoras)";
