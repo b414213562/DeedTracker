@@ -135,6 +135,12 @@ _CONFLICTING_QUESTS = {
         ["QUESTNAME"] = "Enedwaith / Little Wonders\n    (Talk to a Ranger at Echad Idhrenfair.)";
     };
 
+    -- Class/Race/Epic / Class / Out of the North
+    [1879143335] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Eregion / Out of the North\n    (Collect Angmarim iron and bring it to Ornras at Echad Mirobel)";
+    };
+
     -- Skirmish / Skirmish Instances / Protectors of Thangúlhad
     [1879160668] = {
         ["ISREPEATABLE"] = true;
