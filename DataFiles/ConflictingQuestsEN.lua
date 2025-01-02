@@ -278,37 +278,4 @@ _CONFLICTING_QUESTS = {
         ["QUESTNAME"] = "North Downs / Warg-slayer\n    (Defeat 8 wargs for Dagoras)";
     };
 
-    -- -- -- -- -- 
-
-    -- Skirmish / Skirmish Instances / Ford of Bruinen
-    -- [1879159240]: Quest name is The Ford of Bruinen, no issue in English
-
-    -- Skirmish / Skirmish Instances / The Battle of the Deep-way
-    -- [1879202440]: Quest name is Battle of the Deep-way, no issue in English
-
-    -- Skirmish / Skirmish Instances / The Battle of the Way of Smiths
-    -- [1879202441]: Quest name is Battle of the Way of Smiths, no issue in English
-
-    -- Skirmish / Skirmish Instances / The Battle of the Twenty-first Hall
-    -- [1879202439]: Quest name is Battle of the Twenty-first Hall, no issue in English
-
-    -- Instances / Shadows of Angmar / Facing Your Fears
-    --[1879201687]: Same objectives, so no entry needed.                
-
-    -- Instances / Ashes of Osgiliath / The Lord of Pinions
-    --[1879324364]: Same objectives, so no entry needed.
-
-    -- Instances / The Grey Mountains / Lost Lore of the Dwarf-holds: Thikil-gundu
-    --[1879370350]: Same objectives, so no entry needed.
-
-    -- Eriador / Angmar / The Seven Swords
-    --[1879103870]: Deed completes before quest can be taken. No entry needed.
-
-    -- Rhovanion / The Dwarf-holds / The Howling Pit
-    -- [1879381425] = {
-    -- Quest requires completing the challenge, so deed should already be done
-    --    ["ISREPEATABLE"] = false;
-    --    ["QUESTNAME"] = { ["EN"] = "Rhovanian / Dwarf-holds: The Ironfold / The Howling Pit\n    (Complete Challenge: The Howling Pit)"; };
-    --};
-
 };
