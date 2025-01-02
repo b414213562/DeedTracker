@@ -52,7 +52,7 @@ _CONFLICTING_QUESTS = {
     [1879208421] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Scharmützel / Angriff bei Morgengrauen\n    (Vernichtet Graug und sichert die Informationen über Esteldíns Lage)";
-        ["ANNOUNCE"] = "Besiegt Graug und sichert die Informationen über Esteldíns Lage.";
+        ["ANNOUNCE"] = "Besiegt Graug und sichert die Informationen über Esteldíns Lage";
         ["IS_SKIRMISH"] = true;
     };
 
@@ -135,7 +135,7 @@ _CONFLICTING_QUESTS = {
     [1879224852] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Scharmützel / Der Sturm auf Methedras\n    (Bezwingt Gwyllion und Echrud am Eingang von Gwyllions Hütte und beansprucht den letzten Kontrollpunkt)";
-        ["ANNOUNCE"] = "Ihr habt Gwyllion, die alte Frau des Berges, besiegt.";
+        ["ANNOUNCE"] = "Gwyllion und Echrud sind bezwungen, und die alte Frau stellt keine Bedrohung für Rohan mehr da.";
         ["ISDELAYED"] = true; -- Quest finishes after talking with Saeradan and receiving reward.
         ["IS_SKIRMISH"] = true;
     };
