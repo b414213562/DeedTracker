@@ -252,11 +252,11 @@ _CONFLICTING_QUESTS = {
         ["QUESTNAME"] = "Bree-land / La découverte du descendant\n    (Allez voir le cheval venu de Combe, Parlez à Eogar dans les Champs-aux-Chevaux)";
     };
 
-    -- Eridaor / Angmar / Warg-slayer
-    -- Eridaor / Dunland / Warg-slayer
-    -- Eridaor / Lone-lands / Warg-slayer
-    -- Eridaor / Misty Mountains / Warg-slayer
-    -- Eridaor / North Downs / Warg-slayer
+    -- Eriador / Angmar / Warg-slayer
+    -- Eriador / Dunland / Warg-slayer
+    -- Eriador / Lone-lands / Warg-slayer
+    -- Eriador / Misty Mountains / Warg-slayer
+    -- Eriador / North Downs / Warg-slayer
     -- Rhovanion / Moria / Warg-slayer
     -- Rhovanion / Warg-slayer / Warg-slayer
     [1879054427] = {
@@ -264,22 +264,22 @@ _CONFLICTING_QUESTS = {
         ["QUESTNAME"] = "North Downs / Tueur(se) d'ouargues\n    (Tuez 8 des ouargues)";
     };
 
-    -- Eridaor / Angmar / The Circle of Despair
+    -- Eriador / Angmar / The Circle of Despair
     [1879396465] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Imlad Morgul: Minas Morgul / Le cercle du désespoir\n    (Aidez Dornach à reconquérir le Cercle du Désespoir. Parlez à Candúr, à Barad Arthir.)";
     };
 
-    -- Eridaor / Angmar / The Seven Swords
+    -- Eriador / Angmar / The Seven Swords
     --[1879103870]: Deed completes before quest can be taken. No entry needed.
 
-    -- Eridaor / Forochel / The Lost Fellowship
+    -- Eriador / Forochel / The Lost Fellowship
     [1879109321] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Angmar / La Communauté Perdue\n    (Helegdir vous a demandé de retrouver un membre d'une communauté d'aventuriers qui est partie dans le Forochel en passant par Aughaire, en Angmar.)";
     };
 
-    -- Eridaor / Enedwaith / Little Wonders
+    -- Eriador / Enedwaith / Little Wonders
     [1879182762] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Enedwaith / Petites merveilles\n    (Allez voir un Rôdeur à Echad Idhrenfair.)";
