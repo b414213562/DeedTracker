@@ -223,7 +223,7 @@ _CONFLICTING_QUESTS = {
 
     -- Class/Race/Epic / Class / Time of Need
     [1879091387] = {
-        ["ISREPEATABLE"] = false;
+        ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Evendim / Große Verzweiflung\n    (Sammelt 6 Vorräte aus versteckten Lagern)";
     };
 
