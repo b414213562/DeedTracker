@@ -102,7 +102,7 @@ _CONFLICTING_QUESTS = {
         ["QUESTNAME"] = "Bree-land / Discovering the Descendant\n    (Check on the horse from Combe, Talk to Éogar in the Horsefields)";
     };
 
-    -- Skirmish / Skirmish Instances / Doom of Caras Gelebren:
+    -- Skirmish / Skirmish Instances / Doom of Caras Gelebren
     [1879453538] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Skirmish / Doom of Caras Gelebren\n    (Defend Caras Gelebren from the Enemy)";
@@ -272,7 +272,7 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Eriador / Angmar / Warg-slayer, Eriador / Dunland / Warg-slayer, Eriador / Lone-lands / Warg-slayer, Eriador / Misty Mountains / Warg-slayer, Eriador / North Downs / Warg-slayer, Rhovanion / Moria / Warg-slayer, Rhovanion / Warg-slayer / Warg-slayer
+    -- Eriador / Angmar / Warg-slayer, Eriador / Dunland / Warg-slayer, Eriador / Lone-lands / Warg-slayer, Eriador / Misty Mountains / Warg-slayer, Eriador / North Downs / Warg-slayer, Rhovanion / Moria / Warg-slayer, Rhovanion / Southern Mirkwood / Warg-slayer
     [1879054427] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "North Downs / Warg-slayer\n    (Defeat 8 wargs for Dagoras)";
