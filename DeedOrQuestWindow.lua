@@ -119,6 +119,7 @@ function DeedOrQuestDialog:AddDeedRow(deed)
     lblQuestTitle:SetText(questTitle);
     AutoFitLabelHeight(lblQuestTitle, 200);
     self.top = self.top + lblQuestTitle:GetHeight();
+    questRow:SetHeight(lblQuestTitle:GetHeight());
 
 end
 
