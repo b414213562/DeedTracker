@@ -2,48 +2,45 @@ if (GetClientLanguage() ~= "FR") then return true; end
 
 -- Language-dependent quest-name to quest ID lookup
 _CONFLICTING_QUEST_NAME_TO_ID = {
-    ["A l'aide de l'Estemnet"] = 1879240578;
-    ["A l'assaut de l'antre des Spectres de l'Anneau"] = 1879160626;
-    ["Après la bataille"] = 1879335348;
-    ["Attaque contre Dannenglor"] = 1879160578;
-    ["Attaque à l'aube"] = 1879208421;
-    ["Fermes des jachères"] = 1879262826;
+    ["A l'aide de l'Estemnet"] = 1879240578; -- Deed ID: 1879248360
+    ["A l'assaut de l'antre des Spectres de l'Anneau"] = 1879160626; -- Deed ID: 1879175326
+    ["Après la bataille"] = 1879335348; -- Deed ID: 1879334733
+    ["Attaque à l'aube"] = 1879208421; -- Deed ID: 1879209658
+    ["Attaque contre Dannenglor"] = 1879160578; -- Deed ID: 1879173661
+    ["Fermes des jachères"] = 1879262826; -- Deed ID: 1879265473
     ["Flèches dans les ténèbres"] = 1879215638;
-    ["Forcer la Porte du Nécromancien"] = 1879160602;
-    ["L'anniversaire de Sacquet"] = 1879282924;
-    ["La bataille d'Osgiliath"] = 1879326193;
-    ["La bataille de la tour"] = 1879160343;
-    ["La Communauté Perdue"] = 1879109321;
-    ["La Crevasse glacée"] = 1879207159;
-    ["La découverte du descendant"] = 1879234348;
-    ["La défense d'Amon Sûl"] = 1879159798;
-    ["La défense du Poney Fringant"] = 1879162702;
-    ["La Meilleure défense"] = 1879240242;
-    ["Le cercle du désespoir"] = 1879396465;
-    ["Le destin funeste de Caras Gelebren"] = 1879453538;
-    ["Le Trou de hobbit hanté"] = 1879189266;
-    ["Les yeux de l'Ennemi"] = 1879304967;
-    ["Ne laissez personne derrière vous"] = 1879393874;
-    ["Nécessité fait loi"] = 1879091387;
-    ["Orage sur Methedras"] = 1879224852;
-    ["Outils professionnels"] = 1879309913;
-    ["Petites merveilles"] = 1879182762;
-    ["Protecteur du peuple sauvage"] = 1879386531;
-    ["Protecteurs de Thangulhad"] = 1879160668;
-    ["Protectrice du peuple sauvage"] = 1879386531;
-    ["Sauvetage à Nûrz Ghâshu"] = 1879181728;
-    ["Troubles à Bourg de Touque"] = 1879156593;
-    ["Tueur d'ouargues"] = 1879054427;
-    ["Tueuse d'ouargues"] = 1879054427;
-    ["Un pique-nique idéal"] = 1879367046;
-    ["Vols et méfaits"] = 1879162680;
+    ["Forcer la Porte du Nécromancien"] = 1879160602; -- Deed ID: 1879163850
+    ["L'anniversaire de Sacquet"] = 1879282924; -- Deed ID: 1879283004
+    ["La bataille d'Osgiliath"] = 1879326193; -- Deed ID: 1879326392
+    ["La bataille de la tour"] = 1879160343; -- Deed ID: 1879173664
+    ["La Communauté Perdue"] = 1879109321; -- Deed ID: 1879110246
+    ["La Crevasse glacée"] = 1879207159; -- Deed ID: 1879208174
+    ["La découverte du descendant"] = 1879234348; -- Deed ID: 1879234462
+    ["La défense d'Amon Sûl"] = 1879159798; -- Deed ID: 1879159790
+    ["La défense du Poney Fringant"] = 1879162702; -- Deed ID: 1879162646
+    ["La Meilleure défense"] = 1879240242; -- Deed ID: 1879060151
+    ["Le cercle du désespoir"] = 1879396465; -- Deed ID: 1879085025
+    ["Le destin funeste de Caras Gelebren"] = 1879453538; -- Deed ID: 1879453347
+    ["Le Trou de hobbit hanté"] = 1879189266; -- Deed ID: 1879191253
+    ["Les yeux de l'Ennemi"] = 1879304967; -- Deed ID: 1879147022
+    ["Ne laissez personne derrière vous"] = 1879393874; -- Deed ID: 1879163179
+    ["Nécessité fait loi"] = 1879091387; -- Deed ID: 1879277369
+    ["Orage sur Methedras"] = 1879224852; -- Deed ID: 1879226092
+    ["Outils professionnels"] = 1879309913; -- Deed ID: 1879277293
+    ["Petites merveilles"] = 1879182762; -- Deed ID: 1879190838
+    ["Protecteur du peuple sauvage"] = 1879386531; -- Deed ID: 1879387431
+    ["Protecteurs de Thangulhad"] = 1879160668; -- Deed ID: 1879173662
+    ["Protectrice du peuple sauvage"] = 1879386531; -- Deed ID: 1879387431
+    ["Sauvetage à Nûrz Ghâshu"] = 1879181728; -- Deed ID: 1879182644
+    ["Troubles à Bourg de Touque"] = 1879156593; -- Deed ID: 1879158107
+    ["Tueur d'ouargues"] = 1879054427; -- Deed ID: 1879071724, 1879071734, 1879071768, 1879071782, 1879141058, 1879155766, 1879220076
+    ["Tueuse d'ouargues"] = 1879054427; -- Deed ID: 1879071724, 1879071734, 1879071768, 1879071782, 1879141058, 1879155766, 1879220076
+    ["Un pique-nique idéal"] = 1879367046; -- Deed ID: 1879367049
+    ["Vols et méfaits"] = 1879162680; -- Deed ID: 1879162619
 };
 
 -- Indexd by Quest ID
 _CONFLICTING_QUESTS = {
-    -- Skirmish / Skirmish Instances / Siege of Gondamon
-    -- [1879157752]: Quest name is The Siege of Gondamon, no issue in English
-
     -- Skirmish / Skirmish Instances / Trouble in Tuckborough
     [1879156593] = {
         ["ISREPEATABLE"] = true;
@@ -93,9 +90,6 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Skirmish / Skirmish Instances / Ford of Bruinen
-    -- [1879159240]: Quest name is The Ford of Bruinen, no issue in English
-
     -- Skirmish / Skirmish Instances / The Icy Crevasse
     [1879207159] = {
         ["ISREPEATABLE"] = true;
@@ -103,15 +97,6 @@ _CONFLICTING_QUESTS = {
         ["ANNOUNCE"] = "Les plans de l'Angmar ont été contrecarrés. Evendim est en sécurité, pour le moment du moins.";
         ["IS_SKIRMISH"] = true;
     };
-
-    -- Skirmish / Skirmish Instances / The Battle of the Deep-way
-    -- [1879202440]: Quest name is Battle of the Deep-way, no issue in English
-
-    -- Skirmish / Skirmish Instances / The Battle of the Way of Smiths
-    -- [1879202441]: Quest name is Battle of the Way of Smiths, no issue in English
-
-    -- Skirmish / Skirmish Instances / The Battle of the Twenty-first Hall
-    -- [1879202439]: Quest name is Battle of the Twenty-first Hall, no issue in English
 
     -- Skirmish / Skirmish Instances / Strike Against Dannenglor
     [1879160578] = {
@@ -163,8 +148,6 @@ _CONFLICTING_QUESTS = {
     };
 
     -- Skirmish / Skirmish Instances / The Perfect Picnic
-    -- TBD: Check quest announcement text
-    -- TBD: Check if quest is delayed
     [1879367046] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Escarmouche / Un pique-nique idéal\n    (Profitez d'un merveilleux pique-nique)";
@@ -182,9 +165,6 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Instances / Shadows of Angmar / Facing Your Fears
-    --[1879201687]: Same objectives, so no entry needed.                
-
     -- Instances / Mines of Moria / Eyes of the Enemy
     [1879304967] = {
         ["ISREPEATABLE"] = true;
@@ -196,13 +176,6 @@ _CONFLICTING_QUESTS = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Imlad Morgul: Circle of Madness / Ne laissez personne derrière vous\n    (Vous avez quitté le Hall du Sinistre Savoir, mais sans Faeron. Vous devez le trouver et découvrir si la voix de Viznak est bien celle que vous avez entendue à l'intérieur.)";
     };
-
-    -- Instances / Ashes of Osgiliath / The Lord of Pinions
-    --[1879324364]: Same objectives, so no entry needed.
-
-    -- Instances / The Grey Mountains / Lost Lore of the Dwarf-holds: Thikil-gundu
-    --[1879370350]: Same objectives, so no entry needed.
-
 
     -- The War / Osgiliath / The Battle for Osgiliath
     [1879326193] = {
@@ -252,13 +225,7 @@ _CONFLICTING_QUESTS = {
         ["QUESTNAME"] = "Bree-land / La découverte du descendant\n    (Allez voir le cheval venu de Combe, Parlez à Eogar dans les Champs-aux-Chevaux)";
     };
 
-    -- Eriador / Angmar / Warg-slayer
-    -- Eriador / Dunland / Warg-slayer
-    -- Eriador / Lone-lands / Warg-slayer
-    -- Eriador / Misty Mountains / Warg-slayer
-    -- Eriador / North Downs / Warg-slayer
-    -- Rhovanion / Moria / Warg-slayer
-    -- Rhovanion / Warg-slayer / Warg-slayer
+    -- Eriador / Angmar / Warg-slayer, Eriador / Dunland / Warg-slayer, Eriador / Lone-lands / Warg-slayer, Eriador / Misty Mountains / Warg-slayer, Eriador / North Downs / Warg-slayer, Rhovanion / Moria / Warg-slayer, Rhovanion / Warg-slayer / Warg-slayer
     [1879054427] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "North Downs / Tueur(se) d'ouargues\n    (Tuez 8 des ouargues)";
@@ -269,9 +236,6 @@ _CONFLICTING_QUESTS = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Imlad Morgul: Minas Morgul / Le cercle du désespoir\n    (Aidez Dornach à reconquérir le Cercle du Désespoir. Parlez à Candúr, à Barad Arthir.)";
     };
-
-    -- Eriador / Angmar / The Seven Swords
-    --[1879103870]: Deed completes before quest can be taken. No entry needed.
 
     -- Eriador / Forochel / The Lost Fellowship
     [1879109321] = {
@@ -296,12 +260,6 @@ _CONFLICTING_QUESTS = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Wildermore: Fallows / Fermes des jachères\n    (Trouvez la ferme de Thrymm, près de Forloi; Trouvez les survivants près de la ferme de Thrymm; Trouvez Oter au centre de la ferme de Thrymm)";
     };
-
-    -- Rhovanion / The Dwarf-holds / The Howling Pit
-    -- [1879381425] = {
-    -- Quest requires completing the challenge, so deed should already be done
-    --    ["ISREPEATABLE"] = false;
-    --};
 
     -- Rhovanion / Vales of Anduin / Protectors of the Wilderfolk
     [1879386531] = {
