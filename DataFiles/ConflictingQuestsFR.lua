@@ -41,37 +41,24 @@ _CONFLICTING_QUEST_NAME_TO_ID = {
 
 -- Indexd by Quest ID
 _CONFLICTING_QUESTS = {
-    -- Skirmish / Skirmish Instances / Trouble in Tuckborough
-    [1879156593] = {
+    -- Rhovanion / Eastern Rohan / Aiding the Eastemnet
+    [1879240578] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Escarmouche / Troubles à Bourg de Touque\n    (Eliminez le semi-Orque à l'entrée des Grands Smials et reprenez les Grands Smials)";
-        ["ANNOUNCE"] = "Le semi-Orque menant l'assaut est mort. Les brigands et les gobelins encore en vie se dispersent. Les Grands Smials sont sauvés.";
+        ["QUESTNAME"] = "Hytbold / A l'aide de l'Estemnet\n    (Les gens qui ont besoin d'aide se trouvent essentiellement à Harwick, Cliving, Eaworth et Neigebronne.)";
+    };
+
+    -- Skirmish / Skirmish Instances / Assault on the Ringwraiths' Lair
+    [1879160626] = {
+        ["ISREPEATABLE"] = true;
+        ["QUESTNAME"] = "Escarmouche / A l'assaut de l'antre des Spectres de l'Anneau\n    (Prenez l'Antre des Spectres de l'Anneau)";
+        ["ANNOUNCE"] = "Vous avez conquis l'antre des Spectres de l'Anneau. Le cœur de Dol Guldur est désormais accessible.";
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Skirmish / Skirmish Instances / Storm on Methedras
-    [1879224852] = {
-        ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Escarmouche / Orage sur Methedras\n    (Battez Gwyllion et Echrud devant la hutte de Gwyllion et prenez le point de contrôle final)";
-        ["ANNOUNCE"] = "Vous avez vaincu Gwyllion, la Vieille femme de la montagne";
-        ["ISDELAYED"] = true; -- Quest finishes after talking with Saeradan and receiving reward.
-        ["IS_SKIRMISH"] = true;
-    };
-
-    -- Skirmish / Skirmish Instances / Stand at Amon Sûl
-    [1879159798] = {
-        ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Escarmouche / La défense d'Amon Sûl\n    (Venez à bout du Cargûl)";
-        ["ANNOUNCE"] = "Le Cargûl a été vaincu et Candaith a survécu. C'est lui qui ira annoncer la nouvelle à Fondcombe.";
-        ["IS_SKIRMISH"] = true;
-    };
-
-    -- Skirmish / Skirmish Instances / Thievery and Mischief
-    [1879162680] = {
-        ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Escarmouche / Vols et méfaits\n    (Reprenez l'hôtel de ville)";
-        ["ANNOUNCE"] = "Vous avez repris l'Hôtel de ville et libéré le sud de Bree.";
-        ["IS_SKIRMISH"] = true;
+    -- Gondor / Far Anórien / After the Battle
+    [1879335348] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Minas Tirith (After Battle) / Après la bataille\n    (Parlez à Imrahil)";
     };
 
     -- Skirmish / Skirmish Instances / Attack at Dawn
@@ -79,22 +66,6 @@ _CONFLICTING_QUESTS = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Escarmouche / Attaque à l'aube\n    (Triomphez de Graug et découvrez l'emplacement d'Esteldin)";
         ["ANNOUNCE"] = "Graug éliminé et emplacement d'Esteldin obtenu";
-        ["IS_SKIRMISH"] = true;
-    };
-
-    -- Skirmish / Skirmish Instances / Defence of the Prancing Pony
-    [1879162702] = {
-        ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Escarmouche / La défense du Poney Fringant\n    (Eliminez Goilag)";
-        ["ANNOUNCE"] = "Goilag a été vaincu. Bree est sauvée";
-        ["IS_SKIRMISH"] = true;
-    };
-
-    -- Skirmish / Skirmish Instances / The Icy Crevasse
-    [1879207159] = {
-        ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Escarmouche / La Crevasse glacée\n    (Triomphez de l'ensorceleur d'Angmar et emparez-vous de la grotte)";
-        ["ANNOUNCE"] = "Les plans de l'Angmar ont été contrecarrés. Evendim est en sécurité, pour le moment du moins.";
         ["IS_SKIRMISH"] = true;
     };
 
@@ -106,12 +77,16 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Skirmish / Skirmish Instances / Protectors of Thangúlhad
-    [1879160668] = {
-        ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Escarmouche / Protecteurs de Thangulhad\n    (Repoussez le cinquième assaut, Allez voir Rodelleth)";
-        ["ANNOUNCE"] = "Vous avez vaincu Mazaukal. Thangulhad est sécurisé.";
-        ["IS_SKIRMISH"] = true;
+    -- Rhovanion / Wildermore / Farms of the Fallows
+    [1879262826] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Wildermore: Fallows / Fermes des jachères\n    (Trouvez la ferme de Thrymm, près de Forloi; Trouvez les survivants près de la ferme de Thrymm; Trouvez Oter au centre de la ferme de Thrymm)";
+    };
+
+    -- Class/Race/Epic / Class / A Shot in the Dark
+    [1879215638] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Gap of Rohan: Isendale / Flèches dans les ténèbres\n    (Parlez à Ardwyn à Brondavant)";
     };
 
     -- Skirmish / Skirmish Instances / Breaching the Necromancer's Gate
@@ -122,12 +97,16 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Skirmish / Skirmish Instances / Assault on the Ringwraiths' Lair
-    [1879160626] = {
-        ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Escarmouche / A l'assaut de l'antre des Spectres de l'Anneau\n    (Prenez l'Antre des Spectres de l'Anneau)";
-        ["ANNOUNCE"] = "Vous avez conquis l'antre des Spectres de l'Anneau. Le cœur de Dol Guldur est désormais accessible.";
-        ["IS_SKIRMISH"] = true;
+    -- Class/Race/Epic / Race & Social / Baggins' Birthday
+    [1879282924] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Festival / L'anniversaire de Sacquet -- Rejouable\n    (Allez parler à Frodon Sacquet à la Dernière Maison Simple de Fondcombe)";
+    };
+
+    -- The War / Osgiliath / The Battle for Osgiliath
+    [1879326193] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Osgiliath: Court of Anárion / La bataille d'Osgiliath\n    (Parlez à Cangoras, Edenos, Arthon)";
     };
 
     -- Skirmish / Skirmish Instances / The Battle in the Tower
@@ -138,22 +117,52 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Skirmish / Skirmish Instances / Rescue in Nûrz Ghâshu
-    [1879181728] = {
+    -- Eriador / Forochel / The Lost Fellowship
+    [1879109321] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Angmar / La Communauté Perdue\n    (Helegdir vous a demandé de retrouver un membre d'une communauté d'aventuriers qui est partie dans le Forochel en passant par Aughaire, en Angmar.)";
+    };
+
+    -- Skirmish / Skirmish Instances / The Icy Crevasse
+    [1879207159] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Escarmouche / Sauvetage à Nûrz Ghâshu\n    (Parlez à Golodir)";
-        ["ANNOUNCE"] = "Erebun a été vaincu et Golodir a été libéré";
-        ["ISDELAYED"] = true; -- Quest finishes after talking with Corunir / Golodir
+        ["QUESTNAME"] = "Escarmouche / La Crevasse glacée\n    (Triomphez de l'ensorceleur d'Angmar et emparez-vous de la grotte)";
+        ["ANNOUNCE"] = "Les plans de l'Angmar ont été contrecarrés. Evendim est en sécurité, pour le moment du moins.";
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Skirmish / Skirmish Instances / The Perfect Picnic
-    [1879367046] = {
+    -- Class/Race/Epic / Epic / Discovering the Descendant
+    [1879234348] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Bree-land / La découverte du descendant\n    (Allez voir le cheval venu de Combe, Parlez à Eogar dans les Champs-aux-Chevaux)";
+    };
+
+    -- Skirmish / Skirmish Instances / Stand at Amon Sûl
+    [1879159798] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Escarmouche / Un pique-nique idéal\n    (Profitez d'un merveilleux pique-nique)";
-        ["ANNOUNCE"] = "Le pique-nique est sauvé. La pluie a même rafraîchi un peu l'atmosphère !";
-        ["ISDELAYED"] = true; -- Quest finishes after eating food
+        ["QUESTNAME"] = "Escarmouche / La défense d'Amon Sûl\n    (Venez à bout du Cargûl)";
+        ["ANNOUNCE"] = "Le Cargûl a été vaincu et Candaith a survécu. C'est lui qui ira annoncer la nouvelle à Fondcombe.";
         ["IS_SKIRMISH"] = true;
+    };
+
+    -- Skirmish / Skirmish Instances / Defence of the Prancing Pony
+    [1879162702] = {
+        ["ISREPEATABLE"] = true;
+        ["QUESTNAME"] = "Escarmouche / La défense du Poney Fringant\n    (Eliminez Goilag)";
+        ["ANNOUNCE"] = "Goilag a été vaincu. Bree est sauvée";
+        ["IS_SKIRMISH"] = true;
+    };
+
+    -- Class/Race/Epic / Class / The Best Defence
+    [1879240242] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Entwash Vale / La Meilleure défense\n    (Aidez Ingmar ou Dame Góda)";
+    };
+
+    -- Eriador / Angmar / The Circle of Despair
+    [1879396465] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Imlad Morgul: Minas Morgul / Le cercle du désespoir\n    (Aidez Dornach à reconquérir le Cercle du Désespoir. Parlez à Candúr, à Barad Arthir.)";
     };
 
     -- Skirmish / Skirmish Instances / Doom of Caras Gelebren:
@@ -163,6 +172,12 @@ _CONFLICTING_QUESTS = {
         ["ANNOUNCE"] = "Le champion de l'Ennemi a été vaincu !";
         ["ISDELAYED"] = true; -- Quest completion is the first Quest chat item after this announcement, but there is about two minutes of NPC talking in between.
         ["IS_SKIRMISH"] = true;
+    };
+
+    -- Class/Race/Epic / Race & Social / The Haunted Burrow
+    [1879189266] = {
+        ["ISREPEATABLE"] = true;
+        ["QUESTNAME"] = "Harvest Festival / Le Trou de hobbit hanté -- Rejouable\n    (Allez voir Lobelia à l'intérieur du Trou de hobbit hanté, Allez voir Opale Bravet pour discuter du sort du Trou de hobbit hanté)";
     };
 
     -- Instances / Mines of Moria / Eyes of the Enemy
@@ -177,16 +192,19 @@ _CONFLICTING_QUESTS = {
         ["QUESTNAME"] = "Imlad Morgul: Circle of Madness / Ne laissez personne derrière vous\n    (Vous avez quitté le Hall du Sinistre Savoir, mais sans Faeron. Vous devez le trouver et découvrir si la voix de Viznak est bien celle que vous avez entendue à l'intérieur.)";
     };
 
-    -- The War / Osgiliath / The Battle for Osgiliath
-    [1879326193] = {
-        ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Osgiliath: Court of Anárion / La bataille d'Osgiliath\n    (Parlez à Cangoras, Edenos, Arthon)";
-    };
-
     -- Class/Race/Epic / Class / Time of Need
     [1879091387] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Evendim / Nécessité fait loi\n    (Récupérez 6 le matériel des caches)";
+    };
+
+    -- Skirmish / Skirmish Instances / Storm on Methedras
+    [1879224852] = {
+        ["ISREPEATABLE"] = true;
+        ["QUESTNAME"] = "Escarmouche / Orage sur Methedras\n    (Battez Gwyllion et Echrud devant la hutte de Gwyllion et prenez le point de contrôle final)";
+        ["ANNOUNCE"] = "Vous avez vaincu Gwyllion, la Vieille femme de la montagne";
+        ["ISDELAYED"] = true; -- Quest finishes after talking with Saeradan and receiving reward.
+        ["IS_SKIRMISH"] = true;
     };
 
     -- Class/Race/Epic / Class / Tools of the Trade
@@ -195,70 +213,10 @@ _CONFLICTING_QUESTS = {
         ["QUESTNAME"] = "Western Gondor: Belfalas / Outils professionnels -- Rejouable\n    (Récupérez 8 les outils)";
     };
 
-    -- Class/Race/Epic / Class / The Best Defence
-    [1879240242] = {
-        ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Entwash Vale / La Meilleure défense\n    (Aidez Ingmar ou Dame Góda)";
-    };
-
-    -- Class/Race/Epic / Class / A Shot in the Dark
-    [1879215638] = {
-        ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Gap of Rohan: Isendale / Flèches dans les ténèbres\n    (Parlez à Ardwyn à Brondavant)";
-    };
-
-    -- Class/Race/Epic / Race & Social / Baggins' Birthday
-    [1879282924] = {
-        ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Festival / L'anniversaire de Sacquet -- Rejouable\n    (Allez parler à Frodon Sacquet à la Dernière Maison Simple de Fondcombe)";
-    };
-
-    -- Class/Race/Epic / Race & Social / The Haunted Burrow
-    [1879189266] = {
-        ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Harvest Festival / Le Trou de hobbit hanté -- Rejouable\n    (Allez voir Lobelia à l'intérieur du Trou de hobbit hanté, Allez voir Opale Bravet pour discuter du sort du Trou de hobbit hanté)";
-    };
-
-    -- Class/Race/Epic / Epic / Discovering the Descendant
-    [1879234348] = {
-        ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Bree-land / La découverte du descendant\n    (Allez voir le cheval venu de Combe, Parlez à Eogar dans les Champs-aux-Chevaux)";
-    };
-
-    -- Eriador / Angmar / Warg-slayer, Eriador / Dunland / Warg-slayer, Eriador / Lone-lands / Warg-slayer, Eriador / Misty Mountains / Warg-slayer, Eriador / North Downs / Warg-slayer, Rhovanion / Moria / Warg-slayer, Rhovanion / Warg-slayer / Warg-slayer
-    [1879054427] = {
-        ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "North Downs / Tueur(se) d'ouargues\n    (Tuez 8 des ouargues)";
-    };
-
-    -- Eriador / Angmar / The Circle of Despair
-    [1879396465] = {
-        ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Imlad Morgul: Minas Morgul / Le cercle du désespoir\n    (Aidez Dornach à reconquérir le Cercle du Désespoir. Parlez à Candúr, à Barad Arthir.)";
-    };
-
-    -- Eriador / Forochel / The Lost Fellowship
-    [1879109321] = {
-        ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Angmar / La Communauté Perdue\n    (Helegdir vous a demandé de retrouver un membre d'une communauté d'aventuriers qui est partie dans le Forochel en passant par Aughaire, en Angmar.)";
-    };
-
     -- Eriador / Enedwaith / Little Wonders
     [1879182762] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Enedwaith / Petites merveilles\n    (Allez voir un Rôdeur à Echad Idhrenfair.)";
-    };
-
-    -- Rhovanion / Eastern Rohan / Aiding the Eastemnet
-    [1879240578] = {
-        ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Hytbold / A l'aide de l'Estemnet\n    (Les gens qui ont besoin d'aide se trouvent essentiellement à Harwick, Cliving, Eaworth et Neigebronne.)";
-    };
-
-    -- Rhovanion / Wildermore / Farms of the Fallows
-    [1879262826] = {
-        ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Wildermore: Fallows / Fermes des jachères\n    (Trouvez la ferme de Thrymm, près de Forloi; Trouvez les survivants près de la ferme de Thrymm; Trouvez Oter au centre de la ferme de Thrymm)";
     };
 
     -- Rhovanion / Vales of Anduin / Protectors of the Wilderfolk
@@ -267,10 +225,52 @@ _CONFLICTING_QUESTS = {
         ["QUESTNAME"] = "Vales of Anduin: Protectors of the Wilderfolk / Protecteur/Protectrice du peuple sauvage\n    (Vous devriez chercher Audvak, Hithril et Ragnild, pour leur proposer de les aider.)";
     };
 
-    -- Gondor / Far Anórien / After the Battle
-    [1879335348] = {
+    -- Skirmish / Skirmish Instances / Protectors of Thangúlhad
+    [1879160668] = {
+        ["ISREPEATABLE"] = true;
+        ["QUESTNAME"] = "Escarmouche / Protecteurs de Thangulhad\n    (Repoussez le cinquième assaut, Allez voir Rodelleth)";
+        ["ANNOUNCE"] = "Vous avez vaincu Mazaukal. Thangulhad est sécurisé.";
+        ["IS_SKIRMISH"] = true;
+    };
+
+    -- Skirmish / Skirmish Instances / Rescue in Nûrz Ghâshu
+    [1879181728] = {
+        ["ISREPEATABLE"] = true;
+        ["QUESTNAME"] = "Escarmouche / Sauvetage à Nûrz Ghâshu\n    (Parlez à Golodir)";
+        ["ANNOUNCE"] = "Erebun a été vaincu et Golodir a été libéré";
+        ["ISDELAYED"] = true; -- Quest finishes after talking with Corunir / Golodir
+        ["IS_SKIRMISH"] = true;
+    };
+
+    -- Skirmish / Skirmish Instances / Trouble in Tuckborough
+    [1879156593] = {
+        ["ISREPEATABLE"] = true;
+        ["QUESTNAME"] = "Escarmouche / Troubles à Bourg de Touque\n    (Eliminez le semi-Orque à l'entrée des Grands Smials et reprenez les Grands Smials)";
+        ["ANNOUNCE"] = "Le semi-Orque menant l'assaut est mort. Les brigands et les gobelins encore en vie se dispersent. Les Grands Smials sont sauvés.";
+        ["IS_SKIRMISH"] = true;
+    };
+
+    -- Eriador / Angmar / Warg-slayer, Eriador / Dunland / Warg-slayer, Eriador / Lone-lands / Warg-slayer, Eriador / Misty Mountains / Warg-slayer, Eriador / North Downs / Warg-slayer, Rhovanion / Moria / Warg-slayer, Rhovanion / Warg-slayer / Warg-slayer
+    [1879054427] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Minas Tirith (After Battle) / Après la bataille\n    (Parlez à Imrahil)";
+        ["QUESTNAME"] = "North Downs / Tueur(se) d'ouargues\n    (Tuez 8 des ouargues)";
+    };
+
+    -- Skirmish / Skirmish Instances / The Perfect Picnic
+    [1879367046] = {
+        ["ISREPEATABLE"] = true;
+        ["QUESTNAME"] = "Escarmouche / Un pique-nique idéal\n    (Profitez d'un merveilleux pique-nique)";
+        ["ANNOUNCE"] = "Le pique-nique est sauvé. La pluie a même rafraîchi un peu l'atmosphère !";
+        ["ISDELAYED"] = true; -- Quest finishes after eating food
+        ["IS_SKIRMISH"] = true;
+    };
+
+    -- Skirmish / Skirmish Instances / Thievery and Mischief
+    [1879162680] = {
+        ["ISREPEATABLE"] = true;
+        ["QUESTNAME"] = "Escarmouche / Vols et méfaits\n    (Reprenez l'hôtel de ville)";
+        ["ANNOUNCE"] = "Vous avez repris l'Hôtel de ville et libéré le sud de Bree.";
+        ["IS_SKIRMISH"] = true;
     };
 
 };
