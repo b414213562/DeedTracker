@@ -279,3 +279,4 @@ _CONFLICTING_QUESTS = {
     };
 
 };
+
