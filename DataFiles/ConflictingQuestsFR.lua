@@ -41,13 +41,13 @@ _CONFLICTING_QUEST_NAME_TO_ID = {
 
 -- Indexd by Quest ID
 _CONFLICTING_QUESTS = {
-    -- Rhovanion / Eastern Rohan / Aiding the Eastemnet
+    -- Rhovanion / Rohan Est / A l'aide de l'Estemnet
     [1879240578] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Hytbold / A l'aide de l'Estemnet\n    (Les gens qui ont besoin d'aide se trouvent essentiellement à Harwick, Cliving, Eaworth et Neigebronne.)";
+        ["QUESTNAME"] = "Hytbold / A l'aide de l'Estemnet\n    (Terminez cinq quêtes pour venir en aide à l'Estemnet)";
     };
 
-    -- Skirmish / Skirmish Instances / Assault on the Ringwraiths' Lair
+    -- Escarmouche / Instances d'escarmouche / A l'assaut de l'antre des Spectres de l'Anneau
     [1879160626] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Escarmouche / A l'assaut de l'antre des Spectres de l'Anneau\n    (Prenez l'Antre des Spectres de l'Anneau)";
@@ -55,13 +55,13 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Gondor / Far Anórien / After the Battle
+    -- Gondor / Lointain Anórien / Après la bataille
     [1879335348] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Minas Tirith (After Battle) / Après la bataille\n    (Parlez à Imrahil)";
+        ["QUESTNAME"] = "Minas Tirith (après la bataille) / Après la bataille\n    (Parlez à Imrahil)";
     };
 
-    -- Skirmish / Skirmish Instances / Attack at Dawn
+    -- Instances / Instances d'escarmouche / Attaque à l'aube
     [1879208421] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Escarmouche / Attaque à l'aube\n    (Triomphez de Graug et découvrez l'emplacement d'Esteldin)";
@@ -69,7 +69,7 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Skirmish / Skirmish Instances / Strike Against Dannenglor
+    -- Escarmouche / Instances d'escarmouche / Attaque contre Dannenglor
     [1879160578] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Escarmouche / Attaque contre Dannenglor\n    (Prenez le contrôle de la chambre du sorcier et triomphez de ce dernier)";
@@ -77,10 +77,10 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Rhovanion / Wildermore / Farms of the Fallows
+    -- Rhovanion / Landes farouches / Fermes des jachères
     [1879262826] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Wildermore: Fallows / Fermes des jachères\n    (Trouvez la ferme de Thrymm, près de Forloi; Trouvez les survivants près de la ferme de Thrymm; Trouvez Oter au centre de la ferme de Thrymm)";
+        ["QUESTNAME"] = "Landes farouches : Les Jachères / Fermes des jachères\n    (Trouvez la ferme de Thrymm, près de Forloi; Trouvez les survivants près de la ferme de Thrymm; Trouvez Oter au centre de la ferme de Thrymm)";
     };
 
     -- Class/Race/Epic / Class / A Shot in the Dark
@@ -89,7 +89,7 @@ _CONFLICTING_QUESTS = {
         ["QUESTNAME"] = "Gap of Rohan: Isendale / Flèches dans les ténèbres\n    (Parlez à Ardwyn à Brondavant)";
     };
 
-    -- Skirmish / Skirmish Instances / Breaching the Necromancer's Gate
+    -- Escarmouche / Instances d'escarmouche / Forcer la Porte du Nécromancien
     [1879160602] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Escarmouche / Forcer la Porte du Nécromancien\n    (Reprenez la Porte du Nécromancien)";
@@ -97,19 +97,19 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Class/Race/Epic / Race & Social / Baggins' Birthday
+    -- Classe/Race/Epique / Race et statut social / L'anniversaire de Sacquet
     [1879282924] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Festival / L'anniversaire de Sacquet -- Rejouable\n    (Allez parler à Frodon Sacquet à la Dernière Maison Simple de Fondcombe)";
     };
 
-    -- The War / Osgiliath / The Battle for Osgiliath
+    -- Guerre / Osgiliath / La bataille d'Osgiliath
     [1879326193] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Osgiliath: Court of Anárion / La bataille d'Osgiliath\n    (Parlez à Cangoras, Edenos, Arthon)";
     };
 
-    -- Skirmish / Skirmish Instances / The Battle in the Tower
+    -- Escarmouche / Instances d'escarmouche / La bataille de la tour
     [1879160343] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Escarmouche / La bataille de la tour\n    (Prenez l'armurerie)";
@@ -117,13 +117,13 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Eriador / Forochel / The Lost Fellowship
+    -- Eriador / Forochel / La Communauté Perdue
     [1879109321] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Angmar / La Communauté Perdue\n    (Helegdir vous a demandé de retrouver un membre d'une communauté d'aventuriers qui est partie dans le Forochel en passant par Aughaire, en Angmar.)";
     };
 
-    -- Skirmish / Skirmish Instances / The Icy Crevasse
+    -- Escarmouche / Instances d'escarmouche / La Crevasse glacée
     [1879207159] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Escarmouche / La Crevasse glacée\n    (Triomphez de l'ensorceleur d'Angmar et emparez-vous de la grotte)";
@@ -131,13 +131,13 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Class/Race/Epic / Epic / Discovering the Descendant
+    -- Classe/Race/Epique / Epique / La découverte du descendant
     [1879234348] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Bree-land / La découverte du descendant\n    (Allez voir le cheval venu de Combe, Parlez à Eogar dans les Champs-aux-Chevaux)";
+        ["QUESTNAME"] = "La découverte du descendant / La découverte du descendant\n    (Allez voir le cheval venu de Combe, Parlez à Eogar dans les Champs-aux-Chevaux)";
     };
 
-    -- Skirmish / Skirmish Instances / Stand at Amon Sûl
+    -- Escarmouche / Instances d'escarmouche / La défense d'Amon Sûl
     [1879159798] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Escarmouche / La défense d'Amon Sûl\n    (Venez à bout du Cargûl)";
@@ -145,7 +145,7 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Skirmish / Skirmish Instances / Defence of the Prancing Pony
+    -- Escarmouche / Instances d'escarmouche / La défense du Poney Fringant
     [1879162702] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Escarmouche / La défense du Poney Fringant\n    (Eliminez Goilag)";
@@ -153,19 +153,19 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Class/Race/Epic / Class / The Best Defence
+    -- Classe/Race/Epique / Classe / La Meilleure défense
     [1879240242] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Entwash Vale / La Meilleure défense\n    (Aidez Ingmar ou Dame Góda)";
+        ["QUESTNAME"] = "La Vallée de l'Entalluve / La Meilleure défense\n    (Aidez Ingmar ou Dame Góda)";
     };
 
-    -- Eriador / Angmar / The Circle of Despair
+    -- Eriador / Angmar / Le cercle du désespoir
     [1879396465] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Imlad Morgul: Minas Morgul / Le cercle du désespoir\n    (Aidez Dornach à reconquérir le Cercle du Désespoir. Parlez à Candúr, à Barad Arthir.)";
+        ["QUESTNAME"] = "Imlad Morgul : Minas Morgul / Le cercle du désespoir\n    (Aidez Dornach à reconquérir le Cercle du Désespoir. Parlez à Candúr, à Barad Arthir.)";
     };
 
-    -- Skirmish / Skirmish Instances / Doom of Caras Gelebren:
+    -- Escarmouche / Instances d'escarmouche / Le destin funeste de Caras Gelebren
     [1879453538] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Escarmouche / Le destin funeste de Caras Gelebren\n    (Defendez Caras Gelebren contre l'Ennemi)";
@@ -174,31 +174,31 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Class/Race/Epic / Race & Social / The Haunted Burrow
+    -- Classe/Race/Epique / Race et statut social / Le Trou de hobbit hanté
     [1879189266] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Harvest Festival / Le Trou de hobbit hanté -- Rejouable\n    (Allez voir Lobelia à l'intérieur du Trou de hobbit hanté, Allez voir Opale Bravet pour discuter du sort du Trou de hobbit hanté)";
+        ["QUESTNAME"] = "Le festival des moissons / Le Trou de hobbit hanté -- Rejouable\n    (Allez voir Lobelia à l'intérieur du Trou de hobbit hanté, Allez voir Opale Bravet pour discuter du sort du Trou de hobbit hanté)";
     };
 
-    -- Instances / Mines of Moria / Eyes of the Enemy
+    -- Instances / Mines de la Moria / Les yeux de l'Ennemi
     [1879304967] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Trouée des Trolls / Les yeux de l'Ennemi -- Rejouable\n    (Tuez 6 des hendrovals dans les Gorges de Bruinen)";
     };
 
-    -- Instances / Tower of Dol Guldur / Leave No One Behind
+    -- Instances / Tour de Dol Guldur / Ne laissez personne derrière vous
     [1879393874] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Imlad Morgul: Circle of Madness / Ne laissez personne derrière vous\n    (Vous avez quitté le Hall du Sinistre Savoir, mais sans Faeron. Vous devez le trouver et découvrir si la voix de Viznak est bien celle que vous avez entendue à l'intérieur.)";
+        ["QUESTNAME"] = "Imlad Morgul : Cercle de la Démence / Ne laissez personne derrière vous\n    (Vous avez quitté le Hall du Sinistre Savoir, mais sans Faeron. Vous devez le trouver et découvrir si la voix de Viznak est bien celle que vous avez entendue à l'intérieur.)";
     };
 
-    -- Class/Race/Epic / Class / Time of Need
+    -- Classe/Race/Epique / Classe / Nécessité fait loi
     [1879091387] = {
-        ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Evendim / Nécessité fait loi\n    (Récupérez 6 le matériel des caches)";
+        ["ISREPEATABLE"] = true;
+        ["QUESTNAME"] = "Annuminas / Nécessité fait loi\n    (Récupérez 6 le matériel des caches)";
     };
 
-    -- Skirmish / Skirmish Instances / Storm on Methedras
+    -- Escarmouche / Instances d'escarmouche / Orage sur Methedras
     [1879224852] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Escarmouche / Orage sur Methedras\n    (Battez Gwyllion et Echrud devant la hutte de Gwyllion et prenez le point de contrôle final)";
@@ -207,25 +207,25 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Class/Race/Epic / Class / Tools of the Trade
+    -- Classe/Race/Epique / Classe / Outils professionnels
     [1879309913] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Western Gondor: Belfalas / Outils professionnels -- Rejouable\n    (Récupérez 8 les outils)";
+        ["QUESTNAME"] = "Ouest du Gondor : Belfalas / Outils professionnels -- Rejouable\n    (Récupérez 8 les outils)";
     };
 
-    -- Eriador / Enedwaith / Little Wonders
+    -- Eriador / Enedwaith / Petites merveilles
     [1879182762] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Enedwaith / Petites merveilles\n    (Allez voir un Rôdeur à Echad Idhrenfair.)";
     };
 
-    -- Rhovanion / Vales of Anduin / Protectors of the Wilderfolk
+    -- Rhovanion / Val d'Anduin / Protecteur/Protectrice du peuple sauvage
     [1879386531] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Vales of Anduin: Protectors of the Wilderfolk / Protecteur/Protectrice du peuple sauvage\n    (Vous devriez chercher Audvak, Hithril et Ragnild, pour leur proposer de les aider.)";
+        ["QUESTNAME"] = "Val d'Anduin: Protecteur/Protectrice du peuple sauvage / Protecteur/Protectrice du peuple sauvage\n    (Vous devriez chercher Audvak, Hithril et Ragnild, pour leur proposer de les aider.)";
     };
 
-    -- Skirmish / Skirmish Instances / Protectors of Thangúlhad
+    -- Escarmouche / Instances d'escarmouche / Protecteurs de Thangulhad
     [1879160668] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Escarmouche / Protecteurs de Thangulhad\n    (Repoussez le cinquième assaut, Allez voir Rodelleth)";
@@ -233,7 +233,7 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Skirmish / Skirmish Instances / Rescue in Nûrz Ghâshu
+    -- Escarmouche / Instances d'escarmouche / Sauvetage à Nûrz Ghâshu
     [1879181728] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Escarmouche / Sauvetage à Nûrz Ghâshu\n    (Parlez à Golodir)";
@@ -242,7 +242,7 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Skirmish / Skirmish Instances / Trouble in Tuckborough
+    -- Escarmouche / Instances d'escarmouche / Troubles à Bourg de Touque
     [1879156593] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Escarmouche / Troubles à Bourg de Touque\n    (Eliminez le semi-Orque à l'entrée des Grands Smials et reprenez les Grands Smials)";
@@ -250,13 +250,13 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Eriador / Angmar / Warg-slayer, Eriador / Dunland / Warg-slayer, Eriador / Lone-lands / Warg-slayer, Eriador / Misty Mountains / Warg-slayer, Eriador / North Downs / Warg-slayer, Rhovanion / Moria / Warg-slayer, Rhovanion / Warg-slayer / Warg-slayer
+    -- Eriador / Angmar, Eriador / Pays de Dun, Eriador / Terres Solitaires, Eriador / Monts Brumeux, Eriador / Hauts du Nord, Rhovanion / Moria, Rhovanion / Lothlórien: Warg-slayer Tueur/Tueuse d'ouargues
     [1879054427] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "North Downs / Tueur(se) d'ouargues\n    (Tuez 8 des ouargues)";
     };
 
-    -- Skirmish / Skirmish Instances / The Perfect Picnic
+    -- Escarmouche / Instances d'escarmouche / Un pique-nique idéal
     [1879367046] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Escarmouche / Un pique-nique idéal\n    (Profitez d'un merveilleux pique-nique)";
@@ -265,7 +265,7 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Skirmish / Skirmish Instances / Thievery and Mischief
+    -- Escarmouche / Instances d'escarmouche / Vols et méfaits
     [1879162680] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Escarmouche / Vols et méfaits\n    (Reprenez l'hôtel de ville)";
@@ -274,3 +274,4 @@ _CONFLICTING_QUESTS = {
     };
 
 };
+
