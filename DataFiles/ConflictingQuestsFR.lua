@@ -8,7 +8,6 @@ _CONFLICTING_QUEST_NAME_TO_ID = {
     ["Attaque à l'aube"] = 1879208421; -- Deed ID: 1879209658
     ["Attaque contre Dannenglor"] = 1879160578; -- Deed ID: 1879173661
     ["Fermes des jachères"] = 1879262826; -- Deed ID: 1879265473
-    ["Flèches dans les ténèbres"] = 1879215638;
     ["Forcer la Porte du Nécromancien"] = 1879160602; -- Deed ID: 1879163850
     ["L'anniversaire de Sacquet"] = 1879282924; -- Deed ID: 1879283004
     ["La bataille d'Osgiliath"] = 1879326193; -- Deed ID: 1879326392
@@ -81,12 +80,6 @@ _CONFLICTING_QUESTS = {
     [1879262826] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Landes farouches : Les Jachères / Fermes des jachères\n    (Trouvez la ferme de Thrymm, près de Forloi; Trouvez les survivants près de la ferme de Thrymm; Trouvez Oter au centre de la ferme de Thrymm)";
-    };
-
-    -- Class/Race/Epic / Class / A Shot in the Dark
-    [1879215638] = {
-        ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Gap of Rohan: Isendale / Flèches dans les ténèbres\n    (Parlez à Ardwyn à Brondavant)";
     };
 
     -- Escarmouche / Instances d'escarmouche / Forcer la Porte du Nécromancien
