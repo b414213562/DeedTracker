@@ -4,9 +4,13 @@ if (GetClientLanguage() ~= "FR") then return true; end
 _CONFLICTING_QUEST_NAME_TO_ID = {
     ["A l'aide de l'Estemnet"] = 1879240578; -- Deed ID: 1879248360
     ["A l'assaut de l'antre des Spectres de l'Anneau"] = 1879160626; -- Deed ID: 1879175326
+    ["Angle mort"] = 1879143826; -- Deed ID: 1879277241
+    ["Appel aux armes"] = 1879313650; -- Deed ID: 1879277410
     ["Après la bataille"] = 1879335348; -- Deed ID: 1879334733
     ["Attaque à l'aube"] = 1879208421; -- Deed ID: 1879209658
     ["Attaque contre Dannenglor"] = 1879160578; -- Deed ID: 1879173661
+    ["D'une pierre deux coups"] = 1879143693; -- Deed ID: 1879163154
+    ["Des intrus du nord"] = 1879143335; -- Deed ID: 1879457968
     ["Fermes des jachères"] = 1879262826; -- Deed ID: 1879265473
     ["Forcer la Porte du Nécromancien"] = 1879160602; -- Deed ID: 1879163850
     ["L'anniversaire de Sacquet"] = 1879282924; -- Deed ID: 1879283004
@@ -18,22 +22,32 @@ _CONFLICTING_QUEST_NAME_TO_ID = {
     ["La défense d'Amon Sûl"] = 1879159798; -- Deed ID: 1879159790
     ["La défense du Poney Fringant"] = 1879162702; -- Deed ID: 1879162646
     ["La Meilleure défense"] = 1879240242; -- Deed ID: 1879060151
+    ["La Vieille Forêt"] = 1879049664; -- Deed ID: 1879071671
+    ["Langue de velours"] = 1879243055; -- Deed ID: 1879277337
+    ["Le calme avant la tempête"] = 1879275478; -- Deed ID: 1879178992
     ["Le cercle du désespoir"] = 1879396465; -- Deed ID: 1879085025
     ["Le destin funeste de Caras Gelebren"] = 1879453538; -- Deed ID: 1879453347
     ["Le Trou de hobbit hanté"] = 1879189266; -- Deed ID: 1879191253
+    ["Les armes de l'ennemi"] = 1879135874; -- Deed ID: 1879147018
+    ["Les trésors du Cardolan"] = 1879061504; -- Deed ID: 1879450924
     ["Les yeux de l'Ennemi"] = 1879304967; -- Deed ID: 1879147022
     ["Ne laissez personne derrière vous"] = 1879393874; -- Deed ID: 1879163179
     ["Nécessité fait loi"] = 1879091387; -- Deed ID: 1879277369
+    ["Nouveau départ"] = 1879449901; -- Deed ID: 1879278970
     ["Orage sur Methedras"] = 1879224852; -- Deed ID: 1879226092
     ["Outils professionnels"] = 1879309913; -- Deed ID: 1879277293
+    ["Pas le temps de jouer"] = 1879381297; -- Deed ID: 1879277422
     ["Petites merveilles"] = 1879182762; -- Deed ID: 1879190838
     ["Protecteur du peuple sauvage"] = 1879386531; -- Deed ID: 1879387431
     ["Protecteurs de Thangulhad"] = 1879160668; -- Deed ID: 1879173662
     ["Protectrice du peuple sauvage"] = 1879386531; -- Deed ID: 1879387431
     ["Sauvetage à Nûrz Ghâshu"] = 1879181728; -- Deed ID: 1879182644
+    ["Sous les collines"] = 1879341656; -- Deed ID: 1879342445
     ["Troubles à Bourg de Touque"] = 1879156593; -- Deed ID: 1879158107
     ["Tueur d'ouargues"] = 1879054427; -- Deed ID: 1879071724, 1879071734, 1879071768, 1879071782, 1879141058, 1879155766, 1879220076
     ["Tueuse d'ouargues"] = 1879054427; -- Deed ID: 1879071724, 1879071734, 1879071768, 1879071782, 1879141058, 1879155766, 1879220076
+    ["Un accueil glacial"] = 1879264288; -- Deed ID: 1879226367
+    ["Un coup de main"] = 1879486584; -- Deed ID: 1879226454, 1879443429
     ["Un pique-nique idéal"] = 1879367046; -- Deed ID: 1879367049
     ["Vols et méfaits"] = 1879162680; -- Deed ID: 1879162619
 };
@@ -52,6 +66,18 @@ _CONFLICTING_QUESTS = {
         ["QUESTNAME"] = "Escarmouche / A l'assaut de l'antre des Spectres de l'Anneau\n    (Prenez l'Antre des Spectres de l'Anneau)";
         ["ANNOUNCE"] = "Vous avez conquis l'antre des Spectres de l'Anneau. Le cœur de Dol Guldur est désormais accessible.";
         ["IS_SKIRMISH"] = true;
+    };
+
+    -- Classe/Race/Epique / Classe / Angle mort
+    [1879143826] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Chasseur / Angle mort\n    (Arbald vous a demandé de retrouver la trace d'un ouvrier nain qui a disparu et de lui rapporter tous les indices que vous aurez découverts.)";
+    };
+
+    -- Classe/Race/Epique / Classe / Appel aux armes
+    [1879313650] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Ouest du Gondor : Vallée de la Racine Noire / Appel aux armes\n    (Inquiet de la sinistre alliance entre les Morts et l'envahisseur de la Couronne de Tarlang, Gúrion voudrait que vous alliez demander conseil à Malthellam pour les affronter.)";
     };
 
     -- Gondor / Lointain Anórien / Après la bataille
@@ -74,6 +100,18 @@ _CONFLICTING_QUESTS = {
         ["QUESTNAME"] = "Escarmouche / Attaque contre Dannenglor\n    (Prenez le contrôle de la chambre du sorcier et triomphez de ce dernier)";
         ["ANNOUNCE"] = "Le sorcier et la menace de Dannenglor ont été vaincus. Audaghaim et l'Armée d'Or sont sains et saufs.";
         ["IS_SKIRMISH"] = true;
+    };
+
+    -- Instances / Tour de Dol Guldur / D'une pierre deux coups
+    [1879143693] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Moria : Le système hydraulique / D'une pierre deux coups\n    (Entrée dans la Gueule Ignoble" description="Le système hydraulique est un site d'une grande importance pour les nains qui souhaitent rester dans la Moria. La mission d'Indrith le contremaître consiste à en réparer les canaux.)";
+    };
+
+    -- Classe/Race/Epique / Classe / Des intrus du nord
+    [1879143335] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Eregion / Des intrus du nord\n    (Les Angmarim fouillent l'Eregion à la recherche de reliques du passé qui pourraient leur être utiles. La petite troupe d'Elfes se trouvant à Echad Mirobel souhaite préserver les ruines et vous a demandé de l'aider dans sa mission.)";
     };
 
     -- Rhovanion / Landes farouches / Fermes des jachères
@@ -152,6 +190,24 @@ _CONFLICTING_QUESTS = {
         ["QUESTNAME"] = "La Vallée de l'Entalluve / La Meilleure défense\n    (Aidez Ingmar ou Dame Góda)";
     };
 
+    -- Eriador / Pays de Bree / La Vieille Forêt
+    [1879049664] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Pays de Bree / La Vieille Forêt\n    (Célandine Brandebouc a demandé au Père Maggotte ses notes concernant la Vieille Forêt, mais elle ne les a pas encore reçues. Elle est inquiète et pense que quelque chose de grave est peut-être arrivé.)";
+    };
+
+    -- Classe/Race/Epique / Classe / Langue de velours
+    [1879243055] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Norcrofts / Langue de velours\n    (Ordwacer harcèle les gardes à propos d'une commande faite à l'orfèvre de Cliving, Trumsele, qu'il n'a pas remplie.)";
+    };
+
+    -- Escarmouche / Instances d'escarmouche / Le calme avant la tempête
+    [1879275478] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Terre-du-Roi / Le calme avant la tempête\n    (Thane Edric and Léoflad struggle to ensure the safety of their people as the forces of the Enemy draw ever closer.)";
+    };
+
     -- Eriador / Angmar / Le cercle du désespoir
     [1879396465] = {
         ["ISREPEATABLE"] = false;
@@ -173,6 +229,18 @@ _CONFLICTING_QUESTS = {
         ["QUESTNAME"] = "Le festival des moissons / Le Trou de hobbit hanté -- Rejouable\n    (Allez voir Lobelia à l'intérieur du Trou de hobbit hanté, Allez voir Opale Bravet pour discuter du sort du Trou de hobbit hanté)";
     };
 
+    -- Instances / Mines de la Moria / Les armes de l'ennemi
+    [1879135874] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Moria : Zelem-melek / Les armes de l'ennemi\n    (Les Orques de la Moria ont longtemps pillé les caches d'armes que les nains avaient aménagées jadis dans les salles, mais les lances qu'ils utilisent sont particulièrement mortelles.)";
+    };
+
+    -- Eriador / Noues des cygnes et Cardolan / Les trésors du Cardolan
+    [1879061504] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Pays de Bree / Les trésors du Cardolan\n    (Rapportez le journal ancien à Tobold Coupefeuille)";
+    };
+
     -- Instances / Mines de la Moria / Les yeux de l'Ennemi
     [1879304967] = {
         ["ISREPEATABLE"] = true;
@@ -191,6 +259,12 @@ _CONFLICTING_QUESTS = {
         ["QUESTNAME"] = "Annuminas / Nécessité fait loi\n    (Récupérez 6 le matériel des caches)";
     };
 
+    -- Classe/Race/Epique / Classe / Nouveau départ
+    [1879449901] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Cardolan / Nouveau départ\n    (Quelques graines peuvent aider à prendre un nouveau départ.)";
+    };
+
     -- Escarmouche / Instances d'escarmouche / Orage sur Methedras
     [1879224852] = {
         ["ISREPEATABLE"] = true;
@@ -204,6 +278,12 @@ _CONFLICTING_QUESTS = {
     [1879309913] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Ouest du Gondor : Belfalas / Outils professionnels -- Rejouable\n    (Récupérez 8 les outils)";
+    };
+
+    -- Classe/Race/Epique / Classe / Pas le temps de jouer
+    [1879381297] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Pays de Bree / Pas le temps de jouer\n    (La ville de Bree est menacée de toutes parts et ses habitants ont besoin d'aventuriers pour remettre les choses en ordre !)";
     };
 
     -- Eriador / Enedwaith / Petites merveilles
@@ -235,6 +315,12 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
+    -- Gondor / Les Landes désertiques / Sous les collines
+    [1879341656] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Landes désertiques : Collines arides / Sous les collines\n    (Thurindol pense qu'il y a encore d'autres ennemis sous les Collines arides, et il vous a demandé d'aller voir ce qu'il en est.)";
+    };
+
     -- Escarmouche / Instances d'escarmouche / Troubles à Bourg de Touque
     [1879156593] = {
         ["ISREPEATABLE"] = true;
@@ -247,6 +333,18 @@ _CONFLICTING_QUESTS = {
     [1879054427] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "North Downs / Tueur(se) d'ouargues\n    (Tuez 8 des ouargues)";
+    };
+
+    -- Classe/Race/Epique / Race et statut social / Un accueil glacial
+    [1879264288] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Landes farouches : Les Coteaux tortueux / Un accueil glacial\n    (Des orques rôdent en grand nombre dans les Coteaux tortueux, exactement comme Thrymm l'a décrit.)";
+    };
+
+    -- Classe/Race/Epique / Race et statut social / Un coup de main, Escarmouche / Instances d'escarmouche / Un coup de main
+    [1879486584] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Récits des Frères et Sœurs / Un coup de main\n    (Alors que vous vous faufilez derrière la porte secrète, d'autres sbires de Sêkhta se dressent pour vous arrêter !)";
     };
 
     -- Escarmouche / Instances d'escarmouche / Un pique-nique idéal
