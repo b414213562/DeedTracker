@@ -181,4 +181,4 @@ DEFAULT_SETTINGS =
         };
     };
 
-SHOW_DEBUG_OPTIONS = true;
+SHOW_DEBUG_OPTIONS = false;
