@@ -1,4 +1,5 @@
 Figure out what the difference is between DisambiguateWindow and DeedOrQuestWindow.?!?
+Is taskIndicator in ChatLogger meaningful in other languages? Maybe remove it.
 
 For each Skirmish quest in any of the Conflicting Quests files,
     Make sure we have the announce text.

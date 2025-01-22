@@ -64,6 +64,9 @@ end
 function FilterQuest(character, cMessage)
 
     -- Check if the message contains "Task: ". If so, it's a task quest and we can skip further processing.
+    -- Todo: Is this meaningful in German or French? Find out!
+    --      Also: Does it actually save any time?
+    --      If this is useful, should we just have a list of Task quests?
     if (taskIndicator ~= nil and string.find(cMessage, taskIndicator)) then
         return;
     end
