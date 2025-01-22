@@ -276,7 +276,7 @@ _CONFLICTING_QUESTS = {
     -- Scharmützel / Scharmützel-Instanzen / Die Verteidigung des 'Tänzelnden Ponys'
     [1879162702] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Scharmützel / Die Verteidigung des 'Tänzelnden Ponys' (Wiederholbar)\n    (Die Frauen und Kinder Brees haben sich im Gasthaus \qZum Tänzelnden Pony\q verbarrikadiert. Die Räuber und Raufbolde, welche die Stadt eingenommen haben, wollen jene bestrafen, die sich gegen sie stellen.)";
+        ["QUESTNAME"] = "Scharmützel / Die Verteidigung des 'Tänzelnden Ponys' (Wiederholbar)\n    (Die Frauen und Kinder Brees haben sich im Gasthaus 'Zum Tänzelnden Pony' verbarrikadiert. Die Räuber und Raufbolde, welche die Stadt eingenommen haben, wollen jene bestrafen, die sich gegen sie stellen.)";
         ["ANNOUNCE"] = "Goilag wurde besiegt. Bree ist wieder in Sicherheit.";
         ["IS_SKIRMISH"] = true;
     };
