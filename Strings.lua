@@ -5,19 +5,22 @@ _LANG = {
     ["COMMAND"] = {         ["EN"] = "Use command /deedtracker to re-open the main window";
                             ["FR"] = "Use command /deedtracker to re-open the main window";
                             ["DE"] = "Use command /deedtracker to re-open the main window";
-                            ["RU"] = "Use command /deedtracker to re-open the main window";};
+                            ["RU"] = "Используйте команду /deedtracker для того чтобы снова открыть окно плагина";};
 
     ["STATUS"] = {
         ["LOADED"] = {
             ["EN"] = "Loaded 'Deed Tracker' v" .. Plugins["Deed Tracker"]:GetVersion() .. ", by Cube";
             ["DE"] = "Geladen 'Deed Tracker' v" .. Plugins["Deed Tracker"]:GetVersion() .. ", von Cube (Übersetzungen von Nadia)";
+            ["RU"] = "Загружен 'Deed Tracker' v" .. Plugins["Deed Tracker"]:GetVersion() .. ", by Cube (Переводчик Svertalf)";
         };
         ["SESSION_PLAY"] = {
             ["EN"] = "Deed Tracker: Session Play detected! Deed Tracker in read-only mode.";
             ["DE"] = "Deed Tracker: Sitzungsspiel entdeckt! Deed-Tracker bleibt im Nur-Lesen Modus.";
+            ["RU"] = "Deed Tracker: Session Play обнаружен! Deed Tracker в режиме 'Только чтение'.";
         };
         ["UNLOADED"] = {
             ["EN"] = "'Deed Tracker' unloaded";
+            ["RU"] = "'Deed Tracker' выгружен";
         }
 
     };

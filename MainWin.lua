@@ -138,6 +138,9 @@ end
 function DeedTrackerWin:AddTabButton(parent, label, position, size, tabIndex)
     local button = Turbine.UI.Lotro.Button();
     button:SetParent(parent);
+    if (LANGUAGE == "RU") then
+        button:SetFont(Turbine.UI.Lotro.Font.Verdana14);
+    end
     if (label) then button:SetText(label); end
     button:SetPosition(position.x, position.y);
     button:SetSize(size.width, size.height);
@@ -902,7 +905,11 @@ function DeedTrackerWin:RefreshDeedView(CHARACTER)
         lblDeedTabName:SetPosition(left,0);
         lblDeedTabName:SetSize(300,32);
         lblDeedTabName:SetForeColor(Turbine.UI.Color.Yellow);
-        lblDeedTabName:SetFont(TrajanPro18);
+        if (LANGUAGE == "RU") then
+            lblDeedTabName:SetFont(Turbine.UI.Lotro.Font.Verdana18);
+        else
+            lblDeedTabName:SetFont(TrajanPro18);
+        end
         lblDeedTabName:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleLeft);
         lblDeedTabName:SetText(DataFiles._DEED_LOG_PAGE_TAB_NAMES[DataFiles._DEED_LOG_PAGE_TABS[self.selectedTab][i]]);
         lblDeedTabName:SetMouseVisible(false);

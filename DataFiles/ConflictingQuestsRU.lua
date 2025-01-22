@@ -2,274 +2,393 @@ if (GetClientLanguage() ~= "RU") then return true; end
 
 -- Language-dependent quest-name to quest ID lookup
 _CONFLICTING_QUEST_NAME_TO_ID = {
-    ["A Shot in the Dark"] = 1879215638;
-    ["After the Battle"] = 1879335348;
-    ["Aiding the Eastemnet"] = 1879240578;
-    ["Assault on the Ringwraiths' Lair"] = 1879160626;
-    ["Attack at Dawn"] = 1879208421;
-    ["Baggins' Birthday"] = 1879282924;
-    ["Breaching the Necromancer's Gate"] = 1879160602;
-    ["Defence of the Prancing Pony"] = 1879162702;
-    ["Discovering the Descendant"] = 1879234348;
-    ["Doom of Caras Gelebren"] = 1879453538;
-    ["Eyes of the Enemy"] = 1879304967;
-    ["Farms of the Fallows"] = 1879262826;
-    ["Leave No One Behind"] = 1879393874;
-    ["Little Wonders"] = 1879182762;
-    ["Protectors of Thangúlhad"] = 1879160668;
-    ["Protectors of the Wilderfolk"] = 1879386531;
-    ["Rescue in Nûrz Ghâshu"] = 1879181728;
-    ["Stand at Amon Sûl"] = 1879159798;
-    ["Storm on Methedras"] = 1879224852;
-    ["Strike Against Dannenglor"] = 1879160578;
-    ["The Battle for Osgiliath"] = 1879326193;
-    ["The Battle in the Tower"] = 1879160343;
-    ["The Best Defence"] = 1879240242;
-    ["The Circle of Despair"] = 1879396465;
-    ["The Haunted Burrow"] = 1879189266;
-    ["The Icy Crevasse"] = 1879207159;
-    ["The Lost Fellowship"] = 1879109321;
-    ["The Perfect Picnic"] = 1879367046;
-    ["Thievery and Mischief"] = 1879162680;
-    ["Time of Need"] = 1879091387;
-    ["Tools of the Trade"] = 1879309913;
-    ["Беда в Тукборо"] = 1879156593;
-    ["Warg-slayer"] = 1879054427;
+    ["Атака на рассвете"] = 1879208421; -- Deed ID: 1879209658
+    ["Беда в Тукборо"] = 1879156593; -- Deed ID: 1879158107
+    ["Битва в башне"] = 1879160343; -- Deed ID: 1879173664
+    ["Битва за Амон Сул"] = 1879159798; -- Deed ID: 1879159790
+    ["Битва за Двадцать первый чертог"] = 1879198363; -- Deed ID: 1879202439, 1879462869
+    ["Битва за Осгилиат"] = 1879326193; -- Deed ID: 1879326392
+    ["Бруиненский брод"] = 1879158958; -- Deed ID: 1879159240
+    ["Буря над Метедрасом"] = 1879224852; -- Deed ID: 1879226092
+    ["Генеральная уборка"] = 1879198676; -- Deed ID: 1879201467
+    ["Гибель Карас-Гелебрена"] = 1879453538; -- Deed ID: 1879453347
+    ["Глаза Врага"] = 1879304967; -- Deed ID: 1879147022
+    ["Грабежи и разбой"] = 1879162680; -- Deed ID: 1879162619
+    ["Древние письмена"] = 1879208319; -- Deed ID: 1879278964
+    ["Защитники народов Глухоманья"] = 1879386531; -- Deed ID: 1879387426, 1879387431
+    ["Защитники Тангулада"] = 1879160668; -- Deed ID: 1879173662
+    ["Испытание: Каменные Холмы"] = 1879200644; -- Deed ID: 1879196955
+    ["Истребитель варгов"] = 1879054427; -- Deed ID: 1879071724, 1879071734, 1879071768, 1879071782, 1879141058, 1879155766, 1879220076
+    ["Ледяная расселина"] = 1879207159; -- Deed ID: 1879208174
+    ["Логово кольценосцев"] = 1879160626; -- Deed ID: 1879175326
+    ["Маленькие чудеса"] = 1879182762; -- Deed ID: 1879190838
+    ["На выручку"] = 1879109163; -- Deed ID: 1879278824
+    ["Наилучшая защита"] = 1879240242; -- Deed ID: 1879060151, 1879277264
+    ["Наследник славного прошлого"] = 1879234348; -- Deed ID: 1879234462
+    ["Незваный гость"] = 1879208707; -- Deed ID: 1879422534
+    ["Ни шагу назад"] = 1879208642; -- Deed ID: 1879317541
+    ["Нора с Привидениями"] = 1879189266; -- Deed ID: 1879191253
+    ["Огненные глубины"] = 1879143364; -- Deed ID: 1879141031
+    ["Осада Гондамона"] = 1879156590; -- Deed ID: 1879157752
+    ["Охотник за головами"] = 1879087635; -- Deed ID: 1879165717
+    ["Помощь Истемнету"] = 1879240578; -- Deed ID: 1879248360
+    ["После битвы"] = 1879335348; -- Deed ID: 1879334733
+    ["Потерянное братство"] = 1879109321; -- Deed ID: 1879110246
+    ["Поход в Данненглор"] = 1879160578; -- Deed ID: 1879173661
+    ["Поход в Нурз Гхашу"] = 1879181728; -- Deed ID: 1879182644
+    ["Превосходный пикник"] = 1879367046; -- Deed ID: 1879367049
+    ["Приносящий радость"] = 1879414452; -- Deed ID: 1879414454
+    ["Путь охотника"] = 1879048304; -- Deed ID: 1879052486
+    ["Рука помощи"] = 1879182261; -- Deed ID: 1879197820, 1879443429
+    ["Рыбный день"] = 1879338064; -- Deed ID: 1879226621
+    ["Своих в беде не бросают"] = 1879107839; -- Deed ID: 1879163179
+    ["Смертельное оскорбление"] = 1879208640; -- Deed ID: 1879277325
+    ["Сокровища Кардолана"] = 1879061504; -- Deed ID: 1879450924
+    ["Сопротивление бесполезно"] = 1879136013; -- Deed ID: 1879277429
+    ["Спасательная операция"] = 1879346283; -- Deed ID: 1879163175
+    ["Среброуст"] = 1879243055; -- Deed ID: 1879277337
+    ["Трудное положение"] = 1879091387; -- Deed ID: 1879277369
+    ["Удар исподтишка"] = 1879143826; -- Deed ID: 1879277241
+    ["Упокоенные мертвецы"] = 1879050166; -- Deed ID: 1879175110
+    ["Фермы в Пашнях"] = 1879262826; -- Deed ID: 1879265473
+    ["Через Врата Некроманта"] = 1879160602; -- Deed ID: 1879163850
 };
 
 -- Indexd by Quest ID
 _CONFLICTING_QUESTS = {
-
-    -- Skirmish / Skirmish Instances / Trouble in Tuckborough
-    [1879156593] = {
+    -- Схватка / Схватки / Атака на рассвете
+    [1879208421] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Схватка / Беда в Тукборо\n    (Убить полуорка у входа и отбить у врага Великие Смиалы)";
-        ["ANNOUNCE"] = "Полуорк пал. Лишившись вожака, гоблины и разбойники бросились наутек. Великие Смиалы спасены."; 
+        ["QUESTNAME"] = "Схватка / Атака на рассвете (повторяемое)\n    (Поздней ночью отряд гоблинов-разведчиков выяснил, где находится тайное убежище следопытов - Эстельдин. Гоблины направились в Дол Динен. Нужно уничтожить их лагерь, пока они не вернулись с подкреплением.)";
+        ["ANNOUNCE"] = "Вы победили Грауга и сохранили в тайне местонахождение Эстельдина";
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Skirmish / Skirmish Instances / Storm on Methedras
+    -- Схватка / Схватки / Беда в Тукборо
+    [1879156593] = {
+        ["ISREPEATABLE"] = true;
+        ["QUESTNAME"] = "Схватка / Беда в Тукборо (повторяемое)\n    (Тукборо - главный городок Тукленда. Здесь живет тан Шира. Гоблины и полуорки Сарумана Белого вознамерились захватить город.)";
+        ["ANNOUNCE"] = "Полуорк пал. Лишившись вожака, гоблины и разбойники бросились наутек. Великие Смиалы спасены.";
+        ["IS_SKIRMISH"] = true;
+    };
+
+    -- Схватка / Схватки / Битва в башне
+    [1879160343] = {
+        ["ISREPEATABLE"] = true;
+        ["QUESTNAME"] = "Схватка / Битва в башне (повторяемое)\n    (Враг укрепился в башне Дол Гулдура. Пора нанести ему удар в самое сердце!)";
+        ["ANNOUNCE"] = "Вы захватили оружейную и забрали Зигильбурк.";
+        ["IS_SKIRMISH"] = true;
+    };
+
+    -- Схватка / Схватки / Битва за Амон Сул
+    [1879159798] = {
+        ["ISREPEATABLE"] = true;
+        ["QUESTNAME"] = "Схватка / Битва за Амон Сул (повторяемое)\n    (Слуги Короля-Призрака явились к Заверти после схватки назгулов с Гэндальфом Серым. Следопыт Кандайт устроил на вершине холма засаду, надеясь убить каргула, ведущего войска на Амон Сул.)";
+        ["ANNOUNCE"] = "Каргул убит, а Кандайт уцелел. Он расскажет о победе эльфам Ривенделла.";
+        ["IS_SKIRMISH"] = true;
+    };
+
+    -- Класс/Раса/Эпос / Эпос / Битва за Двадцать первый чертог, Схватка / Схватки / Битва за Двадцать первый чертог
+    [1879198363] = {
+        ["ISREPEATABLE"] = true;
+        ["QUESTNAME"] = "Схватка / Битва за Двадцать первый чертог (повторяемое)\n    (Вы прибыли в Двадцать первый чертог, чтобы помочь его защитникам. Следуйте указаниям Вили и помогите гномам Мории выстоять!)";
+        ["IS_SKIRMISH"] = true;
+    };
+
+    -- Война / Осгилиат / Битва за Осгилиат
+    [1879326193] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Осгилиат: Двор Анариона / Битва за Осгилиат\n    (Мелетон приветствует вас в битве за Осгилиат и приказывает вам помочь ему и другим командирам в их стремлении освободить город.)";
+    };
+
+    -- Схватка / Схватки / Бруиненский брод
+    [1879158958] = {
+        ["ISREPEATABLE"] = true;
+        ["QUESTNAME"] = "Схватка / Бруиненский брод (повторяемое)\n    (Лагерь у Бруиненского брода стал последним оплотом защитников Ривенделла. Ангмарские орки подступили к реке, надеясь сломить оборону эльфов и атаковать Имладрис.)";
+        ["IS_SKIRMISH"] = true;
+    };
+
+    -- Схватка / Схватки / Буря над Метедрасом
     [1879224852] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Skirmish / Storm on Methedras\n    (Defeat Gwyllion and Echrud at the entrance to Gwyllion's hut and claim the final control point)";
-        ["ANNOUNCE"] = "Gwyllion and Echrud have been defeated, leaving the Old Woman's threat to Rohan empty";
+        ["QUESTNAME"] = "Схватка / Буря над Метедрасом (повторяемое)\n    (Вместе со следопытами Саэраданом и Амланом вы отправились на вершину Метедраса, горы близ Нан Курунира и Изенгарда, чтобы сразиться с Горной Старухой Гвиллион.)";
+        ["ANNOUNCE"] = "Гвиллион и Эхруд повержены. Горная Старуха более не угрожает Рохану.";
         ["ISDELAYED"] = true; -- Quest finishes after talking with Saeradan and receiving reward.
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Skirmish / Skirmish Instances / Stand at Amon Sûl
-    [1879159798] = {
+    -- Инстансы / В их отсутствие / Генеральная уборка
+    [1879198676] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Skirmish / Stand at Amon Sûl\n    (Defeat the Cargûl)";
-        ["ANNOUNCE"] = "The Cargûl has been vanquished, and Candaith has survived to carry word to Rivendell";
-        ["IS_SKIRMISH"] = true;
+        ["QUESTNAME"] = "Снежные утесы / Генеральная уборка (повторяемое)\n    (За гостями фестиваля осталось очень много мусора. Его уборка - дело неприятное, но необходимое.)";
     };
 
-    -- Skirmish / Skirmish Instances / Thievery and Mischief
-    [1879162680] = {
-        ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Skirmish / Thievery and Mischief\n    (Claim the Town Hall)";
-        ["ANNOUNCE"] = "You have reclaimed Town Hall and freed the south of Bree.";
-        ["IS_SKIRMISH"] = true;
-    };
-
-    -- Skirmish / Skirmish Instances / Attack at Dawn
-    [1879208421] = {
-        ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Skirmish / Attack at Dawn\n    (Defeat Graug and secure the knowledge of Esteldín's location)";
-        ["ANNOUNCE"] = "Defeated Graug and secured the knowledge of Esteldín's location";
-        ["IS_SKIRMISH"] = true;
-    };
-
-    -- Skirmish / Skirmish Instances / Defence of the Prancing Pony
-    [1879162702] = {
-        ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Skirmish / Defence of the Prancing Pony\n    (Defeat Goilag)";
-        ["ANNOUNCE"] = "Goilag has been defeated. Bree is safe";
-        ["IS_SKIRMISH"] = true;
-    };
-
-    -- Skirmish / Skirmish Instances / The Icy Crevasse
-    [1879207159] = {
-        ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Skirmish / The Icy Crevasse\n    (Defeat the Angmarim sorcerer and claim the cave)";
-        ["ANNOUNCE"] = "Angmar's plan has been foiled. Evendim is safe, for now.";
-        ["IS_SKIRMISH"] = true;
-    };
-
-    -- Skirmish / Skirmish Instances / Strike Against Dannenglor
-    [1879160578] = {
-        ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Skirmish / Strike Against Dannenglor\n    (Defeat the sorcerer and claim the sorcerer's chamber)";
-        ["ANNOUNCE"] = "The sorcerer and the threat from Dannenglor have been defeated. Audaghaim and the Golden Host are safe";
-        ["IS_SKIRMISH"] = true;
-    };
-
-    -- Skirmish / Skirmish Instances / Protectors of Thangúlhad
-    [1879160668] = {
-        ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Skirmish / Protectors of Thangúlhad\n    (Defeat the fifth assault, Talk to Rodelleth)";
-        ["ANNOUNCE"] = "Mazaukal has been defeated. Thangúlhad is safe";
-        ["IS_SKIRMISH"] = true;
-    };
-
-    -- Skirmish / Skirmish Instances / Breaching the Necromancer's Gate
-    [1879160602] = {
-        ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Skirmish / Breaching the Necromancer's Gate\n    (Claim the Necromancer's Gate)";
-        ["ANNOUNCE"] = "The Necromancer's Gate has fallen. The heart of Dol Guldur is open for assault";
-        ["IS_SKIRMISH"] = true;
-    };
-
-    -- Skirmish / Skirmish Instances / Assault on the Ringwraiths' Lair
-    [1879160626] = {
-        ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Skirmish / Assault on the Ringwraiths' Lair\n    (Claim the Ringwraiths' Lair)";
-        ["ANNOUNCE"] = "You have claimed the Ringwraiths' Lair. The heart of Dol Guldur is now exposed";
-        ["IS_SKIRMISH"] = true;
-    };
-
-    -- Skirmish / Skirmish Instances / The Battle in the Tower
-    [1879160343] = {
-        ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Skirmish / The Battle in the Tower\n    (Claim the Armoury)";
-        ["ANNOUNCE"] = "You have claimed the Armoury and recovered Zigilburk";
-        ["IS_SKIRMISH"] = true;
-    };
-
-    -- Skirmish / Skirmish Instances / Rescue in Nûrz Ghâshu
-    [1879181728] = {
-        ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Skirmish / Rescue in Nûrz Ghâshu\n    (Talk to Golodir)";
-        ["ANNOUNCE"] = "Erebún has been defeated and Golodir has been freed";
-        ["ISDELAYED"] = true; -- Quest finishes after talking with Corunir / Golodir
-        ["IS_SKIRMISH"] = true;
-    };
-
-    -- Skirmish / Skirmish Instances / The Perfect Picnic
-    [1879367046] = {
-        ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Skirmish / The Perfect Picnic\n    (Enjoy a lovely picnic)";
-        ["ANNOUNCE"] = "The picnic has been saved. The rain even cooled things down!";
-        ["ISDELAYED"] = true; -- Quest finishes after eating food
-        ["IS_SKIRMISH"] = true;
-    };
-
-    -- Skirmish / Skirmish Instances / Doom of Caras Gelebren:
+    -- Схватка / Схватки / Гибель Карас-Гелебрена
     [1879453538] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Skirmish / Doom of Caras Gelebren\n    (Defend Caras Gelebren from the Enemy)";
-        ["ANNOUNCE"] = "The Enemy's champion has been defeated!";
+        ["QUESTNAME"] = "Схватка / Гибель Карас-Гелебрена (повторяемое)\n    (Карас-Гелебрен, Серебряный Бастион, когда-то был столицей Там Мирдайна и жемчужиной Эрегиона. Увы, давным-давно он был разрушен, когда Саурон, желая завладеть кольцами Власти, собрал свои огромные армии и уничтожил весь Эрегион.)";
+        ["ANNOUNCE"] = "Вражеский воитель повержен!";
         ["ISDELAYED"] = true; -- Quest completion is the first Quest chat item after this announcement, but there is about two minutes of NPC talking in between.
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Instances / Mines of Moria / Eyes of the Enemy
+    -- Инстансы / Копи Мории / Глаза Врага
     [1879304967] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Trollshaws / Eyes of the Enemy (Repeatable)\n    (Defeat 6 hendrevail in the Bruinen Gorges)";
+        ["QUESTNAME"] = "Троллистая пуща / Глаза Врага (повторяемое)\n    (Эндровалы, которых Враг часто использует как соглядатаев, стали все чаще появляться в Бруиненских ущельях.)";
     };
 
-    -- Instances / Tower of Dol Guldur / Leave No One Behind
-    [1879393874] = {
-        ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Imlad Morgul: Circle of Madness / Leave No One Behind\n    (You have escaped from the Halls of Black Lore, but without Faeron. You must find him and discover if it was indeed Viznak you heard inside.)";
-    };
-
-    -- The War / Osgiliath / The Battle for Osgiliath
-    [1879326193] = {
-        ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Osgiliath: Court of Anárion / The Battle for Osgiliath\n    (Speak with Cangoras, Edenos, and Arthon)";
-    };
-
-    -- Class/Race/Epic / Class / Time of Need
-    [1879091387] = {
-        ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Evendim / Time of Need\n    (Collect 6 supplies from hidden stores)";
-    };
-
-    -- Class/Race/Epic / Class / Tools of the Trade
-    [1879309913] = {
+    -- Схватка / Схватки / Грабежи и разбой
+    [1879162680] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Western Gondor: Belfalas / Tools of the Trade (Repeatable)\n    (Recover 8 tools)";
+        ["QUESTNAME"] = "Схватка / Грабежи и разбой (повторяемое)\n    (Пока на юге бушевала война, разбойники и проходимцы воспользовались отсутствием следопытов и захватили Бри…)";
+        ["ANNOUNCE"] = "Вы отбили у врага ратушу. Южная часть Бри вновь принадлежит Свободным народам!";
+        ["IS_SKIRMISH"] = true;
     };
 
-    -- Class/Race/Epic / Class / The Best Defence
-    [1879240242] = {
+    -- Класс/Раса/Эпос / Классовые / Древние письмена
+    [1879208319] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Entwash Vale / The Best Defence\n    (Assist Ingmar or Lady Góda)";
+        ["QUESTNAME"] = "Дунланд: Карреглин / Древние письмена\n    (Вы нашли деревянную табличку с древними дунландскими письменами.)";
     };
 
-    -- Class/Race/Epic / Class / A Shot in the Dark
-    [1879215638] = {
-        ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Gap of Rohan: Isendale / A Shot in the Dark\n    (Complete Instance: Shot in the Dark, and Talk to Ardwyn at Forthbrond)";
-    };
-
-    -- Class/Race/Epic / Race & Social / Baggins' Birthday
-    [1879282924] = {
-        ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Festival / Baggins' Birthday (Repeatable)\n    (Speak to Frodo Baggins in the Last Homely House in Rivendell)";
-    };
-
-    -- Class/Race/Epic / Race & Social / The Haunted Burrow
-    [1879189266] = {
-        ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Harvest Festival / The Haunted Burrow (Repeatable)\n    (Talk to Lobelia inside the Haunted Burrow, Talk to Opal Goodbody to discuss the fate of the Haunted Burrow)";
-    };
-
-    -- Class/Race/Epic / Epic / Discovering the Descendant
-    [1879234348] = {
-        ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Bree-land / Discovering the Descendant\n    (Check on the horse from Combe, Talk to Éogar in the Horsefields)";
-    };
-
-    -- Eriador / Angmar / Warg-slayer, Eriador / Dunland / Warg-slayer, Eriador / Lone-lands / Warg-slayer, Eriador / Misty Mountains / Warg-slayer, Eriador / North Downs / Warg-slayer, Rhovanion / Moria / Warg-slayer, Rhovanion / Warg-slayer / Warg-slayer
-    [1879054427] = {
-        ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "North Downs / Warg-slayer\n    (Defeat 8 wargs for Dagoras)";
-    };
-
-    -- Eriador / Angmar / The Circle of Despair
-    [1879396465] = {
-        ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Imlad Morgul: Minas Morgul / The Circle of Despair\n    (Aid Dornach in securing the Circle of Despair, and Talk to Candúr in Barad Arthir.)";
-    };
-
-    -- Eriador / Forochel / The Lost Fellowship
-    [1879109321] = {
-        ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Angmar / The Lost Fellowship\n    (Helegdir asked you to seek out a member of a fellowship of adventurers who journeyed to Forochel, passing through Aughaire in Angmar.)";
-    };
-
-    -- Eriador / Enedwaith / Little Wonders
-    [1879182762] = {
-        ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Enedwaith / Little Wonders\n    (Talk to a Ranger at Echad Idhrenfair.)";
-    };
-
-    -- Rhovanion / Eastern Rohan / Aiding the Eastemnet
-    [1879240578] = {
-        ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Hytbold / Aiding the Eastemnet\n    (Complete 5 quests from Aiding-specific quest givers in Harwick, Cliving, Eaworth, and Snowbourn.)";
-    };
-
-    -- Rhovanion / Wildermore / Farms of the Fallows
-    [1879262826] = {
-        ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Wildermore: Fallows / Farms of the Fallows\n    (Find Thrymm's Farm near Forlaw, Find the survivors around Thrymm's Farm, Find Oter in the centre of Thrymm's Farm)";
-    };
-
-    -- Rhovanion / Vales of Anduin / Protectors of the Wilderfolk
+    -- Рованион / Долина Андуина / Защитники народов Глухоманья, Рованион / Долина Андуина / Защитники народов Глухоманья
     [1879386531] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Vales of Anduin: Protectors of the Wilderfolk / Protectors of the Wilderfolk\n    (You should seek out Audvak, Hithril, and Ragnild, and offer them your assistance.)";
+        ["QUESTNAME"] = "Долина Андуина: Защитники народов Глухоманья / Защитники народов Глухоманья\n    (Представители народов Глухоманья собрались в Хультвисе, чтобы действовать сообща и защитить долину Андуина.)";
     };
 
-    -- Gondor / Far Anórien / After the Battle
+    -- Схватка / Схватки / Защитники Тангулада
+    [1879160668] = {
+        ["ISREPEATABLE"] = true;
+        ["QUESTNAME"] = "Схватка / Защитники Тангулада (повторяемое)\n    (Войско Дол Гулдура осадило Тангулад. Враг хочет отбить форт и отбросить Золотое воинство далеко назад.)";
+        ["ANNOUNCE"] = "Мазаукал побежден. Вы отстояли форт Тангулад!";
+        ["IS_SKIRMISH"] = true;
+    };
+
+    -- Инстансы / В их отсутствие / Испытание: Каменные Холмы
+    [1879200644] = {
+        ["ISREPEATABLE"] = true;
+        ["QUESTNAME"] = "В их отсутствие / Испытание: Каменные Холмы (повторяемое)\n    (С мерзавцами, которые остались в Каменных Холмах и разоряют город, так просто не справиться. Придется уничтожить их командиров одного за другим, не давая врагам времени опомниться.)";
+    };
+
+    -- Рованион / Мория / Истребитель варгов, Рованион / Южное Лихолесье / Истребитель варгов, Эриадор / Ангмар / Истребитель варгов, Эриадор / Дунланд / Истребитель варгов, Эриадор / Мглистые горы / Истребитель варгов, Эриадор / Пустоши / Истребитель варгов, Эриадор / Северное нагорье / Истребитель варгов
+    [1879054427] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Северное нагорье / Истребитель варгов\n    (Лютые варги бесчинствуют в Северном нагорье, охотясь на всякого, кто скажет слово против их хозяев. Само их присутствие угрожает безопасности Эстельдина.)";
+    };
+
+    -- Схватка / Схватки / Ледяная расселина
+    [1879207159] = {
+        ["ISREPEATABLE"] = true;
+        ["QUESTNAME"] = "Схватка / Ледяная расселина (повторяемое)\n    (Ангмар воззвал к темным силам, дремавшим в Форохеле, чтобы обрушить на Эвендим леденящую метель.)";
+        ["ANNOUNCE"] = "Замыслы Ангмара потерпели крах. Эвендиму ничто не угрожает.";
+        ["IS_SKIRMISH"] = true;
+    };
+
+    -- Схватка / Схватки / Логово кольценосцев
+    [1879160626] = {
+        ["ISREPEATABLE"] = true;
+        ["QUESTNAME"] = "Схватка / Логово кольценосцев (повторяемое)\n    (Если занять дворы Дол Гулдура, его внутренние рубежи станут уязвимы.)";
+        ["ANNOUNCE"] = "Вы захватили логово кольценосцев. Путь в самое сердце Дол Гулдура свободен.";
+        ["IS_SKIRMISH"] = true;
+    };
+
+    -- Эриадор / Энедвайт / Маленькие чудеса
+    [1879182762] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Энедвайт / Маленькие чудеса\n    (Вы нашли вещицу явно не дунландской работы, которая, судя по размерам, подошла бы разве что ребенку.)";
+    };
+
+    -- Класс/Раса/Эпос / Классовые / На выручку
+    [1879109163] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Форохель / На выручку\n    (Юхани, друг Теро из Зигилгунда, угодил в западню на острове Кисса-сари.)";
+    };
+
+    -- Класс/Раса/Эпос / Классовые / Наилучшая защита, Класс/Раса/Эпос / Классовые / Наилучшая защита
+    [1879240242] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Долина Энтовой купели / Наилучшая защита\n    (Выслушав владык Иворта, вы склонились к тому, что замысел госпожи Годы более удачен.)";
+    };
+
+    -- Класс/Раса/Эпос / Эпос / Наследник славного прошлого
+    [1879234348] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Наследник славного прошлого / Наследник славного прошлого\n    (На протяжении веков табуны меарасов паслись на зеленых равнинах Рохана, признавая власть лишь конных владык.)";
+    };
+
+    -- Класс/Раса/Эпос / Расовые и общественные / Незваный гость
+    [1879208707] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Эпос - том III, книга 4: Угроза Изенгарда / Незваный гость\n    (Винфор заметил чужака, рыскавшего под покровом ночи на дальнем берегу озера. Этот чужак может представлять опасность для Тур Морвы.)";
+    };
+
+    -- Класс/Раса/Эпос / Классовые / Ни шагу назад
+    [1879208642] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Дунланд: Мертвый лес / Ни шагу назад\n    (Вы передали Леофварду все, что узнали разведчики. Роханец разработал план действий. Пора привести его в исполнение!)";
+    };
+
+    -- Класс/Раса/Эпос / Расовые и общественные / Нора с Привидениями
+    [1879189266] = {
+        ["ISREPEATABLE"] = true;
+        ["QUESTNAME"] = "Праздник урожая / Нора с Привидениями (повторяемое)\n    (А есть ли в письме Бильбо намек на то, как пройти в запертые комнаты? Лобелия, кажется, думает, что есть... )";
+    };
+
+    -- Рованион / Мория / Огненные глубины
+    [1879143364] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Мория / Огненные глубины\n    (В подземных чертогах Мории из пылающих озер вырываются языки пламени. Именно там живут гхаш-хаи. Они повинуются Мазогу, властелину Мории, и пришли к Большой лестнице, чтобы заплатить дань господину.)";
+    };
+
+    -- Схватка / Схватки / Осада Гондамона
+    [1879156590] = {
+        ["ISREPEATABLE"] = true;
+        ["QUESTNAME"] = "Схватка / Осада Гондамона (повторяемое)\n    (Гондамон, город-крепость Длиннобородов в Синих Горах, осадили Крепкохваты и их прихвостни-гоблины. Они надеются взять город и укрепиться в нем.)";
+        ["IS_SKIRMISH"] = true;
+    };
+
+    -- Рованион / Южное Лихолесье / Охотник за головами
+    [1879087635] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Эвендим / Охотник за головами\n    (Бэзил Гаммидж обеспокоен тем, что ваша удачливость в охоте за головами снискала вам не только друзей, но и врагов.)";
+    };
+
+    -- Рованион / Восточн. Рохан / Помощь Истемнету
+    [1879240578] = {
+        ["ISREPEATABLE"] = true;
+        ["QUESTNAME"] = "Хитбольд / Помощь Истемнету (повторяемое)\n    (Жителям Истемнета очень нужна помощь.)";
+    };
+
+    -- Гондор / Дальний Анориен / После битвы
     [1879335348] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Minas Tirith (After Battle) / After the Battle\n    (Talk to Imrahil after the Battle of the Pelennor Fields)";
+        ["QUESTNAME"] = "Минас Тирит (после битвы) / После битвы\n    (После битвы на Пеленнорских полях, Имрахиль призвал вас к себе, чтобы помочь великому городу Минас Тириту.)";
+    };
+
+    -- Эриадор / Форохель / Потерянное братство
+    [1879109321] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Ангмар / Потерянное братство\n    (Хелегдир попросил вас помочь отряду южан, прозванному Потерянным братством.)";
+    };
+
+    -- Схватка / Схватки / Поход в Данненглор
+    [1879160578] = {
+        ["ISREPEATABLE"] = true;
+        ["QUESTNAME"] = "Схватка / Поход в Данненглор (повторяемое)\n    (Колдун, захвативший древние развалины Данненглора, держит в плену нескольких эльфов и следопытов.)";
+        ["ANNOUNCE"] = "Нет больше колдуна, а значит, и угрозы Данненглора. Малледрим, укрепившимся в Аудагхайме, больше нечего опасаться.";
+        ["IS_SKIRMISH"] = true;
+    };
+
+    -- Схватка / Схватки / Поход в Нурз Гхашу
+    [1879181728] = {
+        ["ISREPEATABLE"] = true;
+        ["QUESTNAME"] = "Схватка / Поход в Нурз Гхашу (повторяемое)\n    (Голодир отправился в глубины Нурз Гхашу, и Корунир, его близкий друг, надеется спасти товарища.)";
+        ["ANNOUNCE"] = "Эребан побежден. Голодир свободен!";
+        ["ISDELAYED"] = true; -- Quest finishes after talking with Corunir / Golodir
+        ["IS_SKIRMISH"] = true;
+    };
+
+    -- Схватка / Схватки / Превосходный пикник
+    [1879367046] = {
+        ["ISREPEATABLE"] = true;
+        ["QUESTNAME"] = "Фермерская ярмарка / Превосходный пикник (повторяемое)\n    (Какой прекрасный день для пикника!)";
+        ["ANNOUNCE"] = "Пикник спасен. А дождь даже охладил все вокруг!";
+        ["ISDELAYED"] = true; -- Quest finishes after eating food
+        ["IS_SKIRMISH"] = true;
+    };
+
+    -- Класс/Раса/Эпос / Расовые и общественные / Приносящий радость
+    [1879414452] = {
+        ["ISREPEATABLE"] = true;
+        ["QUESTNAME"] = "Снежные утесы / Приносящий радость (повторяемое)\n    (Несмотря на Йоль, отважные искатели приключений все еще требуются по всему Средиземью для выполнения различных миссий.)";
+    };
+
+    -- Класс/Раса/Эпос / Классовые / Путь охотника
+    [1879048304] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Охотник / Путь охотника\n    (Скорость и точность - вот что главное для настоящего охотника. Нехватка одного из этих качеств приводит к неудачам. Отсутствие обоих - к беде.)";
+    };
+
+    -- Класс/Раса/Эпос / Репутация / Рука помощи, Схватка / Схватки / Рука помощи
+    [1879182261] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Энедвайт / Рука помощи\n    (Разведчики Серых плащей - Саэрадан и несколько следопытов - отправились в Ветреные пустоши. Они должны обеспечить скрытность продвижения отряда, а также найти припасы.)";
+    };
+
+    -- Класс/Раса/Эпос / Расовые и общественные / Рыбный день
+    [1879338064] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Западный Гондор: Белфалас / Рыбный день\n    (Халдил находится в порту на мысе, он рыбачит каждый день.)";
+    };
+
+    -- Инстансы / Дол Гулдур / Своих в беде не бросают
+    [1879107839] = {
+        ["ISREPEATABLE"] = true;
+        ["QUESTNAME"] = "Праздник / Своих в беде не бросают (повторяемое)\n    (Вам встретился член Трактирной лиги по имени Мули. Он недавно приехал в Отрикар, и его тут же постигло ужасное открытие: он забыл захватить с собой любимое пиво!)";
+    };
+
+    -- Класс/Раса/Эпос / Классовые / Смертельное оскорбление
+    [1879208640] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Дунланд: Мертвый лес / Смертельное оскорбление\n    (Отряд воинов из клана Буйвола разбил лагерь на западной окраине Мертвого леса.)";
+    };
+
+    -- Эриадор / Лебедянь и Кардолан / Сокровища Кардолана
+    [1879061504] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Земли Бри / Сокровища Кардолана\n    (Из фрагментов предания, которое вы отыскали, Тобольд Листорез узнал о великом сокровище Кардолана. Он уверен, что два брата, два арнорских воина, нашли клад и отнесли его в северные Могильники.)";
+    };
+
+    -- Класс/Раса/Эпос / Классовые / Сопротивление бесполезно
+    [1879136013] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Мория: Огненные глубины / Сопротивление бесполезно\n    (Древний кузнечный горн, находящийся в Хурмулкезере, должен быть разрушен, а орков нужно остановить прежде, чем у них появится возможность изготовить себе новое, гораздо более опасное оружие.)";
+    };
+
+    -- Инстансы / Дол Гулдур / Спасательная операция
+    [1879346283] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Мордор: Агарнайт / Спасательная операция\n    (Состояние Радрога ухудшается, а лекарства из сумок следопытов не помогают. Единственный способ спасти жизнь Радрога - понадеяться, что слова, гоблина Визнака о том, что он знает, как вылечить эту хворь, окажутся правдой. Но где же сейчас Визнак?)";
+    };
+
+    -- Класс/Раса/Эпос / Классовые / Среброуст
+    [1879243055] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Норкрофт / Среброуст\n    (Ордвасер гневается из-за того, что Трамсел, серебряных дел мастер Кливинга, не выполнил оплаченный заказ.)";
+    };
+
+    -- Класс/Раса/Эпос / Классовые / Трудное положение
+    [1879091387] = {
+        ["ISREPEATABLE"] = true;
+        ["QUESTNAME"] = "Аннуминас / Трудное положение (повторяемое)\n    (Даннассель рассказала вам о том, что в городе есть несколько тайников с оружием и доспехами.)";
+    };
+
+    -- Класс/Раса/Эпос / Классовые / Удар исподтишка
+    [1879143826] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Охотник / Удар исподтишка\n    (Армбельд попросил вас отправиться по следам пропавшего проходчика и принести что-нибудь принадлежавшее ему.)";
+    };
+
+    -- Схватка / Схватки / Упокоенные мертвецы
+    [1879050166] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Великий Могильник / Упокоенные мертвецы\n    (Проводники из Бри согласились, что отныне им надо быть осторожнее. Боб Артишок хочет внести свою лепту в борьбу с чудовищами, которые, как и предсказывала легенда, восстали из тьмы Могильников.)";
+    };
+
+    -- Рованион / Вилдермор / Фермы в Пашнях
+    [1879262826] = {
+        ["ISREPEATABLE"] = false;
+        ["QUESTNAME"] = "Вилдермор: Пашни / Фермы в Пашнях\n    (Фермеры бросили свои дома, когда Нурзум напал на Форлоу, посчитав, что вне города оставаться небезопасно. На ферме Тримма собираются жители, которые хотят уйти под защиту стен Форлоу.)";
+    };
+
+    -- Схватка / Схватки / Через Врата Некроманта
+    [1879160602] = {
+        ["ISREPEATABLE"] = true;
+        ["QUESTNAME"] = "Схватка / Через Врата Некроманта (повторяемое)\n    (Врата Некроманта ведут к внешним укреплениям Дол Гулдура. Чтобы атаковать крепость, нужно захватить эти Врата.)";
+        ["ANNOUNCE"] = "Вы захватили Врата Некроманта. Путь к сердцу Дол Гулдура свободен.";
+        ["IS_SKIRMISH"] = true;
     };
 
 };

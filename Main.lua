@@ -63,6 +63,13 @@ elseif (LANGUAGE == "FR") then
     import "CubePlugins.DeedTracker.DataFiles.DeedNamesToIDsFR";
     import "CubePlugins.DeedTracker.DataFiles.DeedObjectiveInfoFR";
     import "CubePlugins.DeedTracker.DataFiles.DeedDataFR";
+elseif (LANGUAGE == "RU") then
+    import "CubePlugins.DeedTracker.DataFiles.ConflictingQuestsRU";
+    import "CubePlugins.DeedTracker.DataFiles.DeedInfoStringsRU";
+    import "CubePlugins.DeedTracker.DataFiles.DeedCategoriesRU";
+    import "CubePlugins.DeedTracker.DataFiles.DeedNamesToIDsRU";
+    import "CubePlugins.DeedTracker.DataFiles.DeedObjectiveInfoRU";
+    import "CubePlugins.DeedTracker.DataFiles.DeedDataRU";
 else
     import "CubePlugins.DeedTracker.DataFiles.ConflictingQuestsEN";
     import "CubePlugins.DeedTracker.DataFiles.DeedInfoStringsEN";

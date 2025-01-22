@@ -71,9 +71,28 @@ DELAYED_SKIRMISH_COMPLETION_CHAT = nil;
 -- If the Waypoint plugin is available, then we can trigger it for geo-based deed objectives.
 WAYPOINT_AVAILABLE = false;
 
+Turbine.Language.Russian = 0x10000007; -- removed in Update 22 and again in Update 34
+
+function IsClientRussian(clientLanguage)
+    if (clientLanguage == Turbine.Language.English) then
+        local russianAlphabet = "АаБбВвГгДдЕеЁёЖжЗзИиЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщЪъЫыЬьЭэЮюЯя";
+        local skillName = MYCHAR:GetTrainedSkills():GetItem(1):GetSkillInfo():GetName();
+        local firstCharacter = skillName:sub(1, 2);
+        if (russianAlphabet:match(firstCharacter)) then
+            return true;
+        end
+    end
+    return false;
+end
+
 function GetClientLanguage()
     local clientLanguage = Turbine.Engine.GetLanguage();
     local result = "EN";
+
+    if (IsClientRussian(clientLanguage)) then
+        clientLanguage = Turbine.Language.Russian;
+    end
+
     if (clientLanguage == Turbine.Language.French) then
         result = "FR";
     elseif (clientLanguage == Turbine.Language.German) then
@@ -162,3 +181,4 @@ DEFAULT_SETTINGS =
         };
     };
 
+SHOW_DEBUG_OPTIONS = true;

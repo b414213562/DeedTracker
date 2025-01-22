@@ -1,3 +1,8 @@
+Figure out what the difference is between DisambiguateWindow and DeedOrQuestWindow.?!?
+
+For each Skirmish quest in any of the Conflicting Quests files,
+    Make sure we have the announce text.
+
 Todo "The Perfect Picnic" conflicting quest:
     -- TBD: Check quest announcement text
     -- TBD: Check if quest is delayed
@@ -191,8 +196,6 @@ Objectives work:
         Quests are mutually exclusive
 
     Once objectives are correct enough, remove Info text and option to switch between the two.
-
-Figure out what the difference is between DisambiguateWindow and DeedOrQuestWindow.
 
 Ideas that came about while we did the v2.0 to v3.0 update:
     Deed Tracker doesn't seem to react to Escape (to close the window) if HUD is off.
