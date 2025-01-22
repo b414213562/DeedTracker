@@ -88,7 +88,7 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Skirmish / Skirmish Instances / Defence of the Prancing Pony
+    -- Skirmish / Skirmish Instances / Defence of The Prancing Pony
     [1879162702] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Skirmish / Defence of the Prancing Pony\n    (Defeat Goilag)";

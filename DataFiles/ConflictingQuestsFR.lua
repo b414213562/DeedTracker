@@ -86,7 +86,7 @@ _CONFLICTING_QUESTS = {
         ["QUESTNAME"] = "Minas Tirith (après la bataille) / Après la bataille\n    (Parlez à Imrahil)";
     };
 
-    -- Instances / Instances d'escarmouche / Attaque à l'aube
+    -- Escarmouche / Instances d'escarmouche / Attaque à l'aube
     [1879208421] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Escarmouche / Attaque à l'aube\n    (Triomphez de Graug et découvrez l'emplacement d'Esteldin)";
@@ -180,7 +180,7 @@ _CONFLICTING_QUESTS = {
     [1879162702] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Escarmouche / La défense du Poney Fringant\n    (Eliminez Goilag)";
-        ["ANNOUNCE"] = "Goilag a été vaincu. Bree est sauvée";
+        ["ANNOUNCE"] = "Goilag a été vaincu. Bree est sauvée !";
         ["IS_SKIRMISH"] = true;
     };
 
@@ -269,7 +269,7 @@ _CONFLICTING_QUESTS = {
     [1879224852] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Escarmouche / Orage sur Methedras\n    (Battez Gwyllion et Echrud devant la hutte de Gwyllion et prenez le point de contrôle final)";
-        ["ANNOUNCE"] = "Vous avez vaincu Gwyllion, la Vieille femme de la montagne";
+        ["ANNOUNCE"] = "Gwyllion et Echrud ont été vaincus, anéantissant la menace de la Vieille femme sur le Rohan";
         ["ISDELAYED"] = true; -- Quest finishes after talking with Saeradan and receiving reward.
         ["IS_SKIRMISH"] = true;
     };
@@ -292,7 +292,7 @@ _CONFLICTING_QUESTS = {
         ["QUESTNAME"] = "Enedwaith / Petites merveilles\n    (Allez voir un Rôdeur à Echad Idhrenfair.)";
     };
 
-    -- Rhovanion / Val d'Anduin / Protecteur/Protectrice du peuple sauvage
+    -- Rhovanion / Val d'Anduin / Protecteur du peuple sauvage
     [1879386531] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Val d'Anduin: Protecteur/Protectrice du peuple sauvage / Protecteur/Protectrice du peuple sauvage\n    (Vous devriez chercher Audvak, Hithril et Ragnild, pour leur proposer de les aider.)";
@@ -329,7 +329,7 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Eriador / Angmar, Eriador / Pays de Dun, Eriador / Terres Solitaires, Eriador / Monts Brumeux, Eriador / Hauts du Nord, Rhovanion / Moria, Rhovanion / Lothlórien: Warg-slayer Tueur/Tueuse d'ouargues
+    -- Eriador / Angmar / Tueur d'ouargues, Eriador / Hauts du Nord / Tueur d'ouargues, Eriador / Monts Brumeux / Tueur d'ouargues, Eriador / Pays de Dun / Tueur d'ouargues, Eriador / Terres Solitaires / Tueur d'ouargues, Rhovanion / Moria / Tueur d'ouargues, Rhovanion / Sud de la Forêt Noire / Tueur d'ouargues
     [1879054427] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "North Downs / Tueur(se) d'ouargues\n    (Tuez 8 des ouargues)";

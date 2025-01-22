@@ -81,7 +81,7 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Klasse/Volk/Epos / Klasse / Aus dem Norden
+    -- Klasse, Rasse, Epos / Klasse / Aus dem Norden
     [1879143335] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Eregion / Aus dem Norden\n    (Bringt das Angmar-Eisen zu Ornras in Echad Mirobel)";
@@ -95,7 +95,7 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Klasse/Volk/Epos / Volk & Soziales / Beutlins Geburtstag
+    -- Klasse, Rasse, Epos / Volk & Soziales / Beutlins Geburtstag
     [1879282924] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Festival / Beutlins Geburtstag (wiederholbar)\n    (Sprecht mit Frodo Beutlin im Letzten Heimeligen Haus in Bruchtal)";
@@ -109,19 +109,19 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Klasse/Volk/Epos / Klasse / Das Handwerkszeug
+    -- Klasse, Rasse, Epos / Klasse / Das Handwerkszeug
     [1879309913] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Western Gondor: Belfalas / Das Handwerkszeug (wiederholbar)\n    (Beschafft 8 die Werkzeuge wieder)";
     };
 
-    -- Klasse/Volk/Epos / Klasse / Das letzte Wort
+    -- Klasse, Rasse, Epos / Klasse / Das letzte Wort
     [1879275583] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Ost-Rohan / Das letzte Wort\n    (Besiegt 4 Orks in der Folde)";
     };
 
-    -- Klasse/Volk/Epos / Klasse / Das Licht der Hoffnung
+    -- Klasse, Rasse, Epos / Klasse / Das Licht der Hoffnung
     [1879054129] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Angmar / Das Licht der Hoffnung\n    (Búdan hat Euch in die Stadt Donnvail geschickt, um dort mit den Trév Gállorg zu sprechen, die sich vielleicht gegen die Angmarim auflehnen werden.)";
@@ -144,7 +144,7 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Der Alte Wald
+    -- Eriador / Breeland / Der Alte Wald
     [1879049664] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Breeland / Der Alte Wald\n    (Celandine Brandybock hat nach Bauer Maggots Aufzeichnung über den Alten Wald gefragt, aber sie hat sie noch nicht erhalten.)";
@@ -158,7 +158,7 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Scharmützel / Scharmützel-Instanzen / Der Kampf um die Einundzwanzigste Halle
+    -- Klasse, Rasse, Epos / Epos / Der Kampf um die Einundzwanzigste Halle, Scharmützel / Scharmützel-Instanzen / Der Kampf um die Einundzwanzigste Halle
     [1879198363] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Scharmützel / Der Kampf um die Einundzwanzigste Halle\n    (Ihr seid zur Einundzwanzigsten Halle geeilt, um bei ihrer Verteidigung zu helfen.)";
@@ -216,7 +216,7 @@ _CONFLICTING_QUESTS = {
         ["QUESTNAME"] = "Vales of Anduin: Protectors of the Wilderfolk / Die Beschützer des Wilden Volkes\n    (Ihr solltet Audvak, Hithril und Ragnild aufsuchen und ihnen Eure Hilfe anbieten.)";
     };
 
-    -- Klasse/Volk/Epos / Klasse / Die beste Verteidigung
+    -- Klasse, Rasse, Epos / Klasse / Die beste Verteidigung
     [1879240242] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Entwash Vale / Die beste Verteidigung\n    (Helft Ingmar oder Herrin Góda)";
@@ -237,19 +237,19 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Klasse/Volk/Epos / Epos / Die Entdeckung des Nachfahren
+    -- Klasse, Rasse, Epos / Epos / Die Entdeckung des Nachfahren
     [1879234348] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Breeland / Die Entdeckung des Nachfahren\n    (Kümmert Euch um das Pferd aus Schlucht, Sprecht mit Éogar auf den Rossfeldern)";
     };
 
-    -- Klasse/Volk/Epos / Volk & Soziales / Die heimgesuchte Erdhöhle
+    -- Klasse, Rasse, Epos / Volk & Soziales / Die heimgesuchte Erdhöhle
     [1879189266] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Harvest Festival / Die heimgesuchte Erdhöhle (wiederholbar)\n    (Sprecht mit Lobelia in der Heimgesuchten Erdhöhle, Sprecht mit Opal Gutleib über das Schicksal der 'Heimgesuchten Erdhöhle')";
     };
 
-    -- Moria / Die Lodernden Tiefen
+    -- Rhovanion / Moria / Die Lodernden Tiefen
     [1879143364] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Moria / Die Lodernden Tiefen\n    (Ossur hat Euch ausgeschickt, Euch den Streitkräften der Orks aus den feurigen Tiefen Morias zu stellen.)";
@@ -295,26 +295,26 @@ _CONFLICTING_QUESTS = {
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Klasse/Volk/Epos / Klasse / Ein Schuss ins Blaue
+    -- Klasse, Rasse, Epos / Klasse / Ein Schuss ins Blaue
     [1879215638] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Gap of Rohan: Isendale / Ein Schuss ins Blaue\n    (Sprecht mit Ardwyn in Voranbront)";
     };
 
-    -- Klasse/Volk/Epos / Ruf / Eisenmagen
+    -- Klasse, Rasse, Epos / Ruf / Eisenmagen
     [1879143729] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Moria / Eisenmagen\n    (Bringt die Innereien zu Pentlenn in der Überschatteten Zuflucht)";
     };
 
-    -- Klasse/Volk/Epos / Ruf / Fleißiges Bienchen
+    -- Klasse, Rasse, Epos / Ruf / Fleißiges Bienchen
     [1879414262] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Frühlingsfest / Fleißiges Bienchen\n    (Es ist Zeit, die Wiesen zu bestäuben!)";
         ["IS_SKIRMISH"] = true;
     };
 
-    -- Klasse/Volk/Epos / Klasse / Große Verzweiflung
+    -- Klasse, Rasse, Epos / Klasse / Große Verzweiflung
     [1879091387] = {
         ["ISREPEATABLE"] = true;
         ["QUESTNAME"] = "Evendim / Große Verzweiflung\n    (Sammelt 6 Vorräte aus versteckten Lagern)";
@@ -326,7 +326,7 @@ _CONFLICTING_QUESTS = {
         ["QUESTNAME"] = "Hytbold / Hilfe für Ost-Emnet\n    (Leute in Not findet man hauptsächlich in Harwick, der Stadt des Waldmeisters, Ohrenburg, und Schneegrenze.)";
     };
 
-    -- Klasse/Volk/Epos / Volk & Soziales / Hin und wieder zurück
+    -- Klasse, Rasse, Epos / Volk & Soziales / Hin und wieder zurück
     [1879087139] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Evendim / Hin und wieder zurück\n    (Der Waldläufer Culang hat von einem großen Schatz erfahren, der vor langer Zeit von einem Dúnedain-Landbesitzer vergraben wurde und den er nun bergen möchte, ehe er Grabräubern in die Hände fällt.)";
@@ -371,7 +371,7 @@ _CONFLICTING_QUESTS = {
         ["QUESTNAME"] = "Isengart: Nan Curunír / Rudelführer\n    (Besiegt Quetschmaul im Kreis der Reißzähne)";
     };
 
-    -- Klasse/Volk/Epos / Klasse / Salz in die Wunde
+    -- Klasse, Rasse, Epos / Klasse / Salz in die Wunde
     [1879143831] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Wächter / Salz in die Wunde\n    (Dithrik hat Euch gebeten, die Drüsen der Kriecher zu sammeln, die im gesamten Wasserwerk zu finden sind.)";
@@ -383,13 +383,13 @@ _CONFLICTING_QUESTS = {
         ["QUESTNAME"] = "Evendim / Schmuck aus Evendim\n    (Bringt die Schmuckstücke zu Herthdúr)";
     };
 
-    -- Klasse/Volk/Epos / Klasse / Silberne Zunge
+    -- Klasse, Rasse, Epos / Klasse / Silberne Zunge
     [1879243055] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "Die Norhofen / Silberne Zunge\n    (Ordwacer verursacht wegen einer nicht gelieferten Bestellung bei Trumsele, dem Silberschmied der Stadt des Waldmeisters, Aufruhr bei der Stadtwache.)";
     };
 
-    -- Eriador / Angmar / Warg-Bezwinger(in), Eriador / Dunland / Warg-Bezwinger(in), Eriador / Einsame Lande / Warg-Bezwinger(in), Eriador / Nebelgebirge / Warg-Bezwinger(in), Eriador / Nordhöhen / Warg-Bezwinger(in), Rhovanion / Moria / Warg-Bezwinger(in), Rhovanion / Süd-Düsterwald / Warg-Bezwinger(in)
+    -- Eriador / Angmar / Warg-Bezwinger, Eriador / Dunland / Warg-Bezwinger, Eriador / Einsame Lande / Warg-Bezwinger, Eriador / Nebelgebirge / Warg-Bezwinger, Eriador / Nordhöhen / Warg-Bezwinger, Rhovanion / Moria / Warg-Bezwinger, Rhovanion / Süd-Düsterwald / Warg-Bezwinger
     [1879054427] = {
         ["ISREPEATABLE"] = false;
         ["QUESTNAME"] = "North Downs / Warg-Bezwinger(in)\n    (Besiegt 8 Warge)";
