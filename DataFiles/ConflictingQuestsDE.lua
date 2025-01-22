@@ -60,7 +60,7 @@ _CONFLICTING_QUESTS = {
     -- Scharmützel / Scharmützel-Instanzen / Am Tor des Geisterbeschwörers
     [1879160602] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Scharmützel / Am Tor des Geisterbeschwörers\n    (Erobert das Tor des Geisterbeschwörers)";
+        ["QUESTNAME"] = "Scharmützel / Am Tor des Geisterbeschwörers (Wiederholbar)\n    (Das Tor des Geisterbeschwörers kennzeichnet den Eingang zum Herzen der äußeren Befestigungen Dol Guldurs. Bevor ein Angriff auf die Festung möglich wird, muss zuerst das Tor fallen.)";
         ["ANNOUNCE"] = "Das Tor des Geisterbeschwörers ist gefallen. Nun kann das Herz Dol Guldurs angegriffen werden.";
         ["IS_SKIRMISH"] = true;
     };
@@ -68,7 +68,7 @@ _CONFLICTING_QUESTS = {
     -- Scharmützel / Scharmützel-Instanzen / Angriff bei Morgengrauen
     [1879208421] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Scharmützel / Angriff bei Morgengrauen\n    (Vernichtet Graug und sichert die Informationen über Esteldíns Lage)";
+        ["QUESTNAME"] = "Scharmützel / Angriff bei Morgengrauen (Wiederholbar)\n    (Spätabends hat eine Gruppe Bilwiss-Kundschafter die Position der Waldläufer-Zuflucht Esteldín ausgemacht. Die Bilwisse sind nach Dol Dínen geflohen. Dort müsst Ihr sie stellen und vernichten, bevor sie Verstärkung holen können.)";
         ["ANNOUNCE"] = "Besiegt Graug und sichert die Informationen über Esteldíns Lage";
         ["IS_SKIRMISH"] = true;
     };
@@ -76,7 +76,7 @@ _CONFLICTING_QUESTS = {
     -- Scharmützel / Scharmützel-Instanzen / Ärger in Buckelstadt
     [1879156593] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Scharmützel / Ärger in Buckelstadt\n    (Besiegt den Halbork am Zugang zu den Groß-Smials und erobert die Groß-Smials)";
+        ["QUESTNAME"] = "Scharmützel / Ärger in Buckelstadt (Wiederholbar)\n    (Buckelstadt ist die wichtigste Siedlung von Tukland und Sitz des Thains des Auenlandes. Bilwisse und Halborks wollen die Stadt im Namen von Scharrer einnehmen, dem Räuber-Hauptmann, der Bree und dem Auenland viel Ärger bereitet.)";
         ["ANNOUNCE"] = "Der Halbork, der den Angriff anführte, ist gefallen. Die verbleibenden Räuber und Bilwisse zerstreuen sich. Die Groß-Smials sind sicher.";
         ["IS_SKIRMISH"] = true;
     };
@@ -84,13 +84,13 @@ _CONFLICTING_QUESTS = {
     -- Klasse, Rasse, Epos / Klasse / Aus dem Norden
     [1879143335] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Eregion / Aus dem Norden\n    (Bringt das Angmar-Eisen zu Ornras in Echad Mirobel)";
+        ["QUESTNAME"] = "Eregion / Aus dem Norden\n    (Angmarim streifen in Eregion umher und suchen Überreste der Vergangenheit, die ihre Truppen noch weiter stärken könnten. Die kleine Gruppe Elben in Echad Mirobel möchte die Ruinen so erhalten, wie sie sind, und hat Euch gebeten, sie bei dieser Aufgabe zu unterstützen.)";
     };
 
     -- Scharmützel / Scharmützel-Instanzen / Beschützer von Thangúlhad
     [1879160668] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Scharmützel / Beschützer von Thangúlhad\n    (Wehrt den fünften Angriff ab, Sprecht mit Rodelleth)";
+        ["QUESTNAME"] = "Scharmützel / Beschützer von Thangúlhad (Wiederholbar)\n    (Thangúlhad wird von den Streitkräften Dol Guldurs angegriffen. Sie möchten es zurückerobern und die Basis des Goldenen Heeres zerstören.)";
         ["ANNOUNCE"] = "Mazaukal wurde besiegt. Thangúlhad ist sicher.";
         ["IS_SKIRMISH"] = true;
     };
@@ -98,13 +98,13 @@ _CONFLICTING_QUESTS = {
     -- Klasse, Rasse, Epos / Volk & Soziales / Beutlins Geburtstag
     [1879282924] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Festival / Beutlins Geburtstag (wiederholbar)\n    (Sprecht mit Frodo Beutlin im Letzten Heimeligen Haus in Bruchtal)";
+        ["QUESTNAME"] = "Fest / Beutlins Geburtstag\n    (Frodo Beutlin sucht nach einem Abenteurer, der bei einer Geburtstagsüberraschung für seinen Onkel Bilbo hilft! Reist nach Bruchtal und erfahrt, wie Ihr dort helfen könnt.)";
     };
 
     -- Scharmützel / Scharmützel-Instanzen / Das Gefecht am Amon Sûl
     [1879159798] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Scharmützel / Das Gefecht am Amon Sûl\n    (Besiegt den Cargûl)";
+        ["QUESTNAME"] = "Scharmützel / Das Gefecht am Amon Sûl (Wiederholbar)\n    (Nach einer Auseinandersetzung zwischen den Nazgûl und dem Zauberer Gandalf dem Grauen wurden Diener des Hexenkönigs zur Wetterspitze gelockt. Der Waldläufer Candaith hat eine Falle aufgestellt, um den Cargûl zu besiegen, der die dunklen Streitkräfte zu den Ruinen auf dem Amon Sûl führt.)";
         ["ANNOUNCE"] = "Der Cargûl wurde besiegt und Candaith hat überlebt, um in Bruchtal Bericht zu erstatten.";
         ["IS_SKIRMISH"] = true;
     };
@@ -112,13 +112,13 @@ _CONFLICTING_QUESTS = {
     -- Klasse, Rasse, Epos / Klasse / Das Handwerkszeug
     [1879309913] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Western Gondor: Belfalas / Das Handwerkszeug (wiederholbar)\n    (Beschafft 8 die Werkzeuge wieder)";
+        ["QUESTNAME"] = "West-Gondor: Belfalas / Das Handwerkszeug (Wiederholbar)\n    (Die Korsaren haben damit begonnen, die Werkzeuge der Handwerker zu verstauen und fortzuschaffen.)";
     };
 
     -- Klasse, Rasse, Epos / Klasse / Das letzte Wort
     [1879275583] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Ost-Rohan / Das letzte Wort\n    (Besiegt 4 Orks in der Folde)";
+        ["QUESTNAME"] = "Ostfold / Das letzte Wort\n    (Nachdem Ihr den Hof in der Folde vor der möglichen Gefahr gewarnt hattet, fiel ein Ork-Stoßtrupp über den Hof her.)";
     };
 
     -- Klasse, Rasse, Epos / Klasse / Das Licht der Hoffnung
@@ -130,7 +130,7 @@ _CONFLICTING_QUESTS = {
     -- Scharmützel / Scharmützel-Instanzen / Das perfekte Picknick
     [1879367046] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Scharmützel / Das perfekte Picknick\n    (Genießt ein reizendes Picknick.)";
+        ["QUESTNAME"] = "Bauernfest / Das perfekte Picknick (Wiederholbar)\n    (Was für ein toller Tag für ein Picknick!)";
         ["ANNOUNCE"] = "Das Picknick ist gerettet. Der Regen hat sogar für eine angenehme Abkühlung gesorgt!";
         ["ISDELAYED"] = true; -- Quest finishes after eating food
         ["IS_SKIRMISH"] = true;
@@ -139,7 +139,7 @@ _CONFLICTING_QUESTS = {
     -- Scharmützel / Scharmützel-Instanzen / Das Versteck der Ringgeister
     [1879160626] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Scharmützel / Das Versteck der Ringgeister\n    (Erobert das Versteck der Ringgeister)";
+        ["QUESTNAME"] = "Scharmützel / Das Versteck der Ringgeister (Wiederholbar)\n    (Durch die Eroberung der Burghöfe Dol Guldurs wird die innere Verteidigung schwach und verwundbar.)";
         ["ANNOUNCE"] = "Ihr habt das Versteck der Ringgeister erobert. Das Herz von Dol Guldur liegt nun offen.";
         ["IS_SKIRMISH"] = true;
     };
@@ -147,13 +147,13 @@ _CONFLICTING_QUESTS = {
     -- Eriador / Breeland / Der Alte Wald
     [1879049664] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Breeland / Der Alte Wald\n    (Celandine Brandybock hat nach Bauer Maggots Aufzeichnung über den Alten Wald gefragt, aber sie hat sie noch nicht erhalten.)";
+        ["QUESTNAME"] = "Breeland / Der Alte Wald\n    (Celandine Brandybock hat nach Bauer Maggots Aufzeichnung über den Alten Wald gefragt, aber sie hat sie noch nicht erhalten. Sie macht sich Sorgen, dass etwas passiert sein könnte.)";
     };
 
     -- Scharmützel / Scharmützel-Instanzen / Der Kampf im Turm
     [1879160343] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Scharmützel / Der Kampf im Turm\n    (Erobert die Waffenkammer)";
+        ["QUESTNAME"] = "Scharmützel / Der Kampf im Turm (Wiederholbar)\n    (Der Feind hat sich im Turm von Dol Guldur verschanzt. Es ist an der Zeit, ihn mitten ins Herz zu treffen und zu vernichten.)";
         ["ANNOUNCE"] = "Ihr habt die Waffenkammer erobert und Zigilburk zurückgeholt.";
         ["IS_SKIRMISH"] = true;
     };
@@ -161,20 +161,20 @@ _CONFLICTING_QUESTS = {
     -- Klasse, Rasse, Epos / Epos / Der Kampf um die Einundzwanzigste Halle, Scharmützel / Scharmützel-Instanzen / Der Kampf um die Einundzwanzigste Halle
     [1879198363] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Scharmützel / Der Kampf um die Einundzwanzigste Halle\n    (Ihr seid zur Einundzwanzigsten Halle geeilt, um bei ihrer Verteidigung zu helfen.)";
+        ["QUESTNAME"] = "Scharmützel / Der Kampf um die Einundzwanzigste Halle (Wiederholbar)\n    (Ihr seid zur Einundzwanzigsten Halle geeilt, um bei ihrer Verteidigung zu helfen. Folgt Wílis Anweisungen und helft den Zwergen, Moria zu verteidigen!)";
         ["IS_SKIRMISH"] = true;
     };
 
     -- Eriador / Angmar / Der Kreis der Verzweiflung
     [1879396465] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Imlad Morgul: Minas Morgul / Der Kreis der Verzweiflung\n    (Helft Dornach, den Ring der Verzweiflung zu sichern. Sprecht mit Candúr in Barad Arthir.)";
+        ["QUESTNAME"] = "Imlad Morgul: Minas Morgul / Der Kreis der Verzweiflung\n    (Nachdem sie in Barad Arthir Fuß gefasst hatten, kam Prinz Faramir persönlich und führte die Waldläufer von Ithilien an, um den Ring der Verzweiflung und den Ring des Todes zu sichern.)";
     };
 
     -- Scharmützel / Scharmützel-Instanzen / Der Schlag gegen Dannenglor
     [1879160578] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Scharmützel / Der Schlag gegen Dannenglor\n    (Besiegt den Zauberer und erobert seine Kammer)";
+        ["QUESTNAME"] = "Scharmützel / Der Schlag gegen Dannenglor (Wiederholbar)\n    (Mehrere Elben und Waldläufer wurden von einem Zauberer in den uralten Elbenruinen von Dannenglor gefangen genommen.)";
         ["ANNOUNCE"] = "Der Zauberer und die Bedrohung von Dannenglor wurden besiegt. Audaghaim und das Goldene Heer sind sicher.";
         ["IS_SKIRMISH"] = true;
     };
@@ -182,7 +182,7 @@ _CONFLICTING_QUESTS = {
     -- Scharmützel / Scharmützel-Instanzen / Der Sturm auf Methedras
     [1879224852] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Scharmützel / Der Sturm auf Methedras\n    (Bezwingt Gwyllion und Echrud am Eingang von Gwyllions Hütte und beansprucht den letzten Kontrollpunkt)";
+        ["QUESTNAME"] = "Scharmützel / Der Sturm auf Methedras (Wiederholbar)\n    (Ihr seid mit den Waldläufern Saeradan und Amlan aufgebrochen, um der Hexe Gwyllion die Stirn zu bieten, die von den Dunländern die alte Frau des Berges genannt wird. Sie hält sich in ihrer Behausung auf der Spitze des Methedras auf, einem großen Berg, von dem aus man auf das Tal Nan Curunír und auf Isengart hinabschaut.)";
         ["ANNOUNCE"] = "Gwyllion und Echrud sind bezwungen, und die alte Frau stellt keine Bedrohung für Rohan mehr da.";
         ["ISDELAYED"] = true; -- Quest finishes after talking with Saeradan and receiving reward.
         ["IS_SKIRMISH"] = true;
@@ -191,7 +191,7 @@ _CONFLICTING_QUESTS = {
     -- Scharmützel / Scharmützel-Instanzen / Der Untergang von Caras Gelebren
     [1879453538] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Scharmützel / Der Untergang von Caras Gelebren\n    (Verteidigt Caras Gelebren gegen den Feind.)";
+        ["QUESTNAME"] = "Scharmützel / Der Untergang von Caras Gelebren (Wiederholbar)\n    (Caras Gelebren, die Silberne Bastion, war einst die Hauptstadt von Tham Mírdain und das Juwel von Eregion. Leider wurde es vor langer Zeit zerstört, als Sauron auf der Suche nach den Ringen der Macht seine gewaltigen Armeen versammelte und ganz Eregion verwüstete.)";
         ["ANNOUNCE"] = "Der Waffenmeister des Feindes wurde bezwungen!";
         ["ISDELAYED"] = true; -- Quest completion is the first Quest chat item after this announcement, but there is about two minutes of NPC talking in between.
         ["IS_SKIRMISH"] = true;
@@ -200,39 +200,39 @@ _CONFLICTING_QUESTS = {
     -- Instanzen / Minen von Moria / Die Augen des Feindes
     [1879304967] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Trollhöhen / Die Augen des Feindes (wiederholbar)\n    (Besiegt 6 Hendrevail in den Bruinen-Schluchten.)";
+        ["QUESTNAME"] = "Trollhöhen / Die Augen des Feindes (Wiederholbar)\n    (Hendrevail werden vom Feind oft als Spione eingesetzt und werden in den Bruinen-Schluchten immer häufiger beobachtet.)";
     };
 
     -- Scharmützel / Scharmützel-Instanzen / Die Belagerung von Gondamon
     [1879156590] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Scharmützel / Die Belagerung von Gondamon\n    (Wehrt den letzten Angriff ab)";
+        ["QUESTNAME"] = "Scharmützel / Die Belagerung von Gondamon (Wiederholbar)\n    (Gondamon ist eine der mächtigsten Festungen der Langbärte in den Blauen Bergen. Die Grimmhands und ihre Bilwiss-Verbündeten wollen die Festung erobern und für sich selbst beanspruchen.)";
         ["IS_SKIRMISH"] = true;
     };
 
     -- Rhovanion / Täler des Anduin / Die Beschützer des Wilden Volkes
     [1879386531] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Vales of Anduin: Protectors of the Wilderfolk / Die Beschützer des Wilden Volkes\n    (Ihr solltet Audvak, Hithril und Ragnild aufsuchen und ihnen Eure Hilfe anbieten.)";
+        ["QUESTNAME"] = "Täler des Anduin: Die Beschützer des Wilden Volkes / Die Beschützer des Wilden Volkes\n    (In Hultvís haben sich Vertreter des Wilden Volks versammelt, um zusammenzuarbeiten und die Täler des Anduin zu schützen.)";
     };
 
     -- Klasse, Rasse, Epos / Klasse / Die beste Verteidigung
     [1879240242] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Entwash Vale / Die beste Verteidigung\n    (Helft Ingmar oder Herrin Góda)";
+        ["QUESTNAME"] = "Entwasser-Tal / Die beste Verteidigung\n    (Nachdem Ihr beide, Herrn Ingmar und Herrin Góda gehört habt, brachtet Ihr Eure Unterstützung für Gódas Plan vor den Greve Ingbert.)";
     };
 
     -- Scharmützel / Scharmützel-Instanzen / Die Bruinenfurt
     [1879158958] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Scharmützel / Die Bruinenfurt\n    (Wehrt den letzten Angriff ab)";
+        ["QUESTNAME"] = "Scharmützel / Die Bruinenfurt (Wiederholbar)\n    (Die Bruinenfurt ist das letzte Bollwerk, das in das verborgene Bruchtal führt. Orks im Dienste Angmars belagern die Furt, um die Verteidigungslinien vom Imladris zu durchbrechen.)";
         ["IS_SKIRMISH"] = true;
     };
 
     -- Scharmützel / Scharmützel-Instanzen / Die Eisige Kluft
     [1879207159] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Scharmützel / Die Eisige Kluft\n    (Besiegt den Angmarim-Zauberer und erobert die Höhle)";
+        ["QUESTNAME"] = "Scharmützel / Die Eisige Kluft (Wiederholbar)\n    (Angmar versucht, mit finsteren Mächten einen Schneesturm herbeizurufen und Evendim einzufrieren.)";
         ["ANNOUNCE"] = "Angmars Plan wurde durchkreuzt. Evendim ist erst einmal in Sicherheit.";
         ["IS_SKIRMISH"] = true;
     };
@@ -240,25 +240,25 @@ _CONFLICTING_QUESTS = {
     -- Klasse, Rasse, Epos / Epos / Die Entdeckung des Nachfahren
     [1879234348] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Breeland / Die Entdeckung des Nachfahren\n    (Kümmert Euch um das Pferd aus Schlucht, Sprecht mit Éogar auf den Rossfeldern)";
+        ["QUESTNAME"] = "Die Entdeckung des Nachfahren / Die Entdeckung des Nachfahren\n    (Jahrhunderte lang streiften die Meoras frei über die Ebenen ganz Rohans und verbeugten sich nur vor den Königen und Prinzen der Rohirrim.)";
     };
 
     -- Klasse, Rasse, Epos / Volk & Soziales / Die heimgesuchte Erdhöhle
     [1879189266] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Harvest Festival / Die heimgesuchte Erdhöhle (wiederholbar)\n    (Sprecht mit Lobelia in der Heimgesuchten Erdhöhle, Sprecht mit Opal Gutleib über das Schicksal der 'Heimgesuchten Erdhöhle')";
+        ["QUESTNAME"] = "Erntefest / Die heimgesuchte Erdhöhle (Wiederholbar)\n    (Ob Bilbos Brief einen Hinweis enthält, wie man Zugang zum versperrten Keller erhalten kann? Lobelia scheint dies zu denken ...)";
     };
 
     -- Rhovanion / Moria / Die Lodernden Tiefen
     [1879143364] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Moria / Die Lodernden Tiefen\n    (Ossur hat Euch ausgeschickt, Euch den Streitkräften der Orks aus den feurigen Tiefen Morias zu stellen.)";
+        ["QUESTNAME"] = "Moria / Die Lodernden Tiefen\n    (In den Tiefen der Hallen von Moria flackert Feuer aus öligen Lachen. Hier hausen die Ghâsh-hai. Ein Teil von ihnen ist mit Mazog, dem Herrscher von Moria, verbunden und zur Großen Treppe gekommen, um ihrem Anführer zu huldigen.)";
     };
 
     -- Der Krieg / Osgiliath / Die Schlacht um Osgiliath
     [1879326193] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Osgiliath: Court of Anárion / Die Schlacht um Osgiliath\n    (Sprecht mit Cangoras, Edenos, Arthon)";
+        ["QUESTNAME"] = "Osgiliath: Hof von Anárion / Die Schlacht um Osgiliath\n    (Melethon heißt Euch zur Schlacht um Osgiliath willkommen und befiehlt Euch, ihm und den anderen Hauptmännern bei ihrem Vorhaben zu helfen, die Stadt zurückzuerobern.)";
     };
 
     -- Instanzen / Minen von Moria / Die Stärke des Feindes
@@ -270,13 +270,13 @@ _CONFLICTING_QUESTS = {
     -- Eriador / Forochel / Die Verlorenen Gefährten
     [1879109321] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Angmar / Die Verlorenen Gefährten\n    (Helegdir bat Euch, ein Mitglied einer Gefährtengruppe zu suchen, die auf ihrer Reise nach Forochel durch Aughaire in Angmar gereist waren.)";
+        ["QUESTNAME"] = "Angmar / Die Verlorenen Gefährten\n    (Helegdir hat Euch gebeten, dabei zu helfen, die Sicherheit einer Gruppe von Personen zu gewährleisten, die man die Verlorenen Gefährten nennt.)";
     };
 
     -- Scharmützel / Scharmützel-Instanzen / Die Verteidigung des 'Tänzelnden Ponys'
     [1879162702] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Scharmützel / Die Verteidigung des 'Tänzelnden Ponys'\n    (Besiegt Goilag)";
+        ["QUESTNAME"] = "Scharmützel / Die Verteidigung des 'Tänzelnden Ponys' (Wiederholbar)\n    (Die Frauen und Kinder Brees haben sich im Gasthaus \qZum Tänzelnden Pony\q verbarrikadiert. Die Räuber und Raufbolde, welche die Stadt eingenommen haben, wollen jene bestrafen, die sich gegen sie stellen.)";
         ["ANNOUNCE"] = "Goilag wurde besiegt. Bree ist wieder in Sicherheit.";
         ["IS_SKIRMISH"] = true;
     };
@@ -284,13 +284,13 @@ _CONFLICTING_QUESTS = {
     -- Instanzen / Minen von Moria / Die Waffen des Feindes
     [1879048627] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Urugarth / Die Waffen des Feindes\n    (Bringt die Waffen zu Throst)";
+        ["QUESTNAME"] = "Urugarth / Die Waffen des Feindes\n    (Der Widerstand bei Gath Forthnír braucht Ausrüstung, wenn er sich gegen Carn Dûm halten soll.)";
     };
 
     -- Scharmützel / Scharmützel-Instanzen / Dieberei und Unheil
     [1879162680] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Scharmützel / Dieberei und Unheil\n    (Erobert das Rathaus)";
+        ["QUESTNAME"] = "Scharmützel / Dieberei und Unheil (Wiederholbar)\n    (Während die Waldläufer des Nordens im Süden beschäftigt waren, haben Räuber und Rüpel die Gelegenheit ergriffen, die Kontrolle über Breeland an sich zu reißen....)";
         ["ANNOUNCE"] = "Ihr habt das Rathaus zurückerobert und den Süden von Bree befreit.";
         ["IS_SKIRMISH"] = true;
     };
@@ -298,32 +298,32 @@ _CONFLICTING_QUESTS = {
     -- Klasse, Rasse, Epos / Klasse / Ein Schuss ins Blaue
     [1879215638] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Gap of Rohan: Isendale / Ein Schuss ins Blaue\n    (Sprecht mit Ardwyn in Voranbront)";
+        ["QUESTNAME"] = "Pforte von Rohan: Isental / Ein Schuss ins Blaue\n    (Die Rohirrim-Truppen bereiten in der Hoffnung, die Angriffspläne der Dunländer zu vereiteln, einen Präventivschlag gegen das Dorf Brôntrig vor.)";
     };
 
     -- Klasse, Rasse, Epos / Ruf / Eisenmagen
     [1879143729] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Moria / Eisenmagen\n    (Bringt die Innereien zu Pentlenn in der Überschatteten Zuflucht)";
+        ["QUESTNAME"] = "Moria / Eisenmagen\n    (Skûmfíl ist lediglich eine Müllhalde, ein Ort, an dem die gefallenen Orks von Moria entsorgt werden, wenn sie zu verwesen beginnen. Dort haben sich zwei Feinde eingefunden, die die Leichen zu ihrem ganz eigenen Zweck benutzen wollen. Die Kergrim und andere Aasfresser nutzen sie als Nahrungsquelle und die Insekten als Ablageort für ihre Eier, aus denen zukünftige Generationen schlüpfen werden.)";
     };
 
     -- Klasse, Rasse, Epos / Ruf / Fleißiges Bienchen
     [1879414262] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Frühlingsfest / Fleißiges Bienchen\n    (Es ist Zeit, die Wiesen zu bestäuben!)";
+        ["QUESTNAME"] = "Frühlingsfest / Fleißiges Bienchen (Wiederholbar)\n    (Es ist Zeit, die Wiesen zu bestäuben!)";
         ["IS_SKIRMISH"] = true;
     };
 
     -- Klasse, Rasse, Epos / Klasse / Große Verzweiflung
     [1879091387] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Evendim / Große Verzweiflung\n    (Sammelt 6 Vorräte aus versteckten Lagern)";
+        ["QUESTNAME"] = "Annúminas / Große Verzweiflung (Wiederholbar)\n    (Dannassel hat Euch von einigen Vorratslagern erzählt, die in der Stadt in Friedenszeiten versteckt angelegt wurden.)";
     };
 
     -- Rhovanion / Ost-Rohan / Hilfe für Ost-Emnet
     [1879240578] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Hytbold / Hilfe für Ost-Emnet\n    (Leute in Not findet man hauptsächlich in Harwick, der Stadt des Waldmeisters, Ohrenburg, und Schneegrenze.)";
+        ["QUESTNAME"] = "Hytbold / Hilfe für Ost-Emnet (Wiederholbar)\n    (Es gibt eine Menge zu tun, um dem Volk von Ost-Emnet zu helfen.)";
     };
 
     -- Klasse, Rasse, Epos / Volk & Soziales / Hin und wieder zurück
@@ -335,31 +335,31 @@ _CONFLICTING_QUESTS = {
     -- Rhovanion / Wildermark / Höfe der Brachen
     [1879262826] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Wildermore: Fallows / Höfe der Brachen\n    (Findet Thrymms Hof in der Nähe von Forlach, Findet die Überlebenden auf Thrymms Hof, Findet Oter in der Mitte von Thrymms Hof)";
+        ["QUESTNAME"] = "Wildermark: Die Brachen / Höfe der Brachen\n    (Die Höfe in den Brachen wurden aufgegeben, als Núrzum Forlach attackierte und es zu gefährlich war, sich außerhalb der Stadtmauern aufzuhalten. Auf ihrer Flucht ins sicherere Forlach war Thrymms Hof der Sammelpunkt für die Bauern der weiter entfernten Höfe, die entkommen konnten.)";
     };
 
     -- Eriador / Enedwaith / Kleine Wunder
     [1879182762] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Enedwaith / Kleine Wunder\n    (Sprecht mit einem Waldläufer in Echad Idhrenfair.)";
+        ["QUESTNAME"] = "Enedwaith / Kleine Wunder\n    (Ihr habt einen Gegenstand entdeckt, der allem Anschein nach einem Kind gehört, obwohl er nicht von Dunländern gefertigt scheint.)";
     };
 
     -- Instanzen / Turm von Dol Guldur / Lasst keinen zurück
     [1879393874] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Imlad Morgul: Circle of Madness / Lasst keinen zurück\n    (Ihr seid aus den Hallen des Dunklen Wissens entkommen, aber ohne Faeron. Ihr müsst ihn finden und herausfinden, ob es wirklich Viznak war, den ihr in den Hallen gehört habt.)";
+        ["QUESTNAME"] = "Imlad Morgul: Ring des Wahnsinns / Lasst keinen zurück\n    (Ihr seid aus den Hallen des Dunklen Wissens entkommen, aber ohne Faeron. Ihr müsst ihn finden und herausfinden, ob es wirklich Viznak war, den ihr in den Hallen gehört habt.)";
     };
 
     -- Gondor / Fernes Anórien / Nach der Schlacht
     [1879335348] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Minas Tirith (After Battle) / Nach der Schlacht\n    (Sprecht mit Imrahil.)";
+        ["QUESTNAME"] = "Minas Tirith (schlachtgezeichnet) / Nach der Schlacht\n    (Nach der Schlacht auf dem Pelennor hat Euch Imrahil gebeten, der großen Stadt Minas Tirith beizustehen.)";
     };
 
     -- Scharmützel / Scharmützel-Instanzen / Rettung in Nûrz Ghâshu
     [1879181728] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Scharmützel / Rettung in Nûrz Ghâshu\n    (Sprecht mit Golodir)";
+        ["QUESTNAME"] = "Scharmützel / Rettung in Nûrz Ghâshu (Wiederholbar)\n    (Golodir hat sich tief ins Innere von Nûrz Gâshu begeben und sein guter Freund Corunir drängt auf seine Rettung.)";
         ["ANNOUNCE"] = "Erebún wurde besiegt und Golodir wurde befreit";
         ["ISDELAYED"] = true; -- Quest finishes after talking with Corunir / Golodir
         ["IS_SKIRMISH"] = true;
@@ -368,7 +368,7 @@ _CONFLICTING_QUESTS = {
     -- Instanzen / Turm von Dol Guldur / Rudelführer
     [1879205149] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Isengart: Nan Curunír / Rudelführer\n    (Besiegt Quetschmaul im Kreis der Reißzähne)";
+        ["QUESTNAME"] = "Isengart: Nan Curunír / Rudelführer\n    (Das Leittier der Isen-Warge, eine Kreatur namens Malmschlund, führt seine Gefährten bei ihren nächtlichen Raubzügen an. Sein Tod würde einen Kampf um seine Nachfolge auslösen, der noch viele Opfer fordern könnte, bis sich ein neues Leittier durchgesetzt hat.)";
     };
 
     -- Klasse, Rasse, Epos / Klasse / Salz in die Wunde
@@ -380,7 +380,7 @@ _CONFLICTING_QUESTS = {
     -- Eriador / Evendim / Schmuck aus Evendim
     [1879202378] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Evendim / Schmuck aus Evendim\n    (Bringt die Schmuckstücke zu Herthdúr)";
+        ["QUESTNAME"] = "Evendim / Schmuck aus Evendim\n    (Beim Durchwühlen der Dünen haben die Kriecher wohl noch weitere uralte Schmuckstücke verschluckt.)";
     };
 
     -- Klasse, Rasse, Epos / Klasse / Silberne Zunge
@@ -392,7 +392,7 @@ _CONFLICTING_QUESTS = {
     -- Eriador / Angmar / Warg-Bezwinger, Eriador / Dunland / Warg-Bezwinger, Eriador / Einsame Lande / Warg-Bezwinger, Eriador / Nebelgebirge / Warg-Bezwinger, Eriador / Nordhöhen / Warg-Bezwinger, Rhovanion / Moria / Warg-Bezwinger, Rhovanion / Süd-Düsterwald / Warg-Bezwinger
     [1879054427] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "North Downs / Warg-Bezwinger(in)\n    (Besiegt 8 Warge)";
+        ["QUESTNAME"] = "Nordhöhen / Warg-Bezwinger\n    (Widerliche Warge streifen durch die Nordhöhen und machen Jagd auf alle, die sich ihren Herren entgegenstellen. Ihre Anwesenheit bedroht Esteldíns Sicherheit.)";
     };
 
 };

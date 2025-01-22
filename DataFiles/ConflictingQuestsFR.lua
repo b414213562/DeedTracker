@@ -57,13 +57,13 @@ _CONFLICTING_QUESTS = {
     -- Rhovanion / Rohan Est / A l'aide de l'Estemnet
     [1879240578] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Hytbold / A l'aide de l'Estemnet\n    (Terminez cinq quêtes pour venir en aide à l'Estemnet)";
+        ["QUESTNAME"] = "Hytbold / A l'aide de l'Estemnet (Rejouable)\n    (Il y a beaucoup à faire pour aider les habitants de l'Estemnet.)";
     };
 
     -- Escarmouche / Instances d'escarmouche / A l'assaut de l'antre des Spectres de l'Anneau
     [1879160626] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Escarmouche / A l'assaut de l'antre des Spectres de l'Anneau\n    (Prenez l'Antre des Spectres de l'Anneau)";
+        ["QUESTNAME"] = "Escarmouche / A l'assaut de l'antre des Spectres de l'Anneau (Rejouable)\n    (La prise des enceintes de Dol Guldur affaiblit les défenses intérieures et les rend vulnérables.)";
         ["ANNOUNCE"] = "Vous avez conquis l'antre des Spectres de l'Anneau. Le cœur de Dol Guldur est désormais accessible.";
         ["IS_SKIRMISH"] = true;
     };
@@ -83,13 +83,13 @@ _CONFLICTING_QUESTS = {
     -- Gondor / Lointain Anórien / Après la bataille
     [1879335348] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Minas Tirith (après la bataille) / Après la bataille\n    (Parlez à Imrahil)";
+        ["QUESTNAME"] = "Minas Tirith (après la bataille) / Après la bataille\n    (Après la bataille des Champs du Pelennor, Imrahil vous a fait mander pour que vous aidiez la cité de Minas Tirith.)";
     };
 
     -- Escarmouche / Instances d'escarmouche / Attaque à l'aube
     [1879208421] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Escarmouche / Attaque à l'aube\n    (Triomphez de Graug et découvrez l'emplacement d'Esteldin)";
+        ["QUESTNAME"] = "Escarmouche / Attaque à l'aube (Rejouable)\n    (Tard dans la nuit, un groupe d'éclaireurs gobelins a découvert l'emplacement du refuge des Rôdeurs, connu sous le nom d'Esteldin. Les gobelins sont partis en direction de Dol Dinen, où vous devrez les éliminer avant qu'ils n'appellent des renforts.)";
         ["ANNOUNCE"] = "Graug éliminé et emplacement d'Esteldin obtenu";
         ["IS_SKIRMISH"] = true;
     };
@@ -97,7 +97,7 @@ _CONFLICTING_QUESTS = {
     -- Escarmouche / Instances d'escarmouche / Attaque contre Dannenglor
     [1879160578] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Escarmouche / Attaque contre Dannenglor\n    (Prenez le contrôle de la chambre du sorcier et triomphez de ce dernier)";
+        ["QUESTNAME"] = "Escarmouche / Attaque contre Dannenglor (Rejouable)\n    (Plusieurs Elfes et Rôdeurs ont été faits prisonniers par un sorcier dans les anciennes ruines elfiques de Dannenglor.)";
         ["ANNOUNCE"] = "Le sorcier et la menace de Dannenglor ont été vaincus. Audaghaim et l'Armée d'Or sont sains et saufs.";
         ["IS_SKIRMISH"] = true;
     };
@@ -117,13 +117,13 @@ _CONFLICTING_QUESTS = {
     -- Rhovanion / Landes farouches / Fermes des jachères
     [1879262826] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Landes farouches : Les Jachères / Fermes des jachères\n    (Trouvez la ferme de Thrymm, près de Forloi; Trouvez les survivants près de la ferme de Thrymm; Trouvez Oter au centre de la ferme de Thrymm)";
+        ["QUESTNAME"] = "Landes farouches : Les Jachères / Fermes des jachères\n    (Les fermes des Jachères furent abandonnées lorsque Núrzum a attaqué Forloi, et il était jugé dangereux de se trouver en dehors des murs de la ville. La ferme de Thrymm est l'endroit où se rassemblent tous ceux qui fuient les fermes avoisinantes pour se mettre à l'abri à Forloi.)";
     };
 
     -- Escarmouche / Instances d'escarmouche / Forcer la Porte du Nécromancien
     [1879160602] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Escarmouche / Forcer la Porte du Nécromancien\n    (Reprenez la Porte du Nécromancien)";
+        ["QUESTNAME"] = "Escarmouche / Forcer la Porte du Nécromancien (Rejouable)\n    (La Porte du Nécromancien permet d'accéder au cœur des fortifications extérieures de Dol Guldur. Afin de pouvoir assaillir la forteresse, la porte doit tomber.)";
         ["ANNOUNCE"] = "La Porte du Nécromancien est tombée. Il est désormais possible d'attaquer le cœur de Dol Guldur";
         ["IS_SKIRMISH"] = true;
     };
@@ -131,19 +131,19 @@ _CONFLICTING_QUESTS = {
     -- Classe/Race/Epique / Race et statut social / L'anniversaire de Sacquet
     [1879282924] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Festival / L'anniversaire de Sacquet -- Rejouable\n    (Allez parler à Frodon Sacquet à la Dernière Maison Simple de Fondcombe)";
+        ["QUESTNAME"] = "Festival / L'anniversaire de Sacquet\n    (Frodon Sacquet recherche un aventurier pour l'aider à faire une surprise à son oncle Bilbon, pour l'anniversaire de ce dernier ! Rendez-vous à Fondcombe pour apprendre de quelle manière vous pouvez lui apporter votre aide.)";
     };
 
     -- Guerre / Osgiliath / La bataille d'Osgiliath
     [1879326193] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Osgiliath: Court of Anárion / La bataille d'Osgiliath\n    (Parlez à Cangoras, Edenos, Arthon)";
+        ["QUESTNAME"] = "Osgiliath : Cour d'Anárion / La bataille d'Osgiliath\n    (Melethon salue votre arrivée sur le champ de bataille d'Osgiliath et vous ordonne de l'assister lui ainsi que les autres capitaines à reprendre la cité.)";
     };
 
     -- Escarmouche / Instances d'escarmouche / La bataille de la tour
     [1879160343] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Escarmouche / La bataille de la tour\n    (Prenez l'armurerie)";
+        ["QUESTNAME"] = "Escarmouche / La bataille de la tour (Rejouable)\n    (L'ennemi s'est retranché dans la tour de Dol Guldur. Il est temps de les frapper au cœur.)";
         ["ANNOUNCE"] = "Vous avez pris l'armurerie et récupéré Zigilburk";
         ["IS_SKIRMISH"] = true;
     };
@@ -151,13 +151,13 @@ _CONFLICTING_QUESTS = {
     -- Eriador / Forochel / La Communauté Perdue
     [1879109321] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Angmar / La Communauté Perdue\n    (Helegdir vous a demandé de retrouver un membre d'une communauté d'aventuriers qui est partie dans le Forochel en passant par Aughaire, en Angmar.)";
+        ["QUESTNAME"] = "Angmar / La Communauté Perdue\n    (Helegdir vous a demandé de l'aider en veillant à la sécurité d'un groupe connu sous le nom de Communauté Perdue.)";
     };
 
     -- Escarmouche / Instances d'escarmouche / La Crevasse glacée
     [1879207159] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Escarmouche / La Crevasse glacée\n    (Triomphez de l'ensorceleur d'Angmar et emparez-vous de la grotte)";
+        ["QUESTNAME"] = "Escarmouche / La Crevasse glacée (Rejouable)\n    (L'Angmar s'emploie à utiliser des pouvoirs maléfiques pour invoquer un blizzard dans le but de geler Evendim.)";
         ["ANNOUNCE"] = "Les plans de l'Angmar ont été contrecarrés. Evendim est en sécurité, pour le moment du moins.";
         ["IS_SKIRMISH"] = true;
     };
@@ -165,13 +165,13 @@ _CONFLICTING_QUESTS = {
     -- Classe/Race/Epique / Epique / La découverte du descendant
     [1879234348] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "La découverte du descendant / La découverte du descendant\n    (Allez voir le cheval venu de Combe, Parlez à Eogar dans les Champs-aux-Chevaux)";
+        ["QUESTNAME"] = "La découverte du descendant / La découverte du descendant\n    (Pendant des siècles les Mearas ont librement parcouru les plaines du Rohan, n'acceptant pour maîtres que les rois et les princes des Rohirrim.)";
     };
 
     -- Escarmouche / Instances d'escarmouche / La défense d'Amon Sûl
     [1879159798] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Escarmouche / La défense d'Amon Sûl\n    (Venez à bout du Cargûl)";
+        ["QUESTNAME"] = "Escarmouche / La défense d'Amon Sûl (Rejouable)\n    (Des serviteurs du Roi-Sorcier ont été attirés jusqu'au Mont Venteux suite à un combat acharné entre plusieurs Nazgûl et le magicien Gandalf le Gris. Candaith le Rôdeur a préparé un piège afin de vaincre le Cargûl qui mène les forces des ténèbres vers les ruines d'Amon Sûl.)";
         ["ANNOUNCE"] = "Le Cargûl a été vaincu et Candaith a survécu. C'est lui qui ira annoncer la nouvelle à Fondcombe.";
         ["IS_SKIRMISH"] = true;
     };
@@ -179,7 +179,7 @@ _CONFLICTING_QUESTS = {
     -- Escarmouche / Instances d'escarmouche / La défense du Poney Fringant
     [1879162702] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Escarmouche / La défense du Poney Fringant\n    (Eliminez Goilag)";
+        ["QUESTNAME"] = "Escarmouche / La défense du Poney Fringant (Rejouable)\n    (Les femmes et les enfants de Bree se sont barricadés dans l'auberge du Poney Fringant. Les brigands qui ont pris la ville veulent châtier ceux qui s'opposent à eux.)";
         ["ANNOUNCE"] = "Goilag a été vaincu. Bree est sauvée !";
         ["IS_SKIRMISH"] = true;
     };
@@ -187,7 +187,7 @@ _CONFLICTING_QUESTS = {
     -- Classe/Race/Epique / Classe / La Meilleure défense
     [1879240242] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "La Vallée de l'Entalluve / La Meilleure défense\n    (Aidez Ingmar ou Dame Góda)";
+        ["QUESTNAME"] = "La Vallée de l'Entalluve / La Meilleure défense\n    (Après avoir discuté avec le seigneur Ingmar et Dame Góda, vous défendez le plan de Dame Góda face au sénéchal Ingbert.)";
     };
 
     -- Eriador / Pays de Bree / La Vieille Forêt
@@ -205,19 +205,19 @@ _CONFLICTING_QUESTS = {
     -- Escarmouche / Instances d'escarmouche / Le calme avant la tempête
     [1879275478] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Terre-du-Roi / Le calme avant la tempête\n    (Thane Edric and Léoflad struggle to ensure the safety of their people as the forces of the Enemy draw ever closer.)";
+        ["QUESTNAME"] = "Terre-du-Roi / Le calme avant la tempête\n    (Le Thane Edric et Léoflad font leur possible pour assurer la sécurité de leurs gens, alors que les forces de l'ennemi s'approchent chaque jour davantage.)";
     };
 
     -- Eriador / Angmar / Le cercle du désespoir
     [1879396465] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Imlad Morgul : Minas Morgul / Le cercle du désespoir\n    (Aidez Dornach à reconquérir le Cercle du Désespoir. Parlez à Candúr, à Barad Arthir.)";
+        ["QUESTNAME"] = "Imlad Morgul : Minas Morgul / Le cercle du désespoir\n    (Après avoir pris pied à Barad Arthir, le prince Faramir est arrivé pour prendre la tête des Rôdeurs de l'Ithilien afin de conquérir le Cercle du Désespoir et le Cercle de la Mort.)";
     };
 
     -- Escarmouche / Instances d'escarmouche / Le destin funeste de Caras Gelebren
     [1879453538] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Escarmouche / Le destin funeste de Caras Gelebren\n    (Defendez Caras Gelebren contre l'Ennemi)";
+        ["QUESTNAME"] = "Escarmouche / Le destin funeste de Caras Gelebren (Rejouable)\n    (Caras Gelebren, le bastion d'argent, était jadis la capitale de Tham Mirdain et le joyau de l'Eregion. Malheureusement, il fut réduit en ruines il y a bien longtemps, lorsque Sauron, déterminé à s'emparer des Anneaux de pouvoir, rassembla ses vastes armées pour détruire tout l'Eregion.)";
         ["ANNOUNCE"] = "Le champion de l'Ennemi a été vaincu !";
         ["ISDELAYED"] = true; -- Quest completion is the first Quest chat item after this announcement, but there is about two minutes of NPC talking in between.
         ["IS_SKIRMISH"] = true;
@@ -226,7 +226,7 @@ _CONFLICTING_QUESTS = {
     -- Classe/Race/Epique / Race et statut social / Le Trou de hobbit hanté
     [1879189266] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Le festival des moissons / Le Trou de hobbit hanté -- Rejouable\n    (Allez voir Lobelia à l'intérieur du Trou de hobbit hanté, Allez voir Opale Bravet pour discuter du sort du Trou de hobbit hanté)";
+        ["QUESTNAME"] = "Le festival des moissons / Le Trou de hobbit hanté (Rejouable)\n    (La lettre de Bilbon contient-elle un indice pour accéder à la cave fermée ? Lobelia semble le croire....)";
     };
 
     -- Instances / Mines de la Moria / Les armes de l'ennemi
@@ -238,13 +238,13 @@ _CONFLICTING_QUESTS = {
     -- Eriador / Noues des cygnes et Cardolan / Les trésors du Cardolan
     [1879061504] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Pays de Bree / Les trésors du Cardolan\n    (Rapportez le journal ancien à Tobold Coupefeuille)";
+        ["QUESTNAME"] = "Pays de Bree / Les trésors du Cardolan\n    (Parmi les fragments que vous avez découverts lors de votre mission précédente pour Tobold Coupefeuille se trouvaient des textes faisant référence à un grand trésor du Cardolan. Tobold pense que deux frères, tous deux guerriers d'Arnor, ont mis la main sur un trésor qu'ils ont ramené dans le Galgal du Nord.)";
     };
 
     -- Instances / Mines de la Moria / Les yeux de l'Ennemi
     [1879304967] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Trouée des Trolls / Les yeux de l'Ennemi -- Rejouable\n    (Tuez 6 des hendrovals dans les Gorges de Bruinen)";
+        ["QUESTNAME"] = "Trouée des Trolls / Les yeux de l'Ennemi (Rejouable)\n    (Nombre d'hendrovals sont apparus dans les Gorges de Bruinen, l'Ennemi s'en sert comme espions.)";
     };
 
     -- Instances / Tour de Dol Guldur / Ne laissez personne derrière vous
@@ -256,7 +256,7 @@ _CONFLICTING_QUESTS = {
     -- Classe/Race/Epique / Classe / Nécessité fait loi
     [1879091387] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Annuminas / Nécessité fait loi\n    (Récupérez 6 le matériel des caches)";
+        ["QUESTNAME"] = "Annuminas / Nécessité fait loi (Rejouable)\n    (Dannassel vous a parlé d'un certain nombre de caches d'équipement placées en ville en temps de paix.)";
     };
 
     -- Classe/Race/Epique / Classe / Nouveau départ
@@ -268,7 +268,7 @@ _CONFLICTING_QUESTS = {
     -- Escarmouche / Instances d'escarmouche / Orage sur Methedras
     [1879224852] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Escarmouche / Orage sur Methedras\n    (Battez Gwyllion et Echrud devant la hutte de Gwyllion et prenez le point de contrôle final)";
+        ["QUESTNAME"] = "Escarmouche / Orage sur Methedras (Rejouable)\n    (Vous avez accompagné les rôdeurs Saeradan et Amlan pour affronter la sorcière Gwyllion, appelée la Vieille femme de la montagne par les habitants du Pays de Dun, dans sa demeure au sommet de Methedras, une grande montagne qui surplombe Nan Curunír et Isengard.)";
         ["ANNOUNCE"] = "Gwyllion et Echrud ont été vaincus, anéantissant la menace de la Vieille femme sur le Rohan";
         ["ISDELAYED"] = true; -- Quest finishes after talking with Saeradan and receiving reward.
         ["IS_SKIRMISH"] = true;
@@ -277,7 +277,7 @@ _CONFLICTING_QUESTS = {
     -- Classe/Race/Epique / Classe / Outils professionnels
     [1879309913] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Ouest du Gondor : Belfalas / Outils professionnels -- Rejouable\n    (Récupérez 8 les outils)";
+        ["QUESTNAME"] = "Ouest du Gondor : Belfalas / Outils professionnels (Rejouable)\n    (Les corsaires ont commencé à emballer et à emporter les outils des artisans.)";
     };
 
     -- Classe/Race/Epique / Classe / Pas le temps de jouer
@@ -289,19 +289,19 @@ _CONFLICTING_QUESTS = {
     -- Eriador / Enedwaith / Petites merveilles
     [1879182762] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Enedwaith / Petites merveilles\n    (Allez voir un Rôdeur à Echad Idhrenfair.)";
+        ["QUESTNAME"] = "Enedwaith / Petites merveilles\n    (Vous avez découvert un objet semblant avoir appartenu à un enfant, mais ce n'est manifestement pas le genre d'objet que l'on peut trouver parmi les clans du Pays de Dun.)";
     };
 
     -- Rhovanion / Val d'Anduin / Protecteur du peuple sauvage
     [1879386531] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Val d'Anduin: Protecteur/Protectrice du peuple sauvage / Protecteur/Protectrice du peuple sauvage\n    (Vous devriez chercher Audvak, Hithril et Ragnild, pour leur proposer de les aider.)";
+        ["QUESTNAME"] = "Val d'Anduin: Protecteur / Protectrice du peuple sauvage / Protecteur du peuple sauvage\n    (Plusieurs représentants du Peuple sauvage se sont rassemblés à Hultvis afin de protéger le Val d'Anduin.)";
     };
 
     -- Escarmouche / Instances d'escarmouche / Protecteurs de Thangulhad
     [1879160668] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Escarmouche / Protecteurs de Thangulhad\n    (Repoussez le cinquième assaut, Allez voir Rodelleth)";
+        ["QUESTNAME"] = "Escarmouche / Protecteurs de Thangulhad (Rejouable)\n    (Thangulhad est attaqué par les forces de Dol Guldur. Ces dernières veulent conquérir l'endroit et éliminer l'Armée d'Or qui y est stationnée.)";
         ["ANNOUNCE"] = "Vous avez vaincu Mazaukal. Thangulhad est sécurisé.";
         ["IS_SKIRMISH"] = true;
     };
@@ -309,7 +309,7 @@ _CONFLICTING_QUESTS = {
     -- Escarmouche / Instances d'escarmouche / Sauvetage à Nûrz Ghâshu
     [1879181728] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Escarmouche / Sauvetage à Nûrz Ghâshu\n    (Parlez à Golodir)";
+        ["QUESTNAME"] = "Escarmouche / Sauvetage à Nûrz Ghâshu (Rejouable)\n    (Golodir s'est aventuré au cœur de Nûrz Ghâshu, et son ami Corunir veut absolument le sauver.)";
         ["ANNOUNCE"] = "Erebun a été vaincu et Golodir a été libéré";
         ["ISDELAYED"] = true; -- Quest finishes after talking with Corunir / Golodir
         ["IS_SKIRMISH"] = true;
@@ -324,7 +324,7 @@ _CONFLICTING_QUESTS = {
     -- Escarmouche / Instances d'escarmouche / Troubles à Bourg de Touque
     [1879156593] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Escarmouche / Troubles à Bourg de Touque\n    (Eliminez le semi-Orque à l'entrée des Grands Smials et reprenez les Grands Smials)";
+        ["QUESTNAME"] = "Escarmouche / Troubles à Bourg de Touque (Rejouable)\n    (Bourg de Touque est le principal village du Pays de Touque et la demeure ancestrale des Thain de la Comté. Gobelins et semi-Orques cherchent à en prendre possession au nom de Sharcoux, le chef des brigands qui sèment la terreur dans le Pays de Bree et dans la Comté.)";
         ["ANNOUNCE"] = "Le semi-Orque menant l'assaut est mort. Les brigands et les gobelins encore en vie se dispersent. Les Grands Smials sont sauvés.";
         ["IS_SKIRMISH"] = true;
     };
@@ -332,7 +332,7 @@ _CONFLICTING_QUESTS = {
     -- Eriador / Angmar / Tueur d'ouargues, Eriador / Hauts du Nord / Tueur d'ouargues, Eriador / Monts Brumeux / Tueur d'ouargues, Eriador / Pays de Dun / Tueur d'ouargues, Eriador / Terres Solitaires / Tueur d'ouargues, Rhovanion / Moria / Tueur d'ouargues, Rhovanion / Sud de la Forêt Noire / Tueur d'ouargues
     [1879054427] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "North Downs / Tueur(se) d'ouargues\n    (Tuez 8 des ouargues)";
+        ["QUESTNAME"] = "Hauts du Nord / Tueur d'ouargues\n    (D'immondes ouargues rôdent dans les Hauts du Nord et chassent tous ceux qui s'opposent à leurs maîtres. Leur présence menace la sécurité d'Esteldin.)";
     };
 
     -- Classe/Race/Epique / Race et statut social / Un accueil glacial
@@ -350,7 +350,7 @@ _CONFLICTING_QUESTS = {
     -- Escarmouche / Instances d'escarmouche / Un pique-nique idéal
     [1879367046] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Escarmouche / Un pique-nique idéal\n    (Profitez d'un merveilleux pique-nique)";
+        ["QUESTNAME"] = "Foire des fermiers / Un pique-nique idéal (Rejouable)\n    (Quelle journée magnifique pour un pique-nique !)";
         ["ANNOUNCE"] = "Le pique-nique est sauvé. La pluie a même rafraîchi un peu l'atmosphère !";
         ["ISDELAYED"] = true; -- Quest finishes after eating food
         ["IS_SKIRMISH"] = true;
@@ -359,7 +359,7 @@ _CONFLICTING_QUESTS = {
     -- Escarmouche / Instances d'escarmouche / Vols et méfaits
     [1879162680] = {
         ["ISREPEATABLE"] = true;
-        ["QUESTNAME"] = "Escarmouche / Vols et méfaits\n    (Reprenez l'hôtel de ville)";
+        ["QUESTNAME"] = "Escarmouche / Vols et méfaits (Rejouable)\n    (Pendant que les Rôdeurs du Nord étaient occupés au sud, des brigands en ont profité pour prendre le contrôle de Bree....)";
         ["ANNOUNCE"] = "Vous avez repris l'Hôtel de ville et libéré le sud de Bree.";
         ["IS_SKIRMISH"] = true;
     };
