@@ -105,7 +105,7 @@ _CONFLICTING_QUESTS = {
     -- Instances / Tour de Dol Guldur / D'une pierre deux coups
     [1879143693] = {
         ["ISREPEATABLE"] = false;
-        ["QUESTNAME"] = "Moria : Le système hydraulique / D'une pierre deux coups\n    (Entrée dans la Gueule Ignoble" description="Le système hydraulique est un site d'une grande importance pour les nains qui souhaitent rester dans la Moria. La mission d'Indrith le contremaître consiste à en réparer les canaux.)";
+        ["QUESTNAME"] = "Moria : Le système hydraulique / D'une pierre deux coups\n    (Le système hydraulique est un site d'une grande importance pour les nains qui souhaitent rester dans la Moria. La mission d'Indrith le contremaître consiste à en réparer les canaux.)";
     };
 
     -- Classe/Race/Epique / Classe / Des intrus du nord
