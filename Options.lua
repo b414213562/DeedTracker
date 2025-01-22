@@ -5,6 +5,9 @@ function AddOptionCheckbox(options, y, text)
     checkbox:SetParent(options);
     checkbox:SetSize(300, OPTION_HEIGHT);
     checkbox:SetPosition(10, y);
+    if (LANGUAGE == "RU") then
+        checkbox:SetFont(Turbine.UI.Lotro.Font.Verdana14);
+    end
     checkbox:SetText(text);
     --checkbox:SetBackColor(Turbine.UI.Color.Violet);
     return checkbox;
@@ -64,6 +67,9 @@ function AddServerField(options, y, fieldName, buttonText, callback)
     label:SetParent(options);
     label:SetSize(150, OPTION_HEIGHT);
     label:SetPosition(10, y + 5);
+    if (LANGUAGE == "RU") then
+        label:SetFont(Turbine.UI.Lotro.Font.Verdana14);
+    end
     label:SetText(GetString(_LANG.OPTIONS[fieldName]));
     AutoFitLabelHeight(label, 500);
     if (label:GetHeight() > OPTION_HEIGHT) then
@@ -80,6 +86,9 @@ function AddServerField(options, y, fieldName, buttonText, callback)
     button:SetParent(options);
     button:SetSize(75, 30);
     button:SetPosition(250, y + 5 + extraY);
+    if (LANGUAGE == "RU") then
+        button:SetFont(Turbine.UI.Lotro.Font.Verdana14);
+    end
     button:SetText(buttonText);
     button.Click = function()
         local value = textBox:GetText();
