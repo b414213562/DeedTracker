@@ -121,7 +121,7 @@ _NOT_ACTIVE_REASON = {
     [5] = "Требует покупки";
     -- Deed is linked to the Landscape Difficulty system, where you must begin it before level 11, 
     -- and not drop below a certain difficulty before level 50/130.
-    [6] = "Landscape Difficulty";
+    [6] = "Путь доблести";
     -- Vocations were dropped in U38.
     [7] = "Профессии";
 };

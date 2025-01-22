@@ -24,9 +24,9 @@ _DEED_CATEGORIES = {
 [15] = { ["NAME"] = "- Гибель Карас-Гелебрена -"; };
 [16] = { ["NAME"] = "Уровень 45+"; };
 [17] = { ["NAME"] = "-Могильники: остаться в живых-"; };
-[18] = { ["TIER"] = 2; ["NAME"] = "--The Dead Slayer Deeds--"; };
-[19] = { ["TIER"] = 2; ["NAME"] = "--The Dark Lord Lieutenant Slayer Deeds--"; };
-[20] = { ["TIER"] = 2; ["NAME"] = "--Single Session (Instance) Deeds--"; };
+[18] = { ["TIER"] = 2; ["NAME"] = "--Деяния Убийцы нежити--"; };
+[19] = { ["TIER"] = 2; ["NAME"] = "--Деяния Убийцы командиров Тёмного властелина--"; };
+[20] = { ["TIER"] = 2; ["NAME"] = "--Деяния 'В один заход' (Инстансы)--"; };
 [21] = { ["NA"] = 2; ["NAME"] = "Not Actively Achievable"; };
 -- Instances / Shadows of Angmar
 [22] = { ["NAME"] = "Уровень 20+"; };
@@ -51,109 +51,109 @@ _DEED_CATEGORIES = {
 [41] = { ["NAME"] = "Not Actively Achievable"; };
 -- Instances / Mines of Moria
 [42] = { ["NAME"] = "Уровень 54"; };
-[43] = { ["NAME"] = "- Forgotten Treasury -"; };
+[43] = { ["NAME"] = "- Забытая сокровищница -"; };
 [44] = { ["NAME"] = "Уровень 58"; };
-[45] = { ["TIER"] = 1; ["NAME"] = "- The Vile Maw -"; };
-[46] = { ["TIER"] = 1; ["NAME"] = "- The Grand Stair -"; };
-[47] = { ["TIER"] = 1; ["NAME"] = "- Foundations of Stone -"; };
-[48] = { ["TIER"] = 2; ["NAME"] = "-- Skûmfil --"; };
-[49] = { ["TIER"] = 2; ["NAME"] = "-- Dark Delvings --"; };
-[50] = { ["TIER"] = 1; ["NAME"] = "- The Sixteenth Hall -"; };
-[51] = { ["TIER"] = 1; ["NAME"] = "- The Flaming Deeps -"; };
-[52] = { ["TIER"] = 2; ["NAME"] = "-- Forges of Khazad-dûm --"; };
-[53] = { ["TIER"] = 2; ["NAME"] = "-- Fil Gashan --"; };
+[45] = { ["TIER"] = 1; ["NAME"] = "- Черная утроба -"; };
+[46] = { ["TIER"] = 1; ["NAME"] = "- Большая лестница -"; };
+[47] = { ["TIER"] = 1; ["NAME"] = "- Каменные основания -"; };
+[48] = { ["TIER"] = 2; ["NAME"] = "-- Скамфил --"; };
+[49] = { ["TIER"] = 2; ["NAME"] = "-- Темные пещеры --"; };
+[50] = { ["TIER"] = 1; ["NAME"] = "- Шестнадцатый чертог -"; };
+[51] = { ["TIER"] = 1; ["NAME"] = "- Огненные глубины -"; };
+[52] = { ["TIER"] = 2; ["NAME"] = "-- Кузница Казад-Дума --"; };
+[53] = { ["TIER"] = 2; ["NAME"] = "-- Фил Гашан --"; };
 -- Instances / Scourge of Khazad-dûm
-[54] = { ["TIER"] = 1; ["NAME"] = "The Halls of Crafting"; };
-[55] = { ["TIER"] = 1; ["NAME"] = "Dâr Narbugud"; };
-[56] = { ["TIER"] = 1; ["NAME"] = "Lumul-nar"; };
-[57] = { ["TIER"] = 1; ["NAME"] = "Nalâ-dûm"; };
+[54] = { ["TIER"] = 1; ["NAME"] = "Чертог Мастеров"; };
+[55] = { ["TIER"] = 1; ["NAME"] = "Дар Нарбугуд"; };
+[56] = { ["TIER"] = 1; ["NAME"] = "Зеркальный чертог"; };
+[57] = { ["TIER"] = 1; ["NAME"] = "Чертог Колес"; };
 -- Instances / Tower of Dol Guldur
-[58] = { ["TIER"] = 1; ["NAME"] = "Dungeons of Dol Guldur"; };
-[59] = { ["TIER"] = 1; ["NAME"] = "Warg-pens of Dol Guldur"; };
-[60] = { ["TIER"] = 1; ["NAME"] = "Sammath Gûl"; };
-[61] = { ["TIER"] = 1; ["NAME"] = "Barad Guldur"; };
-[62] = { ["NAME"] = "Sword-hall of Dol Guldur"; };
+[58] = { ["TIER"] = 1; ["NAME"] = "Темницы Дол Гулдура"; };
+[59] = { ["TIER"] = 1; ["NAME"] = "Псарни Дол Гулдура"; };
+[60] = { ["TIER"] = 1; ["NAME"] = "Саммат Гул"; };
+[61] = { ["TIER"] = 1; ["NAME"] = "Барад Гулдур"; };
+[62] = { ["NAME"] = "Зал Мечей Дол Гулдура"; };
 [63] = { ["LEGENDARY"] = true; ["NAME"] = "Not Actively Achievable"; };
 -- Instances / In Their Absence
-[64] = { ["TIER"] = 1; ["NAME"] = "Northcotton Farm"; };
-[65] = { ["TIER"] = 1; ["NAME"] = "Stoneheight"; };
-[66] = { ["TIER"] = 1; ["NAME"] = "Lost Temple"; };
-[67] = { ["TIER"] = 1; ["NAME"] = "Sâri-surma"; };
-[68] = { ["TIER"] = 1; ["NAME"] = "Ost Dunhoth"; };
+[64] = { ["TIER"] = 1; ["NAME"] = "Хлопчатниковая ферма"; };
+[65] = { ["TIER"] = 1; ["NAME"] = "Каменные Холмы"; };
+[66] = { ["TIER"] = 1; ["NAME"] = "Затерянный храм"; };
+[67] = { ["TIER"] = 1; ["NAME"] = "Сари-сурма"; };
+[68] = { ["TIER"] = 1; ["NAME"] = "Ост Дунхот"; };
 [69] = { ["NAME"] = "Not Actively Achievable"; };
 -- Instances / Rise of Isengard
-[70] = { ["TIER"] = 1; ["NAME"] = "The Foundry"; };
-[71] = { ["TIER"] = 1; ["NAME"] = "Fangorn's Edge"; };
-[72] = { ["TIER"] = 1; ["NAME"] = "Pits of Isengard"; };
-[73] = { ["TIER"] = 1; ["NAME"] = "Dargnákh Unleashed"; };
-[74] = { ["TIER"] = 1; ["NAME"] = "The Tower of Orthanc"; };
-[75] = { ["NAME"] = "Draigoch's Lair"; };
+[70] = { ["TIER"] = 1; ["NAME"] = "Литейные мастерские"; };
+[71] = { ["TIER"] = 1; ["NAME"] = "Опушка Фангорна"; };
+[72] = { ["TIER"] = 1; ["NAME"] = "Ямы Изенгарда"; };
+[73] = { ["TIER"] = 1; ["NAME"] = "Даргнакх на свободе"; };
+[74] = { ["TIER"] = 1; ["NAME"] = "Башня Ортханк"; };
+[75] = { ["NAME"] = "Логово Драйгоха"; };
 [76] = { ["NAME"] = "Not Actively Achievable"; };
 -- Instances / The Road to Erebor
-[77] = { ["TIER"] = 1; ["NAME"] = "Seat of the Great Goblin"; };
-[78] = { ["TIER"] = 1; ["NAME"] = "Web of Scuttledells"; };
-[79] = { ["TIER"] = 1; ["NAME"] = "Iorbar's Peak"; };
-[80] = { ["TIER"] = 1; ["NAME"] = "Flight to the Lonely Mountain"; };
-[81] = { ["TIER"] = 1; ["NAME"] = "The Bells of Dale"; };
-[82] = { ["TIER"] = 1; ["NAME"] = "The Fires of Smaug"; };
-[83] = { ["TIER"] = 1; ["NAME"] = "The Battle for Erebor"; };
+[77] = { ["TIER"] = 1; ["NAME"] = "Великий гоблин"; };
+[78] = { ["TIER"] = 1; ["NAME"] = "Сети Быстрого дола"; };
+[79] = { ["TIER"] = 1; ["NAME"] = "Пик Иорбара"; };
+[80] = { ["TIER"] = 1; ["NAME"] = "Бегство к Одинокой горе"; };
+[81] = { ["TIER"] = 1; ["NAME"] = "Колокола Дейла"; };
+[82] = { ["TIER"] = 1; ["NAME"] = "Огни Смауга"; };
+[83] = { ["TIER"] = 1; ["NAME"] = "Битва за Эребор"; };
 -- Instances / Ashes of Osgiliath
-[84] = { ["NAME"] = "The Dome of Stars"; };
-[85] = { ["NAME"] = "The Ruined City"; };
-[86] = { ["NAME"] = "The Sunken Labyrinth"; };
+[84] = { ["NAME"] = "Купол звезд"; };
+[85] = { ["NAME"] = "Разрушенный город"; };
+[86] = { ["NAME"] = "Затопленный лабиринт"; };
 -- Instances / The Battle of Pelennor
-[87] = { ["NAME"] = "Blood of the Black Serpent"; };
-[88] = { ["NAME"] = "The Quays of the Harlond"; };
-[89] = { ["NAME"] = "The Silent Street"; };
-[90] = { ["NAME"] = "Throne of the Dread Terror"; };
+[87] = { ["NAME"] = "Кровь Чёрного Змея"; };
+[88] = { ["NAME"] = "Причалы Харлонда"; };
+[89] = { ["NAME"] = "Тихая улица"; };
+[90] = { ["NAME"] = "Трон Угнетающего Страхом"; };
 [91] = { ["NAME"] = "Not Actively Achievable"; };
 -- Instances / The Plateau of Gorgoroth
-[92] = { ["NAME"] = "The Court of Seregost"; };
-[93] = { ["NAME"] = "Dungeons of Naerband"; };
-[94] = { ["NAME"] = "The Abyss of Mordath"; };
+[92] = { ["NAME"] = "Двор Серегоста"; };
+[93] = { ["NAME"] = "Темницы Наэрбанда"; };
+[94] = { ["NAME"] = "Бездна Мордат"; };
 [95] = { ["NAME"] = "Not Actively Achievable"; };
 -- Instances / The Grey Mountains
-[96] = { ["NAME"] = "Caverns of Thrumfall"; };
-[97] = { ["NAME"] = "Glimmerdeep"; };
-[98] = { ["NAME"] = "The Anvil of Winterstith"; };
-[99] = { ["NAME"] = "Thikil-gundu"; };
+[96] = { ["NAME"] = "Грохочущие пещеры"; };
+[97] = { ["NAME"] = "Мерцающая бездна"; };
+[98] = { ["NAME"] = "Ледяная Наковальня Кузницы Зимы"; };
+[99] = { ["NAME"] = "Тикил-Гунду"; };
 [100] = { ["NAME"] = "Not Actively Achievable"; };
 -- Instances / Minas Morgul
-[101] = { ["NAME"] = "The Dead City"; };
-[102] = { ["TIER"] = 1; ["NAME"] = "Gorthad Nûr"; };
-[103] = { ["TIER"] = 1; ["NAME"] = "Eithel Gwaur"; };
-[104] = { ["TIER"] = 1; ["NAME"] = "The Harrowing of Morgul"; };
-[105] = { ["TIER"] = 1; ["NAME"] = "Gath Daeroval"; };
-[106] = { ["TIER"] = 1; ["NAME"] = "Bâr Nírnaeth"; };
-[107] = { ["TIER"] = 1; ["NAME"] = "Ghashan-kútot"; };
-[108] = { ["TIER"] = 1; ["NAME"] = "The Fallen Kings"; };
-[109] = { ["NAME"] = "Remmorchant"; };
+[101] = { ["NAME"] = "Город Мертвых"; };
+[102] = { ["TIER"] = 1; ["NAME"] = "Гортад Нур"; };
+[103] = { ["TIER"] = 1; ["NAME"] = "Эйтель Гваур"; };
+[104] = { ["TIER"] = 1; ["NAME"] = "Моргульское Прореживание"; };
+[105] = { ["TIER"] = 1; ["NAME"] = "Гат Даэровал"; };
+[106] = { ["TIER"] = 1; ["NAME"] = "Бар Нирнаэт"; };
+[107] = { ["TIER"] = 1; ["NAME"] = "Гхашан-Кутот"; };
+[108] = { ["TIER"] = 1; ["NAME"] = "Падшие короли"; };
+[109] = { ["NAME"] = "Ремморхант"; };
 [110] = { ["NAME"] = "Not Actively Achievable"; };
 -- Instances / The War of Three Peaks
-[111] = { ["NAME"] = "Shakalush"; };
-[112] = { ["NAME"] = "Amdân Dammul"; };
+[111] = { ["NAME"] = "Шакалуш"; };
+[112] = { ["NAME"] = "Амдан Даммул"; };
 [113] = { ["NAME"] = "Not Actively Achievable"; };
 -- Instances / The Mountain-hold
-[114] = { ["TIER"] = 1; ["NAME"] = "Den of Pughlak"; };
-[115] = { ["TIER"] = 1; ["NAME"] = "Dhúrstrok"; };
-[116] = { ["TIER"] = 1; ["NAME"] = "Adkhât-zahhar, the Houses of Rest"; };
-[117] = { ["NAME"] = "Tûr Fúar, the Drearspire"; };
-[118] = { ["NAME"] = "The Hiddenhoard of Abnankâra"; };
+[114] = { ["TIER"] = 1; ["NAME"] = "Логово Пуглака"; };
+[115] = { ["TIER"] = 1; ["NAME"] = "Дурстрок"; };
+[116] = { ["TIER"] = 1; ["NAME"] = "Адкхат-Заххар, Дома упокоения"; };
+[117] = { ["NAME"] = "Тур Фуар, Мрачный шпиль"; };
+[118] = { ["NAME"] = "Тайная сокровищница Абнанкара"; };
 [119] = { ["NAME"] = "Not Actively Achievable"; };
 -- Instances / Return to Carn Dûm
-[277] = { ["TIER"] = 1; ["NAME"] = "Sant Lhoer, the Poison Gardens"; };
-[278] = { ["TIER"] = 1; ["NAME"] = "Thaurisgar, the Vile Apothecary"; };
-[279] = { ["TIER"] = 1; ["NAME"] = "Sagroth, Lair of Vermin"; };
-[280] = { ["TIER"] = 1; ["NAME"] = "Gwathrenost, the Witch-king's Citadel"; };
-[284] = { ["NAME"] = "Rat-bane"; };
-[281] = { ["NAME"] = "Challenger of the Iron Crown"; };
+[277] = { ["TIER"] = 1; ["NAME"] = "Сант-Лоэр, Ядовитые сады"; };
+[278] = { ["TIER"] = 1; ["NAME"] = "Таурисгар, Мерзкая аптека"; };
+[279] = { ["TIER"] = 1; ["NAME"] = "Сагрот, Логово паразитов"; };
+[280] = { ["TIER"] = 1; ["NAME"] = "Гватреност, Цитадель Короля-Призрака"; };
+[284] = { ["NAME"] = "Бич крыс"; };
+[281] = { ["NAME"] = "Угроза Железной Короне"; };
 [282] = { ["NAME"] = "Not Actively Achievable"; };
 -- Instances / Corsairs of Umbar
-[300] = { ["TIER"] = 1; ["NAME"] = "The Streets of Râhal Bakh"; };
-[301] = { ["TIER"] = 1; ["NAME"] = "The Isle of Storms"; };
-[302] = { ["TIER"] = 1; ["NAME"] = "Dahâl Huliz, The Arena"; };
-[303] = { ["TIER"] = 1; ["NAME"] = "The Depths of Mâkhda Khorbo"; };
-[310] = { ["NAME"] = "The Dragon and the Storm"; };
+[300] = { ["TIER"] = 1; ["NAME"] = "Улицы Рахал-Бака"; };
+[301] = { ["TIER"] = 1; ["NAME"] = "Остров Бурь"; };
+[302] = { ["TIER"] = 1; ["NAME"] = "Дахал-Хулиз, Арена"; };
+[303] = { ["TIER"] = 1; ["NAME"] = "Глубины Макда-Корбо"; };
+[310] = { ["NAME"] = "Дракон и Буря"; };
 -- Instances / The Legacy of Morgoth
 [314] = { ["NAME"] = "Ashunûg, the Fane of the Accursed"; };
 [315] = { ["NAME"] = "Nirgambâr, the Restless Tomb"; };
@@ -167,12 +167,12 @@ _DEED_CATEGORIES = {
 [125] = { ["NAME"] = "Убийца вожаков"; };
 [126] = { ["NAME"] = "Убийца ткачих"; };
 -- The War / Ettinmoors
-[308] = { ["NAME"] = "- Monster Player Reward Season 1 -"; };
+[308] = { ["NAME"] = "- Награды игрока-монстра - сезон 1 -"; };
 -- Class/Race/Epic / Race & Social
 [127] = { ["NAME"] = "Раса"; };
 [128] = { ["NAME"] = "Эмоции"; };
 [129] = { ["MIN_LVL"] = "30"; ["NAME"] = "Еда"; };
-[130] = { ["MAX_LVL"] = 20; ["NAME"] = "Avoiding Defeat"; };
+[130] = { ["MAX_LVL"] = 20; ["NAME"] = "Избегать поражений"; };
 [131] = { ["NAME"] = "Праздничное событие"; };
 [132] = { ["NAME"] = "- Шквал фейерверков -"; };
 [133] = { ["NAME"] = "Праздник середины лета"; };
@@ -190,13 +190,13 @@ _DEED_CATEGORIES = {
 [145] = { ["NAME"] = "- Большое пчелиное дело -"; };
 [146] = { ["NAME"] = "Фермерская ярмарка и Весенний праздник"; };
 [147] = { ["NAME"] = "Хобнаниган и Охота за сокровищем"; };
-[148] = { ["NAME"] = "Ale & Inn"; };
+[148] = { ["NAME"] = "Эль & Таверна"; };
 [149] = { ["NAME"] = "Разное"; };
 [150] = { ["NAME"] = "Коллекция"; };
 [151] = { ["NAME"] = "- Охота за сокровищем -"; };
-[152] = { ["LEGENDARY"] = true; ["NAME"] = "Legendary Server Deeds"; };
+[152] = { ["LEGENDARY"] = true; ["NAME"] = "Деяния легендарного сервера"; };
 [153] = { ["NAME"] = "Not Actively Achievable"; };
-[154] = { ["NAME"] = "- Account Anniversary -"; };
+[154] = { ["NAME"] = "- Годовщина аккаунта -"; };
 [155] = { ["NAME"] = "- Праздники -"; };
 [156] = { ["NAME"] = "- Разное -"; };
 [157] = { ["NAME"] = "- Книга 14 / Пререлиз Эрегиона, 2008 -"; };
@@ -205,16 +205,16 @@ _DEED_CATEGORIES = {
 [160] = { ["NAME"] = "- Мордор, 2017 -"; };
 [161] = { ["NAME"] = "- Коллекции -"; };
 -- Class/Race/Epic / Epic
-[162] = { ["NAME"] = "Epic - Volume I - The Shadows of Angmar"; };
-[163] = { ["NAME"] = "Epic - Volume II - Mines of Moria"; };
-[164] = { ["NAME"] = "Epic - Volume III - Allies of the King"; };
-[165] = { ["NAME"] = "Epic - Volume IV - The Strength of Sauron"; };
-[166] = { ["NAME"] = "Epic - Volume V: The Peace of Middle-earth"; };
-[167] = { ["NAME"] = "Epic - The Black Book of Mordor"; };
-[168] = { ["NAME"] = "After the War"; };
-[169] = { ["NAME"] = "Miscellaneous"; };
+[162] = { ["NAME"] = "Эпос - Том I - Тени Ангмара"; };
+[163] = { ["NAME"] = "Эпос - Том II - Копи Мории"; };
+[164] = { ["NAME"] = "Эпос - Том III - Союзники Короля"; };
+[165] = { ["NAME"] = "Эпос - Том IV - Мощь Саурона"; };
+[166] = { ["NAME"] = "Эпос - Том V: Мир в Средиземье"; };
+[167] = { ["NAME"] = "Эпос - Черная Книга Мордора"; };
+[168] = { ["NAME"] = "После войны"; };
+[169] = { ["NAME"] = "Разное"; };
 [170] = { ["NAME"] = "Not Actively Achievable"; };
-[286] = { ["NAME"] = "Valar - 140"; };
+[286] = { ["NAME"] = "Валар - 140"; };
 -- Class/Race/Epic / Reputation
 [171] = { ["NAME"] = "Поручения"; };
 [298] = { ["NAME"] = "Еда"};
@@ -289,9 +289,9 @@ _DEED_CATEGORIES = {
 [283] = { ["NAME"] = "Смотрители Железных чертогов"; };
 [285] = { ["NAME"] = "Восстановленный Гондор"; };
 [290] = { ["NAME"] = "Жители Умбар-Бахарбеля"; };
-[311] = { ["NAME"] = "The Ikorbâni"; };
-[312] = { ["NAME"] = "The Tale-wardens (Phetekâri of Umbar)"; };
-[313] = { ["NAME"] = "The Kintai (The Adúrhid)"; };
+[311] = { ["NAME"] = "Икорбани"; };
+[312] = { ["NAME"] = "The Tale-wardens (Фетекари Умбара)"; };
+[313] = { ["NAME"] = "The Kintai (Авабар-Кинтай)"; };
 [309] = { ["NAME"] = "Исследования Амелии"; };
 [240] = { ["NAME"] = "Not Actively Achievable"; };
 [241] = { ["NAME"] = "- Турнир близнецов -"; };
@@ -302,21 +302,21 @@ _DEED_CATEGORIES = {
 [307] = { ["TIER"] = 1; ["NAME"] = "- Галетный день в Чертогах Торина -" };
 [305] = { ["NAME"] = "- Завеса девяти -"; };
 -- Class/Race/Epic / Allegiances
-[244] = { ["MIN_LVL"] = "110"; ["NAME"] = "- Durin's Folk -"; };
-[245] = { ["MIN_LVL"] = "110"; ["NAME"] = "- The Court of Lothlórien -"; };
-[246] = { ["MIN_LVL"] = "110"; ["NAME"] = "- Hobbits of the Company -"; };
-[247] = { ["MIN_LVL"] = "110"; ["NAME"] = "- The Kingdom of Gondor -"; };
-[248] = { ["MIN_LVL"] = "20"; ["NAME"] = "- Zhélruka -"; };
-[291] = { ["MIN_LVL"] = "140"; ["NAME"] = "- Ledger-keepers: Umbar Barharbêl -"; };
-[292] = { ["MIN_LVL"] = "140"; ["NAME"] = "- Order of the Eagle -"; };
+[244] = { ["MIN_LVL"] = "110"; ["NAME"] = "- Народ Дарина -"; };
+[245] = { ["MIN_LVL"] = "110"; ["NAME"] = "- Двор Лотлориэна -"; };
+[246] = { ["MIN_LVL"] = "110"; ["NAME"] = "- Хоббиты братства -"; };
+[247] = { ["MIN_LVL"] = "110"; ["NAME"] = "- Королевство Гондор -"; };
+[248] = { ["MIN_LVL"] = "20"; ["NAME"] = "- Желруки -"; };
+[291] = { ["MIN_LVL"] = "140"; ["NAME"] = "- Хранители книг Умбар-Бахарбеля -"; };
+[292] = { ["MIN_LVL"] = "140"; ["NAME"] = "- Орден орла -"; };
 -- Eriador / Bree-land
 [249] = { ["NAME"] = "Диколесье"; };
-[250] = { ["NAME"] = "Other"; };
+[250] = { ["NAME"] = "Другое"; };
 -- Eriador / Shire
 [251] = { ["NAME"] = "Дальний Шир"; };
 -- 
-[252] = { ["NAME"] = "The Angle of Mitheithel"; };
-[253] = { ["NAME"] = "Further Adventures"; };
+[252] = { ["NAME"] = "Митейтельская стрелка"; };
+[253] = { ["NAME"] = "Дальнейшие приключения"; };
 -- Eriador / Swanfleet & Cardolan
 [254] = { ["NAME"] = "Лебедянь"; };
 [255] = { ["NAME"] = "Кардолан"; };
@@ -331,32 +331,32 @@ _DEED_CATEGORIES = {
 -- Rhovanion / Moria
 [257] = { ["NAME"] = "Not Actively Achievable"; };
 -- Rhovanion / Vales of Anduin
-[258] = { ["NAME"] = "The Depths of Kidzul-kâlah"; };
+[258] = { ["NAME"] = "Глубины Кидзул-Калаха"; };
 [259] = { ["NAME"] = "Not Actively Achievable"; };
 -- Rhovanion / Gundabad
-[260] = { ["TIER"] = 1; ["NAME"] = "Máttugard"; };
-[261] = { ["TIER"] = 1; ["NAME"] = "Deepscrave"; };
-[262] = { ["TIER"] = 1; ["NAME"] = "Stonejaws"; };
-[263] = { ["TIER"] = 1; ["NAME"] = "Gloomingtarn"; };
-[264] = { ["TIER"] = 1; ["NAME"] = "Clovengap"; };
-[265] = { ["TIER"] = 1; ["NAME"] = "Welkin-lofts"; };
-[266] = { ["TIER"] = 1; ["NAME"] = "Câr Bronach"; };
-[267] = { ["NAME"] = "Gundabad"; };
+[260] = { ["TIER"] = 1; ["NAME"] = "Маттугард"; };
+[261] = { ["TIER"] = 1; ["NAME"] = "Манящие глубины"; };
+[262] = { ["TIER"] = 1; ["NAME"] = "Яма камнезубов"; };
+[263] = { ["TIER"] = 1; ["NAME"] = "Мрачное озеро"; };
+[264] = { ["TIER"] = 1; ["NAME"] = "Расколотая впадина"; };
+[265] = { ["TIER"] = 1; ["NAME"] = "Небесная терраса"; };
+[266] = { ["TIER"] = 1; ["NAME"] = "Кар Бронах"; };
+[267] = { ["NAME"] = "Гундабад"; };
 -- Gondor / Western Gondor
-[268] = { ["NAME"] = "Dol Amroth City Watch"; };
+[268] = { ["NAME"] = "Дол Амрот - Городская стража"; };
 -- Gondor / Old Anórien
-[269] = { ["NAME"] = "- Minas Tirith -"; };
+[269] = { ["NAME"] = "- Минас Тирит -"; };
 -- Mordor / Gorgoroth
-[270] = { ["NAME"] = "Plateau of Gorgoroth"; };
-[271] = { ["NAME"] = "Udûn"; };
-[272] = { ["NAME"] = "Dor Amarth"; };
-[273] = { ["NAME"] = "Lhingris"; };
-[274] = { ["NAME"] = "Talath Úrui"; };
-[275] = { ["NAME"] = "Agarnaith"; };
-[276] = { ["NAME"] = "Gorgoroth"; };
+[270] = { ["NAME"] = "Плато Горгорот"; };
+[271] = { ["NAME"] = "Удун"; };
+[272] = { ["NAME"] = "Дор Амарт"; };
+[273] = { ["NAME"] = "Лингрис"; };
+[274] = { ["NAME"] = "Талат Уруи"; };
+[275] = { ["NAME"] = "Агарнайт"; };
+[276] = { ["NAME"] = "Горгорот"; };
 -- Haradwaith
-[299] = { ["NAME"] = "The Depths of Mâkhda Khorbo"; };
-[304] = { ["NAME"] = "Umbar-môkh"; };
+[299] = { ["NAME"] = "Глубины Макда-Корбо"; };
+[304] = { ["NAME"] = "Умбар-Мокх"; };
 };
 
 -- Last used: 311
