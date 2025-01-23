@@ -104,6 +104,9 @@ function DropDown.Create(ListTable,Default)
 	tempLabel:SetForeColor(Turbine.UI.Color((229/255),(209/255),(136/255)));
 	tempLabel:SetTextAlignment(DD_ALIGNMENT);
 	tempLabel:SetFont(Turbine.UI.Lotro.Font.TrajanPro14);
+    if (LANGUAGE == "RU") then
+        tempLabel:SetFont(Turbine.UI.Lotro.Font.Verdana14);
+    end
 	tempLabel:SetMultiline(false);
 	tempLabel:SetText(Default);
 	tempLabel:SetMouseVisible(false);
@@ -319,6 +322,9 @@ function DropDown.Create(ListTable,Default)
 					tempItemName:SetTextAlignment(DD_ALIGNMENT);
 					tempItemName:SetFont(Turbine.UI.Lotro.Font.TrajanPro14);
 					tempItemName:SetMultiline(false);
+                    if (LANGUAGE == "RU") then
+                        tempItemName:SetFont(Turbine.UI.Lotro.Font.Verdana14);
+                    end
 					tempItemName:SetText(labelValue);
 
 

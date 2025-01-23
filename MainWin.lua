@@ -514,7 +514,11 @@ function DeedTrackerWin:DrawSearchBox(sectionY)
     self.searchTextBoxLabel:SetSize(self.searchTextBox:GetWidth(), self.searchTextBox:GetHeight());
     self.searchTextBoxLabel:SetPosition(self.searchTextBox:GetLeft(), self.searchTextBox:GetTop());
     self.searchTextBoxLabel:SetForeColor(Turbine.UI.Color.Gray);
-    self.searchTextBoxLabel:SetFont(TrajanPro18);
+    if (LANGUAGE == "RU") then
+        self.searchTextBoxLabel:SetFont(Turbine.UI.Lotro.Font.Verdana14);
+    else
+        self.searchTextBoxLabel:SetFont(TrajanPro18);
+    end
     self.searchTextBoxLabel:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleCenter);
     self.searchTextBoxLabel:SetText(GetString(_LANG.MAIN_WIN.SEARCH));
     self.searchTextBoxLabel:SetZOrder(1);

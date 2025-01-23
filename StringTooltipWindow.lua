@@ -82,6 +82,9 @@ function StringTooltipWindow:LoadText(text)
 
     self.tooltipControl = Turbine.UI.Label();
     self.tooltipControl:SetMultiline(false);
+    if (LANGUAGE == "RU") then
+        self.tooltipControl:SetFont(Turbine.UI.Lotro.Font.Verdana14);
+    end
     self.tooltipControl:SetText(self.text);
     self.tooltipControl:SetSize(5,5);
     AutoFitLabelWidth(self.tooltipControl, self.maxContentWidth - 16);

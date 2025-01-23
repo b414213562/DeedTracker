@@ -101,6 +101,10 @@ function DisambiguateDialog:AddDeedRow(deed, isInDeedRegion)
     button:SetParent(deedRow);
     button:SetPosition(0, 0);
     button:SetSize(100, 50);
+    if (LANGUAGE == "RU") then
+        button:SetFont(Turbine.UI.Lotro.Font.Verdana14);
+        button:SetWidth(125);
+    end
     button:SetText(GetString(_LANG.DISAMBIGUATE.BUTTON_SELECT));
 
     button.Click = function(sender,args)
@@ -114,6 +118,9 @@ function DisambiguateDialog:AddDeedRow(deed, isInDeedRegion)
     lblDeedTitle:SetParent(deedRow);
     lblDeedTitle:SetSize(400,50);
     lblDeedTitle:SetPosition(120,0);
+    if (LANGUAGE == "RU") then
+        lblDeedTitle:SetLeft(130);
+    end
     if (isInDeedRegion) then
         lblDeedTitle:SetForeColor(Turbine.UI.Color.Yellow);
     else
@@ -197,6 +204,9 @@ function DisambiguateDialog:AddConflictingQuestIfPresent(foundDeeds)
             questButton:SetParent(questRow);
             questButton:SetPosition(0, 0);
             questButton:SetSize(100, 50);
+            if (LANGUAGE == "RU") then
+                questButton:SetFont(Turbine.UI.Lotro.Font.Verdana14);
+            end
             questButton:SetText(GetString(_LANG.DEEDORQUEST.QUEST));
 
             questButton.Click = function(sender,args)

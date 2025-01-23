@@ -56,7 +56,11 @@ function CompletionWindow:CreateWindow()
     -- Send to... label:
     self.sendToLabel = Turbine.UI.Label();
     self.sendToLabel:SetParent(self);
-    self.sendToLabel:SetSize(200,18);
+    self.sendToLabel:SetSize(100,30);
+    if (LANGUAGE == "RU") then
+        self.sendToLabel:SetWidth(125);
+    end
+    self.sendToLabel:SetMultiline(true);
     self.sendToLabel:SetPosition(10, 450);
     self.sendToLabel:SetFont(Verdana12);
     self.sendToLabel:SetText(GetString(_LANG.COMPLETE_WIN.SEND_TO));
@@ -72,7 +76,6 @@ function CompletionWindow:CreateWindow()
     self.sendToDropDown = DropDown.Create(channels,GetString(_LANG.COMPLETE_WIN.SEND_TO_CHANNELS[channelNum].NAME));
     self.sendToDropDown:SetParent(self);
     self.sendToDropDown:ApplyWidth(120);
-    self.sendToDropDown:SetPosition(200, 450);
     self.sendToDropDown.ItemChanged = function ()
         -- Get the channel:
         local channelName = self.sendToDropDown:GetText();
@@ -97,6 +100,9 @@ function CompletionWindow:CreateWindow()
     -- Print to Console button:
     self.printToConsoleButton = Turbine.UI.Lotro.Button();
     self.printToConsoleButton:SetParent(self);
+    if (LANGUAGE == "RU") then
+        self.printToConsoleButton:SetFont(Turbine.UI.Lotro.Font.Verdana14);
+    end
     self.printToConsoleButton:SetText(GetString(_LANG.COMPLETE_WIN.LOG_TO_CONSOLE_BUTTON));
     self.printToConsoleButton:SetSize(75, 25);
     self.printToConsoleButton.Click = function(sender, args)
@@ -124,9 +130,13 @@ function CompletionWindow:CreateWindow()
     -- Close button
     self.clearListButton = Turbine.UI.Lotro.Button();
     self.clearListButton:SetParent(self);
-    self.clearListButton:SetText(GetString(_LANG.COMPLETE_WIN.WINDOW_BUTTON_CLEAR_LIST));
     self.clearListButton:SetSize(100, 25);
     self.clearListButton:SetPosition(self:GetWidth() / 2 - self.clearListButton:GetWidth() / 2, 450);
+    if (LANGUAGE == "RU") then
+        self.clearListButton:SetFont(Turbine.UI.Lotro.Font.Verdana14);
+        self.clearListButton:SetSize(125, 25);
+    end
+    self.clearListButton:SetText(GetString(_LANG.COMPLETE_WIN.WINDOW_BUTTON_CLEAR_LIST));
     self.clearListButton.Click = function(sender,args)
         self:Hide();
         self.deedHeight = 50;
@@ -178,7 +188,7 @@ function CompletionWindow:RepositionElementsAfterResize()
     self.printToConsoleButton:SetPosition(self:GetWidth() - self.printToConsoleButton:GetWidth() - 50, self:GetHeight() - 40);
     self.clearListButton:SetPosition(self:GetWidth() - self.clearListButton:GetWidth() - self.printToConsoleButton:GetWidth() - 60, self:GetHeight() - 40);
     self.sendToLabel:SetPosition(25, self:GetHeight() - 40);
-    self.sendToDropDown:SetPosition(135, self:GetHeight() - 40);
+    self.sendToDropDown:SetPosition(155, self:GetHeight() - 40);
 end
 
 function CompletionWindow:AdjustTotalHeight()
@@ -281,9 +291,13 @@ function CompletionWindow:AddDeed(deed)
     -- Button to go to place in deed tracker:
     local gotoButton = Turbine.UI.Lotro.GoldButton();
     gotoButton:SetParent(deedControl);
-    gotoButton:SetText(GetString(_LANG.COMPLETE_WIN.WINDOW_DEED_GOTO));
     gotoButton:SetSize(125, 25);
     gotoButton:SetPosition(25, y);
+    if (LANGUAGE == "RU") then
+        gotoButton:SetWidth(160);
+        gotoButton:SetFont(Turbine.UI.Lotro.Font.Verdana14);
+    end
+    gotoButton:SetText(GetString(_LANG.COMPLETE_WIN.WINDOW_DEED_GOTO));
     gotoButton.Click = function(sender,args)
         mainWin:ShowMainWindow();
         mainWin:ShowMainWindowDeed(deed);

@@ -66,6 +66,9 @@ function DeedOrQuestDialog:AddDeedRow(deed)
     deedButton:SetParent(deedRow);
     deedButton:SetPosition(0, 0);
     deedButton:SetSize(100, 50);
+    if (LANGUAGE == "RU") then
+        deedButton:SetFont(Turbine.UI.Lotro.Font.Verdana14);
+    end
     deedButton:SetText(GetString(_LANG.DEEDORQUEST.DEED));
 
     deedButton.Click = function(sender,args)
@@ -97,6 +100,9 @@ function DeedOrQuestDialog:AddDeedRow(deed)
     questButton:SetParent(questRow);
     questButton:SetPosition(0, 0);
     questButton:SetSize(100, 50);
+    if (LANGUAGE == "RU") then
+        questButton:SetFont(Turbine.UI.Lotro.Font.Verdana14);
+    end
     questButton:SetText(GetString(_LANG.DEEDORQUEST.QUEST));
 
     questButton.Click = function(sender,args)
