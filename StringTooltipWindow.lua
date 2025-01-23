@@ -133,9 +133,11 @@ function StringTooltipWindow:DisplayTooltip()
     if (left + contentWidth > displayWidth) then left = displayWidth - contentWidth; end
     if (top + contentHeight > displayHeight) then top = displayHeight - contentHeight; end
 
-    -- But don't put the tooltip under the mouse cursor, because then it immediately closes:
-    if (left < mouseX + 5) then left = mouseX + 5; end
-    if (top < mouseY + 5) then top = mouseY + 5; end
+    -- But if we're too close to the bottom, it needs to go above the cursor.
+    -- If the tooltip window shows up under the mouse cursor it closes immediately.
+    if (top < mouseY) then
+        top = mouseY - 5 - contentHeight;
+    end
 
     self:SetPosition(left, top);
     self:SetVisible(true);
