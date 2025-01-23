@@ -1,0 +1,39 @@
+Deed Tracker version 3.1.6 is now available at [url=https://www.lotrointerface.com/downloads/info1139-DeedTracker.html]lotrointerface.com[/url].
+
+This release adds Update 42: Legacy of Morgoth deeds, automated gathering of conflicting quest data, and added support for Russian.
+
+Version 3.1.6 release notes:
+
+Deeds:
+[list]
+    [*] Class/Race/Epic:
+    [list]
+        [*] Reputation:
+        [list]
+            [*] Added The Ikorbâni, The Tale-wardens (Phetekâri of Umbar), and The Kintai (The Adúrhid) deeds
+        [/list]
+    [/list]
+    [*] Instances:
+        [list]
+        [*] The Legacy of Morgoth:
+            [list]
+            [*] Added Ashunûg, the Fane of the Accursed, Nirgambâr, the Restless Tomb, and Tûl Zakana, the Well of Forgetting deeds
+            [/list]
+        [/list]
+    [*] Haradwaith:
+        [list]
+        [*] Added Ambarûl, Khûd Zagin, Imhûlar, and Urash Dâr deeds
+        [/list]
+[/list]
+
+Language:
+[list]
+    [*] Added auto-generation of Conflicting Quest data, for better support in non-English languages.
+    [*] Added general support for Russian. Incorporated strings from "DeedTracker v3.1.5 RU UI" by Svertalf.
+[/list]
+
+Bug Fixes:
+[list]
+    [*] Fixed repeatability of conflicting quest "Time of Need"
+    [*] Deed Disambiguation Window: Fixed height of row to not cut off long quest descriptions.
+[/list]

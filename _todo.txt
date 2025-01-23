@@ -1,3 +1,5 @@
+Make a core DeedCategories file with languages keys, for auto-generation of Categories where possible.
+    Could do this with DeedItems too.
 Figure out what the difference is between DisambiguateWindow and DeedOrQuestWindow.?!?
 Is taskIndicator in ChatLogger meaningful in other languages? Maybe remove it.
 

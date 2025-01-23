@@ -38,9 +38,14 @@ v3.1.6 changes:
                 Added Ashunûg, the Fane of the Accursed, Nirgambâr, the Restless Tomb, and Tûl Zakana, the Well of Forgetting deeds
         Haradwaith:
             Added Ambarûl, Khûd Zagin, Imhûlar, and Urash Dâr deeds
+        
+    Language:
+        Added auto-generation of Conflicting Quest data, for better support in non-English languages.
+        Added general support for Russian. Incorporated strings from "DeedTracker v3.1.5 RU UI" by Svertalf.
 
     Bug Fixes:
         Fixed repeatability of conflicting quest "Time of Need"
+        Deed Disambiguation Window: Fixed height of row to not cut off long quest descriptions.
 
 v3.1.5 changes:
     Deeds:
