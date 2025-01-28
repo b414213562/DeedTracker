@@ -722,7 +722,7 @@ _LANG = {
             ["RU"] = "LOTRO Companion считает, что они не завершены: (x%d)";
         };
         ["DEED_MISSING_IN_DEED_TRACKER"] = {
-            ["EN"] = "Deed Tracker did not recognize The following Deed IDs. Please email this to LotroDeedTracker@gmail.com for inclusion in a future release!: ";
+            ["EN"] = "Deed Tracker did not recognize the following Deed IDs. Please email this to LotroDeedTracker@gmail.com for inclusion in a future release!: ";
             ["RU"] = "Deed Tracker не распознал следующие Deed IDs. Отошлите их, пожалуйста, на LotroDeedTracker@gmail.com для включения в будущие выпуски!: ";
         };
         ["CLOSE_BUTTON"] = {
