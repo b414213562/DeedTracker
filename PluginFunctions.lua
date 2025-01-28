@@ -394,6 +394,8 @@ function GetDeedIndicies(character, deedName)
 
         if (deedSkipInfo["hideDeed"]) then
             Debug("Skipping hidden deed " .. GetFullyQualifiedDeedName(deed));
+        elseif (deed.NA == 2) then
+            Debug("Skipping obsolete deed " .. GetFullyQualifiedDeedName(deed));
         elseif (deedSkipInfo["skipDeed"]) then
             Debug("Skipping skipped deed " .. GetFullyQualifiedDeedName(deed));
         elseif (deedSkipInfo["deedLvlTooHigh"]) then
