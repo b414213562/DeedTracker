@@ -666,6 +666,7 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
            [44] = {["CAT_ID"] = 69; }; -- Not Actively Achievable
            [45] = {["ID"] = 1879205410; }; -- Challenger of Gortheron
            [46] = {["ID"] = 1879391028; }; -- Legendary Challenger: In Their Absence
+           [47] = {["ID"] = 1879205932; }; -- Discovery: Inn of the Forsaken          
         };
         -- Rise of Isengard
         [I_RISE_OF_ISENGARD] = {
@@ -2199,84 +2200,89 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
           [340] = {["ID"] = 1879163927; }; -- Yule
           [341] = {["ID"] = 1879199417; }; -- Honoured Yule-friend (Yule Festival)
           [342] = {["ID"] = 1879447587; }; -- Happy 15th Anniversary
-          [343] = {["CAT_ID"] = 156; }; -- - Miscellaneous -
-          [344] = {["ID"] = 1879355930; }; -- Aria of Virtues
-          [345] = {["ID"] = 1879397777; }; -- Valar Trait Points - 120
-          [346] = {["ID"] = 1879439189; }; -- Valar Trait Points - 130
-          [347] = {["CAT_ID"] = 157; }; -- - Book 14 / Eregion pre-release, 2008 -
-          [348] = {["ID"] = 1879114138; }; -- Master of Forgotten Lore
-          [349] = {["ID"] = 1879114137; }; -- Seeker of Truth
-          [350] = {["ID"] = 1879114136; }; -- Revealer of the Lost
-          [351] = {["ID"] = 1879114135; }; -- Student of the Past
-          [352] = {["CAT_ID"] = 158; }; -- - Bounder's Bounty, 2013 -
-          [353] = {["ID"] = 1879279182; }; -- Bounder's Bounty (Tier 3)
-          [354] = {["ID"] = 1879279184; }; -- Bounder's Bounty (Tier 2)
-          [355] = {["ID"] = 1879279183; }; -- Bounder's Bounty (Tier 1)
-          [356] = {["CAT_ID"] = 159; }; -- - 2015 World Consolidation Event -
-          [357] = {["ID"] = 1879326383; }; -- World Consolidation Announcement
-          [358] = {["ID"] = 1879326065; }; -- World Consolidation Begins
-          [359] = {["ID"] = 1879326067; }; -- World Consolidation Begins
-          [360] = {["ID"] = 1879327466; }; -- Of Aglarond
-          [361] = {["ID"] = 1879326643; }; -- Of Anduin
-          [362] = {["ID"] = 1879326644; }; -- Of Arkenstone
-          [363] = {["ID"] = 1879326645; }; -- Of Belegaer
-          [364] = {["ID"] = 1879326646; }; -- Of Brandywine
-          [365] = {["ID"] = 1879326647; }; -- Of Crickhollow
-          [366] = {["ID"] = 1879326648; }; -- Of Dwarrowdelf
-          [367] = {["ID"] = 1879326649; }; -- Of Eldar
-          [368] = {["ID"] = 1879326531; }; -- Of Elendilmir
-          [369] = {["ID"] = 1879326650; }; -- Of Estel
-          [370] = {["ID"] = 1879326651; }; -- Of Evernight
-          [371] = {["ID"] = 1879326652; }; -- Of Firefoot
-          [372] = {["ID"] = 1879327458; }; -- Of Fornost
-          [373] = {["ID"] = 1879326653; }; -- Of Gilrain
-          [374] = {["ID"] = 1879326654; }; -- Of Gladden
-          [375] = {["ID"] = 1879326655; }; -- Of Gwaihir
-          [376] = {["ID"] = 1879326656; }; -- Of Imladris
-          [377] = {["ID"] = 1879326657; }; -- Of Landroval
-          [378] = {["ID"] = 1879326658; }; -- Of Laurelin
-          [379] = {["ID"] = 1879326659; }; -- Of Maiar
-          [380] = {["ID"] = 1879326660; }; -- Of Meneldor
-          [381] = {["ID"] = 1879327464; }; -- Of Mirkwood
-          [382] = {["ID"] = 1879326661; }; -- Of Morthond
-          [383] = {["ID"] = 1879326662; }; -- Of Nimrodel
-          [384] = {["ID"] = 1879326663; }; -- Of Riddermark
-          [385] = {["ID"] = 1879326664; }; -- Of Silverlode
-          [386] = {["ID"] = 1879326665; }; -- Of Sirannon
-          [387] = {["ID"] = 1879326666; }; -- Of Snowbourn
-          [388] = {["ID"] = 1879326667; }; -- Of Vanyar
-          [389] = {["ID"] = 1879326668; }; -- Of Vilya
-          [390] = {["ID"] = 1879326669; }; -- Of Windfola
-          [391] = {["ID"] = 1879326670; }; -- Of Withywindle
-          [392] = {["CAT_ID"] = 160; }; -- - Mordor, 2017 -
-          [393] = {["ID"] = 1879353104; }; -- Mordor Collector
-          [394] = {["ID"] = 1879353101; }; -- Mordor Ultimate Fan
-          [395] = {["CAT_ID"] = 161; }; -- - Collections -
-          [396] = {["ID"] = 1879361989; }; -- 2013 Festival Steeds (large)
-          [397] = {["ID"] = 1879363520; }; -- 2013 Festival Steeds (small)
-          [398] = {["ID"] = 1879361993; }; -- 2014 Festival Steeds (large)
-          [399] = {["ID"] = 1879363518; }; -- 2014 Festival Steeds (small)
-          [400] = {["ID"] = 1879361997; }; -- 2015 Festival Steeds (large)
-          [401] = {["ID"] = 1879363513; }; -- 2015 Festival Steeds (small)
-          [402] = {["ID"] = 1879362010; }; -- 2016 Festival Steeds (large)
-          [403] = {["ID"] = 1879363507; }; -- 2016 Festival Steeds (small)
-          [404] = {["ID"] = 1879362011; }; -- 2017 Festival Steeds (large)
-          [405] = {["ID"] = 1879363519; }; -- 2017 Festival Steeds (small)
-          [406] = {["ID"] = 1879361994; }; -- Autumn Adventurer (large)
-          [407] = {["ID"] = 1879363509; }; -- Autumn Adventurer (small)
-          [408] = {["ID"] = 1879362013; }; -- Goat-herder (large)
-          [409] = {["ID"] = 1879363515; }; -- Goat-herder (small)
-          [410] = {["ID"] = 1879361990; }; -- Spring in Your Step (large)
-          [411] = {["ID"] = 1879363517; }; -- Spring in Your Step (small)
-          [412] = {["ID"] = 1879361991; }; -- Sun-strider (large)
-          [413] = {["ID"] = 1879363514; }; -- Sun-strider (small)
-          [414] = {["ID"] = 1879362003; }; -- The Steeds of Gorgoroth
-          [415] = {["ID"] = 1879361992; }; -- Veteran of the Third Age (large)
-          [416] = {["ID"] = 1879363508; }; -- Veteran of the Third Age (small)
-          [417] = {["ID"] = 1879361996; }; -- Winter-rider (large)
-          [418] = {["ID"] = 1879363511; }; -- Winter-rider (small)
-          [419] = {["CAT_ID"] = 286; }; -- Valar - 140
-          [420] = {["ID"] = 1879463469; }; -- Valar Instance and Skirmish Access - 140
+          [343] = {["ID"] = 1879200236; }; -- Protagonist
+          [344] = {["ID"] = 1879200237; }; -- Villain
+          [345] = {["ID"] = 1879200238; }; -- Extra
+          [346] = {["ID"] = 1879182341; }; -- The Spring Festival -- Season of the Garden
+          [347] = {["ID"] = 1879185268; }; -- Happy Summer
+          [348] = {["CAT_ID"] = 156; }; -- - Miscellaneous -
+          [349] = {["ID"] = 1879355930; }; -- Aria of Virtues
+          [350] = {["ID"] = 1879397777; }; -- Valar Trait Points - 120
+          [351] = {["ID"] = 1879439189; }; -- Valar Trait Points - 130
+          [352] = {["CAT_ID"] = 157; }; -- - Book 14 / Eregion pre-release, 2008 -
+          [353] = {["ID"] = 1879114138; }; -- Master of Forgotten Lore
+          [354] = {["ID"] = 1879114137; }; -- Seeker of Truth
+          [355] = {["ID"] = 1879114136; }; -- Revealer of the Lost
+          [356] = {["ID"] = 1879114135; }; -- Student of the Past
+          [357] = {["CAT_ID"] = 158; }; -- - Bounder's Bounty, 2013 -
+          [358] = {["ID"] = 1879279182; }; -- Bounder's Bounty (Tier 3)
+          [359] = {["ID"] = 1879279184; }; -- Bounder's Bounty (Tier 2)
+          [360] = {["ID"] = 1879279183; }; -- Bounder's Bounty (Tier 1)
+          [361] = {["CAT_ID"] = 159; }; -- - 2015 World Consolidation Event -
+          [362] = {["ID"] = 1879326383; }; -- World Consolidation Announcement
+          [363] = {["ID"] = 1879326065; }; -- World Consolidation Begins
+          [364] = {["ID"] = 1879326067; }; -- World Consolidation Begins
+          [365] = {["ID"] = 1879327466; }; -- Of Aglarond
+          [366] = {["ID"] = 1879326643; }; -- Of Anduin
+          [367] = {["ID"] = 1879326644; }; -- Of Arkenstone
+          [368] = {["ID"] = 1879326645; }; -- Of Belegaer
+          [369] = {["ID"] = 1879326646; }; -- Of Brandywine
+          [370] = {["ID"] = 1879326647; }; -- Of Crickhollow
+          [371] = {["ID"] = 1879326648; }; -- Of Dwarrowdelf
+          [372] = {["ID"] = 1879326649; }; -- Of Eldar
+          [373] = {["ID"] = 1879326531; }; -- Of Elendilmir
+          [374] = {["ID"] = 1879326650; }; -- Of Estel
+          [375] = {["ID"] = 1879326651; }; -- Of Evernight
+          [376] = {["ID"] = 1879326652; }; -- Of Firefoot
+          [377] = {["ID"] = 1879327458; }; -- Of Fornost
+          [378] = {["ID"] = 1879326653; }; -- Of Gilrain
+          [379] = {["ID"] = 1879326654; }; -- Of Gladden
+          [380] = {["ID"] = 1879326655; }; -- Of Gwaihir
+          [381] = {["ID"] = 1879326656; }; -- Of Imladris
+          [382] = {["ID"] = 1879326657; }; -- Of Landroval
+          [383] = {["ID"] = 1879326658; }; -- Of Laurelin
+          [384] = {["ID"] = 1879326659; }; -- Of Maiar
+          [385] = {["ID"] = 1879326660; }; -- Of Meneldor
+          [386] = {["ID"] = 1879327464; }; -- Of Mirkwood
+          [387] = {["ID"] = 1879326661; }; -- Of Morthond
+          [388] = {["ID"] = 1879326662; }; -- Of Nimrodel
+          [389] = {["ID"] = 1879326663; }; -- Of Riddermark
+          [390] = {["ID"] = 1879326664; }; -- Of Silverlode
+          [391] = {["ID"] = 1879326665; }; -- Of Sirannon
+          [392] = {["ID"] = 1879326666; }; -- Of Snowbourn
+          [393] = {["ID"] = 1879326667; }; -- Of Vanyar
+          [394] = {["ID"] = 1879326668; }; -- Of Vilya
+          [395] = {["ID"] = 1879326669; }; -- Of Windfola
+          [396] = {["ID"] = 1879326670; }; -- Of Withywindle
+          [397] = {["CAT_ID"] = 160; }; -- - Mordor, 2017 -
+          [398] = {["ID"] = 1879353104; }; -- Mordor Collector
+          [399] = {["ID"] = 1879353101; }; -- Mordor Ultimate Fan
+          [400] = {["CAT_ID"] = 161; }; -- - Collections -
+          [401] = {["ID"] = 1879361989; }; -- 2013 Festival Steeds (large)
+          [402] = {["ID"] = 1879363520; }; -- 2013 Festival Steeds (small)
+          [403] = {["ID"] = 1879361993; }; -- 2014 Festival Steeds (large)
+          [404] = {["ID"] = 1879363518; }; -- 2014 Festival Steeds (small)
+          [405] = {["ID"] = 1879361997; }; -- 2015 Festival Steeds (large)
+          [406] = {["ID"] = 1879363513; }; -- 2015 Festival Steeds (small)
+          [407] = {["ID"] = 1879362010; }; -- 2016 Festival Steeds (large)
+          [408] = {["ID"] = 1879363507; }; -- 2016 Festival Steeds (small)
+          [409] = {["ID"] = 1879362011; }; -- 2017 Festival Steeds (large)
+          [410] = {["ID"] = 1879363519; }; -- 2017 Festival Steeds (small)
+          [411] = {["ID"] = 1879361994; }; -- Autumn Adventurer (large)
+          [412] = {["ID"] = 1879363509; }; -- Autumn Adventurer (small)
+          [413] = {["ID"] = 1879362013; }; -- Goat-herder (large)
+          [414] = {["ID"] = 1879363515; }; -- Goat-herder (small)
+          [415] = {["ID"] = 1879361990; }; -- Spring in Your Step (large)
+          [416] = {["ID"] = 1879363517; }; -- Spring in Your Step (small)
+          [417] = {["ID"] = 1879361991; }; -- Sun-strider (large)
+          [418] = {["ID"] = 1879363514; }; -- Sun-strider (small)
+          [419] = {["ID"] = 1879362003; }; -- The Steeds of Gorgoroth
+          [420] = {["ID"] = 1879361992; }; -- Veteran of the Third Age (large)
+          [421] = {["ID"] = 1879363508; }; -- Veteran of the Third Age (small)
+          [422] = {["ID"] = 1879361996; }; -- Winter-rider (large)
+          [423] = {["ID"] = 1879363511; }; -- Winter-rider (small)
+          [424] = {["CAT_ID"] = 286; }; -- Valar - 140
+          [425] = {["ID"] = 1879463469; }; -- Valar Instance and Skirmish Access - 140          
         };
         -- Epic
         [CRE_EPIC] = {
@@ -3478,6 +3484,9 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
            [44] = {["ID"] = 1879221718; }; -- The Gatekeepers of Isengard
            [45] = {["CAT_ID"] = 286; }; -- Valar - 140
            [46] = {["ID"] = 1879462874; }; -- A Cave in the Hills
+           [47] = {["CAT_ID"] = 257; }; -- Not Actively Achievable
+           [48] = {["ID"] = 1879220382; }; -- Scouting the Gravenwood
+           [49] = {["ID"] = 1879221749; }; -- Tracking an Old Goat                 
         };
         -- Swanfleet & Cardolan
         [E_SWANFLEET_CARDOLAN] = {
