@@ -1624,10 +1624,10 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
           [246] = {["ID"] = 1879277279; }; -- Proof against all Ills (Lore-master)
           [247] = {["ID"] = 1879277274; }; -- Awareness of Body (Lore-master)
           [248] = {["ID"] = 1879277276; }; -- The Study of Wind-lore (Lore-master)
-          [249] = {["ID"] = 1879458078; }; -- Class Deeds - Tier 6
-          [250] = {["ID"] = 1879457939; }; -- A Round for All
-          [251] = {["ID"] = 1879457955; }; -- Spitting Techniques
-          [252] = {["ID"] = 1879458073; }; -- Scouring Salts
+          [249] = {["ID"] = 1879458078; }; -- Class Deeds - Tier 6 (Mariner)
+          [250] = {["ID"] = 1879457939; }; -- A Round for All (Mariner)
+          [251] = {["ID"] = 1879457955; }; -- Spitting Techniques (Mariner)
+          [252] = {["ID"] = 1879458073; }; -- Scouring Salts (Mariner)
           [253] = {["ID"] = 1879277211; }; -- Class Deeds - Tier 6 (Minstrel)
           [254] = {["ID"] = 1879277342; }; -- Subtle Movements (Minstrel)
           [255] = {["ID"] = 1879277344; }; -- Heralded Saviour (Minstrel)
@@ -1855,6 +1855,30 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
           [477] = {["ID"] = 1879450101; }; -- Level Thirty
           [478] = {["ID"] = 1879450065; }; -- Level Twenty
           [479] = {["ID"] = 1879450064; }; -- Level Fifteen
+          [480] = {["CAT_ID"] = 153; }; -- Not Actively Achievable
+          [481] = {["CAT_ID"] = 317; }; -- Rune-keeper
+          [482] = {["ID"] = 1879139170; }; -- Master of Allusion (lvl 1)
+          [483] = {["ID"] = 1879139161; }; -- Tale of Rage (lvl 1)
+          [484] = {["ID"] = 1879139173; }; -- Thunderous Words (lvl 1)
+          [485] = {["ID"] = 1879139174; }; -- Winter-storm (lvl 1)
+          [486] = {["ID"] = 1879139162; }; -- Conflagration of Runes (lvl 10)
+          [487] = {["ID"] = 1879139158; }; -- Confounding Principles (lvl 10)
+          [488] = {["ID"] = 1879139167; }; -- Memorable Prose (lvl 10)
+          [489] = {["ID"] = 1879139168; }; -- Rune of Endurance (lvl 10)
+          [490] = {["ID"] = 1879139156; }; -- Frost-burn (lvl 20)
+          [491] = {["ID"] = 1879139171; }; -- Harsh Debate (lvl 20)
+          [492] = {["ID"] = 1879139160; }; -- The Prophetic Word (lvl 20)
+          [493] = {["ID"] = 1879139164; }; -- Writ of Blazing Fire (lvl 20)
+          [494] = {["ID"] = 1879139165; }; -- Icy Discourse (lvl 30)
+          [495] = {["ID"] = 1879139154; }; -- Linnod of Peace (lvl 30)
+          [496] = {["ID"] = 1879139159; }; -- Linnod of Subtlety (lvl 30)
+          [497] = {["ID"] = 1879139157; }; -- Overflowing Confidence (lvl 30)
+          [498] = {["ID"] = 1879139172; }; -- Closing Remarks (lvl 40)
+          [499] = {["ID"] = 1879139163; }; -- Scathing Retort (lvl 40)
+          [500] = {["ID"] = 1879139166; }; -- Terse Narrative (lvl 40)
+          [501] = {["ID"] = 1879139169; }; -- Author of Exaltation (lvl 50)
+          [502] = {["ID"] = 1879139153; }; -- Master of Connotation (lvl 50)
+          [503] = {["ID"] = 1879139155; }; -- Master of Tragedy (lvl 50)
         };
         -- Race & Social
         [CRE_RACE_SOCIAL] = {

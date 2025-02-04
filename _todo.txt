@@ -1,11 +1,51 @@
 Deed Tracker did not recognize The following Deed IDs. Please email this to LotroDeedTracker@gmail.com for inclusion in a future release!: 
-1879139153 (3), 1879139154 (3), 1879139155 (3), 1879139156 (3), 1879139157 (3), 1879139158 (3), 1879139159 (3), 1879139160 (3), 1879139161 (3), 
-1879139162 (3), 1879139163 (3), 1879139164 (3), 1879139165 (3), 1879139166 (3), 1879139167 (3), 1879139168 (3), 1879139169 (3), 1879139170 (3), 
-1879139171 (3), 1879139172 (3), 1879139173 (3), 1879139174 (3), 1879398961 (3), 1879462874 (2), 1879051900 (1), 1879051901 (1), 1879051902 (1), 
-1879051903 (1), 1879051905 (1), 1879051906 (1), 1879051907 (1), 1879051909 (1), 1879051910 (1), 1879051911 (1), 1879051912 (1), 1879051913 (1), 
-1879051914 (1), 1879051915 (1), 1879093244 (1), 1879093347 (1), 1879093348 (1), 1879093349 (1), 1879093355 (1), 1879093357 (1), 1879093358 (1), 
-1879093359 (1), 1879093360 (1), 1879093361 (1), 1879093362 (1), 1879093363 (1), 1879093364 (1), 1879093365 (1), 1879093366 (1), 1879138888 (1), 
-1879138889 (1), 1879138890 (1), 1879138891 (1), 1879138892 (1), 1879138893 (1), 1879138894 (1), 1879138895 (1), 1879139456 (1), 1879419340 (1), 
+1879398961 (3) // 
+1879462874 (2) // 
+1879051900 (1) // 
+1879051901 (1) // 
+1879051902 (1) // 
+1879051903 (1) // 
+1879051905 (1) // 
+1879051906 (1) // 
+1879051907 (1) // 
+1879051909 (1) // 
+1879051910 (1) // 
+1879051911 (1) // 
+1879051912 (1) // 
+1879051913 (1) // 
+1879051914 (1) // 
+1879051915 (1) // 
+1879093244 (1) // 
+1879093347 (1) // 
+1879093348 (1) // 
+1879093349 (1) // 
+1879093355 (1) // 
+1879093357 (1) // 
+1879093358 (1) // 
+1879093359 (1) // 
+1879093360 (1) // 
+1879093361 (1) // Chicken session play: Introduce a list of IDs into Deed Tracker that don't get reported during import, but we don't think are real deeds
+1879093362 (1) // 
+1879093363 (1) // 
+1879093364 (1) // 
+1879093365 (1) // 
+1879093366 (1) // 
+1879138888 (1) // 
+1879138889 (1) // 
+1879138890 (1) // 
+1879138891 (1) // 
+1879138892 (1) // 
+1879138893 (1) // 
+1879138894 (1) // 
+1879138895 (1) // 
+1879139456 (1) // 
+1879419340 (1) // 
+
+
+Can we hide the class-specific categories under CRE / Class?
+
+Talyrion points out:
+    LC data files have `type="CLASS" requiredClass="Rune-keeper"`, so can we get rid of both _crvList and _subTypeList in the post-processor?
 
 Not sure what to do with this:
 1879326066 (4), // World Consolidation Begins (Monster Play version?)
@@ -123,6 +163,13 @@ The assumed 140 valar instance deeds weren't awarded. 140 Valar (from level 20) 
     Class/Race/Epic / Class / Level Fifty!
     Class/Race/Epic / Class / On to Moria!
     Instances / Return to Carn Dûm / Discovery: Carn Dûm!
+Test Valar 140 to see if those skirmish deeds are real
+    These two seem to be real, the rest maybe not?
+        Great Barrow -- The Gate to Sambrog
+        Valar Instance and Skirmish Access <- seems to be a catch-all for the rest.
+
+get landscape difficulty first, then use Test Valar to see if deeds are awarded.
+    They are.
 
 Crell — 2023-10-31 at 4:32 PM Suggestion: Treat Forester Competition and follow up crafting events as some kind of toggle on/off per-character, per event/craft type. For example my RK isn't a forester and so can't do the forester competition.
 Crell — 2023-10-30 at 3:15 AM: numerous comments in Discord
@@ -155,10 +202,6 @@ Crell has a mount import issue with human characters.
     FWIW it didn't like my racial-mount stuff either, and had problems on one character thinking LC didn't think my reputation deeds had been earned for Cardolan. Everything had a fresh import right before. I may just need to delete all my cube-data and do a fresh  LC->Cube import boggle
 
 Avoiding defeat deeds: Set min and max level to the level prior to the requirement.
-
-Bullroarer:
-    Test Valar 140 to see if those skirmish deeds are real
-    get landscape difficulty first, then use Test Valar to see if deeds are awarded.
 
 Add block comments before each file format update block describing what we think changed.
 Break apart update function into sub-functions for each version, and per-character for each version.
