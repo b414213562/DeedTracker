@@ -169,8 +169,8 @@ _DEED_CATEGORIES = {
 -- The War / Ettinmoors
 [308] = { ["NAME"] = "- Monster Player Reward Season 1 -"; };
 -- Class
-[318] = { ["NAME"] = " - Jäger - " };
-[317] = { ["NAME"] = " - Runenbewahrer - " };
+[318] = { ["NA"] = 2; ["NAME"] = " - Jäger - " };
+[317] = { ["NA"] = 2; ["NAME"] = " - Runenbewahrer - " };
 -- Class/Race/Epic / Race & Social
 [127] = { ["NAME"] = "Race"; };
 [128] = { ["NAME"] = "Emotes"; };
