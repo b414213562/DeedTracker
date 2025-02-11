@@ -1,3 +1,8 @@
+Not Actively Achievable categories:
+    Need to consolidate to one per reason
+    Or, just don't show the reason on the category, since a category could have multiple reasons?
+Need to be able to mark a category with class / subclass details, so it only shows up when appropriate.
+
 Deed Tracker did not recognize The following Deed IDs. Please email this to LotroDeedTracker@gmail.com for inclusion in a future release!: 
 Should we include this?
 1879398961 (3) // Chronicler of Ghashan-kútot, the Halls of Black Lore
@@ -6,15 +11,6 @@ Skipping:
 1879462874 (2) // "A Cave in the Hills" - Added, maybe due to 140 Valar?
 
 To be included:
-
-1879138888 (1) // Hunter: Heart of the Bard (lvl 50)
-1879138889 (1) // 
-1879138890 (1) // 
-1879138891 (1) // 
-1879138892 (1) // 
-1879138893 (1) // 
-1879138894 (1) // 
-1879138895 (1) // 
 
 1879139456 (1) // Rune-keeper: The Path of the Restoring Rune (lvl 58)
 1879419340 (1) // Critter-slayer
