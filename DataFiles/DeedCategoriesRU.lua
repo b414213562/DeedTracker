@@ -169,6 +169,7 @@ _DEED_CATEGORIES = {
 -- The War / Ettinmoors
 [308] = { ["NAME"] = "- Награды игрока-монстра - сезон 1 -"; };
 -- Class
+[318] = { ["NAME"] = " - Охотник - " };
 [317] = { ["NAME"] = " - Хранитель рун - " };
 -- Class/Race/Epic / Race & Social
 [127] = { ["NAME"] = "Раса"; };

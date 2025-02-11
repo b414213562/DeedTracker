@@ -1,20 +1,13 @@
 Deed Tracker did not recognize The following Deed IDs. Please email this to LotroDeedTracker@gmail.com for inclusion in a future release!: 
-1879398961 (3) // 
-1879462874 (2) // 
-1879051900 (1) // 
-1879051901 (1) // 
-1879051902 (1) // 
-1879051903 (1) // 
-1879051905 (1) // 
-1879051906 (1) // 
-1879051907 (1) // 
-1879051909 (1) // 
-1879051910 (1) // 
-1879051911 (1) // 
-1879051912 (1) // 
-1879051913 (1) // 
-1879051914 (1) // 
-1879051915 (1) // 
+Should we include this?
+1879398961 (3) // Chronicler of Ghashan-kútot, the Halls of Black Lore
+
+Skipping:
+1879462874 (2) // "A Cave in the Hills" - Added, maybe due to 140 Valar?
+
+Included:
+
+
 1879093244 (1) // 
 1879093347 (1) // 
 1879093348 (1) // 

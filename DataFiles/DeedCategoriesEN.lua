@@ -169,6 +169,7 @@ _DEED_CATEGORIES = {
 -- The War / Ettinmoors
 [308] = { ["NAME"] = "- Monster Player Reward Season 1 -"; };
 -- Class
+[318] = { ["NAME"] = " - Hunter - " };
 [317] = { ["NAME"] = " - Rune-keeper - " };
 -- Class/Race/Epic / Race & Social
 [127] = { ["NAME"] = "Race"; };
@@ -361,4 +362,4 @@ _DEED_CATEGORIES = {
 [304] = { ["NAME"] = "Umbar-môkh"; };
 };
 
--- Last used: 317
+-- Last used: 318
