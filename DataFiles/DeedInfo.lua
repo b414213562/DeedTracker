@@ -1185,16 +1185,14 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
            [38] = {["ID"] = 1879491105; }; -- The Dragon and the Storm -- Tier 1
            [39] = {["ID"] = 1879491107; }; -- The Dragon and the Storm -- Tier 2
            [40] = {["ID"] = 1879491106; }; -- The Dragon and the Storm -- Tier 3
-           [41] = {["ID"] = 1879491110; }; -- The Dragon and the Storm -- Tier 4
-           [42] = {["ID"] = 1879491109; }; -- The Dragon and the Storm -- Tier 5
-           [43] = {["CAT_ID"] = 282; }; -- Not Actively Achievable
-           [44] = {["ID"] = 1879483052; }; -- The Streets of Râhal Bakh -- Tier 5 -- Leading the Charge
-           [45] = {["ID"] = 1879483006; }; -- The Isle of Storms -- Tier 5 -- Leading the Charge
-           [46] = {["ID"] = 1879482857; }; -- Dahâl Huliz, The Arena -- Tier 5 -- Leading the Charge
-           [47] = {["ID"] = 1879482949; }; -- The Depths of Mâkhda Khorbo -- Leading the Charge
-           [48] = {["ID"] = 1879482950; }; -- The Depths of Mâkhda Khorbo -- The Vanguard
-           [49] = {["ID"] = 1879482951; }; -- The Depths of Mâkhda Khorbo -- Original Challenger
-           [50] = {["ID"] = 1879491108; }; -- The Dragon and the Storm -- Tier 5 -- Leading the Charge
+           [41] = {["CAT_ID"] = 282; }; -- Not Actively Achievable
+           [42] = {["ID"] = 1879483052; }; -- The Streets of Râhal Bakh -- Tier 5 -- Leading the Charge
+           [43] = {["ID"] = 1879483006; }; -- The Isle of Storms -- Tier 5 -- Leading the Charge
+           [44] = {["ID"] = 1879482857; }; -- Dahâl Huliz, The Arena -- Tier 5 -- Leading the Charge
+           [45] = {["ID"] = 1879482949; }; -- The Depths of Mâkhda Khorbo -- Leading the Charge
+           [46] = {["ID"] = 1879482950; }; -- The Depths of Mâkhda Khorbo -- The Vanguard
+           [47] = {["ID"] = 1879482951; }; -- The Depths of Mâkhda Khorbo -- Original Challenger
+           [48] = {["ID"] = 1879491108; }; -- The Dragon and the Storm -- Tier 5 -- Leading the Charge           
         };
         [I_THE_LEGACY_OF_MORGOTH] = {
             [1] = {["CAT_ID"] = 314; }; -- Ashunûg, the Fane of the Accursed
@@ -2802,9 +2800,9 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
           [404] = {["ID"] = 1879467140; }; -- The Competitive Forester - Tier II
           [405] = {["ID"] = 1879467149; }; -- The Competitive Forester - Tier I
           [406] = {["CAT_ID"] = 307; }; -- - The Hard Tack Crafting Event -
-          [407] = {["ID"] = 1879489242; }; -- Party Foul
+          [407] = {["ID"] = 1879489238; }; -- Clod
           [408] = {["ID"] = 1879489234; }; -- Bean-spiller
-          [409] = {["ID"] = 1879489238; }; -- Clod
+          [409] = {["ID"] = 1879489242; }; -- Party Foul
           [410] = {["ID"] = 1879489254; }; -- The Lummox
           [411] = {["ID"] = 1879489251; }; -- Failure to Fire the Forge
           [412] = {["ID"] = 1879489259; }; -- Often Clumsy
