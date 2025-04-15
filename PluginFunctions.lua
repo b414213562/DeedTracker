@@ -392,9 +392,7 @@ function GetDeedIndicies(character, deedName)
         local deed = GetDeedFromID(deedID);
         local deedSkipInfo = GetDeedSkipInfo(character, deed);
 
-        if (deedSkipInfo["hideDeed"]) then
-            Debug("Skipping hidden deed " .. GetFullyQualifiedDeedName(deed));
-        elseif (deed.NA == 2) then
+        if (deedSkipInfo["isObsolete"]) then
             Debug("Skipping obsolete deed " .. GetFullyQualifiedDeedName(deed));
         elseif (deedSkipInfo["skipDeed"]) then
             Debug("Skipping skipped deed " .. GetFullyQualifiedDeedName(deed));
@@ -683,6 +681,7 @@ function GetDeedSkipInfo(character, currentDeed)
     local deedLvlTooLow = false;
     local needsServerCap = false;
     local isNotAvailable = IsDeedNotAvailable(currentDeed);
+    local isObsolete = currentDeed.NA == 2;
 
     local deedIsMountDeed = IsMountDeed(currentDeed);
 
@@ -746,7 +745,7 @@ function GetDeedSkipInfo(character, currentDeed)
     end
 
     if (deedIsMountDeed and currentDeed.MOUNT ~= raceMountType) then
-        hideDeed = true;
+        skipDeed = true;
     end
 
     local results = {
@@ -759,6 +758,7 @@ function GetDeedSkipInfo(character, currentDeed)
         ["isCompleted"] = isCompleted;
         ["needsServerCap"] = needsServerCap;
         ["difficulty"] = isDifficulty;
+        ["isObsolete"] = isObsolete;
     };
     return results;
 
