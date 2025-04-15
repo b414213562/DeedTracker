@@ -1,3 +1,17 @@
+Missed completing a deed because it was hidden:
+[04/09 08:55:55 AM] Checking deeds for matching criteria...
+[04/09 08:55:55 AM] Skipping hidden deed Class/Race/Epic / Race & Social / Spring in Your Step (large) (Requires Purchase)
+[04/09 08:55:55 AM] Skipping hidden deed Class/Race/Epic / Race & Social / Spring in Your Step (small) (Requires Purchase)
+[04/09 08:55:55 AM] Deed Tracker: Did not find an uncompleted deed matching "Spring in Your Step"
+
+T4 and T5 for The Dragon and the Storm do not exist
+
+Reported on lotrointerface.com:
+Just got Party Foul which is not inclusive of clod and bean-spiller. They should be reversed in order. Bean spiller is many instances of sneaky hobbits, party foul is just the first one.
+
+Talyrion points out:
+    LC data files have `type="CLASS" requiredClass="Rune-keeper"`, so can we get rid of both _crvList and _subTypeList in the post-processor?
+
 Not Actively Achievable categories:
     Need to consolidate to one per reason
     Or, just don't show the reason on the category, since a category could have multiple reasons?
@@ -17,9 +31,6 @@ To be included:
 
 
 Can we hide the class-specific categories under CRE / Class?
-
-Talyrion points out:
-    LC data files have `type="CLASS" requiredClass="Rune-keeper"`, so can we get rid of both _crvList and _subTypeList in the post-processor?
 
 Not sure what to do with this:
 1879326066 (4), // World Consolidation Begins (Monster Play version?)
