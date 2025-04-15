@@ -31,7 +31,13 @@ In the meantime, feel free to submit patches for any of my plugins if you spot s
 v3.2.0 changes:
     Deeds:
         Instances:
-            Removed The Dragon and the Storm -- Tier 4/5
+            Corsairs of Umbar:
+                Removed The Dragon and the Storm -- Tier 4/5
+            The Legacy of Morgoth:
+                Added U43 deeds, including Temple of Utug-bûr
+        Hobbies:
+            Birding:
+                Added U43 deeds, Rohan and the Great River
         Class/Race/Epic:
             Fixed order of Party Foul and Clod
     

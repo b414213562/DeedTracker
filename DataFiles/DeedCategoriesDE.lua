@@ -158,6 +158,10 @@ _DEED_CATEGORIES = {
 [314] = { ["NAME"] = "Ashunûg, der Tempel der Verfluchten"; };
 [315] = { ["NAME"] = "Nirgambâr, das Ruhelose Grab"; };
 [316] = { ["NAME"] = "Tûl Zakana, der Quell des Vergessens"; };
+[319] = { ["NAME"] = "Tempels von Utug-bûr"; };
+-- Hobbies / Birding
+[320] = { ["NAME"] = "Eriador"; };
+[321] = { ["NAME"] = "Rohan und dem Großen Fluss"; };
 -- The War / Common
 [120] = { ["NAME"] = "Monster-slayer"; };
 [121] = { ["NAME"] = "Blackarrow-slayer"; };

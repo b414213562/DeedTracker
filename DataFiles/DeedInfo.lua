@@ -1192,31 +1192,47 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
            [45] = {["ID"] = 1879482949; }; -- The Depths of Mâkhda Khorbo -- Leading the Charge
            [46] = {["ID"] = 1879482950; }; -- The Depths of Mâkhda Khorbo -- The Vanguard
            [47] = {["ID"] = 1879482951; }; -- The Depths of Mâkhda Khorbo -- Original Challenger
-           [48] = {["ID"] = 1879491108; }; -- The Dragon and the Storm -- Tier 5 -- Leading the Charge           
+           [48] = {["ID"] = 1879491108; }; -- The Dragon and the Storm -- Tier 5 -- Leading the Charge
         };
+        -- The Legacy of Morgoth
         [I_THE_LEGACY_OF_MORGOTH] = {
-            [1] = {["CAT_ID"] = 314; }; -- Ashunûg, the Fane of the Accursed
-            [2] = {["ID"] = 1879496461; }; -- Nâkhugir's Bane
-            [3] = {["ID"] = 1879494531; }; -- Ashunûg, the Fane of the Accursed -- Tier 1
-            [4] = {["ID"] = 1879494530; }; -- Ashunûg, the Fane of the Accursed -- Tier 2
-            [5] = {["ID"] = 1879494529; }; -- Ashunûg, the Fane of the Accursed -- Tier 3
-            [6] = {["ID"] = 1879496463; }; -- Ashunûg, the Fane of the Accursed -- Anâkhi
-            [7] = {["CAT_ID"] = 315; }; -- Nirgambâr, the Restless Tomb
-            [8] = {["ID"] = 1879494784; }; -- Vanquisher of Nirgambâr, the Restless Tomb
-            [9] = {["ID"] = 1879494780; }; -- Nirgambâr, the Restless Tomb -- Tier 1
-           [10] = {["ID"] = 1879494782; }; -- Nirgambâr, the Restless Tomb -- Tier 2
-           [11] = {["ID"] = 1879494779; }; -- Nirgambâr, the Restless Tomb-- Tier 3
-           [12] = {["ID"] = 1879494783; }; -- Nirgambâr, the Restless Tomb -- Restless Dead
-           [13] = {["CAT_ID"] = 316; }; -- Tûl Zakana, the Well of Forgetting
-           [14] = {["ID"] = 1879495455; }; -- Vanquisher of Tûl Zakana, the Well of Forgetting
-           [15] = {["ID"] = 1879495456; }; -- Tûl Zakana, the Well of Forgetting -- Tier 1
-           [16] = {["ID"] = 1879495461; }; -- Tûl Zakana, the Well of Forgetting -- Tier 2
-           [17] = {["ID"] = 1879495462; }; -- Tûl Zakana, the Well of Forgetting -- Tier 3
-           [18] = {["ID"] = 1879495457; }; -- Tûl Zakana, the Well of Forgetting -- Ordâkhai
-           [19] = {["CAT_ID"] = 282; }; -- Not Actively Achievable
-           [20] = {["ID"] = 1879496462; }; -- Ashunûg, the Fane of the Accursed -- Tier 3 -- Leading the Charge
-           [21] = {["ID"] = 1879494781; }; -- Nirgambâr, the Restless Tomb -- Tier 3 -- Leading the Charge
-           [22] = {["ID"] = 1879495464; }; -- Tûl Zakana, the Well of Forgetting -- Tier 3 -- Leading the Charge           
+            [1] = {["ID"] = 1879500021; }; -- Conflicts of the Ikorbân Valley
+            [2] = {["CAT_ID"] = 314; }; -- Ashunûg, the Fane of the Accursed
+            [3] = {["ID"] = 1879496461; }; -- Nâkhugir's Bane
+            [4] = {["ID"] = 1879494531; }; -- Ashunûg, the Fane of the Accursed -- Tier 1
+            [5] = {["ID"] = 1879494530; }; -- Ashunûg, the Fane of the Accursed -- Tier 2
+            [6] = {["ID"] = 1879494529; }; -- Ashunûg, the Fane of the Accursed -- Tier 3
+            [7] = {["ID"] = 1879496463; }; -- Ashunûg, the Fane of the Accursed -- Anâkhi
+            [8] = {["CAT_ID"] = 315; }; -- Nirgambâr, the Restless Tomb
+            [9] = {["ID"] = 1879494784; }; -- Vanquisher of Nirgambâr, the Restless Tomb
+           [10] = {["ID"] = 1879494780; }; -- Nirgambâr, the Restless Tomb -- Tier 1
+           [11] = {["ID"] = 1879494782; }; -- Nirgambâr, the Restless Tomb -- Tier 2
+           [12] = {["ID"] = 1879494779; }; -- Nirgambâr, the Restless Tomb-- Tier 3
+           [13] = {["ID"] = 1879494783; }; -- Nirgambâr, the Restless Tomb -- Restless Dead
+           [14] = {["CAT_ID"] = 316; }; -- Tûl Zakana, the Well of Forgetting
+           [15] = {["ID"] = 1879495455; }; -- Vanquisher of Tûl Zakana, the Well of Forgetting
+           [16] = {["ID"] = 1879495456; }; -- Tûl Zakana, the Well of Forgetting -- Tier 1
+           [17] = {["ID"] = 1879495461; }; -- Tûl Zakana, the Well of Forgetting -- Tier 2
+           [18] = {["ID"] = 1879495462; }; -- Tûl Zakana, the Well of Forgetting -- Tier 3
+           [19] = {["ID"] = 1879495457; }; -- Tûl Zakana, the Well of Forgetting -- Ordâkhai
+           [20] = {["CAT_ID"] = 319; }; -- Temple of Utug-bûr
+           [21] = {["ID"] = 1879500025; }; -- Deeds of the 'Temple of Utug-bûr'
+           [22] = {["ID"] = 1879500022; }; -- Explorer of the 'Temple of Utug-bûr' - Tier 1
+           [23] = {["ID"] = 1879500024; }; -- Explorer of the 'Temple of Utug-bûr' - Tier 2
+           [24] = {["ID"] = 1879500023; }; -- Explorer of the 'Temple of Utug-bûr' - Tier 3
+           [25] = {["ID"] = 1879499530; }; -- Bane of the Blood-spiller
+           [26] = {["ID"] = 1879498088; }; -- Temple of Utug-bûr: Inner Sanctum -- Tier 1
+           [27] = {["ID"] = 1879498089; }; -- Temple of Utug-bûr: Inner Sanctum -- Tier 2
+           [28] = {["ID"] = 1879498090; }; -- Temple of Utug-bûr: Inner Sanctum -- Tier 3
+           [29] = {["ID"] = 1879498783; }; -- Temple of Utug-bûr: Thûr Hin -- Tier 1
+           [30] = {["ID"] = 1879498782; }; -- Temple of Utug-bûr: Thûr Hin -- Tier 2
+           [31] = {["ID"] = 1879498781; }; -- Temple of Utug-bûr: Thûr Hin -- Tier 3
+           [32] = {["CAT_ID"] = 282; }; -- Not Actively Achievable
+           [33] = {["ID"] = 1879496462; }; -- Ashunûg, the Fane of the Accursed -- Tier 3 -- Leading the Charge
+           [34] = {["ID"] = 1879494781; }; -- Nirgambâr, the Restless Tomb -- Tier 3 -- Leading the Charge
+           [35] = {["ID"] = 1879495464; }; -- Tûl Zakana, the Well of Forgetting -- Tier 3 -- Leading the Charge
+           [36] = {["ID"] = 1879500027; }; -- Temple of Utug-bûr -- Leading the Charge
+           [37] = {["ID"] = 1879500028; }; -- Temple of Utug-bûr -- Original Challenger
         };
     };
     -- Hobbies
@@ -1230,68 +1246,108 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
             [5] = {["ID"] = 1879115023; }; -- Trout-master
             [6] = {["ID"] = 1879364959; }; -- Lake-master
         };
+        -- Birding
         [H_BIRDING] = {
-            [1] = {["ID"] = 1879490678; }; -- All the Birds of Bree-land
-            [2] = {["ID"] = 1879490611; }; -- Birds of Bree-land: Common and Uncommon
-            [3] = {["ID"] = 1879490469; }; -- Birds of Bree-land: Rare
-            [4] = {["ID"] = 1879490610; }; -- The Rarest Bird in Bree-land
-            [5] = {["ID"] = 1879490682; }; -- All the Birds of the Shire
-            [6] = {["ID"] = 1879490617; }; -- Birds of The Shire: Common and Uncommon
-            [7] = {["ID"] = 1879490640; }; -- Birds of The Shire: Rare
-            [8] = {["ID"] = 1879490622; }; -- The Rarest Bird in The Shire
-            [9] = {["ID"] = 1879490671; }; -- All the Birds of Ered Luin
-           [10] = {["ID"] = 1879490651; }; -- Birds of Ered Luin: Common and Uncommon
-           [11] = {["ID"] = 1879490635; }; -- Birds of Ered Luin: Rare
-           [12] = {["ID"] = 1879490633; }; -- The Rarest Bird in Ered Luin
-           [13] = {["ID"] = 1879490668; }; -- All the Birds of Swanfleet
-           [14] = {["ID"] = 1879490642; }; -- Birds of Swanfleet: Common and Uncommon
-           [15] = {["ID"] = 1879490641; }; -- Birds of Swanfleet: Rare
-           [16] = {["ID"] = 1879490645; }; -- The Rarest Bird in Swanfleet
-           [17] = {["ID"] = 1879490670; }; -- All the Birds of Cardolan
-           [18] = {["ID"] = 1879490621; }; -- Birds of Cardolan: Common and Uncommon
-           [19] = {["ID"] = 1879490627; }; -- Birds of Cardolan: Rare
-           [20] = {["ID"] = 1879490647; }; -- The Rarest Bird in Cardolan
-           [21] = {["ID"] = 1879490676; }; -- All the Birds of the Lone-lands
-           [22] = {["ID"] = 1879490649; }; -- Birds of the Lone-lands: Common and Uncommon
-           [23] = {["ID"] = 1879490632; }; -- Birds of the Lone-lands: Rare
-           [24] = {["ID"] = 1879490637; }; -- The Rarest Bird in the Lone-lands
-           [25] = {["ID"] = 1879490675; }; -- All the Birds of the North Downs
-           [26] = {["ID"] = 1879490630; }; -- Birds of The North Downs: Common and Uncommon
-           [27] = {["ID"] = 1879490626; }; -- Birds of the North Downs: Rare
-           [28] = {["ID"] = 1879490625; }; -- The Rarest Bird in the North Downs
-           [29] = {["ID"] = 1879490677; }; -- All the Birds of the Trollshaws
-           [30] = {["ID"] = 1879490614; }; -- Birds of the Trollshaws: Common and Uncommon
-           [31] = {["ID"] = 1879490639; }; -- Birds of the Trollshaws: Rare
-           [32] = {["ID"] = 1879490629; }; -- The Rarest Bird in the Trollshaws
-           [33] = {["ID"] = 1879490673; }; -- All the Birds of the Misty Mountains
-           [34] = {["ID"] = 1879490650; }; -- Birds of the Misty Mountains: Common and Uncommon
-           [35] = {["ID"] = 1879490620; }; -- Birds of the Misty Mountains: Rare
-           [36] = {["ID"] = 1879490612; }; -- The Rarest Bird in the Misty Mountains
-           [37] = {["ID"] = 1879490674; }; -- All the Birds of Evendim
-           [38] = {["ID"] = 1879490643; }; -- Birds of Evendim: Common and Uncommon
-           [39] = {["ID"] = 1879490638; }; -- Birds of Evendim: Rare
-           [40] = {["ID"] = 1879490615; }; -- The Rarest Bird in Evendim
-           [41] = {["ID"] = 1879490664; }; -- All the Birds of Angmar
-           [42] = {["ID"] = 1879490646; }; -- Birds of Angmar: Common and Uncommon
-           [43] = {["ID"] = 1879490636; }; -- Birds of Angmar: Rare
-           [44] = {["ID"] = 1879490648; }; -- The Rarest Bird in Angmar
-           [45] = {["ID"] = 1879490680; }; -- All the Birds of Forochel
-           [46] = {["ID"] = 1879490613; }; -- Birds of Forochel: Common and Uncommon
-           [47] = {["ID"] = 1879490624; }; -- Birds of Forochel: Rare
-           [48] = {["ID"] = 1879490618; }; -- The Rarest Bird in Forochel
-           [49] = {["ID"] = 1879490681; }; -- All the Birds of Eregion
-           [50] = {["ID"] = 1879490631; }; -- Birds of Eregion: Common and Uncommon
-           [51] = {["ID"] = 1879490644; }; -- Birds of Eregion: Rare
-           [52] = {["ID"] = 1879490628; }; -- The Rarest Bird in Eregion
-           [53] = {["ID"] = 1879490669; }; -- All the Birds of Enedwaith
-           [54] = {["ID"] = 1879490616; }; -- Birds of Enedwaith: Common and Uncommon
-           [55] = {["ID"] = 1879490652; }; -- Birds of Enedwaith: Rare
-           [56] = {["ID"] = 1879490653; }; -- The Rarest Bird in Enedwaith
-           [57] = {["ID"] = 1879490672; }; -- All the Birds of Dunland
-           [58] = {["ID"] = 1879490623; }; -- Birds of Dunland: Common and Uncommon
-           [59] = {["ID"] = 1879490634; }; -- Birds of Dunland: Rare
-           [60] = {["ID"] = 1879490619; }; -- The Rarest Bird in Dunland
-           [61] = {["ID"] = 1879490679; }; -- The Rarest of Birds in Eriador
+            [1] = {["CAT_ID"] = 320; }; -- Eriador
+            [2] = {["ID"] = 1879490678; }; -- All the Birds of Bree-land
+            [3] = {["ID"] = 1879490611; }; -- Birds of Bree-land: Common and Uncommon
+            [4] = {["ID"] = 1879490469; }; -- Birds of Bree-land: Rare
+            [5] = {["ID"] = 1879490610; }; -- The Rarest Bird in Bree-land
+            [6] = {["ID"] = 1879490682; }; -- All the Birds of the Shire
+            [7] = {["ID"] = 1879490617; }; -- Birds of The Shire: Common and Uncommon
+            [8] = {["ID"] = 1879490640; }; -- Birds of The Shire: Rare
+            [9] = {["ID"] = 1879490622; }; -- The Rarest Bird in The Shire
+           [10] = {["ID"] = 1879490671; }; -- All the Birds of Ered Luin
+           [11] = {["ID"] = 1879490651; }; -- Birds of Ered Luin: Common and Uncommon
+           [12] = {["ID"] = 1879490635; }; -- Birds of Ered Luin: Rare
+           [13] = {["ID"] = 1879490633; }; -- The Rarest Bird in Ered Luin
+           [14] = {["ID"] = 1879490668; }; -- All the Birds of Swanfleet
+           [15] = {["ID"] = 1879490642; }; -- Birds of Swanfleet: Common and Uncommon
+           [16] = {["ID"] = 1879490641; }; -- Birds of Swanfleet: Rare
+           [17] = {["ID"] = 1879490645; }; -- The Rarest Bird in Swanfleet
+           [18] = {["ID"] = 1879490670; }; -- All the Birds of Cardolan
+           [19] = {["ID"] = 1879490621; }; -- Birds of Cardolan: Common and Uncommon
+           [20] = {["ID"] = 1879490627; }; -- Birds of Cardolan: Rare
+           [21] = {["ID"] = 1879490647; }; -- The Rarest Bird in Cardolan
+           [22] = {["ID"] = 1879490676; }; -- All the Birds of the Lone-lands
+           [23] = {["ID"] = 1879490649; }; -- Birds of the Lone-lands: Common and Uncommon
+           [24] = {["ID"] = 1879490632; }; -- Birds of the Lone-lands: Rare
+           [25] = {["ID"] = 1879490637; }; -- The Rarest Bird in the Lone-lands
+           [26] = {["ID"] = 1879490675; }; -- All the Birds of the North Downs
+           [27] = {["ID"] = 1879490630; }; -- Birds of The North Downs: Common and Uncommon
+           [28] = {["ID"] = 1879490626; }; -- Birds of the North Downs: Rare
+           [29] = {["ID"] = 1879490625; }; -- The Rarest Bird in the North Downs
+           [30] = {["ID"] = 1879490677; }; -- All the Birds of the Trollshaws
+           [31] = {["ID"] = 1879490614; }; -- Birds of the Trollshaws: Common and Uncommon
+           [32] = {["ID"] = 1879490639; }; -- Birds of the Trollshaws: Rare
+           [33] = {["ID"] = 1879490629; }; -- The Rarest Bird in the Trollshaws
+           [34] = {["ID"] = 1879490673; }; -- All the Birds of the Misty Mountains
+           [35] = {["ID"] = 1879490650; }; -- Birds of the Misty Mountains: Common and Uncommon
+           [36] = {["ID"] = 1879490620; }; -- Birds of the Misty Mountains: Rare
+           [37] = {["ID"] = 1879490612; }; -- The Rarest Bird in the Misty Mountains
+           [38] = {["ID"] = 1879490674; }; -- All the Birds of Evendim
+           [39] = {["ID"] = 1879490643; }; -- Birds of Evendim: Common and Uncommon
+           [40] = {["ID"] = 1879490638; }; -- Birds of Evendim: Rare
+           [41] = {["ID"] = 1879490615; }; -- The Rarest Bird in Evendim
+           [42] = {["ID"] = 1879490664; }; -- All the Birds of Angmar
+           [43] = {["ID"] = 1879490646; }; -- Birds of Angmar: Common and Uncommon
+           [44] = {["ID"] = 1879490636; }; -- Birds of Angmar: Rare
+           [45] = {["ID"] = 1879490648; }; -- The Rarest Bird in Angmar
+           [46] = {["ID"] = 1879490680; }; -- All the Birds of Forochel
+           [47] = {["ID"] = 1879490613; }; -- Birds of Forochel: Common and Uncommon
+           [48] = {["ID"] = 1879490624; }; -- Birds of Forochel: Rare
+           [49] = {["ID"] = 1879490618; }; -- The Rarest Bird in Forochel
+           [50] = {["ID"] = 1879490681; }; -- All the Birds of Eregion
+           [51] = {["ID"] = 1879490631; }; -- Birds of Eregion: Common and Uncommon
+           [52] = {["ID"] = 1879490644; }; -- Birds of Eregion: Rare
+           [53] = {["ID"] = 1879490628; }; -- The Rarest Bird in Eregion
+           [54] = {["ID"] = 1879490669; }; -- All the Birds of Enedwaith
+           [55] = {["ID"] = 1879490616; }; -- Birds of Enedwaith: Common and Uncommon
+           [56] = {["ID"] = 1879490652; }; -- Birds of Enedwaith: Rare
+           [57] = {["ID"] = 1879490653; }; -- The Rarest Bird in Enedwaith
+           [58] = {["ID"] = 1879490672; }; -- All the Birds of Dunland
+           [59] = {["ID"] = 1879490623; }; -- Birds of Dunland: Common and Uncommon
+           [60] = {["ID"] = 1879490634; }; -- Birds of Dunland: Rare
+           [61] = {["ID"] = 1879490619; }; -- The Rarest Bird in Dunland
+           [62] = {["ID"] = 1879490679; }; -- The Rarest of Birds in Eriador
+           [63] = {["CAT_ID"] = 321; }; -- Rohan and the Great River
+           [64] = {["ID"] = 1879501132; }; -- All the Birds of Lothlórien
+           [65] = {["ID"] = 1879501133; }; -- Birds of Lothlórien: Common and Uncommon
+           [66] = {["ID"] = 1879501131; }; -- Birds of Lothlórien: Rare
+           [67] = {["ID"] = 1879501134; }; -- The Rarest Bird in Lothlórien
+           [68] = {["ID"] = 1879501164; }; -- All the Birds of Mirkwood
+           [69] = {["ID"] = 1879501162; }; -- Birds of Mirkwood: Common and Uncommon
+           [70] = {["ID"] = 1879501161; }; -- Birds of Mirkwood: Rare
+           [71] = {["ID"] = 1879501163; }; -- The Rarest Bird in Mirkwood
+           [72] = {["ID"] = 1879501166; }; -- All the Birds of the Great River
+           [73] = {["ID"] = 1879501167; }; -- Birds of the Great River: Common and Uncommon
+           [74] = {["ID"] = 1879501168; }; -- Birds of the Great River: Rare
+           [75] = {["ID"] = 1879501165; }; -- The Rarest Bird of the Great River
+           [76] = {["ID"] = 1879501170; }; -- All the Birds of the Wold
+           [77] = {["ID"] = 1879501171; }; -- Birds of the Wold: Common and Uncommon
+           [78] = {["ID"] = 1879501173; }; -- Birds of the Wold: Rare
+           [79] = {["ID"] = 1879501172; }; -- The Rarest Bird of the Wold
+           [80] = {["ID"] = 1879501174; }; -- All the Birds of Fangorn
+           [81] = {["ID"] = 1879501176; }; -- Birds of Fangorn: Common and Uncommon
+           [82] = {["ID"] = 1879501175; }; -- Birds of Fangorn: Rare
+           [83] = {["ID"] = 1879501177; }; -- The Rarest Bird in Fangorn
+           [84] = {["ID"] = 1879501178; }; -- All the Birds of the Croftlands
+           [85] = {["ID"] = 1879501180; }; -- Birds of the Croftlands: Common and Uncommon
+           [86] = {["ID"] = 1879501181; }; -- Birds of the Croftlands: Rare
+           [87] = {["ID"] = 1879501179; }; -- The Rarest Bird of the Croftlands
+           [88] = {["ID"] = 1879501185; }; -- All the Birds of the Entwash
+           [89] = {["ID"] = 1879501182; }; -- Birds of the Entwash: Common and Uncommon
+           [90] = {["ID"] = 1879501183; }; -- Birds of the Entwash: Rare
+           [91] = {["ID"] = 1879501184; }; -- The Rarest Bird of the Entwash
+           [92] = {["ID"] = 1879501188; }; -- All the Birds of the Westfold
+           [93] = {["ID"] = 1879501189; }; -- Birds of the Westfold: Common and Uncommon
+           [94] = {["ID"] = 1879501186; }; -- Birds of the Westfold: Rare
+           [95] = {["ID"] = 1879501187; }; -- The Rarest Bird in the Westfold
+           [96] = {["ID"] = 1879501191; }; -- All the Birds of the Eastfold
+           [97] = {["ID"] = 1879501190; }; -- Birds of the Eastfold: Common and Uncommon
+           [98] = {["ID"] = 1879501193; }; -- Birds of the Eastfold: Rare
+           [99] = {["ID"] = 1879501192; }; -- The Rarest Bird of the Eastfold
+          [100] = {["ID"] = 1879501776; }; -- The Rarest of Birds in Rohan and the Great River
         };
     };
     -- The War

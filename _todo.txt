@@ -24,8 +24,6 @@ Can we hide the class-specific categories under CRE / Class?
 Not sure what to do with this:
 1879326066 (4), // World Consolidation Begins (Monster Play version?)
 
-Deeds not in game: "The Dragon and the Storm -- Tier 4" / 5
-
 Make a core DeedCategories file with languages keys, for auto-generation of Categories where possible.
     Could do this with DeedItems too.
 Figure out what the difference is between DisambiguateWindow and DeedOrQuestWindow.?!?

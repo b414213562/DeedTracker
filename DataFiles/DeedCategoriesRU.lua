@@ -158,6 +158,10 @@ _DEED_CATEGORIES = {
 [314] = { ["NAME"] = "Ashunûg, the Fane of the Accursed"; };
 [315] = { ["NAME"] = "Nirgambâr, the Restless Tomb"; };
 [316] = { ["NAME"] = "Tûl Zakana, the Well of Forgetting"; };
+[319] = { ["NAME"] = "Temple of Utug-bûr"; };
+-- Hobbies / Birding
+[320] = { ["NAME"] = "Эриадора"; };
+[321] = { ["NAME"] = "Rohan and the Great River"; };
 -- The War / Common
 [120] = { ["NAME"] = "Убийца монстров"; };
 [121] = { ["NAME"] = "Убийца черных стрел"; };
