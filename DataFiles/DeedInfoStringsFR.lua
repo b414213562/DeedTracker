@@ -64,16 +64,6 @@ _CLASSES = {
     [215] = "Bagarreur";
     [216] = "Marin";
 };
-_VOCATIONS = {
-    [0] = "None";
-    [1] = "Explorateur / Exploratrice";
-    [2] = "Joailler / Joaillère";
-    [3] = "Franc-tenancier / Franc-tenancière";
-    [4] = "Historien / Historienne";
-    [5] = "Fourbisseur";
-    [6] = "Bûcheron / Bûcheronne";
-    [7] = "Armurier / Armurière";
-};
 _RACES = {
       [0] = "Undefined";
      [23] = "Homme";

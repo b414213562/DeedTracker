@@ -124,8 +124,6 @@ function GetStringSubtype(deedCrv, deedSubtype)
         result = DataFiles._RACES[deedSubtype] or "unknown race";
     elseif (deedCrv == "Class") then
         result = DataFiles._CLASSES[deedSubtype] or "unknown class";
-    elseif (deedCrv == "Vocation") then
-        result = DataFiles._VOCATIONS[deedSubtype] or "unknown vocation";
     end
     return result;
 end
@@ -694,11 +692,6 @@ function GetDeedSkipInfo(character, currentDeed)
         if (hasSubtype and currentDeed.SUBTYPE ~= race) then
             skipDeed = true;
         end
-    --elseif(crv == "Vocation" and not isCompleted) then
-        --local vocation = GetVocation(character);
-        --if (hasSubtype and currentDeed.SUBTYPE ~= vocation) then
-        --    skipDeed = true;
-        --end
     end
 
     local minLevel = GetDeedMinimumLevel(currentDeed);

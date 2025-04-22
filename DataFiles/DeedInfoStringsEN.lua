@@ -64,16 +64,6 @@ _CLASSES = {
     [215] = "Brawler";
     [216] = "Mariner";
 };
-_VOCATIONS = {
-    [0] = "None";
-    [1] = "Explorer";
-    [2] = "Tinker";
-    [3] = "Yeoman";
-    [4] = "Historian";
-    [5] = "Armsman";
-    [6] = "Woodsman";
-    [7] = "Armourer";
-};
 _RACES = {
       [0] = "Undefined";
      [23] = "Man";

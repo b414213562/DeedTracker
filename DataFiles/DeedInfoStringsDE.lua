@@ -64,16 +64,6 @@ _CLASSES = {
     [215] = "Schläger";
     [216] = "Matrose";
 };
-_VOCATIONS = {
-    [0] = "None";
-    [1] = "Entdecker";
-    [2] = "Kesselflicker";
-    [3] = "Freibauer";
-    [4] = "Historiker";
-    [5] = "Waffenbauer";
-    [6] = "Waldhüter";
-    [7] = "Rüstungsschmied";
-};
 _RACES = {
       [0] = "Undefined";
      [23] = "Mensch";

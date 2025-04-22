@@ -180,11 +180,6 @@ _LANG = {
             ["EN"] = "Server cap: %d";
             ["RU"] = "Лимит сервера: %d";
         };
-        ["UNKNOWN_VOCATION"] = {
-            ["EN"] = "You completed a vocation deed in the same session that you chose that vocation. Refreshing Deed Tracker.";
-            ["DE"] = "Tat eines Berufes in der gleichen Sitzung abgeschlossen, in welcher der Beruf ausgewählt wurde. Deed Tracker neu laden.";
-            ["RU"] = "Вы завершили деяние по професси в том же сеансе, что выбрали эту профессия. Обновляю Deed Tracker.";
-        };
         ["TASK_INDICATOR"] = {
             ["EN"] = "Task: ";
             ["RU"] = "Поручение: ";
