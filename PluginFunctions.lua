@@ -187,10 +187,6 @@ function GetClass(character)
     return tonumber(class);
 end
 
-function GetVocation(character)
-    return 0;
-end
-
 function GetRace(character)
     local race = _CHARDATA[character]["CHARACTER_INFO"]["RACE"] or 0;
     return tonumber(race);
@@ -470,18 +466,6 @@ function GetClassName(class)
     if (class == Turbine.Gameplay.Class.Minstrel) then return "Minstrel"; end
     if (class == Turbine.Gameplay.Class.RuneKeeper) then return "Rune-Keeper"; end
     if (class == Turbine.Gameplay.Class.Warden) then return "Warden"; end
-    return "Unknown";
-end
-
-function GetVocationName(vocation)
-    if (vocation == Turbine.Gameplay.Vocation.Armorer) then return "Armorer"; end
-    if (vocation == Turbine.Gameplay.Vocation.Armsman) then return "Armsman"; end
-    if (vocation == Turbine.Gameplay.Vocation.Explorer) then return "Explorer"; end
-    if (vocation == Turbine.Gameplay.Vocation.Historian) then return "Historian"; end
-    if (vocation == Turbine.Gameplay.Vocation.None) then return "None"; end
-    if (vocation == Turbine.Gameplay.Vocation.Tinker) then return "Tinker"; end
-    if (vocation == Turbine.Gameplay.Vocation.Woodsman) then return "Woodsman"; end
-    if (vocation == Turbine.Gameplay.Vocation.Yeoman) then return "Yeoman"; end
     return "Unknown";
 end
 
