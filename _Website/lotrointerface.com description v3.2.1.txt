@@ -52,7 +52,7 @@ When the Plugin Manager opens, find Deed Tracker in the list on the left side. C
 
 [SIZE="4"][COLOR="DeepSkyBlue"]Recent Revision History[/COLOR][/SIZE]
 [list]
-[*]2025-04-15: Version 3.2.0: Added U43: The Legacy of Morgoth (Temple of Utug-bûr) and Birding (Rohan and the Great River) deeds. Fixed a few minor issues. Release notes are [url=https://forums.lotro.com/index.php?threads/plugin-deed-tracker.474/post-177085]here[/url].
+[*]2025-04-15: Version 3.2.1: Added U43: The Legacy of Morgoth (Temple of Utug-bûr) and Birding (Rohan and the Great River) deeds. Fixed a few minor issues. Release notes are [url=https://forums.lotro.com/index.php?threads/plugin-deed-tracker.474/post-177085]here[/url].
 [*]2025-01-22: Version 3.1.6: Added U42: The Legacy of Morgoth deeds, automated gathering of conflicting quest data, and added support for Russian. Release notes are [url=https://forums.lotro.com/index.php?threads/plugin-deed-tracker.474/post-141517]here[/url].
 [*]2024-09-03: Version 3.1.5: Added U41: On the Wing deeds, resolved a performance problem during plugin load, and some other changes. Release notes are [url=https://forums.lotro.com/index.php?threads/plugin-deed-tracker.474/post-110536]here[/url].
 [*]2024-06-09: Version 3.1.4: Added U39: Arenas of Conflict & U40: Beneath the Surface deeds. Release notes are [url=https://forums.lotro.com/index.php?threads/plugin-deed-tracker.474/post-89854]here[/url].

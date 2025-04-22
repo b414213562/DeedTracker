@@ -1,3 +1,15 @@
+LOTRO Companion wondered why the processor tries to figure out if the text contains "complete" "finish", etc.
+    I couldn't remember why, but hypothesized:
+        I had progressOverride="Menez des quêtes à bien dans l'Ered Luin" and count="20", 
+            and thought I needed to parse the text to realize that I wanted it to be "Menez des quêtes à bien dans l'Ered Luin x20". 
+        I'm making a note (this text here) to see if the presence of a questComplete tag within the objective 
+            plus a count attribute could indicate that we just use the objective text 
+            ("Menez à bien 20 quêtes de l'Ered Luin.") instead.
+
+Talyrion suggests:
+    For legendary servers, Deed Tracker could compare the level of the current character with the legendary server cap.
+    If the character level is higher, bump up the level cap to the next increment. (E.g. 50, 60, 65, 75, etc.)
+
 Talyrion points out:
     LC data files have `type="CLASS" requiredClass="Rune-keeper"`, so can we get rid of both _crvList and _subTypeList in the post-processor?
 
