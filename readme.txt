@@ -28,6 +28,11 @@ If you would like to take over management of one of my plugins, please first sen
 If I do not respond within two months, then you have my permission to request control of a plugin or patch of mine on lotrointerface.com.
 In the meantime, feel free to submit patches for any of my plugins if you spot something that needs fixing or improving!
 
+v3.x.x changes:
+    Deeds:
+        Class/Race/Epic / Class:
+            Fixed: Several obsolete Rune-keeper deeds were accidentally marked as Lore Master.
+
 v3.2.0 changes:
     Deeds:
         Instances:
