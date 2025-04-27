@@ -199,7 +199,6 @@ Bug: Completed Rescue in Nurz Ghashu which completed Skirmisher of Middle-earth
 
 Objectives work:
     Missing quest objectives like in:
-	Gondor / The Wastes / Relics of the Last Alliance: externalInventoryItem not processed
 	Mordor / Gorgoroth / Forge-works of Udun, Forge-fires of Udûn:
 		(${CURRENT}/${MAX}) => enterDetection (see Inn League Challenge)
 	Lots of Barrow-downs survival deeds have coordinates that aren't necessary.
