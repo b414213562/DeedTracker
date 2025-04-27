@@ -200,8 +200,7 @@ Bug: Completed Rescue in Nurz Ghashu which completed Skirmisher of Middle-earth
 Objectives work:
     Missing quest objectives like in:
 	Lots of Barrow-downs survival deeds have coordinates that aren't necessary.
-	Counts for The War deeds not showing up - e.g. Monster-slayer -- Tier 1
-		Fix tiering for Osgiliath deeds.
+    The War: Fix tiering for Osgiliath deeds.
     An Unusual Arrival has a duplicated objective
     Stangard Explorer: Coordinates are wrong, possibly in the building instead of out.
     Unify the look of objectives with/without lore, and with/without geo.
