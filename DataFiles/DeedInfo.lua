@@ -1418,12 +1418,12 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
         -- Osgiliath
         [W_OSGILIATH] = {
             [1] = {["ID"] = 1879326392; }; -- The Battle for Osgiliath
-            [2] = {["ID"] = 1879326410; }; -- Quest of the Court of Anárion -- Tier 1
+            [2] = {["ID"] = 1879326399; }; -- Quest of the Court of Anárion -- Tier 3
             [3] = {["ID"] = 1879326396; }; -- Quest of the Court of Anárion -- Tier 2
-            [4] = {["ID"] = 1879326399; }; -- Quest of the Court of Anárion -- Tier 3
-            [5] = {["ID"] = 1879326404; }; -- Quest of the Palace of Eldacar -- Tier 1
+            [4] = {["ID"] = 1879326410; }; -- Quest of the Court of Anárion -- Tier 1
+            [5] = {["ID"] = 1879326398; }; -- Quest of the Palace of Eldacar -- Tier 3
             [6] = {["ID"] = 1879326401; }; -- Quest of the Palace of Eldacar -- Tier 2
-            [7] = {["ID"] = 1879326398; }; -- Quest of the Palace of Eldacar -- Tier 3
+            [7] = {["ID"] = 1879326404; }; -- Quest of the Palace of Eldacar -- Tier 1          
         };
     };
     -- Class/Race/Epic
