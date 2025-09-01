@@ -159,9 +159,11 @@ _DEED_CATEGORIES = {
 [315] = { ["NAME"] = "Nirgambâr, le Tombeau agité"; };
 [316] = { ["NAME"] = "Tûl Zakana, le puits de l'Oubli"; };
 [319] = { ["NAME"] = "Temple d'Utug-bûr"; };
+[322] = { ["NAME"] = "Dun Shûma, la forteresse du roi"; };
 -- Hobbies / Birding
 [320] = { ["NAME"] = "Eriador"; };
 [321] = { ["NAME"] = "Rohan et du Grand Fleuve"; };
+[326] = { ["NAME"] = "Gondor et Mordor"; };
 -- The War / Common
 [120] = { ["NAME"] = "Monster-slayer"; };
 [121] = { ["NAME"] = "Blackarrow-slayer"; };
@@ -172,6 +174,10 @@ _DEED_CATEGORIES = {
 [126] = { ["NAME"] = "Weaver-slayer"; };
 -- The War / Ettinmoors
 [308] = { ["NAME"] = "- Monster Player Reward Season 1 -"; };
+[327] = { ["NAME"] = "- la saison de la Némésis -"; };
+[328] = { ["NAME"] = "- la saison de la Méchanceté -"; };
+[329] = { ["NAME"] = "- la saison du Mépris -"; };
+[330] = { ["NAME"] = "- la saison de l'Esprit -"; };
 -- Class
 [318] = { ["NA"] = 2; ["NAME"] = " - Chasseur - " };
 [317] = { ["NA"] = 2; ["NAME"] = " - Gardien des runes - " };
@@ -300,8 +306,11 @@ _DEED_CATEGORIES = {
 [312] = { ["NAME"] = "Les Gardiens des contes (Phetekâri du Umbar)"; };
 [313] = { ["NAME"] = "Des Kintai (Des Adúrhid)"; };
 [309] = { ["NAME"] = "Études d'Amelia"; };
+[323] = { ["NAME"] = "Kintai de Sul Madash"; };
+[324] = { ["NAME"] = "Temamir de Jiret-menêsh"; };
+[325] = { ["NAME"] = "Cité de Zajâna"; };
 [240] = { ["NAME"] = "Not Actively Achievable"; };
-[241] = { ["NAME"] = "- The Tournament of the Twins -"; };
+[241] = { ["NAME"] = "- Le tournoi des jumeaux -"; };
 [242] = { ["NAME"] = "- Townsfolk of the Eastfold -"; };
 [243] = { ["NAME"] = "- Townsfolk of the Kingstead -"; };
 [306] = { ["NAME"] = "- Crafting Events -"; };

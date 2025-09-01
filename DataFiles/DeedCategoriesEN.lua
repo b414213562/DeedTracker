@@ -23,10 +23,10 @@ _DEED_CATEGORIES = {
 [14] = { ["NAME"] = "Level 20+"; };
 [15] = { ["NAME"] = "- Doom of Caras Gelebren -"; };
 [16] = { ["NAME"] = "Level 45+"; };
-[17] = { ["NAME"] = "-Barrow-downs Survival-"; };
-[18] = { ["TIER"] = 2; ["NAME"] = "--The Dead Slayer Deeds--"; };
-[19] = { ["TIER"] = 2; ["NAME"] = "--The Dark Lord Lieutenant Slayer Deeds--"; };
-[20] = { ["TIER"] = 2; ["NAME"] = "--Single Session (Instance) Deeds--"; };
+[17] = { ["NAME"] = "- Barrow-downs Survival -"; };
+[18] = { ["TIER"] = 2; ["NAME"] = "-- The Dead Slayer Deeds --"; };
+[19] = { ["TIER"] = 2; ["NAME"] = "-- The Dark Lord Lieutenant Slayer Deeds --"; };
+[20] = { ["TIER"] = 2; ["NAME"] = "-- Single Session (Instance) Deeds --"; };
 [21] = { ["NA"] = 2; ["NAME"] = "Not Actively Achievable"; };
 -- Instances / Shadows of Angmar
 [22] = { ["NAME"] = "Level 20+"; };
@@ -159,9 +159,11 @@ _DEED_CATEGORIES = {
 [315] = { ["NAME"] = "Nirgambâr, the Restless Tomb"; };
 [316] = { ["NAME"] = "Tûl Zakana, the Well of Forgetting"; };
 [319] = { ["NAME"] = "Temple of Utug-bûr"; };
+[322] = { ["NAME"] = "Dun Shûma, The King's Fortress"; };
 -- Hobbies / Birding
 [320] = { ["NAME"] = "Eriador"; };
 [321] = { ["NAME"] = "Rohan and the Great River"; };
+[326] = { ["NAME"] = "Gondor and Mordor"; };
 -- The War / Common
 [120] = { ["NAME"] = "Monster-slayer"; };
 [121] = { ["NAME"] = "Blackarrow-slayer"; };
@@ -172,6 +174,10 @@ _DEED_CATEGORIES = {
 [126] = { ["NAME"] = "Weaver-slayer"; };
 -- The War / Ettinmoors
 [308] = { ["NAME"] = "- Monster Player Reward Season 1 -"; };
+[327] = { ["NAME"] = "- Season of the Nemesis -"; };
+[328] = { ["NAME"] = "- Season of Malice -"; };
+[329] = { ["NAME"] = "- Season of Scorn -"; };
+[330] = { ["NAME"] = "- Season of Spirit -"; };
 -- Class
 [318] = { ["NA"] = 2; ["NAME"] = " - Hunter - " };
 [317] = { ["NA"] = 2; ["NAME"] = " - Rune-keeper - " };
@@ -186,7 +192,7 @@ _DEED_CATEGORIES = {
 [134] = { ["NAME"] = "Farmers Faire"; };
 [135] = { ["NAME"] = "- Boss from the Vaults: Thrâng -"; };
 [136] = { ["NAME"] = "- The Perfect Picnic -"; };
-[137] = { ["NAME"] = "Bilbos' Birthday"; };
+[137] = { ["NAME"] = "Baggins' Birthday"; };
 [138] = { ["NAME"] = "Harvest Festival"; };
 [139] = { ["NAME"] = "Durin's Day"; };
 [140] = { ["NAME"] = "Yule Festival"; };
@@ -197,10 +203,10 @@ _DEED_CATEGORIES = {
 [145] = { ["NAME"] = "- Bee's Big Business -"; };
 [146] = { ["NAME"] = "Farmers Faire and Spring Festival"; };
 [147] = { ["NAME"] = "Hobnanigans and Treasure Hunt"; };
-[148] = { ["NAME"] = "Ale & Inn"; };
+[148] = { ["NAME"] = "Ale Association & Inn League"; };
 [149] = { ["NAME"] = "Miscellaneous"; };
 [150] = { ["NAME"] = "Collection"; };
-[151] = { ["NAME"] = "- Treasure Hunt -"; };
+[151] = { ["NAME"] = "- Buried Treasure -"; };
 [152] = { ["LEGENDARY"] = true; ["NAME"] = "Legendary Server Deeds"; };
 [153] = { ["NAME"] = "Not Actively Achievable"; };
 [154] = { ["NAME"] = "- Account Anniversary -"; };
@@ -300,6 +306,9 @@ _DEED_CATEGORIES = {
 [312] = { ["NAME"] = "The Tale-wardens (Phetekâri of Umbar)"; };
 [313] = { ["NAME"] = "The Kintai (The Adúrhid)"; };
 [309] = { ["NAME"] = "Amelia's Studies"; };
+[323] = { ["NAME"] = "The Kintai of Sul Madásh"; };
+[324] = { ["NAME"] = "The Temámir of Jiret-menêsh"; };
+[325] = { ["NAME"] = "The City of Zajâna"; };
 [240] = { ["NAME"] = "Not Actively Achievable"; };
 [241] = { ["NAME"] = "- The Tournament of the Twins -"; };
 [242] = { ["NAME"] = "- Townsfolk of the Eastfold -"; };
@@ -366,4 +375,4 @@ _DEED_CATEGORIES = {
 [304] = { ["NAME"] = "Umbar-môkh"; };
 };
 
--- Last used: 321
+-- Last used: 330

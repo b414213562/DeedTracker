@@ -159,9 +159,11 @@ _DEED_CATEGORIES = {
 [315] = { ["NAME"] = "Nirgambâr, the Restless Tomb"; };
 [316] = { ["NAME"] = "Tûl Zakana, the Well of Forgetting"; };
 [319] = { ["NAME"] = "Temple of Utug-bûr"; };
+[322] = { ["NAME"] = "Дун-Шума, Королевская крепость"; };
 -- Hobbies / Birding
 [320] = { ["NAME"] = "Эриадора"; };
 [321] = { ["NAME"] = "Rohan and the Great River"; };
+[326] = { ["NAME"] = "Gondor and Mordor"; };
 -- The War / Common
 [120] = { ["NAME"] = "Убийца монстров"; };
 [121] = { ["NAME"] = "Убийца черных стрел"; };
@@ -172,6 +174,10 @@ _DEED_CATEGORIES = {
 [126] = { ["NAME"] = "Убийца ткачих"; };
 -- The War / Ettinmoors
 [308] = { ["NAME"] = "- Награды игрока-монстра - сезон 1 -"; };
+[327] = { ["NAME"] = "- Season of the Nemesis -"; };
+[328] = { ["NAME"] = "- Season of Malice -"; };
+[329] = { ["NAME"] = "- Season of Scorn -"; };
+[330] = { ["NAME"] = "- Season of Spirit -"; };
 -- Class
 [318] = { ["NA"] = 2; ["NAME"] = " - Охотник - " };
 [317] = { ["NA"] = 2; ["NAME"] = " - Хранитель рун - " };
@@ -300,6 +306,9 @@ _DEED_CATEGORIES = {
 [312] = { ["NAME"] = "The Tale-wardens (Фетекари Умбара)"; };
 [313] = { ["NAME"] = "The Kintai (Авабар-Кинтай)"; };
 [309] = { ["NAME"] = "Исследования Амелии"; };
+[323] = { ["NAME"] = "Кинтайцы из Сул-Мадаша"; };
+[324] = { ["NAME"] = "Темамиры Джирет-Менеша"; };
+[325] = { ["NAME"] = "Город Заджана"; };
 [240] = { ["NAME"] = "Not Actively Achievable"; };
 [241] = { ["NAME"] = "- Турнир близнецов -"; };
 [242] = { ["NAME"] = "- Жители Восточной марки -"; };

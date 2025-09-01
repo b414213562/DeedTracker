@@ -1227,12 +1227,19 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
            [29] = {["ID"] = 1879498783; }; -- Temple of Utug-bûr: Thûr Hin -- Tier 1
            [30] = {["ID"] = 1879498782; }; -- Temple of Utug-bûr: Thûr Hin -- Tier 2
            [31] = {["ID"] = 1879498781; }; -- Temple of Utug-bûr: Thûr Hin -- Tier 3
-           [32] = {["CAT_ID"] = 282; }; -- Not Actively Achievable
-           [33] = {["ID"] = 1879496462; }; -- Ashunûg, the Fane of the Accursed -- Tier 3 -- Leading the Charge
-           [34] = {["ID"] = 1879494781; }; -- Nirgambâr, the Restless Tomb -- Tier 3 -- Leading the Charge
-           [35] = {["ID"] = 1879495464; }; -- Tûl Zakana, the Well of Forgetting -- Tier 3 -- Leading the Charge
-           [36] = {["ID"] = 1879500027; }; -- Temple of Utug-bûr -- Leading the Charge
-           [37] = {["ID"] = 1879500028; }; -- Temple of Utug-bûr -- Original Challenger
+           [32] = {["CAT_ID"] = 322; }; -- Dun Shûma, The King's Fortress
+           [33] = {["ID"] = 1879502191; }; -- Vanquisher of Dun Shûma, The King's Fortress
+           [34] = {["ID"] = 1879502194; }; -- Dun Shûma, The King's Fortress -- Tier 1
+           [35] = {["ID"] = 1879502186; }; -- Dun Shûma, The King's Fortress -- Tier 2
+           [36] = {["ID"] = 1879502189; }; -- Dun Shûma, The King's Fortress -- Tier 3
+           [37] = {["ID"] = 1879502184; }; -- Dun Shûma, The King's Fortress -- Ordâkhai
+           [38] = {["CAT_ID"] = 282; }; -- Not Actively Achievable
+           [39] = {["ID"] = 1879496462; }; -- Ashunûg, the Fane of the Accursed -- Tier 3 -- Leading the Charge
+           [40] = {["ID"] = 1879494781; }; -- Nirgambâr, the Restless Tomb -- Tier 3 -- Leading the Charge
+           [41] = {["ID"] = 1879495464; }; -- Tûl Zakana, the Well of Forgetting -- Tier 3 -- Leading the Charge
+           [42] = {["ID"] = 1879500027; }; -- Temple of Utug-bûr -- Leading the Charge
+           [43] = {["ID"] = 1879500028; }; -- Temple of Utug-bûr -- Original Challenger
+           [44] = {["ID"] = 1879502188; }; -- Dun Shûma, The King's Fortress -- Tier 3 -- Leading the Charge
         };
     };
     -- Hobbies
@@ -1348,6 +1355,44 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
            [98] = {["ID"] = 1879501193; }; -- Birds of the Eastfold: Rare
            [99] = {["ID"] = 1879501192; }; -- The Rarest Bird of the Eastfold
           [100] = {["ID"] = 1879501776; }; -- The Rarest of Birds in Rohan and the Great River
+          [101] = {["CAT_ID"] = 326; }; -- Gondor and Mordor
+          [102] = {["ID"] = 1879507928; }; -- All the Birds of Lamedon
+          [103] = {["ID"] = 1879507930; }; -- Birds of Lamedon: Common and Uncommon
+          [104] = {["ID"] = 1879507929; }; -- Birds of Lamedon: Rare
+          [105] = {["ID"] = 1879507926; }; -- The Rarest Bird in Lamedon
+          [106] = {["ID"] = 1879507927; }; -- All the Birds of Belfalas
+          [107] = {["ID"] = 1879507924; }; -- Birds of Belfalas: Common and Uncommon
+          [108] = {["ID"] = 1879507923; }; -- Birds of Belfalas: Rare
+          [109] = {["ID"] = 1879507925; }; -- The Rarest Bird in Belfalas
+          [110] = {["ID"] = 1879507885; }; -- All the Birds of Lebennin
+          [111] = {["ID"] = 1879507884; }; -- Birds of Lebennin: Common and Uncommon
+          [112] = {["ID"] = 1879507880; }; -- Birds of Lebennin: Rare
+          [113] = {["ID"] = 1879507883; }; -- The Rarest Bird in Lebennin
+          [114] = {["ID"] = 1879507881; }; -- All the Birds of Lossarnach
+          [115] = {["ID"] = 1879507879; }; -- Birds of Lossarnach: Common and Uncommon
+          [116] = {["ID"] = 1879507882; }; -- Birds of Lossarnach: Rare
+          [117] = {["ID"] = 1879507886; }; -- The Rarest Bird in Lossarnach
+          [118] = {["ID"] = 1879507873; }; -- All the Birds of Ithilien
+          [119] = {["ID"] = 1879507872; }; -- Birds of Ithilien: Common and Uncommon
+          [120] = {["ID"] = 1879507877; }; -- Birds of Ithilien: Rare
+          [121] = {["ID"] = 1879507871; }; -- The Rarest Bird in Ithilien
+          [122] = {["ID"] = 1879507875; }; -- All the Birds of Anórien
+          [123] = {["ID"] = 1879507874; }; -- Birds of Anórien: Common and Uncommon
+          [124] = {["ID"] = 1879507878; }; -- Birds of Anórien: Rare
+          [125] = {["ID"] = 1879507876; }; -- The Rarest Bird in Anórien
+          [126] = {["ID"] = 1879507932; }; -- All the Birds of the Wastes
+          [127] = {["ID"] = 1879507937; }; -- Birds of the Wastes: Common and Uncommon
+          [128] = {["ID"] = 1879507935; }; -- Birds of the Wastes: Rare
+          [129] = {["ID"] = 1879507933; }; -- The Rarest Bird in the Wastes
+          [130] = {["ID"] = 1879507931; }; -- All the Birds of Lhingris
+          [131] = {["ID"] = 1879507936; }; -- Birds of Lhingris: Common and Uncommon
+          [132] = {["ID"] = 1879507934; }; -- Birds of Lhingris: Rare
+          [133] = {["ID"] = 1879507938; }; -- The Rarest Bird in Lhingris
+          [134] = {["ID"] = 1879507939; }; -- All the Birds of Agarnaith
+          [135] = {["ID"] = 1879507940; }; -- Birds of Agarnaith: Common and Uncommon
+          [136] = {["ID"] = 1879507942; }; -- Birds of Agarnaith: Rare
+          [137] = {["ID"] = 1879507943; }; -- The Rarest Bird in Agarnaith
+          [138] = {["ID"] = 1879507941; }; -- The Rarest of Birds in Gondor and Mordor
         };
     };
     -- The War
@@ -1408,12 +1453,16 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
             [5] = {["CAT_ID"] = 308; }; -- - Monster Player Reward Season 1 -
             [6] = {["ID"] = 1879490385; }; -- Title: Protector of Life
             [7] = {["ID"] = 1879490388; }; -- Title: Steward of the Ettenmoors
-            [8] = {["ID"] = 1879490389; }; -- Title: Servant of Shadow
-            [9] = {["ID"] = 1879490390; }; -- Title: Preserver of Order
-           [10] = {["ID"] = 1879490391; }; -- Title: Angmar's Enforcer
-           [11] = {["ID"] = 1879490392; }; -- Title: Abomination
-           [12] = {["ID"] = 1879490393; }; -- Title: Exemplar
-           [13] = {["ID"] = 1879490394; }; -- Title: Scourge of the Ettenmoors
+            [8] = {["ID"] = 1879490390; }; -- Title: Preserver of Order
+            [9] = {["ID"] = 1879490393; }; -- Title: Exemplar
+           [10] = {["CAT_ID"] = 327; }; -- - Season of the Nemesis -
+           [11] = {["ID"] = 1879509060; }; -- Title: Bearer of Truth
+           [12] = {["CAT_ID"] = 328; }; -- - Season of Malice -
+           [13] = {["ID"] = 1879509057; }; -- Title: Benevolence Incarnate
+           [14] = {["CAT_ID"] = 329; }; -- - Season of Scorn -
+           [15] = {["ID"] = 1879509058; }; -- Title: The Respected Voice
+           [16] = {["CAT_ID"] = 330; }; -- - Season of Spirit -
+           [17] = {["ID"] = 1879509059; }; -- Title: The Spirit's Guide
         };
         -- Osgiliath
         [W_OSGILIATH] = {
@@ -2079,312 +2128,314 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
           [117] = {["ID"] = 1879408982; }; -- Make it a Party: Green and White Niphredil Fireworks (Midsummer Festival)
           [118] = {["ID"] = 1879408983; }; -- Make it a Party: Niphredil Fireworks (Midsummer Festival)
           [119] = {["ID"] = 1879408919; }; -- Make it a Party: Wedding Fireworks (Midsummer Festival)
-          [120] = {["CAT_ID"] = 134; }; -- Farmers Faire
-          [121] = {["ID"] = 1879206840; }; -- Too Much of Everything (Farmers Faire)
-          [122] = {["ID"] = 1879185390; }; -- A Lucky Day at the Races (Farmers Faire)
-          [123] = {["ID"] = 1879206838; }; -- Much Eating, Much Running (Farmers Faire)
-          [124] = {["ID"] = 1879206839; }; -- Much Drinking, Much Running (Farmers Faire)
-          [125] = {["ID"] = 1879208731; }; -- Consume Consumables: Essence of Toad (Farmers Faire)
-          [126] = {["ID"] = 1879208730; }; -- Consume Consumables: Fire-breathing (Farmers Faire)
-          [127] = {["ID"] = 1879208715; }; -- Consume Consumables: Foul Blast (Farmers Faire)
-          [128] = {["ID"] = 1879208729; }; -- Consume Consumables: Monster Fare (Farmers Faire)
-          [129] = {["ID"] = 1879208714; }; -- Consume Consumables: Saffron's Lipstick (Farmers Faire)
-          [130] = {["ID"] = 1879208716; }; -- Consume Consumables: Vile Vittles (Farmers Faire)
-          [131] = {["ID"] = 1879226630; }; -- Full of Farmers Faire (Farmers Faire)
-          [132] = {["ID"] = 1879226454; }; -- Helping Hand (Farmers Faire)
-          [133] = {["ID"] = 1879226620; }; -- At the Farmers Faire (Farmers Faire)
-          [134] = {["ID"] = 1879226621; }; -- Fine Faire Fishing (Farmers Faire)
-          [135] = {["ID"] = 1879223771; }; -- Egg Scramble Victories (Tier 1) (Farmers Faire)
-          [136] = {["ID"] = 1879226558; }; -- Maggot's Mushrooms Victories (Tier 1) (Farmers Faire)
-          [137] = {["ID"] = 1879223830; }; -- Egg Scramble Victories (Tier 2) (Farmers Faire)
-          [138] = {["ID"] = 1879226559; }; -- Maggot's Mushrooms Victories (Tier 2) (Farmers Faire)
-          [139] = {["ID"] = 1879223831; }; -- Egg Scramble: Collect Coloured Eggs (Farmers Faire)
-          [140] = {["ID"] = 1879223828; }; -- Egg Scramble: Collect Spotted Eggs (Farmers Faire)
-          [141] = {["ID"] = 1879223832; }; -- Egg Scramble: Collect Striped Eggs (Farmers Faire)
-          [142] = {["ID"] = 1879223829; }; -- Egg Scramble: Collect the Golden Egg (Farmers Faire)
-          [143] = {["ID"] = 1879159326; }; -- Celebrating Sunshine (Farmers Faire)
-          [144] = {["CAT_ID"] = 135; }; -- - Boss from the Vaults: Thrâng -
-          [145] = {["ID"] = 1879368078; }; -- Fuming Fumaroles (Boss from the Vaults)
-          [146] = {["CAT_ID"] = 136; }; -- - The Perfect Picnic -
-          [147] = {["ID"] = 1879368769; }; -- Challenge: The Whole Picnic -- Small Fellowship (Farmers Faire)
-          [148] = {["ID"] = 1879368771; }; -- Challenge: The Whole Picnic -- Fellowship (Farmers Faire)
-          [149] = {["ID"] = 1879368770; }; -- Challenge: The Whole Picnic -- Raid (Farmers Faire)
-          [150] = {["CAT_ID"] = 137; }; -- Bilbos' Birthday
-          [151] = {["ID"] = 1879283004; }; -- Baggins' Birthday (Baggins' Birthday)
-          [152] = {["CAT_ID"] = 138; }; -- Harvest Festival
-          [153] = {["ID"] = 1879217542; }; -- Consume Consumables -- Specimen Jars: Gross Bugs (Harvest Festival)
-          [154] = {["ID"] = 1879217541; }; -- Consume Consumables: Applications of 'Coveritol' (Harvest Festival)
-          [155] = {["ID"] = 1879217537; }; -- Consume Consumables: Black Silk Gloves (Harvest Festival)
-          [156] = {["ID"] = 1879217540; }; -- Consume Consumables: Buckets of Fear (Harvest Festival)
-          [157] = {["ID"] = 1879217538; }; -- Consume Consumables: Candles and Mirrors (Harvest Festival)
-          [158] = {["ID"] = 1879217539; }; -- Consume Consumables: Potent Bird-seed (Harvest Festival)
-          [159] = {["ID"] = 1879210649; }; -- Consume Consumables: Spider-legs (Harvest Festival)
-          [160] = {["ID"] = 1879191253; }; -- The Haunted Burrow (Harvest Festival)
-          [161] = {["ID"] = 1879380513; }; -- The Wistmead Wheat Maze (Harvest Festival)
-          [162] = {["ID"] = 1879381431; }; -- Treats or Trickery: Bottom of the Barrel (Harvest Festival)
-          [163] = {["ID"] = 1879381430; }; -- Treats or Trickery: Seven-fold Foray (Harvest Festival)
-          [164] = {["ID"] = 1879381429; }; -- Treats or Trickery: First Harvest (Harvest Festival)
-          [165] = {["ID"] = 1879381433; }; -- Treats or Trickery: Clearing the Table (Harvest Festival)
-          [166] = {["ID"] = 1879381434; }; -- Treats or Trickery: Second Helpings (Harvest Festival)
-          [167] = {["ID"] = 1879381432; }; -- Treats or Trickery: Just a Taste (Harvest Festival)
-          [168] = {["CAT_ID"] = 139; }; -- Durin's Day
-          [169] = {["ID"] = 1879371703; }; -- Dedicated Observer of Durin's Day (Durin's Day)
-          [170] = {["ID"] = 1879371704; }; -- Repeat Observer of Durin's Day (Durin's Day)
-          [171] = {["ID"] = 1879370524; }; -- Observer of Durin's Day (Durin's Day)
-          [172] = {["CAT_ID"] = 140; }; -- Yule Festival
-          [173] = {["ID"] = 1879199422; }; -- A Monstrous Feast (Yule Festival)
-          [174] = {["ID"] = 1879286631; }; -- Thespian (Yule Festival)
-          [175] = {["ID"] = 1879200235; }; -- Thespian (Yule Festival)
-          [176] = {["ID"] = 1879302699; }; -- The Bard (Yule Festival)
-          [177] = {["ID"] = 1879200621; }; -- Villain (Yule Festival)
-          [178] = {["ID"] = 1879200620; }; -- Protagonist (Yule Festival)
-          [179] = {["ID"] = 1879200619; }; -- Extra (Yule Festival)
-          [180] = {["ID"] = 1879200239; }; -- Laughing-stock (Yule Festival)
-          [181] = {["ID"] = 1879200234; }; -- Star of the Show (Yule Festival)
-          [182] = {["ID"] = 1879200164; }; -- Frostbluff Flower-petals -- Tier 3 (Yule Festival)
-          [183] = {["ID"] = 1879200166; }; -- Frostbluff Flower-petals -- Tier 2 (Yule Festival)
-          [184] = {["ID"] = 1879200165; }; -- Frostbluff Flower-petals -- Tier 1 (Yule Festival)
-          [185] = {["ID"] = 1879200163; }; -- Frostbluff Rotten Fruit -- Tier 3 (Yule Festival)
-          [186] = {["ID"] = 1879200162; }; -- Frostbluff Rotten Fruit -- Tier 2 (Yule Festival)
-          [187] = {["ID"] = 1879200161; }; -- Frostbluff Rotten Fruit -- Tier 1 (Yule Festival)
-          [188] = {["ID"] = 1879199421; }; -- Raining Snowballs (Yule Festival)
-          [189] = {["ID"] = 1879199980; }; -- Such Generosity! (Yule Festival)
-          [190] = {["ID"] = 1879257047; }; -- The More the Merrier (Tier 3) (Yule Festival)
-          [191] = {["ID"] = 1879257046; }; -- The More the Merrier (Tier 2) (Yule Festival)
-          [192] = {["ID"] = 1879257048; }; -- The More the Merrier (Yule Festival)
-          [193] = {["ID"] = 1879226367; }; -- A Cool Reception (Yule Festival)
-          [194] = {["ID"] = 1879217532; }; -- Consume Consumables: Frosty Beverage (Yule Festival)
-          [195] = {["ID"] = 1879217534; }; -- Consume Consumables: Grim Crystals (Yule Festival)
-          [196] = {["ID"] = 1879217533; }; -- Consume Consumables: Perfect Snowballs (Yule Festival)
-          [197] = {["ID"] = 1879217536; }; -- Consume Consumables: Piles of Fluffy Snow (Yule Festival)
-          [198] = {["ID"] = 1879217535; }; -- Consume Consumables: Snow-jars (Yule Festival)
-          [199] = {["ID"] = 1879414454; }; -- Bringer of Good Cheer (Yule Festival)
-          [200] = {["CAT_ID"] = 141; }; -- - Boss from the Vaults: Storvâgûn -
-          [201] = {["ID"] = 1879385054; }; -- Aggravated Avalanches (Yule Festival)
-          [202] = {["CAT_ID"] = 142; }; -- - The Battle at Frostbluff -
-          [203] = {["ID"] = 1879382901; }; -- Challenge: The Battle at Frostbluff -- Small Fellowship (Yule Festival)
-          [204] = {["ID"] = 1879382897; }; -- Challenge: The Battle at Frostbluff -- Fellowship (Yule Festival)
-          [205] = {["CAT_ID"] = 143; }; -- Ill Omens
-          [206] = {["ID"] = 1879404512; }; -- Consume Consumables: Bat Whirl (Ill Omens)
-          [207] = {["CAT_ID"] = 144; }; -- Spring Festival
-          [208] = {["ID"] = 1879184300; }; -- Festival Fortunes: Oddly Familiar (Spring Festival)
-          [209] = {["ID"] = 1879184301; }; -- Festival Fortunes: A Storyteller's Snippets (Spring Festival)
-          [210] = {["ID"] = 1879184302; }; -- Festival Fortunes: Fateful Foretellings (Spring Festival)
-          [211] = {["ID"] = 1879184303; }; -- Festival Fortunes: Excellent Advice (Spring Festival)
-          [212] = {["ID"] = 1879184304; }; -- Festival Fortunes: An Adventurer's Song (Spring Festival)
-          [213] = {["ID"] = 1879182340; }; -- Spring is Dandy (Spring Festival)
-          [214] = {["ID"] = 1879210647; }; -- Consume Consumables: D.R.A.G.O.N. (Spring Festival)
-          [215] = {["ID"] = 1879153207; }; -- Spring Sprung! (Spring Festival)
-          [216] = {["ID"] = 1879182327; }; -- The Taming of the Shrews (Spring Festival)
-          [217] = {["ID"] = 1879182332; }; -- The Shrewd Gardener (Spring Festival)
-          [218] = {["CAT_ID"] = 145; }; -- - Bee's Big Business -
-          [219] = {["ID"] = 1879414344; }; -- Challenge: Bee's Big Business -- Small Fellowship (Spring Festival)
-          [220] = {["ID"] = 1879414345; }; -- Challenge: Bee's Big Business -- Fellowship (Spring Festival)
-          [221] = {["CAT_ID"] = 146; }; -- Farmers Faire and Spring Festival
-          [222] = {["ID"] = 1879210648; }; -- Consume Consumables: Doom-shroom (Farmers Faire and Spring Festival)
-          [223] = {["CAT_ID"] = 147; }; -- Hobnanigans and Treasure Hunt
-          [224] = {["ID"] = 1879406772; }; -- Consume Consumables: Black-foot Carrying Chicken (Hobnanigans and Treasure Hunt)
-          [225] = {["ID"] = 1879406771; }; -- Consume Consumables: Dorking Carrying Chicken (Hobnanigans and Treasure Hunt)
-          [226] = {["ID"] = 1879406774; }; -- Consume Consumables: Orange Wyandotte Carrying Chicken (Hobnanigans and Treasure Hunt)
-          [227] = {["ID"] = 1879406769; }; -- Consume Consumables: Red Carrying Chicken (Hobnanigans and Treasure Hunt)
-          [228] = {["ID"] = 1879406773; }; -- Consume Consumables: Scrapper Carrying Chicken (Hobnanigans and Treasure Hunt)
-          [229] = {["ID"] = 1879406770; }; -- Consume Consumables: White Carrying Chicken (Hobnanigans and Treasure Hunt)
-          [230] = {["ID"] = 1879418933; }; -- Consume Consumables: Flower Facepaint Stencils (Hobnanigans and Treasure Hunt)
-          [231] = {["ID"] = 1879418934; }; -- Consume Consumables: Bee Facepaint Stencils (Hobnanigans and Treasure Hunt)
-          [232] = {["ID"] = 1879418935; }; -- Consume Consumables: Feather Facepaint Stencils (Hobnanigans and Treasure Hunt)
-          [233] = {["ID"] = 1879418936; }; -- Consume Consumables: Butterfly Facepaint Stencils (Hobnanigans and Treasure Hunt)
-          [234] = {["ID"] = 1879418937; }; -- Consume Consumables: Bow Facepaint Stencils (Hobnanigans and Treasure Hunt)
-          [235] = {["ID"] = 1879418938; }; -- Consume Consumables: Star Facepaint Stencils (Hobnanigans and Treasure Hunt)
-          [236] = {["ID"] = 1879418939; }; -- Consume Consumables: Sword Facepaint Stencils (Hobnanigans and Treasure Hunt)
-          [237] = {["ID"] = 1879418940; }; -- Consume Consumables: Pipe Facepaint Stencils (Hobnanigans and Treasure Hunt)
-          [238] = {["CAT_ID"] = 148; }; -- Ale & Inn
-          [239] = {["ID"] = 1879183074; }; -- Kindred of Malevolence (Ale Association)
-          [240] = {["ID"] = 1879183073; }; -- Ale Association Ally (Ale Association)
-          [241] = {["ID"] = 1879183072; }; -- Ale Association Friend (Ale Association)
-          [242] = {["ID"] = 1879183071; }; -- Ale Association Acquaintance (Ale Association)
-          [243] = {["ID"] = 1879185930; }; -- Ale Association Initiation (Ale Association)
-          [244] = {["ID"] = 1879185460; }; -- Ale Association Delivery (Ale Association)
-          [245] = {["ID"] = 1879107892; }; -- Inn League Notable
-          [246] = {["ID"] = 1879107893; }; -- Senior Inn League Member
-          [247] = {["ID"] = 1879107439; }; -- Inn League Member (Inn League)
-          [248] = {["ID"] = 1879185461; }; -- Inn League Delivery (Inn League)
-          [249] = {["ID"] = 1879107438; }; -- Inn League Challenge (Inn League)
-          [250] = {["CAT_ID"] = 149; }; -- Miscellaneous
-          [251] = {["ID"] = 1879150943; }; -- Defender of Caras Galadhon
-          [252] = {["ID"] = 1879115232; }; -- Boar-slayer
-          [253] = {["ID"] = 1879222054; }; -- The Adventures of Floid and Dewitt
-          [254] = {["ID"] = 1879267993; }; -- The Adventures of Floid and Dewitt: Part Deux
-          [255] = {["ID"] = 1879206037; }; -- Cartographile -- Eriador
-          [256] = {["ID"] = 1879206033; }; -- Cartographile -- Moria
-          [257] = {["ID"] = 1879094069; }; -- The Unwise
-          [258] = {["ID"] = 1879303569; }; -- Deeds of Eriador
-          [259] = {["ID"] = 1879338183; }; -- Quests in The Cape of Belfalas
-          [260] = {["ID"] = 1879321690; }; -- Roving Threat-slayer (Final)
-          [261] = {["ID"] = 1879321691; }; -- Roving Threat-slayer (Advanced)
-          [262] = {["ID"] = 1879321692; }; -- Roving Threat-slayer
-          [263] = {["CAT_ID"] = 150; }; -- Collection
-          [264] = {["ID"] = 1879344719; }; -- Best Bugs
-          [265] = {["ID"] = 1879344716; }; -- Fetching Foxes
-          [266] = {["ID"] = 1879344628; }; -- Fowl Collection
-          [267] = {["ID"] = 1879344637; }; -- Friendly Frogs
-          [268] = {["ID"] = 1879344639; }; -- Grim Friends
-          [269] = {["ID"] = 1879344638; }; -- Huorns of Fangorn
-          [270] = {["ID"] = 1879361988; }; -- Rider of Rohan (large)
-          [271] = {["ID"] = 1879363512; }; -- Rider of Rohan (small)
-          [272] = {["ID"] = 1879361998; }; -- Rider of the Free Peoples (large)
-          [273] = {["ID"] = 1879363506; }; -- Rider of the Free Peoples (small)
-          [274] = {["ID"] = 1879344635; }; -- Shrewd Companions
-          [275] = {["ID"] = 1879344636; }; -- Swans of West Gondor
-          [276] = {["ID"] = 1879361999; }; -- The Steeds of Gondor (large)
-          [277] = {["ID"] = 1879363516; }; -- The Steeds of Gondor (small)
-          [278] = {["CAT_ID"] = 151; }; -- - Treasure Hunt -
-          [279] = {["ID"] = 1879210593; }; -- Cave-claw Wrangler (Treasure Hunt)
-          [280] = {["ID"] = 1879344634; }; -- Treasure Hunters (Treasure Hunt)
-          [281] = {["ID"] = 1879361995; }; -- Treasure Mounts (Treasure Hunt)
-          [282] = {["ID"] = 1879363510; }; -- Treasure Mounts (Treasure Hunt)
-          [283] = {["CAT_ID"] = 152; }; -- Legendary Server Deeds
-          [284] = {["ID"] = 1879381843; }; -- There and Bree Again
-          [285] = {["ID"] = 1879381844; }; -- Daughter of Strife
-          [286] = {["ID"] = 1879381845; }; -- Legendary Angmar
-          [287] = {["ID"] = 1879381882; }; -- Rambling Rover
-          [288] = {["ID"] = 1879383612; }; -- Legend of Angmar
-          [289] = {["ID"] = 1879381842; }; -- Out From the Shadows
-          [290] = {["ID"] = 1879385678; }; -- Legendary Moria
-          [291] = {["ID"] = 1879385683; }; -- Scourge of Khazad-dûm
-          [292] = {["ID"] = 1879385676; }; -- Legend of Moria
-          [293] = {["ID"] = 1879385682; }; -- Through the Mines
-          [294] = {["ID"] = 1879389217; }; -- Legend of Mirkwood
-          [295] = {["ID"] = 1879389219; }; -- Legendary Mirkwood
-          [296] = {["ID"] = 1879389215; }; -- Echoes of the Dead
-          [297] = {["ID"] = 1879389221; }; -- To the Hill of Dark Sorcery
-          [298] = {["ID"] = 1879394297; }; -- Legend of Limlight Gorge
-          [299] = {["ID"] = 1879389216; }; -- Mists of Anduin
-          [300] = {["ID"] = 1879389220; }; -- Into the Iron Fortress
-          [301] = {["ID"] = 1879403957; }; -- The Third Marshal
-          [302] = {["ID"] = 1879403958; }; -- Legendary Wildermore
-          [303] = {["ID"] = 1879403960; }; -- Legend of Rohan
-          [304] = {["ID"] = 1879403959; }; -- Up to the Mark
-          [305] = {["ID"] = 1879409576; }; -- The Battle of the Hornburg
-          [306] = {["ID"] = 1879409575; }; -- Legend of Fangorn
-          [307] = {["ID"] = 1879409573; }; -- Forth Eorlingas!
-          [308] = {["ID"] = 1879413851; }; -- Siege of the White City
-          [309] = {["ID"] = 1879413852; }; -- Beacon of Gondor
-          [310] = {["ID"] = 1879413853; }; -- Ashes and Stars
-          [311] = {["ID"] = 1879413850; }; -- A Glimmering in the Dark
-          [312] = {["ID"] = 1879418558; }; -- The Black Gate
-          [313] = {["ID"] = 1879418565; }; -- Unbowed and Unbroken
-          [314] = {["ID"] = 1879418566; }; -- Waste Not
-          [315] = {["ID"] = 1879418568; }; -- Survey the Slag-hills
-          [316] = {["ID"] = 1879422535; }; -- Conquer the Plateau of Gorgoroth
-          [317] = {["ID"] = 1879422532; }; -- The Next Adventure - Wood, Lake, Mountain, and Stone
-          [318] = {["ID"] = 1879422533; }; -- Traveller of Wood, Lake, Mountain, and Stone
-          [319] = {["ID"] = 1879422534; }; -- Uninvited Guest
-          [320] = {["ID"] = 1879442835; }; -- Arrival of the Wise
-          [321] = {["ID"] = 1879442838; }; -- Legendary Interlude: Shades in the Swamp
-          [322] = {["ID"] = 1879442837; }; -- Seeker of Dragons
-          [323] = {["ID"] = 1879442836; }; -- Journeyer through Hills, Mountains, and Vales
-          [324] = {["ID"] = 1879446734; }; -- Final Escape
-          [325] = {["ID"] = 1879446732; }; -- The War of Three Peaks
-          [326] = {["ID"] = 1879446731; }; -- Legendary Interlude: Blood of Azog
-          [327] = {["ID"] = 1879446733; }; -- Surveyor of Dwarf-lands
-          [328] = {["CAT_ID"] = 153; }; -- Not Actively Achievable
-          [329] = {["CAT_ID"] = 130; }; -- Avoiding Defeat
-          [330] = {["ID"] = 1879071650; }; -- The Undying
-          [331] = {["ID"] = 1879071649; }; -- The Unscathed
-          [332] = {["ID"] = 1879071648; }; -- The Indomitable
-          [333] = {["ID"] = 1879071647; }; -- The Undefeated
-          [334] = {["ID"] = 1879071646; }; -- The Wary
-          [335] = {["CAT_ID"] = 154; }; -- - Account Anniversary -
-          [336] = {["ID"] = 1879303873; }; -- Seven Stars Title
-          [337] = {["CAT_ID"] = 155; }; -- - Festivals -
-          [338] = {["ID"] = 1879153304; }; -- A Day of Pranks
-          [339] = {["ID"] = 1879161685; }; -- Harvestmath
-          [340] = {["ID"] = 1879163927; }; -- Yule
-          [341] = {["ID"] = 1879199417; }; -- Honoured Yule-friend (Yule Festival)
-          [342] = {["ID"] = 1879447587; }; -- Happy 15th Anniversary
-          [343] = {["ID"] = 1879200236; }; -- Protagonist
-          [344] = {["ID"] = 1879200237; }; -- Villain
-          [345] = {["ID"] = 1879200238; }; -- Extra
-          [346] = {["ID"] = 1879182341; }; -- The Spring Festival -- Season of the Garden
-          [347] = {["ID"] = 1879185268; }; -- Happy Summer
-          [348] = {["CAT_ID"] = 156; }; -- - Miscellaneous -
-          [349] = {["ID"] = 1879355930; }; -- Aria of Virtues
-          [350] = {["ID"] = 1879397777; }; -- Valar Trait Points - 120
-          [351] = {["ID"] = 1879439189; }; -- Valar Trait Points - 130
-          [352] = {["CAT_ID"] = 157; }; -- - Book 14 / Eregion pre-release, 2008 -
-          [353] = {["ID"] = 1879114138; }; -- Master of Forgotten Lore
-          [354] = {["ID"] = 1879114137; }; -- Seeker of Truth
-          [355] = {["ID"] = 1879114136; }; -- Revealer of the Lost
-          [356] = {["ID"] = 1879114135; }; -- Student of the Past
-          [357] = {["CAT_ID"] = 158; }; -- - Bounder's Bounty, 2013 -
-          [358] = {["ID"] = 1879279182; }; -- Bounder's Bounty (Tier 3)
-          [359] = {["ID"] = 1879279184; }; -- Bounder's Bounty (Tier 2)
-          [360] = {["ID"] = 1879279183; }; -- Bounder's Bounty (Tier 1)
-          [361] = {["CAT_ID"] = 159; }; -- - 2015 World Consolidation Event -
-          [362] = {["ID"] = 1879326383; }; -- World Consolidation Announcement
-          [363] = {["ID"] = 1879326065; }; -- World Consolidation Begins
-          [364] = {["ID"] = 1879326067; }; -- World Consolidation Begins
-          [365] = {["ID"] = 1879327466; }; -- Of Aglarond
-          [366] = {["ID"] = 1879326643; }; -- Of Anduin
-          [367] = {["ID"] = 1879326644; }; -- Of Arkenstone
-          [368] = {["ID"] = 1879326645; }; -- Of Belegaer
-          [369] = {["ID"] = 1879326646; }; -- Of Brandywine
-          [370] = {["ID"] = 1879326647; }; -- Of Crickhollow
-          [371] = {["ID"] = 1879326648; }; -- Of Dwarrowdelf
-          [372] = {["ID"] = 1879326649; }; -- Of Eldar
-          [373] = {["ID"] = 1879326531; }; -- Of Elendilmir
-          [374] = {["ID"] = 1879326650; }; -- Of Estel
-          [375] = {["ID"] = 1879326651; }; -- Of Evernight
-          [376] = {["ID"] = 1879326652; }; -- Of Firefoot
-          [377] = {["ID"] = 1879327458; }; -- Of Fornost
-          [378] = {["ID"] = 1879326653; }; -- Of Gilrain
-          [379] = {["ID"] = 1879326654; }; -- Of Gladden
-          [380] = {["ID"] = 1879326655; }; -- Of Gwaihir
-          [381] = {["ID"] = 1879326656; }; -- Of Imladris
-          [382] = {["ID"] = 1879326657; }; -- Of Landroval
-          [383] = {["ID"] = 1879326658; }; -- Of Laurelin
-          [384] = {["ID"] = 1879326659; }; -- Of Maiar
-          [385] = {["ID"] = 1879326660; }; -- Of Meneldor
-          [386] = {["ID"] = 1879327464; }; -- Of Mirkwood
-          [387] = {["ID"] = 1879326661; }; -- Of Morthond
-          [388] = {["ID"] = 1879326662; }; -- Of Nimrodel
-          [389] = {["ID"] = 1879326663; }; -- Of Riddermark
-          [390] = {["ID"] = 1879326664; }; -- Of Silverlode
-          [391] = {["ID"] = 1879326665; }; -- Of Sirannon
-          [392] = {["ID"] = 1879326666; }; -- Of Snowbourn
-          [393] = {["ID"] = 1879326667; }; -- Of Vanyar
-          [394] = {["ID"] = 1879326668; }; -- Of Vilya
-          [395] = {["ID"] = 1879326669; }; -- Of Windfola
-          [396] = {["ID"] = 1879326670; }; -- Of Withywindle
-          [397] = {["CAT_ID"] = 160; }; -- - Mordor, 2017 -
-          [398] = {["ID"] = 1879353104; }; -- Mordor Collector
-          [399] = {["ID"] = 1879353101; }; -- Mordor Ultimate Fan
-          [400] = {["CAT_ID"] = 161; }; -- - Collections -
-          [401] = {["ID"] = 1879361989; }; -- 2013 Festival Steeds (large)
-          [402] = {["ID"] = 1879363520; }; -- 2013 Festival Steeds (small)
-          [403] = {["ID"] = 1879361993; }; -- 2014 Festival Steeds (large)
-          [404] = {["ID"] = 1879363518; }; -- 2014 Festival Steeds (small)
-          [405] = {["ID"] = 1879361997; }; -- 2015 Festival Steeds (large)
-          [406] = {["ID"] = 1879363513; }; -- 2015 Festival Steeds (small)
-          [407] = {["ID"] = 1879362010; }; -- 2016 Festival Steeds (large)
-          [408] = {["ID"] = 1879363507; }; -- 2016 Festival Steeds (small)
-          [409] = {["ID"] = 1879362011; }; -- 2017 Festival Steeds (large)
-          [410] = {["ID"] = 1879363519; }; -- 2017 Festival Steeds (small)
-          [411] = {["ID"] = 1879361994; }; -- Autumn Adventurer (large)
-          [412] = {["ID"] = 1879363509; }; -- Autumn Adventurer (small)
-          [413] = {["ID"] = 1879362013; }; -- Goat-herder (large)
-          [414] = {["ID"] = 1879363515; }; -- Goat-herder (small)
-          [415] = {["ID"] = 1879361990; }; -- Spring in Your Step (large)
-          [416] = {["ID"] = 1879363517; }; -- Spring in Your Step (small)
-          [417] = {["ID"] = 1879361991; }; -- Sun-strider (large)
-          [418] = {["ID"] = 1879363514; }; -- Sun-strider (small)
-          [419] = {["ID"] = 1879362003; }; -- The Steeds of Gorgoroth
-          [420] = {["ID"] = 1879361992; }; -- Veteran of the Third Age (large)
-          [421] = {["ID"] = 1879363508; }; -- Veteran of the Third Age (small)
-          [422] = {["ID"] = 1879361996; }; -- Winter-rider (large)
-          [423] = {["ID"] = 1879363511; }; -- Winter-rider (small)
-          [424] = {["CAT_ID"] = 286; }; -- Valar - 140
-          [425] = {["ID"] = 1879463469; }; -- Valar Instance and Skirmish Access - 140          
+          [120] = {["ID"] = 1879503678; }; -- Cat Confusion (Midsummer Festival)
+          [121] = {["ID"] = 1879503680; }; -- Guests Gathered (Midsummer Festival)
+          [122] = {["CAT_ID"] = 134; }; -- Farmers Faire
+          [123] = {["ID"] = 1879206840; }; -- Too Much of Everything (Farmers Faire)
+          [124] = {["ID"] = 1879185390; }; -- A Lucky Day at the Races (Farmers Faire)
+          [125] = {["ID"] = 1879206838; }; -- Much Eating, Much Running (Farmers Faire)
+          [126] = {["ID"] = 1879206839; }; -- Much Drinking, Much Running (Farmers Faire)
+          [127] = {["ID"] = 1879208731; }; -- Consume Consumables: Essence of Toad (Farmers Faire)
+          [128] = {["ID"] = 1879208730; }; -- Consume Consumables: Fire-breathing (Farmers Faire)
+          [129] = {["ID"] = 1879208715; }; -- Consume Consumables: Foul Blast (Farmers Faire)
+          [130] = {["ID"] = 1879208729; }; -- Consume Consumables: Monster Fare (Farmers Faire)
+          [131] = {["ID"] = 1879208714; }; -- Consume Consumables: Saffron's Lipstick (Farmers Faire)
+          [132] = {["ID"] = 1879208716; }; -- Consume Consumables: Vile Vittles (Farmers Faire)
+          [133] = {["ID"] = 1879226630; }; -- Full of Farmers Faire (Farmers Faire)
+          [134] = {["ID"] = 1879226454; }; -- Helping Hand (Farmers Faire)
+          [135] = {["ID"] = 1879226620; }; -- At the Farmers Faire (Farmers Faire)
+          [136] = {["ID"] = 1879226621; }; -- Fine Faire Fishing (Farmers Faire)
+          [137] = {["ID"] = 1879223771; }; -- Egg Scramble Victories (Tier 1) (Farmers Faire)
+          [138] = {["ID"] = 1879226558; }; -- Maggot's Mushrooms Victories (Tier 1) (Farmers Faire)
+          [139] = {["ID"] = 1879223830; }; -- Egg Scramble Victories (Tier 2) (Farmers Faire)
+          [140] = {["ID"] = 1879226559; }; -- Maggot's Mushrooms Victories (Tier 2) (Farmers Faire)
+          [141] = {["ID"] = 1879223831; }; -- Egg Scramble: Collect Coloured Eggs (Farmers Faire)
+          [142] = {["ID"] = 1879223828; }; -- Egg Scramble: Collect Spotted Eggs (Farmers Faire)
+          [143] = {["ID"] = 1879223832; }; -- Egg Scramble: Collect Striped Eggs (Farmers Faire)
+          [144] = {["ID"] = 1879223829; }; -- Egg Scramble: Collect the Golden Egg (Farmers Faire)
+          [145] = {["ID"] = 1879159326; }; -- Celebrating Sunshine (Farmers Faire)
+          [146] = {["CAT_ID"] = 135; }; -- - Boss from the Vaults: Thrâng -
+          [147] = {["ID"] = 1879368078; }; -- Fuming Fumaroles (Boss from the Vaults)
+          [148] = {["CAT_ID"] = 136; }; -- - The Perfect Picnic -
+          [149] = {["ID"] = 1879368769; }; -- Challenge: The Whole Picnic -- Small Fellowship (Farmers Faire)
+          [150] = {["ID"] = 1879368771; }; -- Challenge: The Whole Picnic -- Fellowship (Farmers Faire)
+          [151] = {["ID"] = 1879368770; }; -- Challenge: The Whole Picnic -- Raid (Farmers Faire)
+          [152] = {["CAT_ID"] = 137; }; -- Bilbos' Birthday
+          [153] = {["ID"] = 1879283004; }; -- Baggins' Birthday (Baggins' Birthday)
+          [154] = {["CAT_ID"] = 138; }; -- Harvest Festival
+          [155] = {["ID"] = 1879217542; }; -- Consume Consumables -- Specimen Jars: Gross Bugs (Harvest Festival)
+          [156] = {["ID"] = 1879217541; }; -- Consume Consumables: Applications of 'Coveritol' (Harvest Festival)
+          [157] = {["ID"] = 1879217537; }; -- Consume Consumables: Black Silk Gloves (Harvest Festival)
+          [158] = {["ID"] = 1879217540; }; -- Consume Consumables: Buckets of Fear (Harvest Festival)
+          [159] = {["ID"] = 1879217538; }; -- Consume Consumables: Candles and Mirrors (Harvest Festival)
+          [160] = {["ID"] = 1879217539; }; -- Consume Consumables: Potent Bird-seed (Harvest Festival)
+          [161] = {["ID"] = 1879210649; }; -- Consume Consumables: Spider-legs (Harvest Festival)
+          [162] = {["ID"] = 1879191253; }; -- The Haunted Burrow (Harvest Festival)
+          [163] = {["ID"] = 1879380513; }; -- The Wistmead Wheat Maze (Harvest Festival)
+          [164] = {["ID"] = 1879381431; }; -- Treats or Trickery: Bottom of the Barrel (Harvest Festival)
+          [165] = {["ID"] = 1879381430; }; -- Treats or Trickery: Seven-fold Foray (Harvest Festival)
+          [166] = {["ID"] = 1879381429; }; -- Treats or Trickery: First Harvest (Harvest Festival)
+          [167] = {["ID"] = 1879381433; }; -- Treats or Trickery: Clearing the Table (Harvest Festival)
+          [168] = {["ID"] = 1879381434; }; -- Treats or Trickery: Second Helpings (Harvest Festival)
+          [169] = {["ID"] = 1879381432; }; -- Treats or Trickery: Just a Taste (Harvest Festival)
+          [170] = {["CAT_ID"] = 139; }; -- Durin's Day
+          [171] = {["ID"] = 1879371703; }; -- Dedicated Observer of Durin's Day (Durin's Day)
+          [172] = {["ID"] = 1879371704; }; -- Repeat Observer of Durin's Day (Durin's Day)
+          [173] = {["ID"] = 1879370524; }; -- Observer of Durin's Day (Durin's Day)
+          [174] = {["CAT_ID"] = 140; }; -- Yule Festival
+          [175] = {["ID"] = 1879199422; }; -- A Monstrous Feast (Yule Festival)
+          [176] = {["ID"] = 1879286631; }; -- Thespian (Yule Festival)
+          [177] = {["ID"] = 1879200235; }; -- Thespian (Yule Festival)
+          [178] = {["ID"] = 1879302699; }; -- The Bard (Yule Festival)
+          [179] = {["ID"] = 1879200621; }; -- Villain (Yule Festival)
+          [180] = {["ID"] = 1879200620; }; -- Protagonist (Yule Festival)
+          [181] = {["ID"] = 1879200619; }; -- Extra (Yule Festival)
+          [182] = {["ID"] = 1879200239; }; -- Laughing-stock (Yule Festival)
+          [183] = {["ID"] = 1879200234; }; -- Star of the Show (Yule Festival)
+          [184] = {["ID"] = 1879200164; }; -- Frostbluff Flower-petals -- Tier 3 (Yule Festival)
+          [185] = {["ID"] = 1879200166; }; -- Frostbluff Flower-petals -- Tier 2 (Yule Festival)
+          [186] = {["ID"] = 1879200165; }; -- Frostbluff Flower-petals -- Tier 1 (Yule Festival)
+          [187] = {["ID"] = 1879200163; }; -- Frostbluff Rotten Fruit -- Tier 3 (Yule Festival)
+          [188] = {["ID"] = 1879200162; }; -- Frostbluff Rotten Fruit -- Tier 2 (Yule Festival)
+          [189] = {["ID"] = 1879200161; }; -- Frostbluff Rotten Fruit -- Tier 1 (Yule Festival)
+          [190] = {["ID"] = 1879199421; }; -- Raining Snowballs (Yule Festival)
+          [191] = {["ID"] = 1879199980; }; -- Such Generosity! (Yule Festival)
+          [192] = {["ID"] = 1879257047; }; -- The More the Merrier (Tier 3) (Yule Festival)
+          [193] = {["ID"] = 1879257046; }; -- The More the Merrier (Tier 2) (Yule Festival)
+          [194] = {["ID"] = 1879257048; }; -- The More the Merrier (Yule Festival)
+          [195] = {["ID"] = 1879226367; }; -- A Cool Reception (Yule Festival)
+          [196] = {["ID"] = 1879217532; }; -- Consume Consumables: Frosty Beverage (Yule Festival)
+          [197] = {["ID"] = 1879217534; }; -- Consume Consumables: Grim Crystals (Yule Festival)
+          [198] = {["ID"] = 1879217533; }; -- Consume Consumables: Perfect Snowballs (Yule Festival)
+          [199] = {["ID"] = 1879217536; }; -- Consume Consumables: Piles of Fluffy Snow (Yule Festival)
+          [200] = {["ID"] = 1879217535; }; -- Consume Consumables: Snow-jars (Yule Festival)
+          [201] = {["ID"] = 1879414454; }; -- Bringer of Good Cheer (Yule Festival)
+          [202] = {["CAT_ID"] = 141; }; -- - Boss from the Vaults: Storvâgûn -
+          [203] = {["ID"] = 1879385054; }; -- Aggravated Avalanches (Yule Festival)
+          [204] = {["CAT_ID"] = 142; }; -- - The Battle at Frostbluff -
+          [205] = {["ID"] = 1879382901; }; -- Challenge: The Battle at Frostbluff -- Small Fellowship (Yule Festival)
+          [206] = {["ID"] = 1879382897; }; -- Challenge: The Battle at Frostbluff -- Fellowship (Yule Festival)
+          [207] = {["CAT_ID"] = 143; }; -- Ill Omens
+          [208] = {["ID"] = 1879404512; }; -- Consume Consumables: Bat Whirl (Ill Omens)
+          [209] = {["CAT_ID"] = 144; }; -- Spring Festival
+          [210] = {["ID"] = 1879184300; }; -- Festival Fortunes: Oddly Familiar (Spring Festival)
+          [211] = {["ID"] = 1879184301; }; -- Festival Fortunes: A Storyteller's Snippets (Spring Festival)
+          [212] = {["ID"] = 1879184302; }; -- Festival Fortunes: Fateful Foretellings (Spring Festival)
+          [213] = {["ID"] = 1879184303; }; -- Festival Fortunes: Excellent Advice (Spring Festival)
+          [214] = {["ID"] = 1879184304; }; -- Festival Fortunes: An Adventurer's Song (Spring Festival)
+          [215] = {["ID"] = 1879182340; }; -- Spring is Dandy (Spring Festival)
+          [216] = {["ID"] = 1879210647; }; -- Consume Consumables: D.R.A.G.O.N. (Spring Festival)
+          [217] = {["ID"] = 1879153207; }; -- Spring Sprung! (Spring Festival)
+          [218] = {["ID"] = 1879182327; }; -- The Taming of the Shrews (Spring Festival)
+          [219] = {["ID"] = 1879182332; }; -- The Shrewd Gardener (Spring Festival)
+          [220] = {["CAT_ID"] = 145; }; -- - Bee's Big Business -
+          [221] = {["ID"] = 1879414344; }; -- Challenge: Bee's Big Business -- Small Fellowship (Spring Festival)
+          [222] = {["ID"] = 1879414345; }; -- Challenge: Bee's Big Business -- Fellowship (Spring Festival)
+          [223] = {["CAT_ID"] = 146; }; -- Farmers Faire and Spring Festival
+          [224] = {["ID"] = 1879210648; }; -- Consume Consumables: Doom-shroom (Farmers Faire and Spring Festival)
+          [225] = {["CAT_ID"] = 147; }; -- Hobnanigans and Treasure Hunt
+          [226] = {["ID"] = 1879406772; }; -- Consume Consumables: Black-foot Carrying Chicken (Hobnanigans and Treasure Hunt)
+          [227] = {["ID"] = 1879406771; }; -- Consume Consumables: Dorking Carrying Chicken (Hobnanigans and Treasure Hunt)
+          [228] = {["ID"] = 1879406774; }; -- Consume Consumables: Orange Wyandotte Carrying Chicken (Hobnanigans and Treasure Hunt)
+          [229] = {["ID"] = 1879406769; }; -- Consume Consumables: Red Carrying Chicken (Hobnanigans and Treasure Hunt)
+          [230] = {["ID"] = 1879406773; }; -- Consume Consumables: Scrapper Carrying Chicken (Hobnanigans and Treasure Hunt)
+          [231] = {["ID"] = 1879406770; }; -- Consume Consumables: White Carrying Chicken (Hobnanigans and Treasure Hunt)
+          [232] = {["ID"] = 1879418933; }; -- Consume Consumables: Flower Facepaint Stencils (Hobnanigans and Treasure Hunt)
+          [233] = {["ID"] = 1879418934; }; -- Consume Consumables: Bee Facepaint Stencils (Hobnanigans and Treasure Hunt)
+          [234] = {["ID"] = 1879418935; }; -- Consume Consumables: Feather Facepaint Stencils (Hobnanigans and Treasure Hunt)
+          [235] = {["ID"] = 1879418936; }; -- Consume Consumables: Butterfly Facepaint Stencils (Hobnanigans and Treasure Hunt)
+          [236] = {["ID"] = 1879418937; }; -- Consume Consumables: Bow Facepaint Stencils (Hobnanigans and Treasure Hunt)
+          [237] = {["ID"] = 1879418938; }; -- Consume Consumables: Star Facepaint Stencils (Hobnanigans and Treasure Hunt)
+          [238] = {["ID"] = 1879418939; }; -- Consume Consumables: Sword Facepaint Stencils (Hobnanigans and Treasure Hunt)
+          [239] = {["ID"] = 1879418940; }; -- Consume Consumables: Pipe Facepaint Stencils (Hobnanigans and Treasure Hunt)
+          [240] = {["CAT_ID"] = 148; }; -- Ale & Inn
+          [241] = {["ID"] = 1879183074; }; -- Kindred of Malevolence (Ale Association)
+          [242] = {["ID"] = 1879183073; }; -- Ale Association Ally (Ale Association)
+          [243] = {["ID"] = 1879183072; }; -- Ale Association Friend (Ale Association)
+          [244] = {["ID"] = 1879183071; }; -- Ale Association Acquaintance (Ale Association)
+          [245] = {["ID"] = 1879185930; }; -- Ale Association Initiation (Ale Association)
+          [246] = {["ID"] = 1879185460; }; -- Ale Association Delivery (Ale Association)
+          [247] = {["ID"] = 1879107892; }; -- Inn League Notable
+          [248] = {["ID"] = 1879107893; }; -- Senior Inn League Member
+          [249] = {["ID"] = 1879107439; }; -- Inn League Member (Inn League)
+          [250] = {["ID"] = 1879185461; }; -- Inn League Delivery (Inn League)
+          [251] = {["ID"] = 1879107438; }; -- Inn League Challenge (Inn League)
+          [252] = {["CAT_ID"] = 149; }; -- Miscellaneous
+          [253] = {["ID"] = 1879150943; }; -- Defender of Caras Galadhon
+          [254] = {["ID"] = 1879115232; }; -- Boar-slayer
+          [255] = {["ID"] = 1879222054; }; -- The Adventures of Floid and Dewitt
+          [256] = {["ID"] = 1879267993; }; -- The Adventures of Floid and Dewitt: Part Deux
+          [257] = {["ID"] = 1879206037; }; -- Cartographile -- Eriador
+          [258] = {["ID"] = 1879206033; }; -- Cartographile -- Moria
+          [259] = {["ID"] = 1879094069; }; -- The Unwise
+          [260] = {["ID"] = 1879303569; }; -- Deeds of Eriador
+          [261] = {["ID"] = 1879338183; }; -- Quests in The Cape of Belfalas
+          [262] = {["ID"] = 1879321690; }; -- Roving Threat-slayer (Final)
+          [263] = {["ID"] = 1879321691; }; -- Roving Threat-slayer (Advanced)
+          [264] = {["ID"] = 1879321692; }; -- Roving Threat-slayer
+          [265] = {["CAT_ID"] = 150; }; -- Collection
+          [266] = {["ID"] = 1879344719; }; -- Best Bugs
+          [267] = {["ID"] = 1879344716; }; -- Fetching Foxes
+          [268] = {["ID"] = 1879344628; }; -- Fowl Collection
+          [269] = {["ID"] = 1879344637; }; -- Friendly Frogs
+          [270] = {["ID"] = 1879344639; }; -- Grim Friends
+          [271] = {["ID"] = 1879344638; }; -- Huorns of Fangorn
+          [272] = {["ID"] = 1879361988; }; -- Rider of Rohan (large)
+          [273] = {["ID"] = 1879363512; }; -- Rider of Rohan (small)
+          [274] = {["ID"] = 1879361998; }; -- Rider of the Free Peoples (large)
+          [275] = {["ID"] = 1879363506; }; -- Rider of the Free Peoples (small)
+          [276] = {["ID"] = 1879344635; }; -- Shrewd Companions
+          [277] = {["ID"] = 1879344636; }; -- Swans of West Gondor
+          [278] = {["ID"] = 1879361999; }; -- The Steeds of Gondor (large)
+          [279] = {["ID"] = 1879363516; }; -- The Steeds of Gondor (small)
+          [280] = {["CAT_ID"] = 151; }; -- - Treasure Hunt -
+          [281] = {["ID"] = 1879210593; }; -- Cave-claw Wrangler (Treasure Hunt)
+          [282] = {["ID"] = 1879344634; }; -- Treasure Hunters (Treasure Hunt)
+          [283] = {["ID"] = 1879361995; }; -- Treasure Mounts (Treasure Hunt)
+          [284] = {["ID"] = 1879363510; }; -- Treasure Mounts (Treasure Hunt)
+          [285] = {["CAT_ID"] = 152; }; -- Legendary Server Deeds
+          [286] = {["ID"] = 1879381843; }; -- There and Bree Again
+          [287] = {["ID"] = 1879381844; }; -- Daughter of Strife
+          [288] = {["ID"] = 1879381845; }; -- Legendary Angmar
+          [289] = {["ID"] = 1879381882; }; -- Rambling Rover
+          [290] = {["ID"] = 1879383612; }; -- Legend of Angmar
+          [291] = {["ID"] = 1879381842; }; -- Out From the Shadows
+          [292] = {["ID"] = 1879385678; }; -- Legendary Moria
+          [293] = {["ID"] = 1879385683; }; -- Scourge of Khazad-dûm
+          [294] = {["ID"] = 1879385676; }; -- Legend of Moria
+          [295] = {["ID"] = 1879385682; }; -- Through the Mines
+          [296] = {["ID"] = 1879389217; }; -- Legend of Mirkwood
+          [297] = {["ID"] = 1879389219; }; -- Legendary Mirkwood
+          [298] = {["ID"] = 1879389215; }; -- Echoes of the Dead
+          [299] = {["ID"] = 1879389221; }; -- To the Hill of Dark Sorcery
+          [300] = {["ID"] = 1879394297; }; -- Legend of Limlight Gorge
+          [301] = {["ID"] = 1879389216; }; -- Mists of Anduin
+          [302] = {["ID"] = 1879389220; }; -- Into the Iron Fortress
+          [303] = {["ID"] = 1879403957; }; -- The Third Marshal
+          [304] = {["ID"] = 1879403958; }; -- Legendary Wildermore
+          [305] = {["ID"] = 1879403960; }; -- Legend of Rohan
+          [306] = {["ID"] = 1879403959; }; -- Up to the Mark
+          [307] = {["ID"] = 1879409576; }; -- The Battle of the Hornburg
+          [308] = {["ID"] = 1879409575; }; -- Legend of Fangorn
+          [309] = {["ID"] = 1879409573; }; -- Forth Eorlingas!
+          [310] = {["ID"] = 1879413851; }; -- Siege of the White City
+          [311] = {["ID"] = 1879413852; }; -- Beacon of Gondor
+          [312] = {["ID"] = 1879413853; }; -- Ashes and Stars
+          [313] = {["ID"] = 1879413850; }; -- A Glimmering in the Dark
+          [314] = {["ID"] = 1879418558; }; -- The Black Gate
+          [315] = {["ID"] = 1879418565; }; -- Unbowed and Unbroken
+          [316] = {["ID"] = 1879418566; }; -- Waste Not
+          [317] = {["ID"] = 1879418568; }; -- Survey the Slag-hills
+          [318] = {["ID"] = 1879422535; }; -- Conquer the Plateau of Gorgoroth
+          [319] = {["ID"] = 1879422532; }; -- The Next Adventure - Wood, Lake, Mountain, and Stone
+          [320] = {["ID"] = 1879422533; }; -- Traveller of Wood, Lake, Mountain, and Stone
+          [321] = {["ID"] = 1879422534; }; -- Uninvited Guest
+          [322] = {["ID"] = 1879442835; }; -- Arrival of the Wise
+          [323] = {["ID"] = 1879442838; }; -- Legendary Interlude: Shades in the Swamp
+          [324] = {["ID"] = 1879442837; }; -- Seeker of Dragons
+          [325] = {["ID"] = 1879442836; }; -- Journeyer through Hills, Mountains, and Vales
+          [326] = {["ID"] = 1879446734; }; -- Final Escape
+          [327] = {["ID"] = 1879446732; }; -- The War of Three Peaks
+          [328] = {["ID"] = 1879446731; }; -- Legendary Interlude: Blood of Azog
+          [329] = {["ID"] = 1879446733; }; -- Surveyor of Dwarf-lands
+          [330] = {["CAT_ID"] = 153; }; -- Not Actively Achievable
+          [331] = {["CAT_ID"] = 130; }; -- Avoiding Defeat
+          [332] = {["ID"] = 1879071650; }; -- The Undying
+          [333] = {["ID"] = 1879071649; }; -- The Unscathed
+          [334] = {["ID"] = 1879071648; }; -- The Indomitable
+          [335] = {["ID"] = 1879071647; }; -- The Undefeated
+          [336] = {["ID"] = 1879071646; }; -- The Wary
+          [337] = {["CAT_ID"] = 154; }; -- - Account Anniversary -
+          [338] = {["ID"] = 1879303873; }; -- Seven Stars Title
+          [339] = {["CAT_ID"] = 155; }; -- - Festivals -
+          [340] = {["ID"] = 1879153304; }; -- A Day of Pranks
+          [341] = {["ID"] = 1879161685; }; -- Harvestmath
+          [342] = {["ID"] = 1879163927; }; -- Yule
+          [343] = {["ID"] = 1879199417; }; -- Honoured Yule-friend (Yule Festival)
+          [344] = {["ID"] = 1879447587; }; -- Happy 15th Anniversary
+          [345] = {["ID"] = 1879200236; }; -- Protagonist
+          [346] = {["ID"] = 1879200237; }; -- Villain
+          [347] = {["ID"] = 1879200238; }; -- Extra
+          [348] = {["ID"] = 1879182341; }; -- The Spring Festival -- Season of the Garden
+          [349] = {["ID"] = 1879185268; }; -- Happy Summer
+          [350] = {["CAT_ID"] = 156; }; -- - Miscellaneous -
+          [351] = {["ID"] = 1879355930; }; -- Aria of Virtues
+          [352] = {["ID"] = 1879397777; }; -- Valar Trait Points - 120
+          [353] = {["ID"] = 1879439189; }; -- Valar Trait Points - 130
+          [354] = {["CAT_ID"] = 157; }; -- - Book 14 / Eregion pre-release, 2008 -
+          [355] = {["ID"] = 1879114138; }; -- Master of Forgotten Lore
+          [356] = {["ID"] = 1879114137; }; -- Seeker of Truth
+          [357] = {["ID"] = 1879114136; }; -- Revealer of the Lost
+          [358] = {["ID"] = 1879114135; }; -- Student of the Past
+          [359] = {["CAT_ID"] = 158; }; -- - Bounder's Bounty, 2013 -
+          [360] = {["ID"] = 1879279182; }; -- Bounder's Bounty (Tier 3)
+          [361] = {["ID"] = 1879279184; }; -- Bounder's Bounty (Tier 2)
+          [362] = {["ID"] = 1879279183; }; -- Bounder's Bounty (Tier 1)
+          [363] = {["CAT_ID"] = 159; }; -- - 2015 World Consolidation Event -
+          [364] = {["ID"] = 1879326383; }; -- World Consolidation Announcement
+          [365] = {["ID"] = 1879326065; }; -- World Consolidation Begins
+          [366] = {["ID"] = 1879326067; }; -- World Consolidation Begins
+          [367] = {["ID"] = 1879327466; }; -- Of Aglarond
+          [368] = {["ID"] = 1879326643; }; -- Of Anduin
+          [369] = {["ID"] = 1879326644; }; -- Of Arkenstone
+          [370] = {["ID"] = 1879326645; }; -- Of Belegaer
+          [371] = {["ID"] = 1879326646; }; -- Of Brandywine
+          [372] = {["ID"] = 1879326647; }; -- Of Crickhollow
+          [373] = {["ID"] = 1879326648; }; -- Of Dwarrowdelf
+          [374] = {["ID"] = 1879326649; }; -- Of Eldar
+          [375] = {["ID"] = 1879326531; }; -- Of Elendilmir
+          [376] = {["ID"] = 1879326650; }; -- Of Estel
+          [377] = {["ID"] = 1879326651; }; -- Of Evernight
+          [378] = {["ID"] = 1879326652; }; -- Of Firefoot
+          [379] = {["ID"] = 1879327458; }; -- Of Fornost
+          [380] = {["ID"] = 1879326653; }; -- Of Gilrain
+          [381] = {["ID"] = 1879326654; }; -- Of Gladden
+          [382] = {["ID"] = 1879326655; }; -- Of Gwaihir
+          [383] = {["ID"] = 1879326656; }; -- Of Imladris
+          [384] = {["ID"] = 1879326657; }; -- Of Landroval
+          [385] = {["ID"] = 1879326658; }; -- Of Laurelin
+          [386] = {["ID"] = 1879326659; }; -- Of Maiar
+          [387] = {["ID"] = 1879326660; }; -- Of Meneldor
+          [388] = {["ID"] = 1879327464; }; -- Of Mirkwood
+          [389] = {["ID"] = 1879326661; }; -- Of Morthond
+          [390] = {["ID"] = 1879326662; }; -- Of Nimrodel
+          [391] = {["ID"] = 1879326663; }; -- Of Riddermark
+          [392] = {["ID"] = 1879326664; }; -- Of Silverlode
+          [393] = {["ID"] = 1879326665; }; -- Of Sirannon
+          [394] = {["ID"] = 1879326666; }; -- Of Snowbourn
+          [395] = {["ID"] = 1879326667; }; -- Of Vanyar
+          [396] = {["ID"] = 1879326668; }; -- Of Vilya
+          [397] = {["ID"] = 1879326669; }; -- Of Windfola
+          [398] = {["ID"] = 1879326670; }; -- Of Withywindle
+          [399] = {["CAT_ID"] = 160; }; -- - Mordor, 2017 -
+          [400] = {["ID"] = 1879353104; }; -- Mordor Collector
+          [401] = {["ID"] = 1879353101; }; -- Mordor Ultimate Fan
+          [402] = {["CAT_ID"] = 161; }; -- - Collections -
+          [403] = {["ID"] = 1879361989; }; -- 2013 Festival Steeds (large)
+          [404] = {["ID"] = 1879363520; }; -- 2013 Festival Steeds (small)
+          [405] = {["ID"] = 1879361993; }; -- 2014 Festival Steeds (large)
+          [406] = {["ID"] = 1879363518; }; -- 2014 Festival Steeds (small)
+          [407] = {["ID"] = 1879361997; }; -- 2015 Festival Steeds (large)
+          [408] = {["ID"] = 1879363513; }; -- 2015 Festival Steeds (small)
+          [409] = {["ID"] = 1879362010; }; -- 2016 Festival Steeds (large)
+          [410] = {["ID"] = 1879363507; }; -- 2016 Festival Steeds (small)
+          [411] = {["ID"] = 1879362011; }; -- 2017 Festival Steeds (large)
+          [412] = {["ID"] = 1879363519; }; -- 2017 Festival Steeds (small)
+          [413] = {["ID"] = 1879361994; }; -- Autumn Adventurer (large)
+          [414] = {["ID"] = 1879363509; }; -- Autumn Adventurer (small)
+          [415] = {["ID"] = 1879362013; }; -- Goat-herder (large)
+          [416] = {["ID"] = 1879363515; }; -- Goat-herder (small)
+          [417] = {["ID"] = 1879361990; }; -- Spring in Your Step (large)
+          [418] = {["ID"] = 1879363517; }; -- Spring in Your Step (small)
+          [419] = {["ID"] = 1879361991; }; -- Sun-strider (large)
+          [420] = {["ID"] = 1879363514; }; -- Sun-strider (small)
+          [421] = {["ID"] = 1879362003; }; -- The Steeds of Gorgoroth
+          [422] = {["ID"] = 1879361992; }; -- Veteran of the Third Age (large)
+          [423] = {["ID"] = 1879363508; }; -- Veteran of the Third Age (small)
+          [424] = {["ID"] = 1879361996; }; -- Winter-rider (large)
+          [425] = {["ID"] = 1879363511; }; -- Winter-rider (small)
+          [426] = {["CAT_ID"] = 286; }; -- Valar - 140
+          [427] = {["ID"] = 1879463469; }; -- Valar Instance and Skirmish Access - 140
         };
         -- Epic
         [CRE_EPIC] = {
@@ -5094,7 +5145,13 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
            [19] = {["ID"] = 1879491641; }; -- Tales of Imhûlar
            [20] = {["ID"] = 1879491723; }; -- Boar-slayer of Imhûlar (Advanced)
            [21] = {["ID"] = 1879491722; }; -- Boar-slayer of Imhûlar
-           [22] = {["ID"] = 1879495967; }; -- The Lion's Roar           
+           [22] = {["ID"] = 1879495967; }; -- The Lion's Roar
+           [23] = {["ID"] = 1879503580; }; -- Renewer of Hamât
+           [24] = {["ID"] = 1879503578; }; -- Dangers in Shagâna
+           [25] = {["ID"] = 1879503579; }; -- Ekhamâti-bane of Shagâna (Advanced)
+           [26] = {["ID"] = 1879503581; }; -- Ekhamâti-bane of Shagâna
+           [27] = {["ID"] = 1879503582; }; -- Tales of the Crown of Hamât
+           [28] = {["ID"] = 1879503577; }; -- Treasure-seeker of Shagâna
         };
         [H_URASH_DAR] = {
             [1] = {["ID"] = 1879491702; }; -- Rejuvenator of the Ikorbân Valley
