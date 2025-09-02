@@ -53,6 +53,14 @@ function IsRegionKnown()
     return LOCATION_NUMBER > 1;
 end
 
+---comment Validates that a given number represents a region.
+---@param possibleRegion any
+---@return boolean true if region number is valid, false otherwise
+function IsValidRegion(possibleRegion)
+    local possibleRegionNumber = tonumber(possibleRegion) or -1;
+    return possibleRegionNumber > 0 and possibleRegionNumber <= #_CHAT_REGIONS;
+end
+
 function IsRegionDeed(regionNumber)
     if (regionNumber >= _REGION_DEED_START and
         regionNumber <= _REGION_DEED_STOP) then
