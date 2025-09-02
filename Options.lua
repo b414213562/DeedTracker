@@ -212,11 +212,9 @@ function CreateOptionsContent()
     end);
     y = AddOption(options, y, "VEIL_OF_THE_NINE", serverSetting, nilCallback);
     y = y + AddServerField(options, y, "LEGENDARY_SERVER_LEVEL_CAP", GetString(_LANG.OPTIONS.SAVE), function(text)
-        SetServerLevelCap();
         mainWin:RefreshDeeds();
     end);
     y = y + AddServerField(options, y, "SERVER_LEVEL_CAP", GetString(_LANG.OPTIONS.SAVE), function(text)
-        SetServerLevelCap();
         mainWin:RefreshDeeds();
     end);
 
