@@ -28,12 +28,30 @@ If you would like to take over management of one of my plugins, please first sen
 If I do not respond within two months, then you have my permission to request control of a plugin or patch of mine on lotrointerface.com.
 In the meantime, feel free to submit patches for any of my plugins if you spot something that needs fixing or improving!
 
-v3.x.x changes:
+v3.2.2 changes:
     Deeds:
         Class/Race/Epic / Class:
             Fixed: Several obsolete Rune-keeper deeds were accidentally marked as Lore Master.
+        Class/Race/Epic / Race & Social:
+            Added two Midsummer deeds, "Cat Confusion" and "Guests Gathered".
+            Fixed indetation for several River Hobbit deeds.
+        Class/Race/Epic / Reputation:
+            Fixed indentation for Renewal of Gondor
+        Instances / The Legacy of Morgoth:
+            Added Dun Shûma, The King's Fortress deeds
+        Hobbies / Birding:
+            Fixed a hierarchy issue with Croftlands birding deeds
+            Added Gondor and Mordor deeds
+        The War / Common:
+            Removed a few Monster Player deeds that were accidentally included.
+            Added Seasonal title deeds.
+        Haradwaith / Umbar Barharbêl:
+            Fixed indentation with several slayer deeds.
+        Haradwaith / Imhûlar:
+            Added Renewer of Hamât deeds.
+        
 
-v3.2.0 changes:
+v3.2.1 changes:
     Deeds:
         Instances:
             Corsairs of Umbar:
