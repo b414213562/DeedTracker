@@ -1,5 +1,7 @@
 OPTION_HEIGHT = 40;
 
+OptionControls = {};
+
 function AddOptionCheckbox(options, y, text)
     local checkbox = Turbine.UI.Lotro.CheckBox();
     checkbox:SetParent(options);
@@ -97,7 +99,17 @@ function AddServerField(options, y, fieldName, buttonText, callback)
             callback(value);
         end
     end
+
+    OptionControls[fieldName] = {};
+    OptionControls[fieldName].TextBox = textBox;
+
     return height;
+end
+
+function UpdateOptionTextBox(fieldName, updatedText)
+    if (OptionControls[fieldName] and OptionControls[fieldName].TextBox) then
+        OptionControls[fieldName].TextBox:SetText(updatedText);
+    end
 end
 
 function AddDebugField(options, y, label, callback)
@@ -148,6 +160,12 @@ end
 function SaveServerField(fieldName, fieldValue)
     if _CHARDATA[":SERVER"] == nil then _CHARDATA[":SERVER"] = {} end;
     _CHARDATA[":SERVER"][fieldName] = fieldValue;
+
+    UpdateOptionTextBox(fieldName, fieldValue);
+    if (fieldName == "LEGENDARY_SERVER_LEVEL_CAP" or
+        fieldName == "SERVER_LEVEL_CAP") then
+        SetServerLevelCap();
+    end
 end
 
 function LoadServerField(fieldName)
@@ -176,7 +194,6 @@ end
 
 function CreateOptionsContent()
     local mainWin = DeedTrackerWin.GetInstance();
-    local uiCharacter = mainWin:GetUiCharacter();
     local options = Turbine.UI.Control();
     options:SetBackColor(Turbine.UI.Color(0.1, 0.1, 0.1));
     options:SetWidth(300);
@@ -196,12 +213,10 @@ function CreateOptionsContent()
     y = AddOption(options, y, "VEIL_OF_THE_NINE", serverSetting, nilCallback);
     y = y + AddServerField(options, y, "LEGENDARY_SERVER_LEVEL_CAP", GetString(_LANG.OPTIONS.SAVE), function(text)
         SetServerLevelCap();
-        CheckDeedData(uiCharacter);
         mainWin:RefreshDeeds();
     end);
     y = y + AddServerField(options, y, "SERVER_LEVEL_CAP", GetString(_LANG.OPTIONS.SAVE), function(text)
         SetServerLevelCap();
-        CheckDeedData(uiCharacter);
         mainWin:RefreshDeeds();
     end);
 

@@ -11,6 +11,22 @@ DEFAULT_SERVER_LEVEL_CAP = 150;
 -- Legendary Server, correct as of 2025-09-02
 DEFAULT_LEGENDARY_SERVER_LEVEL_CAP = 75;
 
+LegendaryServerCaps = {
+    [1] = 50; -- Shadows of Angmar
+    [2] = 60; -- Mines of Moria
+    [3] = 65; -- Siege of Mirkwood
+    [4] = 75; -- Rise of Isengard
+    [5] = 85; -- Riders of Rohan
+    [6] = 95; -- Helm's Deep
+    [7] = 100; -- Western, Central & Eastern Gondor, and The Siege of Minas Tirith
+    [8] = 105; -- The Battle of Pelennor Fields, March of the King, and Battle of the Black Gate
+    [9] = 115; -- Mordor
+    [10] = 120; -- Where Dragons Dwell and Vales of Anduin
+    [11] = 130; -- Minas Morgul, War of Three Peaks and Blood of Azog
+    [12] = 140; -- Fate of Gundabad
+    [13] = 150; -- Corsairs of Umbar, Legacy of Morgoth
+};
+
 -- The value to use for deeds in this session:
 CURRENT_LEVEL_CAP = DEFAULT_SERVER_LEVEL_CAP;
 

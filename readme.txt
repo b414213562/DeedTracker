@@ -49,6 +49,10 @@ v3.2.2 changes:
             Fixed indentation with several slayer deeds.
         Haradwaith / Imhûlar:
             Added Renewer of Hamât deeds.
+
+    Features:
+        If Deed Tracker knows which region you are in when it is unloaded, it will use that location for a short period when loaded.
+        If your character's level on a legendary server is higher than the configured level cap, the cap will now automatically adjust.
         
 
 v3.2.1 changes:

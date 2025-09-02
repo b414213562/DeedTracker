@@ -538,7 +538,33 @@ function AnnounceNewSkirmishes(level)
     end
 end
 
+function CheckLevelAgainstLegendaryServer(level)
+    level = tonumber(level);
+
+    -- Only worry about this on a legendary server:
+    if (not LoadServerField("LEGENDARY_SERVER")) then return; end
+
+    if (level > tonumber(LoadServerField("LEGENDARY_SERVER_LEVEL_CAP"))) then
+        -- This character is higher than the Legendary Server Cap, 
+        --   so adjust it to the next known interval.
+        for key, levelCap in ipairs(LegendaryServerCaps) do
+            if (levelCap > level) then
+                Debug("Legendary Server Cap was too low, changing it to " .. levelCap);
+                SaveServerField("LEGENDARY_SERVER_LEVEL_CAP", levelCap);
+                return;
+            end
+        end
+
+        -- If we can't find an inteval,
+        --   adjust it to the next level evenly divisble by 5.
+        local nextPossibleCap = math.ceil(level / 5) * 5;
+        Debug("Legendary Server Cap was too low, guessing that next interval is " .. nextPossibleCap);
+        SaveServerField("LEGENDARY_SERVER_LEVEL_CAP", nextPossibleCap);
+    end
+end
+
 function LevelChanged(level)
+    level = tonumber(level);
     if (level == nil or level == "" or level == 0) then return; end
 
     local charName = MYCHAR:GetName();
@@ -548,6 +574,9 @@ function LevelChanged(level)
     _CHARDATA[charName]["CHARACTER_INFO"]["LEVEL"] = level;
     Debug("Deed Tracker thinks you changed to level " .. level);
     AnnounceNewSkirmishes(level);
+
+    CheckLevelAgainstLegendaryServer(level);
+
     CheckDeedData(charName);
 
     if (charName == uiCharacter) then

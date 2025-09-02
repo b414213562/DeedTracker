@@ -370,10 +370,12 @@ function SetServerLevelCap()
     end
 
     if (isLegendaryServer) then
+        CheckLevelAgainstLegendaryServer(_CHARDATA[MYCHAR:GetName()]["CHARACTER_INFO"]["LEVEL"]);
         CURRENT_LEVEL_CAP = tonumber(LoadServerField("LEGENDARY_SERVER_LEVEL_CAP"));
     else
         CURRENT_LEVEL_CAP = serverLevelCap;
     end
+    CheckDeedData(DeedTrackerWin.GetInstance():GetUiCharacter());
     Debug("Deed Tracker: Setting server level cap to " .. CURRENT_LEVEL_CAP);
 end
 
