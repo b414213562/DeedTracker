@@ -1,0 +1,56 @@
+Deed Tracker version 3.2.2 is now available at [url=https://www.lotrointerface.com/downloads/info1139-DeedTracker.html]lotrointerface.com[/url].
+
+This release adds Update 44: Crown of Hamât and Update 45: Allies and Adversaries deeds. and fixes a few minor issues.
+
+Version 3.2.2 release notes:
+
+Deeds:
+[list]
+    [*] Class/Race/Epic / Class:
+    [list]
+        [*] Fixed: Several obsolete Rune-keeper deeds were accidentally marked as Lore Master.
+    [/list]
+    [*] Class/Race/Epic / Race & Social:
+    [list]
+        [*] Added two Midsummer deeds, "Cat Confusion" and "Guests Gathered".
+        [*] Fixed indetation for several River Hobbit deeds.
+    [/list]
+    [*] Class/Race/Epic / Reputation:
+    [list]
+        [*] Fixed indentation for Renewal of Gondor
+    [/list]
+    [*] Instances / The Legacy of Morgoth:
+    [list]
+        [*] Added Dun Shûma, The King's Fortress deeds
+    [/list]
+    [*] Hobbies / Birding:
+    [list]
+        [*] Fixed a hierarchy issue with Croftlands birding deeds
+        [*] Added Gondor and Mordor deeds
+    [/list]
+    [*] The War / Common:
+    [list]
+        [*] Removed a few Monster Player deeds that were accidentally included.
+        [*] Added Seasonal title deeds.
+    [/list]
+    [*] Haradwaith / Umbar Barharbêl:
+    [list]
+        [*] Fixed indentation with several slayer deeds.
+    [/list]
+    [*] Haradwaith / Imhûlar:
+    [list]
+        [*] Added Renewer of Hamât deeds.
+    [/list]
+[/list]
+
+Features:
+[list]
+    [*] If Deed Tracker knows which region you are in when it is unloaded, it will use that location for a short period when re-loaded.
+    [*] If your character's level on a legendary server is higher than the configured level cap, the cap will now automatically adjust.
+[/list]
+
+Other:
+[list]
+    [*] Removed code that refers to vocations.
+[/list]
+

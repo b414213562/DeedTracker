@@ -92,23 +92,6 @@ If you're logged in during a rename, you get the same message as a title change:
     I renamed Laurelin Affodil and got this message:
     You will now be known as Tasje, Fool to those you meet in your travels.
 
-Anything that makes assumptions about vocations needs to be changed.
-    Current status of API:
-        All calls to Turbine.Gameplay.LocalPlayer.GetInstance():GetAttributes():GetVocation() get 0
-            Whether or not your professions match a vocation or not
-        You can iterate through the enum of professions (1-10) to see which are trained:
-            for i=1,10 do
-                local info = MYCHAR:GetAttributes():GetProfessionInfo(i);
-                if (info ~= nil) then
-                    Turbine.Shell.WriteLine("Profession trained: " .. info:GetName());
-                end
-            end
-        All vocation-deeds should probably be visible, and not included in deed count. (Not Actively Available?)
-    Short-term solution:
-        Change the SUBTYPE to 0
-        mark each as ["NA"] = 7; (Vocation)
-        (Note: Generator will need to be changed.)
-
 I'm going to make a note to separate out not actively avaliable deeds into their own stat or something, so the actively available ones are more consistent.
 
 It might be worth adding a feature to pop up a dialog - "Hey, you just advanced beyond your stated level cap, do you want to enter a new level cap for this server?"

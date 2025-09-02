@@ -51,9 +51,11 @@ v3.2.2 changes:
             Added Renewer of Hamât deeds.
 
     Features:
-        If Deed Tracker knows which region you are in when it is unloaded, it will use that location for a short period when loaded.
+        If Deed Tracker knows which region you are in when it is unloaded, it will use that location for a short period when re-loaded.
         If your character's level on a legendary server is higher than the configured level cap, the cap will now automatically adjust.
-        
+    
+    Other:
+        Removed code that refers to vocations.
 
 v3.2.1 changes:
     Deeds:
