@@ -6,10 +6,10 @@ _CHARDATA = {}; -- Table used when loading saved character data.
 CURRENT_CHARDATA_FILE_VERSION = "v3.1";
 
 MYCHAR = Turbine.Gameplay.LocalPlayer.GetInstance();
--- Standard Server, correct as of 2023-11-10
+-- Standard Server, correct as of 2025-09-02
 DEFAULT_SERVER_LEVEL_CAP = 150;
--- Legendary Server, correct as of 2023-12-06
-DEFAULT_LEGENDARY_SERVER_LEVEL_CAP = 60;
+-- Legendary Server, correct as of 2025-09-02
+DEFAULT_LEGENDARY_SERVER_LEVEL_CAP = 75;
 
 -- The value to use for deeds in this session:
 CURRENT_LEVEL_CAP = DEFAULT_SERVER_LEVEL_CAP;
