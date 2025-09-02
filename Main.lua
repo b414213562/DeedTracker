@@ -142,6 +142,13 @@ function SaveData()
 end
 
 function SaveCharacterSettings()
+    -- If we have a region, go ahead and include that in the character settings.
+    if (DataFiles.IsRegionKnown()) then
+        SETTINGS.REGION = {};
+        SETTINGS.REGION.LOCATION_NUMBER = LOCATION_NUMBER;
+        SETTINGS.REGION.GAME_TIME = math.floor(Turbine.Engine.GetGameTime());
+    end
+
     PatchDataSave(Turbine.DataScope.Character, "DeedTracker_Settings", SETTINGS);
 end
 
@@ -192,6 +199,19 @@ function LoadData()
     else
         SETTINGS = deepcopy(DEFAULT_SETTINGS);
     end
+
+    -- If there is a recent saved location (and we haven't already seen a chat location), use it:
+    if (SETTINGS.REGION and not DataFiles.IsRegionKnown()) then
+        local maxSecondsSavedLocationIsValid = 15;
+        local elapsedTime = math.abs(Turbine.Engine.GetGameTime() - SETTINGS.REGION.GAME_TIME);
+        if (elapsedTime <= maxSecondsSavedLocationIsValid) then
+            if (DataFiles.IsValidRegion(SETTINGS.REGION.LOCATION_NUMBER)) then
+                LOCATION_NUMBER = SETTINGS.REGION.LOCATION_NUMBER;
+                Debug("Using character location saved in file: " .. DataFiles.GetCurrentRegionName());
+            end
+        end
+    end
+    SETTINGS.REGION = nil;
 
     -- Load Server Data:
     local savedCharData = PatchDataLoad(Turbine.DataScope.Server, "DeedTracker_CharData");
