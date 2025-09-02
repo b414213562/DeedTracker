@@ -6,13 +6,6 @@ LOTRO Companion wondered why the processor tries to figure out if the text conta
             plus a count attribute could indicate that we just use the objective text 
             ("Menez à bien 20 quêtes de l'Ered Luin.") instead.
 
-Talyrion suggests:
-    For legendary servers, Deed Tracker could compare the level of the current character with the legendary server cap.
-    If the character level is higher, bump up the level cap to the next increment. (E.g. 50, 60, 65, 75, etc.)
-
-Talyrion points out:
-    LC data files have `type="CLASS" requiredClass="Rune-keeper"`, so can we get rid of both _crvList and _subTypeList in the post-processor?
-
 Not Actively Achievable categories:
     Need to consolidate to one per reason
     Or, just don't show the reason on the category, since a category could have multiple reasons?
@@ -381,7 +374,6 @@ Feature: Text Color customization options
 Feature: When filtering, include any pre-reqs, but gray them out to show they're not part of the results.
 Feature: Plugin that captures all unique texts sent to Quest channel for later analysis?
 Feature: Get French and German localizations for channels:
-        Ettenmoors
         Frostbluff (Festival) - Frostfels (DE), 
 
 Investigation (for what purpose?): Travel window closes when you activate an ability. How does it know to do that?
