@@ -11,7 +11,6 @@ Steps to add new deeds:
     6.3 You can look up which deed log tab it goes in using the category attribute (e.g. category="35") in lotro-data\lore\enums\DeedCategory-en.xml
     6.4 If you need to add a new tab section header/category, manually add it to DeedCategories[EN|FR|DE].lua.
     6.5 If there's a new type of deed (e.g. Veil of the Nine), this may involve modifying the CompanionDataParser solution.
-    6.6 Remember that currently tier information is encoded in CompanionDataParser. (It needs to move!)
     6.6 If there's a new deed log tab, that will involve updating several plugin files (DeedInfo.lua, DeedLookupTables.lua, DeedInfoStrings[lang].lua) and CompanionDataParser file (CompanionXmlExtraInfo.cs: _pageTabLookup, _pageTabLookup[lang]).
 7 Once DeedInfo.lua has been updated with the new structure, run _update_files.bat in C:\dev\_\lotro_plugins\CompanionDataLib\Serialization.
     7.1 If Visual Studio doesn't pick them up, delete the bin and obj folders in C:\dev\_\lotro_plugins\CompanionDataLib
