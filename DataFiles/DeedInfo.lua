@@ -38,6 +38,7 @@ _DEED_LOG_PAGE_TABS = {
         [I_RETURN_TO_CARN_DUM] = "I_RETURN_TO_CARN_DUM_STR";
         [I_CORSAIRS_OF_UMBAR] = "I_CORSAIRS_OF_UMBAR_STR";
         [I_THE_LEGACY_OF_MORGOTH] = "I_THE_LEGACY_OF_MORGOTH_STR";
+        [I_KINGDOMS_OF_HARAD] = "I_KINGDOMS_OF_HARAD_STR";
     };
     [HOBBIES] = {
         -- Hobbies
@@ -119,6 +120,7 @@ _DEED_LOG_PAGE_TABS = {
         [H_KHUD_ZAGIN] = "H_KHUD_ZAGIN_STR";
         [H_IMHULAR] = "H_IMHULAR_STR";
         [H_URASH_DAR] = "H_URASH_DAR_STR";
+        [H_MUR_GHALA] = "H_MUR_GHALA_STR";
     }
 };
 
@@ -1241,6 +1243,38 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
            [42] = {["ID"] = 1879500027; }; -- Temple of Utug-bûr -- Leading the Charge
            [43] = {["ID"] = 1879500028; }; -- Temple of Utug-bûr -- Original Challenger
            [44] = {["ID"] = 1879502188; }; -- Dun Shûma, The King's Fortress -- Tier 3 -- Leading the Charge
+        };
+        -- Kingdoms of Harad
+        [I_KINGDOMS_OF_HARAD] = {
+            [1] = {["ID"] = 1879519553; }; -- Conflicts of Mûr Ghala
+            [2] = {["CAT_ID"] = 333; ["TIER"] = 1; }; -- The Treasure Caves of Hurum Kâna
+            [3] = {["ID"] = 1879519547; ["TIER"] = 1; }; -- Renewer of The Treasure Caves of Hurum Kâna
+            [4] = {["ID"] = 1879519552; ["TIER"] = 2; }; -- The Treasure Caves of Hurum Kâna -- Tier 1
+            [5] = {["ID"] = 1879519551; ["TIER"] = 2; }; -- The Treasure Caves of Hurum Kâna -- Tier 2
+            [6] = {["ID"] = 1879519548; ["TIER"] = 2; }; -- The Treasure Caves of Hurum Kâna -- Tier 3
+            [7] = {["ID"] = 1879519549; ["TIER"] = 2; }; -- The Treasure Caves of Hurum Kâna -- Brigands
+            [8] = {["CAT_ID"] = 334; ["TIER"] = 1; }; -- Kôth Rau, the Wailing Hold
+            [9] = {["ID"] = 1879518736; ["TIER"] = 1; }; -- Vanquisher of Kôth Rau, the Wailing Hold
+           [10] = {["ID"] = 1879518740; ["TIER"] = 2; }; -- Kôth Rau, the Wailing Hold -- Tier 1
+           [11] = {["ID"] = 1879518738; ["TIER"] = 2; }; -- Kôth Rau, the Wailing Hold -- Tier 2
+           [12] = {["ID"] = 1879518737; ["TIER"] = 2; }; -- Kôth Rau, the Wailing Hold -- Tier 3
+           [13] = {["CAT_ID"] = 335; ["TIER"] = 1; }; -- Ekal-nêbi, the Fallen Palace
+           [14] = {["ID"] = 1879519228; ["TIER"] = 1; }; -- Vanquisher of Ekal-nêbi, the Fallen Palace
+           [15] = {["ID"] = 1879519210; ["TIER"] = 2; }; -- Ekal-nêbi, the Fallen Palace -- Tier 1
+           [16] = {["ID"] = 1879519207; ["TIER"] = 2; }; -- Ekal-nêbi, the Fallen Palace -- Tier 2
+           [17] = {["ID"] = 1879519203; ["TIER"] = 2; }; -- Ekal-nêbi, the Fallen Palace -- Tier 3
+           [18] = {["ID"] = 1879519217; ["TIER"] = 2; }; -- Ekal-nêbi, the Fallen Palace -- Ordâkhai
+           [19] = {["CAT_ID"] = 336; ["TIER"] = 1; }; -- 'The Folly of Nagakhêdi'
+           [20] = {["ID"] = 1879520130; ["TIER"] = 1; }; -- Deeds of 'The Folly of Nagakhêdi'
+           [21] = {["ID"] = 1879520125; ["TIER"] = 2; }; -- Explorer of 'The Folly of Nagakhêdi' - Tier 1
+           [22] = {["ID"] = 1879520126; ["TIER"] = 2; }; -- Explorer of 'The Folly of Nagakhêdi' - Tier 2
+           [23] = {["ID"] = 1879520128; ["TIER"] = 2; }; -- Explorer of 'The Folly of Nagakhêdi' - Tier 3
+           [24] = {["CAT_ID"] = 282; }; -- Not Actively Achievable
+           [25] = {["ID"] = 1879519550; }; -- The Treasure Caves of Hurum Kâna -- Tier 3 -- Leading the Charge
+           [26] = {["ID"] = 1879518739; }; -- Kôth Rau, the Wailing Hold -- Tier 3 -- Leading the Charge
+           [27] = {["ID"] = 1879519222; }; -- Ekal-nêbi, the Fallen Palace -- Tier 3 -- Leading the Charge
+           [28] = {["ID"] = 1879520129; }; -- The Folly of Nagakhêdi -- Leading the Charge
+           [29] = {["ID"] = 1879520127; }; -- The Folly of Nagakhêdi -- Original Challenger
         };
     };
     -- Hobbies
@@ -2891,71 +2925,102 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
           [388] = {["ID"] = 1879490439; ["TIER"] = 2; }; -- Amelia's Studies - Ally
           [389] = {["ID"] = 1879490435; ["TIER"] = 3; }; -- Amelia's Studies - Friend
           [390] = {["ID"] = 1879490437; ["TIER"] = 4; }; -- Amelia's Studies - Acquaintance
-          [391] = {["CAT_ID"] = 306; }; -- - Crafting Events -
-          [392] = {["CAT_ID"] = 289; ["TIER"] = 1; }; -- - The Combe Forester Event -
-          [393] = {["ID"] = 1879467122; ["TIER"] = 1; }; -- Is a Lumberjack
-          [394] = {["ID"] = 1879467125; ["TIER"] = 1; }; -- Sleep at Night
-          [395] = {["ID"] = 1879467127; ["TIER"] = 1; }; -- Eats Their Bread
-          [396] = {["ID"] = 1879467133; ["TIER"] = 1; }; -- Hangs in Taverns
-          [397] = {["ID"] = 1879467139; ["TIER"] = 1; }; -- Hacks All Day
-          [398] = {["ID"] = 1879467142; ["TIER"] = 1; }; -- Drinks Their Bread
-          [399] = {["ID"] = 1879467151; ["TIER"] = 1; }; -- Cuts Down Trees
-          [400] = {["ID"] = 1879467152; ["TIER"] = 1; }; -- Feels Strong
-          [401] = {["ID"] = 1879467129; ["TIER"] = 1; }; -- The Competitive Forester - Tier V
-          [402] = {["ID"] = 1879467126; ["TIER"] = 2; }; -- The Competitive Forester - Tier IV
-          [403] = {["ID"] = 1879467145; ["TIER"] = 3; }; -- The Competitive Forester - Tier III
-          [404] = {["ID"] = 1879467140; ["TIER"] = 4; }; -- The Competitive Forester - Tier II
-          [405] = {["ID"] = 1879467149; ["TIER"] = 5; }; -- The Competitive Forester - Tier I
-          [406] = {["CAT_ID"] = 307; ["TIER"] = 1; }; -- - The Hard Tack Crafting Event -
-          [407] = {["ID"] = 1879489238; ["TIER"] = 1; }; -- Clod
-          [408] = {["ID"] = 1879489234; ["TIER"] = 2; }; -- Bean-spiller
-          [409] = {["ID"] = 1879489242; ["TIER"] = 3; }; -- Party Foul
-          [410] = {["ID"] = 1879489254; ["TIER"] = 1; }; -- The Lummox
-          [411] = {["ID"] = 1879489251; ["TIER"] = 2; }; -- Failure to Fire the Forge
-          [412] = {["ID"] = 1879489259; ["TIER"] = 1; }; -- Often Clumsy
-          [413] = {["ID"] = 1879489269; ["TIER"] = 1; }; -- The Competitive Cook - Tier V
-          [414] = {["ID"] = 1879489267; ["TIER"] = 2; }; -- The Competitive Cook - Tier IV
-          [415] = {["ID"] = 1879489265; ["TIER"] = 3; }; -- The Competitive Cook - Tier III
-          [416] = {["ID"] = 1879489264; ["TIER"] = 4; }; -- The Competitive Cook - Tier II
-          [417] = {["ID"] = 1879489263; ["TIER"] = 5; }; -- The Competitive Cook - Tier I
-          [418] = {["ID"] = 1879489266; ["TIER"] = 1; }; -- The Competitive Prospector - Tier V
-          [419] = {["ID"] = 1879489268; ["TIER"] = 2; }; -- The Competitive Prospector - Tier IV
-          [420] = {["ID"] = 1879489270; ["TIER"] = 3; }; -- The Competitive Prospector - Tier III
-          [421] = {["ID"] = 1879489271; ["TIER"] = 4; }; -- The Competitive Prospector - Tier II
-          [422] = {["ID"] = 1879489262; ["TIER"] = 5; }; -- The Competitive Prospector - Tier I
-          [423] = {["CAT_ID"] = 305; }; -- - Veil of the Nine -
-          [424] = {["ID"] = 1879489366; }; -- Defeat each of the Nine
-          [425] = {["ID"] = 1879487903; ["TIER"] = 1; }; -- Defeat the Grim Southron
-          [426] = {["ID"] = 1879487978; ["TIER"] = 1; }; -- Defeat the Forsaken Reaver
-          [427] = {["ID"] = 1879487977; ["TIER"] = 1; }; -- Defeat the Gloom of Nurn
-          [428] = {["ID"] = 1879487976; ["TIER"] = 1; }; -- Defeat the Black Blade of Lebennin
-          [429] = {["ID"] = 1879487975; ["TIER"] = 1; }; -- Defeat the Bane of Rhûn
-          [430] = {["ID"] = 1879487974; ["TIER"] = 1; }; -- Defeat the High Sorcerer of Harad
-          [431] = {["ID"] = 1879487973; ["TIER"] = 1; }; -- Defeat the Woe of Khand
-          [432] = {["ID"] = 1879487972; ["TIER"] = 1; }; -- Defeat the Cursed Rider
-          [433] = {["ID"] = 1879487969; ["TIER"] = 1; }; -- Defeat the Witch-king
-          [434] = {["CAT_ID"] = 240; }; -- Not Actively Achievable
-          [435] = {["CAT_ID"] = 241; ["TIER"] = 1; }; -- - The Tournament of the Twins -
-          [436] = {["ID"] = 1879407709; }; -- The Tournament of the Twins - Exalted Champion of Rivendell
-          [437] = {["ID"] = 1879407711; ["TIER"] = 1; }; -- The Tournament of the Twins - Champion of Rivendell
-          [438] = {["ID"] = 1879407713; ["TIER"] = 2; }; -- The Tournament of the Twins - Hero's Frame
-          [439] = {["ID"] = 1879407714; ["TIER"] = 3; }; -- The Tournament of the Twins - Favoured of Elrond
-          [440] = {["ID"] = 1879407719; ["TIER"] = 4; }; -- The Tournament of the Twins - Gladiator's Frame
-          [441] = {["ID"] = 1879407720; ["TIER"] = 5; }; -- The Tournament of the Twins - Herald of Rivendell
-          [442] = {["ID"] = 1879407705; ["TIER"] = 6; }; -- The Tournament of the Twins - Contender's Frame
-          [443] = {["ID"] = 1879407706; ["TIER"] = 7; }; -- The Tournament of the Twins - Honourable Contender
-          [444] = {["ID"] = 1879407675; }; -- The Tournament of the Twins - The Cloak of Elrohir
-          [445] = {["ID"] = 1879407710; }; -- The Tournament of the Twins - The Cloak of Elladan
-          [446] = {["CAT_ID"] = 242; ["TIER"] = 1; }; -- - Townsfolk of the Eastfold -
-          [447] = {["ID"] = 1879400834; }; -- Kindred with the Townsfolk of the Eastfold Neighbourhoods
-          [448] = {["ID"] = 1879400836; ["TIER"] = 1; }; -- Ally to the Townsfolk of the Eastfold Neighbourhoods
-          [449] = {["ID"] = 1879400832; ["TIER"] = 2; }; -- Friend to the Townsfolk of the Eastfold Neighbourhoods
-          [450] = {["ID"] = 1879400833; ["TIER"] = 3; }; -- Known to the Townsfolk of the Eastfold Neighbourhoods
-          [451] = {["CAT_ID"] = 243; ["TIER"] = 1; }; -- - Townsfolk of the Kingstead -
-          [452] = {["ID"] = 1879400839; }; -- Kindred with the Townsfolk of the Kingstead Neighbourhoods
-          [453] = {["ID"] = 1879400838; ["TIER"] = 1; }; -- Ally to the Townsfolk of the Kingstead Neighbourhoods
-          [454] = {["ID"] = 1879400837; ["TIER"] = 2; }; -- Friend to the Townsfolk of the Kingstead Neighbourhoods
-          [455] = {["ID"] = 1879400835; ["TIER"] = 3; }; -- Known to the Townsfolk of the Kingstead Neighbourhoods
+          [391] = {["CAT_ID"] = 323; }; -- Kintai of Sul Madásh
+          [392] = {["ID"] = 1879506220; }; -- Kindred of the Kintai of Sul Madásh
+          [393] = {["ID"] = 1879506219; ["TIER"] = 1; }; -- Ally of the Kintai of Sul Madásh
+          [394] = {["ID"] = 1879506222; ["TIER"] = 2; }; -- Friend of the Kintai of Sul Madásh
+          [395] = {["ID"] = 1879506221; ["TIER"] = 3; }; -- Acquaintance of the Kintai of Sul Madásh
+          [396] = {["ID"] = 1879506192; ["TIER"] = 4; }; -- Neutral with the Kintai of Sul Madásh
+          [397] = {["CAT_ID"] = 324; }; -- Temámir of Jiret-menêsh
+          [398] = {["ID"] = 1879506228; }; -- Kindred with the Temámir of Jiret-menêsh
+          [399] = {["ID"] = 1879506229; ["TIER"] = 1; }; -- Ally of the Temámir of Jiret-menêsh
+          [400] = {["ID"] = 1879506223; ["TIER"] = 2; }; -- Friend of the Temámir of Jiret-menêsh
+          [401] = {["ID"] = 1879506225; ["TIER"] = 3; }; -- Acquaintance of the Temámir of Jiret-menêsh
+          [402] = {["ID"] = 1879506227; ["TIER"] = 4; }; -- Neutral with the Temámir of Jiret-menêsh
+          [403] = {["CAT_ID"] = 325; }; -- City of Zajâna
+          [404] = {["ID"] = 1879506226; }; -- Kindred with the City of Zajâna
+          [405] = {["ID"] = 1879506224; ["TIER"] = 1; }; -- Ally of the City of Zajâna
+          [406] = {["ID"] = 1879506231; ["TIER"] = 2; }; -- Friend of the City of Zajâna
+          [407] = {["ID"] = 1879506230; ["TIER"] = 3; }; -- Acquaintance of the City of Zajâna
+          [408] = {["ID"] = 1879506232; ["TIER"] = 4; }; -- Neutral with the City of Zajâna
+          [409] = {["CAT_ID"] = 331; }; -- Hamât Renewed
+          [410] = {["ID"] = 1879520645; }; -- Respected with Hamât Renewed
+          [411] = {["ID"] = 1879520527; ["TIER"] = 1; }; -- Kindred with Hamât Renewed
+          [412] = {["ID"] = 1879520526; ["TIER"] = 2; }; -- Ally of Hamât Renewed
+          [413] = {["ID"] = 1879520525; ["TIER"] = 3; }; -- Friend of Hamât Renewed
+          [414] = {["ID"] = 1879520524; ["TIER"] = 4; }; -- Acquaintance of Hamât Renewed
+          [415] = {["ID"] = 1879520523; ["TIER"] = 5; }; -- Neutral with Hamât Renewed
+          [416] = {["CAT_ID"] = 332; }; -- Hunter's Guild of Mûr Ghala
+          [417] = {["ID"] = 1879520519; }; -- Kindred of the Hunter's Guild of Mûr Ghala
+          [418] = {["ID"] = 1879520520; ["TIER"] = 1; }; -- Ally of the Hunter's Guild of Mûr Ghala
+          [419] = {["ID"] = 1879520521; ["TIER"] = 2; }; -- Friend of the Hunter's Guild of Mûr Ghala
+          [420] = {["ID"] = 1879520522; ["TIER"] = 3; }; -- Acquaintance of the Hunter's Guild of Mûr Ghala
+          [421] = {["ID"] = 1879520518; ["TIER"] = 4; }; -- Neutral with the Hunter's Guild of Mûr Ghala
+          [422] = {["CAT_ID"] = 306; }; -- - Crafting Events -
+          [423] = {["CAT_ID"] = 289; ["TIER"] = 1; }; -- - The Combe Forester Event -
+          [424] = {["ID"] = 1879467122; ["TIER"] = 1; }; -- Is a Lumberjack
+          [425] = {["ID"] = 1879467125; ["TIER"] = 1; }; -- Sleep at Night
+          [426] = {["ID"] = 1879467127; ["TIER"] = 1; }; -- Eats Their Bread
+          [427] = {["ID"] = 1879467133; ["TIER"] = 1; }; -- Hangs in Taverns
+          [428] = {["ID"] = 1879467139; ["TIER"] = 1; }; -- Hacks All Day
+          [429] = {["ID"] = 1879467142; ["TIER"] = 1; }; -- Drinks Their Bread
+          [430] = {["ID"] = 1879467151; ["TIER"] = 1; }; -- Cuts Down Trees
+          [431] = {["ID"] = 1879467152; ["TIER"] = 1; }; -- Feels Strong
+          [432] = {["ID"] = 1879467129; ["TIER"] = 1; }; -- The Competitive Forester - Tier V
+          [433] = {["ID"] = 1879467126; ["TIER"] = 2; }; -- The Competitive Forester - Tier IV
+          [434] = {["ID"] = 1879467145; ["TIER"] = 3; }; -- The Competitive Forester - Tier III
+          [435] = {["ID"] = 1879467140; ["TIER"] = 4; }; -- The Competitive Forester - Tier II
+          [436] = {["ID"] = 1879467149; ["TIER"] = 5; }; -- The Competitive Forester - Tier I
+          [437] = {["CAT_ID"] = 307; ["TIER"] = 1; }; -- - The Hard Tack Crafting Event -
+          [438] = {["ID"] = 1879489238; ["TIER"] = 1; }; -- Clod
+          [439] = {["ID"] = 1879489234; ["TIER"] = 2; }; -- Bean-spiller
+          [440] = {["ID"] = 1879489242; ["TIER"] = 3; }; -- Party Foul
+          [441] = {["ID"] = 1879489254; ["TIER"] = 1; }; -- The Lummox
+          [442] = {["ID"] = 1879489251; ["TIER"] = 2; }; -- Failure to Fire the Forge
+          [443] = {["ID"] = 1879489259; ["TIER"] = 1; }; -- Often Clumsy
+          [444] = {["ID"] = 1879489269; ["TIER"] = 1; }; -- The Competitive Cook - Tier V
+          [445] = {["ID"] = 1879489267; ["TIER"] = 2; }; -- The Competitive Cook - Tier IV
+          [446] = {["ID"] = 1879489265; ["TIER"] = 3; }; -- The Competitive Cook - Tier III
+          [447] = {["ID"] = 1879489264; ["TIER"] = 4; }; -- The Competitive Cook - Tier II
+          [448] = {["ID"] = 1879489263; ["TIER"] = 5; }; -- The Competitive Cook - Tier I
+          [449] = {["ID"] = 1879489266; ["TIER"] = 1; }; -- The Competitive Prospector - Tier V
+          [450] = {["ID"] = 1879489268; ["TIER"] = 2; }; -- The Competitive Prospector - Tier IV
+          [451] = {["ID"] = 1879489270; ["TIER"] = 3; }; -- The Competitive Prospector - Tier III
+          [452] = {["ID"] = 1879489271; ["TIER"] = 4; }; -- The Competitive Prospector - Tier II
+          [453] = {["ID"] = 1879489262; ["TIER"] = 5; }; -- The Competitive Prospector - Tier I
+          [454] = {["CAT_ID"] = 305; }; -- - Veil of the Nine -
+          [455] = {["ID"] = 1879489366; }; -- Defeat each of the Nine
+          [456] = {["ID"] = 1879487903; ["TIER"] = 1; }; -- Defeat the Grim Southron
+          [457] = {["ID"] = 1879487978; ["TIER"] = 1; }; -- Defeat the Forsaken Reaver
+          [458] = {["ID"] = 1879487977; ["TIER"] = 1; }; -- Defeat the Gloom of Nurn
+          [459] = {["ID"] = 1879487976; ["TIER"] = 1; }; -- Defeat the Black Blade of Lebennin
+          [460] = {["ID"] = 1879487975; ["TIER"] = 1; }; -- Defeat the Bane of Rhûn
+          [461] = {["ID"] = 1879487974; ["TIER"] = 1; }; -- Defeat the High Sorcerer of Harad
+          [462] = {["ID"] = 1879487973; ["TIER"] = 1; }; -- Defeat the Woe of Khand
+          [463] = {["ID"] = 1879487972; ["TIER"] = 1; }; -- Defeat the Cursed Rider
+          [464] = {["ID"] = 1879487969; ["TIER"] = 1; }; -- Defeat the Witch-king
+          [465] = {["CAT_ID"] = 240; }; -- Not Actively Achievable
+          [466] = {["CAT_ID"] = 241; ["TIER"] = 1; }; -- - The Tournament of the Twins -
+          [467] = {["ID"] = 1879407709; }; -- The Tournament of the Twins - Exalted Champion of Rivendell
+          [468] = {["ID"] = 1879407711; ["TIER"] = 1; }; -- The Tournament of the Twins - Champion of Rivendell
+          [469] = {["ID"] = 1879407713; ["TIER"] = 2; }; -- The Tournament of the Twins - Hero's Frame
+          [470] = {["ID"] = 1879407714; ["TIER"] = 3; }; -- The Tournament of the Twins - Favoured of Elrond
+          [471] = {["ID"] = 1879407719; ["TIER"] = 4; }; -- The Tournament of the Twins - Gladiator's Frame
+          [472] = {["ID"] = 1879407720; ["TIER"] = 5; }; -- The Tournament of the Twins - Herald of Rivendell
+          [473] = {["ID"] = 1879407705; ["TIER"] = 6; }; -- The Tournament of the Twins - Contender's Frame
+          [474] = {["ID"] = 1879407706; ["TIER"] = 7; }; -- The Tournament of the Twins - Honourable Contender
+          [475] = {["ID"] = 1879407675; }; -- The Tournament of the Twins - The Cloak of Elrohir
+          [476] = {["ID"] = 1879407710; }; -- The Tournament of the Twins - The Cloak of Elladan
+          [477] = {["CAT_ID"] = 242; ["TIER"] = 1; }; -- - Townsfolk of the Eastfold -
+          [478] = {["ID"] = 1879400834; }; -- Kindred with the Townsfolk of the Eastfold Neighbourhoods
+          [479] = {["ID"] = 1879400836; ["TIER"] = 1; }; -- Ally to the Townsfolk of the Eastfold Neighbourhoods
+          [480] = {["ID"] = 1879400832; ["TIER"] = 2; }; -- Friend to the Townsfolk of the Eastfold Neighbourhoods
+          [481] = {["ID"] = 1879400833; ["TIER"] = 3; }; -- Known to the Townsfolk of the Eastfold Neighbourhoods
+          [482] = {["CAT_ID"] = 243; ["TIER"] = 1; }; -- - Townsfolk of the Kingstead -
+          [483] = {["ID"] = 1879400839; }; -- Kindred with the Townsfolk of the Kingstead Neighbourhoods
+          [484] = {["ID"] = 1879400838; ["TIER"] = 1; }; -- Ally to the Townsfolk of the Kingstead Neighbourhoods
+          [485] = {["ID"] = 1879400837; ["TIER"] = 2; }; -- Friend to the Townsfolk of the Kingstead Neighbourhoods
+          [486] = {["ID"] = 1879400835; ["TIER"] = 3; }; -- Known to the Townsfolk of the Kingstead Neighbourhoods
         };
         -- Allegiances
         [CRE_ALLEGIANCES] = {
@@ -5181,6 +5246,107 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
            [25] = {["ID"] = 1879491703; ["TIER"] = 1; }; -- Scorpion-slayer of the Ikorbân Valley
            [26] = {["ID"] = 1879491697; }; -- Boar-bane of the Ikorbân Valley
            [27] = {["ID"] = 1879491700; }; -- Tales of the Ikorbân Valley
+        };
+        [H_MUR_GHALA] = {
+            [1] = {["ID"] = 1879513802; }; -- Rejuvenator of Mûr Ghala
+            [2] = {["CAT_ID"] = 337; ["TIER"] = 1; }; -- Adagím
+            [3] = {["ID"] = 1879513774; ["TIER"] = 1; }; -- Renewing Adagím
+            [4] = {["ID"] = 1879513785; ["TIER"] = 2; }; -- Exploring Adagím
+            [5] = {["ID"] = 1879513778; ["TIER"] = 3; }; -- New Threats in Adagím
+            [6] = {["ID"] = 1879513790; ["TIER"] = 3; }; -- Scouting Adagím
+            [7] = {["ID"] = 1879513702; ["TIER"] = 3; }; -- Treasure-seeker of Adagím
+            [8] = {["ID"] = 1879513704; ["TIER"] = 2; }; -- Slayer of Adagím
+            [9] = {["ID"] = 1879513641; ["TIER"] = 3; }; -- Bog-slayer of Adagím (Advanced)
+           [10] = {["ID"] = 1879513640; ["TIER"] = 4; }; -- Bog-slayer of Adagím
+           [11] = {["ID"] = 1879513644; ["TIER"] = 3; }; -- Crocodile-slayer of Adagím (Advanced)
+           [12] = {["ID"] = 1879513647; ["TIER"] = 4; }; -- Crocodile-slayer of Adagím
+           [13] = {["ID"] = 1879513663; ["TIER"] = 3; }; -- Huorn-bane of Adagím (Advanced)
+           [14] = {["ID"] = 1879513664; ["TIER"] = 4; }; -- Huorn-bane of Adagím
+           [15] = {["ID"] = 1879513659; ["TIER"] = 3; }; -- Orc-bane of Adagím (Advanced)
+           [16] = {["ID"] = 1879513653; ["TIER"] = 4; }; -- Orc-bane of Adagím
+           [17] = {["ID"] = 1879513645; ["TIER"] = 3; }; -- Spider-slayer of Adagím (Advanced)
+           [18] = {["ID"] = 1879513651; ["TIER"] = 4; }; -- Spider-slayer of Adagím
+           [19] = {["ID"] = 1879513649; ["TIER"] = 3; }; -- Wood-troll Slayer of Adagím (Advanced)
+           [20] = {["ID"] = 1879513650; ["TIER"] = 4; }; -- Wood-troll Slayer of Adagím
+           [21] = {["ID"] = 1879513791; ["TIER"] = 2; }; -- Tales of Adagím
+           [22] = {["CAT_ID"] = 338; ["TIER"] = 1; }; -- Kighân
+           [23] = {["ID"] = 1879513787; ["TIER"] = 1; }; -- Rejuvenator of Kighân
+           [24] = {["ID"] = 1879513779; ["TIER"] = 2; }; -- Explorer of Kighân
+           [25] = {["ID"] = 1879513781; ["TIER"] = 3; }; -- Dangers in Kighân
+           [26] = {["ID"] = 1879513782; ["TIER"] = 3; }; -- Scouting Kighân
+           [27] = {["ID"] = 1879513701; ["TIER"] = 3; }; -- Treasure-seeker of Kighân
+           [28] = {["ID"] = 1879513706; ["TIER"] = 2; }; -- Slayer of Kighân
+           [29] = {["ID"] = 1879513660; ["TIER"] = 3; }; -- Tarsâri-bane of Kighân (Advanced)
+           [30] = {["ID"] = 1879513655; ["TIER"] = 4; }; -- Tarsâri-bane of Kighân
+           [31] = {["ID"] = 1879513656; ["TIER"] = 3; }; -- Bee-slayer of Kighân (Advanced)
+           [32] = {["ID"] = 1879513654; ["TIER"] = 4; }; -- Bee-slayer of Kighân
+           [33] = {["ID"] = 1879513661; ["TIER"] = 3; }; -- Brigand-bane of Kighân (Advanced)
+           [34] = {["ID"] = 1879513657; ["TIER"] = 4; }; -- Brigand-bane of Kighân
+           [35] = {["ID"] = 1879513662; ["TIER"] = 3; }; -- Goblin-bane of Kighân (Advanced)
+           [36] = {["ID"] = 1879513658; ["TIER"] = 4; }; -- Goblin-bane of Kighân
+           [37] = {["ID"] = 1879513648; ["TIER"] = 3; }; -- Ordâkhai-bane of Kighân (Advanced)
+           [38] = {["ID"] = 1879513652; ["TIER"] = 4; }; -- Ordâkhai-bane of Kighân
+           [39] = {["ID"] = 1879513643; ["TIER"] = 3; }; -- Spider-slayer of Kighân (Advanced)
+           [40] = {["ID"] = 1879513646; ["TIER"] = 4; }; -- Spider-slayer of Kighân
+           [41] = {["ID"] = 1879513792; ["TIER"] = 2; }; -- Tales of Kighân
+           [42] = {["CAT_ID"] = 339; ["TIER"] = 1; }; -- An Shêru
+           [43] = {["ID"] = 1879513780; ["TIER"] = 1; }; -- Rejuvenator of An Shêru
+           [44] = {["ID"] = 1879513788; ["TIER"] = 2; }; -- Explorer of An Shêru
+           [45] = {["ID"] = 1879513789; ["TIER"] = 3; }; -- New Threats in An Shêru
+           [46] = {["ID"] = 1879513775; ["TIER"] = 3; }; -- Reclaiming An Shêru
+           [47] = {["ID"] = 1879513707; ["TIER"] = 3; }; -- Treasure-seeker of An Shêru
+           [48] = {["ID"] = 1879513697; ["TIER"] = 2; }; -- Slayer of An Shêru
+           [49] = {["ID"] = 1879513669; ["TIER"] = 3; }; -- Brigand-bane of An Shêru (Advanced)
+           [50] = {["ID"] = 1879513688; ["TIER"] = 4; }; -- Brigand-bane of An Shêru
+           [51] = {["ID"] = 1879513668; ["TIER"] = 3; }; -- Dead-slayer of An Shêru (Advanced)
+           [52] = {["ID"] = 1879513682; ["TIER"] = 4; }; -- Dead-slayer of An Shêru
+           [53] = {["ID"] = 1879513665; ["TIER"] = 3; }; -- Utûgi-bane of An Shêru (Advanced)
+           [54] = {["ID"] = 1879513674; ["TIER"] = 4; }; -- Utûgi-bane of An Shêru
+           [55] = {["ID"] = 1879513681; ["TIER"] = 3; }; -- Grodbog-slayer of An Shêru (Advanced)
+           [56] = {["ID"] = 1879513673; ["TIER"] = 4; }; -- Grodbog-slayer of An Shêru
+           [57] = {["ID"] = 1879513686; ["TIER"] = 3; }; -- Ordâkhai-bane of An Shêru (Advanced)
+           [58] = {["ID"] = 1879513671; ["TIER"] = 4; }; -- Ordâkhai-bane of An Shêru
+           [59] = {["ID"] = 1879513667; ["TIER"] = 3; }; -- Worm-bane of An Shêru (Advanced)
+           [60] = {["ID"] = 1879513684; ["TIER"] = 4; }; -- Worm-bane of An Shêru
+           [61] = {["ID"] = 1879513786; ["TIER"] = 2; }; -- Tales of An Shêru
+           [62] = {["CAT_ID"] = 340; ["TIER"] = 1; }; -- Idagâl
+           [63] = {["ID"] = 1879513783; ["TIER"] = 1; }; -- Renewer of Idagâl
+           [64] = {["ID"] = 1879513784; ["TIER"] = 2; }; -- Explorer of Idagâl
+           [65] = {["ID"] = 1879513793; ["TIER"] = 3; }; -- New Threats in Idagâl
+           [66] = {["ID"] = 1879513776; ["TIER"] = 3; }; -- Reclaiming Idagâl
+           [67] = {["ID"] = 1879513699; ["TIER"] = 3; }; -- Treasure-seeker of Idagâl
+           [68] = {["ID"] = 1879513700; ["TIER"] = 2; }; -- Slayer of Idagâl
+           [69] = {["ID"] = 1879513670; ["TIER"] = 3; }; -- Brigand-bane of Idagâl (Advanced)
+           [70] = {["ID"] = 1879513680; ["TIER"] = 4; }; -- Brigand-bane of Idagâl
+           [71] = {["ID"] = 1879513683; ["TIER"] = 3; }; -- Cobra-slayer of Idagâl (Advanced)
+           [72] = {["ID"] = 1879513676; ["TIER"] = 4; }; -- Cobra-slayer of Idagâl
+           [73] = {["ID"] = 1879513672; ["TIER"] = 3; }; -- Drake-slayer of Idagâl (Advanced)
+           [74] = {["ID"] = 1879513685; ["TIER"] = 4; }; -- Drake-slayer of Idagâl
+           [75] = {["ID"] = 1879513675; ["TIER"] = 3; }; -- Utûgi-bane of Idagâl (Advanced)
+           [76] = {["ID"] = 1879513687; ["TIER"] = 4; }; -- Utûgi-bane of Idagâl
+           [77] = {["ID"] = 1879513677; ["TIER"] = 3; }; -- Kergrim-slayer of Idagâl (Advanced)
+           [78] = {["ID"] = 1879513678; ["TIER"] = 4; }; -- Kergrim-slayer of Idagâl
+           [79] = {["ID"] = 1879513679; ["TIER"] = 3; }; -- Ordâkhai-bane of Idagâl (Advanced)
+           [80] = {["ID"] = 1879513666; ["TIER"] = 4; }; -- Ordâkhai-bane of Idagâl
+           [81] = {["ID"] = 1879513777; ["TIER"] = 2; }; -- Tales of Idagâl
+           [82] = {["CAT_ID"] = 341; }; -- Mûr Ghala
+           [83] = {["ID"] = 1879514041; }; -- Hunter of Mûr Ghala
+           [84] = {["ID"] = 1879514045; ["TIER"] = 1; }; -- Adversaries of Adagím
+           [85] = {["ID"] = 1879514044; ["TIER"] = 1; }; -- Combatants of Kighân
+           [86] = {["ID"] = 1879514039; ["TIER"] = 1; }; -- Enemies of An Shêru
+           [87] = {["ID"] = 1879514047; ["TIER"] = 1; }; -- Invaders of Idagâl
+           [88] = {["ID"] = 1879514046; }; -- Defender of Adagím
+           [89] = {["ID"] = 1879514040; }; -- Defender of Kighân
+           [90] = {["ID"] = 1879514042; }; -- Defender of An Shêru
+           [91] = {["ID"] = 1879514043; }; -- Defender of Idagâl
+           [92] = {["ID"] = 1879513808; }; -- Explorer of Mûr Ghala
+           [93] = {["ID"] = 1879513705; }; -- Treasure-seeker of Mûr Ghala
+           [94] = {["ID"] = 1879513698; }; -- Slayer of Mûr Ghala
+           [95] = {["ID"] = 1879513807; }; -- Tales of Mûr Ghala
+           [96] = {["ID"] = 1879513694; }; -- Brigand-bane of Mûr Ghala
+           [97] = {["ID"] = 1879513695; }; -- Nightmare of the Ordâkhai
+           [98] = {["ID"] = 1879513696; }; -- Spider-slayer of Mûr Ghala
+           [99] = {["ID"] = 1879513703; }; -- Orc-slayer of Mûr Ghala
         };
     };
 };

@@ -144,6 +144,7 @@ _DEED_LOG_PAGE_TAB_NAMES = {
     I_RETURN_TO_CARN_DUM_STR = "Retour à Carn Dûm";
     I_CORSAIRS_OF_UMBAR_STR = "Corsaires d'Umbar";
     I_THE_LEGACY_OF_MORGOTH_STR = "L'héritage de Morgoth";
+    I_KINGDOMS_OF_HARAD_STR = "Kingdoms of Harad";
 
     -- Hobbies
     H_FISHING_STR = "Pêche";
@@ -217,4 +218,5 @@ _DEED_LOG_PAGE_TAB_NAMES = {
     H_KHUD_ZAGIN_STR = "Khûd Zagin";
     H_IMHULAR_STR = "Imhûlar";
     H_URASH_DAR_STR = "Urash Dâr";
+    H_MUR_GHALA_STR = "Mûr Ghala"
 };

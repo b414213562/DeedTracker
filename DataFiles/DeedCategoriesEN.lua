@@ -160,6 +160,11 @@ _DEED_CATEGORIES = {
 [316] = { ["NAME"] = "Tûl Zakana, the Well of Forgetting"; };
 [319] = { ["NAME"] = "Temple of Utug-bûr"; };
 [322] = { ["NAME"] = "Dun Shûma, The King's Fortress"; };
+-- Instances / Kingdoms of Harad
+[333] = { ["TIER"] = 1; ["NAME"] = "The Treasure Caves of Hurum Kâna"; };
+[334] = { ["TIER"] = 1; ["NAME"] = "Kôth Rau, the Wailing Hold"; };
+[335] = { ["TIER"] = 1; ["NAME"] = "Ekal-nêbi, the Fallen Palace"; };
+[336] = { ["TIER"] = 1; ["NAME"] = "'The Folly of Nagakhêdi'"; };
 -- Hobbies / Birding
 [320] = { ["NAME"] = "Eriador"; };
 [321] = { ["NAME"] = "Rohan and the Great River"; };
@@ -309,6 +314,8 @@ _DEED_CATEGORIES = {
 [323] = { ["NAME"] = "The Kintai of Sul Madásh"; };
 [324] = { ["NAME"] = "The Temámir of Jiret-menêsh"; };
 [325] = { ["NAME"] = "The City of Zajâna"; };
+[331] = { ["NAME"] = "Hamât Renewed"; };
+[332] = { ["NAME"] = "Hunter's Guild of Mûr Ghala"; };
 [240] = { ["NAME"] = "Not Actively Achievable"; };
 [241] = { ["NAME"] = "- The Tournament of the Twins -"; };
 [242] = { ["NAME"] = "- Townsfolk of the Eastfold -"; };
@@ -373,6 +380,11 @@ _DEED_CATEGORIES = {
 -- Haradwaith
 [299] = { ["NAME"] = "The Depths of Mâkhda Khorbo"; };
 [304] = { ["NAME"] = "Umbar-môkh"; };
+[337] = { ["TIER"] = 1; ["NAME"] = "Adagím"; };
+[338] = { ["TIER"] = 1; ["NAME"] = "Kighân"; };
+[339] = { ["TIER"] = 1; ["NAME"] = "An Shêru"; };
+[340] = { ["TIER"] = 1; ["NAME"] = "Idagâl"; };
+[341] = { ["TIER"] = 1; ["NAME"] = "Mûr Ghala"; };
 };
 
--- Last used: 330
+-- Last used: 341

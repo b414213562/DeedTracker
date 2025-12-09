@@ -160,6 +160,11 @@ _DEED_CATEGORIES = {
 [316] = { ["NAME"] = "Tûl Zakana, der Quell des Vergessens"; };
 [319] = { ["NAME"] = "Tempels von Utug-bûr"; };
 [322] = { ["NAME"] = "Dun Shûma, die Festung des Königs"; };
+-- Instances / Kingdoms of Harad
+[333] = { ["TIER"] = 1; ["NAME"] = "Der Schatzhöhlen von Hurum Kâna"; };
+[334] = { ["TIER"] = 1; ["NAME"] = "Kôth Rau, die Klagefeste"; };
+[335] = { ["TIER"] = 1; ["NAME"] = "Ekal-nêbi, der gefallene Palast"; };
+[336] = { ["TIER"] = 1; ["NAME"] = "Nagakhêdis Torheit"; };
 -- Hobbies / Birding
 [320] = { ["NAME"] = "Eriador"; };
 [321] = { ["NAME"] = "Rohan und dem Großen Fluss"; };
@@ -309,6 +314,8 @@ _DEED_CATEGORIES = {
 [323] = { ["NAME"] = "Kintai von Sul Madásh"; };
 [324] = { ["NAME"] = "Temámir von Jiret-menêsh"; };
 [325] = { ["NAME"] = "Stadt Zajâna"; };
+[331] = { ["NAME"] = "Erneuerten Hamât"; };
+[332] = { ["NAME"] = "Jägergilde von Mûr Ghala"; };
 [240] = { ["NAME"] = "Not Actively Achievable"; };
 [241] = { ["NAME"] = "- Das Turnier der Zwillinge -"; };
 [242] = { ["NAME"] = "- Bewohner der Ostfold -"; };
@@ -373,4 +380,9 @@ _DEED_CATEGORIES = {
 -- Haradwaith
 [299] = { ["NAME"] = "Die Tiefen des Mâkhda Khorbo" };
 [304] = { ["NAME"] = "Umbar-môkh"; };
+[337] = { ["TIER"] = 1; ["NAME"] = "Adagím"; };
+[338] = { ["TIER"] = 1; ["NAME"] = "Kighân"; };
+[339] = { ["TIER"] = 1; ["NAME"] = "An Shêru"; };
+[340] = { ["TIER"] = 1; ["NAME"] = "Idagâl"; };
+[341] = { ["TIER"] = 1; ["NAME"] = "Mûr Ghala"; };
 };

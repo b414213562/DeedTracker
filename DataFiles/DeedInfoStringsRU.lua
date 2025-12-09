@@ -151,7 +151,8 @@ _DEED_LOG_PAGE_TAB_NAMES = {
     I_THE_MOUNTAIN_HOLD_STR = "Подгорная крепость";
     I_RETURN_TO_CARN_DUM_STR = "Возвращение в Карн-Дум";
     I_CORSAIRS_OF_UMBAR_STR = "Корсары Умбара";
-    I_THE_LEGACY_OF_MORGOTH_STR = "The Legacy of Morgoth";
+    I_THE_LEGACY_OF_MORGOTH_STR = "Наследие Моргота";
+    I_KINGDOMS_OF_HARAD_STR = "Kingdoms of Harad";
 
     -- Hobbies
     H_FISHING_STR = "Рыбалка";
@@ -221,8 +222,9 @@ _DEED_LOG_PAGE_TAB_NAMES = {
     H_THE_SHIELD_ISLES_STR = "Острова Щита";
     H_CAPE_OF_UMBAR_STR = "Умбарский мыс";
     H_UMBAR_BAHARBEL_STR = "Умбар-Бахарбель";
-    H_AMBARUL_STR = "Ambarûl";
+    H_AMBARUL_STR = "Амбарул";
     H_KHUD_ZAGIN_STR = "Khûd Zagin";
-    H_IMHULAR_STR = "Imhûlar";
-    H_URASH_DAR_STR = "Urash Dâr";
+    H_IMHULAR_STR = "Имхулар";
+    H_URASH_DAR_STR = "Ураш-Дар";
+    H_MUR_GHALA_STR = "Mûr Ghala"
 };
