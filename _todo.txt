@@ -1,3 +1,7 @@
+A Letter From Caebar:
+    Two versions of the deed, depending on: If you completed Halros Should Stay or Halros Should Go.
+    These need to be set up as mutually exclusive.
+
 LOTRO Companion wondered why the processor tries to figure out if the text contains "complete" "finish", etc.
     I couldn't remember why, but hypothesized:
         I had progressOverride="Menez des quêtes à bien dans l'Ered Luin" and count="20", 
@@ -78,9 +82,6 @@ Unknown zones:
 
 Deed Tracker: Automatically time out deeds that are older than 7 (configurable) days, so that it doesn't pile up for people who don't auto-show that window.
 
-A Letter From Caebar:
-    Two versions of the deed, depending on: If you completed Halros Should Stay or Halros Should Go.
-
 For the pre-processor:
     If a prerequisite deed has a minimum level, then the next level should have at least that min level.
     Example: 
@@ -156,7 +157,12 @@ Make maintenance easier: combine tier into DeedInfo.lua, and duplicate it into D
     Make a DeedInfoGenerator.lua that is taken in by the pre-processor, and that splits it into DeedInfo.lua and DeedDataXX.lua.
 
 
-Unknown chat channel: "Entered the Gundabad - Regional channel."
+Unknown chat channel: 
+    "Entered the Gundabad - Regional channel."
+
+    [09/24 02:38:44 PM] Entered the Umbar - Regional channel.
+    [09/24 02:38:44 PM] Deed Tracker thinks you moved from Bree-town to UNKNOWN
+
 Crell has a mount import issue with human characters.
     Crell — 06/14/2024 at 10:56 PM
     FWIW it didn't like my racial-mount stuff either, and had problems on one character thinking LC didn't think my reputation deeds had been earned for Cardolan. Everything had a fresh import right before. I may just need to delete all my cube-data and do a fresh  LC->Cube import boggle
