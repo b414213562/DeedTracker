@@ -305,7 +305,7 @@ _DEED_CATEGORIES = {
 [311] = { ["NAME"] = "Die Ikorbâni"; };
 [312] = { ["NAME"] = "Die Geschichtenhütern (Phetekâri von Umbar)"; };
 [313] = { ["NAME"] = "Die Kintai (Die Adúrhid)"; };
-[309] = { ["NAME"] = "Amelias Studien"; };
+[309] = { ["VEIL_OF_THE_NINE"] = true; ["NAME"] = "Amelias Studien"; };
 [323] = { ["NAME"] = "Kintai von Sul Madásh"; };
 [324] = { ["NAME"] = "Temámir von Jiret-menêsh"; };
 [325] = { ["NAME"] = "Stadt Zajâna"; };

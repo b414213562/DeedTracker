@@ -305,7 +305,7 @@ _DEED_CATEGORIES = {
 [311] = { ["NAME"] = "Les Ikorbâni"; };
 [312] = { ["NAME"] = "Les Gardiens des contes (Phetekâri du Umbar)"; };
 [313] = { ["NAME"] = "Des Kintai (Des Adúrhid)"; };
-[309] = { ["NAME"] = "Études d'Amelia"; };
+[309] = { ["VEIL_OF_THE_NINE"] = true; ["NAME"] = "Études d'Amelia"; };
 [323] = { ["NAME"] = "Kintai de Sul Madash"; };
 [324] = { ["NAME"] = "Temamir de Jiret-menêsh"; };
 [325] = { ["NAME"] = "Cité de Zajâna"; };

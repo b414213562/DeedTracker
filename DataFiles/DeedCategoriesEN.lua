@@ -305,7 +305,7 @@ _DEED_CATEGORIES = {
 [311] = { ["NAME"] = "The Ikorbâni"; };
 [312] = { ["NAME"] = "The Tale-wardens (Phetekâri of Umbar)"; };
 [313] = { ["NAME"] = "The Kintai (The Adúrhid)"; };
-[309] = { ["NAME"] = "Amelia's Studies"; };
+[309] = { ["VEIL_OF_THE_NINE"] = true; ["NAME"] = "Amelia's Studies"; };
 [323] = { ["NAME"] = "The Kintai of Sul Madásh"; };
 [324] = { ["NAME"] = "The Temámir of Jiret-menêsh"; };
 [325] = { ["NAME"] = "The City of Zajâna"; };
