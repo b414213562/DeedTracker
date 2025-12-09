@@ -6,25 +6,29 @@ _COMPLETED_DEED_ITEMS = {
         ["ITEM"] = {
             ["EN"] = "Dúnadan Workman's Outfit Gift Box";
             ["DE"] = "Geschenkkästchen mit Ausstattung des Dúnadan-Arbeiters";
-            ["FR"] = "Cadeau : Tenue d'ouvrier du Pays de Dun"; };
+            ["FR"] = "Cadeau : Tenue d'ouvrier du Pays de Dun";
             ["RU"] = "Подарочный костюм дунаданского рабочего";
+        };
         ["DEED"] = {
             ["EN"] = "Volume III Interludes, Part One";
             ["DE"] = "Band III Zwischenspiele - Erster Teil";
-            ["FR"] = "Interludes du Volume III : Première partie"; };
+            ["FR"] = "Interludes du Volume III : Première partie";
             ["RU"] = "Интермедии тома III, часть первая";
+        };
     };
     [2] = {
         ["ITEM"] = {
             ["EN"] = "Woodland Ranger's Outfit Gift Box";
             ["DE"] = "Geschenkkästchen mit Ausstattung des Waldland-Waldläufers";
-            ["FR"] = "Cadeau : Tenue de rôdeur des bois"; };
+            ["FR"] = "Cadeau : Tenue de rôdeur des bois";
             ["RU"] = "Подарочный костюм лесного следопыта";
+        };
         ["DEED"] = {
             ["EN"] = "Volume III Interludes, Part Two";
             ["DE"] = "Band III Zwischenspiele - Zweiter Teil";
-            ["FR"] = "Interludes du Volume III : Deuxième partie"; };
+            ["FR"] = "Interludes du Volume III : Deuxième partie";
             ["RU"] = "Интермедии тома III, часть вторая";
+        };
     };
     [3] = { -- 1879284570
         ["ITEM"] = {
