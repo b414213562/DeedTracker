@@ -39,7 +39,7 @@ To install:
 [*]Or if you prefer, you may use [url=https://www.lotrointerface.com/downloads/info663-LOTROPluginCompendium.html]Plugin Compendium[/url] to do the installation.
 [/list]
 
-To load the plugin, use the game's built-in Plugin Manager.  This can be found in the "^" menu, at the bottom of the screen.  Click the [IMG]http://i.imgur.com/aT2k9Lw.png[/IMG] icon, then choose "System" and then "Plugin Manager". (As a shortcut, you can also type "/plugins manager" in your chat window.)
+To load the plugin, use the game's built-in Plugin Manager.  This can be found in the "^" menu, at the bottom of the screen.  Click the [IMG]https://lifebeyondtheshire.com/plugins/LOTRO_menu_icon.png[/IMG] icon, then choose "System" and then "Plugin Manager". (As a shortcut, you can also type "/plugins manager" in your chat window.)
 
 When the Plugin Manager opens, find Deed Tracker in the list on the left side. Click "Load" to load the plugin.  If you would like the plugin to load automatically each time you login, choose your character's name in the "Automatically Load For" pulldown menu.
 
