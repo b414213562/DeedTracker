@@ -161,10 +161,10 @@ _DEED_CATEGORIES = {
 [319] = { ["NAME"] = "Temple d'Utug-bûr"; };
 [322] = { ["NAME"] = "Dun Shûma, la forteresse du roi"; };
 -- Instances / Kingdoms of Harad
-[333] = { ["TIER"] = 1; ["NAME"] = "The Treasure Caves of Hurum Kâna"; };
-[334] = { ["TIER"] = 1; ["NAME"] = "Kôth Rau, the Wailing Hold"; };
-[335] = { ["TIER"] = 1; ["NAME"] = "Ekal-nêbi, the Fallen Palace"; };
-[336] = { ["TIER"] = 1; ["NAME"] = "'The Folly of Nagakhêdi'"; };
+[333] = { ["TIER"] = 1; ["NAME"] = "Grottes au trésor de Hurum Kâna"; };
+[334] = { ["TIER"] = 1; ["NAME"] = "Kôth Rau, la Forteresse des lamentations"; };
+[335] = { ["TIER"] = 1; ["NAME"] = "Ekal-nêbi, le palais déchu"; };
+[336] = { ["TIER"] = 1; ["NAME"] = "'La Folie de Nagakhêdi'"; };
 -- Hobbies / Birding
 [320] = { ["NAME"] = "Eriador"; };
 [321] = { ["NAME"] = "Rohan et du Grand Fleuve"; };
@@ -314,8 +314,8 @@ _DEED_CATEGORIES = {
 [323] = { ["NAME"] = "Kintai de Sul Madash"; };
 [324] = { ["NAME"] = "Temamir de Jiret-menêsh"; };
 [325] = { ["NAME"] = "Cité de Zajâna"; };
-[331] = { ["NAME"] = "Hamât Renewed"; };
-[332] = { ["NAME"] = "Hunter's Guild of Mûr Ghala"; };
+[331] = { ["NAME"] = "Nouveau Hamât"; };
+[332] = { ["NAME"] = "Guilde des Chasseurs de Mûr Ghala"; };
 [240] = { ["NAME"] = "Not Actively Achievable"; };
 [241] = { ["NAME"] = "- Le tournoi des jumeaux -"; };
 [242] = { ["NAME"] = "- Townsfolk of the Eastfold -"; };
