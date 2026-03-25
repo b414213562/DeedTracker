@@ -1,0 +1,28 @@
+Deed Tracker version 3.2.3 is now available at [url=https://www.lotrointerface.com/downloads/info1139-DeedTracker.html]lotrointerface.com[/url].
+
+This release adds Update 46: Kingdoms of Harad deeds, and fixes a few minor issues.
+
+Version 3.2.3 release notes:
+
+Deeds:
+[list]
+    [*] Class/Race/Epic / Reputation:
+    [list]
+        [*] Added Veil of the Nine category on the Amelia's Studies category.
+        [*] Added U46 deeds for factions Kintai of Sul Madásh, Temámir of Jiret-menêsh, City of Zajâna, Hamât Renewed, and Hunter's Guild of Mûr Ghala.
+    [/list]
+    [*] Instances / Kingdoms of Harad:
+    [list]
+        [*] Added U46 deeds for instances The Treasure Caves of Hurum Kâna, Kôth Rau, the Wailing Hold, Ekal-nêbi, the Fallen Palace, and 'The Folly of Nagakhêdi'.
+    [/list]
+    [*] Haradwaith / Mûr Ghala:
+    [list]
+        [*] Added U46 deeds for regions Mûr Ghala, Adagím, Kighân, An Shêru, and Idagâl.
+    [/list]
+[/list]
+
+Other:
+[list]
+    [*] Changed wording on the general chat command "/help", and the specific chat commands "/help deedtracker", "/help deeds", and "/help deed".
+    [*] Fixed issue preventing Deed detection via items in inventory from working in Russian for deeds "Volume III Interludes, Part One" and "Volume III Interludes, Part Two".
+[/list]
