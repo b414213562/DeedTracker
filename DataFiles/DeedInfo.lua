@@ -1269,12 +1269,13 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
            [21] = {["ID"] = 1879520125; ["TIER"] = 2; }; -- Explorer of 'The Folly of Nagakhêdi' - Tier 1
            [22] = {["ID"] = 1879520126; ["TIER"] = 2; }; -- Explorer of 'The Folly of Nagakhêdi' - Tier 2
            [23] = {["ID"] = 1879520128; ["TIER"] = 2; }; -- Explorer of 'The Folly of Nagakhêdi' - Tier 3
-           [24] = {["CAT_ID"] = 282; }; -- Not Actively Achievable
-           [25] = {["ID"] = 1879519550; }; -- The Treasure Caves of Hurum Kâna -- Tier 3 -- Leading the Charge
-           [26] = {["ID"] = 1879518739; }; -- Kôth Rau, the Wailing Hold -- Tier 3 -- Leading the Charge
-           [27] = {["ID"] = 1879519222; }; -- Ekal-nêbi, the Fallen Palace -- Tier 3 -- Leading the Charge
-           [28] = {["ID"] = 1879520129; }; -- The Folly of Nagakhêdi -- Leading the Charge
-           [29] = {["ID"] = 1879520127; }; -- The Folly of Nagakhêdi -- Original Challenger
+           [24] = {["ID"] = 1879522095; }; -- Conqueror of the Legion of Lhaereth
+           [25] = {["CAT_ID"] = 282; }; -- Not Actively Achievable
+           [26] = {["ID"] = 1879519550; }; -- The Treasure Caves of Hurum Kâna -- Tier 3 -- Leading the Charge
+           [27] = {["ID"] = 1879518739; }; -- Kôth Rau, the Wailing Hold -- Tier 3 -- Leading the Charge
+           [28] = {["ID"] = 1879519222; }; -- Ekal-nêbi, the Fallen Palace -- Tier 3 -- Leading the Charge
+           [29] = {["ID"] = 1879520129; }; -- The Folly of Nagakhêdi -- Leading the Charge
+           [30] = {["ID"] = 1879520127; }; -- The Folly of Nagakhêdi -- Original Challenger           
         };
     };
     -- Hobbies
@@ -1498,6 +1499,8 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
            [15] = {["ID"] = 1879509058; }; -- Title: The Respected Voice
            [16] = {["CAT_ID"] = 330; }; -- - Season of Spirit -
            [17] = {["ID"] = 1879509059; }; -- Title: The Spirit's Guide
+           [18] = {["CAT_ID"] = 342; }; -- - Monster Player Reward Season 6 -
+           [19] = {["ID"] = 1879523597; }; -- Title: Bastion of Light          
         };
         -- Osgiliath
         [W_OSGILIATH] = {
@@ -2262,214 +2265,215 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
           [217] = {["ID"] = 1879153207; }; -- Spring Sprung! (Spring Festival)
           [218] = {["ID"] = 1879182327; }; -- The Taming of the Shrews (Spring Festival)
           [219] = {["ID"] = 1879182332; ["TIER"] = 1; }; -- The Shrewd Gardener (Spring Festival)
-          [220] = {["CAT_ID"] = 145; ["TIER"] = 1; }; -- - Bee's Big Business -
-          [221] = {["ID"] = 1879414344; }; -- Challenge: Bee's Big Business -- Small Fellowship (Spring Festival)
-          [222] = {["ID"] = 1879414345; }; -- Challenge: Bee's Big Business -- Fellowship (Spring Festival)
-          [223] = {["CAT_ID"] = 146; }; -- Farmers Faire and Spring Festival
-          [224] = {["ID"] = 1879210648; }; -- Consume Consumables: Doom-shroom (Farmers Faire and Spring Festival)
-          [225] = {["CAT_ID"] = 147; }; -- Hobnanigans and Treasure Hunt
-          [226] = {["ID"] = 1879406772; }; -- Consume Consumables: Black-foot Carrying Chicken (Hobnanigans and Treasure Hunt)
-          [227] = {["ID"] = 1879406771; }; -- Consume Consumables: Dorking Carrying Chicken (Hobnanigans and Treasure Hunt)
-          [228] = {["ID"] = 1879406774; }; -- Consume Consumables: Orange Wyandotte Carrying Chicken (Hobnanigans and Treasure Hunt)
-          [229] = {["ID"] = 1879406769; }; -- Consume Consumables: Red Carrying Chicken (Hobnanigans and Treasure Hunt)
-          [230] = {["ID"] = 1879406773; }; -- Consume Consumables: Scrapper Carrying Chicken (Hobnanigans and Treasure Hunt)
-          [231] = {["ID"] = 1879406770; }; -- Consume Consumables: White Carrying Chicken (Hobnanigans and Treasure Hunt)
-          [232] = {["ID"] = 1879418933; }; -- Consume Consumables: Flower Facepaint Stencils (Hobnanigans and Treasure Hunt)
-          [233] = {["ID"] = 1879418934; }; -- Consume Consumables: Bee Facepaint Stencils (Hobnanigans and Treasure Hunt)
-          [234] = {["ID"] = 1879418935; }; -- Consume Consumables: Feather Facepaint Stencils (Hobnanigans and Treasure Hunt)
-          [235] = {["ID"] = 1879418936; }; -- Consume Consumables: Butterfly Facepaint Stencils (Hobnanigans and Treasure Hunt)
-          [236] = {["ID"] = 1879418937; }; -- Consume Consumables: Bow Facepaint Stencils (Hobnanigans and Treasure Hunt)
-          [237] = {["ID"] = 1879418938; }; -- Consume Consumables: Star Facepaint Stencils (Hobnanigans and Treasure Hunt)
-          [238] = {["ID"] = 1879418939; }; -- Consume Consumables: Sword Facepaint Stencils (Hobnanigans and Treasure Hunt)
-          [239] = {["ID"] = 1879418940; }; -- Consume Consumables: Pipe Facepaint Stencils (Hobnanigans and Treasure Hunt)
-          [240] = {["CAT_ID"] = 148; }; -- Ale & Inn
-          [241] = {["ID"] = 1879183074; }; -- Kindred of Malevolence (Ale Association)
-          [242] = {["ID"] = 1879183073; ["TIER"] = 1; }; -- Ale Association Ally (Ale Association)
-          [243] = {["ID"] = 1879183072; ["TIER"] = 2; }; -- Ale Association Friend (Ale Association)
-          [244] = {["ID"] = 1879183071; ["TIER"] = 3; }; -- Ale Association Acquaintance (Ale Association)
-          [245] = {["ID"] = 1879185930; ["TIER"] = 4; }; -- Ale Association Initiation (Ale Association)
-          [246] = {["ID"] = 1879185460; }; -- Ale Association Delivery (Ale Association)
-          [247] = {["ID"] = 1879107892; }; -- Inn League Notable
-          [248] = {["ID"] = 1879107893; ["TIER"] = 1; }; -- Senior Inn League Member
-          [249] = {["ID"] = 1879107439; ["TIER"] = 2; }; -- Inn League Member (Inn League)
-          [250] = {["ID"] = 1879185461; }; -- Inn League Delivery (Inn League)
-          [251] = {["ID"] = 1879107438; }; -- Inn League Challenge (Inn League)
-          [252] = {["CAT_ID"] = 149; }; -- Miscellaneous
-          [253] = {["ID"] = 1879150943; }; -- Defender of Caras Galadhon
-          [254] = {["ID"] = 1879115232; }; -- Boar-slayer
-          [255] = {["ID"] = 1879222054; }; -- The Adventures of Floid and Dewitt
-          [256] = {["ID"] = 1879267993; }; -- The Adventures of Floid and Dewitt: Part Deux
-          [257] = {["ID"] = 1879206037; }; -- Cartographile -- Eriador
-          [258] = {["ID"] = 1879206033; }; -- Cartographile -- Moria
-          [259] = {["ID"] = 1879094069; }; -- The Unwise
-          [260] = {["ID"] = 1879303569; }; -- Deeds of Eriador
-          [261] = {["ID"] = 1879338183; }; -- Quests in The Cape of Belfalas
-          [262] = {["ID"] = 1879321690; }; -- Roving Threat-slayer (Final)
-          [263] = {["ID"] = 1879321691; ["TIER"] = 1; }; -- Roving Threat-slayer (Advanced)
-          [264] = {["ID"] = 1879321692; ["TIER"] = 2; }; -- Roving Threat-slayer
-          [265] = {["CAT_ID"] = 150; }; -- Collection
-          [266] = {["ID"] = 1879344719; }; -- Best Bugs
-          [267] = {["ID"] = 1879344716; }; -- Fetching Foxes
-          [268] = {["ID"] = 1879344628; }; -- Fowl Collection
-          [269] = {["ID"] = 1879344637; }; -- Friendly Frogs
-          [270] = {["ID"] = 1879344639; }; -- Grim Friends
-          [271] = {["ID"] = 1879344638; }; -- Huorns of Fangorn
-          [272] = {["ID"] = 1879361988; }; -- Rider of Rohan (large)
-          [273] = {["ID"] = 1879363512; }; -- Rider of Rohan (small)
-          [274] = {["ID"] = 1879361998; }; -- Rider of the Free Peoples (large)
-          [275] = {["ID"] = 1879363506; }; -- Rider of the Free Peoples (small)
-          [276] = {["ID"] = 1879344635; }; -- Shrewd Companions
-          [277] = {["ID"] = 1879344636; }; -- Swans of West Gondor
-          [278] = {["ID"] = 1879361999; }; -- The Steeds of Gondor (large)
-          [279] = {["ID"] = 1879363516; }; -- The Steeds of Gondor (small)
-          [280] = {["CAT_ID"] = 151; }; -- - Treasure Hunt -
-          [281] = {["ID"] = 1879210593; }; -- Cave-claw Wrangler (Treasure Hunt)
-          [282] = {["ID"] = 1879344634; }; -- Treasure Hunters (Treasure Hunt)
-          [283] = {["ID"] = 1879361995; }; -- Treasure Mounts (Treasure Hunt)
-          [284] = {["ID"] = 1879363510; }; -- Treasure Mounts (Treasure Hunt)
-          [285] = {["CAT_ID"] = 152; }; -- Legendary Server Deeds
-          [286] = {["ID"] = 1879381843; }; -- There and Bree Again
-          [287] = {["ID"] = 1879381844; }; -- Daughter of Strife
-          [288] = {["ID"] = 1879381845; }; -- Legendary Angmar
-          [289] = {["ID"] = 1879381882; }; -- Rambling Rover
-          [290] = {["ID"] = 1879383612; }; -- Legend of Angmar
-          [291] = {["ID"] = 1879381842; }; -- Out From the Shadows
-          [292] = {["ID"] = 1879385678; }; -- Legendary Moria
-          [293] = {["ID"] = 1879385683; }; -- Scourge of Khazad-dûm
-          [294] = {["ID"] = 1879385676; }; -- Legend of Moria
-          [295] = {["ID"] = 1879385682; }; -- Through the Mines
-          [296] = {["ID"] = 1879389217; }; -- Legend of Mirkwood
-          [297] = {["ID"] = 1879389219; }; -- Legendary Mirkwood
-          [298] = {["ID"] = 1879389215; }; -- Echoes of the Dead
-          [299] = {["ID"] = 1879389221; }; -- To the Hill of Dark Sorcery
-          [300] = {["ID"] = 1879394297; }; -- Legend of Limlight Gorge
-          [301] = {["ID"] = 1879389216; }; -- Mists of Anduin
-          [302] = {["ID"] = 1879389220; }; -- Into the Iron Fortress
-          [303] = {["ID"] = 1879403957; }; -- The Third Marshal
-          [304] = {["ID"] = 1879403958; }; -- Legendary Wildermore
-          [305] = {["ID"] = 1879403960; }; -- Legend of Rohan
-          [306] = {["ID"] = 1879403959; }; -- Up to the Mark
-          [307] = {["ID"] = 1879409576; }; -- The Battle of the Hornburg
-          [308] = {["ID"] = 1879409575; }; -- Legend of Fangorn
-          [309] = {["ID"] = 1879409573; }; -- Forth Eorlingas!
-          [310] = {["ID"] = 1879413851; }; -- Siege of the White City
-          [311] = {["ID"] = 1879413852; }; -- Beacon of Gondor
-          [312] = {["ID"] = 1879413853; }; -- Ashes and Stars
-          [313] = {["ID"] = 1879413850; }; -- A Glimmering in the Dark
-          [314] = {["ID"] = 1879418558; }; -- The Black Gate
-          [315] = {["ID"] = 1879418565; }; -- Unbowed and Unbroken
-          [316] = {["ID"] = 1879418566; }; -- Waste Not
-          [317] = {["ID"] = 1879418568; }; -- Survey the Slag-hills
-          [318] = {["ID"] = 1879422535; }; -- Conquer the Plateau of Gorgoroth
-          [319] = {["ID"] = 1879422532; }; -- The Next Adventure - Wood, Lake, Mountain, and Stone
-          [320] = {["ID"] = 1879422533; }; -- Traveller of Wood, Lake, Mountain, and Stone
-          [321] = {["ID"] = 1879422534; }; -- Uninvited Guest
-          [322] = {["ID"] = 1879442835; }; -- Arrival of the Wise
-          [323] = {["ID"] = 1879442838; }; -- Legendary Interlude: Shades in the Swamp
-          [324] = {["ID"] = 1879442837; }; -- Seeker of Dragons
-          [325] = {["ID"] = 1879442836; }; -- Journeyer through Hills, Mountains, and Vales
-          [326] = {["ID"] = 1879446734; }; -- Final Escape
-          [327] = {["ID"] = 1879446732; }; -- The War of Three Peaks
-          [328] = {["ID"] = 1879446731; }; -- Legendary Interlude: Blood of Azog
-          [329] = {["ID"] = 1879446733; }; -- Surveyor of Dwarf-lands
-          [330] = {["CAT_ID"] = 153; }; -- Not Actively Achievable
-          [331] = {["CAT_ID"] = 130; }; -- Avoiding Defeat
-          [332] = {["ID"] = 1879071650; }; -- The Undying
-          [333] = {["ID"] = 1879071649; ["TIER"] = 1; }; -- The Unscathed
-          [334] = {["ID"] = 1879071648; ["TIER"] = 2; }; -- The Indomitable
-          [335] = {["ID"] = 1879071647; ["TIER"] = 3; }; -- The Undefeated
-          [336] = {["ID"] = 1879071646; ["TIER"] = 4; }; -- The Wary
-          [337] = {["CAT_ID"] = 154; ["TIER"] = 1; }; -- - Account Anniversary -
-          [338] = {["ID"] = 1879303873; }; -- Seven Stars Title
-          [339] = {["CAT_ID"] = 155; ["TIER"] = 1; }; -- - Festivals -
-          [340] = {["ID"] = 1879153304; }; -- A Day of Pranks
-          [341] = {["ID"] = 1879161685; }; -- Harvestmath
-          [342] = {["ID"] = 1879163927; }; -- Yule
-          [343] = {["ID"] = 1879199417; }; -- Honoured Yule-friend (Yule Festival)
-          [344] = {["ID"] = 1879447587; }; -- Happy 15th Anniversary
-          [345] = {["ID"] = 1879200236; }; -- Protagonist
-          [346] = {["ID"] = 1879200237; }; -- Villain
-          [347] = {["ID"] = 1879200238; }; -- Extra
-          [348] = {["ID"] = 1879182341; }; -- The Spring Festival -- Season of the Garden
-          [349] = {["ID"] = 1879185268; }; -- Happy Summer
-          [350] = {["CAT_ID"] = 156; ["TIER"] = 1; }; -- - Miscellaneous -
-          [351] = {["ID"] = 1879355930; }; -- Aria of Virtues
-          [352] = {["ID"] = 1879397777; }; -- Valar Trait Points - 120
-          [353] = {["ID"] = 1879439189; }; -- Valar Trait Points - 130
-          [354] = {["CAT_ID"] = 157; ["TIER"] = 1; }; -- - Book 14 / Eregion pre-release, 2008 -
-          [355] = {["ID"] = 1879114138; }; -- Master of Forgotten Lore
-          [356] = {["ID"] = 1879114137; ["TIER"] = 1; }; -- Seeker of Truth
-          [357] = {["ID"] = 1879114136; ["TIER"] = 2; }; -- Revealer of the Lost
-          [358] = {["ID"] = 1879114135; ["TIER"] = 3; }; -- Student of the Past
-          [359] = {["CAT_ID"] = 158; }; -- - Bounder's Bounty, 2013 -
-          [360] = {["ID"] = 1879279182; }; -- Bounder's Bounty (Tier 3)
-          [361] = {["ID"] = 1879279184; ["TIER"] = 1; }; -- Bounder's Bounty (Tier 2)
-          [362] = {["ID"] = 1879279183; ["TIER"] = 2; }; -- Bounder's Bounty (Tier 1)
-          [363] = {["CAT_ID"] = 159; ["TIER"] = 1; }; -- - 2015 World Consolidation Event -
-          [364] = {["ID"] = 1879326383; }; -- World Consolidation Announcement
-          [365] = {["ID"] = 1879326065; }; -- World Consolidation Begins
-          [366] = {["ID"] = 1879326067; }; -- World Consolidation Begins
-          [367] = {["ID"] = 1879327466; }; -- Of Aglarond
-          [368] = {["ID"] = 1879326643; }; -- Of Anduin
-          [369] = {["ID"] = 1879326644; }; -- Of Arkenstone
-          [370] = {["ID"] = 1879326645; }; -- Of Belegaer
-          [371] = {["ID"] = 1879326646; }; -- Of Brandywine
-          [372] = {["ID"] = 1879326647; }; -- Of Crickhollow
-          [373] = {["ID"] = 1879326648; }; -- Of Dwarrowdelf
-          [374] = {["ID"] = 1879326649; }; -- Of Eldar
-          [375] = {["ID"] = 1879326531; }; -- Of Elendilmir
-          [376] = {["ID"] = 1879326650; }; -- Of Estel
-          [377] = {["ID"] = 1879326651; }; -- Of Evernight
-          [378] = {["ID"] = 1879326652; }; -- Of Firefoot
-          [379] = {["ID"] = 1879327458; }; -- Of Fornost
-          [380] = {["ID"] = 1879326653; }; -- Of Gilrain
-          [381] = {["ID"] = 1879326654; }; -- Of Gladden
-          [382] = {["ID"] = 1879326655; }; -- Of Gwaihir
-          [383] = {["ID"] = 1879326656; }; -- Of Imladris
-          [384] = {["ID"] = 1879326657; }; -- Of Landroval
-          [385] = {["ID"] = 1879326658; }; -- Of Laurelin
-          [386] = {["ID"] = 1879326659; }; -- Of Maiar
-          [387] = {["ID"] = 1879326660; }; -- Of Meneldor
-          [388] = {["ID"] = 1879327464; }; -- Of Mirkwood
-          [389] = {["ID"] = 1879326661; }; -- Of Morthond
-          [390] = {["ID"] = 1879326662; }; -- Of Nimrodel
-          [391] = {["ID"] = 1879326663; }; -- Of Riddermark
-          [392] = {["ID"] = 1879326664; }; -- Of Silverlode
-          [393] = {["ID"] = 1879326665; }; -- Of Sirannon
-          [394] = {["ID"] = 1879326666; }; -- Of Snowbourn
-          [395] = {["ID"] = 1879326667; }; -- Of Vanyar
-          [396] = {["ID"] = 1879326668; }; -- Of Vilya
-          [397] = {["ID"] = 1879326669; }; -- Of Windfola
-          [398] = {["ID"] = 1879326670; }; -- Of Withywindle
-          [399] = {["CAT_ID"] = 160; }; -- - Mordor, 2017 -
-          [400] = {["ID"] = 1879353104; }; -- Mordor Collector
-          [401] = {["ID"] = 1879353101; }; -- Mordor Ultimate Fan
-          [402] = {["CAT_ID"] = 161; }; -- - Collections -
-          [403] = {["ID"] = 1879361989; }; -- 2013 Festival Steeds (large)
-          [404] = {["ID"] = 1879363520; }; -- 2013 Festival Steeds (small)
-          [405] = {["ID"] = 1879361993; }; -- 2014 Festival Steeds (large)
-          [406] = {["ID"] = 1879363518; }; -- 2014 Festival Steeds (small)
-          [407] = {["ID"] = 1879361997; }; -- 2015 Festival Steeds (large)
-          [408] = {["ID"] = 1879363513; }; -- 2015 Festival Steeds (small)
-          [409] = {["ID"] = 1879362010; }; -- 2016 Festival Steeds (large)
-          [410] = {["ID"] = 1879363507; }; -- 2016 Festival Steeds (small)
-          [411] = {["ID"] = 1879362011; }; -- 2017 Festival Steeds (large)
-          [412] = {["ID"] = 1879363519; }; -- 2017 Festival Steeds (small)
-          [413] = {["ID"] = 1879361994; }; -- Autumn Adventurer (large)
-          [414] = {["ID"] = 1879363509; }; -- Autumn Adventurer (small)
-          [415] = {["ID"] = 1879362013; }; -- Goat-herder (large)
-          [416] = {["ID"] = 1879363515; }; -- Goat-herder (small)
-          [417] = {["ID"] = 1879361990; }; -- Spring in Your Step (large)
-          [418] = {["ID"] = 1879363517; }; -- Spring in Your Step (small)
-          [419] = {["ID"] = 1879361991; }; -- Sun-strider (large)
-          [420] = {["ID"] = 1879363514; }; -- Sun-strider (small)
-          [421] = {["ID"] = 1879362003; }; -- The Steeds of Gorgoroth
-          [422] = {["ID"] = 1879361992; }; -- Veteran of the Third Age (large)
-          [423] = {["ID"] = 1879363508; }; -- Veteran of the Third Age (small)
-          [424] = {["ID"] = 1879361996; }; -- Winter-rider (large)
-          [425] = {["ID"] = 1879363511; }; -- Winter-rider (small)
-          [426] = {["CAT_ID"] = 286; }; -- Valar - 140
-          [427] = {["ID"] = 1879463469; }; -- Valar Instance and Skirmish Access - 140
+          [220] = {["ID"] = 1879524281; }; -- Consume Consumables: Maramam's Bacon Pie (Spring Festival)
+          [221] = {["CAT_ID"] = 145; ["TIER"] = 1; }; -- - Bee's Big Business -
+          [222] = {["ID"] = 1879414344; }; -- Challenge: Bee's Big Business -- Small Fellowship (Spring Festival)
+          [223] = {["ID"] = 1879414345; }; -- Challenge: Bee's Big Business -- Fellowship (Spring Festival)
+          [224] = {["CAT_ID"] = 146; }; -- Farmers Faire and Spring Festival
+          [225] = {["ID"] = 1879210648; }; -- Consume Consumables: Doom-shroom (Farmers Faire and Spring Festival)
+          [226] = {["CAT_ID"] = 147; }; -- Hobnanigans and Treasure Hunt
+          [227] = {["ID"] = 1879406772; }; -- Consume Consumables: Black-foot Carrying Chicken (Hobnanigans and Treasure Hunt)
+          [228] = {["ID"] = 1879406771; }; -- Consume Consumables: Dorking Carrying Chicken (Hobnanigans and Treasure Hunt)
+          [229] = {["ID"] = 1879406774; }; -- Consume Consumables: Orange Wyandotte Carrying Chicken (Hobnanigans and Treasure Hunt)
+          [230] = {["ID"] = 1879406769; }; -- Consume Consumables: Red Carrying Chicken (Hobnanigans and Treasure Hunt)
+          [231] = {["ID"] = 1879406773; }; -- Consume Consumables: Scrapper Carrying Chicken (Hobnanigans and Treasure Hunt)
+          [232] = {["ID"] = 1879406770; }; -- Consume Consumables: White Carrying Chicken (Hobnanigans and Treasure Hunt)
+          [233] = {["ID"] = 1879418933; }; -- Consume Consumables: Flower Facepaint Stencils (Hobnanigans and Treasure Hunt)
+          [234] = {["ID"] = 1879418934; }; -- Consume Consumables: Bee Facepaint Stencils (Hobnanigans and Treasure Hunt)
+          [235] = {["ID"] = 1879418935; }; -- Consume Consumables: Feather Facepaint Stencils (Hobnanigans and Treasure Hunt)
+          [236] = {["ID"] = 1879418936; }; -- Consume Consumables: Butterfly Facepaint Stencils (Hobnanigans and Treasure Hunt)
+          [237] = {["ID"] = 1879418937; }; -- Consume Consumables: Bow Facepaint Stencils (Hobnanigans and Treasure Hunt)
+          [238] = {["ID"] = 1879418938; }; -- Consume Consumables: Star Facepaint Stencils (Hobnanigans and Treasure Hunt)
+          [239] = {["ID"] = 1879418939; }; -- Consume Consumables: Sword Facepaint Stencils (Hobnanigans and Treasure Hunt)
+          [240] = {["ID"] = 1879418940; }; -- Consume Consumables: Pipe Facepaint Stencils (Hobnanigans and Treasure Hunt)
+          [241] = {["CAT_ID"] = 148; }; -- Ale & Inn
+          [242] = {["ID"] = 1879183074; }; -- Kindred of Malevolence (Ale Association)
+          [243] = {["ID"] = 1879183073; ["TIER"] = 1; }; -- Ale Association Ally (Ale Association)
+          [244] = {["ID"] = 1879183072; ["TIER"] = 2; }; -- Ale Association Friend (Ale Association)
+          [245] = {["ID"] = 1879183071; ["TIER"] = 3; }; -- Ale Association Acquaintance (Ale Association)
+          [246] = {["ID"] = 1879185930; ["TIER"] = 4; }; -- Ale Association Initiation (Ale Association)
+          [247] = {["ID"] = 1879185460; }; -- Ale Association Delivery (Ale Association)
+          [248] = {["ID"] = 1879107892; }; -- Inn League Notable
+          [249] = {["ID"] = 1879107893; ["TIER"] = 1; }; -- Senior Inn League Member
+          [250] = {["ID"] = 1879107439; ["TIER"] = 2; }; -- Inn League Member (Inn League)
+          [251] = {["ID"] = 1879185461; }; -- Inn League Delivery (Inn League)
+          [252] = {["ID"] = 1879107438; }; -- Inn League Challenge (Inn League)
+          [253] = {["CAT_ID"] = 149; }; -- Miscellaneous
+          [254] = {["ID"] = 1879150943; }; -- Defender of Caras Galadhon
+          [255] = {["ID"] = 1879115232; }; -- Boar-slayer
+          [256] = {["ID"] = 1879222054; }; -- The Adventures of Floid and Dewitt
+          [257] = {["ID"] = 1879267993; }; -- The Adventures of Floid and Dewitt: Part Deux
+          [258] = {["ID"] = 1879206037; }; -- Cartographile -- Eriador
+          [259] = {["ID"] = 1879206033; }; -- Cartographile -- Moria
+          [260] = {["ID"] = 1879094069; }; -- The Unwise
+          [261] = {["ID"] = 1879303569; }; -- Deeds of Eriador
+          [262] = {["ID"] = 1879338183; }; -- Quests in The Cape of Belfalas
+          [263] = {["ID"] = 1879321690; }; -- Roving Threat-slayer (Final)
+          [264] = {["ID"] = 1879321691; ["TIER"] = 1; }; -- Roving Threat-slayer (Advanced)
+          [265] = {["ID"] = 1879321692; ["TIER"] = 2; }; -- Roving Threat-slayer
+          [266] = {["CAT_ID"] = 150; }; -- Collection
+          [267] = {["ID"] = 1879344719; }; -- Best Bugs
+          [268] = {["ID"] = 1879344716; }; -- Fetching Foxes
+          [269] = {["ID"] = 1879344628; }; -- Fowl Collection
+          [270] = {["ID"] = 1879344637; }; -- Friendly Frogs
+          [271] = {["ID"] = 1879344639; }; -- Grim Friends
+          [272] = {["ID"] = 1879344638; }; -- Huorns of Fangorn
+          [273] = {["ID"] = 1879361988; }; -- Rider of Rohan (large)
+          [274] = {["ID"] = 1879363512; }; -- Rider of Rohan (small)
+          [275] = {["ID"] = 1879361998; }; -- Rider of the Free Peoples (large)
+          [276] = {["ID"] = 1879363506; }; -- Rider of the Free Peoples (small)
+          [277] = {["ID"] = 1879344635; }; -- Shrewd Companions
+          [278] = {["ID"] = 1879344636; }; -- Swans of West Gondor
+          [279] = {["ID"] = 1879361999; }; -- The Steeds of Gondor (large)
+          [280] = {["ID"] = 1879363516; }; -- The Steeds of Gondor (small)
+          [281] = {["CAT_ID"] = 151; }; -- - Treasure Hunt -
+          [282] = {["ID"] = 1879210593; }; -- Cave-claw Wrangler (Treasure Hunt)
+          [283] = {["ID"] = 1879344634; }; -- Treasure Hunters (Treasure Hunt)
+          [284] = {["ID"] = 1879361995; }; -- Treasure Mounts (Treasure Hunt)
+          [285] = {["ID"] = 1879363510; }; -- Treasure Mounts (Treasure Hunt)
+          [286] = {["CAT_ID"] = 152; }; -- Legendary Server Deeds
+          [287] = {["ID"] = 1879381843; }; -- There and Bree Again
+          [288] = {["ID"] = 1879381844; }; -- Daughter of Strife
+          [289] = {["ID"] = 1879381845; }; -- Legendary Angmar
+          [290] = {["ID"] = 1879381882; }; -- Rambling Rover
+          [291] = {["ID"] = 1879383612; }; -- Legend of Angmar
+          [292] = {["ID"] = 1879381842; }; -- Out From the Shadows
+          [293] = {["ID"] = 1879385678; }; -- Legendary Moria
+          [294] = {["ID"] = 1879385683; }; -- Scourge of Khazad-dûm
+          [295] = {["ID"] = 1879385676; }; -- Legend of Moria
+          [296] = {["ID"] = 1879385682; }; -- Through the Mines
+          [297] = {["ID"] = 1879389217; }; -- Legend of Mirkwood
+          [298] = {["ID"] = 1879389219; }; -- Legendary Mirkwood
+          [299] = {["ID"] = 1879389215; }; -- Echoes of the Dead
+          [300] = {["ID"] = 1879389221; }; -- To the Hill of Dark Sorcery
+          [301] = {["ID"] = 1879394297; }; -- Legend of Limlight Gorge
+          [302] = {["ID"] = 1879389216; }; -- Mists of Anduin
+          [303] = {["ID"] = 1879389220; }; -- Into the Iron Fortress
+          [304] = {["ID"] = 1879403957; }; -- The Third Marshal
+          [305] = {["ID"] = 1879403958; }; -- Legendary Wildermore
+          [306] = {["ID"] = 1879403960; }; -- Legend of Rohan
+          [307] = {["ID"] = 1879403959; }; -- Up to the Mark
+          [308] = {["ID"] = 1879409576; }; -- The Battle of the Hornburg
+          [309] = {["ID"] = 1879409575; }; -- Legend of Fangorn
+          [310] = {["ID"] = 1879409573; }; -- Forth Eorlingas!
+          [311] = {["ID"] = 1879413851; }; -- Siege of the White City
+          [312] = {["ID"] = 1879413852; }; -- Beacon of Gondor
+          [313] = {["ID"] = 1879413853; }; -- Ashes and Stars
+          [314] = {["ID"] = 1879413850; }; -- A Glimmering in the Dark
+          [315] = {["ID"] = 1879418558; }; -- The Black Gate
+          [316] = {["ID"] = 1879418565; }; -- Unbowed and Unbroken
+          [317] = {["ID"] = 1879418566; }; -- Waste Not
+          [318] = {["ID"] = 1879418568; }; -- Survey the Slag-hills
+          [319] = {["ID"] = 1879422535; }; -- Conquer the Plateau of Gorgoroth
+          [320] = {["ID"] = 1879422532; }; -- The Next Adventure - Wood, Lake, Mountain, and Stone
+          [321] = {["ID"] = 1879422533; }; -- Traveller of Wood, Lake, Mountain, and Stone
+          [322] = {["ID"] = 1879422534; }; -- Uninvited Guest
+          [323] = {["ID"] = 1879442835; }; -- Arrival of the Wise
+          [324] = {["ID"] = 1879442838; }; -- Legendary Interlude: Shades in the Swamp
+          [325] = {["ID"] = 1879442837; }; -- Seeker of Dragons
+          [326] = {["ID"] = 1879442836; }; -- Journeyer through Hills, Mountains, and Vales
+          [327] = {["ID"] = 1879446734; }; -- Final Escape
+          [328] = {["ID"] = 1879446732; }; -- The War of Three Peaks
+          [329] = {["ID"] = 1879446731; }; -- Legendary Interlude: Blood of Azog
+          [330] = {["ID"] = 1879446733; }; -- Surveyor of Dwarf-lands
+          [331] = {["CAT_ID"] = 153; }; -- Not Actively Achievable
+          [332] = {["CAT_ID"] = 130; }; -- Avoiding Defeat
+          [333] = {["ID"] = 1879071650; }; -- The Undying
+          [334] = {["ID"] = 1879071649; ["TIER"] = 1; }; -- The Unscathed
+          [335] = {["ID"] = 1879071648; ["TIER"] = 2; }; -- The Indomitable
+          [336] = {["ID"] = 1879071647; ["TIER"] = 3; }; -- The Undefeated
+          [337] = {["ID"] = 1879071646; ["TIER"] = 4; }; -- The Wary
+          [338] = {["CAT_ID"] = 154; ["TIER"] = 1; }; -- - Account Anniversary -
+          [339] = {["ID"] = 1879303873; }; -- Seven Stars Title
+          [340] = {["CAT_ID"] = 155; ["TIER"] = 1; }; -- - Festivals -
+          [341] = {["ID"] = 1879153304; }; -- A Day of Pranks
+          [342] = {["ID"] = 1879161685; }; -- Harvestmath
+          [343] = {["ID"] = 1879163927; }; -- Yule
+          [344] = {["ID"] = 1879199417; }; -- Honoured Yule-friend (Yule Festival)
+          [345] = {["ID"] = 1879447587; }; -- Happy 15th Anniversary
+          [346] = {["ID"] = 1879200236; }; -- Protagonist
+          [347] = {["ID"] = 1879200237; }; -- Villain
+          [348] = {["ID"] = 1879200238; }; -- Extra
+          [349] = {["ID"] = 1879182341; }; -- The Spring Festival -- Season of the Garden
+          [350] = {["ID"] = 1879185268; }; -- Happy Summer
+          [351] = {["CAT_ID"] = 156; ["TIER"] = 1; }; -- - Miscellaneous -
+          [352] = {["ID"] = 1879355930; }; -- Aria of Virtues
+          [353] = {["ID"] = 1879397777; }; -- Valar Trait Points - 120
+          [354] = {["ID"] = 1879439189; }; -- Valar Trait Points - 130
+          [355] = {["CAT_ID"] = 157; ["TIER"] = 1; }; -- - Book 14 / Eregion pre-release, 2008 -
+          [356] = {["ID"] = 1879114138; }; -- Master of Forgotten Lore
+          [357] = {["ID"] = 1879114137; ["TIER"] = 1; }; -- Seeker of Truth
+          [358] = {["ID"] = 1879114136; ["TIER"] = 2; }; -- Revealer of the Lost
+          [359] = {["ID"] = 1879114135; ["TIER"] = 3; }; -- Student of the Past
+          [360] = {["CAT_ID"] = 158; }; -- - Bounder's Bounty, 2013 -
+          [361] = {["ID"] = 1879279182; }; -- Bounder's Bounty (Tier 3)
+          [362] = {["ID"] = 1879279184; ["TIER"] = 1; }; -- Bounder's Bounty (Tier 2)
+          [363] = {["ID"] = 1879279183; ["TIER"] = 2; }; -- Bounder's Bounty (Tier 1)
+          [364] = {["CAT_ID"] = 159; ["TIER"] = 1; }; -- - 2015 World Consolidation Event -
+          [365] = {["ID"] = 1879326383; }; -- World Consolidation Announcement
+          [366] = {["ID"] = 1879326065; }; -- World Consolidation Begins
+          [367] = {["ID"] = 1879326067; }; -- World Consolidation Begins
+          [368] = {["ID"] = 1879327466; }; -- Of Aglarond
+          [369] = {["ID"] = 1879326643; }; -- Of Anduin
+          [370] = {["ID"] = 1879326644; }; -- Of Arkenstone
+          [371] = {["ID"] = 1879326645; }; -- Of Belegaer
+          [372] = {["ID"] = 1879326646; }; -- Of Brandywine
+          [373] = {["ID"] = 1879326647; }; -- Of Crickhollow
+          [374] = {["ID"] = 1879326648; }; -- Of Dwarrowdelf
+          [375] = {["ID"] = 1879326649; }; -- Of Eldar
+          [376] = {["ID"] = 1879326531; }; -- Of Elendilmir
+          [377] = {["ID"] = 1879326650; }; -- Of Estel
+          [378] = {["ID"] = 1879326651; }; -- Of Evernight
+          [379] = {["ID"] = 1879326652; }; -- Of Firefoot
+          [380] = {["ID"] = 1879327458; }; -- Of Fornost
+          [381] = {["ID"] = 1879326653; }; -- Of Gilrain
+          [382] = {["ID"] = 1879326654; }; -- Of Gladden
+          [383] = {["ID"] = 1879326655; }; -- Of Gwaihir
+          [384] = {["ID"] = 1879326656; }; -- Of Imladris
+          [385] = {["ID"] = 1879326657; }; -- Of Landroval
+          [386] = {["ID"] = 1879326658; }; -- Of Laurelin
+          [387] = {["ID"] = 1879326659; }; -- Of Maiar
+          [388] = {["ID"] = 1879326660; }; -- Of Meneldor
+          [389] = {["ID"] = 1879327464; }; -- Of Mirkwood
+          [390] = {["ID"] = 1879326661; }; -- Of Morthond
+          [391] = {["ID"] = 1879326662; }; -- Of Nimrodel
+          [392] = {["ID"] = 1879326663; }; -- Of Riddermark
+          [393] = {["ID"] = 1879326664; }; -- Of Silverlode
+          [394] = {["ID"] = 1879326665; }; -- Of Sirannon
+          [395] = {["ID"] = 1879326666; }; -- Of Snowbourn
+          [396] = {["ID"] = 1879326667; }; -- Of Vanyar
+          [397] = {["ID"] = 1879326668; }; -- Of Vilya
+          [398] = {["ID"] = 1879326669; }; -- Of Windfola
+          [399] = {["ID"] = 1879326670; }; -- Of Withywindle
+          [400] = {["CAT_ID"] = 160; }; -- - Mordor, 2017 -
+          [401] = {["ID"] = 1879353104; }; -- Mordor Collector
+          [402] = {["ID"] = 1879353101; }; -- Mordor Ultimate Fan
+          [403] = {["CAT_ID"] = 161; }; -- - Collections -
+          [404] = {["ID"] = 1879361989; }; -- 2013 Festival Steeds (large)
+          [405] = {["ID"] = 1879363520; }; -- 2013 Festival Steeds (small)
+          [406] = {["ID"] = 1879361993; }; -- 2014 Festival Steeds (large)
+          [407] = {["ID"] = 1879363518; }; -- 2014 Festival Steeds (small)
+          [408] = {["ID"] = 1879361997; }; -- 2015 Festival Steeds (large)
+          [409] = {["ID"] = 1879363513; }; -- 2015 Festival Steeds (small)
+          [410] = {["ID"] = 1879362010; }; -- 2016 Festival Steeds (large)
+          [411] = {["ID"] = 1879363507; }; -- 2016 Festival Steeds (small)
+          [412] = {["ID"] = 1879362011; }; -- 2017 Festival Steeds (large)
+          [413] = {["ID"] = 1879363519; }; -- 2017 Festival Steeds (small)
+          [414] = {["ID"] = 1879361994; }; -- Autumn Adventurer (large)
+          [415] = {["ID"] = 1879363509; }; -- Autumn Adventurer (small)
+          [416] = {["ID"] = 1879362013; }; -- Goat-herder (large)
+          [417] = {["ID"] = 1879363515; }; -- Goat-herder (small)
+          [418] = {["ID"] = 1879361990; }; -- Spring in Your Step (large)
+          [419] = {["ID"] = 1879363517; }; -- Spring in Your Step (small)
+          [420] = {["ID"] = 1879361991; }; -- Sun-strider (large)
+          [421] = {["ID"] = 1879363514; }; -- Sun-strider (small)
+          [422] = {["ID"] = 1879362003; }; -- The Steeds of Gorgoroth
+          [423] = {["ID"] = 1879361992; }; -- Veteran of the Third Age (large)
+          [424] = {["ID"] = 1879363508; }; -- Veteran of the Third Age (small)
+          [425] = {["ID"] = 1879361996; }; -- Winter-rider (large)
+          [426] = {["ID"] = 1879363511; }; -- Winter-rider (small)
+          [427] = {["CAT_ID"] = 286; }; -- Valar - 140
+          [428] = {["ID"] = 1879463469; }; -- Valar Instance and Skirmish Access - 140
         };
         -- Epic
         [CRE_EPIC] = {
@@ -5269,84 +5273,88 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
            [19] = {["ID"] = 1879513649; ["TIER"] = 3; }; -- Wood-troll Slayer of Adagím (Advanced)
            [20] = {["ID"] = 1879513650; ["TIER"] = 4; }; -- Wood-troll Slayer of Adagím
            [21] = {["ID"] = 1879513791; ["TIER"] = 2; }; -- Tales of Adagím
-           [22] = {["CAT_ID"] = 338; ["TIER"] = 1; }; -- Kighân
-           [23] = {["ID"] = 1879513787; ["TIER"] = 1; }; -- Rejuvenator of Kighân
-           [24] = {["ID"] = 1879513779; ["TIER"] = 2; }; -- Explorer of Kighân
-           [25] = {["ID"] = 1879513781; ["TIER"] = 3; }; -- Dangers in Kighân
-           [26] = {["ID"] = 1879513782; ["TIER"] = 3; }; -- Scouting Kighân
-           [27] = {["ID"] = 1879513701; ["TIER"] = 3; }; -- Treasure-seeker of Kighân
-           [28] = {["ID"] = 1879513706; ["TIER"] = 2; }; -- Slayer of Kighân
-           [29] = {["ID"] = 1879513660; ["TIER"] = 3; }; -- Tarsâri-bane of Kighân (Advanced)
-           [30] = {["ID"] = 1879513655; ["TIER"] = 4; }; -- Tarsâri-bane of Kighân
-           [31] = {["ID"] = 1879513656; ["TIER"] = 3; }; -- Bee-slayer of Kighân (Advanced)
-           [32] = {["ID"] = 1879513654; ["TIER"] = 4; }; -- Bee-slayer of Kighân
-           [33] = {["ID"] = 1879513661; ["TIER"] = 3; }; -- Brigand-bane of Kighân (Advanced)
-           [34] = {["ID"] = 1879513657; ["TIER"] = 4; }; -- Brigand-bane of Kighân
-           [35] = {["ID"] = 1879513662; ["TIER"] = 3; }; -- Goblin-bane of Kighân (Advanced)
-           [36] = {["ID"] = 1879513658; ["TIER"] = 4; }; -- Goblin-bane of Kighân
-           [37] = {["ID"] = 1879513648; ["TIER"] = 3; }; -- Ordâkhai-bane of Kighân (Advanced)
-           [38] = {["ID"] = 1879513652; ["TIER"] = 4; }; -- Ordâkhai-bane of Kighân
-           [39] = {["ID"] = 1879513643; ["TIER"] = 3; }; -- Spider-slayer of Kighân (Advanced)
-           [40] = {["ID"] = 1879513646; ["TIER"] = 4; }; -- Spider-slayer of Kighân
-           [41] = {["ID"] = 1879513792; ["TIER"] = 2; }; -- Tales of Kighân
-           [42] = {["CAT_ID"] = 339; ["TIER"] = 1; }; -- An Shêru
-           [43] = {["ID"] = 1879513780; ["TIER"] = 1; }; -- Rejuvenator of An Shêru
-           [44] = {["ID"] = 1879513788; ["TIER"] = 2; }; -- Explorer of An Shêru
-           [45] = {["ID"] = 1879513789; ["TIER"] = 3; }; -- New Threats in An Shêru
-           [46] = {["ID"] = 1879513775; ["TIER"] = 3; }; -- Reclaiming An Shêru
-           [47] = {["ID"] = 1879513707; ["TIER"] = 3; }; -- Treasure-seeker of An Shêru
-           [48] = {["ID"] = 1879513697; ["TIER"] = 2; }; -- Slayer of An Shêru
-           [49] = {["ID"] = 1879513669; ["TIER"] = 3; }; -- Brigand-bane of An Shêru (Advanced)
-           [50] = {["ID"] = 1879513688; ["TIER"] = 4; }; -- Brigand-bane of An Shêru
-           [51] = {["ID"] = 1879513668; ["TIER"] = 3; }; -- Dead-slayer of An Shêru (Advanced)
-           [52] = {["ID"] = 1879513682; ["TIER"] = 4; }; -- Dead-slayer of An Shêru
-           [53] = {["ID"] = 1879513665; ["TIER"] = 3; }; -- Utûgi-bane of An Shêru (Advanced)
-           [54] = {["ID"] = 1879513674; ["TIER"] = 4; }; -- Utûgi-bane of An Shêru
-           [55] = {["ID"] = 1879513681; ["TIER"] = 3; }; -- Grodbog-slayer of An Shêru (Advanced)
-           [56] = {["ID"] = 1879513673; ["TIER"] = 4; }; -- Grodbog-slayer of An Shêru
-           [57] = {["ID"] = 1879513686; ["TIER"] = 3; }; -- Ordâkhai-bane of An Shêru (Advanced)
-           [58] = {["ID"] = 1879513671; ["TIER"] = 4; }; -- Ordâkhai-bane of An Shêru
-           [59] = {["ID"] = 1879513667; ["TIER"] = 3; }; -- Worm-bane of An Shêru (Advanced)
-           [60] = {["ID"] = 1879513684; ["TIER"] = 4; }; -- Worm-bane of An Shêru
-           [61] = {["ID"] = 1879513786; ["TIER"] = 2; }; -- Tales of An Shêru
-           [62] = {["CAT_ID"] = 340; ["TIER"] = 1; }; -- Idagâl
-           [63] = {["ID"] = 1879513783; ["TIER"] = 1; }; -- Renewer of Idagâl
-           [64] = {["ID"] = 1879513784; ["TIER"] = 2; }; -- Explorer of Idagâl
-           [65] = {["ID"] = 1879513793; ["TIER"] = 3; }; -- New Threats in Idagâl
-           [66] = {["ID"] = 1879513776; ["TIER"] = 3; }; -- Reclaiming Idagâl
-           [67] = {["ID"] = 1879513699; ["TIER"] = 3; }; -- Treasure-seeker of Idagâl
-           [68] = {["ID"] = 1879513700; ["TIER"] = 2; }; -- Slayer of Idagâl
-           [69] = {["ID"] = 1879513670; ["TIER"] = 3; }; -- Brigand-bane of Idagâl (Advanced)
-           [70] = {["ID"] = 1879513680; ["TIER"] = 4; }; -- Brigand-bane of Idagâl
-           [71] = {["ID"] = 1879513683; ["TIER"] = 3; }; -- Cobra-slayer of Idagâl (Advanced)
-           [72] = {["ID"] = 1879513676; ["TIER"] = 4; }; -- Cobra-slayer of Idagâl
-           [73] = {["ID"] = 1879513672; ["TIER"] = 3; }; -- Drake-slayer of Idagâl (Advanced)
-           [74] = {["ID"] = 1879513685; ["TIER"] = 4; }; -- Drake-slayer of Idagâl
-           [75] = {["ID"] = 1879513675; ["TIER"] = 3; }; -- Utûgi-bane of Idagâl (Advanced)
-           [76] = {["ID"] = 1879513687; ["TIER"] = 4; }; -- Utûgi-bane of Idagâl
-           [77] = {["ID"] = 1879513677; ["TIER"] = 3; }; -- Kergrim-slayer of Idagâl (Advanced)
-           [78] = {["ID"] = 1879513678; ["TIER"] = 4; }; -- Kergrim-slayer of Idagâl
-           [79] = {["ID"] = 1879513679; ["TIER"] = 3; }; -- Ordâkhai-bane of Idagâl (Advanced)
-           [80] = {["ID"] = 1879513666; ["TIER"] = 4; }; -- Ordâkhai-bane of Idagâl
-           [81] = {["ID"] = 1879513777; ["TIER"] = 2; }; -- Tales of Idagâl
-           [82] = {["CAT_ID"] = 341; }; -- Mûr Ghala
-           [83] = {["ID"] = 1879514041; }; -- Hunter of Mûr Ghala
-           [84] = {["ID"] = 1879514045; ["TIER"] = 1; }; -- Adversaries of Adagím
-           [85] = {["ID"] = 1879514044; ["TIER"] = 1; }; -- Combatants of Kighân
-           [86] = {["ID"] = 1879514039; ["TIER"] = 1; }; -- Enemies of An Shêru
-           [87] = {["ID"] = 1879514047; ["TIER"] = 1; }; -- Invaders of Idagâl
-           [88] = {["ID"] = 1879514046; }; -- Defender of Adagím
-           [89] = {["ID"] = 1879514040; }; -- Defender of Kighân
-           [90] = {["ID"] = 1879514042; }; -- Defender of An Shêru
-           [91] = {["ID"] = 1879514043; }; -- Defender of Idagâl
-           [92] = {["ID"] = 1879513808; }; -- Explorer of Mûr Ghala
-           [93] = {["ID"] = 1879513705; }; -- Treasure-seeker of Mûr Ghala
-           [94] = {["ID"] = 1879513698; }; -- Slayer of Mûr Ghala
-           [95] = {["ID"] = 1879513807; }; -- Tales of Mûr Ghala
-           [96] = {["ID"] = 1879513694; }; -- Brigand-bane of Mûr Ghala
-           [97] = {["ID"] = 1879513695; }; -- Nightmare of the Ordâkhai
-           [98] = {["ID"] = 1879513696; }; -- Spider-slayer of Mûr Ghala
-           [99] = {["ID"] = 1879513703; }; -- Orc-slayer of Mûr Ghala
+           [22] = {["ID"] = 1879521611; ["TIER"] = 1; }; -- Persistent Defender of Adagím
+           [23] = {["CAT_ID"] = 338; ["TIER"] = 1; }; -- Kighân
+           [24] = {["ID"] = 1879513787; ["TIER"] = 1; }; -- Rejuvenator of Kighân
+           [25] = {["ID"] = 1879513779; ["TIER"] = 2; }; -- Explorer of Kighân
+           [26] = {["ID"] = 1879513781; ["TIER"] = 3; }; -- Dangers in Kighân
+           [27] = {["ID"] = 1879513782; ["TIER"] = 3; }; -- Scouting Kighân
+           [28] = {["ID"] = 1879513701; ["TIER"] = 3; }; -- Treasure-seeker of Kighân
+           [29] = {["ID"] = 1879513706; ["TIER"] = 2; }; -- Slayer of Kighân
+           [30] = {["ID"] = 1879513660; ["TIER"] = 3; }; -- Tarsâri-bane of Kighân (Advanced)
+           [31] = {["ID"] = 1879513655; ["TIER"] = 4; }; -- Tarsâri-bane of Kighân
+           [32] = {["ID"] = 1879513656; ["TIER"] = 3; }; -- Bee-slayer of Kighân (Advanced)
+           [33] = {["ID"] = 1879513654; ["TIER"] = 4; }; -- Bee-slayer of Kighân
+           [34] = {["ID"] = 1879513661; ["TIER"] = 3; }; -- Brigand-bane of Kighân (Advanced)
+           [35] = {["ID"] = 1879513657; ["TIER"] = 4; }; -- Brigand-bane of Kighân
+           [36] = {["ID"] = 1879513662; ["TIER"] = 3; }; -- Goblin-bane of Kighân (Advanced)
+           [37] = {["ID"] = 1879513658; ["TIER"] = 4; }; -- Goblin-bane of Kighân
+           [38] = {["ID"] = 1879513648; ["TIER"] = 3; }; -- Ordâkhai-bane of Kighân (Advanced)
+           [39] = {["ID"] = 1879513652; ["TIER"] = 4; }; -- Ordâkhai-bane of Kighân
+           [40] = {["ID"] = 1879513643; ["TIER"] = 3; }; -- Spider-slayer of Kighân (Advanced)
+           [41] = {["ID"] = 1879513646; ["TIER"] = 4; }; -- Spider-slayer of Kighân
+           [42] = {["ID"] = 1879513792; ["TIER"] = 2; }; -- Tales of Kighân
+           [43] = {["ID"] = 1879521612; ["TIER"] = 1; }; -- Persistent Defender of Kighân
+           [44] = {["CAT_ID"] = 339; ["TIER"] = 1; }; -- An Shêru
+           [45] = {["ID"] = 1879513780; ["TIER"] = 1; }; -- Rejuvenator of An Shêru
+           [46] = {["ID"] = 1879513788; ["TIER"] = 2; }; -- Explorer of An Shêru
+           [47] = {["ID"] = 1879513789; ["TIER"] = 3; }; -- New Threats in An Shêru
+           [48] = {["ID"] = 1879513775; ["TIER"] = 3; }; -- Reclaiming An Shêru
+           [49] = {["ID"] = 1879513707; ["TIER"] = 3; }; -- Treasure-seeker of An Shêru
+           [50] = {["ID"] = 1879513697; ["TIER"] = 2; }; -- Slayer of An Shêru
+           [51] = {["ID"] = 1879513669; ["TIER"] = 3; }; -- Brigand-bane of An Shêru (Advanced)
+           [52] = {["ID"] = 1879513688; ["TIER"] = 4; }; -- Brigand-bane of An Shêru
+           [53] = {["ID"] = 1879513668; ["TIER"] = 3; }; -- Dead-slayer of An Shêru (Advanced)
+           [54] = {["ID"] = 1879513682; ["TIER"] = 4; }; -- Dead-slayer of An Shêru
+           [55] = {["ID"] = 1879513665; ["TIER"] = 3; }; -- Utûgi-bane of An Shêru (Advanced)
+           [56] = {["ID"] = 1879513674; ["TIER"] = 4; }; -- Utûgi-bane of An Shêru
+           [57] = {["ID"] = 1879513681; ["TIER"] = 3; }; -- Grodbog-slayer of An Shêru (Advanced)
+           [58] = {["ID"] = 1879513673; ["TIER"] = 4; }; -- Grodbog-slayer of An Shêru
+           [59] = {["ID"] = 1879513686; ["TIER"] = 3; }; -- Ordâkhai-bane of An Shêru (Advanced)
+           [60] = {["ID"] = 1879513671; ["TIER"] = 4; }; -- Ordâkhai-bane of An Shêru
+           [61] = {["ID"] = 1879513667; ["TIER"] = 3; }; -- Worm-bane of An Shêru (Advanced)
+           [62] = {["ID"] = 1879513684; ["TIER"] = 4; }; -- Worm-bane of An Shêru
+           [63] = {["ID"] = 1879513786; ["TIER"] = 2; }; -- Tales of An Shêru
+           [64] = {["ID"] = 1879521613; ["TIER"] = 1; }; -- Persistent Defender of An Shêru
+           [65] = {["CAT_ID"] = 340; ["TIER"] = 1; }; -- Idagâl
+           [66] = {["ID"] = 1879513783; ["TIER"] = 1; }; -- Renewer of Idagâl
+           [67] = {["ID"] = 1879513784; ["TIER"] = 2; }; -- Explorer of Idagâl
+           [68] = {["ID"] = 1879513793; ["TIER"] = 3; }; -- New Threats in Idagâl
+           [69] = {["ID"] = 1879513776; ["TIER"] = 3; }; -- Reclaiming Idagâl
+           [70] = {["ID"] = 1879513699; ["TIER"] = 3; }; -- Treasure-seeker of Idagâl
+           [71] = {["ID"] = 1879513700; ["TIER"] = 2; }; -- Slayer of Idagâl
+           [72] = {["ID"] = 1879513670; ["TIER"] = 3; }; -- Brigand-bane of Idagâl (Advanced)
+           [73] = {["ID"] = 1879513680; ["TIER"] = 4; }; -- Brigand-bane of Idagâl
+           [74] = {["ID"] = 1879513683; ["TIER"] = 3; }; -- Cobra-slayer of Idagâl (Advanced)
+           [75] = {["ID"] = 1879513676; ["TIER"] = 4; }; -- Cobra-slayer of Idagâl
+           [76] = {["ID"] = 1879513672; ["TIER"] = 3; }; -- Drake-slayer of Idagâl (Advanced)
+           [77] = {["ID"] = 1879513685; ["TIER"] = 4; }; -- Drake-slayer of Idagâl
+           [78] = {["ID"] = 1879513675; ["TIER"] = 3; }; -- Utûgi-bane of Idagâl (Advanced)
+           [79] = {["ID"] = 1879513687; ["TIER"] = 4; }; -- Utûgi-bane of Idagâl
+           [80] = {["ID"] = 1879513677; ["TIER"] = 3; }; -- Kergrim-slayer of Idagâl (Advanced)
+           [81] = {["ID"] = 1879513678; ["TIER"] = 4; }; -- Kergrim-slayer of Idagâl
+           [82] = {["ID"] = 1879513679; ["TIER"] = 3; }; -- Ordâkhai-bane of Idagâl (Advanced)
+           [83] = {["ID"] = 1879513666; ["TIER"] = 4; }; -- Ordâkhai-bane of Idagâl
+           [84] = {["ID"] = 1879513777; ["TIER"] = 2; }; -- Tales of Idagâl
+           [85] = {["ID"] = 1879521614; ["TIER"] = 1; }; -- Persistent Defender of Idagâl
+           [86] = {["CAT_ID"] = 341; }; -- Mûr Ghala
+           [87] = {["ID"] = 1879514041; }; -- Hunter of Mûr Ghala
+           [88] = {["ID"] = 1879514045; ["TIER"] = 1; }; -- Adversaries of Adagím
+           [89] = {["ID"] = 1879514044; ["TIER"] = 1; }; -- Combatants of Kighân
+           [90] = {["ID"] = 1879514039; ["TIER"] = 1; }; -- Enemies of An Shêru
+           [91] = {["ID"] = 1879514047; ["TIER"] = 1; }; -- Invaders of Idagâl
+           [92] = {["ID"] = 1879514046; }; -- Defender of Adagím
+           [93] = {["ID"] = 1879514040; }; -- Defender of Kighân
+           [94] = {["ID"] = 1879514042; }; -- Defender of An Shêru
+           [95] = {["ID"] = 1879514043; }; -- Defender of Idagâl
+           [96] = {["ID"] = 1879513808; }; -- Explorer of Mûr Ghala
+           [97] = {["ID"] = 1879513705; }; -- Treasure-seeker of Mûr Ghala
+           [98] = {["ID"] = 1879513698; }; -- Slayer of Mûr Ghala
+           [99] = {["ID"] = 1879513807; }; -- Tales of Mûr Ghala
+          [100] = {["ID"] = 1879513694; }; -- Brigand-bane of Mûr Ghala
+          [101] = {["ID"] = 1879513695; }; -- Nightmare of the Ordâkhai
+          [102] = {["ID"] = 1879513696; }; -- Spider-slayer of Mûr Ghala
+          [103] = {["ID"] = 1879513703; }; -- Orc-slayer of Mûr Ghala          
         };
     };
 };

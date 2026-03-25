@@ -183,6 +183,7 @@ _DEED_CATEGORIES = {
 [328] = { ["NAME"] = "- Season of Malice -"; };
 [329] = { ["NAME"] = "- Season of Scorn -"; };
 [330] = { ["NAME"] = "- Season of Spirit -"; };
+[342] = { ["NAME"] = "- Monster Player Reward Season 6 -"; };
 -- Class
 [318] = { ["NA"] = 2; ["NAME"] = " - Hunter - " };
 [317] = { ["NA"] = 2; ["NAME"] = " - Rune-keeper - " };
@@ -387,4 +388,4 @@ _DEED_CATEGORIES = {
 [341] = { ["TIER"] = 1; ["NAME"] = "Mûr Ghala"; };
 };
 
--- Last used: 341
+-- Last used: 342

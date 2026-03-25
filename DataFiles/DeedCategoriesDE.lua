@@ -178,11 +178,12 @@ _DEED_CATEGORIES = {
 [125] = { ["NAME"] = "Kriegsanführer-Bezwinger"; };
 [126] = { ["NAME"] = "Weberspinnen-Bezwinger"; };
 -- The War / Ettinmoors
-[308] = { ["NAME"] = "- Der ersten Belohnungssaison für Monsterspieler -"; };
+[308] = { ["NAME"] = "- Monsterspieler Belohnungssaison 1 -"; };
 [327] = { ["NAME"] = "- Saison der Nemesis -"; };
 [328] = { ["NAME"] = "- Saison der Bosheit -"; };
 [329] = { ["NAME"] = "- Saison der Verachtung -"; };
 [330] = { ["NAME"] = "- Saison der Geister -"; };
+[342] = { ["NAME"] = "- Monsterspieler Belohnungssaison 6 -"; };
 -- Class
 [318] = { ["NA"] = 2; ["NAME"] = " - Jäger - " };
 [317] = { ["NA"] = 2; ["NAME"] = " - Runenbewahrer - " };

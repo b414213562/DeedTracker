@@ -183,6 +183,7 @@ _DEED_CATEGORIES = {
 [328] = { ["NAME"] = "- la saison de la Méchanceté -"; };
 [329] = { ["NAME"] = "- la saison du Mépris -"; };
 [330] = { ["NAME"] = "- la saison de l'Esprit -"; };
+[342] = { ["NAME"] = "- Monster Player Reward Season 6 -"; };
 -- Class
 [318] = { ["NA"] = 2; ["NAME"] = " - Chasseur - " };
 [317] = { ["NA"] = 2; ["NAME"] = " - Gardien des runes - " };

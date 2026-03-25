@@ -183,6 +183,7 @@ _DEED_CATEGORIES = {
 [328] = { ["NAME"] = "- Season of Malice -"; };
 [329] = { ["NAME"] = "- Season of Scorn -"; };
 [330] = { ["NAME"] = "- Season of Spirit -"; };
+[342] = { ["NAME"] = "- Награды игрока-монстра - сезон 6 -"; };
 -- Class
 [318] = { ["NA"] = 2; ["NAME"] = " - Охотник - " };
 [317] = { ["NA"] = 2; ["NAME"] = " - Хранитель рун - " };
@@ -386,5 +387,3 @@ _DEED_CATEGORIES = {
 [340] = { ["TIER"] = 1; ["NAME"] = "Idagâl"; };
 [341] = { ["TIER"] = 1; ["NAME"] = "Mûr Ghala"; };
 };
-
--- Last used: 311
