@@ -1,3 +1,5 @@
+NotACat found an issue with deeds showing up in the Completion Window twice, but not being marked off in the tracker. (See Discord 2026-01-26)
+
 A Letter From Caebar:
     Two versions of the deed, depending on: If you completed Halros Should Stay or Halros Should Go.
     These need to be set up as mutually exclusive.
