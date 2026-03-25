@@ -824,6 +824,8 @@ function DeedTrackerWin:RefreshDeedView(CHARACTER)
     self.deedTabExpanded = {};
     self.lblDeedsTabProgresses = {};
 
+    -- If you call UpdatedExandedIcon directly, the states get wonky, 
+    -- especially if you double-click. Come back in a few ms.
     local deedsTabTreeNodesTimer = Timer(50, false, function() self:UpdatedExandedIcon(); end);
 
     --Get all of the deed tabs.
