@@ -1,0 +1,16 @@
+Deed Tracker version 3.2.4 is now available at [url=https://www.lotrointerface.com/downloads/info1139-DeedTracker.html]lotrointerface.com[/url].
+
+This release adds Update 47: Folly of Kings deeds, and fixes a few minor issues.
+
+Version 3.2.4 release notes:
+
+Deeds:
+[list]
+    [*] Added U47 deeds:
+    [list]
+        [*] Instances / Kingdoms of Harad: Conqueror of the Legion of Lhaereth
+        [*] The War / Ettenmoors: Title: Bastion of Light 
+        [*] Class/Race/Epic / Race & Social: Consume Consumables: Maramam's Bacon Pie (Spring Festival)
+        [*] Haradwaith / Mûr Ghala: Persistent Defender of Adagím, Persistent Defender of Kighân, Persistent Defender of An Shêru, and Persistent Defender of Idagâl
+    [/list]
+[/list]

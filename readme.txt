@@ -28,6 +28,27 @@ If you would like to take over management of one of my plugins, please first sen
 If I do not respond within two months, then you have my permission to request control of a plugin or patch of mine on lotrointerface.com.
 In the meantime, feel free to submit patches for any of my plugins if you spot something that needs fixing or improving!
 
+v3.2.4 changes:
+    Deeds:
+        Added U47 deeds:
+            Instances / Kingdoms of Harad: Conqueror of the Legion of Lhaereth
+            The War / Ettenmoors: Title: Bastion of Light 
+            Class/Race/Epic / Race & Social: Consume Consumables: Maramam's Bacon Pie (Spring Festival)
+            Haradwaith / Mûr Ghala: Persistent Defender of Adagím, Persistent Defender of Kighân, Persistent Defender of An Shêru, and Persistent Defender of Idagâl
+
+v3.2.3 changes:
+    Deeds:
+        Class/Race/Epic / Reputation:
+            Added Veil of the Nine category on the Amelia's Studies category.
+            Added U46 deeds for factions Kintai of Sul Madásh, Temámir of Jiret-menêsh, City of Zajâna, Hamât Renewed, and Hunter's Guild of Mûr Ghala.
+        Instances / Kingdoms of Harad:
+            Added U46 deeds for instances The Treasure Caves of Hurum Kâna, Kôth Rau, the Wailing Hold, Ekal-nêbi, the Fallen Palace, and 'The Folly of Nagakhêdi'.
+        Haradwaith / Mûr Ghala:
+            Added U46 deeds for regions Mûr Ghala, Adagím, Kighân, An Shêru, and Idagâl.
+    Other:
+        Changed wording on the general chat command "/help", and the specific chat commands "/help deedtracker", "/help deeds", and "/help deed".
+        Fixed issue preventing Deed detection via items in inventory from working in Russian for deeds "Volume III Interludes, Part One" and "Volume III Interludes, Part Two".
+
 v3.2.2 changes:
     Deeds:
         Class/Race/Epic / Class:
