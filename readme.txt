@@ -32,7 +32,8 @@ v3.2.5 changes:
     Deeds:
 
     Bug fixes:
-        If you complete a Legendary Server, Veil of the Nine, or Landscape Difficulty deed without the corresponding option checked, the deed will now be marked complete.
+        If you complete a Legendary Server, Veil of the Nine, or Landscape Difficulty deed without the corresponding setting enabled, the deed will now be marked complete.
+        Also, the corresponding setting will be enabled if it was not already.
 
 v3.2.4 changes:
     Deeds:

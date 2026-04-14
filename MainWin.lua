@@ -706,12 +706,43 @@ function DeedTrackerWin:ChangeTab(tabIndex)
     self:RefreshDeedView(self.selectedCharacter);
 end
 
+--- If deed is Legendary Server, Veil of the Nine, or Landscape Difficulty 
+--- and that option is turned off, turn it on now.
+---@param deed table
+function DeedTrackerWin:UpdateDeedCategoryOptionsIfNeeded(deed)
+
+    local names = {
+        [1] = "LEGENDARY_SERVER";
+        [2] = "VEIL_OF_THE_NINE";
+        [3] = "DIFFICULTY";
+    }
+    local settings = {
+        ["LEGENDARY_SERVER"] = LoadServerField("LEGENDARY_SERVER");
+        ["VEIL_OF_THE_NINE"] = LoadServerField("VEIL_OF_THE_NINE");
+        ["DIFFICULTY"] = SETTINGS.DIFFICULTY;
+    };
+
+    for _, name in ipairs(names) do
+        local setting = settings[name];
+        if (not setting) then
+            Debug("Forcing " .. name .. " setting to true because of this completed deed");
+            local checkbox = GetOptionsControl(name, "CheckBox");
+            if (checkbox) then
+                checkbox:SetChecked(true);
+            end
+        end
+    end
+
+end
+
 function DeedTrackerWin:MarkDeedCompleteFromChat(deed)
     -- If a category slipped through, log it and stop.
     if (IsCategory(deed)) then
         Debug("Deed Tracker: Rejecting attempt to mark a category complete: " .. deed.NAME);
         return;
     end
+
+    self:UpdateDeedCategoryOptionsIfNeeded(deed);
 
     local currentCharacter = MYCHAR:GetName();
 

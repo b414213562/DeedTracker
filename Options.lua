@@ -2,6 +2,29 @@ OPTION_HEIGHT = 40;
 
 OptionControls = {};
 
+---Add the given control to the lookup table.
+---@param optionName string
+---@param controlType string
+---@param control Control
+function AddOptionsCotrol(optionName, controlType, control)
+    if (not OptionControls[optionName]) then
+        OptionControls[optionName] = {};
+    end
+
+    OptionControls[optionName][controlType] = control;
+end
+
+---Get the requested control if any, otherwise returns nil
+---@param optionsName string
+---@param controlType string
+---@return TextBox|CheckBox|nil
+function GetOptionsControl(optionsName, controlType)
+    if (OptionControls[optionsName] and OptionControls[optionsName][controlType]) then
+        return OptionControls[optionsName][controlType];
+    end
+    return nil;
+end
+
 function AddOptionCheckbox(options, y, text)
     local checkbox = Turbine.UI.Lotro.CheckBox();
     checkbox:SetParent(options);
@@ -25,6 +48,8 @@ end
 function AddOption(options, y, optionName, isServer, callback)
     local checkbox = AddOptionCheckbox(options, y, GetString(_LANG.OPTIONS[optionName]));
     local height = AutoFitLabelHeight(checkbox, 200);
+
+    AddOptionsCotrol(optionName, "CheckBox", checkbox);
 
     local startingValue = false;
     if (isServer) then
@@ -100,15 +125,15 @@ function AddServerField(options, y, fieldName, buttonText, callback)
         end
     end
 
-    OptionControls[fieldName] = {};
-    OptionControls[fieldName].TextBox = textBox;
+    AddOptionsCotrol(fieldName, "TextBox", textBox)
 
     return height;
 end
 
 function UpdateOptionTextBox(fieldName, updatedText)
-    if (OptionControls[fieldName] and OptionControls[fieldName].TextBox) then
-        OptionControls[fieldName].TextBox:SetText(updatedText);
+    local textBox = GetOptionsControl(fieldName, "TextBox");
+    if (textBox) then
+        textBox:SetText(updatedText);
     end
 end
 
