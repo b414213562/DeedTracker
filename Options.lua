@@ -38,6 +38,19 @@ function AddOptionCheckbox(options, y, text)
     return checkbox;
 end
 
+---Add a horizontal rule (hr) at y.
+---@param options Control
+---@param y number
+---@return number
+function AddDivider(options, y)
+    local divider = Turbine.UI.Control();
+    divider:SetParent(options);
+    divider:SetSize(500, 2);
+    divider:SetBackColor(Turbine.UI.Color.Gray);
+    divider:SetPosition(5, y + 5);
+    return y + 10;
+end
+
 ---Adds an option to the control at the specified height.
 ---@param options Control The control that the option will be added to.
 ---@param y number The starting height of this option.
@@ -244,6 +257,7 @@ function CreateOptionsContent()
     end);
 
     y = AddOption(options, y, "DIFFICULTY", notServerSetting, nilCallback);
+    y = AddDivider(options, y);
     y = AddOption(options, y, "HIDE_COMPLETED_DEEDS", notServerSetting, nilCallback);
     y = AddOption(options, y, "HIDE_COMPLETED_PROGRESS_BAR", notServerSetting, nilCallback);
     y = AddOption(options, y, "HIDE_DEEDS_ABOVE_LEVEL", notServerSetting, nilCallback);
