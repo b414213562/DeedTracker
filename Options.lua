@@ -258,6 +258,7 @@ function CreateOptionsContent()
     y = AddOption(options, y, "VERBOSE_OUTPUT", notServerSetting, nilCallback);
 
     if (SHOW_DEBUG_OPTIONS) then
+        local debugYStart = y;
         y = AddDebugField(options, y, "Complete", DebugOptionComplete);
         y = AddDebugField(options, y, "Location", ChangeLocation);
         y = AddDebugField(options, y, "Level", LevelChanged);
@@ -269,6 +270,13 @@ function CreateOptionsContent()
 --        y = AddDeedButton(options, y, "Eyes of the Enemy");
 
         y = AddReloadButton(options, y);
+        
+        local background = Turbine.UI.Control();
+        background:SetParent(options);
+        background:SetSize(options:GetWidth(), y - debugYStart);
+        background:SetBackColor(Turbine.UI.Color.DarkBlue);
+        background:SetTop(debugYStart);
+        background:SetZOrder(-1);
     end
 
     options:SetHeight(y + bottomMargin);
