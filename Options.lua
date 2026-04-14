@@ -245,6 +245,13 @@ function CreateOptionsContent()
     local nilCallback = nil;
 
     local y = topMargin;
+
+    -- Icon options
+    y = AddOption(options, y, "MOVE_ICON_REQUIRES_SHIFT", notServerSetting, nilCallback);
+
+    y = AddDivider(options, y);
+
+    -- Deed category options:
     y = AddOption(options, y, "LEGENDARY_SERVER", serverSetting, function()
         SetServerLevelCap();
     end);
@@ -268,7 +275,6 @@ function CreateOptionsContent()
     y = AddOption(options, y, "DEED_LOG_PAGE_TABS_SCROLLBARS", notServerSetting, nilCallback);
     y = AddOption(options, y, "OBJECTIVES_SHOW_FULL_OBJECTIVES", notServerSetting, nilCallback);
     y = AddOption(options, y, "OBJECTIVES_SHOW_COORDINATES", notServerSetting, nilCallback);
-    y = AddOption(options, y, "MOVE_ICON_REQUIRES_SHIFT", notServerSetting, nilCallback);
     y = AddOption(options, y, "VERBOSE_OUTPUT", notServerSetting, nilCallback);
 
     if (SHOW_DEBUG_OPTIONS) then
