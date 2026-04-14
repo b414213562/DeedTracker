@@ -90,7 +90,7 @@ function MinimizedIcon:MouseUp(args)
             SETTINGS.MINIMIZED_ICON.X = x;
             SETTINGS.MINIMIZED_ICON.Y = y;
             -- save preferences
-        else
+        elseif (self.mouseInside) then
             local mainWin = DeedTrackerWin.GetInstance();
             if (SETTINGS.MAINWIN.VISIBLE) then
                 mainWin:HideMainWindow();
