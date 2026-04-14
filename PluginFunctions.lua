@@ -733,15 +733,15 @@ function GetDeedSkipInfo(character, currentDeed)
     end
 
     if (isLegendaryDeed and not isLegendaryServer) then
-        skipDeed = true;
+        hideDeed = true;
     end
 
     if (isVeilOfTheNine and not isVeilOfTheNineActive) then
-        skipDeed = true;
+        hideDeed = true;
     end
 
     if (isDifficulty and not isDifficultyActive) then
-        skipDeed = true;
+        hideDeed = true;
     end
 
     if (SETTINGS.HIDE_NOT_ACTIVELY_ACHIEVABLE_DEEDS and 

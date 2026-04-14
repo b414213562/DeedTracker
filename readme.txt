@@ -28,6 +28,12 @@ If you would like to take over management of one of my plugins, please first sen
 If I do not respond within two months, then you have my permission to request control of a plugin or patch of mine on lotrointerface.com.
 In the meantime, feel free to submit patches for any of my plugins if you spot something that needs fixing or improving!
 
+v3.2.5 changes:
+    Deeds:
+
+    Bug fixes:
+        If you complete a Legendary Server, Veil of the Nine, or Landscape Difficulty deed without the corresponding option checked, the deed will now be marked complete.
+
 v3.2.4 changes:
     Deeds:
         Added U47 deeds:
