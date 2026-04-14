@@ -1119,6 +1119,8 @@ function DeedTrackerWin:RefreshDeedView(CHARACTER)
                 imgDeedLotroPoints:SetVisible(false);
                 imgDeedVirtueXP:SetVisible(false);
                 -- The character got any VXP and LP, but don't include it in overall stats.
+                -- 2026-04-14: This comment seems wrong. We should display all LP and VXP earned.
+                -- But, it should not count against # of deeds completed.
                 if (not deedSkipInfo.isNotAvailable) then
                     self.DEEDS_COMPLETED_THIS_PAGE = self.DEEDS_COMPLETED_THIS_PAGE + 1;
                     self.completedDeedsOnTab[i] = self.completedDeedsOnTab[i] + 1;
