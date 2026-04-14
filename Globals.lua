@@ -194,6 +194,7 @@ DEFAULT_SETTINGS =
         {
         ["X"] = nil;
         ["Y"] = nil;
+        ["ICON"] = "DEED_LOG_ICON_CIRCLE_LARGE";
         };
     };
 

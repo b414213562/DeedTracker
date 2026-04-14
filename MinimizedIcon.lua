@@ -14,8 +14,13 @@ function MinimizedIcon:Constructor()
     if (SETTINGS.MINIMIZED_ICON.X ~= nil) then x = SETTINGS.MINIMIZED_ICON.X; end
     if (SETTINGS.MINIMIZED_ICON.Y ~= nil) then y = SETTINGS.MINIMIZED_ICON.Y; end
 
+    -- Get icon details:
+    local icon = _IMAGES.ICONS[SETTINGS.MINIMIZED_ICON.ICON] or _IMAGES.ICONS.DEED_LOG_ICON_CIRCLE_LARGE;
+    local width = icon.WIDTH;
+    local height = icon.HEIGHT;
+
     self:SetPosition(x, y);
-    self:SetSize(42,42);
+    self:SetSize(width, height);
     self:SetBlendMode(Turbine.UI.BlendMode.AlphaBlend);
     self:SetOpacity(self.inactiveTransparency);
     self:SetVisible(true);
@@ -23,8 +28,8 @@ function MinimizedIcon:Constructor()
     -- Make the icon:
     local image = Turbine.UI.Control();
     image:SetParent(self);
-    image:SetBackground(_IMAGES.DEED_LOG);
-    image:SetSize(42,42);
+    image:SetBackground(icon.PATH);
+    image:SetSize(width, height);
     image:SetPosition(0, 0);
     image:SetMouseVisible(false);
 

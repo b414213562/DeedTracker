@@ -2,7 +2,35 @@ RESOURCEDIR = "CubePlugins/DeedTracker/Resources/";
 
 _IMAGES = {
 
-    ["DEED_LOG"] = RESOURCEDIR .. "DeedLog.tga"; -- 42x42
+    ["ICONS"] = {
+        ["DEED_LOG_ICON_CIRCLE_LARGE"] = {
+            ["PATH"] = RESOURCEDIR .. "Icons/DeedLog_42x42.tga";
+            ["WIDTH"] = 42;
+            ["HEIGHT"] = 42;
+        };
+        ["DEED_LOG_ICON_CIRCLE_MEDIUM"] = {
+            ["PATH"] = RESOURCEDIR .. "Icons/DeedLog_36x36.tga";
+            ["WIDTH"] = 36;
+            ["HEIGHT"] = 36;
+        };
+        ["DEED_LOG_ICON_CIRCLE_SMALL"] = {
+            ["PATH"] = RESOURCEDIR .. "Icons/DeedLog_18x18.tga";
+            ["WIDTH"] = 18;
+            ["HEIGHT"] = 18;
+        };
+
+        ["DEED_LOG_ICON_SQUARE_MEDIUM"] = {
+            ["PATH"] = RESOURCEDIR .. "Icons/DeedLog_rectangle_36x36.tga";
+            ["WIDTH"] = 36;
+            ["HEIGHT"] = 36;
+        };
+        ["DEED_LOG_ICON_SQUARE_SMALL"] = {
+            ["PATH"] = RESOURCEDIR .. "Icons/DeedLog_rectangle_18x18.tga";
+            ["WIDTH"] = 18;
+            ["HEIGHT"] = 18;
+        };
+    };
+
     ["PROGRESS_BACK"] = Turbine.UI.Graphic(RESOURCEDIR .. "ProgressBar_Back.tga"); -- 200x18
     ["PROGRESS_BAR"] = Turbine.UI.Graphic(RESOURCEDIR .. "ProgressBar.tga"); -- 179x9
     ["PROGRESS_BAR_COMPLETE"] = Turbine.UI.Graphic(RESOURCEDIR .. "ProgressBarComplete.tga"); -- 179x9
