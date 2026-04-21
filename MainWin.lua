@@ -716,6 +716,20 @@ function DeedTrackerWin:UpdateDeedCategoryOptionsIfNeeded(deed)
         [2] = "VEIL_OF_THE_NINE";
         [3] = "DIFFICULTY";
     }
+    local deedEntries = {
+        ["LEGENDARY_SERVER"] = { 
+            ["KEY"] = "LEGENDARY";
+            ["VALUE"] = true;
+        };
+        ["VEIL_OF_THE_NINE"] = {
+            ["KEY"] = "VEIL_OF_THE_NINE";
+            ["VALUE"] = true;
+        };
+        ["DIFFICULTY"] = {
+            ["KEY"] = "NA";
+            ["VALUE"] = 6;
+        };
+    };
     local settings = {
         ["LEGENDARY_SERVER"] = LoadServerField("LEGENDARY_SERVER");
         ["VEIL_OF_THE_NINE"] = LoadServerField("VEIL_OF_THE_NINE");
@@ -723,8 +737,11 @@ function DeedTrackerWin:UpdateDeedCategoryOptionsIfNeeded(deed)
     };
 
     for _, name in ipairs(names) do
-        local setting = settings[name];
-        if (not setting) then
+        local deedEntry = deedEntries[name];
+        local isDeedThisType = deed[deedEntry.KEY] == deedEntry.VALUE;
+        local settingIsOff = not settings[name];
+
+        if (isDeedThisType and settingIsOff) then
             Debug("Forcing " .. name .. " setting to true because of this completed deed");
             local checkbox = GetOptionsControl(name, "CheckBox");
             if (checkbox) then
