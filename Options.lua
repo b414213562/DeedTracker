@@ -1,6 +1,115 @@
 OPTION_HEIGHT = 40;
 
 OptionControls = {};
+IconRadioButtons = {};
+
+OrderedIcons = {
+    [1] = {
+        ["KEY"] = "DEED_LOG_ICON_CIRCLE_LARGE";
+        ["X"] = 0;
+        ["Y"] = 0;
+    };
+    [2] = {
+        ["KEY"] = "DEED_LOG_ICON_CIRCLE_MEDIUM";
+        ["X"] = 0;
+        ["Y"] = 1;
+    };
+    [3] = {
+        ["KEY"] = "DEED_LOG_ICON_CIRCLE_SMALL";
+        ["X"] = 0;
+        ["Y"] = 2;
+    };
+    [4] = {
+        ["KEY"] = "DEED_LOG_ICON_SQUARE_MEDIUM";
+        ["X"] = 1;
+        ["Y"] = 1;
+    };
+    [5] = {
+        ["KEY"] = "DEED_LOG_ICON_SQUARE_SMALL";
+        ["X"] = 1;
+        ["Y"] = 2;
+    };
+};
+
+---Adds the possible icons for the mini button.
+---@param option Control
+---@param y number
+---@return number
+function AddIconOptions(options, y)
+    local leftMargin = 10;
+    local radioButtonHeight = 20;
+    local radioButtonWidth = 125;
+
+    local labelHeight = 20;
+
+    local iconControl = Turbine.UI.Control();
+    iconControl:SetParent(options);
+    iconControl:SetWidth(options:GetWidth());
+    iconControl:SetTop(y);
+
+    local controlLabel = Turbine.UI.Label();
+    controlLabel:SetParent(iconControl);
+    controlLabel:SetText(GetString(_LANG.OPTIONS.ICON_SIZE_SHAPE));
+    controlLabel:SetSize(250, labelHeight);
+    controlLabel:SetPosition(5, 0);
+
+    local handlingCheckedChanged = false;
+    local iconKeyToUse = SETTINGS.MINIMIZED_ICON.ICON or "DEED_LOG_ICON_CIRCLE_LARGE";
+
+    local maxIconY = 0;
+
+    for i, orderedIcon in ipairs(OrderedIcons) do
+        local iconKey, iconX, iconY = orderedIcon["KEY"], orderedIcon["X"], orderedIcon["Y"];
+        local iconValues = _IMAGES.ICONS[iconKey];
+
+        local radioButton = Turbine.UI.Lotro.CheckBox();
+        radioButton:SetParent(iconControl);
+        radioButton:SetPosition(
+            leftMargin + iconX * radioButtonWidth,
+            labelHeight + iconY * radioButtonHeight);
+        radioButton:SetSize(radioButtonWidth, radioButtonHeight);
+        radioButton:SetText(GetString(iconValues["DESCRIPTION"]));
+        radioButton:SetCheckAlignment(Turbine.UI.ContentAlignment.MiddleLeft);
+        if (iconKey == iconKeyToUse) then
+            radioButton:SetChecked(true);
+        end
+        if (iconY > maxIconY) then maxIconY = iconY; end
+
+        radioButton.CheckedChanged = function(sender, args)
+            -- don't allow recursion
+            if (handlingCheckedChanged) then return; end
+
+            handlingCheckedChanged = true;
+
+            if (sender:IsChecked()) then
+                -- Simulate a radio button, uncheck the rest
+                for _, otherRadioButton in ipairs(IconRadioButtons) do
+                    if (sender ~= otherRadioButton) then
+                        otherRadioButton:SetChecked(false);
+                    end
+                end
+                SETTINGS.MINIMIZED_ICON.ICON = iconKey;
+                DeedTrackerWin.GetInstance().minimizeIcon:LoadIconSettings();
+
+            else
+                -- Simulate a radio button, don't uncheck
+                sender:SetChecked(true);
+            end
+
+
+
+            handlingCheckedChanged = false;
+        end
+
+        IconRadioButtons[i] = radioButton;
+    end
+
+    local controlHeight = labelHeight + (maxIconY + 1) * radioButtonHeight;
+    iconControl:SetHeight(controlHeight);
+
+    return y + controlHeight;
+end
+
 
 ---Add the given control to the lookup table.
 ---@param optionName string
@@ -248,6 +357,8 @@ function CreateOptionsContent()
 
     -- Icon options
     y = AddOption(options, y, "MOVE_ICON_REQUIRES_SHIFT", notServerSetting, nilCallback);
+
+    y = AddIconOptions(options, y);
 
     y = AddDivider(options, y);
 

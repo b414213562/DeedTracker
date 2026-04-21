@@ -7,27 +7,32 @@ _IMAGES = {
             ["PATH"] = RESOURCEDIR .. "Icons/DeedLog_42x42.tga";
             ["WIDTH"] = 42;
             ["HEIGHT"] = 42;
+            ["DESCRIPTION"] = { ["EN"] = "Large Circle"; }
         };
         ["DEED_LOG_ICON_CIRCLE_MEDIUM"] = {
             ["PATH"] = RESOURCEDIR .. "Icons/DeedLog_36x36.tga";
             ["WIDTH"] = 36;
             ["HEIGHT"] = 36;
+            ["DESCRIPTION"] = { ["EN"] = "Medium Circle"; }
         };
         ["DEED_LOG_ICON_CIRCLE_SMALL"] = {
             ["PATH"] = RESOURCEDIR .. "Icons/DeedLog_18x18.tga";
             ["WIDTH"] = 18;
             ["HEIGHT"] = 18;
+            ["DESCRIPTION"] = { ["EN"] = "Small Circle"; }
         };
 
         ["DEED_LOG_ICON_SQUARE_MEDIUM"] = {
             ["PATH"] = RESOURCEDIR .. "Icons/DeedLog_square_36x36.tga";
             ["WIDTH"] = 36;
             ["HEIGHT"] = 36;
+            ["DESCRIPTION"] = { ["EN"] = "Medium Square"; }
         };
         ["DEED_LOG_ICON_SQUARE_SMALL"] = {
             ["PATH"] = RESOURCEDIR .. "Icons/DeedLog_square_18x18.tga";
             ["WIDTH"] = 18;
             ["HEIGHT"] = 18;
+            ["DESCRIPTION"] = { ["EN"] = "Small Square"; }
         };
     };
 

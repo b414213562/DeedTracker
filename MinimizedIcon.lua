@@ -13,31 +13,37 @@ function MinimizedIcon:Constructor()
     local y = Turbine.UI.Display:GetHeight() / 2;
     if (SETTINGS.MINIMIZED_ICON.X ~= nil) then x = SETTINGS.MINIMIZED_ICON.X; end
     if (SETTINGS.MINIMIZED_ICON.Y ~= nil) then y = SETTINGS.MINIMIZED_ICON.Y; end
-
-    -- Get icon details:
-    local icon = _IMAGES.ICONS[SETTINGS.MINIMIZED_ICON.ICON] or _IMAGES.ICONS.DEED_LOG_ICON_CIRCLE_LARGE;
-    local width = icon.WIDTH;
-    local height = icon.HEIGHT;
-
     self:SetPosition(x, y);
-    self:SetSize(width, height);
-    self:SetBlendMode(Turbine.UI.BlendMode.AlphaBlend);
-    self:SetOpacity(self.inactiveTransparency);
-    self:SetVisible(true);
 
     -- Make the icon:
     local image = Turbine.UI.Control();
     image:SetParent(self);
-    image:SetBackground(icon.PATH);
-    image:SetSize(width, height);
-    image:SetPosition(0, 0);
-    image:SetMouseVisible(false);
+    self.Image = image;
+
+    self:LoadIconSettings();
 
     if (Turbine.UI.Display["SizeChanged"] == nil) then Turbine.UI.Display["SizeChanged"] = {}; end
     table.insert(Turbine.UI.Display["SizeChanged"], function()
         Onscreen(self);
     end);
     Onscreen(self);
+end
+
+function MinimizedIcon:LoadIconSettings()
+    -- Get icon details:
+    local icon = _IMAGES.ICONS[SETTINGS.MINIMIZED_ICON.ICON] or _IMAGES.ICONS.DEED_LOG_ICON_CIRCLE_LARGE;
+    local width = icon.WIDTH;
+    local height = icon.HEIGHT;
+
+    self:SetSize(width, height);
+    self:SetBlendMode(Turbine.UI.BlendMode.AlphaBlend);
+    self:SetOpacity(self.inactiveTransparency);
+    self:SetVisible(true);
+
+    self.Image:SetBackground(icon.PATH);
+    self.Image:SetSize(width, height);
+    self.Image:SetPosition(0, 0);
+    self.Image:SetMouseVisible(false);
 end
 
 function MinimizedIcon:KeyDown(sender, args)

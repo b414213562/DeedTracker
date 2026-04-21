@@ -26,6 +26,9 @@ _LANG = {
     };
 
     ["OPTIONS"] = {
+        ["ICON_SIZE_SHAPE"] = {
+            ["EN"] = "Mini Icon Shape/Size";
+        };
         ["SAVE"] = {
             ["EN"] = "Save";
             ["DE"] = "Speichern";
