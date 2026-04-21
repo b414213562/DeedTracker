@@ -20,12 +20,12 @@ _IMAGES = {
         };
 
         ["DEED_LOG_ICON_SQUARE_MEDIUM"] = {
-            ["PATH"] = RESOURCEDIR .. "Icons/DeedLog_rectangle_36x36.tga";
+            ["PATH"] = RESOURCEDIR .. "Icons/DeedLog_square_36x36.tga";
             ["WIDTH"] = 36;
             ["HEIGHT"] = 36;
         };
         ["DEED_LOG_ICON_SQUARE_SMALL"] = {
-            ["PATH"] = RESOURCEDIR .. "Icons/DeedLog_rectangle_18x18.tga";
+            ["PATH"] = RESOURCEDIR .. "Icons/DeedLog_square_18x18.tga";
             ["WIDTH"] = 18;
             ["HEIGHT"] = 18;
         };
