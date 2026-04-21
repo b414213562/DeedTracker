@@ -71,6 +71,8 @@ function MinimizedIcon:MouseDown(args)
         self.mouseDown = { startX, startY };
         self.mouseDownOffset = { startX - startLeft, startY - startTop };
         self.hasMoved = false;
+    elseif (args.Button == Turbine.UI.MouseButton.Right) then
+        ShowPluginOptions();
     end
 end
 

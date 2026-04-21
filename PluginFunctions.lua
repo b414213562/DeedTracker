@@ -1169,3 +1169,7 @@ function GetDeedInformationControl(deed, width, includeObjectives)
     deedControl:SetHeight(y);
     return deedControl;
 end
+
+function ShowPluginOptions()
+    Turbine.PluginManager.ShowOptions(Plugins["Deed Tracker"]);
+end
