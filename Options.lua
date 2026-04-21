@@ -68,7 +68,7 @@ function AddIconOptions(options, y)
             leftMargin + iconX * radioButtonWidth,
             labelHeight + iconY * radioButtonHeight);
         radioButton:SetSize(radioButtonWidth, radioButtonHeight);
-        radioButton:SetText(GetString(iconValues["DESCRIPTION"]));
+        radioButton:SetText(GetString(_LANG.OPTIONS.ICONS[iconKey]));
         radioButton:SetCheckAlignment(Turbine.UI.ContentAlignment.MiddleLeft);
         if (iconKey == iconKeyToUse) then
             radioButton:SetChecked(true);

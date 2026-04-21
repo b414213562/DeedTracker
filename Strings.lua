@@ -29,6 +29,23 @@ _LANG = {
         ["ICON_SIZE_SHAPE"] = {
             ["EN"] = "Mini Icon Shape/Size";
         };
+        ["ICONS"] = {
+            ["DEED_LOG_ICON_CIRCLE_LARGE"] = {
+                ["EN"] = "Large Circle";
+            };
+            ["DEED_LOG_ICON_CIRCLE_MEDIUM"] = {
+                ["EN"] = "Medium Circle";
+            };
+            ["DEED_LOG_ICON_CIRCLE_SMALL"] = {
+                ["EN"] = "Small Circle";
+            };    
+            ["DEED_LOG_ICON_SQUARE_MEDIUM"] = {
+                ["EN"] = "Medium Square";
+            };
+            ["DEED_LOG_ICON_SQUARE_SMALL"] = {
+                ["EN"] = "Small Square";
+            };
+        };
         ["SAVE"] = {
             ["EN"] = "Save";
             ["DE"] = "Speichern";
