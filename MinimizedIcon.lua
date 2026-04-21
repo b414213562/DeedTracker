@@ -18,6 +18,7 @@ function MinimizedIcon:Constructor()
     -- Make the icon:
     local image = Turbine.UI.Control();
     image:SetParent(self);
+    image:SetMouseVisible(false);
     self.Image = image;
 
     self:LoadIconSettings();
@@ -43,7 +44,6 @@ function MinimizedIcon:LoadIconSettings()
     self.Image:SetBackground(icon.PATH);
     self.Image:SetSize(width, height);
     self.Image:SetPosition(0, 0);
-    self.Image:SetMouseVisible(false);
 end
 
 function MinimizedIcon:KeyDown(sender, args)
