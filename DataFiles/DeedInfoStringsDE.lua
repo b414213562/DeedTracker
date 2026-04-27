@@ -1,4 +1,4 @@
-if (GetClientLanguage() ~= "DE") then return true; end 
+if (LANGUAGE ~= "DE") then return true; end 
 _FACTIONS = {
     [1879091340] = "Menschen von Bree";
     [1879091341] = "Rat des Nordens";

@@ -1,4 +1,4 @@
-if (GetClientLanguage() ~= "FR") then return true; end 
+if (LANGUAGE ~= "FR") then return true; end 
 -- Note: A Category should have a NAME.
 -- It can also have:
 --   TIER - how indented are the deeds it contains?
