@@ -5391,6 +5391,7 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
           [125] = {["ID"] = 1879524267; ["TIER"] = 1; }; -- Tales of Hatokáli Fells
           [126] = {["ID"] = 1879524259; }; -- Defender of Hatokáli Fells
           [127] = {["ID"] = 1879525229; }; -- Hatokáli Scouting
+          [128] = {["ID"] = 1879523703; }; -- Tales for the Storyteller
         };
     };
 };
