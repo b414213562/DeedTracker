@@ -325,6 +325,7 @@ _DEED_CATEGORIES = {
 [289] = { ["TIER"] = 1; ["NAME"] = "- The Combe Forester Event -"; };
 [307] = { ["TIER"] = 1; ["NAME"] = "- The Hard Tack Crafting Event -" };
 [305] = { ["NAME"] = "- Veil of the Nine -"; };
+[344] = { ["NAME"] = "- Veil of the Nine - Baubles"; };
 -- Class/Race/Epic / Allegiances
 [244] = { ["MIN_LVL"] = "110"; ["NAME"] = "- Durin's Folk -"; };
 [245] = { ["MIN_LVL"] = "110"; ["NAME"] = "- The Court of Lothlórien -"; };
@@ -386,6 +387,7 @@ _DEED_CATEGORIES = {
 [339] = { ["TIER"] = 1; ["NAME"] = "An Shêru"; };
 [340] = { ["TIER"] = 1; ["NAME"] = "Idagâl"; };
 [341] = { ["TIER"] = 1; ["NAME"] = "Mûr Ghala"; };
+[343] = { ["TIER"] = 0; ["NAME"] = "Hatokáli Fells"; };
 };
 
--- Last used: 342
+-- Last used: 344

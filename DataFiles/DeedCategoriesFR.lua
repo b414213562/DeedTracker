@@ -23,10 +23,10 @@ _DEED_CATEGORIES = {
 [14] = { ["NAME"] = "Level 20+"; };
 [15] = { ["NAME"] = "- Doom of Caras Gelebren -"; };
 [16] = { ["NAME"] = "Level 45+"; };
-[17] = { ["NAME"] = "-Barrow-downs Survival-"; };
-[18] = { ["TIER"] = 2; ["NAME"] = "--The Dead Slayer Deeds--"; };
-[19] = { ["TIER"] = 2; ["NAME"] = "--The Dark Lord Lieutenant Slayer Deeds--"; };
-[20] = { ["TIER"] = 2; ["NAME"] = "--Single Session (Instance) Deeds--"; };
+[17] = { ["NAME"] = "- Barrow-downs Survival -"; };
+[18] = { ["TIER"] = 2; ["NAME"] = "-- The Dead Slayer Deeds --"; };
+[19] = { ["TIER"] = 2; ["NAME"] = "-- The Dark Lord Lieutenant Slayer Deeds --"; };
+[20] = { ["TIER"] = 2; ["NAME"] = "-- Single Session (Instance) Deeds --"; };
 [21] = { ["NA"] = 2; ["NAME"] = "Not Actively Achievable"; };
 -- Instances / Shadows of Angmar
 [22] = { ["NAME"] = "Level 20+"; };
@@ -324,7 +324,8 @@ _DEED_CATEGORIES = {
 [306] = { ["NAME"] = "- Crafting Events -"; };
 [289] = { ["TIER"] = 1; ["NAME"] = "- The Combe Forester Event -"; };
 [307] = { ["TIER"] = 1; ["NAME"] = "- The Hard Tack Crafting Event -" };
-[305] = { ["NAME"] = "- Veil of the Nine -"; };
+[305] = { ["NAME"] = "- Le voile des Neuf -"; };
+[344] = { ["NAME"] = "- Le voile des Neuf - Babioles"; };
 -- Class/Race/Epic / Allegiances
 [244] = { ["MIN_LVL"] = "110"; ["NAME"] = "- Durin's Folk -"; };
 [245] = { ["MIN_LVL"] = "110"; ["NAME"] = "- The Court of Lothlórien -"; };
@@ -386,4 +387,5 @@ _DEED_CATEGORIES = {
 [339] = { ["TIER"] = 1; ["NAME"] = "An Shêru"; };
 [340] = { ["TIER"] = 1; ["NAME"] = "Idagâl"; };
 [341] = { ["TIER"] = 1; ["NAME"] = "Mûr Ghala"; };
+[343] = { ["TIER"] = 0; ["NAME"] = "Monts de l’Hatokali"; };
 };

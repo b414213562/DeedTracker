@@ -324,7 +324,8 @@ _DEED_CATEGORIES = {
 [306] = { ["NAME"] = "- Crafting Events -"; };
 [289] = { ["TIER"] = 1; ["NAME"] = "- The Combe Forester Event -"; };
 [307] = { ["TIER"] = 1; ["NAME"] = "- The Hard Tack Crafting Event -" };
-[305] = { ["NAME"] = "- Veil of the Nine -"; };
+[305] = { ["NAME"] = "- Der Schleier der Neun -"; };
+[344] = { ["NAME"] = "- Der Schleier der Neun - Talismane"; };
 -- Class/Race/Epic / Allegiances
 [244] = { ["MIN_LVL"] = "110"; ["NAME"] = "- Durins Volk -"; };
 [245] = { ["MIN_LVL"] = "110"; ["NAME"] = "- Der Hof von Lothlórien -"; };
@@ -386,4 +387,5 @@ _DEED_CATEGORIES = {
 [339] = { ["TIER"] = 1; ["NAME"] = "An Shêru"; };
 [340] = { ["TIER"] = 1; ["NAME"] = "Idagâl"; };
 [341] = { ["TIER"] = 1; ["NAME"] = "Mûr Ghala"; };
+[343] = { ["TIER"] = 0; ["NAME"] = "Hatokáli-Hügel"; };
 };
