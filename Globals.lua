@@ -89,38 +89,24 @@ WAYPOINT_AVAILABLE = false;
 
 Turbine.Language.Russian = 0x10000007; -- removed in Update 22 and again in Update 34
 
-function IsClientRussian(clientLanguage)
-    if (clientLanguage == Turbine.Language.English) then
-        local russianAlphabet = "АаБбВвГгДдЕеЁёЖжЗзИиЙйКкЛлМмНнОоПпРрСсТтУуФфХхЦцЧчШшЩщЪъЫыЬьЭэЮюЯя";
-        local skillName = MYCHAR:GetTrainedSkills():GetItem(1):GetSkillInfo():GetName();
-        local firstCharacter = skillName:sub(1, 2);
-        if (russianAlphabet:match(firstCharacter)) then
-            return true;
-        end
-    end
-    return false;
-end
-
 function GetClientLanguage()
-    local clientLanguage = Turbine.Engine.GetLanguage();
-    local result = "EN";
+    local mushroomStrings = {
+        ["Pilz"] = "DE";
+        ["Mushroom"] = "EN";
+        ["Hongo"] = "ES";
+        ["Champignon"] = "FR";
+        ["Гриб"] = "RU";
+    }
+    local shortcut = Turbine.UI.Lotro.Shortcut(
+        Turbine.UI.Lotro.ShortcutType.Item,
+        "0x0,0x700005C5");
+    local itemName = shortcut:GetItem():GetItemInfo():GetName();
+    local language = mushroomStrings[itemName] or "EN";
 
-    if (IsClientRussian(clientLanguage)) then
-        clientLanguage = Turbine.Language.Russian;
-    end
-
-    if (clientLanguage == Turbine.Language.French) then
-        result = "FR";
-    elseif (clientLanguage == Turbine.Language.German) then
-        result = "DE";
-    elseif (clientLanguage == Turbine.Language.Russian) then
-        result = "RU";
-    end
-    return result;
+    return language;
 end
 
--- Todo: Some places look at LANGUAGE, some at GetClientLanguage(). Fix this discrepancy.
--- Detect client lang.
+-- Detect client lang and save off the value:
 LANGUAGE = GetClientLanguage();
 
 -- Timer for saving after a deed is completed:
