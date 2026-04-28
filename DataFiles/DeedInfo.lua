@@ -3005,7 +3005,7 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
           [464] = {["ID"] = 1879487973; ["TIER"] = 1; }; -- Defeat the Woe of Khand
           [465] = {["ID"] = 1879487972; ["TIER"] = 1; }; -- Defeat the Cursed Rider
           [466] = {["ID"] = 1879487969; ["TIER"] = 1; }; -- Defeat the Witch-king
-          [467] = {}; -- - Veil of the Nine - Baubles -
+          [467] = {["CAT_ID"] = 344; }; -- - Veil of the Nine - Baubles -
           [468] = {["ID"] = 1879525239; }; -- Earned Bauble - Effigy of the Grim Southron
           [469] = {["ID"] = 1879525244; }; -- Earned Bauble - Effigy of the Forsaken Reaver
           [470] = {["ID"] = 1879525245; }; -- Earned Bauble - Effigy of the Gloom of Nurn
