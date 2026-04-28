@@ -235,8 +235,9 @@ end
 ---@param optionName string The Option to AddDebugField
 ---@param isServer boolean Is the option per-character or per-server?
 ---@param callback function? What function that takes no parameters should be called when the value changes?
+---@param doNotRefreshDeeds boolean? Skip the deed refresh for options that don't impact the main window
 ---@return number #The next Y coordinate.
-function AddOption(options, y, optionName, isServer, callback)
+function AddOption(options, y, optionName, isServer, callback, doNotRefreshDeeds)
     local checkbox = AddOptionCheckbox(options, y, GetString(_LANG.OPTIONS[optionName]));
     local height = AutoFitLabelHeight(checkbox, 200);
 
@@ -260,9 +261,11 @@ function AddOption(options, y, optionName, isServer, callback)
             callback();
         end
 
-        local mainWin = DeedTrackerWin.GetInstance();
-        CheckDeedData(mainWin:GetUiCharacter());
-        mainWin:RefreshDeeds();
+        if (not doNotRefreshDeeds) then
+            local mainWin = DeedTrackerWin.GetInstance();
+            CheckDeedData(mainWin:GetUiCharacter());
+            mainWin:RefreshDeeds();
+        end
     end
     return y + height;
 end
@@ -424,9 +427,11 @@ function CreateOptionsContent()
 
     local y = topMargin;
 
+    local doNotRefreshDeeds = true;
+
     -- Icon options
-    y = AddOption(options, y, "SHOW_MINI_ICON", notServerSetting, function() GetMiniIcon():SetVisible(SETTINGS.SHOW_MINI_ICON); end);
-    y = AddOption(options, y, "MOVE_ICON_REQUIRES_SHIFT", notServerSetting, nilCallback);
+    y = AddOption(options, y, "SHOW_MINI_ICON", notServerSetting, function() GetMiniIcon():SetVisible(SETTINGS.SHOW_MINI_ICON); end, doNotRefreshDeeds);
+    y = AddOption(options, y, "MOVE_ICON_REQUIRES_SHIFT", notServerSetting, nilCallback, doNotRefreshDeeds);
     y = AddIconOpacityOptions(options, y);
     y = AddIconSizeShapeOptions(options, y);
     y = AddDivider(options, y);
@@ -450,12 +455,12 @@ function CreateOptionsContent()
     y = AddOption(options, y, "HIDE_DEEDS_ABOVE_LEVEL", notServerSetting, nilCallback);
     y = AddOption(options, y, "HIDE_NOT_ACTIVELY_ACHIEVABLE_DEEDS", notServerSetting, nilCallback);
     y = AddOption(options, y, "CASCADE_COMPLETION", notServerSetting, nilCallback);
-    y = AddOption(options, y, "DO_NOT_SHOW_COMPLETION_WINDOW", notServerSetting, nilCallback);
-    y = AddOption(options, y, "DO_NOT_SHOW_COMPLETION_WINDOW_IN_COMBAT", notServerSetting, nilCallback);
+    y = AddOption(options, y, "DO_NOT_SHOW_COMPLETION_WINDOW", notServerSetting, nilCallback, doNotRefreshDeeds);
+    y = AddOption(options, y, "DO_NOT_SHOW_COMPLETION_WINDOW_IN_COMBAT", notServerSetting, nilCallback, doNotRefreshDeeds);
     y = AddOption(options, y, "DEED_LOG_PAGE_TABS_SCROLLBARS", notServerSetting, nilCallback);
-    y = AddOption(options, y, "OBJECTIVES_SHOW_FULL_OBJECTIVES", notServerSetting, nilCallback);
-    y = AddOption(options, y, "OBJECTIVES_SHOW_COORDINATES", notServerSetting, nilCallback);
-    y = AddOption(options, y, "VERBOSE_OUTPUT", notServerSetting, nilCallback);
+    y = AddOption(options, y, "OBJECTIVES_SHOW_FULL_OBJECTIVES", notServerSetting, nilCallback, doNotRefreshDeeds);
+    y = AddOption(options, y, "OBJECTIVES_SHOW_COORDINATES", notServerSetting, nilCallback, doNotRefreshDeeds);
+    y = AddOption(options, y, "VERBOSE_OUTPUT", notServerSetting, nilCallback, doNotRefreshDeeds);
 
     if (SHOW_DEBUG_OPTIONS) then
         local debugYStart = y;
