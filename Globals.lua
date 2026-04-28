@@ -136,6 +136,7 @@ DEFAULT_SETTINGS =
     ["DEED_LOG_PAGE_TABS_SCROLLBARS"] = false;
     ["OBJECTIVES_SHOW_FULL_OBJECTIVES"] = false;
     ["OBJECTIVES_SHOW_COORDINATES"] = true;
+    ["SHOW_MINI_ICON"] = true;
 
     ["MAINWIN"] =
         {
@@ -181,6 +182,8 @@ DEFAULT_SETTINGS =
         ["X"] = nil;
         ["Y"] = nil;
         ["ICON"] = "DEED_LOG_ICON_CIRCLE_LARGE";
+        ["ICON_ENABLE_TRANSPARENCY_DURING_MOUSEOVER"] = false;
+        ["OPACITY"] = 100;
         };
     };
 

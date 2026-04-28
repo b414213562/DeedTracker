@@ -1,11 +1,16 @@
 MinimizedIcon = class(Turbine.UI.Window);
 
+---Returns the current MinimizedIcon
+---@return MinimizedIcon
+function GetMiniIcon()
+    return DeedTrackerWin.GetInstance().minimizeIcon;
+end
+
 function MinimizedIcon:Constructor()
     Turbine.UI.Window.Constructor(self);
 
     -- State:
     self.isHudVisible = true;
-    self.inactiveTransparency = 0.6;
     self.activeTransparency = 1.0;
 
     -- Make the window:
@@ -28,6 +33,8 @@ function MinimizedIcon:Constructor()
         Onscreen(self);
     end);
     Onscreen(self);
+
+    self:SetVisible(SETTINGS.SHOW_MINI_ICON);
 end
 
 function MinimizedIcon:LoadIconSettings()
@@ -38,12 +45,16 @@ function MinimizedIcon:LoadIconSettings()
 
     self:SetSize(width, height);
     self:SetBlendMode(Turbine.UI.BlendMode.AlphaBlend);
-    self:SetOpacity(self.inactiveTransparency);
+    self:LoadOpacitySettings();
     self:SetVisible(true);
 
     self.Image:SetBackground(icon.PATH);
     self.Image:SetSize(width, height);
     self.Image:SetPosition(0, 0);
+end
+
+function MinimizedIcon:LoadOpacitySettings()
+    self:SetOpacity(SETTINGS.MINIMIZED_ICON.OPACITY / 100);
 end
 
 function MinimizedIcon:KeyDown(sender, args)
@@ -55,12 +66,16 @@ end
 
 function MinimizedIcon:MouseEnter()
     self.mouseInside = true;
-    self:SetOpacity(self.activeTransparency);
+    if (SETTINGS.MINIMIZED_ICON.ICON_ENABLE_TRANSPARENCY_DURING_MOUSEOVER) then
+        self:LoadOpacitySettings()
+    else
+        self:SetOpacity(self.activeTransparency);
+    end
 end
 
 function MinimizedIcon:MouseLeave()
     self.mouseInside = false;
-    self:SetOpacity(self.inactiveTransparency);
+    self:LoadOpacitySettings();
 end
 
 function MinimizedIcon:MouseDown(args)

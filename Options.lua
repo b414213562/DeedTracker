@@ -31,12 +31,81 @@ OrderedIcons = {
     };
 };
 
+function AddIconOpacityOptions(options, y)
+    local leftMargin = 10;
+    local labelMargin = 5;
+    local labelHeight = 20;
+    local scrollbarHeight = 10;
+    local controlWidth = options:GetWidth() - leftMargin;
+
+    local controlY = 0;
+
+    local iconOpacityControl = Turbine.UI.Control();
+    iconOpacityControl:SetParent(options);
+    iconOpacityControl:SetWidth(options:GetWidth());
+    iconOpacityControl:SetTop(y);
+    --iconOpacityControl:SetBackColor(Turbine.UI.Color.DarkRed);
+
+    -- Mini Icon Opacity:
+    local controlLabel = Turbine.UI.Label();
+    controlLabel:SetParent(iconOpacityControl);
+    controlLabel:SetText(GetString(_LANG.OPTIONS.ICON_OPACITY_LABEL));
+    controlLabel:SetSize(controlWidth, labelHeight);
+    controlLabel:SetLeft(labelMargin);
+    --controlLabel:SetBackColor(Turbine.UI.Color.Brown)
+    controlY = controlY + controlLabel:GetHeight();
+
+    -- [ ] Enable transparency when mouse is over icon
+    local enableTransparencyCheckbox = Turbine.UI.Lotro.CheckBox();
+    enableTransparencyCheckbox:SetParent(iconOpacityControl);
+    enableTransparencyCheckbox:SetText(GetString(_LANG.OPTIONS.ICON_ENABLE_TRANSPARENCY_DURING_MOUSEOVER));
+    enableTransparencyCheckbox:SetSize(controlWidth, labelHeight * 1.5);
+    enableTransparencyCheckbox:SetPosition(leftMargin, controlY);
+    --enableTransparencyCheckbox:SetBackColor(Turbine.UI.Color.Red);
+    enableTransparencyCheckbox.CheckedChanged = function(sender, args)
+        SETTINGS.MINIMIZED_ICON.ICON_ENABLE_TRANSPARENCY_DURING_MOUSEOVER = sender:IsChecked();
+    end
+    RegisterForStringTooltip(enableTransparencyCheckbox, GetString(_LANG.OPTIONS.ICON_ENABLE_TRANSPARENCY_DURING_MOUSEOVER_TOOLTIP));
+    controlY = controlY + enableTransparencyCheckbox:GetHeight();
+
+    -- [25 to 100] - Tooltip: "Changing the slider value will change the opacity of the mini icon"
+    -- add a label for the scrollbar
+    local opacityLabel = Turbine.UI.Label();
+    opacityLabel:SetParent(iconOpacityControl);
+    opacityLabel:SetSize(controlWidth, labelHeight);
+    opacityLabel:SetText(string.format(GetString(_LANG.OPTIONS.ICON_OPACITY), SETTINGS.MINIMIZED_ICON.OPACITY));
+    opacityLabel:SetPosition(leftMargin, controlY);
+    RegisterForStringTooltip(opacityLabel, "Changing the slider value will change the opacity of the mini icon");
+    controlY = controlY + opacityLabel:GetHeight();
+
+    -- add a scrollbar to control opacity
+    local opacityScrollBar = Turbine.UI.Lotro.ScrollBar();
+    opacityScrollBar:SetParent(iconOpacityControl);
+    opacityScrollBar:SetSize(controlWidth, scrollbarHeight);
+    opacityScrollBar:SetOrientation(Turbine.UI.Orientation.Horizontal);
+    opacityScrollBar:SetPosition(leftMargin, controlY);
+    opacityScrollBar:SetMinimum(25);
+    opacityScrollBar:SetValue(SETTINGS.MINIMIZED_ICON.OPACITY);
+    opacityScrollBar.ValueChanged = function(sender, args)
+        local value = sender:GetValue(); -- [0, 100]
+        SETTINGS.MINIMIZED_ICON.OPACITY = value;
+        opacityLabel:SetText(string.format(GetString(_LANG.OPTIONS.ICON_OPACITY), value));
+        GetMiniIcon():LoadOpacitySettings();
+    end
+
+    controlY = controlY + opacityScrollBar:GetHeight() + 10;
+
+    iconOpacityControl:SetHeight(controlY);
+    return y + controlY;
+end
+
 ---Adds the possible icons for the mini button.
 ---@param option Control
 ---@param y number
 ---@return number
-function AddIconOptions(options, y)
+function AddIconSizeShapeOptions(options, y)
     local leftMargin = 10;
+    local labelMargin = 5;
     local radioButtonHeight = 20;
     local radioButtonWidth = 125;
 
@@ -51,7 +120,7 @@ function AddIconOptions(options, y)
     controlLabel:SetParent(iconControl);
     controlLabel:SetText(GetString(_LANG.OPTIONS.ICON_SIZE_SHAPE));
     controlLabel:SetSize(250, labelHeight);
-    controlLabel:SetPosition(5, 0);
+    controlLabel:SetLeft(labelMargin);
 
     local handlingCheckedChanged = false;
     local iconKeyToUse = SETTINGS.MINIMIZED_ICON.ICON or "DEED_LOG_ICON_CIRCLE_LARGE";
@@ -89,7 +158,7 @@ function AddIconOptions(options, y)
                     end
                 end
                 SETTINGS.MINIMIZED_ICON.ICON = iconKey;
-                DeedTrackerWin.GetInstance().minimizeIcon:LoadIconSettings();
+                GetMiniIcon():LoadIconSettings();
 
             else
                 -- Simulate a radio button, don't uncheck
@@ -356,10 +425,10 @@ function CreateOptionsContent()
     local y = topMargin;
 
     -- Icon options
+    y = AddOption(options, y, "SHOW_MINI_ICON", notServerSetting, function() GetMiniIcon():SetVisible(SETTINGS.SHOW_MINI_ICON); end);
     y = AddOption(options, y, "MOVE_ICON_REQUIRES_SHIFT", notServerSetting, nilCallback);
-
-    y = AddIconOptions(options, y);
-
+    y = AddIconOpacityOptions(options, y);
+    y = AddIconSizeShapeOptions(options, y);
     y = AddDivider(options, y);
 
     -- Deed category options:

@@ -29,6 +29,23 @@ _LANG = {
         ["ICON_SIZE_SHAPE"] = {
             ["EN"] = "Mini Icon Shape/Size";
         };
+        ["ICON_OPACITY_LABEL"] = {
+            ["EN"] = "Mini Icon Opacity";
+        };
+        ["ICON_OPACITY_LABEL_TOOLTIP"] = {
+            ["EN"] = "Changing the slider value will change the opacity of the mini icon";
+        };
+        ["ICON_ENABLE_TRANSPARENCY_DURING_MOUSEOVER"] = {
+            ["EN"] = "Use opacity setting while mouse is over icon";
+        };
+        ["ICON_ENABLE_TRANSPARENCY_DURING_MOUSEOVER_TOOLTIP"] = {
+            ["EN"] = "Controls whether the icon will become fully opaque while the mouse is over it, or keep the opacity setting."
+        };
+        ["ICON_OPACITY"] = {
+            ["EN"] = "Opacity: %d%%";
+            ["DE"] = "Opazität: %d%%";
+            ["FR"] = "Opacité: %d%%";
+        };
         ["ICONS"] = {
             ["DEED_LOG_ICON_CIRCLE_LARGE"] = {
                 ["EN"] = "Large Circle";
@@ -85,6 +102,9 @@ _LANG = {
             ["EN"] = "Turn on verbose logging (useful for testing)";
             ["DE"] = "Ausführliche Protokollierung einschalten (nützlich zum Testen)";
             ["RU"] = "Включить расширенное журналирование (полезно для тестирования)";
+        };
+        ["SHOW_MINI_ICON"] = {
+            ["EN"] = "Show the Deed Tracker mini icon";
         };
         ["MOVE_ICON_REQUIRES_SHIFT"] = {
             ["EN"] = "Require Shift key to move the icon";
