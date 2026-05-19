@@ -349,6 +349,7 @@ end
 function DrawWindows()
     DeedTrackerWin.GetInstance():DrawMainWin();
     CompletionWindow.GetInstance():LoadUnclearedDeeds();
+    MinimizedIcon:GetInstance();
 end
 
 Turbine.Plugin.Unload = function (sender, args)

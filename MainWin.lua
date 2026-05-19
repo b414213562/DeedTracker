@@ -46,8 +46,6 @@ function DeedTrackerWin:DrawMainWin()
 
     self.deedPageButtons[self.selectedTab]:SetEnabled(false);
     self:RefreshDeedView(self.selectedCharacter);
-
-    self:CreateMinimizeIcon();
 end
 
 function DeedTrackerWin:LevelChanged()
@@ -647,7 +645,6 @@ function DeedTrackerWin:RegisterMainWindowEvents()
     self:SetWantsKeyEvents(true);
 
     self.KeyDown = function (sender,args)
-        self.minimizeIcon:KeyDown(sender, args);
         if args.Action == KEY_ACTION_TOGGLE_HUD then -- handles F12 button
             if SETTINGS.IS_HUD_TOGGLED_ON == false then
                 self:SetVisible(SETTINGS.MAINWIN.VISIBLE);
@@ -1518,10 +1515,4 @@ function DeedTrackerWin:UpdateProgress()
     self:SetProgressBarCompleted(self.cProgressBar, PERCENTAGE, 100);
     self:SetRemainingLpText(self.LP_THIS_PAGE - self.LP_EARNED_THIS_PAGE);
     self:SetRemainingVxpText(self.VXP_THIS_PAGE - self.VXP_EARNED_THIS_PAGE);
-end
-
-function DeedTrackerWin:CreateMinimizeIcon()
-    if (self.minimizeIcon == nil) then
-        self.minimizeIcon = MinimizedIcon();
-    end
 end

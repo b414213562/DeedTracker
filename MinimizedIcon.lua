@@ -2,12 +2,20 @@ MinimizedIcon = class(Turbine.UI.Window);
 
 ---Returns the current MinimizedIcon
 ---@return MinimizedIcon
-function GetMiniIcon()
-    return DeedTrackerWin.GetInstance().minimizeIcon;
+function MinimizedIcon.GetInstance()
+    if (MinimizedIcon.instance ~= nil) then
+        return MinimizedIcon.instance;
+    end
+    return MinimizedIcon();
 end
 
 function MinimizedIcon:Constructor()
+    -- Enforce only one such window:
+    if (MinimizedIcon.instance) then
+        return;
+    end
     Turbine.UI.Window.Constructor(self);
+    MinimizedIcon.instance = self;
 
     -- State:
     self.isHudVisible = true;
@@ -19,6 +27,9 @@ function MinimizedIcon:Constructor()
     if (SETTINGS.MINIMIZED_ICON.X ~= nil) then x = SETTINGS.MINIMIZED_ICON.X; end
     if (SETTINGS.MINIMIZED_ICON.Y ~= nil) then y = SETTINGS.MINIMIZED_ICON.Y; end
     self:SetPosition(x, y);
+    self:SetWantsKeyEvents(true);
+    
+    self.KeyDown = function(sender, args) self:KeyDownHandler(sender, args); end
 
     -- Make the icon:
     local image = Turbine.UI.Control();
@@ -64,7 +75,10 @@ function MinimizedIcon:LoadOpacitySettings()
     self:SetOpacity(SETTINGS.MINIMIZED_ICON.OPACITY / 100);
 end
 
-function MinimizedIcon:KeyDown(sender, args)
+---Function that KeyDown() calls to handle the F12 button
+---@param sender Control
+---@param args EventControlKeyDownArgsTable
+function MinimizedIcon:KeyDownHandler(sender, args)
     if args.Action == 0x100000B3 then -- handles F12 button
         self.isHudVisible = not self.isHudVisible;
         self:SetVisible(self.isHudVisible);

@@ -90,7 +90,7 @@ function AddIconOpacityOptions(options, y)
         local value = sender:GetValue(); -- [0, 100]
         SETTINGS.MINIMIZED_ICON.OPACITY = value;
         opacityLabel:SetText(string.format(GetString(_LANG.OPTIONS.ICON_OPACITY), value));
-        GetMiniIcon():LoadOpacitySettings();
+        MinimizedIcon.GetInstance():LoadOpacitySettings();
     end
 
     controlY = controlY + opacityScrollBar:GetHeight() + 10;
@@ -158,7 +158,7 @@ function AddIconSizeShapeOptions(options, y)
                     end
                 end
                 SETTINGS.MINIMIZED_ICON.ICON = iconKey;
-                GetMiniIcon():LoadIconSettings();
+                MinimizedIcon.GetInstance():LoadIconSettings();
 
             else
                 -- Simulate a radio button, don't uncheck
@@ -430,11 +430,11 @@ function CreateOptionsContent()
     local doNotRefreshDeeds = true;
 
     -- Icon options
-    y = AddOption(options, y, "SHOW_MINI_ICON", notServerSetting, function() GetMiniIcon():SetVisible(SETTINGS.SHOW_MINI_ICON); end, doNotRefreshDeeds);
+    y = AddOption(options, y, "SHOW_MINI_ICON", notServerSetting, function() MinimizedIcon.GetInstance():SetVisible(SETTINGS.SHOW_MINI_ICON); end, doNotRefreshDeeds);
     y = AddOption(options, y, "MOVE_ICON_REQUIRES_SHIFT", notServerSetting, nilCallback, doNotRefreshDeeds);
     y = AddIconOpacityOptions(options, y);
     y = AddIconSizeShapeOptions(options, y);
-    y = AddOption(options, y, "MINI_ICON_ALWAYS_ON_TOP", notServerSetting, function() GetMiniIcon():LoadIconSettings(); end, doNotRefreshDeeds);
+    y = AddOption(options, y, "MINI_ICON_ALWAYS_ON_TOP", notServerSetting, function() MinimizedIcon.GetInstance():LoadIconSettings(); end, doNotRefreshDeeds);
     y = AddDivider(options, y);
 
     -- Deed category options:
