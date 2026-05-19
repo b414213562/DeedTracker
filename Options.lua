@@ -434,6 +434,7 @@ function CreateOptionsContent()
     y = AddOption(options, y, "MOVE_ICON_REQUIRES_SHIFT", notServerSetting, nilCallback, doNotRefreshDeeds);
     y = AddIconOpacityOptions(options, y);
     y = AddIconSizeShapeOptions(options, y);
+    y = AddOption(options, y, "MINI_ICON_ALWAYS_ON_TOP", notServerSetting, function() GetMiniIcon():LoadIconSettings(); end, doNotRefreshDeeds);
     y = AddDivider(options, y);
 
     -- Deed category options:

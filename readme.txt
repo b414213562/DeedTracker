@@ -35,6 +35,12 @@ v3.2.5 changes:
         If you complete a Legendary Server, Veil of the Nine, or Landscape Difficulty deed without the corresponding setting enabled, the deed will now be marked complete.
         Also, the corresponding setting will be enabled if it was not already.
 
+    Mini icon:
+        Added option to show or hide mini icon
+        Added options to control mini icon opacity
+        Added options to control shape and size of mini icon.
+        Added option for mini icon to always stay on top
+
 v3.2.4 changes:
     Deeds:
         Added U47 deeds:

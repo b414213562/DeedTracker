@@ -43,6 +43,13 @@ function MinimizedIcon:LoadIconSettings()
     local width = icon.WIDTH;
     local height = icon.HEIGHT;
 
+    -- Allow user to override zorder for mini icon:
+    local zorder = 0;
+    if (SETTINGS.MINI_ICON_ALWAYS_ON_TOP) then
+        zorder = 1;
+    end
+    self:SetZOrder(zorder);
+
     self:SetSize(width, height);
     self:SetBlendMode(Turbine.UI.BlendMode.AlphaBlend);
     self:LoadOpacitySettings();

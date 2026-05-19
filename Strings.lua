@@ -106,6 +106,9 @@ _LANG = {
         ["SHOW_MINI_ICON"] = {
             ["EN"] = "Show the Deed Tracker mini icon";
         };
+        ["MINI_ICON_ALWAYS_ON_TOP"] = {
+            ["EN"] = "Keep mini icon on top";
+        };
         ["MOVE_ICON_REQUIRES_SHIFT"] = {
             ["EN"] = "Require Shift key to move the icon";
             ["DE"] = "Erfordert Umschalt-Taste um das Symbol zu verschieben";

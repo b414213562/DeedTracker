@@ -137,6 +137,7 @@ DEFAULT_SETTINGS =
     ["OBJECTIVES_SHOW_FULL_OBJECTIVES"] = false;
     ["OBJECTIVES_SHOW_COORDINATES"] = true;
     ["SHOW_MINI_ICON"] = true;
+    ["MINI_ICON_ALWAYS_ON_TOP"] = false;
 
     ["MAINWIN"] =
         {
