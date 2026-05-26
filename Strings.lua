@@ -1,3 +1,5 @@
+DeedTrackerNameAndVersion = "'Deed Tracker' v" .. Plugins["Deed Tracker"]:GetVersion();
+
 _LANG = {
 
     -- ["STRINGNAME"] =     {["EN"] = "";  ["FR"] = "";    ["DE"] = "";    ["RU"] = "";};
@@ -9,9 +11,9 @@ _LANG = {
 
     ["STATUS"] = {
         ["LOADED"] = {
-            ["EN"] = "Loaded 'Deed Tracker' v" .. Plugins["Deed Tracker"]:GetVersion() .. ", by Cube";
-            ["DE"] = "Geladen 'Deed Tracker' v" .. Plugins["Deed Tracker"]:GetVersion() .. ", von Cube (Übersetzungen von Nadia)";
-            ["RU"] = "Загружен 'Deed Tracker' v" .. Plugins["Deed Tracker"]:GetVersion() .. ", by Cube (Переводчик Svertalf)";
+            ["EN"] = "Loaded " .. DeedTrackerNameAndVersion .. ", by Cube";
+            ["DE"] = "Geladen " .. DeedTrackerNameAndVersion .. ", von Cube (Übersetzungen von Nadia)";
+            ["RU"] = "Загружен " .. DeedTrackerNameAndVersion .. ", by Cube (Переводчик Svertalf)";
         };
         ["SESSION_PLAY"] = {
             ["EN"] = "Deed Tracker: Session Play detected! Deed Tracker in read-only mode.";
@@ -760,8 +762,8 @@ _LANG = {
             ["RU"] = "LOTRO Companion считает, что они не завершены: (x%d)";
         };
         ["DEED_MISSING_IN_DEED_TRACKER"] = {
-            ["EN"] = "Deed Tracker did not recognize the following Deed IDs. Please email this to LotroDeedTracker@gmail.com for inclusion in a future release!: ";
-            ["RU"] = "Deed Tracker не распознал следующие Deed IDs. Отошлите их, пожалуйста, на LotroDeedTracker@gmail.com для включения в будущие выпуски!: ";
+            ["EN"] = DeedTrackerNameAndVersion .. " did not recognize the following Deed IDs. Please email this to LotroDeedTracker@gmail.com for inclusion in a future release!: ";
+            ["RU"] = DeedTrackerNameAndVersion .. " не распознал следующие Deed IDs. Отошлите их, пожалуйста, на LotroDeedTracker@gmail.com для включения в будущие выпуски!: ";
         };
         ["CLOSE_BUTTON"] = {
             ["EN"] = "Close";

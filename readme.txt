@@ -42,6 +42,9 @@ v3.2.5 changes:
         Added options to control mini icon opacity
         Added options to control shape and size of mini icon.
         Added option for mini icon to always stay on top
+    
+    Other:
+        Import message about missing deed IDs now includes Deed Tracker version.
 
 v3.2.4 changes:
     Deeds:
