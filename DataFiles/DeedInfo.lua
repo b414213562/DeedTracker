@@ -1500,7 +1500,7 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
            [16] = {["CAT_ID"] = 330; }; -- - Season of Spirit -
            [17] = {["ID"] = 1879509059; }; -- Title: The Spirit's Guide
            [18] = {["CAT_ID"] = 342; }; -- - Monster Player Reward Season 6 -
-           [19] = {["ID"] = 1879523597; }; -- Title: Bastion of Light          
+           [19] = {["ID"] = 1879523597; }; -- Title: Bastion of Light
         };
         -- Osgiliath
         [W_OSGILIATH] = {
