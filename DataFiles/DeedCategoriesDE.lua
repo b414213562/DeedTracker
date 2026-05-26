@@ -334,17 +334,22 @@ _DEED_CATEGORIES = {
 [248] = { ["MIN_LVL"] = "20"; ["NAME"] = "- Zhélruka -"; };
 [291] = { ["MIN_LVL"] = "140"; ["NAME"] = "- Bündnis der Buchhüter von Umbar Barharbêl -"; };
 [292] = { ["MIN_LVL"] = "140"; ["NAME"] = "- Orden des Adlers -"; };
--- Eriador / Bree-land
-[249] = { ["NAME"] = "Wildwalds"; };
+-- Eriador / Ered Luin
+[346] = { ["NAME"] = "Ered Luin (1-15)"; };
+[345] = { ["NAME"] = "Sarnúr (45-50)"; };
+-- Eriador / Bree-land 
+[347] = { ["NAME"] = "Breeland (1-24)"; };
+[249] = { ["NAME"] = "Wildwalds (45-50)"; };
 [250] = { ["NAME"] = "Andere"; };
 -- Eriador / Shire
-[251] = { ["NAME"] = "Fernen Auen"; };
--- 
+[348] = { ["NAME"] = "Auenland (1-15)"; };
+[251] = { ["NAME"] = "Fernen Auen (20-25)"; };
+-- Eriador / Trollshaws
 [252] = { ["NAME"] = "Bogen von Mitheithel"; };
 [253] = { ["NAME"] = "Weiteren Abenteuer"; };
 -- Eriador / Swanfleet & Cardolan
-[254] = { ["NAME"] = "Schwanenfleet"; };
-[255] = { ["NAME"] = "Cardolan"; };
+[254] = { ["NAME"] = "Schwanenfleet (1-15)"; };
+[255] = { ["NAME"] = "Cardolan (15-32)"; };
 [256] = { ["NAME"] = "Erkundungen"; };
 [287] = { ["TIER"] = 1; ["NAME"] = "1/2 Personen Erkundungen"; };
 [288] = { ["TIER"] = 1; ["NAME"] = "3/6 Personen Erkundungen (Schließe die Stufen 8, 10 und 12 jeweils einmal ab.)"; };

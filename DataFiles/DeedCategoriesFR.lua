@@ -334,18 +334,23 @@ _DEED_CATEGORIES = {
 [248] = { ["MIN_LVL"] = "20"; ["NAME"] = "- Zhélruka -"; };
 [291] = { ["MIN_LVL"] = "140"; ["NAME"] = "- Ledger-keepers: Umbar Barharbêl -"; };
 [292] = { ["MIN_LVL"] = "140"; ["NAME"] = "- Order of the Eagle -"; };
+-- Eriador / Ered Luin
+[346] = { ["NAME"] = "Ered Luin (1-15)"; };
+[345] = { ["NAME"] = "Sarnúr (45-50)"; };
 -- Eriador / Bree-land
-[249] = { ["NAME"] = "Wildwood"; };
+[347] = { ["NAME"] = "Pays de Bree (1-24)"; };
+[249] = { ["NAME"] = "Bois sauvages (45-50)"; };
 [250] = { ["NAME"] = "Other"; };
 -- Eriador / Shire
-[251] = { ["NAME"] = "Yondershire"; };
--- 
+[348] = { ["NAME"] = "la Comté (1-15)"; };
+[251] = { ["NAME"] = "la Comté lointaine (20-25)"; };
+-- Eriador / Trollshaws
 [252] = { ["NAME"] = "The Angle of Mitheithel"; };
 [253] = { ["NAME"] = "Further Adventures"; };
 -- Eriador / Swanfleet & Cardolan
-[254] = { ["NAME"] = "Swanfleet"; };
-[255] = { ["NAME"] = "Cardolan"; };
-[256] = { ["NAME"] = "Delvings"; };
+[254] = { ["NAME"] = "Noues des cygnes (1-15)"; };
+[255] = { ["NAME"] = "Cardolan (15-32)"; };
+[256] = { ["NAME"] = "Excavations"; };
 [287] = { ["TIER"] = 1; ["NAME"] = "1/2 Person Delvings"; };
 [288] = { ["TIER"] = 1; ["NAME"] = "3/6 Person Delvings (Complete Tiers 8, 10, and 12 once each)"; };
 [293] = { ["TIER"] = 1; ["NAME"] = "Complete each tier 1 time"; };

@@ -3263,133 +3263,137 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
     [ERIADOR] = {
         -- Bree-land
         [E_BREE_LAND] = {
-            [1] = {["ID"] = 1879303221; }; -- Deeds of Bree-land
-            [2] = {["ID"] = 1879303220; ["TIER"] = 1; }; -- Explorer of Bree-land
-            [3] = {["ID"] = 1879071670; ["TIER"] = 2; }; -- The Barrow-downs
-            [4] = {["ID"] = 1879071671; ["TIER"] = 2; }; -- The Old Forest
-            [5] = {["ID"] = 1879071672; ["TIER"] = 2; }; -- The Ruins of Bree-land
-            [6] = {["ID"] = 1879071673; ["TIER"] = 2; }; -- Lore of the Cardolan Prince
-            [7] = {["ID"] = 1879071674; ["TIER"] = 2; }; -- The History of the Dúnedain
-            [8] = {["ID"] = 1879071675; ["TIER"] = 2; }; -- Flowers of the Old Forest
-            [9] = {["ID"] = 1879071678; ["TIER"] = 1; }; -- Bree-land Adventurer (Final)
-           [10] = {["ID"] = 1879071677; ["TIER"] = 2; }; -- Bree-land Adventurer (Advanced)
-           [11] = {["ID"] = 1879071676; ["TIER"] = 3; }; -- Bree-land Adventurer
-           [12] = {["ID"] = 1879303203; ["TIER"] = 1; }; -- Slayer of Bree-land
-           [13] = {["ID"] = 1879071699; ["TIER"] = 2; }; -- Barghest-slayer (Advanced)
-           [14] = {["ID"] = 1879071698; ["TIER"] = 3; }; -- Barghest-slayer
-           [15] = {["ID"] = 1879071701; ["TIER"] = 2; }; -- Brigand-slayer (Advanced)
-           [16] = {["ID"] = 1879071700; ["TIER"] = 3; }; -- Brigand-slayer
-           [17] = {["ID"] = 1879071703; ["TIER"] = 2; }; -- Bree-land Woodsman (Advanced)
-           [18] = {["ID"] = 1879071702; ["TIER"] = 3; }; -- Bree-land Woodsman
-           [19] = {["ID"] = 1879071705; ["TIER"] = 2; }; -- Neekerbreeker-slayer (Advanced)
-           [20] = {["ID"] = 1879071704; ["TIER"] = 3; }; -- Neekerbreeker-slayer
-           [21] = {["ID"] = 1879071707; ["TIER"] = 2; }; -- Orc-slayer (Advanced)
-           [22] = {["ID"] = 1879071706; ["TIER"] = 3; }; -- Orc-slayer
-           [23] = {["ID"] = 1879071709; ["TIER"] = 2; }; -- Sickle-fly Slayer (Advanced)
-           [24] = {["ID"] = 1879071708; ["TIER"] = 3; }; -- Sickle-fly Slayer
-           [25] = {["ID"] = 1879071711; ["TIER"] = 2; }; -- Spider-slayer (Advanced)
-           [26] = {["ID"] = 1879071710; ["TIER"] = 3; }; -- Spider-slayer
-           [27] = {["ID"] = 1879071713; ["TIER"] = 2; }; -- Wight-slayer (Advanced)
-           [28] = {["ID"] = 1879071712; ["TIER"] = 3; }; -- Wight-slayer
-           [29] = {["ID"] = 1879093962; }; -- Brood-hunter (Advanced)
-           [30] = {["ID"] = 1879093961; ["TIER"] = 1; }; -- Brood-hunter
-           [31] = {["ID"] = 1879093964; }; -- Grave-digger (Advanced)
-           [32] = {["ID"] = 1879093963; ["TIER"] = 1; }; -- Grave-digger
-           [33] = {["ID"] = 1879093960; }; -- Nemesis of the Fallen (Advanced)
-           [34] = {["ID"] = 1879093959; ["TIER"] = 1; }; -- Nemesis of the Fallen
-           [35] = {["ID"] = 1879093958; }; -- Executioner of the Wicked
-           [36] = {["CAT_ID"] = 249; }; -- Wildwood
-           [37] = {["ID"] = 1879414493; }; -- Deeds of the Wildwood
-           [38] = {["ID"] = 1879414510; ["TIER"] = 1; }; -- Explorer of the Wildwood
-           [39] = {["ID"] = 1879414505; ["TIER"] = 2; }; -- Sites of the Wildwood
-           [40] = {["ID"] = 1879414498; ["TIER"] = 2; }; -- Flowers of the Wildwood
-           [41] = {["ID"] = 1879414502; ["TIER"] = 1; }; -- Quests of the Wildwood
-           [42] = {["ID"] = 1879414500; ["TIER"] = 2; }; -- Quests in the Wildwood
-           [43] = {["ID"] = 1879414497; ["TIER"] = 2; }; -- The League of the Axe
-           [44] = {["ID"] = 1879414513; ["TIER"] = 2; }; -- The Woodcutter's Brotherhood
-           [45] = {["ID"] = 1879414494; ["TIER"] = 2; }; -- Missions: The Wildwood
-           [46] = {["ID"] = 1879414509; ["TIER"] = 1; }; -- Slayer of the Wildwood
-           [47] = {["ID"] = 1879414506; ["TIER"] = 2; }; -- Wildwood Brigand-slayer (Advanced)
-           [48] = {["ID"] = 1879414511; ["TIER"] = 3; }; -- Wildwood Brigand-slayer
-           [49] = {["ID"] = 1879414503; ["TIER"] = 2; }; -- Wildwood Big Game Slayer (Advanced)
-           [50] = {["ID"] = 1879414495; ["TIER"] = 3; }; -- Wildwood Big Game Slayer
-           [51] = {["ID"] = 1879414501; ["TIER"] = 2; }; -- Wildwood Orc-kind Slayer (Advanced)
-           [52] = {["ID"] = 1879414512; ["TIER"] = 3; }; -- Wildwood Orc-kind Slayer
-           [53] = {["ID"] = 1879414508; ["TIER"] = 2; }; -- Wildwood Mission Slayer (Advanced)
-           [54] = {["ID"] = 1879414504; ["TIER"] = 3; }; -- Wildwood Mission Slayer (Intermediate)
-           [55] = {["ID"] = 1879414496; ["TIER"] = 4; }; -- Wildwood Mission Slayer
-           [56] = {["ID"] = 1879414499; ["TIER"] = 1; }; -- The League of the Wildwood
-           [57] = {["ID"] = 1879414507; }; -- Hidden Threats of the Wildwood
-           [58] = {["CAT_ID"] = 250; }; -- Other
-           [59] = {["ID"] = 1879210280; }; -- One Thing Drives Out Another
+            [1] = {["CAT_ID"] = 347; }; -- Bree-land (1-24)
+            [2] = {["ID"] = 1879303221; }; -- Deeds of Bree-land
+            [3] = {["ID"] = 1879303220; ["TIER"] = 1; }; -- Explorer of Bree-land
+            [4] = {["ID"] = 1879071670; ["TIER"] = 2; }; -- The Barrow-downs
+            [5] = {["ID"] = 1879071671; ["TIER"] = 2; }; -- The Old Forest
+            [6] = {["ID"] = 1879071672; ["TIER"] = 2; }; -- The Ruins of Bree-land
+            [7] = {["ID"] = 1879071673; ["TIER"] = 2; }; -- Lore of the Cardolan Prince
+            [8] = {["ID"] = 1879071674; ["TIER"] = 2; }; -- The History of the Dúnedain
+            [9] = {["ID"] = 1879071675; ["TIER"] = 2; }; -- Flowers of the Old Forest
+           [10] = {["ID"] = 1879071678; ["TIER"] = 1; }; -- Bree-land Adventurer (Final)
+           [11] = {["ID"] = 1879071677; ["TIER"] = 2; }; -- Bree-land Adventurer (Advanced)
+           [12] = {["ID"] = 1879071676; ["TIER"] = 3; }; -- Bree-land Adventurer
+           [13] = {["ID"] = 1879303203; ["TIER"] = 1; }; -- Slayer of Bree-land
+           [14] = {["ID"] = 1879071699; ["TIER"] = 2; }; -- Barghest-slayer (Advanced)
+           [15] = {["ID"] = 1879071698; ["TIER"] = 3; }; -- Barghest-slayer
+           [16] = {["ID"] = 1879071701; ["TIER"] = 2; }; -- Brigand-slayer (Advanced)
+           [17] = {["ID"] = 1879071700; ["TIER"] = 3; }; -- Brigand-slayer
+           [18] = {["ID"] = 1879071703; ["TIER"] = 2; }; -- Bree-land Woodsman (Advanced)
+           [19] = {["ID"] = 1879071702; ["TIER"] = 3; }; -- Bree-land Woodsman
+           [20] = {["ID"] = 1879071705; ["TIER"] = 2; }; -- Neekerbreeker-slayer (Advanced)
+           [21] = {["ID"] = 1879071704; ["TIER"] = 3; }; -- Neekerbreeker-slayer
+           [22] = {["ID"] = 1879071707; ["TIER"] = 2; }; -- Orc-slayer (Advanced)
+           [23] = {["ID"] = 1879071706; ["TIER"] = 3; }; -- Orc-slayer
+           [24] = {["ID"] = 1879071709; ["TIER"] = 2; }; -- Sickle-fly Slayer (Advanced)
+           [25] = {["ID"] = 1879071708; ["TIER"] = 3; }; -- Sickle-fly Slayer
+           [26] = {["ID"] = 1879071711; ["TIER"] = 2; }; -- Spider-slayer (Advanced)
+           [27] = {["ID"] = 1879071710; ["TIER"] = 3; }; -- Spider-slayer
+           [28] = {["ID"] = 1879071713; ["TIER"] = 2; }; -- Wight-slayer (Advanced)
+           [29] = {["ID"] = 1879071712; ["TIER"] = 3; }; -- Wight-slayer
+           [30] = {["ID"] = 1879093962; }; -- Brood-hunter (Advanced)
+           [31] = {["ID"] = 1879093961; ["TIER"] = 1; }; -- Brood-hunter
+           [32] = {["ID"] = 1879093964; }; -- Grave-digger (Advanced)
+           [33] = {["ID"] = 1879093963; ["TIER"] = 1; }; -- Grave-digger
+           [34] = {["ID"] = 1879093960; }; -- Nemesis of the Fallen (Advanced)
+           [35] = {["ID"] = 1879093959; ["TIER"] = 1; }; -- Nemesis of the Fallen
+           [36] = {["ID"] = 1879093958; }; -- Executioner of the Wicked
+           [37] = {["CAT_ID"] = 249; }; -- Wildwood (45-50)
+           [38] = {["ID"] = 1879414493; }; -- Deeds of the Wildwood
+           [39] = {["ID"] = 1879414510; ["TIER"] = 1; }; -- Explorer of the Wildwood
+           [40] = {["ID"] = 1879414505; ["TIER"] = 2; }; -- Sites of the Wildwood
+           [41] = {["ID"] = 1879414498; ["TIER"] = 2; }; -- Flowers of the Wildwood
+           [42] = {["ID"] = 1879414502; ["TIER"] = 1; }; -- Quests of the Wildwood
+           [43] = {["ID"] = 1879414500; ["TIER"] = 2; }; -- Quests in the Wildwood
+           [44] = {["ID"] = 1879414497; ["TIER"] = 2; }; -- The League of the Axe
+           [45] = {["ID"] = 1879414513; ["TIER"] = 2; }; -- The Woodcutter's Brotherhood
+           [46] = {["ID"] = 1879414494; ["TIER"] = 2; }; -- Missions: The Wildwood
+           [47] = {["ID"] = 1879414509; ["TIER"] = 1; }; -- Slayer of the Wildwood
+           [48] = {["ID"] = 1879414506; ["TIER"] = 2; }; -- Wildwood Brigand-slayer (Advanced)
+           [49] = {["ID"] = 1879414511; ["TIER"] = 3; }; -- Wildwood Brigand-slayer
+           [50] = {["ID"] = 1879414503; ["TIER"] = 2; }; -- Wildwood Big Game Slayer (Advanced)
+           [51] = {["ID"] = 1879414495; ["TIER"] = 3; }; -- Wildwood Big Game Slayer
+           [52] = {["ID"] = 1879414501; ["TIER"] = 2; }; -- Wildwood Orc-kind Slayer (Advanced)
+           [53] = {["ID"] = 1879414512; ["TIER"] = 3; }; -- Wildwood Orc-kind Slayer
+           [54] = {["ID"] = 1879414508; ["TIER"] = 2; }; -- Wildwood Mission Slayer (Advanced)
+           [55] = {["ID"] = 1879414504; ["TIER"] = 3; }; -- Wildwood Mission Slayer (Intermediate)
+           [56] = {["ID"] = 1879414496; ["TIER"] = 4; }; -- Wildwood Mission Slayer
+           [57] = {["ID"] = 1879414499; ["TIER"] = 1; }; -- The League of the Wildwood
+           [58] = {["ID"] = 1879414507; }; -- Hidden Threats of the Wildwood
+           [59] = {["CAT_ID"] = 250; }; -- Other
+           [60] = {["ID"] = 1879210280; }; -- One Thing Drives Out Another           
         };
         -- Shire
         [E_SHIRE] = {
-            [1] = {["ID"] = 1879303548; }; -- Deeds of the Shire
-            [2] = {["ID"] = 1879303443; ["TIER"] = 1; }; -- Explorer of the Shire
-            [3] = {["ID"] = 1879071668; ["TIER"] = 2; }; -- The Farms of the Shire
-            [4] = {["ID"] = 1879071669; ["TIER"] = 2; }; -- The Sights of the Shire
-            [5] = {["ID"] = 1879051515; ["TIER"] = 1; }; -- The Life of a Bounder (final)
-            [6] = {["ID"] = 1879051519; ["TIER"] = 2; }; -- The Life of a Bounder (Advanced)
-            [7] = {["ID"] = 1879051521; ["TIER"] = 3; }; -- The Life of a Bounder
-            [8] = {["ID"] = 1879303323; ["TIER"] = 1; }; -- Slayer of the Shire
-            [9] = {["ID"] = 1879071739; ["TIER"] = 2; }; -- Brigand-slayer (Advanced)
-           [10] = {["ID"] = 1879071738; ["TIER"] = 3; }; -- Brigand-slayer
-           [11] = {["ID"] = 1879071741; ["TIER"] = 2; }; -- Goblin-slayer (Advanced)
-           [12] = {["ID"] = 1879071740; ["TIER"] = 3; }; -- Goblin-slayer
-           [13] = {["ID"] = 1879071743; ["TIER"] = 2; }; -- Harvest-fly Slayer (Advanced)
-           [14] = {["ID"] = 1879071742; ["TIER"] = 3; }; -- Harvest-fly Slayer
-           [15] = {["ID"] = 1879071745; ["TIER"] = 2; }; -- Slug-slayer (Advanced)
-           [16] = {["ID"] = 1879071744; ["TIER"] = 3; }; -- Slug-slayer
-           [17] = {["ID"] = 1879071747; ["TIER"] = 2; }; -- Spider-slayer (Advanced)
-           [18] = {["ID"] = 1879071746; ["TIER"] = 3; }; -- Spider-slayer
-           [19] = {["ID"] = 1879071749; ["TIER"] = 2; }; -- Wolf-slayer (Advanced)
-           [20] = {["ID"] = 1879071748; ["TIER"] = 3; }; -- Wolf-slayer
-           [21] = {["ID"] = 1879071685; ["TIER"] = 1; }; -- Restoring the Quick Post
-           [22] = {["ID"] = 1879061177; ["TIER"] = 1; }; -- No Place for Spoiled Pies
-           [23] = {["ID"] = 1879071839; ["TIER"] = 1; }; -- Shire Brew-master
-           [24] = {["CAT_ID"] = 251; }; -- Yondershire
-           [25] = {["ID"] = 1879446122; }; -- Deeds of Yondershire
-           [26] = {["ID"] = 1879446119; ["TIER"] = 1; }; -- Sites of Yondershire
-           [27] = {["ID"] = 1879446121; ["TIER"] = 1; }; -- Quests of Yondershire
-           [28] = {["ID"] = 1879446124; ["TIER"] = 1; }; -- Slayer of Yondershire
-           [29] = {["ID"] = 1879446126; ["TIER"] = 2; }; -- Beast-slayer of Yondershire (Advanced)
-           [30] = {["ID"] = 1879446125; ["TIER"] = 3; }; -- Beast-slayer of Yondershire
-           [31] = {["ID"] = 1879446118; ["TIER"] = 2; }; -- Enemies of Yondershire (Advanced)
-           [32] = {["ID"] = 1879446123; ["TIER"] = 3; }; -- Enemies of Yondershire
-           [33] = {["ID"] = 1879446117; ["TIER"] = 2; }; -- Insect-slayer of Yondershire (Advanced)
-           [34] = {["ID"] = 1879446120; ["TIER"] = 3; }; -- Insect-slayer of Yondershire
-           [35] = {["ID"] = 1879446637; }; -- The Quick Post of Yondershire
+            [1] = {["CAT_ID"] = 348; }; -- Shire (1-15)
+            [2] = {["ID"] = 1879303548; }; -- Deeds of the Shire
+            [3] = {["ID"] = 1879303443; ["TIER"] = 1; }; -- Explorer of the Shire
+            [4] = {["ID"] = 1879071668; ["TIER"] = 2; }; -- The Farms of the Shire
+            [5] = {["ID"] = 1879071669; ["TIER"] = 2; }; -- The Sights of the Shire
+            [6] = {["ID"] = 1879051515; ["TIER"] = 1; }; -- The Life of a Bounder (final)
+            [7] = {["ID"] = 1879051519; ["TIER"] = 2; }; -- The Life of a Bounder (Advanced)
+            [8] = {["ID"] = 1879051521; ["TIER"] = 3; }; -- The Life of a Bounder
+            [9] = {["ID"] = 1879303323; ["TIER"] = 1; }; -- Slayer of the Shire
+           [10] = {["ID"] = 1879071739; ["TIER"] = 2; }; -- Brigand-slayer (Advanced)
+           [11] = {["ID"] = 1879071738; ["TIER"] = 3; }; -- Brigand-slayer
+           [12] = {["ID"] = 1879071741; ["TIER"] = 2; }; -- Goblin-slayer (Advanced)
+           [13] = {["ID"] = 1879071740; ["TIER"] = 3; }; -- Goblin-slayer
+           [14] = {["ID"] = 1879071743; ["TIER"] = 2; }; -- Harvest-fly Slayer (Advanced)
+           [15] = {["ID"] = 1879071742; ["TIER"] = 3; }; -- Harvest-fly Slayer
+           [16] = {["ID"] = 1879071745; ["TIER"] = 2; }; -- Slug-slayer (Advanced)
+           [17] = {["ID"] = 1879071744; ["TIER"] = 3; }; -- Slug-slayer
+           [18] = {["ID"] = 1879071747; ["TIER"] = 2; }; -- Spider-slayer (Advanced)
+           [19] = {["ID"] = 1879071746; ["TIER"] = 3; }; -- Spider-slayer
+           [20] = {["ID"] = 1879071749; ["TIER"] = 2; }; -- Wolf-slayer (Advanced)
+           [21] = {["ID"] = 1879071748; ["TIER"] = 3; }; -- Wolf-slayer
+           [22] = {["ID"] = 1879071685; ["TIER"] = 1; }; -- Restoring the Quick Post
+           [23] = {["ID"] = 1879061177; ["TIER"] = 1; }; -- No Place for Spoiled Pies
+           [24] = {["ID"] = 1879071839; ["TIER"] = 1; }; -- Shire Brew-master
+           [25] = {["CAT_ID"] = 251; }; -- Yondershire (20-25)
+           [26] = {["ID"] = 1879446122; }; -- Deeds of Yondershire
+           [27] = {["ID"] = 1879446119; ["TIER"] = 1; }; -- Sites of Yondershire
+           [28] = {["ID"] = 1879446121; ["TIER"] = 1; }; -- Quests of Yondershire
+           [29] = {["ID"] = 1879446124; ["TIER"] = 1; }; -- Slayer of Yondershire
+           [30] = {["ID"] = 1879446126; ["TIER"] = 2; }; -- Beast-slayer of Yondershire (Advanced)
+           [31] = {["ID"] = 1879446125; ["TIER"] = 3; }; -- Beast-slayer of Yondershire
+           [32] = {["ID"] = 1879446118; ["TIER"] = 2; }; -- Enemies of Yondershire (Advanced)
+           [33] = {["ID"] = 1879446123; ["TIER"] = 3; }; -- Enemies of Yondershire
+           [34] = {["ID"] = 1879446117; ["TIER"] = 2; }; -- Insect-slayer of Yondershire (Advanced)
+           [35] = {["ID"] = 1879446120; ["TIER"] = 3; }; -- Insect-slayer of Yondershire
+           [36] = {["ID"] = 1879446637; }; -- The Quick Post of Yondershire
         };
         -- Ered Luin
         [E_ERED_LUIN] = {
-            [1] = {["ID"] = 1879303540; }; -- Deeds of Ered Luin
-            [2] = {["ID"] = 1879303325; ["TIER"] = 1; }; -- Explorer of Ered Luin
-            [3] = {["ID"] = 1879071656; ["TIER"] = 2; }; -- Scouting the Dourhands
-            [4] = {["ID"] = 1879071657; ["TIER"] = 2; }; -- Places of the Dwarves
-            [5] = {["ID"] = 1879071658; ["TIER"] = 2; }; -- Elf-ruins Exploration
-            [6] = {["ID"] = 1879071659; ["TIER"] = 2; }; -- Rath Teraig Exploration
-            [7] = {["ID"] = 1879071688; ["TIER"] = 1; }; -- Hero of Ered Luin
-            [8] = {["ID"] = 1879071687; ["TIER"] = 2; }; -- Defender of Ered Luin
-            [9] = {["ID"] = 1879071686; ["TIER"] = 3; }; -- Ally of Ered Luin
-           [10] = {["ID"] = 1879303306; ["TIER"] = 1; }; -- Slayer of Ered Luin
-           [11] = {["ID"] = 1879071751; ["TIER"] = 2; }; -- Brigand-slayer (Advanced)
-           [12] = {["ID"] = 1879071750; ["TIER"] = 3; }; -- Brigand-slayer
-           [13] = {["ID"] = 1879071753; ["TIER"] = 2; }; -- Goblin-slayer (Advanced)
-           [14] = {["ID"] = 1879071752; ["TIER"] = 3; }; -- Goblin-slayer
-           [15] = {["ID"] = 1879071755; ["TIER"] = 2; }; -- Hendroval-slayer (Advanced)
-           [16] = {["ID"] = 1879071754; ["TIER"] = 3; }; -- Hendroval-slayer
-           [17] = {["ID"] = 1879071757; ["TIER"] = 2; }; -- Spider-slayer (Advanced)
-           [18] = {["ID"] = 1879071756; ["TIER"] = 3; }; -- Spider-slayer
-           [19] = {["ID"] = 1879071759; ["TIER"] = 2; }; -- Wolf-slayer (Advanced)
-           [20] = {["ID"] = 1879071758; ["TIER"] = 3; }; -- Wolf-slayer
-           [21] = {["ID"] = 1879093968; }; -- Betrayer's Bane (Advanced)
-           [22] = {["ID"] = 1879093967; ["TIER"] = 1; }; -- Betrayer's Bane
-           [23] = {["ID"] = 1879093966; }; -- Master of Beasts (Advanced)
-           [24] = {["ID"] = 1879093965; ["TIER"] = 1; }; -- Master of Beasts
-           [25] = {["ID"] = 1879093971; }; -- Troll-kicker (Advanced)
-           [26] = {["ID"] = 1879093970; ["TIER"] = 1; }; -- Troll-kicker
-           [27] = {["ID"] = 1879093969; }; -- Avenger of Sarnúr
+            [1] = {["CAT_ID"] = 346; }; -- Ered Luin (1-15)
+            [2] = {["ID"] = 1879303540; }; -- Deeds of Ered Luin
+            [3] = {["ID"] = 1879303325; ["TIER"] = 1; }; -- Explorer of Ered Luin
+            [4] = {["ID"] = 1879071656; ["TIER"] = 2; }; -- Scouting the Dourhands
+            [5] = {["ID"] = 1879071657; ["TIER"] = 2; }; -- Places of the Dwarves
+            [6] = {["ID"] = 1879071658; ["TIER"] = 2; }; -- Elf-ruins Exploration
+            [7] = {["ID"] = 1879071659; ["TIER"] = 2; }; -- Rath Teraig Exploration
+            [8] = {["ID"] = 1879071688; ["TIER"] = 1; }; -- Hero of Ered Luin
+            [9] = {["ID"] = 1879071687; ["TIER"] = 2; }; -- Defender of Ered Luin
+           [10] = {["ID"] = 1879071686; ["TIER"] = 3; }; -- Ally of Ered Luin
+           [11] = {["ID"] = 1879303306; ["TIER"] = 1; }; -- Slayer of Ered Luin
+           [12] = {["ID"] = 1879071751; ["TIER"] = 2; }; -- Brigand-slayer (Advanced)
+           [13] = {["ID"] = 1879071750; ["TIER"] = 3; }; -- Brigand-slayer
+           [14] = {["ID"] = 1879071753; ["TIER"] = 2; }; -- Goblin-slayer (Advanced)
+           [15] = {["ID"] = 1879071752; ["TIER"] = 3; }; -- Goblin-slayer
+           [16] = {["ID"] = 1879071755; ["TIER"] = 2; }; -- Hendroval-slayer (Advanced)
+           [17] = {["ID"] = 1879071754; ["TIER"] = 3; }; -- Hendroval-slayer
+           [18] = {["ID"] = 1879071757; ["TIER"] = 2; }; -- Spider-slayer (Advanced)
+           [19] = {["ID"] = 1879071756; ["TIER"] = 3; }; -- Spider-slayer
+           [20] = {["ID"] = 1879071759; ["TIER"] = 2; }; -- Wolf-slayer (Advanced)
+           [21] = {["ID"] = 1879071758; ["TIER"] = 3; }; -- Wolf-slayer
+           [22] = {["CAT_ID"] = 345; }; -- Sarnúr (45-50)
+           [23] = {["ID"] = 1879093968; }; -- Betrayer's Bane (Advanced)
+           [24] = {["ID"] = 1879093967; ["TIER"] = 1; }; -- Betrayer's Bane
+           [25] = {["ID"] = 1879093966; }; -- Master of Beasts (Advanced)
+           [26] = {["ID"] = 1879093965; ["TIER"] = 1; }; -- Master of Beasts
+           [27] = {["ID"] = 1879093971; }; -- Troll-kicker (Advanced)
+           [28] = {["ID"] = 1879093970; ["TIER"] = 1; }; -- Troll-kicker
+           [29] = {["ID"] = 1879093969; }; -- Avenger of Sarnúr
         };
         -- Lone-lands
         [E_LONE_LANDS] = {
