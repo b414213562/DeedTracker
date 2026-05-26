@@ -30,6 +30,8 @@ In the meantime, feel free to submit patches for any of my plugins if you spot s
 
 v3.2.5 changes:
     Deeds:
+        Added category separator for Sarnur. Added level ranges on several Eriador categories.
+        Updated The War category names with season numbers.
 
     Bug fixes:
         If you complete a Legendary Server, Veil of the Nine, or Landscape Difficulty deed without the corresponding setting enabled, the deed will now be marked complete.

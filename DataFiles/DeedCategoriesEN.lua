@@ -178,12 +178,12 @@ _DEED_CATEGORIES = {
 [125] = { ["NAME"] = "Warleader-slayer"; };
 [126] = { ["NAME"] = "Weaver-slayer"; };
 -- The War / Ettinmoors
-[308] = { ["NAME"] = "- Monster Player Reward Season 1 -"; };
-[327] = { ["NAME"] = "- Season of the Nemesis -"; };
-[328] = { ["NAME"] = "- Season of Malice -"; };
-[329] = { ["NAME"] = "- Season of Scorn -"; };
-[330] = { ["NAME"] = "- Season of Spirit -"; };
-[342] = { ["NAME"] = "- Monster Player Reward Season 6 -"; };
+[308] = { ["NAME"] = "- Season 1: Strife -"; };
+[327] = { ["NAME"] = "- Season 2: Nemesis -"; };
+[328] = { ["NAME"] = "- Season 3: Malice -"; };
+[329] = { ["NAME"] = "- Season 4: Scorn -"; };
+[330] = { ["NAME"] = "- Season 5: Spirits -"; };
+[342] = { ["NAME"] = "- Season 6: Rivals -"; };
 -- Class
 [318] = { ["NA"] = 2; ["NAME"] = " - Hunter - " };
 [317] = { ["NA"] = 2; ["NAME"] = " - Rune-keeper - " };
