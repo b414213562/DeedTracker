@@ -156,8 +156,8 @@ function CompanionImportWindow:MakeDeedControl(parentList, deedID)
     parentList:AddItem(deedControl);
 end
 
-function CompanionImportWindow:AddDeedToBeCompleted(deedID)
-    table.insert(self.deedsToAdd, deedID);
+function CompanionImportWindow:AddDeedToBeCompleted(deedID, nowStringOverride)
+    table.insert(self.deedsToAdd, { ["ID"] = deedID; ["NOW"] = nowStringOverride; });
     self:MakeDeedControl(self.deedsToBeCompletedControl, deedID);
 end
 
@@ -175,11 +175,12 @@ function CompanionImportWindow:DoImport()
 
     IS_IMPORT_HAPPENING = true;
     for key,value in pairs(self.deedsToAdd) do
-        local deedID = value;
+        local deedID = value.ID;
+        local nowStringOverride = value.NOW;
         local deed = GetDeedFromID(deedID);
 
         -- Mark deed complete:
-        mainWin:MarkDeedCompleteFromChat(deed);
+        mainWin:MarkDeedCompleteFromChat(deed, nowStringOverride);
     end
     IS_IMPORT_HAPPENING = false;
 

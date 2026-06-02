@@ -197,7 +197,7 @@ function GetLevel(character)
     return tonumber(level);
 end
 
-function SetDeedComplete(character, deed, isDeedComplete)
+function SetDeedComplete(character, deed, isDeedComplete, nowStringOverride)
     local mainWin = DeedTrackerWin.GetInstance();
 
     if (isDeedComplete) then
@@ -217,7 +217,7 @@ function SetDeedComplete(character, deed, isDeedComplete)
         change = 0;
     end
 
-    local saveEntry = MakeSaveEntry(isDeedComplete);
+    local saveEntry = MakeSaveEntry(isDeedComplete, nowStringOverride);
     SetSaveEntry(character, deed.ID, saveEntry);
 
     totalDeedCompletedCount = totalDeedCompletedCount + change;
@@ -594,17 +594,21 @@ function SetSaveEntry(character, deedID, saveEntry)
     _CHARDATA[character]["DEEDS"][deedID] = saveEntry;
 end
 
-function MakeSaveEntry(isDeedComplete)
+function MakeSaveEntry(isDeedComplete, nowStringOverride)
     local nowString = "";
     local method = PluginDataMethodUnknown;
 
     local saveData = nil;
 
     if (isDeedComplete) then
-        local now = Turbine.Engine.GetDate();
-        nowString = string.format(
-            "%04d-%02d-%02d %02d:%02d:%02d",
-            now.Year, now.Month, now.Day, now.Hour, now.Minute, now.Second);
+        if (nowStringOverride) then
+            nowString = nowStringOverride;
+        else
+            local now = Turbine.Engine.GetDate();
+            nowString = string.format(
+                "%04d-%02d-%02d %02d:%02d:%02d",
+                now.Year, now.Month, now.Day, now.Hour, now.Minute, now.Second);
+        end
         if (IS_DEED_DETECTED) then 
             method = PluginDataMethodAuto;
         elseif (IS_IMPORT_HAPPENING) then

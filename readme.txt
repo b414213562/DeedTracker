@@ -45,6 +45,7 @@ v3.2.5 changes:
     
     Other:
         Import message about missing deed IDs now includes Deed Tracker version.
+        Deed Tracker now takes into account manual deed completion times during import from LOTRO Companion.
 
 v3.2.4 changes:
     Deeds:

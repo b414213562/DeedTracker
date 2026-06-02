@@ -270,14 +270,23 @@ function processCompanionImport(companionImport)
     local charName = MYCHAR:GetName();
     local companionImportWindow = CompanionImportWindow.GetInstance();
 
+    -- Iterate through all known deeds so we can:
+    --   a) find the deeds LC thinks we completed but haven't
+    --   b) find the deeds LC thinks we haven't completed, but are marked completed
+    --   c) tell the user about deeds LC knows about but we don't
     for deedID in pairs(DataFiles._DEED_DATA) do
-        local isCompanionComplete = companionImport[deedID] == "COMPLETED";
+        local completionStructure = companionImport[deedID];
+        local isCompanionComplete = completionStructure and (completionStructure.state == "COMPLETED");
         local isDeedComplete = GetDeedComplete(charName, deedID);
+        local nowStringOverride = nil;
+        if (completionStructure) then
+            nowStringOverride = completionStructure.completionDate;
+        end
 
         if (isCompanionComplete and not isDeedComplete) then
             -- If Companion thinks it is complete and Deed Tracker does not:
             --   Then add it to the import list:
-            companionImportWindow:AddDeedToBeCompleted(deedID);
+            companionImportWindow:AddDeedToBeCompleted(deedID, nowStringOverride);
         elseif (not isCompanionComplete and isDeedComplete) then
             -- If Companion thinks it is not complete and Deed Tracker does:
             --   Then let the player know about the discrepancy:

@@ -749,7 +749,7 @@ function DeedTrackerWin:UpdateDeedCategoryOptionsIfNeeded(deed)
 
 end
 
-function DeedTrackerWin:MarkDeedCompleteFromChat(deed)
+function DeedTrackerWin:MarkDeedCompleteFromChat(deed, nowStringOverride)
     -- If a category slipped through, log it and stop.
     if (IsCategory(deed)) then
         Debug("Deed Tracker: Rejecting attempt to mark a category complete: " .. deed.NAME);
@@ -764,10 +764,12 @@ function DeedTrackerWin:MarkDeedCompleteFromChat(deed)
     local i = deed.i;
     if (self.selectedCharacter == currentCharacter and self.selectedTab == i and deed["CHECK"] ~= nil) then
         local checkbox = deed["CHECK"];
+        checkbox.nowStringOverride = nowStringOverride;
         checkbox:SetChecked(not checkbox:IsChecked());
+        checkbox.nowStringOverride = nil;
     else
         -- Mark it in settings only:
-        SetDeedComplete(currentCharacter, deed, true);
+        SetDeedComplete(currentCharacter, deed, true, nowStringOverride);
     end
     self:UpdateProgress();
 
@@ -1288,7 +1290,7 @@ function DeedTrackerWin:RefreshDeedView(CHARACTER)
                     if (self:IsShiftKeyDown()) then
                         IS_DEED_SHIFT_CLICKED = true;
                     end
-                    SetDeedComplete(CHARACTER, currentDeed, isCompleted);
+                    SetDeedComplete(CHARACTER, currentDeed, isCompleted, sender.nowStringOverride);
                     IS_DEED_SHIFT_CLICKED = false;
 
                     -- Update Faction/Completed timestamp label:

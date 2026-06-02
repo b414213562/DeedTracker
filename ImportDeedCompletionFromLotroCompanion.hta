@@ -18,6 +18,29 @@
 
 <script language="VBScript">
 
+' Function borrowed from https://tachytelic.net/2019/05/vbscript-lpad-rpad-functions/
+Function LPad(StringToPad, Length, CharacterToPad)
+  Dim x : x = 0
+  If Length > Len(StringToPad) Then x = Length - len(StringToPad)
+  LPad = String(x, CharacterToPad) & StringToPad
+End Function
+
+' Function borrowed from https://stackoverflow.com/a/13980554
+Function GetTimeZoneOffsetSeconds()
+    Const sComputer = "."
+
+    Dim oWmiService : Set oWmiService = _
+        GetObject("winmgmts:{impersonationLevel=impersonate}!\\" _
+                  & sComputer & "\root\cimv2")
+
+    Set cItems = oWmiService.ExecQuery("SELECT * FROM Win32_ComputerSystem")
+
+    For Each oItem In cItems
+        GetTimeZoneOffsetSeconds = oItem.CurrentTimeZone * 60
+        Exit For
+    Next
+End Function
+
 Dim serversArray
 Dim charactersToImport
 Dim pluginDataDir
@@ -429,12 +452,10 @@ Sub ImportCharFromLotroCompanion(oCharacter)
 	Set deedStatusNodes = strCharDeedsFileParsed.SelectNodes("deedsStatus/deedStatus")
 	deedStatusNodesCount = deedStatusNodes.length
 	lineCount = 0
+	offsetSeconds = GetTimeZoneOffsetSeconds()
+
 	For Each deedStatusNode in deedStatusNodes
 		lineCount = lineCount + 1
-		trailingComma = ","
-		If lineCount = deedStatusNodesCount Then
-			trailingComma = ""
-		End If
 
 		deedKeyText = ""
 		deedKey = deedStatusNode.GetAttribute("key")
@@ -445,7 +466,7 @@ Sub ImportCharFromLotroCompanion(oCharacter)
 		deedStateText = ""
 		deedState = deedStatusNode.GetAttribute("state")
 		If Not IsNull(deedState) Then
-			deedStateText = deedState
+			deedStateText = "[""state""] = " & """" & deedState & """; "
 		Else
 			' An older way of encoding the deed completian as a boolean:
 			deedCompleted = deedStatusNode.GetAttribute("completed")
@@ -455,7 +476,22 @@ Sub ImportCharFromLotroCompanion(oCharacter)
 			End If
 		End If
 
-		outputText = outputText & vbTab & "[""" & deedKeyText & """] = " & """" & deedStateText & """" & trailingComma & vbCrLf
+		deedCompletionDate = deedStatusNode.GetAttribute("completionDate")
+		deedCompletiondateText = ""
+		If Not IsNull(deedCompletionDate) Then
+		  completionDate = DateAdd("s", deedCompletionDate / 1000 + offsetSeconds, #1970/1/1#)
+		  formattedDate = Year(completionDate) & "-" _
+		  	& LPad(Month(completionDate), 2, "0") & "-" _
+		  	& LPad(Day(completionDate), 2, "0") & " " _
+		  	& Hour(completionDate) & ":" _
+		  	& LPad(Minute(completionDate), 2, "0") & ":" _
+		  	& LPad(Second(completionDate), 2, "0")
+		  deedCompletionDateText = "[""completionDate""] = " & """" & formattedDate & """; "
+		End If
+
+		value = "{ " & deedStateText & deedCompletiondateText & "}"
+
+		outputText = outputText & vbTab & "[""" & deedKeyText & """] = " & value & ";" & vbCrLf
 	Next
 
 	outputText = outputText & "}" & vbCrLf
@@ -501,7 +537,7 @@ End Sub
 </script>
 
 <body onload="GetCharacters()">
-<h2>Import Deed Completion from LOTRO Companion v2.2</h2>
+<h2>Import Deed Completion from LOTRO Companion v2.3</h2>
 This importer is a part of the Deed Tracker plugin.<br>
 You can find a walkthrough of how to use it at <a href="https://deedtracker.lifebeyondtheshire.com/home/import-deed-completion-from-lotro-companion/">https://deedtracker.lifebeyondtheshire.com/home/import-deed-completion-from-lotro-companion/</a>.<br>
 If you have questions or issues regarding the import process, please email LotroDeedTracker@gmail.com.<br>
