@@ -177,6 +177,8 @@ _LANG = {
     };
 
     -- Channel parsing borrowed from TitanBar
+    -- Note: In early 2026-ish, channel change notifications stopped reliably showing up when you changed regions.
+    --       We could check for OOC or Role-playing channel changes too, in case only one of these comes through.
     ["ENTER_CHANNEL"] = {
         ["EN"] = "Entered the ([%a%p%u%l%s]*) %- Regional";
         ["DE"] = "Chat%-Kanal '([%a%p%u%l%s]*) %- Regional"; 
