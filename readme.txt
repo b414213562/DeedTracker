@@ -36,6 +36,7 @@ v3.2.5 changes:
     Bug fixes:
         If you complete a Legendary Server, Veil of the Nine, or Landscape Difficulty deed without the corresponding setting enabled, the deed will now be marked complete.
         Also, the corresponding setting will be enabled if it was not already.
+        Fixed a rare bug that could through an error when moving the mouse over a tooltip that hadn't yet hidden itself.
 
     Mini icon:
         Added option to show or hide mini icon

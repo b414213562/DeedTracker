@@ -136,7 +136,6 @@ get landscape difficulty first, then use Test Valar to see if deeds are awarded.
 
 Crell — 2023-10-31 at 4:32 PM Suggestion: Treat Forester Competition and follow up crafting events as some kind of toggle on/off per-character, per event/craft type. For example my RK isn't a forester and so can't do the forester competition.
 Crell — 2023-10-30 at 3:15 AM: numerous comments in Discord
-    StringTooltipWindow.lua:51 attempt to call method 'MouseMove' (a nil value)
     "I do note that at some point you added 'cave in the hills'  (on import) Which should probably be labeled 'Draigoch-Discovery', unless you're checking for a quest complete instead of the actual deed. (Because you need the quest completed to un-gate the discovery properly)"
 
 Add last-known-level (and class?) to character name list in Deed Tracker
