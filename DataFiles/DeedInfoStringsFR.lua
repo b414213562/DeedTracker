@@ -48,7 +48,13 @@ _FACTIONS = {
     [1879442863] = "Défenseurs de l'Angle";
     [1879443125] = "La Garde de la Comté lointaine";
     [1879448435] = "Dunedain du Cardolan";
-    [1879457726] = "Intendants de la Maison de Fer";
+    [1879463136] = "Le Gondor renaissant";
+    [1879465745] = "Habitants d'Umbar Baharbêl";
+    [1879489736] = "Les Ikorbâni";
+    [1879506198] = "Temamir de Jiret-menêsh";
+    [1879506206] = "Cité de Zajâna";
+    [1879506212] = "Kintai de Sul Madash";
+    [1879508769] = "Le Nouveau Hamât";
 };
 _CLASSES = {
      [23] = "Gardien";

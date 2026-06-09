@@ -48,7 +48,13 @@ _FACTIONS = {
     [1879442863] = "Defenders of The Angle";
     [1879443125] = "The Yonder-watch";
     [1879448435] = "Dúnedain of Cardolan";
-    [1879457726] = "Stewards of the Iron-home";
+    [1879463136] = "The Renewal of Gondor";
+    [1879465745] = "Citizens of Umbar Baharbêl";
+    [1879489736] = "The Ikorbâni";
+    [1879506198] = "Temámir of Jiret-menêsh";
+    [1879506206] = "City of Zajâna";
+    [1879506212] = "Kintai of Sul Madásh";
+    [1879508769] = "Hamât Renewed";
 };
 _CLASSES = {
      [23] = "Guardian";
