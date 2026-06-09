@@ -43,16 +43,6 @@ function StringTooltipWindow:Constructor()
     self.listbox:SetParent(self);
     self.listbox:SetPosition(self.borderWidth, self.borderWidth);
     self.listbox:SetSize(self.maxContentWidth, self.maxContentHeight);
-    -- Pass mouse events through to support moving the tooltip via drag & drop
-    self.listbox.MouseDown = function(sender, args)
-        self:MouseDown(args);
-    end
-    self.listbox.MouseMove = function(sender, args)
-        self:MouseMove(args);
-    end
-    self.listbox.MouseUp = function(sender, args)
-        self:MouseUp(args);
-    end
 
     -- Make the scrollbar for the listbox:
     self.scrollbar = Turbine.UI.Lotro.ScrollBar();
