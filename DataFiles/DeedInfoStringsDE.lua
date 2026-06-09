@@ -68,7 +68,7 @@ _CLASSES = {
     [194] = "Hüter";
     [214] = "Beorninger";
     [215] = "Schläger";
-    [216] = "Matrose";
+    [216] = "Seefahrer";
 };
 _RACES = {
       [0] = "Undefined";
