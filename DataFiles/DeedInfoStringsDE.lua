@@ -71,7 +71,6 @@ _CLASSES = {
     [216] = "Seefahrer";
 };
 _RACES = {
-      [0] = "Undefined";
      [23] = "Mensch";
      [65] = "Elb";
      [73] = "Zwerg";

@@ -71,7 +71,6 @@ _CLASSES = {
     [216] = "Marin";
 };
 _RACES = {
-      [0] = "Undefined";
      [23] = "Homme";
      [65] = "Elfe";
      [73] = "Nain";
