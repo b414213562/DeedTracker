@@ -124,7 +124,7 @@ _DEED_LOG_PAGE_NAMES = {
     GONDOR_STR = "Gondor";
     MORDOR_STR = "Mordor";
     HARADWAITH_STR = "Haradwaith";
-}
+};
 
 _DEED_LOG_PAGE_TAB_NAMES = {
     -- Skirmish

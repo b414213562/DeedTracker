@@ -113,7 +113,6 @@ _NOT_ACTIVE_REASON = {
     [7] = "Vocation";
 };
 
-
 _DEED_LOG_PAGE_NAMES = {
     SKIRMISH_STR = "Escarmouche";
     INSTANCES_STR = "Instances";
