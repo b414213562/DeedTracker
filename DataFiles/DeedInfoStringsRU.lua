@@ -104,20 +104,12 @@ _DEED_TYPES = {
     [20] = "Альянс";
 };
 _NOT_ACTIVE_REASON = {
-    -- We don't know why it's not available:
     [1] = "Неизвестно";
-    -- Deed was once in the game, no longer is. Only characters who got it at the time can have it:
     [2] = "Устарело";
-    -- Deed could only be completed for a limited time after it became available... ? Not sure how this  differs from Time-gated:
     [3] = "Limited Time Only";
-    -- Not sure how this is different than Limited Time Only... combine?
     [4] = "Time-gated";
-    -- Player must spend LOTRO Points, Mithril Coins, or real world currency to accomplish this.
     [5] = "Требует покупки";
-    -- Deed is linked to the Landscape Difficulty system, where you must begin it before level 11, 
-    -- and not drop below a certain difficulty before level 50/130.
     [6] = "Путь доблести";
-    -- Vocations were dropped in U38.
     [7] = "Профессии";
 };
 
