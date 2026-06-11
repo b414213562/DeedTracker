@@ -1,4 +1,6 @@
 
+SHOW_DEBUG_OPTIONS = false;
+
 SETTINGS = {}; -- Table used when loading settings.
 _CHARDATA = {}; -- Table used when loading saved character data.
 
@@ -187,5 +189,3 @@ DEFAULT_SETTINGS =
         ["OPACITY"] = 100;
         };
     };
-
-SHOW_DEBUG_OPTIONS = false;
