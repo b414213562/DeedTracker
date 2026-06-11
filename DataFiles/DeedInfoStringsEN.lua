@@ -231,5 +231,6 @@ _DEED_LOG_PAGE_TAB_NAMES = {
     H_KHUD_ZAGIN_STR = "Khûd Zagin";
     H_IMHULAR_STR = "Imhûlar";
     H_URASH_DAR_STR = "Urash Dâr";
-    H_MUR_GHALA_STR = "Mûr Ghala"
+    H_MUR_GHALA_STR = "Mûr Ghala";
+
 };
