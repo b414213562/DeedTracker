@@ -184,6 +184,7 @@ _DEED_CATEGORIES = {
 [329] = { ["NAME"] = "- Saison 4: Verachtung -"; };
 [330] = { ["NAME"] = "- Saison 5: Geister -"; };
 [342] = { ["NAME"] = "- Saison 6: Rivalen -"; };
+[349] = { ["NAME"] = "- Saison 7: Zerstörung -"; };
 -- Class
 [318] = { ["NA"] = 2; ["NAME"] = " - Jäger - " };
 [317] = { ["NA"] = 2; ["NAME"] = " - Runenbewahrer - " };

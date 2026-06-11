@@ -184,6 +184,7 @@ _DEED_CATEGORIES = {
 [329] = { ["NAME"] = "- Season 4: Scorn -"; };
 [330] = { ["NAME"] = "- Season 5: Spirits -"; };
 [342] = { ["NAME"] = "- Season 6: Rivals -"; };
+[349] = { ["NAME"] = "- Season 7: Destruction -"; };
 -- Class
 [318] = { ["NA"] = 2; ["NAME"] = " - Hunter - " };
 [317] = { ["NA"] = 2; ["NAME"] = " - Rune-keeper - " };
@@ -395,4 +396,4 @@ _DEED_CATEGORIES = {
 [343] = { ["TIER"] = 0; ["NAME"] = "Hatokáli Fells"; };
 };
 
--- Last used: 348
+-- Last used: 349

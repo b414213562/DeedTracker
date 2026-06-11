@@ -184,6 +184,7 @@ _DEED_CATEGORIES = {
 [329] = { ["NAME"] = "- Saison 4: Mépris -"; };
 [330] = { ["NAME"] = "- Saison 5: l'Esprit -"; };
 [342] = { ["NAME"] = "- Saison 6: Rivaux -"; };
+[349] = { ["NAME"] = "- Season 7: Destruction -"; };
 -- Class
 [318] = { ["NA"] = 2; ["NAME"] = " - Chasseur - " };
 [317] = { ["NA"] = 2; ["NAME"] = " - Gardien des runes - " };
