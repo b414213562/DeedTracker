@@ -8,10 +8,10 @@ _CHARDATA = {}; -- Table used when loading saved character data.
 CURRENT_CHARDATA_FILE_VERSION = "v3.1";
 
 MYCHAR = Turbine.Gameplay.LocalPlayer.GetInstance();
--- Standard Server, correct as of 2025-09-02
-DEFAULT_SERVER_LEVEL_CAP = 150;
--- Legendary Server, correct as of 2025-09-02
-DEFAULT_LEGENDARY_SERVER_LEVEL_CAP = 75;
+-- Standard Server, correct as of 2026-07-28
+DEFAULT_SERVER_LEVEL_CAP = 160;
+-- Legendary Server, (Mordor & Angmar) correct as of 2026-07-28
+DEFAULT_LEGENDARY_SERVER_LEVEL_CAP = 105;
 
 LegendaryServerCaps = {
     [1] = 50; -- Shadows of Angmar
@@ -27,6 +27,7 @@ LegendaryServerCaps = {
     [11] = 130; -- Minas Morgul, War of Three Peaks and Blood of Azog
     [12] = 140; -- Fate of Gundabad
     [13] = 150; -- Corsairs of Umbar, Legacy of Morgoth
+    [14] = 160; -- Kingdoms of Harad
 };
 
 -- The value to use for deeds in this session:
