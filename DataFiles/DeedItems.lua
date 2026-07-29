@@ -8,12 +8,14 @@ _COMPLETED_DEED_ITEMS = {
             ["DE"] = "Geschenkkästchen mit Ausstattung des Dúnadan-Arbeiters";
             ["FR"] = "Cadeau : Tenue d'ouvrier du Pays de Dun";
             ["RU"] = "Подарочный костюм дунаданского рабочего";
+            ["ES"] = "Caja de regalo de atuendo de trabajador dúnadan";
         };
         ["DEED"] = {
             ["EN"] = "Volume III Interludes, Part One";
             ["DE"] = "Band III Zwischenspiele - Erster Teil";
             ["FR"] = "Interludes du Volume III : Première partie";
             ["RU"] = "Интермедии тома III, часть первая";
+            ["ES"] = "Interludios del Volumen III, Primera Parte";
         };
     };
     [2] = {
@@ -22,12 +24,14 @@ _COMPLETED_DEED_ITEMS = {
             ["DE"] = "Geschenkkästchen mit Ausstattung des Waldland-Waldläufers";
             ["FR"] = "Cadeau : Tenue de rôdeur des bois";
             ["RU"] = "Подарочный костюм лесного следопыта";
+            ["ES"] = "Caja de regalo de atuendo de Montaraz del Bosque";
         };
         ["DEED"] = {
             ["EN"] = "Volume III Interludes, Part Two";
             ["DE"] = "Band III Zwischenspiele - Zweiter Teil";
             ["FR"] = "Interludes du Volume III : Deuxième partie";
             ["RU"] = "Интермедии тома III, часть вторая";
+            ["ES"] = "Interludios del Volumen III, Segunda Parte";
         };
     };
     [3] = { -- 1879284570
@@ -36,12 +40,14 @@ _COMPLETED_DEED_ITEMS = {
             ["DE"] = "Vorladung nach Entfurt";
             ["FR"] = "Convocations au Gué d'Ent";
             ["RU"] = "Перемещение к Энтову броду";
+            ["ES"] = "Convocatorias al Vado del Entaguas";
         };
         ["DEED"] = {
             ["EN"] = "Volume III, Book 11: Foreword";
             ["DE"] = "Band III, Buch 11: Vorwort";
             ["FR"] = "Volume III, Livre 11 : Avant-propos";
             ["RU"] = "Том III, книга 11: Пролог";
+            ["ES"] = "Volumen III, Libro 11: Prólogo";
         };
     };
 }
