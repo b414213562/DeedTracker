@@ -213,7 +213,7 @@ _DEED_CATEGORIES = {
 [148] = { ["NAME"] = "Ale Association & Inn League"; };
 [149] = { ["NAME"] = "Miscellaneous"; };
 [150] = { ["NAME"] = "Collection"; };
-[151] = { ["NAME"] = "- Buried Treasure -"; };
+[151] = { ["NAME"] = "- Treasure Hunt -"; };
 [152] = { ["LEGENDARY"] = true; ["NAME"] = "Legendary Server Deeds"; };
 [153] = { ["NAME"] = "Not Actively Achievable"; };
 [154] = { ["NAME"] = "- Account Anniversary -"; };

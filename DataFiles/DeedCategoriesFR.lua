@@ -209,11 +209,11 @@ _DEED_CATEGORIES = {
 [144] = { ["NAME"] = "Spring Festival"; };
 [145] = { ["NAME"] = "- Bee's Big Business -"; };
 [146] = { ["NAME"] = "Farmers Faire and Spring Festival"; };
-[147] = { ["NAME"] = "Hobnanigans and Treasure Hunt"; };
+[147] = { ["NAME"] = "Hobnanigans and La chasse au trésor"; };
 [148] = { ["NAME"] = "Ale & Inn"; };
 [149] = { ["NAME"] = "Miscellaneous"; };
 [150] = { ["NAME"] = "Collection"; };
-[151] = { ["NAME"] = "- Treasure Hunt -"; };
+[151] = { ["NAME"] = "- La chasse au trésor -"; };
 [152] = { ["LEGENDARY"] = true; ["NAME"] = "Legendary Server Deeds"; };
 [153] = { ["NAME"] = "Not Actively Achievable"; };
 [154] = { ["NAME"] = "- Account Anniversary -"; };

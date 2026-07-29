@@ -209,11 +209,11 @@ _DEED_CATEGORIES = {
 [144] = { ["NAME"] = "Frühlingsfests"; };
 [145] = { ["NAME"] = "- Fleißiges Bienchen -"; };
 [146] = { ["NAME"] = "Bauernfests und Frühlingsfests"; };
-[147] = { ["NAME"] = "Hobnanigans und Vergrabener Schatz"; };
+[147] = { ["NAME"] = "Hobnanigans und Schatzsuche"; };
 [148] = { ["NAME"] = "Bier-Genossenschaft & Gasthausliga"; };
 [149] = { ["NAME"] = "Miscellaneous"; };
 [150] = { ["NAME"] = "Collection"; };
-[151] = { ["NAME"] = "- Vergrabener Schatz -"; };
+[151] = { ["NAME"] = "- Schatzsuche -"; };
 [152] = { ["LEGENDARY"] = true; ["NAME"] = "Legendäre Server-Taten"; };
 [153] = { ["NAME"] = "Not Actively Achievable"; };
 [154] = { ["NAME"] = "- Account Anniversary -"; };

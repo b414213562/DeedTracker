@@ -209,11 +209,11 @@ _DEED_CATEGORIES = {
 [144] = { ["NAME"] = "Festival de Primavera"; };
 [145] = { ["NAME"] = "- La gran tarea de las abejas -"; };
 [146] = { ["NAME"] = "Feria de los Granjeros y Festival de Primavera"; };
-[147] = { ["NAME"] = "Hobbitravesuras y Búsqueda del tesoro"; };
+[147] = { ["NAME"] = "Hobbitravesuras y Caza del tesoro"; };
 [148] = { ["NAME"] = "Asociación de la Cerveza & Liga de las Posadas"; };
 [149] = { ["NAME"] = "Misceláneas"; };
 [150] = { ["NAME"] = "Recopilación"; };
-[151] = { ["NAME"] = "- Búsqueda del tesoro -"; };
+[151] = { ["NAME"] = "- Caza del tesoro -"; };
 [152] = { ["LEGENDARY"] = true; ["NAME"] = "Servidores Legendarios"; };
 [153] = { ["NAME"] = "No alcanzable actualmente"; };
 [154] = { ["NAME"] = "- Aniversario de la cuenta. -"; };
