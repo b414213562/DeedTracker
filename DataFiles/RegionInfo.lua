@@ -1,3 +1,5 @@
+-- Use _SourceFiles/RegionInfo.xlsx to update _CHAT_REGIONS
+
 _CHAT_REGIONS = {
     [1] = {["CHAT_REGION"] = { ["EN"] = "Unknown"; }; };
     [2] = {["CHAT_REGION"] = { ["EN"] = "an Instance"; }; };
@@ -33,7 +35,7 @@ _CHAT_REGIONS = {
     [27] = {["CHAT_REGION"] = { ["EN"] = "Dwarf-holds"; ["DE"] = "Zwergenfestungen"; ["FR"] = "Bastions des Nains"; ["RU"] = "Владения гномов"; }; ["DEED_REGIONS"] = { [1] = { ["i"] = RHOVANION; ["j"] = R_THE_DWARF_HOLDS; }; }; };
     [28] = {["CHAT_REGION"] = { ["EN"] = "Vales of Anduin"; ["DE"] = "Täler des Anduin"; ["FR"] = "Val d'Anduin"; ["RU"] = "Долина Андуина"; }; ["DEED_REGIONS"] = { [1] = { ["i"] = RHOVANION; ["j"] = R_VALES_OF_ANDUIN; }; }; };
     [29] = {["CHAT_REGION"] = { ["EN"] = "Wells of Langflood"; ["DE"] = "Quellen des Langflut"; ["FR"] = "Puits du Long Fleuve"; ["RU"] = "Истоки Долгой реки"; }; ["DEED_REGIONS"] = { [1] = { ["i"] = RHOVANION; ["j"] = R_ELDERSLADE; }; [2] = { ["i"] = RHOVANION; ["j"] = R_WELLS_OF_LANGFLOOD; }; }; };
-    [42] = {["CHAT_REGION"] = { ["EN"] = "Gundabad"; ["DE"] = "Gundabad"; ["FR"] = "Gundabad"; ["RU"] = "Gundabad"; }; ["DEED_REGIONS"] = { [1] = { ["i"] = RHOVANION; ["j"] = R_GUNDABAD } }; };
+    [42] = {["CHAT_REGION"] = { ["EN"] = "Gundabad"; ["DE"] = "Gundabad"; ["FR"] = "Gundabad"; ["RU"] = "Gundabad"; }; ["DEED_REGIONS"] = { [1] = { ["i"] = RHOVANION; ["j"] = R_GUNDABAD; }; }; };
         --Gondor
     [30] = {["CHAT_REGION"] = { ["EN"] = "Western Gondor"; ["DE"] = "West-Gondor"; ["FR"] = "Ouest du Gondor"; ["RU"] = "Западный Гондор"; }; ["DEED_REGIONS"] = { [1] = { ["i"] = GONDOR; ["j"] = G_WESTERN_GONDOR; }; }; };
     [31] = {["CHAT_REGION"] = { ["EN"] = "Central Gondor"; ["DE"] = "Zentrum von Gondor"; ["FR"] = "Centre du Gondor"; ["RU"] = "Центральный Гондор"; }; ["DEED_REGIONS"] = { [1] = { ["i"] = GONDOR; ["j"] = G_CENTRAL_GONDOR; }; }; };
