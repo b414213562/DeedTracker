@@ -102,11 +102,11 @@ _NOT_ACTIVE_REASON = {
 };
 
 _DEED_LOG_PAGE_NAMES = {
-    SKIRMISH_STR = "Skirmish";
-    INSTANCES_STR = "Instances";
-    HOBBIES_STR = "Hobbies";
-    THE_WAR_STR = "The War";
-    CLASS_RACE_EPIC_STR = "Class/Race/Epic";
+    SKIRMISH_STR = "Escaramuza";
+    INSTANCES_STR = "Instancias";
+    HOBBIES_STR = "Pasatiempos";
+    THE_WAR_STR = "La Guerra";
+    CLASS_RACE_EPIC_STR = "Clase/Raza/Épica";
     ERIADOR_STR = "Eriador";
     RHOVANION_STR = "Rhovanion";
     GONDOR_STR = "Gondor";
