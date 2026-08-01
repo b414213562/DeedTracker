@@ -27,7 +27,7 @@ _DEED_CATEGORIES = {
 [18] = { ["TIER"] = 2; ["NAME"] = "-- The Dead Slayer Deeds --"; };
 [19] = { ["TIER"] = 2; ["NAME"] = "-- The Dark Lord Lieutenant Slayer Deeds --"; };
 [20] = { ["TIER"] = 2; ["NAME"] = "-- Single Session (Instance) Deeds --"; };
-[21] = { ["NA"] = 2; ["NAME"] = "No alcanzable actualmente"; };
+[21] = { ["NA"] = 2; ["NAME"] = "No alcanzable activamente"; };
 -- Instances / Shadows of Angmar
 [22] = { ["NAME"] = "Nivel 20+"; };
 [23] = { ["NAME"] = "- El Gran Túmulo -"; };
@@ -48,7 +48,7 @@ _DEED_CATEGORIES = {
 [38] = { ["TIER"] = 1; ["NAME"] = "-- La Grieta de Nûrz Ghâshu --"; };
 [39] = { ["NAME"] = "- Helegrod -"; };
 [40] = { ["NAME"] = "- Tham Mirdain -"; };
-[41] = { ["NAME"] = "No alcanzable actualmente"; };
+[41] = { ["NAME"] = "No alcanzable activamente"; };
 -- Instances / Mines of Moria
 [42] = { ["NAME"] = "Nivel 54"; };
 [43] = { ["NAME"] = "- Tesoro Olvidado -"; };
@@ -73,14 +73,14 @@ _DEED_CATEGORIES = {
 [60] = { ["TIER"] = 1; ["NAME"] = "Sammath Gûl"; };
 [61] = { ["TIER"] = 1; ["NAME"] = "Barad Guldur"; };
 [62] = { ["NAME"] = "Sword-hall of Dol Guldur"; };
-[63] = { ["LEGENDARY"] = true; ["NAME"] = "No alcanzable actualmente"; };
+[63] = { ["LEGENDARY"] = true; ["NAME"] = "No alcanzable activamente"; };
 -- Instances / In Their Absence
 [64] = { ["TIER"] = 1; ["NAME"] = "Northcotton Farm"; };
 [65] = { ["TIER"] = 1; ["NAME"] = "Stoneheight"; };
 [66] = { ["TIER"] = 1; ["NAME"] = "Lost Temple"; };
 [67] = { ["TIER"] = 1; ["NAME"] = "Sâri-surma"; };
 [68] = { ["TIER"] = 1; ["NAME"] = "Ost Dunhoth"; };
-[69] = { ["NAME"] = "No alcanzable actualmente"; };
+[69] = { ["NAME"] = "No alcanzable activamente"; };
 -- Instances / Rise of Isengard
 [70] = { ["TIER"] = 1; ["NAME"] = "The Foundry"; };
 [71] = { ["TIER"] = 1; ["NAME"] = "Fangorn's Edge"; };
@@ -88,7 +88,7 @@ _DEED_CATEGORIES = {
 [73] = { ["TIER"] = 1; ["NAME"] = "Dargnákh Unleashed"; };
 [74] = { ["TIER"] = 1; ["NAME"] = "The Tower of Orthanc"; };
 [75] = { ["NAME"] = "Draigoch's Lair"; };
-[76] = { ["NAME"] = "No alcanzable actualmente"; };
+[76] = { ["NAME"] = "No alcanzable activamente"; };
 -- Instances / The Road to Erebor
 [77] = { ["TIER"] = 1; ["NAME"] = "Seat of the Great Goblin"; };
 [78] = { ["TIER"] = 1; ["NAME"] = "Web of Scuttledells"; };
@@ -106,18 +106,18 @@ _DEED_CATEGORIES = {
 [88] = { ["NAME"] = "The Quays of the Harlond"; };
 [89] = { ["NAME"] = "The Silent Street"; };
 [90] = { ["NAME"] = "Throne of the Dread Terror"; };
-[91] = { ["NAME"] = "No alcanzable actualmente"; };
+[91] = { ["NAME"] = "No alcanzable activamente"; };
 -- Instances / The Plateau of Gorgoroth
 [92] = { ["NAME"] = "The Court of Seregost"; };
 [93] = { ["NAME"] = "Dungeons of Naerband"; };
 [94] = { ["NAME"] = "The Abyss of Mordath"; };
-[95] = { ["NAME"] = "No alcanzable actualmente"; };
+[95] = { ["NAME"] = "No alcanzable activamente"; };
 -- Instances / The Grey Mountains
 [96] = { ["NAME"] = "Caverns of Thrumfall"; };
 [97] = { ["NAME"] = "Glimmerdeep"; };
 [98] = { ["NAME"] = "The Anvil of Winterstith"; };
 [99] = { ["NAME"] = "Thikil-gundu"; };
-[100] = { ["NAME"] = "No alcanzable actualmente"; };
+[100] = { ["NAME"] = "No alcanzable activamente"; };
 -- Instances / Minas Morgul
 [101] = { ["NAME"] = "The Dead City"; };
 [102] = { ["TIER"] = 1; ["NAME"] = "Gorthad Nûr"; };
@@ -128,18 +128,18 @@ _DEED_CATEGORIES = {
 [107] = { ["TIER"] = 1; ["NAME"] = "Ghashan-kútot"; };
 [108] = { ["TIER"] = 1; ["NAME"] = "The Fallen Kings"; };
 [109] = { ["NAME"] = "Remmorchant"; };
-[110] = { ["NAME"] = "No alcanzable actualmente"; };
+[110] = { ["NAME"] = "No alcanzable activamente"; };
 -- Instances / The War of Three Peaks
 [111] = { ["NAME"] = "Shakalush"; };
 [112] = { ["NAME"] = "Amdân Dammul"; };
-[113] = { ["NAME"] = "No alcanzable actualmente"; };
+[113] = { ["NAME"] = "No alcanzable activamente"; };
 -- Instances / The Mountain-hold
 [114] = { ["TIER"] = 1; ["NAME"] = "Den of Pughlak"; };
 [115] = { ["TIER"] = 1; ["NAME"] = "Dhúrstrok"; };
 [116] = { ["TIER"] = 1; ["NAME"] = "Adkhât-zahhar, the Houses of Rest"; };
 [117] = { ["NAME"] = "Tûr Fúar, the Drearspire"; };
 [118] = { ["NAME"] = "The Hiddenhoard of Abnankâra"; };
-[119] = { ["NAME"] = "No alcanzable actualmente"; };
+[119] = { ["NAME"] = "No alcanzable activamente"; };
 -- Instances / Return to Carn Dûm
 [277] = { ["TIER"] = 1; ["NAME"] = "Sant Lhoer, the Poison Gardens"; };
 [278] = { ["TIER"] = 1; ["NAME"] = "Thaurisgar, the Vile Apothecary"; };
@@ -147,7 +147,7 @@ _DEED_CATEGORIES = {
 [280] = { ["TIER"] = 1; ["NAME"] = "Gwathrenost, the Witch-king's Citadel"; };
 [284] = { ["NAME"] = "Rat-bane"; };
 [281] = { ["NAME"] = "Challenger of the Iron Crown"; };
-[282] = { ["NAME"] = "No alcanzable actualmente"; };
+[282] = { ["NAME"] = "No alcanzable activamente"; };
 -- Instances / Corsairs of Umbar
 [300] = { ["TIER"] = 1; ["NAME"] = "The Streets of Râhal Bakh"; };
 [301] = { ["TIER"] = 1; ["NAME"] = "The Isle of Storms"; };
@@ -215,7 +215,7 @@ _DEED_CATEGORIES = {
 [150] = { ["NAME"] = "Recopilación"; };
 [151] = { ["NAME"] = "- Caza del tesoro -"; };
 [152] = { ["LEGENDARY"] = true; ["NAME"] = "Servidores Legendarios"; };
-[153] = { ["NAME"] = "No alcanzable actualmente"; };
+[153] = { ["NAME"] = "No alcanzable activamente"; };
 [154] = { ["NAME"] = "- Aniversario de la cuenta. -"; };
 [155] = { ["NAME"] = "- Festivales -"; };
 [156] = { ["NAME"] = "- Misceláneas -"; };
@@ -233,7 +233,7 @@ _DEED_CATEGORIES = {
 [167] = { ["NAME"] = "Épica - El Libro Negro de Mordor"; };
 [168] = { ["NAME"] = "Después de la guerra"; };
 [169] = { ["NAME"] = "Misceláneas"; };
-[170] = { ["NAME"] = "No alcanzable actualmente"; };
+[170] = { ["NAME"] = "No alcanzable activamente"; };
 [286] = { ["NAME"] = "Valar - 140"; };
 -- Class/Race/Epic / Reputation
 [171] = { ["NAME"] = "Tareas"; };
@@ -318,7 +318,7 @@ _DEED_CATEGORIES = {
 [325] = { ["NAME"] = "Ciudad de Zajâna"; };
 [331] = { ["NAME"] = "Hamât renovado"; };
 [332] = { ["NAME"] = "Gremio de Cazadores de Mûr Ghala"; };
-[240] = { ["NAME"] = "No alcanzable actualmente"; };
+[240] = { ["NAME"] = "No alcanzable activamente"; };
 [241] = { ["NAME"] = "- El torneo de los gemelos -"; };
 [242] = { ["NAME"] = "- Habitantes del Folde Este -"; };
 [243] = { ["NAME"] = "- Habitantes de las Tierras del Rey -"; };
@@ -360,10 +360,10 @@ _DEED_CATEGORIES = {
 [296] = { ["TIER"] = 1; ["NAME"] = "Completa cualquier nivel muchas veces"; };
 [297] = { ["TIER"] = 1; ["NAME"] = "Completa el nivel 10 1000 veces"; };
 -- Rhovanion / Moria
-[257] = { ["NAME"] = "No alcanzable actualmente"; };
+[257] = { ["NAME"] = "No alcanzable activamente"; };
 -- Rhovanion / Vales of Anduin
 [258] = { ["NAME"] = "The Depths of Kidzul-kâlah"; };
-[259] = { ["NAME"] = "No alcanzable actualmente"; };
+[259] = { ["NAME"] = "No alcanzable activamente"; };
 -- Rhovanion / Gundabad
 [260] = { ["TIER"] = 1; ["NAME"] = "Máttugard"; };
 [261] = { ["TIER"] = 1; ["NAME"] = "Deepscrave"; };
