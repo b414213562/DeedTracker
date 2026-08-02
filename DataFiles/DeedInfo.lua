@@ -1269,13 +1269,21 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
            [21] = {["ID"] = 1879520125; ["TIER"] = 2; }; -- Explorer of 'The Folly of Nagakhêdi' - Tier 1
            [22] = {["ID"] = 1879520126; ["TIER"] = 2; }; -- Explorer of 'The Folly of Nagakhêdi' - Tier 2
            [23] = {["ID"] = 1879520128; ["TIER"] = 2; }; -- Explorer of 'The Folly of Nagakhêdi' - Tier 3
-           [24] = {["ID"] = 1879522095; }; -- Conqueror of the Legion of Lhaereth
-           [25] = {["CAT_ID"] = 282; }; -- Not Actively Achievable
-           [26] = {["ID"] = 1879519550; }; -- The Treasure Caves of Hurum Kâna -- Tier 3 -- Leading the Charge
-           [27] = {["ID"] = 1879518739; }; -- Kôth Rau, the Wailing Hold -- Tier 3 -- Leading the Charge
-           [28] = {["ID"] = 1879519222; }; -- Ekal-nêbi, the Fallen Palace -- Tier 3 -- Leading the Charge
-           [29] = {["ID"] = 1879520129; }; -- The Folly of Nagakhêdi -- Leading the Charge
-           [30] = {["ID"] = 1879520127; }; -- The Folly of Nagakhêdi -- Original Challenger           
+           [24] = {["ID"] = 1879522095; ["TIER"] = 1; }; -- Conqueror of the Legion of Lhaereth
+           [25] = {["CAT_ID"] = 351; ["TIER"] = 1; }; -- 'Pagru-kirít, The Garden of Corpses'
+           [26] = {["ID"] = 1879528296; ["TIER"] = 1; }; -- Vanquisher of Pagru-kirít, The Garden of Corpses
+           [27] = {["ID"] = 1879528280; ["TIER"] = 2; }; -- Pagru-kirít, The Garden of Corpses -- Tier 1
+           [28] = {["ID"] = 1879528278; ["TIER"] = 2; }; -- Pagru-kirít, The Garden of Corpses -- Tier 2
+           [29] = {["ID"] = 1879528279; ["TIER"] = 2; }; -- Pagru-kirít, The Garden of Corpses -- Tier 3
+           [30] = {["ID"] = 1879528301; ["TIER"] = 2; }; -- Pagru-kirít, The Garden of Corpses -- Kishâsu's Risen
+           [31] = {["ID"] = 1879529536; ["TIER"] = 1; }; -- The Gardener of Pagru-kirít
+           [32] = {["CAT_ID"] = 282; }; -- Not Actively Achievable
+           [33] = {["ID"] = 1879519550; }; -- The Treasure Caves of Hurum Kâna -- Tier 3 -- Leading the Charge
+           [34] = {["ID"] = 1879518739; }; -- Kôth Rau, the Wailing Hold -- Tier 3 -- Leading the Charge
+           [35] = {["ID"] = 1879519222; }; -- Ekal-nêbi, the Fallen Palace -- Tier 3 -- Leading the Charge
+           [36] = {["ID"] = 1879520129; }; -- The Folly of Nagakhêdi -- Leading the Charge
+           [37] = {["ID"] = 1879520127; }; -- The Folly of Nagakhêdi -- Original Challenger
+           [38] = {["ID"] = 1879528304; }; -- Pagru-kirít, The Garden of Corpses -- Tier 3 -- Leading the Charge
         };
     };
     -- Hobbies
@@ -1479,6 +1487,12 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
            [42] = {["ID"] = 1879071832; ["TIER"] = 2; }; -- Weaver-slayer -- Tier 3
            [43] = {["ID"] = 1879071831; ["TIER"] = 3; }; -- Weaver-slayer -- Tier 2
            [44] = {["ID"] = 1879071830; ["TIER"] = 4; }; -- Weaver-slayer -- Tier 1
+           [45] = {["CAT_ID"] = 350; }; -- Sorceress-slayer
+           [46] = {["ID"] = 1879526544; }; -- Sorceress Slayer -- Tier 5
+           [47] = {["ID"] = 1879526545; ["TIER"] = 1; }; -- Sorceress Slayer -- Tier 4
+           [48] = {["ID"] = 1879526533; ["TIER"] = 2; }; -- Sorceress Slayer -- Tier 3
+           [49] = {["ID"] = 1879526534; ["TIER"] = 3; }; -- Sorceress Slayer -- Tier 2
+           [50] = {["ID"] = 1879526532; ["TIER"] = 4; }; -- Sorceress Slayer -- Tier 1
         };
         -- Ettenmoors
         [W_ETTENMOORS] = {
