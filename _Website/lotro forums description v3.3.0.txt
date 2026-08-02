@@ -1,0 +1,70 @@
+Deed Tracker version 3.3.0 is now available at [url=https://www.lotrointerface.com/downloads/info1139-DeedTracker.html]lotrointerface.com[/url].
+
+This release adds deeds from Update 48: A Glorious Hunt and Update 49: In Good Company, adds initial support for Spanish, and many other things!
+
+Version 3.3.0 release notes:
+
+Deeds:
+[list]
+    [*] The War:
+    [list]
+        [*] Common:
+        [list]
+            [*] Added Sorceress Slayer deeds
+        [/list]
+        [*] Ettenmoors:
+        [list]
+            [*] Added Frame: Season of Destruction Frame (U48.3)
+            [*] Updated The War category names with season numbers.
+        [/list]
+    [/list]
+    [*] Class/Race/Epic:
+    [list]
+        [*] Race & Social:
+        [list]
+            [*] Added Sea-side Sensation (U48.2) (Midsummer)
+        [/list]
+        Reputation:
+        [list]
+            [*] Added Esteemed with Hamât Renewed deed.
+            [*] Added Veil of the Nine - Baubles deeds.
+        [/list]
+    [/list]
+    [*] Instances:
+    [list]
+        [*] Kingdoms of Harad:
+        [list]
+            [*] Added Pagru-kirít, The Garden of Corpses deeds
+        [/list]
+    [/list]
+    [*] Eridor:
+    [list]
+        [*] Added category separator for Sarnur. Added level ranges on several Eriador categories.
+    [/list]
+[/list]
+
+Bug fixes:
+[list]
+    [*] If you complete a Legendary Server, Veil of the Nine, or Landscape Difficulty deed without the corresponding setting enabled, the deed will now be marked complete. Also, the corresponding setting will be enabled if it was not already.
+    [*] Fixed a rare bug that could through an error when moving the mouse over a tooltip that hadn't yet hidden itself.
+    [*] Refreshing the visible deeds can cause a slight pause. Updated options that do not affect which deeds are visible to no longer refresh the deeds.
+[/list]
+
+Mini icon:
+[list]
+    [*] Added option to show or hide mini icon.
+    [*] Added options to control mini icon opacity.
+    [*] Added options to control shape and size of mini icon.
+    [*] Added option for mini icon to always stay on top.
+    [*] Right-clicking the mini icon opens the Deed Tracker plugin options.
+[/list]
+
+Other:
+[list]
+    [*] Added a few zone level categories for zones with areas with different levels. (Breeland / Wildwood, Shire / Yondershire, Ered Luin / Sarnúr)
+    [*] Import message about missing deed IDs now includes Deed Tracker version.
+    [*] Deed Tracker now takes into account manual deed completion times during import from LOTRO Companion.
+    [*] Reorganized icons into new folder under Resources.
+    [*] Added initial support for Spanish. (Credit to Heisenchad for the UI translations.)
+    [*] Changed internal deed type to better match in-game values in preparation for future filtering work. (This has the side effect of changing every entry in DeedData[lang].lua.)
+[/list]

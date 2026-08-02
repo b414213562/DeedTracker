@@ -28,7 +28,7 @@ If you would like to take over management of one of my plugins, please first sen
 If I do not respond within two months, then you have my permission to request control of a plugin or patch of mine on lotrointerface.com.
 In the meantime, feel free to submit patches for any of my plugins if you spot something that needs fixing or improving!
 
-v3.2.5 changes:
+v3.3.0 changes:
     Deeds:
         The War:
             Common:
@@ -39,6 +39,9 @@ v3.2.5 changes:
         Class/Race/Epic:
             Race & Social:
                 Added Sea-side Sensation (U48.2) (Midsummer)
+            Reputation:
+                Added Esteemed with Hamât Renewed deed.
+                Added Veil of the Nine - Baubles deeds.
         Instances:
             Kingdoms of Harad:
                 Added Pagru-kirít, The Garden of Corpses deeds
@@ -46,19 +49,24 @@ v3.2.5 changes:
             Added category separator for Sarnur. Added level ranges on several Eriador categories.
 
     Bug fixes:
-        If you complete a Legendary Server, Veil of the Nine, or Landscape Difficulty deed without the corresponding setting enabled, the deed will now be marked complete.
-        Also, the corresponding setting will be enabled if it was not already.
+        If you complete a Legendary Server, Veil of the Nine, or Landscape Difficulty deed without the corresponding setting enabled, the deed will now be marked complete. Also, the corresponding setting will be enabled if it was not already.
         Fixed a rare bug that could through an error when moving the mouse over a tooltip that hadn't yet hidden itself.
+        Refreshing the visible deeds can cause a slight pause. Updated options that do not affect which deeds are visible to no longer refresh the deeds.
 
     Mini icon:
-        Added option to show or hide mini icon
-        Added options to control mini icon opacity
+        Added option to show or hide mini icon.
+        Added options to control mini icon opacity.
         Added options to control shape and size of mini icon.
-        Added option for mini icon to always stay on top
+        Added option for mini icon to always stay on top.
+        Right-clicking the mini icon opens the Deed Tracker plugin options.
     
     Other:
+        Added a few zone level categories for zones with areas with different levels. (Breeland / Wildwood, Shire / Yondershire, Ered Luin / Sarnúr)
         Import message about missing deed IDs now includes Deed Tracker version.
         Deed Tracker now takes into account manual deed completion times during import from LOTRO Companion.
+        Reorganized icons into new folder under Resources.
+        Added initial support for Spanish. (Credit to Heisenchad for the UI translations.)
+        Changed internal deed type to better match in-game values in preparation for future filtering work. (This has the side effect of changing every entry in DeedData[lang].lua.)
 
 v3.2.4 changes:
     Deeds:

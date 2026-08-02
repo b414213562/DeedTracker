@@ -190,3 +190,4 @@ DEFAULT_SETTINGS =
         ["OPACITY"] = 100;
         };
     };
+
