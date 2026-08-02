@@ -165,18 +165,20 @@ _DEED_CATEGORIES = {
 [334] = { ["TIER"] = 1; ["NAME"] = "Kôth Rau, la Forteresse des lamentations"; };
 [335] = { ["TIER"] = 1; ["NAME"] = "Ekal-nêbi, le palais déchu"; };
 [336] = { ["TIER"] = 1; ["NAME"] = "'La Folie de Nagakhêdi'"; };
+[351] = { ["TIER"] = 1; ["NAME"] = "Pagru-kirit, le jardin des cadavres"; };
 -- Hobbies / Birding
 [320] = { ["NAME"] = "Eriador"; };
 [321] = { ["NAME"] = "Rohan et du Grand Fleuve"; };
 [326] = { ["NAME"] = "Gondor et Mordor"; };
 -- The War / Common
-[120] = { ["NAME"] = "Monster-slayer"; };
-[121] = { ["NAME"] = "Blackarrow-slayer"; };
-[122] = { ["NAME"] = "Reaver-slayer"; };
-[123] = { ["NAME"] = "Defiler-slayer"; };
-[124] = { ["NAME"] = "Stalker-slayer"; };
-[125] = { ["NAME"] = "Warleader-slayer"; };
-[126] = { ["NAME"] = "Weaver-slayer"; };
+[120] = { ["NAME"] = "Tueur/Tueuse de monstres"; };
+[121] = { ["NAME"] = "Tueur/Tueuse d'Ourouks à flèches noires"; };
+[122] = { ["NAME"] = "Tueur/Tueuse de faucheurs"; };
+[123] = { ["NAME"] = "Tueur/Tueuse de profanateurs"; };
+[124] = { ["NAME"] = "Tueur/Tueuse de traqueurs"; };
+[125] = { ["NAME"] = "Tueur/Tueuse de chefs de guerre"; };
+[126] = { ["NAME"] = "Tueur/Tueuse de tisseuses"; };
+[350] = { ["NAME"] = "Tueur/Tueuse de sorcière"; };
 -- The War / Ettinmoors
 [308] = { ["NAME"] = "- Saison 1: Chaos -"; };
 [327] = { ["NAME"] = "- Saison 2: Némésis -"; };

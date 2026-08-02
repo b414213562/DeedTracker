@@ -165,6 +165,7 @@ _DEED_CATEGORIES = {
 [334] = { ["TIER"] = 1; ["NAME"] = "Kôth Rau, die Klagefeste"; };
 [335] = { ["TIER"] = 1; ["NAME"] = "Ekal-nêbi, der gefallene Palast"; };
 [336] = { ["TIER"] = 1; ["NAME"] = "Nagakhêdis Torheit"; };
+[351] = { ["TIER"] = 1; ["NAME"] = "Pagru-kirít, der Leichengarten"; };
 -- Hobbies / Birding
 [320] = { ["NAME"] = "Eriador"; };
 [321] = { ["NAME"] = "Rohan und dem Großen Fluss"; };
@@ -177,6 +178,7 @@ _DEED_CATEGORIES = {
 [124] = { ["NAME"] = "Pirscher-Bezwinger"; };
 [125] = { ["NAME"] = "Kriegsanführer-Bezwinger"; };
 [126] = { ["NAME"] = "Weberspinnen-Bezwinger"; };
+[350] = { ["NAME"] = "Zauberin-Bezwinger"; };
 -- The War / Ettinmoors
 [308] = { ["NAME"] = "- Saison 1: Zwietracht -"; };
 [327] = { ["NAME"] = "- Saison 2: Nemesis -"; };

@@ -165,6 +165,7 @@ _DEED_CATEGORIES = {
 [334] = { ["TIER"] = 1; ["NAME"] = "Kôth Rau, the Wailing Hold"; };
 [335] = { ["TIER"] = 1; ["NAME"] = "Ekal-nêbi, the Fallen Palace"; };
 [336] = { ["TIER"] = 1; ["NAME"] = "'The Folly of Nagakhêdi'"; };
+[351] = { ["TIER"] = 1; ["NAME"] = "'Pagru-kirít, The Garden of Corpses'"; };
 -- Hobbies / Birding
 [320] = { ["NAME"] = "Eriador"; };
 [321] = { ["NAME"] = "Rohan and the Great River"; };
@@ -177,6 +178,7 @@ _DEED_CATEGORIES = {
 [124] = { ["NAME"] = "Stalker-slayer"; };
 [125] = { ["NAME"] = "Warleader-slayer"; };
 [126] = { ["NAME"] = "Weaver-slayer"; };
+[350] = { ["NAME"] = "Sorceress-slayer"; };
 -- The War / Ettinmoors
 [308] = { ["NAME"] = "- Season 1: Strife -"; };
 [327] = { ["NAME"] = "- Season 2: Nemesis -"; };

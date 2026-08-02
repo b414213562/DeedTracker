@@ -165,6 +165,7 @@ _DEED_CATEGORIES = {
 [334] = { ["TIER"] = 1; ["NAME"] = "Kôth Rau, the Wailing Hold"; };
 [335] = { ["TIER"] = 1; ["NAME"] = "Ekal-nêbi, the Fallen Palace"; };
 [336] = { ["TIER"] = 1; ["NAME"] = "'The Folly of Nagakhêdi'"; };
+[351] = { ["TIER"] = 1; ["NAME"] = "Пагру-Кирит, Сад Мертвецов"; };
 -- Hobbies / Birding
 [320] = { ["NAME"] = "Эриадора"; };
 [321] = { ["NAME"] = "Rohan and the Great River"; };
@@ -177,6 +178,7 @@ _DEED_CATEGORIES = {
 [124] = { ["NAME"] = "Убийца ловчих варгов"; };
 [125] = { ["NAME"] = "Убийца вожаков"; };
 [126] = { ["NAME"] = "Убийца ткачих"; };
+[350] = { ["NAME"] = "Sorceress-slayer"; };
 -- The War / Ettinmoors
 [308] = { ["NAME"] = "- Пора 1: Раздора -"; };
 [327] = { ["NAME"] = "- Пора 2: Возмездия -"; };
