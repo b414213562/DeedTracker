@@ -31,12 +31,17 @@ In the meantime, feel free to submit patches for any of my plugins if you spot s
 v3.2.5 changes:
     Deeds:
         The War:
+            Common:
+                Added Sorceress Slayer deeds
             Ettenmoors:
                 Added Frame: Season of Destruction Frame (U48.3)
                 Updated The War category names with season numbers.
         Class/Race/Epic:
             Race & Social:
                 Added Sea-side Sensation (U48.2) (Midsummer)
+        Instances:
+            Kingdoms of Harad:
+                Added Pagru-kirít, The Garden of Corpses deeds
         Eridor:
             Added category separator for Sarnur. Added level ranges on several Eriador categories.
 
