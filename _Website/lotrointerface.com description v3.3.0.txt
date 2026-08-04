@@ -16,9 +16,9 @@ Due to limitations in the LOTRO scripting interface, Deed Tracker cannot tell wh
 
 Language support:
 [list]
-[*] Automatic deed-completion detection is supported for English, French, German, and Russian.
-[*] Deed names, lore, and objectives are available in English, French, German, and Russian.
-[*] The Deed Tracker UI is mostly translated for German and Russian.
+[*] Automatic deed-completion detection is supported for English, French, German, Russian, and Spanish.
+[*] Deed names, lore, and objectives are available in English, French, German, Russian, and Spanish.
+[*] The Deed Tracker UI is mostly translated for English, German, Russian, and Spanish.
 [*] The Deed Tracker UI has not yet been translated for French. (If you are a fluent French speaker and would like to help, please let me know!)
 [/list]
 
