@@ -502,13 +502,13 @@ _LANG = {
             ["ES"] = "Acabas de completar algo que podría ser una hazaña o una misión: %s";
         };
         ["WINDOW_BODY_INSTRUCTIONS"] = {
-            ["EN"] = "Unfortunately, we can't tell which of the following it was. \nClick 'Select Deed' next to the right one.";
+            ["EN"] = "Unfortunately, we can't tell which of the following it was. \nClick 'Select Deed' next to the correct one.";
             ["DE"] = "Leider können wir nicht sagen, welche der folgenden es war. \nKlick auf 'Ausgewählte Tat' neben der richtigen.";
             ["RU"] = "К сожалению, мы не можем сказать, что это было. \nКликните 'Выбрать Деяние' возле нужного вам.";
             ["ES"] = "Lamentablemente, no podemos decir cuál de los siguientes fue. \nHaz clic en 'Seleccionar Hazaña' junto a la correcta.";
         };
         ["WINDOW_BODY_DEED_OR_QUEST_INSTRUCTIONS"] = {
-            ["EN"] = "Unfortunately, we can't tell which of the following it was. \nClick 'Select Deed' or 'Select Quest' next to the right one.";
+            ["EN"] = "Unfortunately, we can't tell which of the following it was. \nClick 'Select Deed' or 'Select Quest' next to the correct one.";
             ["RU"] = "К сожалению, мы не можем сказать, что это было. \nКликните 'Выбрать Деяние' или 'Выбрать Задание'  возле нужного вам.";
             ["ES"] = "Lamentablemente, no podemos decir cuál de los siguientes fue. \nHaz clic en 'Seleccionar Hazaña' o 'Seleccionar Misión' junto a la correcta.";
         };
