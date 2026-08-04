@@ -2544,15 +2544,6 @@ _DEED_LOG_PAGE_TAB_CONTENTS = {
            [48] = {["ID"] = 1879234462; }; -- Discovering the Descendant
            [49] = {["ID"] = 1879234463; }; -- Horsing Around
            [50] = {["ID"] = 1879238494; }; -- An Unusual Arrival
-           [51] = {["CAT_ID"] = 286; }; -- Valar - 140
-           [52] = {["ID"] = 1879462872; }; -- The Battle of the Deep-way
-           [53] = {["ID"] = 1879462870; }; -- The Battle of the Way of Smiths
-           [54] = {["ID"] = 1879462869; }; -- The Battle of the Twenty-first Hall
-           [55] = {["ID"] = 1879462871; }; -- First Offensives
-           [56] = {["ID"] = 1879462868; }; -- Thangúlhad Endangered
-           [57] = {["ID"] = 1879462867; }; -- Assault on Dol Guldur
-           [58] = {["ID"] = 1879462866; }; -- The Battle in the Tower
-           [59] = {["ID"] = 1879462873; }; -- The Depths of Duty
         };
         -- Reputation
         [CRE_REPUTATION] = {

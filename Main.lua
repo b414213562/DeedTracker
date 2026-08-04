@@ -46,6 +46,7 @@ import "CubePlugins.DeedTracker.Images";
 import "CubePlugins.DeedTracker.DataFiles.ConflictingQuests";
 import "CubePlugins.DeedTracker.DataFiles.DeedItems";
 import "CubePlugins.DeedTracker.DataFiles.DeedLookupTables";
+import "CubePlugins.DeedTracker.DataFiles.LotroCompanionImportData";
 import "CubePlugins.DeedTracker.DataFiles.RegionInfo";
 
 -- Language Specific..
@@ -305,13 +306,15 @@ function processCompanionImport(companionImport)
     -- It would be nice if they email it to me.
     local deedsMissingInDeedTracker = {};
     for deedID in pairs(companionImport) do
-        local isDeedPresentInDeedTracker = DataFiles._DEED_DATA[deedID] ~= nil;
+        if (not DataFiles.IDs_Intentionally_Excluded_From_DeedTracker[deedID]) then
+            local isDeedPresentInDeedTracker = DataFiles._DEED_DATA[deedID] ~= nil;
 
-        -- Marked complete in LOTRO Companion, but isn't possible (e.g. Chicken session play.)
-        local isSessionPlayDeed = DataFiles._SESSION_PLAY_DEED_IDS[deedID] ~= nil;
+            -- Marked complete in LOTRO Companion, but isn't possible (e.g. Chicken session play.)
+            local isSessionPlayDeed = DataFiles._SESSION_PLAY_DEED_IDS[deedID] ~= nil;
 
-        if (not isDeedPresentInDeedTracker and not isSessionPlayDeed) then
-            table.insert(deedsMissingInDeedTracker, deedID);
+            if (not isDeedPresentInDeedTracker and not isSessionPlayDeed) then
+                table.insert(deedsMissingInDeedTracker, deedID);
+            end
         end
     end
     if (#deedsMissingInDeedTracker > 0) then
