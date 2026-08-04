@@ -77,6 +77,7 @@ function DisambiguateDialog:UpdateMainLabelText(deedName, thereWasAConflictingQu
             "\n\n" .. 
             GetString(_LANG.DISAMBIGUATE.WINDOW_BODY_DEED_OR_QUEST_INSTRUCTIONS));
         self.lblSelectDeed:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleCenter);
+        AutoFitLabelHeight(self.lblSelectDeed, 100);
     end
 end
 
