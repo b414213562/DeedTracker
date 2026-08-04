@@ -35,39 +35,50 @@ _LANG = {
     ["OPTIONS"] = {
         ["ICON_SIZE_SHAPE"] = {
             ["EN"] = "Mini Icon Shape/Size";
+            ["ES"] = "Forma/Tamaño del mini-icono";
         };
         ["ICON_OPACITY_LABEL"] = {
             ["EN"] = "Mini Icon Opacity";
+            ["ES"] = "Opacidad del mini-icono";
         };
         ["ICON_OPACITY_LABEL_TOOLTIP"] = {
             ["EN"] = "Changing the slider value will change the opacity of the mini icon";
+            ["ES"] = "Cambiar el valor del deslizante modificará la opacidad del mini-icono";
         };
         ["ICON_ENABLE_TRANSPARENCY_DURING_MOUSEOVER"] = {
             ["EN"] = "Use opacity setting while mouse is over icon";
+            ["ES"] = "Utilizar la configuración de opacidad cuando el ratón esté sobre el icono";
         };
         ["ICON_ENABLE_TRANSPARENCY_DURING_MOUSEOVER_TOOLTIP"] = {
-            ["EN"] = "Controls whether the icon will become fully opaque while the mouse is over it, or keep the opacity setting."
+            ["EN"] = "Controls whether the icon will become fully opaque while the mouse is over it, or keep the opacity setting";
+            ["ES"] = "Controla si el icono se vuelve totalmente opaco al pasar el ratón sobre él o si mantiene la configuración de opacidad";
         };
         ["ICON_OPACITY"] = {
             ["EN"] = "Opacity: %d%%";
             ["DE"] = "Opazität: %d%%";
             ["FR"] = "Opacité: %d%%";
+            ["ES"] = "Opacidad: %d%%";
         };
         ["ICONS"] = {
             ["DEED_LOG_ICON_CIRCLE_LARGE"] = {
                 ["EN"] = "Large Circle";
+                ["ES"] = "Círculo Grande";
             };
             ["DEED_LOG_ICON_CIRCLE_MEDIUM"] = {
                 ["EN"] = "Medium Circle";
+                ["ES"] = "Círculo Mediano";
             };
             ["DEED_LOG_ICON_CIRCLE_SMALL"] = {
                 ["EN"] = "Small Circle";
+                ["ES"] = "Círculo Pequeño";
             };    
             ["DEED_LOG_ICON_SQUARE_MEDIUM"] = {
                 ["EN"] = "Medium Square";
+                ["ES"] = "Cuadrado Mediano";
             };
             ["DEED_LOG_ICON_SQUARE_SMALL"] = {
                 ["EN"] = "Small Square";
+                ["ES"] = "Cuadrado Pequeño";
             };
         };
         ["SAVE"] = {
@@ -120,9 +131,11 @@ _LANG = {
         };
         ["SHOW_MINI_ICON"] = {
             ["EN"] = "Show the Deed Tracker mini icon";
+            ["ES"] = "Mostrar el mini-icono de Deed Tracker";
         };
         ["MINI_ICON_ALWAYS_ON_TOP"] = {
             ["EN"] = "Keep mini icon on top";
+            ["ES"] = "Mantener el mini-icono en primer plano";
         };
         ["MOVE_ICON_REQUIRES_SHIFT"] = {
             ["EN"] = "Require Shift key to move the icon";
