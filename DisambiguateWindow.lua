@@ -235,6 +235,8 @@ function DisambiguateDialog:AddConflictingQuestIfPresent(foundDeeds, y)
             lblQuestTitle:SetText(questTitle);
             AutoFitLabelHeight(lblQuestTitle, 200);
             y = y + lblQuestTitle:GetHeight();
+
+            questRow:SetSize(self.window:GetWidth(), lblQuestTitle:GetHeight());
         end
         return true, y;
     end
