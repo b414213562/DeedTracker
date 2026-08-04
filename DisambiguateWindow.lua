@@ -32,8 +32,8 @@ end
 function DisambiguateDialog:DrawMainLabel(deedName, thereWasAConflictingQuest)
     self.lblSelectDeed = Turbine.UI.Label();
     self.lblSelectDeed:SetParent(self.window);
-    self.lblSelectDeed:SetSize(self.window:GetWidth() - 80,18);
     self.lblSelectDeed:SetPosition(40,40);
+    self.lblSelectDeed:SetSize(self.window:GetWidth() - 80,85);
     self.lblSelectDeed:SetForeColor(Turbine.UI.Color.Beige);
     self.lblSelectDeed:SetFont(Verdana16);
     self.lblSelectDeed:SetOutlineColor(Turbine.UI.Color(0.1,0.1,0.1));
