@@ -29,11 +29,11 @@ function DisambiguateDialog:CreateWindow()
     Onscreen(self.window); -- Makes sure the window is still onscreen (perhaps user changed resolution since last playing)
 end
 
-function DisambiguateDialog:DrawMainLabel(deedName, thereWasAConflictingQuest)
+function DisambiguateDialog:DrawMainLabel(deedName, thereWasAConflictingQuest, y)
     self.lblSelectDeed = Turbine.UI.Label();
     self.lblSelectDeed:SetParent(self.window);
-    self.lblSelectDeed:SetPosition(40,40);
     self.lblSelectDeed:SetSize(self.window:GetWidth() - 80,85);
+    self.lblSelectDeed:SetPosition(40, y);
     self.lblSelectDeed:SetForeColor(Turbine.UI.Color.Beige);
     self.lblSelectDeed:SetFont(Verdana16);
     self.lblSelectDeed:SetOutlineColor(Turbine.UI.Color(0.1,0.1,0.1));
@@ -47,7 +47,7 @@ function DisambiguateDialog:DrawMainLabel(deedName, thereWasAConflictingQuest)
     self.lblSelectDeed:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleCenter);
 
     AutoFitLabelHeight(self.lblSelectDeed, 100);
-    self.top = self.lblSelectDeed:GetHeight() + 60;
+    y = self.lblSelectDeed:GetHeight() + 60;
 
     local currentRegionName = DataFiles.GetCurrentRegionName();
     if (currentRegionName ~= "offline" and
@@ -56,7 +56,7 @@ function DisambiguateDialog:DrawMainLabel(deedName, thereWasAConflictingQuest)
         local locationLabel = Turbine.UI.Label();
         locationLabel:SetParent(self.window);
         locationLabel:SetSize(self.window:GetWidth() - 80,18);
-        locationLabel:SetPosition(40, self.top);
+        locationLabel:SetPosition(40, y);
         locationLabel:SetForeColor(Turbine.UI.Color.Yellow);
         locationLabel:SetFont(Verdana16);
         locationLabel:SetOutlineColor(Turbine.UI.Color(0.1,0.1,0.1));
@@ -66,11 +66,13 @@ function DisambiguateDialog:DrawMainLabel(deedName, thereWasAConflictingQuest)
         locationLabel:SetText(string.format(GetString(_LANG.DISAMBIGUATE.WINDOW_LOCATION), currentRegionName));
         locationLabel:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleCenter);
 
-        self.top = self.top + locationLabel:GetHeight() + 40;
+        y = y + locationLabel:GetHeight() + 40;
     end
+    return y;
 end
 
 function DisambiguateDialog:UpdateMainLabelText(deedName, thereWasAConflictingQuest)
+    local oldHeight = self.lblSelectDeed:GetHeight();
     if (thereWasAConflictingQuest) then
         self.lblSelectDeed:SetText(
             string.format(GetString(_LANG.DISAMBIGUATE.WINDOW_BODY_DEED_OR_QUEST), deedName) .. 
@@ -79,6 +81,8 @@ function DisambiguateDialog:UpdateMainLabelText(deedName, thereWasAConflictingQu
         self.lblSelectDeed:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleCenter);
         AutoFitLabelHeight(self.lblSelectDeed, 100);
     end
+    local newHeight = self.lblSelectDeed:GetHeight();
+    return newHeight - oldHeight;
 end
 
 function DisambiguateDialog:DrawLine(parent, y)
@@ -89,14 +93,14 @@ function DisambiguateDialog:DrawLine(parent, y)
     lineBetween:SetPosition(40, y);
 end
 
-function DisambiguateDialog:AddDeedRow(deed, isInDeedRegion)
+function DisambiguateDialog:AddDeedRow(deed, isInDeedRegion, y)
     local title = GetFullyQualifiedDeedName(deed);
 
     local deedRow = Turbine.UI.Control();
     deedRow:SetParent(self.window);
     deedRow:SetSize(self.window:GetWidth(), 50);
-    deedRow:SetPosition(40, self.top);
-    self.top = self.top + 50;
+    deedRow:SetPosition(40, y);
+    y = y + 50;
 
     local button = Turbine.UI.Lotro.Button();
     button:SetParent(deedRow);
@@ -132,18 +136,20 @@ function DisambiguateDialog:AddDeedRow(deed, isInDeedRegion)
     lblDeedTitle:SetFontStyle(Turbine.UI.FontStyle.Outline);
     lblDeedTitle:SetZOrder(1000);
     lblDeedTitle:SetText(title);
+
+    return y;
 end
 
-function DisambiguateDialog:AddDeedSection(deeds, langSectionLabel, isInDeedRegion)
+function DisambiguateDialog:AddDeedSection(deeds, langSectionLabel, isInDeedRegion, y)
     -- line between:
-    self:DrawLine(self.window, self.top - 10);
-    self.top = self.top + 10;
+    self:DrawLine(self.window, y - 10);
+    y = y + 10;
 
     -- Region label:
     local label = Turbine.UI.Label();
     label:SetParent(self.window);
     label:SetSize(self.window:GetWidth() - 80,18);
-    label:SetPosition(40,self.top);
+    label:SetPosition(40,y);
     label:SetForeColor(Turbine.UI.Color.Beige);
     label:SetFont(Verdana14);
     label:SetOutlineColor(Turbine.UI.Color(0.1,0.1,0.1));
@@ -151,17 +157,18 @@ function DisambiguateDialog:AddDeedSection(deeds, langSectionLabel, isInDeedRegi
     label:SetZOrder(1000);
     label:SetText(GetString(langSectionLabel));
     AutoFitLabelHeight(label, 200);
-    self.top = self.top + label:GetHeight() + 20;
+    y = y + label:GetHeight() + 20;
 
     for deedIndex=1, table.maxn(deeds) do
         local deedID = deeds[deedIndex].ID;
         local deed = GetDeedFromID(deedID);
-        self:AddDeedRow(deed, isInDeedRegion);
+        y = self:AddDeedRow(deed, isInDeedRegion, y);
     end
+    return y;
 end
 
 -- Returns true if a conflicting quest is present, false otherwise
-function DisambiguateDialog:AddConflictingQuestIfPresent(foundDeeds)
+function DisambiguateDialog:AddConflictingQuestIfPresent(foundDeeds, y)
     local deed = foundDeeds[1];
 
     -- Note: Identical logic exists in PluginFunctions, extract out somewhere.
@@ -179,14 +186,14 @@ function DisambiguateDialog:AddConflictingQuestIfPresent(foundDeeds)
             end
 
             -- line between:
-            self:DrawLine(self.window, self.top - 10);
-            self.top = self.top + 10;
+            self:DrawLine(self.window, y - 10);
+            y = y + 10;
 
             -- Region label:
             local label = Turbine.UI.Label();
             label:SetParent(self.window);
             label:SetSize(self.window:GetWidth() - 80,18);
-            label:SetPosition(40,self.top);
+            label:SetPosition(40,y);
             label:SetForeColor(Turbine.UI.Color.Beige);
             label:SetFont(Verdana14);
             label:SetOutlineColor(Turbine.UI.Color(0.1,0.1,0.1));
@@ -194,12 +201,11 @@ function DisambiguateDialog:AddConflictingQuestIfPresent(foundDeeds)
             label:SetZOrder(1000);
             label:SetText(GetString(_LANG.DISAMBIGUATE.QUEST));
             AutoFitLabelHeight(label, 200);
-            self.top = self.top + label:GetHeight() + 20;
+            y = y + label:GetHeight() + 20;
 
             local questRow = Turbine.UI.Control();
             questRow:SetParent(self.window);
-            questRow:SetSize(self.window:GetWidth(), 50);
-            questRow:SetPosition(40, self.top);
+            questRow:SetPosition(40, y);
 
             local questButton = Turbine.UI.Lotro.Button();
             questButton:SetParent(questRow);
@@ -229,11 +235,11 @@ function DisambiguateDialog:AddConflictingQuestIfPresent(foundDeeds)
             lblQuestTitle:SetZOrder(1000);
             lblQuestTitle:SetText(questTitle);
             AutoFitLabelHeight(lblQuestTitle, 200);
-            self.top = self.top + lblQuestTitle:GetHeight();
+            y = y + lblQuestTitle:GetHeight();
         end
-        return true;
+        return true, y;
     end
-    return false;
+    return false, y;
 end
 
 function DisambiguateDialog:ClearAmbigiousDeed(deedName)
@@ -245,9 +251,12 @@ end
 
 function DisambiguateDialog:SetDeeds(deedName, foundDeeds, regionOkCount)
     self.ambiguousDeedName = deedName;
-    self.top = 80;
+    local topWindowBorder = 40;
+    local bottomWindowBorder = 30;
+    local y = topWindowBorder;
+
     self.window:GetControls():Clear();
-    self:DrawMainLabel(deedName, false);
+    y = self:DrawMainLabel(deedName, false, y);
 
     local foundDeedsCount = table.maxn(foundDeeds);
     local breakdownByRegion = regionOkCount > 1 and DataFiles.IsRegionKnown();
@@ -282,15 +291,15 @@ function DisambiguateDialog:SetDeeds(deedName, foundDeeds, regionOkCount)
         end
 
         if (inRegionDeedsCount > 0) then
-            self:AddDeedSection(inRegionDeeds, _LANG.DISAMBIGUATE.WINDOW_BODY_LOCATION_MATCH, true);
+            y = self:AddDeedSection(inRegionDeeds, _LANG.DISAMBIGUATE.WINDOW_BODY_LOCATION_MATCH, true, y);
         end
 
         if (adjacentRegionDeedsCount > 0) then
-            self:AddDeedSection(adjacentRegionDeeds, _LANG.DISAMBIGUATE.WINDOW_BODY_LOCATION_ADJACENT, false);
+            y = self:AddDeedSection(adjacentRegionDeeds, _LANG.DISAMBIGUATE.WINDOW_BODY_LOCATION_ADJACENT, false, y);
         end
 
         if (nonAdjacentRegionDeedsCount > 0) then
-            self:AddDeedSection(nonAdjacentRegionDeeds, _LANG.DISAMBIGUATE.WINDOW_BODY_LOCATION_NONADJACENT, false);
+            y = self:AddDeedSection(nonAdjacentRegionDeeds, _LANG.DISAMBIGUATE.WINDOW_BODY_LOCATION_NONADJACENT, false, y);
         end
 
     else
@@ -299,15 +308,18 @@ function DisambiguateDialog:SetDeeds(deedName, foundDeeds, regionOkCount)
             local foundDeed = foundDeeds[deedIndex];
             if (not foundDeed["is_completed"]) then
                 local deed = GetDeedFromID(foundDeed.ID);
-                self:AddDeedRow(deed, false);
+                y = self:AddDeedRow(deed, false, y);
             end
         end
     end
 
-    local thereWasAConflictingQuest = self:AddConflictingQuestIfPresent(foundDeeds);
-    self:UpdateMainLabelText(deedName, thereWasAConflictingQuest);
+    local thereWasAConflictingQuest = false;
+    thereWasAConflictingQuest, y = self:AddConflictingQuestIfPresent(foundDeeds, y);
+    local heightChange = self:UpdateMainLabelText(deedName, thereWasAConflictingQuest);
+    y = y + heightChange;
 
-    self.window:SetSize(SETTINGS.DISAMBIGUATEWIN.WIDTH,self.top);
+    y = y + bottomWindowBorder;
+    self.window:SetSize(SETTINGS.DISAMBIGUATEWIN.WIDTH, y);
     Onscreen(self.window);
 
     if (MYCHAR:IsInCombat() and SETTINGS.DO_NOT_SHOW_COMPLETION_WINDOW_IN_COMBAT) then
