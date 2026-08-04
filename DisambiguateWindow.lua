@@ -166,7 +166,7 @@ function DisambiguateDialog:AddDeedSection(deeds, langSectionLabel, isInDeedRegi
     return y;
 end
 
--- Returns true if a conflicting quest is present, false otherwise
+-- Returns true if a conflicting quest is present, false otherwise. Also the new y.
 function DisambiguateDialog:AddConflictingQuestIfPresent(foundDeeds, y)
     local deed = foundDeeds[1];
 
