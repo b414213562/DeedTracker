@@ -44,7 +44,7 @@ function DisambiguateDialog:DrawMainLabel(deedName, thereWasAConflictingQuest, y
         string.format(GetString(_LANG.DISAMBIGUATE.WINDOW_BODY_DEED), deedName) .. 
         "\n\n" .. 
         GetString(_LANG.DISAMBIGUATE.WINDOW_BODY_INSTRUCTIONS));
-    self.lblSelectDeed:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleCenter);
+    self.lblSelectDeed:SetTextAlignment(Turbine.UI.ContentAlignment.TopCenter);
 
     AutoFitLabelHeight(self.lblSelectDeed, 100);
     y = self.lblSelectDeed:GetHeight() + 60;
@@ -78,7 +78,6 @@ function DisambiguateDialog:UpdateMainLabelText(deedName, thereWasAConflictingQu
             string.format(GetString(_LANG.DISAMBIGUATE.WINDOW_BODY_DEED_OR_QUEST), deedName) .. 
             "\n\n" .. 
             GetString(_LANG.DISAMBIGUATE.WINDOW_BODY_DEED_OR_QUEST_INSTRUCTIONS));
-        self.lblSelectDeed:SetTextAlignment(Turbine.UI.ContentAlignment.MiddleCenter);
         AutoFitLabelHeight(self.lblSelectDeed, 100);
     end
     local newHeight = self.lblSelectDeed:GetHeight();
