@@ -1,3 +1,25 @@
+Veil of the Nine - Baubles: Should these be Not Actively Available? (Especially once Angmar / Mordor shut down?)
+    "Available from barter on the legendary servers Mordor and Angmar."
+
+
+NotACat, 2026-09-17:
+    the Deeds for getting tripped up by Lazy Prospectors in the Hard Tack Event are messed up in the DT, according to the wiki
+    the progression should be "Often Clumsy"->"The Lummox"->"Failure to Fire the Forge"
+    DT has FFF being a pre-req for TL and OC being separate from either
+    the Deeds for having food stolen by a sneaky Hobbit look OK
+    I'll admit I avoid being tripped or intercepted so I don't have any of these, maybe I could designate one doofus to acquire them somehow?
+
+    Talyrion1003
+        according to the data from LC, all prospector deeds are hidden, and 2/3 cooking as well...
+        there seem to be 6 deeds in total... 5 are hidden
+
+    These deeds are marked with hidden="true"... what's up with that?
+        Bean-spiller
+        Clod
+        Failure to Fire the Forge
+        The Lummox
+        Often Clumsy
+
 NotACat found an issue with deeds showing up in the Completion Window twice, but not being marked off in the tracker. (See Discord 2026-01-26)
 
 A Letter From Caebar:
