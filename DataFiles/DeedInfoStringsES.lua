@@ -117,7 +117,7 @@ _DEED_LOG_PAGE_NAMES = {
 _DEED_LOG_PAGE_TAB_NAMES = {
     -- Skirmish
     SKIRMISH_INSTANCES_STR = "Escaramuzas";
-    SKIRMISH_LIEUTENANT_STR = "Teniente de escaramuza";
+    SKIRMISH_LIEUTENANT_STR = "Lugarteniente de escaramuza";
 
     -- Instances
     I_SHADOWS_OF_ANGMAR_STR = "Sombras de Angmar";
@@ -129,7 +129,7 @@ _DEED_LOG_PAGE_TAB_NAMES = {
     I_THE_ROAD_TO_EREBOR_STR = "El camino a Erebor";
     I_ASHES_OF_OSGILIATH_STR = "Cenizas de Osgiliath";
     I_THE_BATTLE_OF_PELENNOR_STR = "La batalla del Pelennor";
-    I_THE_PLATEAU_OF_GORGOROTH_STR = "La meseta de Gorgoroth";
+    I_THE_PLATEAU_OF_GORGOROTH_STR = "La Meseta de Gorgoroth";
     I_THE_GREY_MOUNTAINS_STR = "Las Montañas Grises";
     I_MINAS_MORGUL_STR = "Minas Morgul";
     I_THE_WAR_OF_THREE_PEAKS_STR = "La Guerra de las Tres Cumbres";
@@ -182,7 +182,7 @@ _DEED_LOG_PAGE_TAB_NAMES = {
     R_STRONGHOLDS_OF_THE_NORTH_STR = "Bastiones del Norte";
     R_THE_DWARF_HOLDS_STR = "Las moradas de los Enanos";
     R_VALES_OF_ANDUIN_STR = "Valles de Anduin";
-    R_WELLS_OF_LANGFLOOD_STR = "Manantiales del Langflood";
+    R_WELLS_OF_LANGFLOOD_STR = "Manantiales del Río Grande";
     R_ELDERSLADE_STR = "Valle Ancestral";
     R_BLOOD_OF_AZOG_STR = "Sangre de Azog";
     R_GUNDABAD_STR = "Gundabad";

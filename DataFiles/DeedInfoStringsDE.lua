@@ -82,9 +82,9 @@ _RACES = {
 };
 DEED_TYPE_CATEGORY = 14;
 _DEED_TYPES = {
-    [100] = "Class";
-    [101] = "Race";
-    [102] = "Event";
+    [100] = "Klasse";
+    [101] = "Rasse";
+    [102] = "Ereignis";
     [103] = "Entdecker";
     [104] = "Kunde";
     [105] = "Ruf";
