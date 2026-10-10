@@ -187,6 +187,7 @@ _DEED_CATEGORIES = {
 [330] = { ["NAME"] = "- Season 5: Spirits -"; };
 [342] = { ["NAME"] = "- Season 6: Rivals -"; };
 [349] = { ["NAME"] = "- Season 7: Destruction -"; };
+[352] = { ["NAME"] = "- Season 8: Renewed Aggression -"; };
 -- Class
 [318] = { ["NA"] = 2; ["NAME"] = " - Hunter - " };
 [317] = { ["NA"] = 2; ["NAME"] = " - Rune-keeper - " };
@@ -219,6 +220,7 @@ _DEED_CATEGORIES = {
 [152] = { ["LEGENDARY"] = true; ["NAME"] = "Legendary Server Deeds"; };
 [153] = { ["NAME"] = "Not Actively Achievable"; };
 [154] = { ["NAME"] = "- Account Anniversary -"; };
+[353] = { ["NAME"] = "- Account Anniversary -"; };
 [155] = { ["NAME"] = "- Festivals -"; };
 [156] = { ["NAME"] = "- Miscellaneous -"; };
 [157] = { ["NAME"] = "- Book 14 / Eregion pre-release, 2008 -"; };
@@ -398,4 +400,4 @@ _DEED_CATEGORIES = {
 [343] = { ["TIER"] = 0; ["NAME"] = "Hatokáli Fells"; };
 };
 
--- Last used: 351
+-- Last used: 353

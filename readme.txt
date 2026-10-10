@@ -28,6 +28,18 @@ If you would like to take over management of one of my plugins, please first sen
 If I do not respond within two months, then you have my permission to request control of a plugin or patch of mine on lotrointerface.com.
 In the meantime, feel free to submit patches for any of my plugins if you spot something that needs fixing or improving!
 
+v3.3.1 changes:
+    Deeds: Updated through U49.7
+        The War:
+            Ettenmoors:
+                Added Season 8 frame deed
+        Class/Race/Epic:
+            Race & Social:
+                Added Neighbours deeds
+            Reputation:
+                Fixed order issue for hard-tack deeds
+                Added Nazgûl Decoration deeds
+
 v3.3.0 changes:
     Deeds:
         The War:
